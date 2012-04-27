@@ -1,27 +1,3 @@
-Situation
---------
-
--   There are many Podcasts
--   there is web search
--   there are podcasts directories
--   podcasts are scattered over the web
--   podcasts are very distinct
--   audio files of podcasts can not be indexed automatically
-
-Problem
-------
-
--   web search works not very well on podcasts
--   directories work not very well on podcasts
-
-Solution
--------
-
--   special podcast search engine
-    -   data aquisition from podcast directories
-    -   data indexing using a search engine
-    -   user interaction via some webinterface
-
 Concept - Challenges And Implementation Ideas 
 ----------------------------------------
 
