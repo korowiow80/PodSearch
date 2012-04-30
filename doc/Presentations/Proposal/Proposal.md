@@ -1,3 +1,6 @@
+Proposal
+========
+
 Problem
 -------
 
@@ -18,4 +21,3 @@ Solution
     -   data aquisition from podcast directories
     -   data indexing using a search engine
     -   user interaction via some webinterface
-
