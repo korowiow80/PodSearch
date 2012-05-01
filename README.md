@@ -20,3 +20,22 @@ Presentations
 -   Concept/Entwurf: ?
 -   Prototype/Prototyp: ?
 -   final report/Abschlusspräsentation: ?
+
+Downloading
+-----------
+
+    git clone git@github.com:bigben87/PodSearch.git
+
+
+Downloading Dependencies For The Presentations
+----------------------------------------------
+
+    git submodule update --init --recursive
+
+Running the Presentations
+-------------------------
+
+    cd docs/Proposal/ && google-chrome *.html &
+    cd docs/Concept/ && google-chrome *.html &
+    cd docs/Prototype/ && google-chrome *.html &
+    cd docs/Final_Report/ && google-chrome *.html &
