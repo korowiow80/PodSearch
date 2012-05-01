@@ -1,0 +1,34 @@
+body {
+    background-color:#000;
+}
+.padme thead td {
+    border-bottom:3px solid #eee;
+    padding-bottom:16px;
+}
+.padme td {
+    padding:0 32px 0 0;
+}
+#author {
+    vertical-align:bottom;
+    margin:0 0 0 217px;
+    font-size:28px;
+    color:#fff
+}
+.deck-container.deck-loading {
+    display:inline;
+}
+.deck-container .slide h1 {
+    color:#af0;
+    text-shadow:0 0 50px #af0, 0 0 3px #fff;
+    position:absolute;
+    top: 280px;
+    display:block;
+    margin:0 auto;
+}
+.deck-container.deck-menu .slide {
+    background: #000;
+    border:10px solid #444;
+}
+.deck-container .slide code {
+    color:#af0;
+}
