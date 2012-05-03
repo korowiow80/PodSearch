@@ -8,9 +8,10 @@ Conventions
 
 -   We list all made conventions here.
 -   We develop in English.
--   We use Git as version control system?
--   We use GitHub for source code hosting?
--   We use deck.js for or presentations.
+-   We use Eclipse as our integrated development enviroment.
+-   We use Git as version control system.
+-   We use GitHub for source code hosting and issue tracking.
+-   We use deck.js and deck.js-transition-cube for or presentations.
 -   We license everthing in this repository as three-clause BSD.
 
 Presentations
