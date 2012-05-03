@@ -7,10 +7,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <title>Git in der Praxis</title>
+    <title>Angebot - PodSearch</title>
 
     <meta name="description" content="">
-    <meta name="author" content="Bengt Lüers">
+    <meta name="author" content="Bengt Lüers, Mihail Mihalache">
     <meta name="viewport" content="width=1024, user-scalable=no">
 
     <!-- Core and extension CSS files -->
@@ -41,6 +41,13 @@
     <span id="claim">Eine Suchmaschine für Podcasts</span>
   </section>
 
+  <section class="slide" id="Vision">
+    <h2>Vision</h2>
+    <iframe src="http://bigben87.github.com/searchDD/" width="100%" height="100%" style="background-color:#fff;" >
+    lade ...
+    </iframe>
+  </section>
+
   <section class="slide" id="Agenda">
     <h2>Idee</h2>
     <div style="width:192px; float:left; margin-right:96px;">
@@ -55,13 +62,6 @@
         <h3 style="text-align:center">Methode</h3>
         <img style="position:absolute; width:200px;" src="../shared/Search_orange.png" />
     </div>
-  </section>
-
-  <section class="slide" id="Vision">
-    <h2>Vision</h2>
-    <iframe src="http://bigben87.github.com/searchDD/" width="100%" height="100%" style="background-color:#fff;" >
-    lade ...
-    </iframe>
   </section>
 
   <section class="slide" id="Verzeichnisse">
@@ -143,9 +143,46 @@
         </tbody>
     </table>
     <br/>
-    <p>
+    <p class="slide">
         Selbstgesetztes Ziel: 100.000 Podcasts aus 10 Verzeichnissen.
     </p>
+  </section>
+
+  <section class="slide" id="Technik">
+    <h2>Technik</h2>
+    <ul>
+        <li><strong>Crawler</strong> Python, urllib.urlretrieve()</li>
+        <li><strong>Suche</strong> Lucene</li>
+        <li><strong>Suchserver</strong> Webbit/Solr</li>
+        <li><strong>Webserver</strong> Apache/LightTPD</li>
+        <li><strong>Client</strong> HTML, CSS, JS + AJAX</li>
+    </ul>
+  </section>
+
+  <section class="slide" id="Herausforderungen">
+    <h2>Herausforderungen</h2>
+    <ol>
+        <li class="slide"><strong>Heterogene Daten</strong> Audio-Dateien über Feeds indexieren</li>
+        <li class="slide"><strong>Heterogene Datenquellen</strong> Verzeichnisse scrapen</li>
+        <li class="slide"><strong>Interaktivität</strong> Suchergebnisse mittels AJAX holen</li>
+        <li class="slide"><strong>Integrität</strong> Neue Feeds auf Datenverlust prüfen</li>
+        <li class="slide"><strong>Sicherheit</strong> Benutzereingaben auf enthaltene Attacken prüfen</li>
+        <li class="slide"><strong>Skalierbarkeit</strong> eigene Server für Suche und statischen Inhalt</li>
+        <li class="slide"><strong>Offenheit</strong> Benutzereingaben von Feeds über Webinterface</li>
+        <li class="slide"><strong>Adaption</strong> Layout mittels Media Queries anpassen</li>
+    </ol>
+  </section>
+
+  <section class="slide" id="Fokus">
+    <h2>Außerhalb des Projektfokus</h2>
+    liegt Folgendes:
+    <ul>
+        <li class="slide"><strong>Podcast-Player</strong> Podcast-Sites haben meist schon Player</li>
+        <li class="slide"><strong>Podcast-Seiten</strong> Podcasts haben laut RSS eine Site zu haben</li>
+        <li class="slide"><strong>Benutzerprofil</strong> ist für Funktionalität nicht nötig</li>
+        <li class="slide"><strong>Soziale Netze</strong> integrieren meist schon die Podcast-Sites</li>
+        <li class="slide"><strong>Ontologie</strong> Tags lassen sich nicht streng hierarchisch ordnen</strong></li>
+    </ul>
   </section>
 
   <section class="slide" id="Diskussion">

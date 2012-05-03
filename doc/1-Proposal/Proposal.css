@@ -42,10 +42,22 @@ body {
     margin-bottom:60px;
 }
 .deck-container .slide h1 {
+    padding:0;
     color:#af0;
     text-shadow:0 0 50px #af0, 0 0 3px #fff;
     margin:80px auto;
 }
 .deck-container .slide #claim {
     margin-top:-160px;
+}
+.deck-container ul,
+.deck-container ol {
+    margin-top:0.25em;
+    margin-left:1em;
+    line-height:1.5em;
+}
+.deck-container .slide  ul strong,
+.deck-container .slide  ol strong {
+    font-weight:normal;
+    color:#f0a;
 }
