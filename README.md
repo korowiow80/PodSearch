@@ -36,7 +36,7 @@ Downloading Dependencies For The Presentations
 Running the Presentations
 -------------------------
 
-    cd doc/Proposal/ && google-chrome *.html &
-    cd doc/Concept/ && google-chrome *.html &
-    cd doc/Prototype/ && google-chrome *.html &
-    cd doc/Final_Report/ && google-chrome *.html &
+    cd doc/1-Proposal/ && google-chrome *.html &
+    cd doc/2-Concept/ && google-chrome *.html &
+    cd doc/3-Prototype/ && google-chrome *.html &
+    cd doc/4-Final_Report/ && google-chrome *.html &
