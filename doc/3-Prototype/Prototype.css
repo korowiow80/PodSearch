@@ -1,0 +1,63 @@
+body {
+    background-color:#000;
+}
+.deck-container .slide h1 {
+    position:relative;
+}
+.padme thead td {
+    border-bottom:2px solid #aaa;
+}
+.padme tr td {
+    padding:0 0 0 16px;
+}
+.padme tr td:first-child {
+    border-right:2px solid #aaa;
+    padding:0 8px 0 0;
+}
+.deck-container.deck-loading {
+    display:inline;
+}
+.deck-container.deck-menu .slide {
+    background: #000;
+    border:10px solid #444;
+}
+.deck-container .slide code {
+    color:#af0;
+}
+
+.deck-container .slide h1,
+.deck-container .slide #claim,
+.deck-container .slide #author,
+.deck-container .slide #presentationType {
+    display:block;
+    width:100%;
+    text-align:center;
+}
+.deck-container .slide #author {
+    display:block;
+    width:100%;
+    text-align:center;
+    font-size:28px;
+    color:#fff;
+    margin-bottom:60px;
+}
+.deck-container .slide h1 {
+    padding:0;
+    color:#af0;
+    text-shadow:0 0 50px #af0, 0 0 3px #fff;
+    margin:80px auto;
+}
+.deck-container .slide #claim {
+    margin-top:-160px;
+}
+.deck-container ul,
+.deck-container ol {
+    margin-top:0.25em;
+    margin-left:1em;
+    line-height:1.5em;
+}
+.deck-container .slide  ul strong,
+.deck-container .slide  ol strong {
+    font-weight:normal;
+    color:#f0a;
+}
