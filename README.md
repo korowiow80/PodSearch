@@ -13,6 +13,7 @@ Conventions
 -   We use GitHub for source code hosting and issue tracking.
 -   We use deck.js and deck.js-transition-cube for or presentations.
 -   We license everthing in this repository as three-clause BSD.
+-   We use Scrapy for cawling.
 
 Presentations
 -------------
