@@ -22,6 +22,7 @@ class PodcastCom(BaseSpider):
         for match in r.finditer(text):
             url = match.group(2)
             yield Request(url, callback=self.parse_page)
+            break
 
     def parse_page(self, response):
         filename = self.prefix + response.url.split("/")[-1:][0]
@@ -34,6 +35,7 @@ class PodcastCom(BaseSpider):
         for match in r.finditer(text):
             url = match.group(2)
             yield Request(url, callback=self.parse_podcast)
+            break
 
     def parse_podcast(self, response):
         filename = self.prefix + response.url.split("/")[-1:][0]
