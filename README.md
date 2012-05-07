@@ -14,6 +14,7 @@ Conventions
 -   We use deck.js and deck.js-transition-cube for or presentations.
 -   We license everthing in this repository as three-clause BSD.
 -   We use Scrapy for crawling.
+-   We use GitHub issues to document allmost all our communication.
 
 Presentations
 -------------
