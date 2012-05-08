@@ -16,14 +16,6 @@ Conventions
 -   We use Scrapy for crawling.
 -   We use GitHub issues to document allmost all our communication.
 
-Presentations
--------------
-
--   Proposal/Angebot: Bengt
--   Concept/Entwurf: ?
--   Prototype/Prototyp: ?
--   final report/Abschlusspräsentation: ?
-
 Downloading
 -----------
 
@@ -35,7 +27,7 @@ Downloading Dependencies For The Presentations
 
     git submodule update --init --recursive
 
-Running the Presentations
+Running The Presentations
 -------------------------
 
     cd doc/1-Proposal/ && google-chrome *.html &
