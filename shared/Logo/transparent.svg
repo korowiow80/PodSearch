@@ -14,10 +14,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.1 r9760"
-   sodipodi:docname="Logo_Production_transparent.svg"
-   inkscape:export-filename="/home/bengt/Studium/1212/WDM/Projekte/PodSearch/shared/Logo_Production_transparent_160x40.png"
-   inkscape:export-xdpi="32.73"
-   inkscape:export-ydpi="32.73">
+   sodipodi:docname="transparent.svg"
+   inkscape:export-filename="/home/bengt/Studium/1212/WDM/Projekte/PodSearch/shared/Logo/transparent_640x160.png"
+   inkscape:export-xdpi="130.91"
+   inkscape:export-ydpi="130.91">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -29,7 +29,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="1"
      inkscape:cx="220"
-     inkscape:cy="55"
+     inkscape:cy="53"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
