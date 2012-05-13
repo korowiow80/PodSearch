@@ -27,9 +27,11 @@ class ImageDownloader:
         for podcast in podcasts:
             self.handlePodcast(podcast)
 
+        print 'ImageDownloader: INFO: Done.'
+
     def handlePodcast (self, podcast):
         imgUrl = self.getImageUrl(podcast)
-        # TODO sanity check image url
+        # sanity check image url
         if not self.checkSanity(imgUrl): return
 
         # get image target location
@@ -44,7 +46,10 @@ class ImageDownloader:
 
         # download image to analogous location
         try:
-            urllib.urlretrieve(imgUrl, filename=imageTarget)
+            # urllib likes utf-8 better than unicode
+            urllibImgUrl = imgUrl.encode('utf-8')
+
+            urllib.urlretrieve(urllibImgUrl, filename=imageTarget)
             print "ImageDownloader.run: INFO: Downloaded %s to %s." % (imgUrl, imageTarget)
         except IOError:
             print "ImageDownloader.run: WARN: Failed to download %s to %s." % (imgUrl, imageTarget)
