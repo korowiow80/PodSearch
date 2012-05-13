@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="de-DE">
+<head>
+<meta charset="UTF-8" />
+<title>Seite nicht gefunden | Tacklemania</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="http://tacklemania.de/wp-content/themes/tacklemania/style.css" />
+<link rel="pingback" href="http://tacklemania.de/xmlrpc.php" />
+<link rel="alternate" type="application/rss+xml" title="Tacklemania &raquo; Feed" href="http://tacklemania.de/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Tacklemania &raquo; Kommentar Feed" href="http://tacklemania.de/comments/feed/" />
+<link rel='stylesheet' id='NextGEN-css'  href='http://tacklemania.de/wp-content/plugins/nextgen-gallery/css/nggallery.css?ver=1.0.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='thickbox-css'  href='http://tacklemania.de/wp-includes/js/thickbox/thickbox.css?ver=20111117' type='text/css' media='all' />
+<link rel='stylesheet' id='A2A_SHARE_SAVE-css'  href='http://tacklemania.de/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.4' type='text/css' media='all' />
+<script type='text/javascript' src='http://tacklemania.de/wp-includes/js/jquery/jquery.js?ver=1.7.1'></script>
+<script type='text/javascript' src='http://tacklemania.de/wp-content/plugins/nextgen-gallery/js/jquery.cycle.all.min.js?ver=2.9995'></script>
+<script type='text/javascript' src='http://tacklemania.de/wp-content/plugins/nextgen-gallery/js/ngg.slideshow.min.js?ver=1.06'></script>
+<script type='text/javascript' src='http://tacklemania.de/wp-content/themes/tacklemania/js/tacklemania.js?ver=0.3'></script>
+<script type='text/javascript' src='http://tacklemania.de/wp-content/plugins/wp-ajax-edit-comments/js/jquery.colorbox.min.js?ver=5.0.7.0'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://tacklemania.de/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://tacklemania.de/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.3.2" />
+
+<script type="text/javascript"><!--
+var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:false,script_load:function(){var a=document.createElement('script'),s=document.getElementsByTagName('script')[0];a.type='text/javascript';a.async=true;a.src='http://static.addtoany.com/menu/page.js';s.parentNode.insertBefore(a,s);wpa2a.script_load=function(){};},script_onready:function(){if(a2a.type=='page'){wpa2a.script_ready=true;if(wpa2a.html_done)wpa2a.init();}},init:function(){for(var i=0,el,target,targets=wpa2a.targets,length=targets.length;i<length;i++){el=document.getElementById('wpa2a_'+(i+1));target=targets[i];a2a_config.linkname=target.title;a2a_config.linkurl=target.url;if(el)a2a.init('page',{target:el});wpa2a.done=true;}}};a2a_config.tracking_callback=['ready',wpa2a.script_onready];a2a_localize = {
+	Share: "Empfehlen",
+	Save: "Speichern",
+	Subscribe: "Abonnieren",
+	Email: "E-Mail",
+    Bookmark: "Bookmark",
+	ShowAll: "zeige alle",
+	ShowLess: "Zeige weniger",
+	FindServices: "Finden Dienstleistung(en)",
+	FindAnyServiceToAddTo: "Um weitere Dienste ergänzen",
+	PoweredBy: "Powered by",
+	ShareViaEmail: "per E-Mail empfehlen",
+	SubscribeViaEmail: "per E-Mail abonnieren",
+	BookmarkInYourBrowser: "Seite den Bookmarks hinzufügen",
+	BookmarkInstructions: "Press Ctrl+D or \u2318+D to bookmark this page",
+	AddToYourFavorites: "Zu Ihren Favoriten hinzufügen",
+	SendFromWebOrProgram: "Von E-Mail-Adresse oder E-Mail-Programm senden",
+    EmailProgram: "E-Mail-Programm"
+};
+
+a2a_config.onclick=1;
+//--></script>
+<!-- <meta name="NextGEN" version="1.9.3" /> -->
+<style type="text/css" media="screen">/* The Recent Posts Container. */
+div.srp-widget-container {
+	display : table;
+	clear   : both;
+}
+
+/* The Widget Title. */
+div.srp-widget-container h3.widget-title{
+	display       : table-caption;
+	margin-bottom : 10px;
+}
+
+/* Single post entry box. */
+div.srp-widget-singlepost {
+	padding       : 0px 0px 10px 0px;
+	margin        : 0px 0px 10px 0px;
+	border-bottom : 1px solid #CCCCCC;
+}
+
+/* The thumbnail box. */
+div.srp-thumbnail-box {
+	display        : table-cell;
+	vertical-align : top;
+	padding-right  : 10px;
+}
+
+/* The content stuff box. */
+div.srp-content-box {
+	display        : table-cell;
+	vertical-align : top;
+}
+
+/* The excerpt. */
+p.srp-widget-excerpt {
+	margin: 0px;
+}
+
+/* Single post title. */
+h4.srp-widget-title {}
+
+/* Single post title link. */
+a.srp-widget-title-link {}
+
+/* Thumbnail link. */
+a.srp-widget-thmblink {}
+
+/* Thumbnail image. */
+img.srp-widget-thmb {}
+
+/* The post date box. */
+span.srp-widget-date {}
+
+/* Stringbreak link. */
+a.srp-widget-stringbreak-link {}
+
+/* Stringbreak link image. */
+a.srp-widget-stringbreak-link-image {}
+
+/* Stringbreak. */
+span.srp-widget-stringbreak {}
+</style><!--[if IE 7]><link rel='stylesheet' id='css-ie-fix' href='http://tacklemania.de/wp-content/plugins/special-recent-posts/css/css-ie-fix.css' type='text/css' media='all' /> <![endif]--><script src="http://tacklemania.de/wp-content/plugins/yawpp/swfobject.js" type="text/javascript" charset="utf-8"></script>
+<script src="http://tacklemania.de/wp-content/plugins/yawpp/nonverblaster.js" type="text/javascript" charset="utf-8"></script><!--[if IE]>
+<style type="text/css">
+.addtoany_list a img{filter:alpha(opacity=70)}
+.addtoany_list a:hover img,.addtoany_list a.addtoany_share_save img{filter:alpha(opacity=100)}
+</style>
+<![endif]-->
+</head>
+
+<body class="error404">
+    <h1 id="logo"><a href="http://tacklemania.de/">Tacklemania</a></h1>
+        <ul id="social">
+            <li><a href="#" id="social-btn-facebook"></a></li>
+            <li><a href="http://twitter.com/#!/TACKLEMANIAde/" id="social-btn-twitter"></a></li>
+            <li><a href="#" id="social-btn-vimeo"></a></li>
+            <li><a href="http://www.youtube.com/user/TACKLEMANIAde/" id="social-btn-youtube"></a></li>
+            <li><a href="/feeds/" id="social-btn-feed"></a></li>
+        </ul>
+        <ul id="mainnav" class="menu"><li id="menu-item-104" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-104"><a href="http://tacklemania.de/category/blog/">Blog</a></li>
+<li id="menu-item-89" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-89"><a href="http://tacklemania.de/category/podcast/audio/">Audio</a>
+<ul class="sub-menu">
+	<li id="menu-item-91" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-91"><a href="http://tacklemania.de/category/podcast/audio/ohrenbluten/">Ohrenbluten</a></li>
+</ul>
+</li>
+<li id="menu-item-66" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-66"><a href="http://tacklemania.de/category/podcast/video/">Video</a>
+<ul class="sub-menu">
+	<li id="menu-item-108" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-108"><a href="http://tacklemania.de/category/podcast/video/probieren/">Wir probieren…</a></li>
+</ul>
+</li>
+<li id="menu-item-673" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-673"><a href="http://tacklemania.de/photographie/">Photographie</a></li>
+<li id="menu-item-149" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-149"><a href="http://tacklemania.de/support/">Support</a></li>
+<li class="search"><form action="http://tacklemania.de/" method="get"><input type="text" name="s" id="search-menu-term" placeholder="Suchbegriff eingeben..."/><input type="submit" id="search-menu-submit" value="Suchen" /></form></li></ul>        <div id="middle">
+            <div id="innermiddle">
+
+	<div id="container">
+		<div id="content" role="main">
+
+			<div id="post-0" class="post error404 not-found">
+				<h1 class="entry-title">Not Found</h1>
+				<div class="entry-content">
+					<p>Apologies, but the page you requested could not be found. Perhaps searching will help.</p>
+					<form role="search" method="get" id="searchform" action="http://tacklemania.de/" >
+	<div><label class="screen-reader-text" for="s">Suche nach:</label>
+	<input type="text" value="" name="s" id="s" />
+	<input type="submit" id="searchsubmit" value="Suchen" />
+	</div>
+	</form>				</div><!-- .entry-content -->
+			</div><!-- #post-0 -->
+
+		</div><!-- #content -->
+	</div><!-- #container -->
+	<script type="text/javascript">
+		// focus on search field after it has loaded
+		document.getElementById('s') && document.getElementById('s').focus();
+	</script>
+
+			<br class="clear" />
+		</div>
+		
+	</div>
+	<div id="content-bottom"></div>
+
+        <div id="footer"><a href="/impressum">Impressum/Kontakt</a> – &copy; Tacklemania</p>
+
+	
+<script type="text/javascript"><!--
+wpa2a.targets=[];
+wpa2a.html_done=true;if(wpa2a.script_ready&&!wpa2a.done)wpa2a.init();wpa2a.script_load();
+//--></script>
+
+<script type="text/javascript">tb_pathToImage = "http://tacklemania.de/wp-includes/js/thickbox/loadingAnimation.gif";tb_closeImage = "http://tacklemania.de/wp-includes/js/thickbox/tb-close.png";</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var thickboxL10n = {"next":"n\u00e4chste >","prev":"< vorherige","image":"Bild","of":"von","close":"Schlie\u00dfen","noiframes":"Diese Funktion ben\u00f6tigt Iframes. Du hast jedoch Iframes deaktiviert oder dein Browser unterst\u00fctzt diese nicht.","loadingAnimation":"http:\/\/tacklemania.de\/wp-includes\/js\/thickbox\/loadingAnimation.gif","closeImage":"http:\/\/tacklemania.de\/wp-includes\/js\/thickbox\/tb-close.png"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://tacklemania.de/wp-includes/js/thickbox/thickbox.js?ver=3.1-20111117'></script>
+<script type='text/javascript' src='http://tacklemania.de/wp-content/uploads/aec/frontend.js?ver=5.0.7.0'></script>
+<script type="text/javascript">
+          (function() {
+            var s = document.createElement('script'), t = document.getElementsByTagName('script')[0];
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = 'http://api.flattr.com/js/0.6/load.js?mode=auto';
+            t.parentNode.insertBefore(s, t);
+          })();
+        </script></body>
+
+</html>
