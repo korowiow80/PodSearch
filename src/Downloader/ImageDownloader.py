@@ -58,6 +58,8 @@ class ImageDownloader:
         podcast = self.podcastDirectory + os.sep + podcast
 
         p = self.parsePodcast(podcast)
+        if not p: return
+
         try:
             imageUrl = p.feed.image.href
         except AttributeError:
@@ -95,7 +97,12 @@ class ImageDownloader:
         return fullDomain
 
     def parsePodcast (self, podcast):
-        podcast = feedparser.parse(podcast)
+        try:
+            podcast = feedparser.parse(podcast)
+        except UnicodeDecodeError:
+            print "ImageDownloader.parseDownload: WARN: Podcast '%s' contains undecodable characters." % podcast
+            return
+
         return podcast
 
 if __name__ == '__main__':
