@@ -71,6 +71,9 @@ class ImageDownloader:
 
     def checkSanity(self, imgUrl):
         if not imgUrl: return False
+
+        if imgUrl.startswith('data:'): return False
+
         return True
 
     def getImageTargetLocation(self, imageUrl):
