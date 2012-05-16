@@ -11,8 +11,6 @@ import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.util.Version;
 
-
-
 public class Indexer {
 
 	/**
@@ -22,8 +20,15 @@ public class Indexer {
 		if (args.length != 2) {
 			throw new IllegalArgumentException("Usage: java " + Indexer.class.getName()+ " <index dir> <data dir>");
 		}
-		String indexDir = args[0]; //1
-		String dataDir = args[1]; //2
+		String dataDir = args[0]; // source
+		String indexDir = args[1]; // target
+		
+		// log to stdout
+		System.out.println(dataDir);
+		System.out.println(indexDir);
+		
+		// make sure the index dir exists
+		new File(dataDir).mkdir();
 
 		long start = System.currentTimeMillis();
 		Indexer indexer = new Indexer(indexDir);
