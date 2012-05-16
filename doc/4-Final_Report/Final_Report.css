@@ -1,54 +1,22 @@
+/* HTML Elements */
 body {
     background-color:#000;
 }
-.deck-container .slide h1 {
+/* work-around for thin line-through */
+.deck-container .slide del {
+    border-bottom:2px solid #fff;
     position:relative;
+    top:-.6em;
 }
-.padme thead td {
-    border-bottom:2px solid #aaa;
+.deck-container .slide del span {
+    position:relative;
+    top:.6em;
 }
-.padme tr td {
-    padding:0 0 0 16px;
-}
-.padme tr td:first-child {
-    border-right:2px solid #aaa;
-    padding:0 8px 0 0;
-}
-.deck-container.deck-loading {
-    display:inline;
-}
-.deck-container.deck-menu .slide {
-    background: #000;
-    border:10px solid #444;
-}
-.deck-container .slide code {
-    color:#af0;
-}
-
-.deck-container .slide h1,
-.deck-container .slide #claim,
-.deck-container .slide #author,
-.deck-container .slide #presentationType {
-    display:block;
-    width:100%;
-    text-align:center;
-}
-.deck-container .slide #author {
-    display:block;
-    width:100%;
-    text-align:center;
-    font-size:28px;
-    color:#fff;
-    margin-bottom:60px;
-}
-.deck-container .slide h1 {
-    padding:0;
-    color:#af0;
-    text-shadow:0 0 50px #af0, 0 0 3px #fff;
-    margin:80px auto;
-}
-.deck-container .slide #claim {
-    margin-top:-180px;
+/* end of work-around */
+.deck-container ins {
+    background-color:#fff;
+    padding-left:.2em;
+    padding-right:.2em;
 }
 .deck-container ul,
 .deck-container ol {
@@ -60,4 +28,82 @@ body {
 .deck-container .slide  ol strong {
     font-weight:normal;
     color:#f0a;
+}
+.deck-container .slide dl {
+    margin:16px 0;
+}
+.deck-container .slide dl dd {
+    margin-left:32px;
+}
+
+.deck-container .slide h1 {
+    position:relative;
+}
+/* Tables */
+.padme thead tr th {
+    border-bottom:2px solid #aaa;
+}
+.padme tbody tr:first-child td {
+    padding-top:10px;
+}
+.padme thead tr th,
+.padme tbody tr td {
+    padding:0 8px 0 16px;
+}
+.padme thead tr th:first-child,
+.padme tbody tr td:first-child {
+    border-right:2px solid #aaa;
+    padding-left:0;
+}
+.padme tfoot tr td {
+    border-top:2px solid #aaa;
+    padding-top:8px;
+}
+.deck-container {
+    color:#fff;
+}
+.deck-container.deck-loading {
+    display:inline;
+}
+.deck-container.deck-menu .slide {
+    background: #000;
+    border:10px solid #444;
+}
+.deck-container .slide code {
+    color:#af0;
+}
+/* Title Slide */
+.deck-container .slide h1,
+.deck-container .slide #author,
+.deck-container .slide #claim,
+.deck-container .slide #presentationType {
+    display:block;
+    width:100%;
+    text-align:center;
+}
+.deck-container .slide h1 {
+    padding:0;
+    color:#af0;
+    text-shadow:0 0 50px #af0, 0 0 3px #fff;
+    margin:160px auto 100px auto;
+}
+.deck-container .slide #author {
+    display:block;
+    width:100%;
+    text-align:center;
+    font-size:28px;
+    color:#fff;
+    margin-bottom:60px;
+}
+.deck-container .slide #claim {
+    margin-top:-180px;
+}
+.deck-container .slide #presentationType {
+    position:relative;
+    top:70px;
+}
+
+/* Transistions */
+.deck-container > .slide .deck-before, .deck-container > .slide .deck-previous {
+  opacity: 0.9;
 }
