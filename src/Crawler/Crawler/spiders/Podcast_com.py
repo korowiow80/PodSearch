@@ -14,7 +14,7 @@ import Crawler.items
 class Podcast_com(BaseSpider):
     start_urls = ["http://www.podcast.com/sitemap.xml"]
 
-    # extract fullDomain from url
+    # extract fullDomain from URL
     extract = tldextract.extract(start_urls[0])
     if extract.subdomain:
         fullDomain = ".".join(extract)
@@ -24,12 +24,13 @@ class Podcast_com(BaseSpider):
         domainTld = None
     
     # derive name from TLD
-    # by convention the first letter of a class is capitalized 
-    # by our convetion, we skip the subdomain, if it is 'WWW'
+    # by general convention the first letter of a class gets capitalized
+    # by our convention, we skip the sub-domain, if it is 'www'
     if domainTld:
         name = domainTld[0].upper() + domainTld.replace('.', '_')[1:]
     else:
         name = fullDomain[0].upper() + fullDomain.replace('.', '_')[1:]
+
     # derive prefix from domain
     # by convention we skip the www
     if domainTld:
