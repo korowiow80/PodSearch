@@ -45,6 +45,7 @@ class ImageDownloader:
             pass
 
         # download image to analogous location
+        # TODO make sure we don't already downloaded this very image
         try:
             # urllib likes utf-8 better than unicode
             urllibImgUrl = imgUrl.encode('utf-8')
