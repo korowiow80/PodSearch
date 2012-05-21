@@ -1,4 +1,4 @@
-package Search.Indexer;
+package Indexer;
 
 import java.io.File;
 import java.io.FileFilter;
@@ -20,9 +20,9 @@ public class Indexer {
 	 */
 	public static void main(String[] args) throws Exception {
 		// all paths are relative to eclipse's base path
-		String dataDir = "static/2-Feeds";
-		String indexDir = "static/3-Index";
-				
+		String dataDir = "../../static/2-Feeds";
+		String indexDir = "../../static/3-Index";
+
 		// make sure the index dir exists
 		new File(dataDir).mkdir();
 
