@@ -1,3 +1,5 @@
+package Search.Indexer;
+
 import java.io.File;
 import java.io.FileFilter;
 import java.io.FileReader;
@@ -17,16 +19,10 @@ public class Indexer {
 	 * @param args
 	 */
 	public static void main(String[] args) throws Exception {
-		if (args.length != 2) {
-			throw new IllegalArgumentException("Usage: java " + Indexer.class.getName()+ " <index dir> <data dir>");
-		}
-		String dataDir = args[0]; // source
-		String indexDir = args[1]; // target
-		
-		// log to stdout
-		System.out.println(dataDir);
-		System.out.println(indexDir);
-		
+		// all paths are relative to eclipse's base path
+		String dataDir = "static/2-Feeds";
+		String indexDir = "static/3-Index";
+				
 		// make sure the index dir exists
 		new File(dataDir).mkdir();
 
