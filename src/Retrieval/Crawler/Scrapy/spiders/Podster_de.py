@@ -12,10 +12,10 @@ class Podster_de(BaseSpider):
     start_urls = ["http://podster.de/tag/system:all"]
     
     st = SpiderTool.SpiderTool()
-    name, prefix = st.derive(start_urls[0])
+    baseUrl, feedListFile, name, prefix = st.derive(start_urls[0])
 
     def parse(self, response):
-        yield Request(response.url, callback=self.parse_IndexPage)
+        yield Request(response.url, callback=self.parse_sitemapPage)
         hxs = HtmlXPathSelector(response)
         nextPageXpath = "//tr/td[3]/a/@href"
         nextPageUrls = hxs.select(nextPageXpath).extract()
@@ -24,7 +24,7 @@ class Podster_de(BaseSpider):
         if nextPageUrl.endswith("20"): return
         yield Request(nextPageUrl, callback=self.parse)
 
-    def parse_IndexPage(self, response):
+    def parse_sitemapPage(self, response):
         hxs = HtmlXPathSelector(response)
         podcastPageXpath = "//table[@class='podcasts']//tr[2]/td[1]/a/@href"
         podcastPageUrls = hxs.select(podcastPageXpath).extract()

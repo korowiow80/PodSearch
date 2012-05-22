@@ -2,6 +2,7 @@
 
 import os
 import errno
+from urlparse import urlparse
 
 import tldextract
 
@@ -32,15 +33,25 @@ class SpiderTool:
         # derive prefix from domain
         # by convention we skip the www
         if domainTld:
-            prefix = "../../static/0-Directories/" + domainTld + "/"
+            prefix = "../../../static/0-Directories/" + domainTld + "/"
+            feedListFile = "../../../static/1-Feedlists/" + domainTld + ".json"
         else:
-            prefix = "../../static/0-Directories/" + fullDomain + "/"
-        
+            prefix = "../../../static/0-Directories/" + fullDomain + "/"
+            feedListFile = "../../../static/1-Feedlists/" + fullDomain + ".json"
+
         # make sure the prefix exists
         try:
             os.makedirs(prefix)
         except OSError as exc:
             if exc.errno == errno.EEXIST: pass
             else: raise
+
+        # derive baseUrl from url
+        o = urlparse(url)
+        baseUrl = o.scheme + '://' + o.netloc
             
-        return name, prefix
+        return baseUrl, feedListFile, name, prefix
+    
+    def getAbsoluteUrl (self, url, baseUrl):
+        if url.startswith('http'): return url
+        else: return baseUrl + url

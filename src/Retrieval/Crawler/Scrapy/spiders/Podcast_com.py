@@ -12,7 +12,7 @@ class Podcast_com(BaseSpider):
     start_urls = ["http://www.podcast.com/sitemap.xml"]
 
     st = SpiderTool.SpiderTool()
-    name, prefix = SpiderTool.SpiderTool().derive(start_urls[0])
+    baseUrl, feedListFile, name, prefix = SpiderTool.SpiderTool().derive(start_urls[0])
 
     def parse(self, response):        
         text = body_or_str(response)
@@ -21,10 +21,10 @@ class Podcast_com(BaseSpider):
         r = re.compile(r"(<%s[\s>])(.*?)(</%s>)" %(nodename, nodename), re.DOTALL)
         for match in r.finditer(text):
             url = match.group(2)
-            yield Request(url, callback=self.parse_IndexPage)
+            yield Request(url, callback=self.parse_sitemapPage)
             break
 
-    def parse_IndexPage(self, response):
+    def parse_sitemapPage(self, response):
         filename = self.prefix + response.url.split("/")[-1:][0]
         open(filename, 'wb').write(response.body)
         
