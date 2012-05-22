@@ -9,42 +9,37 @@ from Scrapy.items import PodcastFeedItem
 from Scrapy.spiders import SpiderTool
 
 class Podster_de(BaseSpider):
-    urls = ["http://podster.de/tag/system:all"]
+    start_urls = ["http://podster.de/tag/system:all"]
     
     st = SpiderTool.SpiderTool()
-    name, prefix = st.derive(urls[0])        
+    name, prefix = st.derive(start_urls[0])
 
-    def parse(self, response):        
-        text = body_or_str(response)
-
-        nodename = 'loc'
-        r = re.compile(r"(<%s[\s>])(.*?)(</%s>)" %(nodename, nodename), re.DOTALL)
-        for match in r.finditer(text):
-            url = match.group(2)
-            yield Request(url, callback=self.parse_page)
-            break
-
-    def parse_page(self, response):
-        filename = self.prefix + response.url.split("/")[-1:][0]
-        open(filename, 'wb').write(response.body)
-        
-        text = body_or_str(response)
-
-        nodename = 'loc'
-        r = re.compile(r"(<%s[\s>])(.*?)(</%s>)" %(nodename, nodename), re.DOTALL)
-        for match in r.finditer(text):
-            url = match.group(2)
-            yield Request(url, callback=self.parse_podcast)
-            break
-
-    def parse_podcast(self, response):
-        filename = self.prefix + response.url.split("/")[-1:][0]
-        open(filename, 'wb').write(response.body)
-        
+    def parse(self, response):
+        yield Request(response.url, callback=self.parse_IndexPage)
         hxs = HtmlXPathSelector(response)
+        nextPageXpath = "//tr/td[3]/a/@href"
+        nextPageUrls = hxs.select(nextPageXpath).extract()
+        if not nextPageUrls: return 
+        nextPageUrl = nextPageUrls[0]
+        if nextPageUrl.endswith("20"): return
+        yield Request(nextPageUrl, callback=self.parse)
 
+    def parse_IndexPage(self, response):
+        hxs = HtmlXPathSelector(response)
+        podcastPageXpath = "//table[@class='podcasts']//tr[2]/td[1]/a/@href"
+        podcastPageUrls = hxs.select(podcastPageXpath).extract()
+        for podcastPageUrl in podcastPageUrls: 
+            yield Request(podcastPageUrl, callback=self.parse_podcastPage)
+
+    def parse_podcastPage(self, response):
+        hxs = HtmlXPathSelector(response)
+        podcastTitleXpath = "//div[@id='caption-header']"
+        podcastUrlXpath = "/html/body/div[@id='god_container']/div[@id='main_container']/div[@id='content']/div[@class='sidecol left large']/div[@class='box']/div[@class='boxcontent']/a[2]"
+                
         item = PodcastFeedItem()
-        item['title'] = hxs.select("/html/body/div[@id='wrap']/div[@id='bodyarea']/div[@id='body_left']/div[@id='most_popular_podcast']/div[@class='mod-100 clear pbl mbl brdrBottom']/div[@class='mod-80']/h2[@class='txtGreen mtn']/text()").extract()[0]
-        item['link'] = 'Podcast.com does not offer links'
+        item['title'] = hxs.select(podcastTitleXpath).extract()[0]
+        item['link'] = hxs.select(podcastUrlXpath).extract()[0]
+        
+        print item['title'], item['link']
         
         yield item

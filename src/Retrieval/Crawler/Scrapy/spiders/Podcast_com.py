@@ -9,10 +9,10 @@ from Scrapy.items import PodcastFeedItem
 from Scrapy.spiders import SpiderTool
 
 class Podcast_com(BaseSpider):
-    urls = ["http://www.podcast.com/sitemap.xml"]
+    start_urls = ["http://www.podcast.com/sitemap.xml"]
 
     st = SpiderTool.SpiderTool()
-    name, prefix = SpiderTool.SpiderTool().derive(urls[0])
+    name, prefix = SpiderTool.SpiderTool().derive(start_urls[0])
 
     def parse(self, response):        
         text = body_or_str(response)
@@ -21,10 +21,10 @@ class Podcast_com(BaseSpider):
         r = re.compile(r"(<%s[\s>])(.*?)(</%s>)" %(nodename, nodename), re.DOTALL)
         for match in r.finditer(text):
             url = match.group(2)
-            yield Request(url, callback=self.parse_page)
+            yield Request(url, callback=self.parse_IndexPage)
             break
 
-    def parse_page(self, response):
+    def parse_IndexPage(self, response):
         filename = self.prefix + response.url.split("/")[-1:][0]
         open(filename, 'wb').write(response.body)
         
@@ -34,10 +34,10 @@ class Podcast_com(BaseSpider):
         r = re.compile(r"(<%s[\s>])(.*?)(</%s>)" %(nodename, nodename), re.DOTALL)
         for match in r.finditer(text):
             url = match.group(2)
-            yield Request(url, callback=self.parse_podcast)
+            yield Request(url, callback=self.parse_podcastPage)
             break
 
-    def parse_podcast(self, response):
+    def parse_podcastPage(self, response):
         filename = self.prefix + response.url.split("/")[-1:][0]
         open(filename, 'wb').write(response.body)
         
