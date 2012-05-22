@@ -5,22 +5,13 @@ import feedparser
 import tldextract
 import urlparse
 import urllib
-import os, errno
 
-# http://stackoverflow.com/questions/600268/mkdir-p-functionality-in-python
-
-def mkdir_p(path):
-    try:
-        os.makedirs(path)
-    except OSError as exc: # Python >2.5
-        if exc.errno == errno.EEXIST:
-            pass
-        else: raise
+import Mkdir_p
 
 class ImageDownloader:
 
-    podcastDirectory = "../../static/2-Feeds"
-    imageDirectory = "../../web/img/"
+    podcastDirectory = "../../../static/2-Feeds"
+    imageDirectory = "../../../web/img/"
 
     def run(self):
         podcasts = self.getPodcasts()
@@ -40,7 +31,8 @@ class ImageDownloader:
 
         # make sure the analoguous location exists
         try:
-            mkdir_p(os.path.dirname(imageTarget))
+            mkdir_p = Mkdir_p.Mkdir_p()
+            mkdir_p.mkdir_p(os.path.dirname(imageTarget))
         except IOError:
             pass
 
@@ -115,5 +107,4 @@ class ImageDownloader:
         return podcast
 
 if __name__ == '__main__':
-    id = ImageDownloader()
-    id.run()
+    ImageDownloader().run()
