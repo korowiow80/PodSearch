@@ -12,6 +12,10 @@ class ImageDownloader:
 
     podcastDirectory = "../../../static/2-Feeds"
     imageDirectory = "../../../web/img/"
+    
+    def __init__ (self):
+        # Disable HTTP Basic Authentification
+        urllib.FancyURLopener.prompt_user_passwd = lambda *a, **k: (None, None)
 
     def run(self):
         podcasts = self.getAllFeedUrls()
