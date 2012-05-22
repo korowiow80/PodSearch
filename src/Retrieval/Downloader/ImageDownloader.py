@@ -14,7 +14,7 @@ class ImageDownloader:
     imageDirectory = "../../../web/img/"
 
     def run(self):
-        podcasts = self.getPodcasts()
+        podcasts = self.getAllFeedUrls()
         for podcast in podcasts:
             self.handlePodcast(podcast)
 
@@ -48,7 +48,7 @@ class ImageDownloader:
             print "ImageDownloader.run: WARN: Failed to download %s to %s." % (imgUrl, imageTarget)
             return
 
-    def getPodcasts (self):
+    def getAllFeedUrls (self):
         podcasts = os.listdir(self.podcastDirectory)
         return podcasts
 
