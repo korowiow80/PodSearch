@@ -1,4 +1,4 @@
-# Scrapy settings for Crawler project
+# Scrapy settings for Scrapy project
 #
 # For simplicity, this file contains only the most important settings by
 # default. All the other settings are documented here:
@@ -6,10 +6,10 @@
 #     http://doc.scrapy.org/topics/settings.html
 #
 
-BOT_NAME = 'Crawler'
+BOT_NAME = 'Scrapy'
 BOT_VERSION = '1.0'
 
-SPIDER_MODULES = ['Crawler.spiders']
-NEWSPIDER_MODULE = 'Crawler.spiders'
+SPIDER_MODULES = ['Scrapy.spiders']
+NEWSPIDER_MODULE = 'Scrapy.spiders'
 USER_AGENT = '%s/%s' % (BOT_NAME, BOT_VERSION)
 
