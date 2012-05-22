@@ -19,6 +19,7 @@ class DownloadTool:
     
     def _download (self, ressourceType, ressourceUrl, ressourceTarget):
         print "Downloading %s from %s to %s" % (ressourceType, ressourceUrl, ressourceTarget)
+        # TODO multiprocess the acutal downloading        
         try:
             urllib.urlretrieve(ressourceUrl, ressourceTarget)
         except IOError:

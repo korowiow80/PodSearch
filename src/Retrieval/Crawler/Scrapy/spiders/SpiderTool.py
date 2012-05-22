@@ -13,7 +13,7 @@ class SpiderTool:
         pass
         
     def derive (self, url):
-        fullDomain, domain = self.getDomain(url)
+        domain = self.getDomain(url)
         spiderName = self.getSpiderNameFromUrl(domain)
         directoryPath = self.getDirectoryPath(domain)
         feedListFilePath = self.getFeedListFilePath(domain)
