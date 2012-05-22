@@ -129,6 +129,7 @@ powerpress_url = 'http://apfelkasten.de/wp-content/plugins/powerpress/';
 	</form>
 
 							<div class="widget widget_recent_entries">		<h2 class="widgettitle">Letzte Artikel</h2>		<ul>
+				<li><a href="http://apfelkasten.de/2012/05/test-voomote-zapper/" title="Test &#8211; VooMote Zapper">Test &#8211; VooMote Zapper</a></li>
 				<li><a href="http://apfelkasten.de/2012/04/mr-oizo-3000/" title="Mr Oizo 3000">Mr Oizo 3000</a></li>
 				<li><a href="http://apfelkasten.de/2012/04/apple-online-store-chat/" title="Apple Online Store Chat">Apple Online Store Chat</a></li>
 				<li><a href="http://apfelkasten.de/2012/04/update-fur-mac-os-java-fur-os-x-2012-003/" title="Update für Mac OS: Java für OS X 2012-003 (Update)">Update für Mac OS: Java für OS X 2012-003 (Update)</a></li>
@@ -138,20 +139,20 @@ powerpress_url = 'http://apfelkasten.de/wp-content/plugins/powerpress/';
 				<li><a href="http://apfelkasten.de/2012/03/apple-hotnews-feed-verlinkt-auf-welt-artikel/" title="Apple Hotnews Feed verlinkt auf Welt-Artikel">Apple Hotnews Feed verlinkt auf Welt-Artikel</a></li>
 				<li><a href="http://apfelkasten.de/2012/03/funfter-test-die-letzte-nullnummer-direkt-aus-der-soundcloud-app/" title="Fünfter Test &#8211; Die letzte Nullnummer direkt aus der SoundCloud-App">Fünfter Test &#8211; Die letzte Nullnummer direkt aus der SoundCloud-App</a></li>
 				<li><a href="http://apfelkasten.de/2012/03/info-wichtige-servicenachricht-zu-iwork-com-public-beta/" title="Info: Wichtige Servicenachricht zu iWork.com Public Beta">Info: Wichtige Servicenachricht zu iWork.com Public Beta</a></li>
-				<li><a href="http://apfelkasten.de/2012/03/vierter-test-wordpress-feed-mit-selbst-gehosteten-dateien/" title="Vierter Test &#8211; WordPress-Feed mit selbst gehosteten Dateien">Vierter Test &#8211; WordPress-Feed mit selbst gehosteten Dateien</a></li>
 				</ul>
 		</div>
 					<div class="widget">
 						<h2 class="widgettitle">Oft verwendete Kategorien</h2>
 						<ul>
-							<li class="cat-item cat-item-323"><a href="http://apfelkasten.de/category/podcast/" title="Alle unter Podcast abgelegten Artikel ansehen">Podcast</a> (9)
+							<li class="cat-item cat-item-13"><a href="http://apfelkasten.de/category/blog/" title="Alle unter Blog abgelegten Artikel ansehen">Blog</a> (9)
 </li>
-	<li class="cat-item cat-item-13"><a href="http://apfelkasten.de/category/blog/" title="Alle unter Blog abgelegten Artikel ansehen">Blog</a> (8)
+	<li class="cat-item cat-item-323"><a href="http://apfelkasten.de/category/podcast/" title="Alle unter Podcast abgelegten Artikel ansehen">Podcast</a> (9)
 </li>
 						</ul>
 					</div>
 
-					<div class="widget widget_archive"><h2 class="widgettitle">Archive</h2><p>Versuch’s mit einem Blick in die Monatsarchive.  <img src='http://apfelkasten.de/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>		<select name="archive-dropdown" onchange='document.location.href=this.options[this.selectedIndex].value;'> <option value="">Wähle den Monat</option> 	<option value='http://apfelkasten.de/2012/04/'> April 2012 </option>
+					<div class="widget widget_archive"><h2 class="widgettitle">Archive</h2><p>Versuch’s mit einem Blick in die Monatsarchive.  <img src='http://apfelkasten.de/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>		<select name="archive-dropdown" onchange='document.location.href=this.options[this.selectedIndex].value;'> <option value="">Wähle den Monat</option> 	<option value='http://apfelkasten.de/2012/05/'> Mai 2012 </option>
+	<option value='http://apfelkasten.de/2012/04/'> April 2012 </option>
 	<option value='http://apfelkasten.de/2012/03/'> März 2012 </option>
 	<option value='http://apfelkasten.de/2011/10/'> Oktober 2011 </option>
 	<option value='http://apfelkasten.de/2011/07/'> Juli 2011 </option>
@@ -166,14 +167,18 @@ powerpress_url = 'http://apfelkasten.de/wp-content/plugins/powerpress/';
 <a href='http://apfelkasten.de/tag/beratung/' class='tag-link-339' title='1 Thema' style='font-size: 8pt;'>Beratung</a>
 <a href='http://apfelkasten.de/tag/chat/' class='tag-link-338' title='1 Thema' style='font-size: 8pt;'>Chat</a>
 <a href='http://apfelkasten.de/tag/feed/' class='tag-link-324' title='1 Thema' style='font-size: 8pt;'>Feed</a>
+<a href='http://apfelkasten.de/tag/fernbedienung/' class='tag-link-346' title='1 Thema' style='font-size: 8pt;'>Fernbedienung</a>
 <a href='http://apfelkasten.de/tag/filme/' class='tag-link-207' title='2 Themen' style='font-size: 12.2pt;'>Filme</a>
 <a href='http://apfelkasten.de/tag/flashback/' class='tag-link-335' title='1 Thema' style='font-size: 8pt;'>Flashback</a>
-<a href='http://apfelkasten.de/tag/gadget/' class='tag-link-310' title='2 Themen' style='font-size: 12.2pt;'>Gadget</a>
+<a href='http://apfelkasten.de/tag/gadget/' class='tag-link-310' title='3 Themen' style='font-size: 15pt;'>Gadget</a>
 <a href='http://apfelkasten.de/tag/hilfe/' class='tag-link-340' title='1 Thema' style='font-size: 8pt;'>Hilfe</a>
 <a href='http://apfelkasten.de/tag/icloud/' class='tag-link-329' title='1 Thema' style='font-size: 8pt;'>iCloud</a>
 <a href='http://apfelkasten.de/tag/info/' class='tag-link-296' title='4 Themen' style='font-size: 17.3333333333pt;'>Info</a>
 <a href='http://apfelkasten.de/tag/internet/' class='tag-link-300' title='1 Thema' style='font-size: 8pt;'>Internet</a>
-<a href='http://apfelkasten.de/tag/ipad/' class='tag-link-313' title='2 Themen' style='font-size: 12.2pt;'>iPad</a>
+<a href='http://apfelkasten.de/tag/ios/' class='tag-link-344' title='1 Thema' style='font-size: 8pt;'>iOS</a>
+<a href='http://apfelkasten.de/tag/ipad/' class='tag-link-313' title='3 Themen' style='font-size: 15pt;'>iPad</a>
+<a href='http://apfelkasten.de/tag/iphone/' class='tag-link-303' title='1 Thema' style='font-size: 8pt;'>iPhone</a>
+<a href='http://apfelkasten.de/tag/ipod-touch/' class='tag-link-347' title='1 Thema' style='font-size: 8pt;'>iPod touch</a>
 <a href='http://apfelkasten.de/tag/iwork/' class='tag-link-328' title='1 Thema' style='font-size: 8pt;'>iWork</a>
 <a href='http://apfelkasten.de/tag/java/' class='tag-link-334' title='1 Thema' style='font-size: 8pt;'>Java</a>
 <a href='http://apfelkasten.de/tag/link/' class='tag-link-293' title='2 Themen' style='font-size: 12.2pt;'>Link</a>
@@ -183,6 +188,7 @@ powerpress_url = 'http://apfelkasten.de/wp-content/plugins/powerpress/';
 <a href='http://apfelkasten.de/tag/mr-ozio/' class='tag-link-342' title='1 Thema' style='font-size: 8pt;'>Mr. Ozio</a>
 <a href='http://apfelkasten.de/tag/musik/' class='tag-link-341' title='1 Thema' style='font-size: 8pt;'>Musik</a>
 <a href='http://apfelkasten.de/tag/podcast/' class='tag-link-323' title='7 Themen' style='font-size: 22pt;'>Podcast</a>
+<a href='http://apfelkasten.de/tag/remote/' class='tag-link-345' title='1 Thema' style='font-size: 8pt;'>Remote</a>
 <a href='http://apfelkasten.de/tag/soundcloud/' class='tag-link-326' title='5 Themen' style='font-size: 19.2pt;'>Soundcloud</a>
 <a href='http://apfelkasten.de/tag/store/' class='tag-link-337' title='1 Thema' style='font-size: 8pt;'>Store</a>
 <a href='http://apfelkasten.de/tag/teaser/' class='tag-link-298' title='1 Thema' style='font-size: 8pt;'>Teaser</a>
@@ -191,6 +197,7 @@ powerpress_url = 'http://apfelkasten.de/wp-content/plugins/powerpress/';
 <a href='http://apfelkasten.de/tag/tv/' class='tag-link-294' title='1 Thema' style='font-size: 8pt;'>TV</a>
 <a href='http://apfelkasten.de/tag/update/' class='tag-link-333' title='1 Thema' style='font-size: 8pt;'>Update</a>
 <a href='http://apfelkasten.de/tag/video/' class='tag-link-61' title='1 Thema' style='font-size: 8pt;'>Video</a>
+<a href='http://apfelkasten.de/tag/voomote-zapper/' class='tag-link-343' title='1 Thema' style='font-size: 8pt;'>voomote zapper</a>
 <a href='http://apfelkasten.de/tag/web/' class='tag-link-149' title='1 Thema' style='font-size: 8pt;'>Web</a></div>
 </div>
 				</div><!-- .entry-content -->
@@ -238,7 +245,7 @@ var WPGroHo = {"my_hash":""};
             t.parentNode.insertBefore(s, t);
           })();
         </script>
-	<script src="http://stats.wordpress.com/e-201219.js" type="text/javascript"></script>
+	<script src="http://stats.wordpress.com/e-201221.js" type="text/javascript"></script>
 	<script type="text/javascript">
 	st_go({v:'ext',j:'1:1.3',blog:'12974395',post:'0'});
 	var load_cmc = function(){linktracker_init(12974395,0,2);};
@@ -252,4 +259,4 @@ var WPGroHo = {"my_hash":""};
 Minified using disk: basic
 Page Caching using disk: basic
 
-Served from: apfelkasten.de @ 2012-05-13 22:45:05 -->
+Served from: apfelkasten.de @ 2012-05-22 01:55:34 -->

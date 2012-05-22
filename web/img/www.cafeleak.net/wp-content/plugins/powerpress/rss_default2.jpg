@@ -24,13 +24,13 @@
 <link rel='stylesheet' id='upm_polls.css-css'  href='http://www.cafeleak.net/wp-content/plugins/upm-polls/css/polls.css?ver=3.3.2' type='text/css' media='all' />
 <link rel='stylesheet' id='prettyphoto-css'  href='http://www.cafeleak.net/wp-content/plugins/wp-prettyphoto/css/prettyPhoto.css?ver=2.5.5' type='text/css' media='screen' />
 <link rel='stylesheet' id='countdown-style-css'  href='http://www.cafeleak.net/wp-content/plugins/wordpress-countdown-widget/css/jquery.countdown.css?ver=1.1' type='text/css' media='' />
-<link rel='stylesheet' id='wp-external-links-css'  href='http://www.cafeleak.net/wp-content/plugins/wp-external-links/css/external-links.css?ver=1.21' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-external-links-css'  href='http://www.cafeleak.net/wp-content/plugins/wp-external-links/css/external-links.css?ver=1.30' type='text/css' media='all' />
 <script type='text/javascript' src='http://www.cafeleak.net/wp-content/plugins/upm-polls/js/jquery-1.4.2.min.js?ver=3.3.2'></script>
 <script type='text/javascript' src='http://www.cafeleak.net/wp-content/plugins/wp-prettyphoto/js/jquery-1.3.2.min.js?ver=1.3.2'></script>
 <script type='text/javascript' src='http://www.cafeleak.net/wp-content/plugins/wp-prettyphoto/js/jquery.prettyPhoto.js?ver=2.5.5'></script>
 <script type='text/javascript' src='http://www.cafeleak.net/wp-content/plugins/wordpress-countdown-widget/js/jquery.countdown.min.js?ver=1.0'></script>
 <script type='text/javascript' src='http://www.cafeleak.net/wp-content/plugins/wordpress-countdown-widget/js/jquery.countdown-de.js?ver=1.0'></script>
-<script type='text/javascript' src='http://www.cafeleak.net/wp-content/plugins/wp-external-links/js/external-links.js?ver=1.21'></script>
+<script type='text/javascript' src='http://www.cafeleak.net/wp-content/plugins/wp-external-links/js/external-links.js?ver=1.30'></script>
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.cafeleak.net/xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.cafeleak.net/wp-includes/wlwmanifest.xml" /> 
 <meta name="generator" content="WordPress 3.3.2" />
@@ -115,7 +115,7 @@ powerpress_url = 'http://www.cafeleak.net/wp-content/plugins/powerpress/';
 </style>
 <script type="text/javascript">/* <![CDATA[ */
 /* WP External Links Plugin */
-var wpExtLinks = { baseUrl: 'http://www.cafeleak.net',target: '_blank',excludeClass: '' };
+var wpExtLinks = { baseUrl: 'http://www.cafeleak.net', target: '_blank', excludeClass: '' };
 /* ]]> */</script>
 </head>
 <body>
@@ -143,7 +143,7 @@ var wpExtLinks = { baseUrl: 'http://www.cafeleak.net',target: '_blank',excludeCl
 <a href='http://www.cafeleak.net/category/webcomic' class='tag-link-148' title='1 Thema' style='font-size: 8pt;'>WebComic</a></div>
 </li><li id="nav_menu-3" class="widget widget_nav_menu"><h2 class="widgettitle">Informationen</h2><div class="menu-das-team-container"><ul id="menu-das-team" class="menu"><li id="menu-item-133" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-133"><a href="http://www.cafeleak.net/team">Das Team</a></li>
 <li id="menu-item-173" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-173"><a href="http://www.cafeleak.net/der-shop">Der Shop</a></li>
-</ul></div></li><li id="text-3" class="widget widget_text"><h2 class="widgettitle">Cafeleak in iTunes</h2>			<div class="textwidget"><p><a href="http://bit.ly/kDHcPF" rel="external nofollow" title="" class="ext-link ext-icon-19">
+</ul></div></li><li id="text-3" class="widget widget_text"><h2 class="widgettitle">Cafeleak in iTunes</h2>			<div class="textwidget"><p><a href="http://bit.ly/kDHcPF" rel="external nofollow" title="" class="ext-link">
 <img border="0" src="http://www.cafeleak.net/cafeleak-itunes.png"></a></p></div>
 		</li><li id="linkcat-2" class="widget widget_links"><h2 class="widgettitle">Blogroll</h2>
 	<ul class='xoxo blogroll'>
