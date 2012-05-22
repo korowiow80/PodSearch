@@ -27,6 +27,7 @@ class DownloadTool:
 
     def sanityCheckUrl (self, url):
         if url.endswith('://'): return False
+        # TODO do real url validation here ... like Django does
         return True
 
     def getRessourceTarget(self, ressourceType, ressourceUrl):
