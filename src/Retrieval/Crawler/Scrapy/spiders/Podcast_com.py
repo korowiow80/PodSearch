@@ -5,8 +5,8 @@ from scrapy.utils.response import body_or_str
 from scrapy.http import Request
 from scrapy.selector import HtmlXPathSelector
 
-from Crawler.Scrapy.items import PodcastFeedItem
-from Crawler.Scrapy.spiders import SpiderTool
+from Scrapy.items import PodcastFeedItem
+from Scrapy.spiders import SpiderTool
 
 class Podcast_com(BaseSpider):
     urls = ["http://www.podcast.com/sitemap.xml"]
