@@ -1,5 +1,6 @@
 import os
 import urllib
+import httplib
 
 from Scrapy.spiders.SpiderTool import SpiderTool
 
@@ -22,7 +23,7 @@ class DownloadTool:
         # TODO multiprocess the acutal downloading        
         try:
             urllib.urlretrieve(ressourceUrl, ressourceTarget)
-        except IOError:
+        except IOError, httplib.InvalidURL:
             pass
 
     def sanityCheckUrl (self, url):
