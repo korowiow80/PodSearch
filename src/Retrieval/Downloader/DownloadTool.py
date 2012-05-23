@@ -1,6 +1,9 @@
 import os
-import urllib
 import httplib
+import threading
+import Queue
+
+import httplib2
 
 from Scrapy.spiders.SpiderTool import SpiderTool
 
@@ -9,6 +12,10 @@ class DownloadTool:
 
     projectRoot = "../../../"
 
+    def __init__ (self):
+        self.ressources = []
+        self.t = Threader()
+
     def download (self, ressourceType, ressourceUrl):
         if not self.sanityCheckUrl(ressourceUrl): return
         if ressourceUrl.endswith('/'): ressourceUrl = ressourceUrl[:-1] 
@@ -16,25 +23,15 @@ class DownloadTool:
         basePath = self.getBasePath(ressourceTarget)
         st = SpiderTool()
         st.makeSurePathExists(basePath)
-        self._download(ressourceType, ressourceUrl, ressourceTarget)
-    
-    def _download (self, ressourceType, ressourceUrl, ressourceTarget):
-        print "Downloading %s from %s to %s" % (ressourceType, ressourceUrl, ressourceTarget)
-        # TODO multiprocess the acutal downloading
-        # TODO make sure we don't already downloaded this very image
-
-
-        # urllib likes utf-8 better than unicode
-        ressourceUrl = ressourceUrl.encode('utf-8')
-
-        # Disable HTTP Basic Authentification
-        urllib.FancyURLopener.prompt_user_passwd = lambda *a, **k: (None, None)
         
-        try:
-            urllib.urlretrieve(ressourceUrl, ressourceTarget)
-        except (IOError, httplib.InvalidURL, TypeError):
-            pass
+        self.ressources.append([ressourceType, ressourceUrl, ressourceTarget])
+        if len(self.ressources) <= 300: return
+        
+        ressourcesTmp = self.ressources
+        self.ressource = []
 
+        self.t.run_parallel_in_threads(_download, ressourcesTmp)
+        
     def sanityCheckUrl (self, url):
         if not url: return False
         if url.endswith('://'): return False
@@ -77,3 +74,34 @@ class DownloadTool:
         baseUrl = st.getBaseUrl(url)
         relativePath = url[len(baseUrl):]
         return relativePath
+
+def _download (ressourceType, ressourceUrl, ressourceTarget):
+    # TODO multiprocess the actual downloading
+    
+    hl2 = httplib2.Http(cache = ".cache", timeout = 5)
+    
+    try:
+        resp, content = hl2.request(ressourceUrl)
+        if  resp.fromcache:
+            print "Cache contained a current version of %s %s" % (ressourceType, ressourceUrl)
+        else:
+            print "Downloaded %s from %s to %s" % (ressourceType, ressourceUrl, ressourceTarget)
+        with open(ressourceTarget, 'w') as f:
+            f.write(content)
+    except (IOError, httplib.InvalidURL, httplib.BadStatusLine, httplib2.ServerNotFoundError, httplib2.RelativeURIError, AttributeError, TypeError):
+        pass
+
+class Threader:
+    
+    # utility - spawn a thread to execute target for each args
+    def run_parallel_in_threads(self, target, args_list):
+        result = Queue.Queue()
+        # wrapper to collect return value in a Queue
+        def task_wrapper(*args):
+            result.put(target(*args))
+        threads = [threading.Thread(target=task_wrapper, args=args) for args in args_list]
+        for t in threads:
+            t.start()
+        for t in threads:
+            t.join()
+        return result

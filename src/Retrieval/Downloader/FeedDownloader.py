@@ -7,6 +7,9 @@ class FeedDownloader:
     
     projectRoot = "../../../"
 
+    def __init__ (self):
+        self.dt = DownloadTool()
+
     def run (self):
         feedUrls = self.getAllFeedUrls()
         self.downloadFeeds(feedUrls)
@@ -42,8 +45,8 @@ class FeedDownloader:
             self.downloadFeed(feedUrl)
     
     def downloadFeed(self, feedUrl):
-        dt = DownloadTool()
-        dt.download('feed', feedUrl)
+        self.dt.download('feed', feedUrl)
             
 if __name__ == '__main__':
-    FeedDownloader().run()
+    fd = FeedDownloader()
+    fd.run()
