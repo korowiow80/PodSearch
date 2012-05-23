@@ -32,7 +32,7 @@ class DownloadTool:
         
         try:
             urllib.urlretrieve(ressourceUrl, ressourceTarget)
-        except IOError, httplib.InvalidURL:
+        except (IOError, httplib.InvalidURL, TypeError):
             pass
 
     def sanityCheckUrl (self, url):
