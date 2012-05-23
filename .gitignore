@@ -77,3 +77,4 @@ nosetests.xml
 ## PodSearch.gitignore #########################################################
 
 static/3-Index
+*.*~
