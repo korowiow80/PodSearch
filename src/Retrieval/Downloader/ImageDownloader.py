@@ -7,46 +7,42 @@ from DownloadTool import DownloadTool
 
 
 class ImageDownloader:
+    projectRoot = '../../../'
 
     def run(self):
-        podcasts = self.getAllFeedUrls()
-        for podcast in podcasts:
-            self.handlePodcast(podcast)
+        relativeFeedFilePaths = self.getAllFeedFilePaths()
+        for relativeFeedFilePath in relativeFeedFilePaths:
+            self.handleFeed(relativeFeedFilePath)
 
         print 'ImageDownloader: INFO: Done.'
 
-    def handlePodcast (self, podcast):
-        imgUrl = self.getImageUrl(podcast)
-        # sanity check image url
-        if not self.checkSanity(imgUrl): return
-        
+    def getAllFeedFilePaths (self):
+        feedDirectoryPath = self.projectRoot + 'static/2-Feeds'
+        relativeFeedFilePaths = []
+        for root, dirs, files in os.walk(feedDirectoryPath, topdown=False):
+            for filePath in files:
+                relativePath = os.path.join(root, filePath)
+                relativeFeedFilePaths.append(relativePath)
+        return relativeFeedFilePaths
+
+    def handleFeed (self, relativeFeedFilePath):
+        imgUrl = self.getImageUrl(relativeFeedFilePath)
         self.downloadImage(imgUrl)
 
-    def downloadImage (self, imgUrl):
-        # downloads image to analogous location
-        dt = DownloadTool()
-        dt.download("image", imgUrl)
-        
-    def getAllFeedUrls (self):
-        podcasts = os.listdir(self.podcastDirectory)
-        return podcasts
-
-    def getImageUrl(self, podcast):
-        podcast = self.podcastDirectory + os.sep + podcast
-
-        p = self.parsePodcast(podcast)
+    def getImageUrl(self, podcastFeedFilePath):
+        p = self.parsePodcast(podcastFeedFilePath)
         if not p: return
 
         try:
             imageUrl = p.feed.image.href
         except AttributeError:
-            print "ImageDownloader.getImageUrl: WARNING: Podcast %s did not contain an image." % podcast
+            print "ImageDownloader.getImageUrl: WARNING: Podcast %s did not contain an image." % podcastFeedFilePath
             return
 
-        print "ImageDownloader.getImageUrl: INFO: Parsed image URL '%s' from podcast '%s'" % (imageUrl, podcast)
+        print "ImageDownloader.getImageUrl: INFO: Parsed image URL '%s' from podcastFeedFilePath '%s'" % (imageUrl, podcastFeedFilePath)
         return imageUrl
 
-    def parsePodcast (self, podcast):
+    def parsePodcast(self, podcast):
         try:
             podcast = feedparser.parse(podcast)
         except UnicodeDecodeError:
@@ -54,6 +50,11 @@ class ImageDownloader:
             return
 
         return podcast
+
+    def downloadImage (self, imgUrl):
+        # downloads image to analogous location
+        dt = DownloadTool()
+        dt.download("image", imgUrl)
 
 if __name__ == '__main__':
     ImageDownloader().run()
