@@ -1,8 +1,6 @@
 import os
 import urllib
-import urlparse
 import httplib
-import tldextract
 
 from Scrapy.spiders.SpiderTool import SpiderTool
 
