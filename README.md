@@ -11,6 +11,12 @@ Dependencies
 -   [Python](http://www.python.org/) needs to be installed.
 -   [Scrapy](http://scrapy.org/) needs to be installed.
 
+Installing Dependencies on Fedora Linux
+---------------------------------------
+
+    yum install python python pip
+    pip-python install tldextract scrapy
+
 Downloading
 -----------
 
