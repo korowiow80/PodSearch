@@ -2,20 +2,11 @@
 
 import os
 import feedparser
-import tldextract
-import urlparse
-import urllib
 
-import Mkdir_p
+from DownloadTool import DownloadTool
+
 
 class ImageDownloader:
-
-    podcastDirectory = "../../../static/2-Feeds"
-    imageDirectory = "../../../web/img/"
-    
-    def __init__ (self):
-        # Disable HTTP Basic Authentification
-        urllib.FancyURLopener.prompt_user_passwd = lambda *a, **k: (None, None)
 
     def run(self):
         podcasts = self.getAllFeedUrls()
@@ -28,30 +19,14 @@ class ImageDownloader:
         imgUrl = self.getImageUrl(podcast)
         # sanity check image url
         if not self.checkSanity(imgUrl): return
+        
+        self.downloadImage(imgUrl)
 
-        # get image target location
-        imageTarget = self.getImageTargetLocation(imgUrl)
-        imageTarget = self.imageDirectory + imageTarget
-
-        # make sure the analoguous location exists
-        try:
-            mkdir_p = Mkdir_p.Mkdir_p()
-            mkdir_p.mkdir_p(os.path.dirname(imageTarget))
-        except IOError:
-            pass
-
-        # download image to analogous location
-        # TODO make sure we don't already downloaded this very image
-        try:
-            # urllib likes utf-8 better than unicode
-            urllibImgUrl = imgUrl.encode('utf-8')
-
-            urllib.urlretrieve(urllibImgUrl, filename=imageTarget)
-            print "ImageDownloader.run: INFO: Downloaded %s to %s." % (imgUrl, imageTarget)
-        except IOError:
-            print "ImageDownloader.run: WARN: Failed to download %s to %s." % (imgUrl, imageTarget)
-            return
-
+    def downloadImage (self, imgUrl):
+        # downloads image to analogous location
+        dt = DownloadTool()
+        dt.download("image", imgUrl)
+        
     def getAllFeedUrls (self):
         podcasts = os.listdir(self.podcastDirectory)
         return podcasts
@@ -70,36 +45,6 @@ class ImageDownloader:
 
         print "ImageDownloader.getImageUrl: INFO: Parsed image URL '%s' from podcast '%s'" % (imageUrl, podcast)
         return imageUrl
-
-    def checkSanity(self, imgUrl):
-        if not imgUrl: return False
-
-        if imgUrl.startswith('data:'): return False
-
-        return True
-
-    def getImageTargetLocation(self, imageUrl):
-        # get image domain
-        imgDomain = self.getImageDomain(imageUrl)
-        # get relative path
-        imgPath = urlparse.urlparse(imageUrl).path
-        #imageUrl[imageUrl.index(imgDomain):]
-
-        targetLocation = imgDomain + imgPath
-
-        print "ImageDownloader.getImageTargetLocation: INFO: Parsed image target location '%s' from image URL '%s'" % (imgPath, imageUrl)
-        return targetLocation
-
-    def getImageDomain(self, podcast):
-        domainTuple = tldextract.extract(podcast)
-
-        # avoid introducing a leading with empty subdomains
-        if domainTuple.subdomain == '':
-            fullDomain = '.'.join(domainTuple[1:])
-        else:
-            fullDomain = '.'.join(domainTuple)
-
-        return fullDomain
 
     def parsePodcast (self, podcast):
         try:

@@ -1,6 +1,8 @@
 import os
 import urllib
+import urlparse
 import httplib
+import tldextract
 
 from Scrapy.spiders.SpiderTool import SpiderTool
 
@@ -20,14 +22,27 @@ class DownloadTool:
     
     def _download (self, ressourceType, ressourceUrl, ressourceTarget):
         print "Downloading %s from %s to %s" % (ressourceType, ressourceUrl, ressourceTarget)
-        # TODO multiprocess the acutal downloading        
+        # TODO multiprocess the acutal downloading
+        # TODO make sure we don't already downloaded this very image
+
+
+        # urllib likes utf-8 better than unicode
+        ressourceUrl = ressourceUrl.encode('utf-8')
+
+        # Disable HTTP Basic Authentification
+        urllib.FancyURLopener.prompt_user_passwd = lambda *a, **k: (None, None)
+        
         try:
             urllib.urlretrieve(ressourceUrl, ressourceTarget)
         except IOError, httplib.InvalidURL:
             pass
 
     def sanityCheckUrl (self, url):
+        if not url: return False
         if url.endswith('://'): return False
+        # skip dataUrls
+        if url.startswith('data:'): return False
+
         # TODO do real url validation here ... like Django does
         return True
 
@@ -64,3 +79,28 @@ class DownloadTool:
         baseUrl = st.getBaseUrl(url)
         relativePath = url[len(baseUrl):]
         return relativePath
+    
+    ##
+    
+    def getImageTargetLocation(self, imageUrl):
+        # get image domain
+        imgDomain = self.getImageDomain(imageUrl)
+        # get relative path
+        imgPath = urlparse.urlparse(imageUrl).path
+        #imageUrl[imageUrl.index(imgDomain):]
+
+        targetLocation = imgDomain + imgPath
+
+        print "ImageDownloader.getImageTargetLocation: INFO: Parsed image target location '%s' from image URL '%s'" % (imgPath, imageUrl)
+        return targetLocation
+
+    def getImageDomain(self, podcast):
+        domainTuple = tldextract.extract(podcast)
+
+        # avoid introducing a leading with empty subdomains
+        if domainTuple.subdomain == '':
+            fullDomain = '.'.join(domainTuple[1:])
+        else:
+            fullDomain = '.'.join(domainTuple)
+
+        return fullDomain
