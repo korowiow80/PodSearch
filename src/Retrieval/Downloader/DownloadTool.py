@@ -50,7 +50,7 @@ class DownloadTool:
         if ressourceType == 'feed':
             ressourceTarget = self.getFeedFilePath(ressourceUrl)
         if ressourceType == 'image':
-            ressourceTarget = self.getFeedFilePath(ressourceUrl)        
+            ressourceTarget = self.getImageFilePath(ressourceUrl)        
         return ressourceTarget
 
     def getBasePath(self, ressourceTarget):
