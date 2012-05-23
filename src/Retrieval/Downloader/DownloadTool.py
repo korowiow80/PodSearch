@@ -79,28 +79,3 @@ class DownloadTool:
         baseUrl = st.getBaseUrl(url)
         relativePath = url[len(baseUrl):]
         return relativePath
-    
-    ##
-    
-    def getImageTargetLocation(self, imageUrl):
-        # get image domain
-        imgDomain = self.getImageDomain(imageUrl)
-        # get relative path
-        imgPath = urlparse.urlparse(imageUrl).path
-        #imageUrl[imageUrl.index(imgDomain):]
-
-        targetLocation = imgDomain + imgPath
-
-        print "ImageDownloader.getImageTargetLocation: INFO: Parsed image target location '%s' from image URL '%s'" % (imgPath, imageUrl)
-        return targetLocation
-
-    def getImageDomain(self, podcast):
-        domainTuple = tldextract.extract(podcast)
-
-        # avoid introducing a leading with empty subdomains
-        if domainTuple.subdomain == '':
-            fullDomain = '.'.join(domainTuple[1:])
-        else:
-            fullDomain = '.'.join(domainTuple)
-
-        return fullDomain
