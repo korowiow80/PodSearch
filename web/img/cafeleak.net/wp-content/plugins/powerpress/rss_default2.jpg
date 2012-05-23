@@ -1,0 +1,318 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="de-DE">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Seite nicht gefunden</title>
+<meta name="robots" content="noindex, follow" />
+
+
+
+
+<link rel="stylesheet" href="http://www.cafeleak.net/wp-content/themes/inferno-mf/style.css" type="text/css" media="screen" />
+<link rel="alternate" type="application/rss+xml" title="Cafeleak RSS Feed" href="http://www.cafeleak.net/feed" />
+<link rel="alternate" type="application/atom+xml" title="Cafeleak Atom Feed" href="http://www.cafeleak.net/feed/atom" />
+<link rel="pingback" href="http://www.cafeleak.net/xmlrpc.php" />
+
+<style type="text/css" media="screen">
+
+
+</style>
+
+
+<link rel='stylesheet' id='upm_polls.css-css'  href='http://www.cafeleak.net/wp-content/plugins/upm-polls/css/polls.css?ver=3.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='prettyphoto-css'  href='http://www.cafeleak.net/wp-content/plugins/wp-prettyphoto/css/prettyPhoto.css?ver=2.5.5' type='text/css' media='screen' />
+<link rel='stylesheet' id='countdown-style-css'  href='http://www.cafeleak.net/wp-content/plugins/wordpress-countdown-widget/css/jquery.countdown.css?ver=1.1' type='text/css' media='' />
+<link rel='stylesheet' id='wp-external-links-css'  href='http://www.cafeleak.net/wp-content/plugins/wp-external-links/css/external-links.css?ver=1.30' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.cafeleak.net/wp-content/plugins/upm-polls/js/jquery-1.4.2.min.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://www.cafeleak.net/wp-content/plugins/wp-prettyphoto/js/jquery-1.3.2.min.js?ver=1.3.2'></script>
+<script type='text/javascript' src='http://www.cafeleak.net/wp-content/plugins/wp-prettyphoto/js/jquery.prettyPhoto.js?ver=2.5.5'></script>
+<script type='text/javascript' src='http://www.cafeleak.net/wp-content/plugins/wordpress-countdown-widget/js/jquery.countdown.min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.cafeleak.net/wp-content/plugins/wordpress-countdown-widget/js/jquery.countdown-de.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.cafeleak.net/wp-content/plugins/wp-external-links/js/external-links.js?ver=1.30'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.cafeleak.net/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.cafeleak.net/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.3.2" />
+<script type="text/javascript" src="http://www.cafeleak.net/wp-content/plugins/powerpress/player.js"></script>
+<script type="text/javascript"><!--
+function powerpress_pinw(pinw){window.open('http://www.cafeleak.net/?powerpress_pinw='+pinw, 'PowerPressPlayer','toolbar=0,status=0,resizable=1,width=460,height=320');	return false;}
+powerpress_url = 'http://www.cafeleak.net/wp-content/plugins/powerpress/';
+//-->
+</script>
+      <script type="text/javascript" charset="utf-8">
+        /* <![CDATA[ */
+        jQuery(document).ready(function($) {
+          $("a[rel^='wp-prettyPhoto']").prettyPhoto({
+            animationSpeed: 'normal',
+            padding: 20,
+            opacity: 0.35,
+            showTitle: true,
+            allowresize: true,
+            counter_separator_label: '/',
+            theme: 'dark_rounded',
+            wmode: 'opaque',
+            autoplay: 0,
+            hideflash: false,
+            modal: false,
+            changepicturecallback: function(){},
+            callback: function(){},
+            markup: '<div class="pp_pic_holder"> \
+                                                                  <div class="pp_top"> \
+                                                                    <div class="pp_left"></div> \
+                                                                    <div class="pp_middle"></div> \
+                                                                    <div class="pp_right"></div> \
+                                                                  </div> \
+                                                                  <div class="pp_content_container"> \
+                                                                    <div class="pp_left"> \
+                                                                    <div class="pp_right"> \
+                                                                      <div class="pp_content"> \
+                                                                        <div class="pp_fade"> \
+                                                                          <a href="#" class="pp_expand" title="Expand the image">Expand</a> \
+                                                                          <div class="pp_loaderIcon"></div> \
+                                                                          <div class="pp_hoverContainer"> \
+                                                                            <a class="pp_next" href="#">next</a> \
+                                                                            <a class="pp_previous" href="#">previous</a> \
+                                                                          </div> \
+                                                                          <div id="pp_full_res"></div> \
+                                                                          <div class="pp_details clearfix"> \
+                                                                            <a class="pp_close" href="#">Close</a> \
+                                                                            <p class="pp_description"></p> \
+                                                                            <div class="pp_nav"> \
+                                                                              <a href="#" class="pp_arrow_previous">Previous</a> \
+                                                                              <p class="currentTextHolder">0/0</p> \
+                                                                              <a href="#" class="pp_arrow_next">Next</a> \
+                                                                            </div> \
+                                                                          </div> \
+                                                                        </div> \
+                                                                      </div> \
+                                                                    </div> \
+                                                                    </div> \
+                                                                  </div> \
+                                                                  <div class="pp_bottom"> \
+                                                                    <div class="pp_left"></div> \
+                                                                    <div class="pp_middle"></div> \
+                                                                    <div class="pp_right"></div> \
+                                                                  </div> \
+                                                                </div> \
+                                                                <div class="pp_overlay"></div> \
+                                                                <div class="ppt"></div>',
+            image_markup: '<img id="fullResImage" src="" />',
+            flash_markup: '<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="{width}" height="{height}"><param name="wmode" value="{wmode}" /><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="{path}" /><embed src="{path}" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="{width}" height="{height}" wmode="{wmode}"></embed></object>',
+            quicktime_markup: '<object classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="http://www.apple.com/qtactivex/qtplugin.cab" height="{height}" width="{width}"><param name="src" value="{path}"><param name="autoplay" value="{autoplay}"><param name="type" value="video/quicktime"><embed src="{path}" height="{height}" width="{width}" autoplay="{autoplay}" type="video/quicktime" pluginspage="http://www.apple.com/quicktime/download/"></embed></object>',
+            iframe_markup: '<iframe src ="{path}" width="{width}" height="{height}" frameborder="no"></iframe>',
+            inline_markup: '<div class="pp_inline clearfix">{content}</div>'
+          });
+        });
+				/* ]]> */
+      </script>
+<style type="text/css" media="screen">
+	 #shailan-countdown-3, .shailan-countdown-3.hasCountdown{ 
+	background-color: transparent;
+	color: FF6633;
+	border-radius:5px;
+	margin:0px auto;}
+</style>
+<script type="text/javascript">/* <![CDATA[ */
+/* WP External Links Plugin */
+var wpExtLinks = { baseUrl: 'http://www.cafeleak.net', target: '_blank', excludeClass: '' };
+/* ]]> */</script>
+</head>
+<body>
+<div id="page">
+
+
+<div id="header">
+	<div id="headerimg">
+		<h1><a href="http://www.cafeleak.net/">Cafeleak</a></h1>
+		<div class="description">A Skype Bootleg Project</div>
+	</div>
+</div>
+<hr />
+
+	<div id="content" class="narrowcolumn">
+
+		<h2 class="center">Error 404 - Not Found</h2>
+
+	</div>
+
+	<div id="sidebar">
+		<ul>
+			<li id="tag_cloud-3" class="widget widget_tag_cloud"><h2 class="widgettitle">Kategorien</h2><div class="tagcloud"><a href='http://www.cafeleak.net/category/allgemein' class='tag-link-1' title='3 Themen' style='font-size: 11.620689655172pt;'>Allgemein</a>
+<a href='http://www.cafeleak.net/category/mittschnitt' class='tag-link-10' title='28 Themen' style='font-size: 22pt;'>Mittschnitt</a>
+<a href='http://www.cafeleak.net/category/webcomic' class='tag-link-148' title='1 Thema' style='font-size: 8pt;'>WebComic</a></div>
+</li><li id="nav_menu-3" class="widget widget_nav_menu"><h2 class="widgettitle">Informationen</h2><div class="menu-das-team-container"><ul id="menu-das-team" class="menu"><li id="menu-item-133" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-133"><a href="http://www.cafeleak.net/team">Das Team</a></li>
+<li id="menu-item-173" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-173"><a href="http://www.cafeleak.net/der-shop">Der Shop</a></li>
+</ul></div></li><li id="text-3" class="widget widget_text"><h2 class="widgettitle">Cafeleak in iTunes</h2>			<div class="textwidget"><p><a href="http://bit.ly/kDHcPF" rel="external nofollow" title="" class="ext-link">
+<img border="0" src="http://www.cafeleak.net/cafeleak-itunes.png"></a></p></div>
+		</li><li id="linkcat-2" class="widget widget_links"><h2 class="widgettitle">Blogroll</h2>
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.cafeleak.net/chat" target="_blank">Cafeleak Chat</a></li>
+<li><a href="http://www.facebook.com/Cafeleak" title="Für alle FB Fans" target="_blank" rel="external nofollow" class="ext-link ext-icon-19">Cafeleak FaceBook FanSite</a></li>
+<li><a href="https://plus.google.com/107379200458871064404/posts" title="Cafeleak in G+" target="_blank" rel="external nofollow" class="ext-link ext-icon-19">Cafeleak in Google+</a></li>
+<li><a href="http://bit.ly/kDHcPF" title="Jetzt Cafeleak auch in Apple iTunes" target="_blank" rel="external nofollow" class="ext-link ext-icon-19">Cafeleak in iTunes</a></li>
+<li><a href="http://www.cafeleak.net/?feed=podcast" title="Der Feed für deinen Reader" target="_blank">Cafeleak Mitschnitt RSS</a></li>
+<li><a href="http://twitter.com/#!/cafeleak" title="Folge Cafeleak auf Twitter" target="_blank" rel="external nofollow" class="ext-link ext-icon-19">Cafeleak Twitter Seite</a></li>
+
+	</ul>
+</li>
+				  <li id="shailan-countdown-widget-3" class="widget shailan_CountdownWidget">					<h2 class="widgettitle">Mittschnitt Folge No.29</h2>
+				<div id="shailan-countdown-3_1" class="shailan-countdown-3 countdown" ></div>
+				
+								
+<script type="text/javascript"> 
+<!--//
+// Dom Ready
+	jQuery(document).ready(function($) {
+		var event_month = 05 - 1;
+		desc = '';
+		eventDate = new Date(2012, event_month, 27, 21, 00, 00, 0);
+		$('#shailan-countdown-3_1').countdown({
+			until: eventDate, 
+			description: desc,  
+			format: 'dHMS',
+			timezone: +2		}); 
+	});
+//-->
+</script>				
+				  </li>			<li id="pppm_poll_widget-3" class="widget widget_pppm_poll_widget"><h2 class="widgettitle">Umfrage</h2>        <style type="text/css">#upm_loading{background:center no-repeat url(http://www.cafeleak.net/wp-content/plugins/upm-polls/img/loading.gif); height:17px; width:100%; display:none;}</style>
+		<script type="text/javascript">//oRadio[i].value;
+		function UPM_pollChecker(radio_name) { 
+			var oRadio = document.upm_polls_form_content.elements[radio_name]; 
+			for(var i = 0; i < oRadio.length; i++) {if(oRadio[i].checked) { return true; }} return false; 
+		} 
+		var f=1; var uplLimage=new Image();
+		uplLimage.src='http://www.cafeleak.net/wp-content/plugins/upm-polls/img/loading.gif'; 
+		function Gh(){ if(UPM_pollChecker('upm_answer')){}else{alert('Please choose a valid poll answer!'); return false;} document.getElementById('upm_poll_form_submit').style.display = 'none'; document.getElementById('upm_loading').style.display = 'block';}
+		function UPM_load( pid ){ 
+			if( f%2 != 0 || f==1 ){
+				f++;
+			}
+			else{ 
+				f++;
+				
+				//############################
+						jQuery.noConflict();
+				(function($) { 
+				  $(function() {
+				//////////////////////////////
+					$.ajax({ type : "GET", url : "http://www.cafeleak.net/wp-admin/admin-ajax.php", 
+							 data : "action=upm_ayax_polls_result&do=result&post=&type=general&PID="+pid, 
+							 async   : false, success : function(responseText) { 
+								document.getElementById('upm_polls_form-'+pid).style.display = 'none'; 
+								document.getElementById('upm_polls_content-'+pid).style.display = 'block'; 
+								document.getElementById('upm_polls_content-'+pid).innerHTML = responseText;}}); 
+				/////////////////////////////					
+				});
+				})(jQuery);
+				//###########################
+			}
+		}
+		function UPM_next() { 
+		
+				//############################
+						jQuery.noConflict();
+				(function($) { 
+				  $(function() {
+				//////////////////////////////
+					var responseText = $.ajax({  type : "GET", 
+												 url     : "http://www.cafeleak.net/wp-admin/admin-ajax.php", 
+												 data    : "action=upm_ayax_polls_result&do=next&post=&type=general", 
+												 async   : false, success : function() {}}  ).responseText; 
+					document.getElementById('upm_poll_box').innerHTML = responseText;
+				/////////////////////////////					
+				});
+				})(jQuery);
+				//###########################
+		}
+        </script>
+        <div id="upm_poll_box">
+                <div id="upm_polls_content-1" style="display:none;"></div>
+        <div id="upm_polls_form-1">
+            <form id="upm_polls_form_content" name="upm_polls_form_content" action="http://www.cafeleak.net/wp-admin/admin-ajax.php" target="upm_multi_polls-1" method="get" onsubmit="return Gh()">
+                <input type="hidden" name="upm_action" value="polling" /><input type="hidden" name="type" value="general" /><input type="hidden" name="upm_poll_id" value="1" />
+                <input type="hidden" name="action" value="upm_ayax_polls_vote" />
+                <div class="upm_polls">
+<p class="upm_poll_form_question">Was magst du?</p>
+<ul class="upm_poll_ul">
+
+
+<li class="upm_poll_form_list">
+<input type="radio" name="upm_answer" id="upm_answer-1" value="1" /> 
+<label class="upm_poll_form_label" for="upm_answer-1">Analog</label>
+
+</li>
+
+<li class="upm_poll_form_list">
+<input type="radio" name="upm_answer" id="upm_answer-2" value="2" /> 
+<label class="upm_poll_form_label" for="upm_answer-2">Digital</label>
+
+</li>
+
+
+<li class="upm_poll_form_list poll_submit">
+<div class="poll_form_footer">
+<input id="upm_poll_form_submit"  class="upm_poll_form_submit" name="upm_vote" value="Vote" type="submit">
+<div id="upm_loading"></div>
+</div>
+</li>
+</ul>
+</div>            </form>
+        	<iframe src="http://www.cafeleak.net/wp-content/plugins/upm-polls/js/blank.html" name="upm_multi_polls-1" style="margin:0px; border:0px; overflow:hidden; outline:0px; width:0px; height:0px;" frameborder="0" onload="UPM_load(1)" scrolling="no"></iframe>
+        </div>
+        		</div>
+		</li><li id="tag_cloud-4" class="widget widget_tag_cloud"><h2 class="widgettitle">Schlagwörter</h2><div class="tagcloud"><a href='http://www.cafeleak.net/tag/amazon' class='tag-link-27' title='12 Themen' style='font-size: 17.8pt;'>Amazon</a>
+<a href='http://www.cafeleak.net/tag/apple' class='tag-link-23' title='22 Themen' style='font-size: 21.688888888889pt;'>Apple</a>
+<a href='http://www.cafeleak.net/tag/blackberry' class='tag-link-19' title='9 Themen' style='font-size: 16.088888888889pt;'>BlackBerry</a>
+<a href='http://www.cafeleak.net/tag/buch' class='tag-link-21' title='11 Themen' style='font-size: 17.333333333333pt;'>Buch</a>
+<a href='http://www.cafeleak.net/tag/burny' class='tag-link-51' title='8 Themen' style='font-size: 15.311111111111pt;'>burny</a>
+<a href='http://www.cafeleak.net/tag/bucher' class='tag-link-58' title='8 Themen' style='font-size: 15.311111111111pt;'>Bücher</a>
+<a href='http://www.cafeleak.net/tag/cafeleak' class='tag-link-3' title='23 Themen' style='font-size: 22pt;'>cafeleak</a>
+<a href='http://www.cafeleak.net/tag/cloud' class='tag-link-17' title='13 Themen' style='font-size: 18.422222222222pt;'>Cloud</a>
+<a href='http://www.cafeleak.net/tag/cracker' class='tag-link-41' title='8 Themen' style='font-size: 15.311111111111pt;'>Cracker</a>
+<a href='http://www.cafeleak.net/tag/daten' class='tag-link-62' title='12 Themen' style='font-size: 17.8pt;'>Daten</a>
+<a href='http://www.cafeleak.net/tag/deutschland' class='tag-link-54' title='5 Themen' style='font-size: 12.666666666667pt;'>Deutschland</a>
+<a href='http://www.cafeleak.net/tag/download' class='tag-link-39' title='16 Themen' style='font-size: 19.666666666667pt;'>download</a>
+<a href='http://www.cafeleak.net/tag/facebook' class='tag-link-7' title='16 Themen' style='font-size: 19.666666666667pt;'>FaceBook</a>
+<a href='http://www.cafeleak.net/tag/film' class='tag-link-22' title='8 Themen' style='font-size: 15.311111111111pt;'>Film</a>
+<a href='http://www.cafeleak.net/tag/flash' class='tag-link-97' title='4 Themen' style='font-size: 11.422222222222pt;'>Flash</a>
+<a href='http://www.cafeleak.net/tag/geek' class='tag-link-37' title='8 Themen' style='font-size: 15.311111111111pt;'>Geek</a>
+<a href='http://www.cafeleak.net/tag/google' class='tag-link-16' title='14 Themen' style='font-size: 18.888888888889pt;'>Google</a>
+<a href='http://www.cafeleak.net/tag/hacker' class='tag-link-40' title='8 Themen' style='font-size: 15.311111111111pt;'>Hacker</a>
+<a href='http://www.cafeleak.net/tag/hp' class='tag-link-35' title='2 Themen' style='font-size: 8pt;'>HP</a>
+<a href='http://www.cafeleak.net/tag/illegal' class='tag-link-42' title='15 Themen' style='font-size: 19.2pt;'>illegal</a>
+<a href='http://www.cafeleak.net/tag/internet' class='tag-link-26' title='19 Themen' style='font-size: 20.755555555556pt;'>Internet</a>
+<a href='http://www.cafeleak.net/tag/iphone' class='tag-link-14' title='8 Themen' style='font-size: 15.311111111111pt;'>iPhone</a>
+<a href='http://www.cafeleak.net/tag/itunes' class='tag-link-38' title='14 Themen' style='font-size: 18.888888888889pt;'>itunes</a>
+<a href='http://www.cafeleak.net/tag/itunes-com' class='tag-link-45' title='14 Themen' style='font-size: 18.888888888889pt;'>itunes.com</a>
+<a href='http://www.cafeleak.net/tag/microsoft' class='tag-link-15' title='14 Themen' style='font-size: 18.888888888889pt;'>Microsoft</a>
+<a href='http://www.cafeleak.net/tag/mobile' class='tag-link-32' title='8 Themen' style='font-size: 15.311111111111pt;'>Mobile</a>
+<a href='http://www.cafeleak.net/tag/musik' class='tag-link-25' title='7 Themen' style='font-size: 14.533333333333pt;'>Musik</a>
+<a href='http://www.cafeleak.net/tag/nintendo' class='tag-link-11' title='3 Themen' style='font-size: 9.8666666666667pt;'>Nintendo</a>
+<a href='http://www.cafeleak.net/tag/nokia' class='tag-link-33' title='2 Themen' style='font-size: 8pt;'>Nokia</a>
+<a href='http://www.cafeleak.net/tag/occupy' class='tag-link-47' title='2 Themen' style='font-size: 8pt;'>Occupy</a>
+<a href='http://www.cafeleak.net/tag/os' class='tag-link-77' title='3 Themen' style='font-size: 9.8666666666667pt;'>OS</a>
+<a href='http://www.cafeleak.net/tag/patent' class='tag-link-31' title='6 Themen' style='font-size: 13.755555555556pt;'>Patent</a>
+<a href='http://www.cafeleak.net/tag/podcast' class='tag-link-43' title='16 Themen' style='font-size: 19.666666666667pt;'>Podcast</a>
+<a href='http://www.cafeleak.net/tag/podcast-de' class='tag-link-44' title='15 Themen' style='font-size: 19.2pt;'>Podcast.de</a>
+<a href='http://www.cafeleak.net/tag/project' class='tag-link-5' title='2 Themen' style='font-size: 8pt;'>project</a>
+<a href='http://www.cafeleak.net/tag/retro' class='tag-link-28' title='19 Themen' style='font-size: 20.755555555556pt;'>Retro</a>
+<a href='http://www.cafeleak.net/tag/samsung' class='tag-link-20' title='5 Themen' style='font-size: 12.666666666667pt;'>Samsung</a>
+<a href='http://www.cafeleak.net/tag/security' class='tag-link-9' title='21 Themen' style='font-size: 21.377777777778pt;'>Security</a>
+<a href='http://www.cafeleak.net/tag/sony' class='tag-link-24' title='2 Themen' style='font-size: 8pt;'>Sony</a>
+<a href='http://www.cafeleak.net/tag/spiele' class='tag-link-18' title='11 Themen' style='font-size: 17.333333333333pt;'>Spiele</a>
+<a href='http://www.cafeleak.net/tag/start' class='tag-link-4' title='2 Themen' style='font-size: 8pt;'>start</a>
+<a href='http://www.cafeleak.net/tag/twitter' class='tag-link-6' title='7 Themen' style='font-size: 14.533333333333pt;'>Twitter</a>
+<a href='http://www.cafeleak.net/tag/youtube' class='tag-link-30' title='6 Themen' style='font-size: 13.755555555556pt;'>YouTube</a>
+<a href='http://www.cafeleak.net/tag/zensur' class='tag-link-13' title='12 Themen' style='font-size: 17.8pt;'>Zensur</a>
+<a href='http://www.cafeleak.net/tag/zukunft' class='tag-link-12' title='17 Themen' style='font-size: 20.133333333333pt;'>Zukunft</a></div>
+</li>		</ul>
+	</div>
+
+
+<hr />
+<div id="footer">
+
+		
+</body>
+</html>

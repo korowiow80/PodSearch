@@ -1,0 +1,269 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<script type="text/javascript">var _gaq = _gaq || [];</script>
+	<title>Radio - Israel National News</title> <meta property="og:site_name" content="Israel National News" /><script src="http://a7.org/Combine.ashx?lang=en&js=jquery.js,Main.js,More.js,Dates.js&amp;h=XjBM8N5FzL"></script><link rel=stylesheet href="http://a7.org/Combine.ashx?css=global.css&h=ZlBtbZ3r/f" /><link rel=stylesheet href="http://a7.org/Combine.ashx?lang=en&css=global.css&h=WjbcFUlVN4" /><script>sLang='2'; dDate = nIDate(3,2012,4,23,5772,9,2,13,40,",0"); if(document.cookie.indexOf('UserData')>0) ('<sc'+'ript src="/My/Checker.ashx?fill=true&amp;page='+location.pathname+'"></sc'+'ript>').write(); else $(document).ready(function() {PopLeft.FinalCheck();});</script><meta http-equiv="Content-language" content="en" />
+	
+    <script src="http://a7.org/Combine.ashx?lang=en&js=Replies.js&amp;h=xEOYtcPmyI"></script>
+    
+    <script type="text/javascript">	NavBar.iPageTab = 2;</script>
+
+
+
+
+    <link rel=stylesheet href="http://a7.org/Combine.ashx?lang=en&css=radio.css&h=JLyECpsCM/" />
+    
+
+    <link rel=stylesheet href="http://a7.org/Combine.ashx?lang=en&css=mainpages.css&h=DDXQ/WqL69" />
+
+	<style type="text/css">
+	#showhosts_box .img{    height: 55px;  width: 55px;}
+.FIcon {
+    margin: 0;
+}
+
+#Menu .Icon, .FIcon {
+    background-position: left top;
+    cursor: pointer;
+    height: 22px;
+    width: 22px;
+}
+	</style>
+
+
+	
+</head>
+<body onload="DoOnload()" align="center" class="mainformat LangEn" lang="en"><!--INFOLINKS_ON--><!--INFOLINKS_OFF-->
+	<div id="divMsgSource" style="z-index: 1; position: fixed; _position: absolute; width: 310px;
+		right: 1px; bottom: 2px;">
+		<div style="position: absolute; bottom: 2px; left: 1px">
+		</div>
+		<div style="visibility: hidden">
+		</div>
+	</div>
+	<div id="divMainCenteral" style="margin:0 auto;position:relative;width:1000px;">
+	<div id="InLeft" style="position:absolute;top:0;right:0;overflow:hidden;"></div>
+		<div id="divMain" class="Radio ContentMaster OneRow HideNarrowColumn">
+			<div id="TopBar" class="TopBlueLine">
+				<span class="spnLanguages spnBar">
+				<a target="_blank" class="lng1" onmousedown="Info.LogC([401,0,1,205])" href="http://www.inn.co.il/"><b></b>He</a>
+				<a target="_blank" class="lng3" onmousedown="Info.LogC([401,0,3,205])" href="http://www.israel7.ru/"><b></b>Ru</a>
+				</span>
+				<span class="spnFollow spnBar">
+				<span>Follow us:</span>
+				<a target="_blank" href="http://twitter.com/IsraelNewsStory" title="twitter" onmousedown="Info.LogC([402,0,1,205])" class="follow twitter"></a>
+				<a target="_blank" href="http://www.facebook.com/pages/IsraelNationalNews/102510354100" onmousedown="Info.LogC([402,0,2,205])" title="facebook" class="follow facebook"></a>
+				<a target="_blank" href="/More/ActivePage.aspx/RSS" onmousedown="Info.LogC([402,0,3,205])" title="RSS" class="follow rss"></a>
+				
+				</span>
+				<span onclick="SetAsHomepage(this);" onmousedown="Info.LogC([403,0,1,205])"	class="spnBar hpbtn Link">Make a7 your Homepage</span>
+				<form action="/Search.aspx">
+				<input name="string" class="InitInput textbox" id="SearchQuery" />
+				<select name="type">
+					<option value="all">All</option>
+					<option value="0">News</option>
+					<option value="1">Op-Eds, Judaism</option>
+					<option value="10">News Briefs</option>
+				</select><input class="btn" type="image" src="http://a7.org/en/images/searchbtn.gif" />
+				<input type="hidden" name="cx" value="partner-pub-5569699846303362:ckiu06-ros1" />
+				<input type="hidden" name="cof" value="FORID:11" />
+				</form>
+				<script type="text/javascript">
+					var langtext = 'Hello Guest, <span class="Link" onclick="Windows.Login();">Login</span>|<a href="/Register.aspx">Register</a>'; if (sLang == 4) { langtext = "<span onclick='Windows.Login();'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>"; }
+					if (!User.ID) ('<span class="spnBar" id="LoginView">' + langtext + '</span>').write();
+					else ('<span class="spnBar" id="LoginView">Welcome ' + User.Name + '. ' + (sLinkData ? '<a href=/' + sLinkData.split("/")[1] + ">Admin</a> |" : "") + ' <a href=/Login.aspx?action=Logout>Logout</a></span>').write();
+				</script>
+				<div class="clf">
+				</div>
+			</div>
+			<div class="divTopInBox"><div id='z214inn' class='znn  '><!-- Casale Media: 728x90 (Banner) -->
+<script type="text/javascript">
+var CasaleArgs = new Object();
+CasaleArgs.version = 2;
+CasaleArgs.adUnits = "2";
+CasaleArgs.casaleID = 80009;
+</script>
+<script type="text/javascript" src="http://js.casalemedia.com/casaleJTag.js"></script></div><div id='z238inn' class='znn  '></div><div class="clf"></div></div>
+			
+			<table id="LogoTable"><tr>
+			<td class="Td1">
+				<a class="logo" href="/">
+					<img src="http://a7.org/En/images/logo.png" alt="Arutz Sheva" />
+				</a>
+			</td>
+			<td class="Td2">
+		<div class="hpNavigationParent">
+            <ul id="HpNavBar" class="hpNavigation"></ul>
+			<ul class="level2"></ul>
+        </div><div class="clf"></div><script type="text/javascript"> NavBar.Fill();</script>
+			</td>
+			</tr></table>
+			
+
+
+
+
+			
+	<div id="ctl00_ctl00_ctl00_Body_AboveUpper"><div class='closableWebpart'><div class="x" onclick="$(this).parent().slideUp();"></div><div id="div143"></div></div><script>if ((INNData.CheckDate('timer252',180)|| location.href.indexOf('b100155')>-1)&&!View.div143) {Info.Add(100155,'#div143',{func: function(b,i) { Info.InsertDo(b,i);$('#div143').parent().show().css('height','150px'); INNData.SaveDate('timer252'); Info.div143=1;  }})};</script></div>
+    
+    <div id="ctl00_ctl00_ctl00_Body_RightClm" class="RightClm"><!-- ctl00_ctl00_ctl00_NewsletterBox -->
+
+	
+<div class="NewsletterBox">
+	<div class="in"><span>Free Daily Israel Report</span>
+<form action="/Subscribe/"><input onfocus="this.value='';" value="Enter Email" id="SubscribeToNewsletterInput" class="TBTextbox InitInput" name="email" /><input type="submit" class="TBEmailSubmit" name="subscribe_submit" id="subscribe_submit" value="Join" /></form>
+<div class="clf"></div><script type="text/javascript">setTimeout(function () { SetDefaultInput("SubscribeToNewsletterInput", LangText.EnterYourEmail); }, 200);</script>
+	</div>
+</div>
+<!-- END ctl00_ctl00_ctl00_NewsletterBox -->
+<!-- ctl00_ctl00_ctl00_Head_Head_RadioSlideshow -->
+
+<h3 class="LikeSectionBoxTitle red">INR Announcements</h3>
+<div id="radioslide" style="background-color:White;padding:5px 0;"></div><script src="http://a7.org/Combine.ashx?lang=en&js=radioslide.js&amp;h=6QjDq48wL+"></script>
+	<script type="text/javascript">$(function(){ RadioSlide.init([39954,39950],"radioslide");});</script>
+<!-- END ctl00_ctl00_ctl00_Head_Head_RadioSlideshow -->
+<div id='z208inn' class='znn  '></div><a href='/More/ActivePage.aspx/AreaEmail' class='AreaEmail'><img alt='YouReport, Send us News & updates' src='http://a7.org/En/images/youreport.jpg' /></a><!-- ctl00_ctl00_ctl00_Head_Head_RadioHighlights -->
+
+<div class="SectionBox red RadioSB"><h3>Radio News Highlights</h3><ul class="Container"><li class=HLItem style=background-color:#F8F9FC><span class=L></span> <a style=background-image:url(http://a7.org/en/images/radio/dwn2.gif);float:right class=FIcon title=Download href=http://dwnmedia.israelnn.com//arutz7/shows/rabbismarch.mp3.mp3></a><u style=cursor:pointer;float:right;margin-right:1px;background-image:url(http://a7.org/en/images/radio/play2.gif) class=FIcon onclick=Radio.OpenPlayer(2,593)  title=Listen></u><Span class=c onclick=Radio.OpenPlayer(2,593)>Rabbis March on Washington 1943</span></li><li class=HLItem style=background-color:#EDEEF8><span class=L></span> <a style=background-image:url(http://a7.org/en/images/radio/dwn2.gif);float:right class=FIcon title=Download href=http://dwnmedia.israelnn.com//arutz7/shows/miriammaoz.mp3></a><u style=cursor:pointer;float:right;margin-right:1px;background-image:url(http://a7.org/en/images/radio/play2.gif) class=FIcon onclick=Radio.OpenPlayer(2,592)  title=Listen></u><Span class=c onclick=Radio.OpenPlayer(2,592)>Live Knesset Update on Samaria</span></li><li class=HLItem style=background-color:#F8F9FC><span class=L></span> <a style=background-image:url(http://a7.org/en/images/radio/dwn2.gif);float:right class=FIcon title=Download href=http://dwnmedia.israelnn.com//arutz7/shows/hotovely06mar.mp3></a><u style=cursor:pointer;float:right;margin-right:1px;background-image:url(http://a7.org/en/images/radio/play2.gif) class=FIcon onclick=Radio.OpenPlayer(2,591)  title=Listen></u><Span class=c onclick=Radio.OpenPlayer(2,591)>MK Hotovely on War with Iran</span></li><li class=HLItem style=background-color:#EDEEF8><span class=L></span> <a style=background-image:url(http://a7.org/en/images/radio/dwn2.gif);float:right class=FIcon title=Download href=http://dwnmedia.israelnn.com//arutz7/shows/english-show/highlights/2012/olamhabapurim.mp3></a><u style=cursor:pointer;float:right;margin-right:1px;background-image:url(http://a7.org/en/images/radio/play2.gif) class=FIcon onclick=Radio.OpenPlayer(2,590)  title=Listen></u><Span class=c onclick=Radio.OpenPlayer(2,590)>Olam Haba Purim on Mt. Zion</span></li><li class=HLItem style=background-color:#F8F9FC><span class=L></span> <a style=background-image:url(http://a7.org/en/images/radio/dwn2.gif);float:right class=FIcon title=Download href=http://dwnmedia.israelnn.com//arutz7/shows/english-show/highlights/2012/mitzpeavichai.mp3></a><u style=cursor:pointer;float:right;margin-right:1px;background-image:url(http://a7.org/en/images/radio/play2.gif) class=FIcon onclick=Radio.OpenPlayer(2,589)  title=Listen></u><Span class=c onclick=Radio.OpenPlayer(2,589)>Evicted Resident Interview </span></li><li class=HLItem style=background-color:#EDEEF8><span class=L></span> <a style=background-image:url(http://a7.org/en/images/radio/dwn2.gif);float:right class=FIcon title=Download href=http://dwnmedia.israelnn.com//arutz7/shows/english-show/highlights/2012/harveykarp.mp3></a><u style=cursor:pointer;float:right;margin-right:1px;background-image:url(http://a7.org/en/images/radio/play2.gif) class=FIcon onclick=Radio.OpenPlayer(2,588)  title=Listen></u><Span class=c onclick=Radio.OpenPlayer(2,588)>Positive Messages on Video Site</span></li></ul></div>
+<!-- END ctl00_ctl00_ctl00_Head_Head_RadioHighlights -->
+<div id='z182inn' class='znn  '><script type="text/javascript"><!--
+google_ad_client = "ca-pub-5569699846303362";
+/* 300x250 - Op-Ed */
+google_ad_slot = "5281241052";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div><!-- ctl00_ctl00_ctl00_Head_Head_RadioTodayNews -->
+
+<div class="SectionBox red RadioSB"><h3>Latest Israel Newscast</h3><div class="Container"><div class=HLItem style=background-color:#EDEEF8><span class=L></span>  <a style=background-image:url(http://a7.org/en/images/radio/dwn2.gif);float:right class=FIcon title=Download href=http://dwnmedia.israelnn.com//arutz7/shows/newscast/inrnews23may.mp3></a><u style=cursor:pointer;float:right;margin-right:1px;background-image:url(http://a7.org/en/images/radio/play2.gif) class=FIcon onclick=Radio.OpenPlayer(2,-1)  title=Listen></u><Span class=c onclick=Radio.OpenPlayer(2,-1)>Last Update:May 23, 5/23/2012</span></div></div></div>
+<!-- END ctl00_ctl00_ctl00_Head_Head_RadioTodayNews -->
+<div class='RightBoxOuter judaism'><span class='seven' style='background-color:#4388a8'></span><h3  style='border-bottom-color:#4388a8;color:#4388a8'>Judaism</h3><div class='RightBoxIn'><div id='rightbox2' class='RightBox '><div class='content'><ul class='judaismbox'><li onmousedown='Info.LogC([1,654,0,204])' class='C0'><a style=';background-image:url(http://a7.org/Resizer.ashx?source=newssprite&save=1&def=74,74&f=233757;224495;235632;287837;219732;318155;296038;240522);;background-position: 0px -0px' href='/Articles/Article.aspx/11686'><span class='Ttl'>Rabbi E Safran</span><span class='lastupdate'>Bamidbar: Personal Responsibility, not Bureaucracy</span></a></li><li onmousedown='Info.LogC([1,761,0,204])' class='C1'><a style=';background-image:url(http://a7.org/Resizer.ashx?source=newssprite&save=1&def=74,74&f=233757;224495;235632;287837;219732;318155;296038;240522);;background-position: 0px -74px' href='/Articles/Article.aspx/11685'><span class='Ttl'> Rabbi Melamed</span><span class='lastupdate'>The Economy is Doing Well - Thank G-d!</span></a></li><li onmousedown='Info.LogC([1,690,0,204])' class='C2'><a style=';background-image:url(http://a7.org/Resizer.ashx?source=newssprite&save=1&def=74,74&f=233757;224495;235632;287837;219732;318155;296038;240522);;background-position: 0px -148px' href='/Articles/Article.aspx/11677'><span class='Ttl'> Rabbi Richman</span><span class='lastupdate'>Modern Day Miracle: A Shiur for Jerualem Day <span class='LinkIcon video'></span></span></a></li><li onmousedown='Info.LogC([1,936,0,204])' class='C3'><a style=';background-image:url(http://a7.org/Resizer.ashx?source=newssprite&save=1&def=74,74&f=233757;224495;235632;287837;219732;318155;296038;240522);;background-position: 0px -222px' href='/Articles/Article.aspx/11672'><span class='Ttl'> HaRav Kook</span><span class='lastupdate'>Jerusalem Day: The Two Messengers</span></a></li><li onmousedown='Info.LogC([1,437,0,204])' class='C4'><a style=';background-image:url(http://a7.org/Resizer.ashx?source=newssprite&save=1&def=74,74&f=233757;224495;235632;287837;219732;318155;296038;240522);;background-position: 0px -296px' href='/Articles/Article.aspx/11673'><span class='Ttl'>Daniel Pinner</span><span class='lastupdate'>Yom Herut Yerushalayim - Bechukotay</span></a></li><li onmousedown='Info.LogC([1,877,0,204])' class='C5'><a style=';background-image:url(http://a7.org/Resizer.ashx?source=newssprite&save=1&def=74,74&f=233757;224495;235632;287837;219732;318155;296038;240522);;background-position: 0px -370px' href='/Articles/Article.aspx/11663'><span class='Ttl'>Rabbi Ilan Goldman</span><span class='lastupdate'>Bechukotay and Jerusalem: Light of the World</span></a></li><li onmousedown='Info.LogC([1,950,0,204])' class='C6'><a style=';background-image:url(http://a7.org/Resizer.ashx?source=newssprite&save=1&def=74,74&f=233757;224495;235632;287837;219732;318155;296038;240522);;background-position: 0px -444px' href='/Articles/Article.aspx/11667'><span class='Ttl'>Rabbi Shlomo Riskin</span><span class='lastupdate'>They Stood at the Foot of the Mountain <span class='LinkIcon video'></span></span></a></li><li onmousedown='Info.LogC([1,739,0,204])' class='C7'><a style=';background-image:url(http://a7.org/Resizer.ashx?source=newssprite&save=1&def=74,74&f=233757;224495;235632;287837;219732;318155;296038;240522);;background-position: 0px -518px' href='/Articles/Article.aspx/11664'><span class='Ttl'>Rabbi J. Sacks</span><span class='lastupdate'>Behar-Bechukotay: The Limits of the Free Market</span></a></li><div class='clf'></div></ul></div><div class='fotter'><a class='More' href='/Articles/Yahadut.aspx' onmousedown='Info.LogC([406,0,1,204])'>Show More</a><div class='clf'></div></div><div style='position:relative;left:-2px;'><a rel='nofollow' href='http://www.yeshiva.org.il/Eindex.aspx' target='_blank' class='asktherabbi'><img src='http://a7.org/En/images/asktherabbi.gif' alt='Ask The Rabbi'/></a></div></div></div></div><div class='RightBoxOuter blogs'><span class='seven' style='background-color:#f76e00'></span><h3  style='border-bottom-color:#f76e00;color:#f76e00'>Blogs</h3><div class='RightBoxIn'><div id='rightbox0' class='RightBox '><div class='content'><div id='PagingBox0'><div class='content'><ul class='elementlist'><li class='element c0  type6'><span class='img' style=';background-image:url(http://a7.org/Resizer.ashx?source=newssprite&save=1&def=85,66&f=345224;328529);;background-position: 0px -0px'></span><strong class='title '><a  onmousedown="Info.LogC([6,0,4980,202])" class='' href='/Blogs/Message.aspx/4980'>Advice to New Army Mothers</a></strong><p class='grayline'>A Soldier’s Mother</p></li><li class='element c1  type6'><span class='img' style=';background-image:url(http://a7.org/Resizer.ashx?source=newssprite&save=1&def=85,66&f=345224;328529);;background-position: 0px -66px'></span><strong class='title '><a  onmousedown="Info.LogC([6,0,4979,202])" class='' href='/Blogs/Message.aspx/4979'>Egyptian-Belgian journalist interview with David Wilder</a></strong><p class='grayline'>Blessings from Hebron</p></li><div class='clf'></div></ul></div></div></div><div class='fotter'><div class='paging' id='Paging0pager'><span class=' p0 selected' onclick='ShowPagingBox(0,0);'></span><span class=' p1' onclick='ShowPagingBox(0,1);'></span><span class=' p2' onclick='ShowPagingBox(0,2);'></span></div><a class='More' href='/Blogs/' onmousedown='Info.LogC([406,0,1,202])'>Show More</a><div class='clf'></div></div></div></div></div></div><div id="ctl00_ctl00_ctl00_Body_BelowRightClm"></div>
+    <div id="ctl00_ctl00_ctl00_Body_LeftClm" class="LeftClm">
+        
+    </div>
+    <div  id="CenterClmMaster"  class="CenterClm"><div id="ctl00_ctl00_ctl00_Body_divCenterBody">
+    <div class="RadioBar"><span class="radiobread"><div id='BreadCrumbs' xmlns:v="http://rdf.data-vocabulary.org/#" > <span  typeof='v:Breadcrumb'><a rel="v:url" property="v:title" href="/" title='News'>Main</a></span> &gt; Radio</div></span>
+<a class='tab selected ' href='/Radio/'>Main</a><a class='tab ' href='/Radio/Jukebox.aspx'>Jukebox</a><a class='tab ' href='/Radio/Programs.aspx'>Our shows</a><a class='tab ' href='/Radio/Schedule.aspx'>Schedule</a>
+</div>
+<div class=" LongMain">
+<div style=clear:both></div>
+
+<div class="RadioHpRightClm">
+<a class="RedBox btn_listenLive Link" onclick="Info.LogC([403,0,10,213]);Radio.OpenPlayer('live');"><span class="img"></span><span class="Title">Listen Live</span></a>
+<a class="RedBox btn_virtualStudio Link" onclick="Info.LogC([409,0,1,213]);" href="/404.aspx"><span class="img"></span><span class="Title">Virtual Studio<span>Join us in LIVE chat!</span></span></a>
+
+</div>
+<div style="width:456px;">
+    <div class='MainStory'><div class='img'><img class='img' src='http://a7.org/Resizer.ashx/news/454/305/345411.jpg' /><div class='overimg'></div><p class='overimg TLink2'><a  href='/Radio/News.aspx/3981'>Liberalism and Islam:  A Marriage of Convenience?  </a></p></div></div><div style='clear:left;height:15px;'></div><div id='subStories'><table style='width:456px;'><tr> <td class='subStoryBox' id='subFix0' ><div><a  class='TLink' href='/Radio/News.aspx/3976'><img src='http://a7.org/Resizer.ashx/news/125/97/345035.jpg' alt=' &nbsp;Visiting American TV Stars Experience The Truth About Israel ' /><span class='desc title'>  Visiting American TV Stars Experience The Truth About Israel </span></a><span class='author'>Walter's World</span><span class='date'> Tuesday, May 22, 2012 </span><span class='more'>More</span></div></td> <td class='subStoryBox' id='subFix1' ><div><a  class='TLink' href='/Radio/News.aspx/3980'><img src='http://a7.org/Resizer.ashx/news/125/97/345067.jpg' alt='Shavuot and the game rules of life...i.e &nbsp;the Mitzvot!' /><span class='desc title'>Shavuot and the game rules of life...i.e  the Mitzvot!</span></a><span class='author'>The Jewish Home & Family</span><span class='date'> Monday, May 21, 2012 </span><span class='more'>More</span></div></td> <td class='subStoryBox' id='subFix2' ><div><a  class='TLink' href='/Radio/News.aspx/3979'><img src='http://a7.org/Resizer.ashx/news/125/97/345062.jpg' alt=' Is your computer safe? And what’s Vicky Ward’s new career move?' /><span class='desc title'> Is your computer safe? And what’s Vicky Ward’s new career move?</span></a><span class='author'>Goldstein on Gelt</span><span class='date'> Monday, May 21, 2012 </span><span class='more'>More</span></div></td></tr></table></div>
+ <div class='HPRedTitle a_left LikeSectionBoxTitle' style='margin-top:12px'>More Stories</div><div id='moreArrViews'><ul><li class='element'><strong class='TLink2'><a  class='title' href='/Radio/News.aspx/3978'>Fiddler On the Roof Style Wedding</a></strong> <span class='LinkIcon audio'></span> <p class='grayline'>News & Call-In with Tamar Yonah / Monday, May 21, 2012</p></li><li class='element'><strong class='TLink2'><a  class='title' href='/Radio/News.aspx/3975'>Israel's National Anthem</a></strong> <span class='LinkIcon audio'></span> <p class='grayline'>The Jay Shapiro Hour / Sunday, May 20, 2012</p></li><li class='element'><strong class='TLink2'><a  class='title' href='/Radio/News.aspx/3974'>Learn to Fight Like an Israeli! </a></strong> <span class='LinkIcon audio'></span> <p class='grayline'>The Tamar Yonah Show / Sunday, May 20, 2012</p></li><li class='element'><strong class='TLink2'><a  class='title' href='/Radio/News.aspx/3977'>Run Over By a Tank & Saved By Angels: The  Re-Building of Jrslm </a></strong> <span class='LinkIcon audio'></span> <p class='grayline'>The Tamar Yonah Show / Sunday, May 20, 2012</p></li><li class='element'><strong class='TLink2'><a  class='title' href='/Radio/News.aspx/3973'>Varda Epstein: Still in love (with Israel) after all these years</a></strong> <span class='LinkIcon audio'></span> <p class='grayline'>Life Lessons with Judy Simon / Thursday, May 17, 2012</p></li><li class='element'><strong class='TLink2'><a  class='title' href='/Radio/News.aspx/3972'>CELEBRATING JERUSALEM DAY, WHILE TERROR CONTINUES </a></strong> <span class='LinkIcon audio'></span> <p class='grayline'>Reality Bytes / Thursday, May 17, 2012</p></li><li class='element'><strong class='TLink2'><a  class='title' href='/Radio/News.aspx/3971'>DIFFERENT PARTY SIMILAR "HASBARA" MESSAGE  </a></strong> <span class='LinkIcon audio'></span> <p class='grayline'>Reality Bytes / Wednesday, May 16, 2012</p></li><li class='element'><strong class='TLink2'><a  class='title' href='/Radio/News.aspx/3970'>Whistle-Blower on Washington's Dirty Secrets</a></strong> <span class='LinkIcon audio'></span> <p class='grayline'>The Tamar Yonah Show / Tuesday, May 15, 2012</p></li><li class='element'><strong class='TLink2'><a  class='title' href='/Radio/News.aspx/3969'>Parashat Bechukotei and Rabbi Akiva's Vision of Consolation</a></strong> <span class='LinkIcon audio'></span> <p class='grayline'>Temple Talk / Tuesday, May 15, 2012</p></li><li class='element'><strong class='TLink2'><a  class='title' href='/Radio/News.aspx/3968'>Revolution, Mass Civil Unrest, Disaster in the EU? </a></strong> <span class='LinkIcon audio'></span> <p class='grayline'>News & Call-In with Tamar Yonah / Monday, May 14, 2012</p></li><li class='element'><strong class='TLink2'><a  class='title' href='/Radio/News.aspx/3967'>Happiness is a choice, so choose to be happier!</a></strong> <span class='LinkIcon audio'></span> <p class='grayline'>The Jewish Home & Family / Monday, May 14, 2012</p></li><li class='element'><strong class='TLink2'><a  class='title' href='/Radio/News.aspx/3966'>Comedy in business, and the secret of brewing good coffee  </a></strong> <span class='LinkIcon audio'></span> <p class='grayline'>Goldstein on Gelt / Monday, May 14, 2012</p></li><li class='element'><strong class='TLink2'><a  class='title' href='/Radio/News.aspx/3965'>How To Cut Off Your Nose To Spite Your Face.</a></strong> <span class='LinkIcon audio'></span> <p class='grayline'>Walter's World / Sunday, May 13, 2012</p></li><li class='element'><strong class='TLink2'><a  class='title' href='/Radio/News.aspx/3963'>Secret Service Agents & Earthquakes  </a></strong> <span class='LinkIcon audio'></span> <p class='grayline'>The Tamar Yonah Show / Sunday, May 13, 2012</p></li><li class='element'><strong class='TLink2'><a  class='title' href='/Radio/News.aspx/3962'>BACK FROM THE USA: Derech Eretz musings</a></strong> <span class='LinkIcon audio'></span> <p class='grayline'>The Derech Eretz Show / Sunday, May 13, 2012</p></li><li class='element'><strong class='TLink2'><a  class='title' href='/Radio/News.aspx/3961'>Breaking out of Mourning / Torah and the Land </a></strong> <span class='LinkIcon audio'></span> <p class='grayline'>Torah Tidbits Audio / Thursday, May 10, 2012</p></li><li class='element'><strong class='TLink2'><a  class='title' href='/Radio/News.aspx/3959'>The Corner of the Field: Uninterrupted G-d Consciousness</a></strong> <span class='LinkIcon audio'></span> <p class='grayline'>Temple Talk / Thursday, May 10, 2012</p></li><li class='element'><strong class='TLink2'><a  class='title' href='/Radio/News.aspx/3960'>Lag BaOmer: The Secrets of the Bonfire</a></strong> <span class='LinkIcon audio'></span> <p class='grayline'>Life Lessons with Judy Simon / Thursday, May 10, 2012</p></li><li class='element'><strong class='TLink2'><a  class='title' href='/Radio/News.aspx/3964'>Making Sense Out of the New Coalition </a></strong> <span class='LinkIcon audio'></span> <p class='grayline'>Reality Bytes / Wednesday, May 09, 2012</p></li><li class='element'><strong class='TLink2'><a  class='title' href='/Radio/News.aspx/3956'>Understanding the Problem of Intermarriage.</a></strong> <span class='LinkIcon audio'></span> <p class='grayline'>The Jewish Home & Family / Tuesday, May 08, 2012</p></li><li class='element'><strong class='TLink2'><a  class='title' href='/Radio/News.aspx/3958'>Israelis in Shock & Disgust</a></strong> <span class='LinkIcon audio'></span> <p class='grayline'>News & Call-In with Tamar Yonah / Tuesday, May 08, 2012</p></li><li class='element'><strong class='TLink2'><a  class='title' href='/Radio/News.aspx/3957'>Politics, Politics, Politics. Why & Where? </a></strong> <span class='LinkIcon audio'></span> <p class='grayline'>News & Call-In with Tamar Yonah / Monday, May 07, 2012</p></li><li class='element'><strong class='TLink2'><a  class='title' href='/Radio/News.aspx/3952'>How Arutz Sheva Helped Revolutionize the Israeli Music Scene</a></strong> <span class='LinkIcon audio'></span> <p class='grayline'>Israel Beat Jewish Music Podcast / Sunday, May 06, 2012</p></li><li class='element'><strong class='TLink2'><a  class='title' href='/Radio/News.aspx/3951'>Israel Elections? Now this should be interesting.</a></strong> <span class='LinkIcon audio'></span> <p class='grayline'>The Jay Shapiro Hour / Sunday, May 06, 2012</p></li><li class='element'><strong class='TLink2'><a  class='title' href='/Radio/News.aspx/3955'>Oil and gas in Israel, and how to keep our marriages alive</a></strong> <span class='LinkIcon audio'></span> <p class='grayline'>Goldstein on Gelt / Sunday, May 06, 2012</p></li><li class='element'><strong class='TLink2'><a  class='title' href='/Radio/News.aspx/3954'>Zionism, Post Zionism and the Arab Problem </a></strong> <span class='LinkIcon audio'></span> <p class='grayline'>News & Call-In with Tamar Yonah / Sunday, May 06, 2012</p></li></ul></div>
+
+        
+        <div class="RightLink" style="margin-top: 5px; clear:both;">
+            <span id="ctl00_ctl00_ctl00_Body_Body_Body_mainpageslist_prevpage_outer" style="float: left"> </span>
+            <style type="text/css"> .c_left { margin-top: 13px !important; }#subStories td a{display:block;padding-left:5px;}#subStories .author,#subStories .date{color:Gray;}#subStories .date{font-size:8pt;}#subStories .more{padding-top:15px;display:inline-block;text-transform:capitalize;color:#12417A;font-weight:bold;}#moreArrViews .grayline{margin-bottom:15px;}
+            .listimage{float:left;margin-right:10px;padding-bottom:7px;}
+            .element{clear:both;}
+            </style>
+            <span style="text-decoration: underline; float: right; margin-right: 39px">
+             </span>
+        </div>
+</div>
+
+    
+
+</div>
+</div></div>
+    <div style="clear: both; width: 642px; height: 2px;"></div>
+
+			
+		
+		<footer><div style="width:1000px;clear:both;">
+<div class="divTopInBox"><div id='z249inn' class='znn  '></div><div id='z204inn' class='znn  '></div><div class="clf"></div></div></div>
+		<div class="divFooter" id="Footer" style="width:1000px;margin:20px 0px;">
+<div  class="d"><div class="Links">
+
+<a href='/' onclick='Info.LogC([403,0,25,"/"]);'>Home page</a>, <a href='/More/ActivePage.aspx/Contact'>Contact</a>, <a href='/More/ActivePage.aspx/Staff'>Staff</a>, <a href='/More/ActivePage.aspx/Info'>Advertise</a>, <a href='http://www.beteltours.com/'>Israel Tours</a>, <a href='http://www.inn.co.il/'> חדשות ערוץ 7</a>
+<!--<a href="/">Home Page</a> |  <a href="/More/ActivePage.aspx/Contact"></a> | <a href="/More/ActivePage.aspx/Staff">Staff</a> | <a href="/More/ActivePage.aspx/Info">Advertise</a> | <a href="http://www.beteltours.com/" rel="nofollow">Israel Tours</a> |  <a href="http://www.inn.co.il/">חדשות ערוץ 7</a>-->
+
+
+</div>&copy; Arutz Sheva, All Rights Reserved</div>
+
+<div class="logos"><a class="cdn" rel="nofollow" href="http://www.cotendo.com"></a>
+<a class="a7" rel="nofollow" href="/" title="Israel News"></a></div>
+
+<table id="FooterL"><tbody>
+
+<tr><td><h4>Main</h4>
+<a onmousemove="this.href=&quot;/&quot;" href="#">Homepage</a>
+<a href="/Articles/">Op-Eds</a><a href="/Articles/Yahadut.aspx">Judaism</a>
+<a href="/Forecast.aspx">Forecast</a>
+<a href="/More/ActivePage.aspx/Useful">Services</a>
+<a href="/More/Album.aspx/3001">Caricature</a><a href="/More/Album.aspx/2">Israel Pics</a>
+</td><td><h4><a href="/">News</a></h4>
+<a href="/More/ActivePage.aspx/AreaEmail"><b>Send Us Breaking News</b></a>
+<a href="/News/AllFlashes.aspx">News Briefs</a>
+<td><h4>More</h4><a href="/Blogs/">Blogs</a></td><td><h4>Radio</h4>
+<a href="#" onclick="Radio.OpenPlayer()">Live</a><a href="/Radio/Programs.aspx">Recorded Shows</a><a href="/Radio/Jukebox.aspx">Jukebox</a>
+</td><td><h4>Forums</h4>
+<a href="/Forum/">Main</a>
+<a href="/Forum/lmf_Active.aspx">Favorites</a>
+<a href="/My/">Personal Messages</a><br>
+</td>
+
+<td><h4>Sites Of Interest</h4><a onclick='Info.LogC([408,0,0,208])' href='http://www.judaica-mall.com'>Judaica Mall - Jewish Gifts,</a><a onclick='Info.LogC([408,0,0,208])' href='http://www.mostoriginal.com/Judaica/'>Jewish Gifts</a><a onclick='Info.LogC([408,0,0,208])' href='http://www.thevideoadnetwork.com/#/e-teacher/4539328360'>Learn English - Watch Video,</a><a onclick='Info.LogC([408,0,0,208])' href='http://www.ajudaica.com/category/22/Kippot/'>Kippah - Yarmulkes,</a><a onclick='Info.LogC([408,0,0,208])' href='http://www.facebook.com/3DailyJewishMusicVideos#!/3DailyJewishMusicVideos?v=wall'>Jewish Music Video</a><a onclick='Info.LogC([408,0,0,208])' href='http://www.dkatom.com/Home---Dapei-Katom.html'>Yesha Businesses</a><a onclick='Info.LogC([408,0,0,208])' href='http://www.livekotel.com/a_freecam_1.cfm?affid=20'>Kotel Cam,</a><a onclick='Info.LogC([408,0,0,208])' href='http://www.israelvideonetwork.com'>Israel Videos</a><a onclick='Info.LogC([408,0,0,208])' href='http://wejew.com/media/9880/Shlock_Rock_-_A_Shabbat_in_Liverpool_-_CD_Trailer/'>Shlock Rock</a></td>
+
+</tr>
+</tbody></table></div></footer>
+		
+		</div>
+		<script type="text/javascript">SetDefaultInput("SearchQuery",LangText.Search);</script>
+		</div>
+<script type="text/javascript">Info.Add(100074,'z208inn',{});Info.Add(100008,'z174inn',{});Info.Add(100150,'z238inn',{});Info.Add(100153,'z249inn',{});Info.Add(100151,'z204inn',{});</script>
+
+    
+
+<script type="text/javascript">   Info.Final();</script>
+<div id='z254inn' class='znn  '>
+<!-- Quantcast Tag -->
+<script type="text/javascript">
+var _qevents = _qevents || [];
+
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+qacct:"p-9bo55o-pip8j2"
+});
+</script>
+
+<noscript>
+<div style="display:none;">
+<img src="//pixel.quantserve.com/pixel/p-9bo55o-pip8j2.gif" border="0" height="1" width="1" alt="Quantcast"/>
+</div>
+</noscript>
+<!-- End Quantcast tag --></div><div id='z187inn' class='znn  '><script type="text/javascript">
+    var infolink_pid = 266851;
+    var infolink_wsid = 0;
+</script>
+<script type="text/javascript" src="http://resources.infolinks.com/js/infolinks_main.js"></script></div>
+	
+    
+    
+
+	<noscript>
+		<div>
+			<img src="http://s.analytics.yahoo.com/p.pl?a=1000192368345&js=no" width="1" height="1"
+				alt="" /></div>
+	</noscript>
+</body>
+</html>

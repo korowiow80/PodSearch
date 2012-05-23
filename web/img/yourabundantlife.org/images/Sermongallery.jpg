@@ -1,0 +1,414 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" ><head><title>Abundant Life Family Church a Pentecostal Church of God</title><meta http-equiv="Content-Type" content="text/html; _ISO" /><meta http-equiv="Content-Style-Type" content="text/css" /><link href="http://yourabundantlife.org/wp-content/themes/s5_touch_of_soul/favicon.ico" rel="shortcut icon" type="image/x-icon" /><script type="text/javascript" src="http://yourabundantlife.org/wp-content/themes/s5_touch_of_soul/s5_admin/js/mootools124.js"></script>
+<link href="http://yourabundantlife.org/wp-content/themes/s5_touch_of_soul/touch/css/template_css.css" rel="stylesheet" type="text/css" media="screen" />
+
+<link href="http://yourabundantlife.org/wp-content/themes/s5_touch_of_soul/touch/css/s5_suckerfish.css" rel="stylesheet" type="text/css" media="screen" />
+
+<link href="http://yourabundantlife.org/wp-content/themes/s5_touch_of_soul/touch/css/editor.css" rel="stylesheet" type="text/css" media="screen" />
+
+<link href="http://yourabundantlife.org/wp-content/themes/s5_touch_of_soul/touch/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+<script type="text/javascript" src="http://yourabundantlife.org/wp-content/themes/s5_touch_of_soul/touch/js/jquery13.js"></script>
+<script type="text/javascript" src="http://yourabundantlife.org/wp-content/themes/s5_touch_of_soul/touch/js/jquery.no.conflict.js"></script>
+<script type="text/javascript">
+function s5_jqmainmenu(){
+jQuery(" #navlist ul ").css({display: "none"}); // Opera Fix
+jQuery(" #s5_navv li").hover(function(){
+		jQuery(this).find('ul:first').css({visibility: "visible",display: "none"}).fadeIn("fast");
+		},function(){jQuery(this).find('ul:first').css({visibility: "hidden"});	});}
+  jQuery(document).ready(function(){ s5_jqmainmenu();});
+</script>
+
+		<link rel="stylesheet" href="http://yourabundantlife.org/wp-content/themes/s5_touch_of_soul/touch/css/lytebox.css" type="text/css" media="screen" />
+		<script type="text/javascript" language="javascript" src="http://yourabundantlife.org/wp-content/themes/s5_touch_of_soul/touch/js/lytebox.js"></script>
+
+
+
+<style type="text/css">
+
+
+
+body {
+background:#000000  url(http://yourabundantlife.org/wp-content/themes/s5_touch_of_soul/touch/images/s5_background.jpg) repeat-x top center;
+}
+
+
+
+
+#s5_content_wrap_inner {
+background:none;
+}
+
+#s5_content_wrap_inner {
+padding-top:0px;
+}
+
+
+#s5_navv ul li.active a.active, #s5_navv a:hover, #s5_navv a.sfhover, .s5_h3_first, #s5_bottom_wrap ul.menu ul a, #s5_right .module_round_box ul.menu #current a, #s5_left .module_round_box ul.menu #current a, #s5_left .module_round_box div ul.s5_am_innermenu a, #s5_right .module_round_box div ul.s5_am_innermenu a {
+color:#F8F59C;
+}
+
+#s5_navv ul li.active {
+	background:#F8F59C url(http://yourabundantlife.org/wp-content/themes/s5_touch_of_soul/touch/images/s5_menu_active.png) no-repeat top center;
+}
+
+#s5_navv ul li.active:hover, #s5_navv ul li.active.sfhover {
+	background:#F8F59C url(http://yourabundantlife.org/wp-content/themes/s5_touch_of_soul/touch/images/s5_menu_active_hover.png) no-repeat top center;
+}
+
+#s5_navv ul li ul li.active {
+	background:none;
+}
+
+#s5_navv ul li:hover, #s5_navv ul li.sfhover, #s5_navv ul li ul li.active:hover, #s5_navv ul li ul li.active.sfhover {
+	background:url(http://yourabundantlife.org/wp-content/themes/s5_touch_of_soul/touch/images/s5_menu_hover.png) no-repeat top center;
+}
+
+a, .contentheading, .componentheading, #cboxLoadedContent div.module h3, #s5_left div.module_round_box-light ul.menu a, #s5_right div.module_round_box-light ul.menu a {
+color:#DE4409;
+}
+
+.s5_ts_active {
+	background:#DE4409 url(http://yourabundantlife.org/wp-content/themes/s5_touch_of_soul/touch/images/s5_ts_l.png) no-repeat top left;
+}
+
+#s5_footer {
+	border-bottom:solid 4px #DE4409;
+}
+
+
+</style>
+
+<link rel="alternate" type="application/rss+xml" title="Abundant Life Family Church a Pentecostal Church of God &raquo; Feed" href="http://yourabundantlife.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Abundant Life Family Church a Pentecostal Church of God &raquo; Comments Feed" href="http://yourabundantlife.org/comments/feed/" />
+<link rel='stylesheet' id='fblb-css-css'  href='http://yourabundantlife.org/wp-content/plugins/arscode-social-slider-free/fblb.css?ver=3.3.2' type='text/css' media='all' />
+<!--[if lte IE 7]>
+<link rel='stylesheet' id='fblb-css-ie7-css'  href='http://yourabundantlife.org/wp-content/plugins/arscode-social-slider-free/ie7.css?ver=3.3.2' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='style.css-css'  href='http://yourabundantlife.org/wp-content/themes/s5_touch_of_soul/style.css?ver=3.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='podpress_frontend_styles-css'  href='http://yourabundantlife.org/wp-content/plugins/podpress/podpress.css?ver=3.3.2' type='text/css' media='all' />
+<script type="text/javascript">
+//<![CDATA[
+var podpressL10 = {
+	openblogagain : 'back to:',
+	theblog : 'the blog',
+	close : 'close',
+	playbutton : 'Play &gt;'
+}
+//]]>
+</script>
+<script type="text/javascript">//<![CDATA[
+var podPressBlogURL = "http://yourabundantlife.org/";
+var podPressBackendURL = "http://yourabundantlife.org/wp-content/plugins/podpress/";
+var podPressDefaultPreviewImage = "http://yourabundantlife.org/image/Sermongallery.jpg";
+var podPressPlayerFile = "podango_player.swf";
+var podPressMP3PlayerOptions = "&amp;lefticon=0x990000&amp;leftbg=0xCCCCCC&amp;volslider=0x990000&amp;voltrack=0xFFFFFF&amp;text=0x333333&amp;tracker=0xDDDDDD&amp;slider=0x666666&amp;loader=0x009900&amp;track=0xFFFFFF&amp;border=0xCCCCCC&amp;bg=0xE5E5E5&amp;skip=0x666666&amp;righticon=0x990000&amp;righticonhover=0xFFFFFF&amp;rightbg=0xB4B4B4&amp;rightbghover=0x999999&amp;initialvolume=70&amp;buffer=5&amp;checkpolicy=no&amp;";
+var podPressMP3PlayerWrapper = false;
+var podPress_cortado_signed = false;
+var podPressOverwriteTitleandArtist = true;
+var podPressHTML5 = true;
+var podPressHTML5_showplayersdirectly = true;
+var podPressText_PlayNow = "Play Now";
+var podPressText_HidePlayer = "Hide Player";
+//]]></script>
+<script type='text/javascript' src='http://yourabundantlife.org/wp-includes/js/jquery/jquery.js?ver=1.7.1'></script>
+<script type='text/javascript' src='http://yourabundantlife.org/wp-content/plugins/arscode-social-slider-free/js/userscripts.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://yourabundantlife.org/wp-content/plugins/facebook-activity-feed-widget-for-wordpress/jscolor/jscolor.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://yourabundantlife.org/wp-content/plugins/podpress/js/podpress.js?ver=3.3.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://yourabundantlife.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://yourabundantlife.org/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.3.2" />
+
+</head>
+
+<body id="s5_body">
+
+
+
+<div id="s5_top_bar">
+
+</div>
+
+<div id="s5_outer_wrap">
+
+	<div id="s5_outer_wrap_inner" style="width:960px">
+
+		<div id="s5_logo_wrap" style="width:960px">
+
+		<a href="http://yourabundantlife.org" style="position:absolute; float:left; width:320px; height:80px; margin-top:40px"></a>
+
+			
+				<div id="s5_login_search_wrap">
+
+					
+					
+											<div id="s5_top_menu">
+							<div id="text-77" class="moduletable">			<div class="textwidget"><div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=152977378313";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-like" data-href="http://www.facebook.com/pages/Abundant-Life-Family-Church/272090252856952?sk=wall" data-send="false" data-width="200" data-show-faces="false" data-colorscheme="dark" data-font="lucida grande"></div></div>
+		</div><div id="nav_menu-3" class="moduletable"><div class="menu-top-menu-container"><ul id="menu-top-menu" class="menu"></ul></div></div>						</div>
+					
+											<div id="s5_search">
+							<div id="search-3" class="moduletable"><form method="get" id="searchform" action="http://yourabundantlife.org/" ><input type="hidden" name="PHPSESSID" value="c0e5436359856ac295543dd1ff8717f0" />
+	<div><label class="screen-reader-text" for="s">Search for:</label>
+	<input type="text" value="" name="s" id="s" />
+	<input type="submit" id="searchsubmit" value="Search" />
+	</div>
+	</form></div>						</div>
+					
+				</div>
+
+			
+		</div>
+
+		<div id="s5_bottom_wrap">
+
+			<div style="clear:both"></div>
+
+				
+					<div id="s5_left" style="width:235px">
+					<div id="s5_left_inner">
+
+						<div id="text-27" class="module_round_box"><h3 class="s5_mod_h3"><span class="s5_h3_first">Service and Worship Times</span></h3><div><div><div>			<div class="textwidget"><ul class="ul_bullet_small">
+<li><strong>Sunday School All Ages - 9:45AM</strong></li>
+<li><strong>Sunday Morning Worship Service - 10:30AM</strong></li>
+<li><strong>Sunday Evening Worship Service - 6:00PM</strong></li>
+<li><strong>Tuesday Prayer Meeting - 11:00AM</strong></li>
+<li><strong>Wednesday Bible Study Service - 7:00PM</strong></li>
+</ul></div>
+		<div style="clear:both; height:0px"></div></div></div></div></div><div id="text-3" class="module_round_box"><h3 class="s5_mod_h3"><span class="s5_h3_first">Helpful Links and Resources</span></h3><div><div><div>			<div class="textwidget"><ul class="menu"><li class="item136"><a href="http://yourabundantlife.org"><span>Read the Pastor's Blog</span></a></li><li class="item137"><a href="http://somopcg.org"><span>Southern Missouri District PCG</span></a></li><li class="item138"><a href="http://impactsomo.com/"><span>ImpactSOMO</span></a></li><li class="item139"><a href="http://impactsomo.com/impactsomo%20summer%20camp.html"><span>River Pointe Summer Camps</span></a></li></a></li><li class="item139"><a href="http://pcg.org"><span>Pentecostal Church of God</span></a></li><li class="item140"><a href="http://yourabundantlife.org/feed/podcast"><span>Listen to Our Sermons</span></a></li></ul>
+<p></p>
+<a href="http://itunes.apple.com/us/podcast/alfc-sermon-gallery/id507469645?uo=4" target="itunes_store">ALFC Sermon Gallery on iTunes</a></div>
+		<div style="clear:both; height:0px"></div></div></div></div></div><div id="text-58" class="module_round_box-light"><h3 class="s5_mod_h3-light"><span class="s5_h3_first">Get Directions To Our Church</span></h3><div><div><div>			<div class="textwidget">			Please enter your address below.<div style="height:9px"></div>
+
+<!-- Form -->
+
+<div style="width:80%;">
+<form name="form1" action=""><input type="hidden" name="PHPSESSID" value="c0e5436359856ac295543dd1ff8717f0" />
+
+<div>Address:
+<input style="width:100%" class="inputbox" name="saddr" type="text" /></div>
+
+<div>City:
+<input style="width:100%" class="inputbox" name="saddr2" type="text" /></div>
+
+<div>State:
+<input style="width:100%" class="inputbox" name="saddr22" type="text" /></div>
+
+<div>Zip:
+<input style="width:100%" class="inputbox" name="saddr222" type="text" /></div>
+<div style="margin-top:5px; margin-bottom:5px">
+<input class="button" value="Submit" name="checkit" onclick="javascript:GetDirections();return false;" type="submit" />
+</div>
+</form>
+<script type="text/javascript">			
+//<![CDATA[
+		function GetDirections()
+		{				
+			var SourceAdress = 'saddr=';
+			var DestinationAddress = 'daddr=' + '3098 Highway 221' + ', ' + 'Farmington' + ', ' + 'MO' + ' ' + '63640'; //destination address pulled from admin
+			var Url = '';
+
+			//read out source adress from the input field
+			SourceAdress += document.form1.saddr.value + ',' + document.form1.saddr2.value + ',' + document.form1.saddr22.value + ',' + document.form1.saddr222.value;	
+			//form the url 
+			Url = "http://maps.google.com/maps?" + SourceAdress + "&" + DestinationAddress; // + ',output,html';	
+			
+				//you can use the line below to show the directions in a popup window, don;t forget to comment out the line above... 
+			window.open(Url,'directions','width=1024,height=768,scrollbars=yes,toolbar=no,location=no, resizable=no'); 			
+		}
+//]]>
+	</script>
+</div></div>
+		<div style="clear:both; height:0px"></div></div></div></div></div>
+		<div id="s5_acc_mnu-2" class="module_round_box">		<h3 class="s5_mod_h3"><span class="s5_h3_first">S5 Accordion Menu</span></h3><div><div><div>		
+    <div id="s5_accordion_menu"><div>
+    <h3  class="s5_am_not_parent not_parent"><span class="s5_accordion_menu_left"><a class="mainlevel" href="http://yourabundantlife.org/">	<span>Home</span></a></span></h3><div class="s5_accordion_menu_element" style="overflow: hidden; padding: 0px; margin: 0px; opacity: 0; border: medium none; display: block; height: 0px; visibility: hidden;"></div><h3  class="s5_am_parent s5_am_toggler"><span class="s5_accordion_menu_left"><a class="mainlevel" href="http://yourabundantlife.org/about-alfc/"><span>About ALFC</span></a></span></h3><div class="s5_accordion_menu_element" style="overflow: hidden; padding: 0px; margin: 0px; opacity: 0; border: medium none; display: block; height: 0px; visibility: hidden;">
+		<ul class="s5_am_innermenu"><li class="s5_am_inner_li"><span class="s5_accordion_menu_left"><a href="http://yourabundantlife.org/about-alfc/our-purpose/" class="mainlevel"><span>Our Purpose</span></a></span></li><li class="s5_am_inner_li"><span class="s5_accordion_menu_left"><a href="http://yourabundantlife.org/about-alfc/statement-of-faith/" class="mainlevel"><span>Statement of Faith</span></a></span></li><li class="s5_am_inner_li"><span class="s5_accordion_menu_left"><a href="http://yourabundantlife.org/about-alfc/eterniy-are-you-ready/" class="mainlevel"><span>Eterniy:  Are You Ready</span></a></span></li><li class="s5_am_inner_li"><span class="s5_accordion_menu_left"><a href="http://yourabundantlife.org/about-alfc/alfc-the-early-years-a-slideshow-of-our-beginning/" class="mainlevel"><span>ALFC - The Early Years </span></a></span></li></ul></div><h3  class="s5_am_parent s5_am_toggler"><span class="s5_accordion_menu_left"><a class="mainlevel" href="http://yourabundantlife.org/the-pastors-2/"><span>The Pastors</span></a></span></h3><div class="s5_accordion_menu_element" style="overflow: hidden; padding: 0px; margin: 0px; opacity: 0; border: medium none; display: block; height: 0px; visibility: hidden;">
+		<ul class="s5_am_innermenu"><li class="s5_am_inner_li"><span class="s5_accordion_menu_left"><a href="http://yourabundantlife.org/the-pastors-2/pastor-rick-hensley-2/" class="mainlevel"><span>Pastor Rick Hensley</span></a></span></li></ul></div><h3  class="s5_am_parent s5_am_toggler"><span class="s5_accordion_menu_left"><a class="mainlevel" href="http://yourabundantlife.org/ministries/"><span>Ministries</span></a></span></h3><div class="s5_accordion_menu_element" style="overflow: hidden; padding: 0px; margin: 0px; opacity: 0; border: medium none; display: block; height: 0px; visibility: hidden;">
+		<ul class="s5_am_innermenu"><li class="s5_am_inner_li"><span class="s5_accordion_menu_left"><a href="http://yourabundantlife.org/ministries/children-ministry/" class="mainlevel"><span>Children Ministry</span></a></span><ul class="s5_am_innermenu"><li class="s5_am_inner_li"><span class="s5_accordion_menu_left"><a href="http://yourabundantlife.org/ministries/children-ministry/vbs-babylon-daniels-courage-in-captivity/" class="mainlevel"><span>VBS - Registration</span></a></span></li><li class="s5_am_inner_li"><span class="s5_accordion_menu_left"><a href="http://yourabundantlife.org/ministries/children-ministry/bible-quizzing/" class="mainlevel"><span>Bible Quizzing</span></a></span></li><li class="s5_am_inner_li"><span class="s5_accordion_menu_left"><a href="http://yourabundantlife.org/ministries/children-ministry/children-church-and-age-groups/" class="mainlevel"><span>Children Church and Age Groups</span></a></span></li><li class="s5_am_inner_li"><span class="s5_accordion_menu_left"><a href="http://yourabundantlife.org/ministries/children-ministry/teen-ministry/" class="mainlevel"><span>Teen Ministry</span></a></span></li></ul></li><li class="s5_am_inner_li"><span class="s5_accordion_menu_left"><a href="http://yourabundantlife.org/ministries/adult-bible-study/" class="mainlevel"><span>Adult Bible Study</span></a></span></li><li class="s5_am_inner_li"><span class="s5_accordion_menu_left"><a href="http://yourabundantlife.org/ministries/the-abundant-life-family-church-drama-team-annointed/" class="mainlevel"><span>Drama Team</span></a></span></li></ul></div><h3  class="s5_am_not_parent s5_am_toggler"><span class="s5_accordion_menu_left"><a class="mainlevel" href="http://yourabundantlife.org/contact-us/"><span>Contact Us</span></a></span></h3><div class="s5_accordion_menu_element" style="overflow: hidden; padding: 0px; margin: 0px; opacity: 0; border: medium none; display: block; height: 0px; visibility: hidden;"></div>    </div></div>
+
+    <div style="clear:both; height:0px"></div></div></div></div></div>		<script type="text/javascript">
+      var s5_am_parent_link_enabled = "1";
+                   var s5_accordion_menu_display = "block";
+          </script>
+
+
+        
+					<div style="clear:both"></div>
+					</div>
+					</div>
+
+				
+				<div id="s5_left_shadow"></div>
+
+				
+				<div id="s5_right_shadow"></div>
+
+				<div id="s5_middle" style="width:725px">
+				<div id="s5_middle_inner">
+
+					
+						<div id="s5_menu">
+
+							<div id="s5_navv">
+
+								<ul><li ><span class="s5_outer_active"><span><a class="active" href="http://yourabundantlife.org/">Home<span class="s5_bottom_text"></span></a><span class="s5_outerr"></span></span></span></li><li class=" s5_level_one_parent"><span class="s5_outer_active"><span><a class="active" href="http://yourabundantlife.org/about-alfc/">About ALFC<span class="s5_bottom_text"></span></a><span class="s5_outerr"></span></span></span><ul style="visibility: hidden; display: block;"><li class="noback "><span><span class="span_nonactive"><a class="sub " href="http://yourabundantlife.org/about-alfc/our-purpose/">Our Purpose</a></span></span></li><li class="noback "><span><span class="span_nonactive"><a class="sub " href="http://yourabundantlife.org/about-alfc/statement-of-faith/">Statement of Faith</a></span></span></li><li class="noback "><span><span class="span_nonactive"><a class="sub " href="http://yourabundantlife.org/about-alfc/eterniy-are-you-ready/">Eterniy:  Are You Ready</a></span></span></li><li class="noback "><span><span class="span_nonactive"><a class="sub " href="http://yourabundantlife.org/about-alfc/alfc-the-early-years-a-slideshow-of-our-beginning/">ALFC - The Early Years </a></span></span></li></ul></li><li class=" s5_level_one_parent"><span class="s5_outer_active"><span><a class="active" href="http://yourabundantlife.org/the-pastors-2/">The Pastors<span class="s5_bottom_text"></span></a><span class="s5_outerr"></span></span></span><ul style="visibility: hidden; display: block;"><li class="noback "><span><span class="span_nonactive"><a class="sub " href="http://yourabundantlife.org/the-pastors-2/pastor-rick-hensley-2/">Pastor Rick Hensley</a></span></span></li></ul></li><li class=" s5_level_one_parent"><span class="s5_outer_active"><span><a class="active" href="http://yourabundantlife.org/ministries/">Ministries<span class="s5_bottom_text"></span></a><span class="s5_outerr"></span></span></span><ul style="visibility: hidden; display: block;"><li class="noback parent"><span><span class="span_nonactive"><a class="sub parent" href="http://yourabundantlife.org/ministries/children-ministry/">Children Ministry</a></span></span><ul><li><span><span class="span_nonactive"><a class="sub " href="http://yourabundantlife.org/ministries/children-ministry/vbs-babylon-daniels-courage-in-captivity/">VBS - Registration</a></span></span></li><li><span><span class="span_nonactive"><a class="sub " href="http://yourabundantlife.org/ministries/children-ministry/bible-quizzing/">Bible Quizzing</a></span></span></li><li><span><span class="span_nonactive"><a class="sub " href="http://yourabundantlife.org/ministries/children-ministry/children-church-and-age-groups/">Children Church and Age Groups</a></span></span></li><li><span><span class="span_nonactive"><a class="sub " href="http://yourabundantlife.org/ministries/children-ministry/teen-ministry/">Teen Ministry</a></span></span></li></ul></li><li class="noback "><span><span class="span_nonactive"><a class="sub " href="http://yourabundantlife.org/ministries/adult-bible-study/">Adult Bible Study</a></span></span></li><li class="noback "><span><span class="span_nonactive"><a class="sub " href="http://yourabundantlife.org/ministries/the-abundant-life-family-church-drama-team-annointed/">Drama Team</a></span></span></li></ul></li><li class=" s5_am_not_parent"><span class="s5_outer_active"><span><a class="active" href="http://yourabundantlife.org/contact-us/">Contact Us<span class="s5_bottom_text"></span></a><span class="s5_outerr"></span></span></span></li></ul>
+							</div>
+
+						</div>
+
+					
+					
+					<div id="s5_content_wrap" style="width:725px">
+
+						
+							<div id="s5_breadcrumb_wrap" style="width:773px">
+
+								<div id="s5_bread_l"></div>
+
+								<div id="s5_bread_m" style="width:725px">
+
+									<div id="s5_pathway">
+
+										<div class="moduletable"><span class="breadcrumbs pathway"><a class="pathway" href="http://yourabundantlife.org">Abundant Life Family Church a Pentecostal Church of God</a></span></div>
+									</div>
+
+								</div>
+
+								<div id="s5_bread_r"></div>
+
+
+							</div>
+
+						
+						
+
+						<div id="s5_content_wrap_inner_wrap">
+						<div id="s5_content_wrap_inner">
+
+							
+							
+							<div style="clear:both"></div>
+
+							
+							<div id="s5_component_wrap">
+							<div id="s5_component_wrap_inner">
+
+																<div id="s5_body_column" style="width:387px">
+																								<div id="s5_body_column_inner">
+
+									
+
+	<div id="post-0" class="post error404 not-found">
+		<div class="s5_b_modwrap"><table class="contentpaneopen"><tbody><tr><td class="contentheading" width="100%">			Not Found		</td></tr></tbody></table><div class="contentpaneopen"><!--%date_block%--><div style="text-transform:none;"><!--%thumb_block%-->				<p>Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post.</p>
+			<form method="get" id="searchform" action="http://yourabundantlife.org/" ><input type="hidden" name="PHPSESSID" value="c0e5436359856ac295543dd1ff8717f0" />
+	<div><label class="screen-reader-text" for="s">Search for:</label>
+	<input type="text" value="" name="s" id="s" />
+	<input type="submit" id="searchsubmit" value="Search" />
+	</div>
+	</form>		<div style="clear:both;"></div></div></div><span class="article_separator">&nbsp;</span></div>		<!-- .entry-content -->
+	</div><!-- #post-0 -->
+
+
+
+
+
+								</div>
+								</div>
+
+								
+									<div id="s5_inset_column" style="width:220px">
+									<div id="s5_inset_column_inner">
+
+										<div id="query-posts-3" class="moduletable"><!--ALFC Most Recent Sermons--><div class='post-1574 post type-post status-publish format-standard hentry category-sermons category-sermons-sunday-pm'><h2 class='entry-title'><a href='http://yourabundantlife.org/may-20-gifts-of-the-spirit-vocal-gifts/' title='May 20 &#8211; Gifts of the Spirit &#8220;Vocal Gifts&#8221;' rel='bookmark'>May 20 &#8211; Gifts of the Spirit &#8220;Vocal Gifts&#8221;</a></h2><p class='byline'><abbr class="published" title="Monday, May 21st, 2012, 3:21 pm">May 21, 2012</abbr></p></div><div class='post-1569 post type-post status-publish format-standard hentry category-sermons category-sermons-sunday-am'><h2 class='entry-title'><a href='http://yourabundantlife.org/the-river-of-the-holy-spirit-part-3/' title='May 20 &#8211; The River of the Holy Spirit &#8211; Part 3' rel='bookmark'>May 20 &#8211; The River of the Holy Spirit &#8211; Part 3</a></h2><p class='byline'><abbr class="published" title="Monday, May 21st, 2012, 3:13 pm">May 21, 2012</abbr></p></div><div class='post-1566 post type-post status-publish format-standard hentry category-sermons category-wednesday-night-bible-study'><h2 class='entry-title'><a href='http://yourabundantlife.org/unity-part-3/' title='Unity &#8211; Part 3' rel='bookmark'>Unity &#8211; Part 3</a></h2><p class='byline'><abbr class="published" title="Thursday, May 17th, 2012, 2:39 pm">May 17, 2012</abbr></p></div><div class='post-1563 post type-post status-publish format-standard hentry category-sermons category-sermons-sunday-am'><h2 class='entry-title'><a href='http://yourabundantlife.org/may-13-what-to-do-when-the-waves-are-crashing/' title='May 13 &#8211; What To Do When the Waves are Crashing' rel='bookmark'>May 13 &#8211; What To Do When the Waves are Crashing</a></h2><p class='byline'><abbr class="published" title="Sunday, May 13th, 2012, 11:38 pm">May 13, 2012</abbr></p></div><div class='post-1561 post type-post status-publish format-standard hentry category-sermons category-wednesday-night-bible-study'><h2 class='entry-title'><a href='http://yourabundantlife.org/may-9-unity-part-2/' title='May 9 &#8211; Unity &#8211; Part 2' rel='bookmark'>May 9 &#8211; Unity &#8211; Part 2</a></h2><p class='byline'><abbr class="published" title="Friday, May 11th, 2012, 12:33 am">May 11, 2012</abbr></p></div><div class='post-1553 post type-post status-publish format-standard hentry category-sermons category-sermons-sunday-pm'><h2 class='entry-title'><a href='http://yourabundantlife.org/may-6-the-valley-of-blessings/' title='May 6 &#8211; The Valley of Blessings' rel='bookmark'>May 6 &#8211; The Valley of Blessings</a></h2><p class='byline'><abbr class="published" title="Monday, May 7th, 2012, 12:41 pm">May 7, 2012</abbr></p></div><div class='post-1551 post type-post status-publish format-standard hentry category-sermons category-wednesday-night-bible-study'><h2 class='entry-title'><a href='http://yourabundantlife.org/may-2-unity-of-the-bible/' title='May 2 &#8211; Unity of the Bible' rel='bookmark'>May 2 &#8211; Unity of the Bible</a></h2><p class='byline'><abbr class="published" title="Monday, May 7th, 2012, 12:37 pm">May 7, 2012</abbr></p></div><div class='post-1539 post type-post status-publish format-standard hentry category-sermons category-sermons-sunday-pm'><h2 class='entry-title'><a href='http://yourabundantlife.org/april-29-desire-spiritual-gifts-gifts-of-healing/' title='April 29 &#8211; Desire Spiritual Gifts &#8220;Gifts of Healing&#8221;' rel='bookmark'>April 29 &#8211; Desire Spiritual Gifts &#8220;Gifts of Healing&#8221;</a></h2><p class='byline'><abbr class="published" title="Monday, April 30th, 2012, 1:37 am">April 30, 2012</abbr></p></div><div class='post-1532 post type-post status-publish format-standard hentry category-sermons category-sermons-sunday-am'><h2 class='entry-title'><a href='http://yourabundantlife.org/april-29-the-river-of-the-holy-spirit-2/' title='April 29 &#8211; The River of the Holy Spirit 2' rel='bookmark'>April 29 &#8211; The River of the Holy Spirit 2</a></h2><p class='byline'><abbr class="published" title="Sunday, April 29th, 2012, 9:20 pm">April 29, 2012</abbr></p></div><div class='post-1530 post type-post status-publish format-standard hentry category-sermons category-sermons-sunday-pm'><h2 class='entry-title'><a href='http://yourabundantlife.org/april-22-gods-plumb-line/' title='April 22 &#8211; God&#8217;s Plumb Line' rel='bookmark'>April 22 &#8211; God&#8217;s Plumb Line</a></h2><p class='byline'><abbr class="published" title="Sunday, April 29th, 2012, 9:16 pm">April 29, 2012</abbr></p></div></div>
+									</div>
+									</div>
+
+								
+								<div style="clear:both"></div>
+
+							</div>
+							</div>
+
+							
+							
+								<div id="s5_below_body_1">
+								<div id="s5_below_body_1_inner">
+
+									
+								<div style="clear:both"></div>
+								</div>
+								</div>
+
+							
+							
+							<div style="clear:both"></div>
+
+						</div>
+						</div>
+
+					</div>
+
+					<div style="clear:both"></div>
+
+						<div id="s5_footer" style="width:725px">
+
+							<div id="s5_footer_inner">
+
+								<div id="s5_footer_text">
+									
+<span class="footerc">
+Copyright &copy; 2012.  Abundant Life Family Church a Pentecostal Church of God.
+Designed by Shape5.com <a href="http://www.shape5.com/" class="footerc" title="Visit Shape5.com" target="blank">Wordpress Themes</a>
+</span>
+								</div>
+								<div id="s5_bottom_pos">
+									<div id="nav_menu-4" class="moduletable"><div class="menu-top-menu-container"><ul id="menu-top-menu-1" class="menu"></ul></div></div>								</div>
+
+								<div style="clear:both"></div>
+
+							</div>
+
+						</div>
+
+						<div style="clear:both"></div>
+
+				</div>
+				</div>
+
+				<div style="clear:both"></div>
+
+			</div>
+
+	</div>
+
+	<div style="clear:both"></div>
+
+</div>
+
+
+
+		<script type="text/javascript" language="javascript" src="http://yourabundantlife.org/wp-content/themes/s5_touch_of_soul/touch/js/tooltips.js"></script>
+	
+	
+	<script type="text/javascript" language="javascript" src="http://yourabundantlife.org/wp-content/themes/s5_touch_of_soul/touch/js/s5_effects.js"></script>
+
+
+	<script type="text/javascript">
+    var searchBoxId = "s";
+    var searchBoxTerm = "Search The Site...";
+    var searchBox = document.getElementById(searchBoxId);
+    function setSearchValue(id, val) {var searchBox = document.getElementById(id);searchBox.value = val;}
+    setSearchValue(searchBoxId, searchBoxTerm);
+    searchBox.onfocus = function() {if(searchBox.value == "" || searchBox.value == searchBoxTerm){setSearchValue(searchBoxId, "");}}
+    searchBox.onblur = function() {if(searchBox.value == "") {setSearchValue(searchBoxId, searchBoxTerm);}}
+	</script><script src="http://yourabundantlife.org/wp-content/themes/s5_touch_of_soul/s5_admin/plugins/mod_s5_accordion_menu/js/s5_accordion_menu.js" type="text/javascript"></script></body>
+
+</html>

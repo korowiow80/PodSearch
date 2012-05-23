@@ -1,0 +1,362 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang=" ">
+
+<head profile="http://gmpg.org/xfn/11">
+	<title>Wildcast</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="generator" content="WordPress 2.7" />
+	<meta name="template" content="K2 1.0-RC7.1" />
+ 	<meta name="description" content="African wildlife adventures live from the bush" />
+  
+	<link rel="stylesheet" type="text/css" media="screen" href="http://www.wildcast.net/wp-content/themes/k2/style.css" />
+
+		<link rel="stylesheet" type="text/css" href="http://www.wildcast.net/wp-content/themes/k2/styles/wildcast.css" />
+	
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://www.wildcast.net/feed/" />
+	<link rel="alternate" type="text/xml" title="RSS .92" href="http://www.wildcast.net/feed/rss/" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://www.wildcast.net/feed/atom/" />
+
+	
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.wildcast.net/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.wildcast.net/wp-includes/wlwmanifest.xml" /> 
+<script type='text/javascript' src='http://www.wildcast.net/wp-includes/js/jquery/jquery.js?ver=1.2.6'></script>
+<script type='text/javascript' src='http://www.wildcast.net/wp-content/plugins/wordpress-flickr-manager/js/jquery.lightbox.js?ver=2.7'></script>
+<script type='text/javascript' src='http://www.wildcast.net/wp-content/plugins/wordpress-flickr-manager/js/wfm-lightbox.php?ver=2.7'></script>
+<script type='text/javascript' src='http://www.wildcast.net/wp-content/themes/k2/js/k2.functions.js.php?ver=1.0-RC7.1'></script>
+<script type='text/javascript' src='http://www.wildcast.net/wp-content/themes/k2/js/k2.slider.js.php?ver=1.0-RC7.1'></script>
+<script type='text/javascript' src='http://www.wildcast.net/wp-content/themes/k2/js/k2.trimmer.js.php?ver=1.0-RC7.1'></script>
+<script type='text/javascript' src='http://www.wildcast.net/wp-content/themes/k2/js/k2.rollingarchives.js.php?ver=1.0-RC7.1'></script>
+<script type='text/javascript' src='http://www.wildcast.net/wp-content/themes/k2/js/k2.livesearch.js.php?ver=1.0-RC7.1'></script>
+<meta name="generator" content="WordPress 2.7" />
+
+
+	<link rel="stylesheet" href="http://www.wildcast.net/wp-content/themes/k2/ela.css" type="text/css" media="screen" />
+	<link rel="icon" href="http://www.wildcast.net/wp-content/themes/k2/styles/wildcast/icons/kim2.jpg" type="image/jpg" />
+	<link rel="shortcut icon" href="http://www.wildcast.net/wp-content/themes/k2/styles/wildcast/icons/kim2.jpg" type="image/jpg" />
+
+<!-- WFM INSERT LIGHTBOX FILES -->
+<link rel="stylesheet" href="http://www.wildcast.net/wp-content/plugins/wordpress-flickr-manager/css/lightbox.css" type="text/css" />
+<!-- WFM END INSERT -->
+
+					<style type="text/css">
+		
+				#header .blog-title a,
+		#header .description {
+			color: #ffffff;
+		}
+				</style>
+		<style type="text/css">.recentcomments a{display:inline !important;padding: 0 !important;margin: 0 !important;}</style>
+
+	<script type="text/javascript">
+	//<![CDATA[
+	
+		
+		jQuery(document).ready(function(){
+						K2.LiveSearch = new LiveSearch(
+				"http://www.wildcast.net/wp-content/themes/k2/rollingarchive.php",
+				"Type and Wait to Search"
+			);
+			
+						K2.RollingArchives = new RollingArchives(
+				"http://www.wildcast.net/wp-content/themes/k2/theloop.php",
+				"Page %1$d of %2$d"
+			);
+					});
+	//]]>
+	</script>
+
+		<link rel='archives' title='February 2010' href='http://www.wildcast.net/2010/02/' />
+	<link rel='archives' title='January 2010' href='http://www.wildcast.net/2010/01/' />
+	<link rel='archives' title='December 2009' href='http://www.wildcast.net/2009/12/' />
+	<link rel='archives' title='November 2009' href='http://www.wildcast.net/2009/11/' />
+	<link rel='archives' title='October 2009' href='http://www.wildcast.net/2009/10/' />
+	<link rel='archives' title='September 2009' href='http://www.wildcast.net/2009/09/' />
+	<link rel='archives' title='August 2009' href='http://www.wildcast.net/2009/08/' />
+	<link rel='archives' title='July 2009' href='http://www.wildcast.net/2009/07/' />
+	<link rel='archives' title='June 2009' href='http://www.wildcast.net/2009/06/' />
+	<link rel='archives' title='May 2009' href='http://www.wildcast.net/2009/05/' />
+	<link rel='archives' title='April 2009' href='http://www.wildcast.net/2009/04/' />
+	<link rel='archives' title='March 2009' href='http://www.wildcast.net/2009/03/' />
+	<link rel='archives' title='February 2009' href='http://www.wildcast.net/2009/02/' />
+	<link rel='archives' title='January 2009' href='http://www.wildcast.net/2009/01/' />
+	<link rel='archives' title='December 2008' href='http://www.wildcast.net/2008/12/' />
+	<link rel='archives' title='November 2008' href='http://www.wildcast.net/2008/11/' />
+	<link rel='archives' title='October 2008' href='http://www.wildcast.net/2008/10/' />
+	<link rel='archives' title='September 2008' href='http://www.wildcast.net/2008/09/' />
+	<link rel='archives' title='August 2008' href='http://www.wildcast.net/2008/08/' />
+	<link rel='archives' title='July 2008' href='http://www.wildcast.net/2008/07/' />
+	<link rel='archives' title='June 2008' href='http://www.wildcast.net/2008/06/' />
+	<link rel='archives' title='May 2008' href='http://www.wildcast.net/2008/05/' />
+	<link rel='archives' title='April 2008' href='http://www.wildcast.net/2008/04/' />
+	<link rel='archives' title='March 2008' href='http://www.wildcast.net/2008/03/' />
+	<link rel='archives' title='February 2008' href='http://www.wildcast.net/2008/02/' />
+	<link rel='archives' title='January 2008' href='http://www.wildcast.net/2008/01/' />
+	<link rel='archives' title='December 2007' href='http://www.wildcast.net/2007/12/' />
+	<link rel='archives' title='November 2007' href='http://www.wildcast.net/2007/11/' />
+	<link rel='archives' title='October 2007' href='http://www.wildcast.net/2007/10/' />
+	<link rel='archives' title='September 2007' href='http://www.wildcast.net/2007/09/' />
+	<link rel='archives' title='August 2007' href='http://www.wildcast.net/2007/08/' />
+	<link rel='archives' title='July 2007' href='http://www.wildcast.net/2007/07/' />
+	<link rel='archives' title='June 2007' href='http://www.wildcast.net/2007/06/' />
+	<link rel='archives' title='May 2007' href='http://www.wildcast.net/2007/05/' />
+	<link rel='archives' title='April 2007' href='http://www.wildcast.net/2007/04/' />
+	<link rel='archives' title='March 2007' href='http://www.wildcast.net/2007/03/' />
+	<link rel='archives' title='February 2007' href='http://www.wildcast.net/2007/02/' />
+	<link rel='archives' title='January 2007' href='http://www.wildcast.net/2007/01/' />
+	<link rel='archives' title='December 2006' href='http://www.wildcast.net/2006/12/' />
+	<link rel='archives' title='November 2006' href='http://www.wildcast.net/2006/11/' />
+	<link rel='archives' title='October 2006' href='http://www.wildcast.net/2006/10/' />
+	<link rel='archives' title='September 2006' href='http://www.wildcast.net/2006/09/' />
+	<link rel='archives' title='August 2006' href='http://www.wildcast.net/2006/08/' />
+	<link rel='archives' title='July 2006' href='http://www.wildcast.net/2006/07/' />
+</head>
+
+<body class="wordpress k2 y2012 m05 d23 h18 four04 columns-two lang- ">
+
+
+<div id="skip">
+	<a href="#startcontent" accesskey="2">Skip to content</a>
+</div>
+
+<div id="page">
+
+	
+	<div id="header">
+
+				<div class="blog-title"><a href="http://www.wildcast.net/" accesskey="1">Wildcast</a></div>
+		<p class="description">African wildlife adventures live from the bush</p>
+
+		
+	<ul class="menu">
+				<li class="page_item"><a href="http://www.wildcast.net/" title="Home">Home</a></li>
+		
+		
+		<li class="page_item page-item-2"><a href="http://www.wildcast.net/about/" title="About">About</a></li>
+<li class="page_item page-item-186"><a href="http://www.wildcast.net/contact/" title="Contact Us">Contact Us</a></li>
+<li class="page_item page-item-187"><a href="http://www.wildcast.net/photos/" title="Photos">Photos</a></li>
+<li class="page_item page-item-685"><a href="http://www.wildcast.net/mobile/" title="Mobile">Mobile</a></li>
+
+			</ul> <!-- .menu -->
+
+
+	</div> <!-- #header -->
+
+	<hr />
+
+	
+<div class="content">
+	
+<div id="primary-wrapper">
+	<div id="primary">
+		<div id="notices"></div>
+
+		<div id="current-content" class="hfeed">
+			<div class="hentry four04">
+
+				<div class="page-head">
+					<h2>Error 404 - Not Found</h2>
+				</div>
+
+				<div class="entry-content">
+					<p>Oh no! You're looking for something which just isn't here!</p>
+				</div>
+
+			</div> <!-- .hentry .four04 -->
+
+		</div> <!-- #current-content .hfeed -->
+
+		<div id="dynamic-content"></div>
+	</div> <!-- #primary -->
+</div> <!-- #primary-wrapper -->
+
+		<hr />
+<div id="sidebar-1" class="secondary">
+		<div id="text-1" class="widget widget_text">			<h4>About Wildcast</h4>			<div class="textwidget">An acclaimed wildlife filmmaker invites you to join him in making his next African masterpiece.</div>
+		</div><div id="search" class="widget widget_search"><form method="get" id="searchform" action="http://www.wildcast.net">
+	<div id="search-form-wrap">
+		<label for="s" id="search-label">Search for:</label>
+		<input type="text" id="s" name="s" value="" accesskey="4" />
+		<input type="submit" id="searchsubmit" value="Search &raquo;" />
+
+					<span id="searchreset" title="Reset Search" class="hidden"></span>
+			<span id="searchload" class="hidden"></span>
+			</div>
+</form>
+</div>		<div id="text-2" class="widget widget_text">			<h4>Subscribe to Wildcast</h4>			<div class="textwidget"><p>Subscribe to our RSS feed:<a href="http://feeds.feedburner.com/wildcast" title="Subscribe to this site in your newsreader" class="feedlink"><img src="http://www.wildcast.net/wp-content/themes/k2/images/feed.png" alt="RSS" /></a><br/>
+
+<form style="padding:3px;" action="http://www.feedburner.com/fb/a/emailverify" method="post" target="popupwindow" onsubmit="window.open('http://www.feedburner.com', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">Enter your email address:</p>
+<p><input type="text" style="width:140px" name="email"/><input type="hidden" value="http://feeds.feedburner.com/~e?ffid=439975" name="url"/><input type="hidden" value="Wildcast" name="title"/><input type="submit" value="Subscribe" class="subsbutton"/>
+by <a href="http://www.feedburner.com/" target="_blank">FeedBurner</a></form><br/>
+
+<p>Subscribe to our Video Podcast:<a href="http://feeds.feedburner.com/wildcasting" title="Subscribe to podcast" class="feedlink"><img src="http://www.wildcast.net/wp-content/themes/k2/images/feed.png" alt="RSS" /></a></p></div>
+		</div>
+		<div id="recent-comments" class="widget widget_recent_comments">			<h4>Recent Comments</h4>			<ul id="recentcomments"><li class="recentcomments"><a href='http://abnehmenernaehrung.tumblr.com/post/13064796013/rlvog' rel='external nofollow' class='url'>Thad Leitman</a> on <a href="http://www.wildcast.net/2008/03/04/replacing-manyaris-transmitter/comment-page-1/#comment-2558077">Replacing Manyari&#8217;s Transmitter</a></li><li class="recentcomments"><a href='http://www.ineedmoneydesperately.com' rel='external nofollow' class='url'>get cash</a> on <a href="http://www.wildcast.net/2007/12/11/egyptian-goose-family-outing/comment-page-1/#comment-2558025">Egyptian Goose Family Outing</a></li><li class="recentcomments"><a href='http://katalog.mspsoftware.pl/internet,i,komputery/spyphone,s,181/' rel='external nofollow' class='url'>pods&#322;uchy telefon&#243;w</a> on <a href="http://www.wildcast.net/2009/06/05/when-a-rhino-has-no-ears-video/comment-page-1/#comment-2558010">When a Rhino Has No Ears: Video</a></li><li class="recentcomments"><a href='http://stunningceramicwatches.weebly.com/' rel='external nofollow' class='url'>watches for women</a> on <a href="http://www.wildcast.net/2007/07/28/elephant-bulls-swap-places-video/comment-page-1/#comment-2558008">Elephant bulls swap places: Video</a></li><li class="recentcomments"><a href='http://tinyurl.com/7rcyb9d' rel='external nofollow' class='url'>Risikolebensversicherung</a> on <a href="http://www.wildcast.net/2007/04/21/tjololo-21st-april-2000/comment-page-1/#comment-2558002">Tjololo 21st April 2000</a></li></ul>
+		</div>		<div id="text-7" class="widget widget_text">						<div class="textwidget"><a href="http://www.wildlifefilmacademy.com" target="_blank"><img src="http://wildcast.net/wp-content/themes/k2/styles/wildcast/headers/wfa3.jpg" width="184" height="56" border="0"></a><br/><br/>
+<a href="http://www.wildcast.net/category/tjdiaries/"><img src="http://wildcast.net/wp-content/themes/k2/styles/wildcast/banners/tjbanner.jpg" border="0"></a><br/><br/>
+<a href="http://www.wildcast.net/category/bushmen/"><img src="http://wildcast.net/wp-content/themes/k2/styles/wildcast/banners/rockartbanner.jpg" border="0"></a>
+</div>
+		</div><div id="linkcat-12" class="widget widget_links"><h4>Links</h4>
+	<ul class='xoxo blogroll'>
+<li><a href="http://channel.nationalgeographic.com/channel/ET/popup/200609022200.html" title="Kim&#8217;s latest documentary, showing at National Geographic in September 2006">Hyenas at War</a></li>
+<li><a href="http://www7.nationalgeographic.com/ngm/data/2001/10/01/html/ft_20011001.5.html" title="National Geographic feature story in which Kim describes his interactions with Tjololo, the young male leopard that was the subject of his award-winning documentary">Tjololo - Tracking the Leopard</a></li>
+<li><a href="http://www.flickr.com/photos/wildcast/" title="Check out our photostream on Flickr to explore all of the images taken during the project.">Wildcast on Flickr</a></li>
+<li><a href="http://www.wildcast.net/wp-content/uploads/2006/08/malilangwe.kmz" title="Click here to visit the Wildcast location on Google Earth.">Wildcast on Google Earth</a></li>
+<li><a href="http://www.youtube.com/wildcasting" title="Click here to visit the Wildcast video channel on YouTube">Wildcast on YouTube</a></li>
+
+	</ul>
+</div>
+		<div id="text-6" class="widget widget_text">						<div class="textwidget"><!-- Start AMATOMU.COM code-->
+<script src="http://www.amatomu.com/embed.php?blog_id=681"></script>
+<!-- End AMATOMU.COM code --></div>
+		</div><div id="calendar" class="widget widget_calendar"><h4>Wildcast Calendar</h4><div id="calendar_wrap"><table id="wp-calendar" summary="Calendar">
+	<caption>May 2012</caption>
+	<thead>
+	<tr>
+		<th abbr="Monday" scope="col" title="Monday">M</th>
+		<th abbr="Tuesday" scope="col" title="Tuesday">T</th>
+		<th abbr="Wednesday" scope="col" title="Wednesday">W</th>
+		<th abbr="Thursday" scope="col" title="Thursday">T</th>
+		<th abbr="Friday" scope="col" title="Friday">F</th>
+		<th abbr="Saturday" scope="col" title="Saturday">S</th>
+		<th abbr="Sunday" scope="col" title="Sunday">S</th>
+	</tr>
+	</thead>
+
+	<tfoot>
+	<tr>
+		<td abbr="February" colspan="3" id="prev"><a href="http://www.wildcast.net/2010/02/" title="View posts for February 2010">&laquo; Feb</a></td>
+		<td class="pad">&nbsp;</td>
+		<td colspan="3" id="next" class="pad">&nbsp;</td>
+	</tr>
+	</tfoot>
+
+	<tbody>
+	<tr>
+		<td colspan="1" class="pad">&nbsp;</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td>
+	</tr>
+	<tr>
+		<td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td>
+	</tr>
+	<tr>
+		<td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td>
+	</tr>
+	<tr>
+		<td>21</td><td>22</td><td id="today">23</td><td>24</td><td>25</td><td>26</td><td>27</td>
+	</tr>
+	<tr>
+		<td>28</td><td>29</td><td>30</td><td>31</td>
+		<td class="pad" colspan="3">&nbsp;</td>
+	</tr>
+	</tbody>
+	</table></div></div><div id="archives" class="widget widget_archive"><h4>Archives</h4>		<ul>
+			<li><a href='http://www.wildcast.net/2010/02/' title='February 2010'>February 2010</a></li>
+	<li><a href='http://www.wildcast.net/2010/01/' title='January 2010'>January 2010</a></li>
+	<li><a href='http://www.wildcast.net/2009/12/' title='December 2009'>December 2009</a></li>
+	<li><a href='http://www.wildcast.net/2009/11/' title='November 2009'>November 2009</a></li>
+	<li><a href='http://www.wildcast.net/2009/10/' title='October 2009'>October 2009</a></li>
+	<li><a href='http://www.wildcast.net/2009/09/' title='September 2009'>September 2009</a></li>
+	<li><a href='http://www.wildcast.net/2009/08/' title='August 2009'>August 2009</a></li>
+	<li><a href='http://www.wildcast.net/2009/07/' title='July 2009'>July 2009</a></li>
+	<li><a href='http://www.wildcast.net/2009/06/' title='June 2009'>June 2009</a></li>
+	<li><a href='http://www.wildcast.net/2009/05/' title='May 2009'>May 2009</a></li>
+	<li><a href='http://www.wildcast.net/2009/04/' title='April 2009'>April 2009</a></li>
+	<li><a href='http://www.wildcast.net/2009/03/' title='March 2009'>March 2009</a></li>
+	<li><a href='http://www.wildcast.net/2009/02/' title='February 2009'>February 2009</a></li>
+	<li><a href='http://www.wildcast.net/2009/01/' title='January 2009'>January 2009</a></li>
+	<li><a href='http://www.wildcast.net/2008/12/' title='December 2008'>December 2008</a></li>
+	<li><a href='http://www.wildcast.net/2008/11/' title='November 2008'>November 2008</a></li>
+	<li><a href='http://www.wildcast.net/2008/10/' title='October 2008'>October 2008</a></li>
+	<li><a href='http://www.wildcast.net/2008/09/' title='September 2008'>September 2008</a></li>
+	<li><a href='http://www.wildcast.net/2008/08/' title='August 2008'>August 2008</a></li>
+	<li><a href='http://www.wildcast.net/2008/07/' title='July 2008'>July 2008</a></li>
+	<li><a href='http://www.wildcast.net/2008/06/' title='June 2008'>June 2008</a></li>
+	<li><a href='http://www.wildcast.net/2008/05/' title='May 2008'>May 2008</a></li>
+	<li><a href='http://www.wildcast.net/2008/04/' title='April 2008'>April 2008</a></li>
+	<li><a href='http://www.wildcast.net/2008/03/' title='March 2008'>March 2008</a></li>
+	<li><a href='http://www.wildcast.net/2008/02/' title='February 2008'>February 2008</a></li>
+	<li><a href='http://www.wildcast.net/2008/01/' title='January 2008'>January 2008</a></li>
+	<li><a href='http://www.wildcast.net/2007/12/' title='December 2007'>December 2007</a></li>
+	<li><a href='http://www.wildcast.net/2007/11/' title='November 2007'>November 2007</a></li>
+	<li><a href='http://www.wildcast.net/2007/10/' title='October 2007'>October 2007</a></li>
+	<li><a href='http://www.wildcast.net/2007/09/' title='September 2007'>September 2007</a></li>
+	<li><a href='http://www.wildcast.net/2007/08/' title='August 2007'>August 2007</a></li>
+	<li><a href='http://www.wildcast.net/2007/07/' title='July 2007'>July 2007</a></li>
+	<li><a href='http://www.wildcast.net/2007/06/' title='June 2007'>June 2007</a></li>
+	<li><a href='http://www.wildcast.net/2007/05/' title='May 2007'>May 2007</a></li>
+	<li><a href='http://www.wildcast.net/2007/04/' title='April 2007'>April 2007</a></li>
+	<li><a href='http://www.wildcast.net/2007/03/' title='March 2007'>March 2007</a></li>
+	<li><a href='http://www.wildcast.net/2007/02/' title='February 2007'>February 2007</a></li>
+	<li><a href='http://www.wildcast.net/2007/01/' title='January 2007'>January 2007</a></li>
+	<li><a href='http://www.wildcast.net/2006/12/' title='December 2006'>December 2006</a></li>
+	<li><a href='http://www.wildcast.net/2006/11/' title='November 2006'>November 2006</a></li>
+	<li><a href='http://www.wildcast.net/2006/10/' title='October 2006'>October 2006</a></li>
+	<li><a href='http://www.wildcast.net/2006/09/' title='September 2006'>September 2006</a></li>
+	<li><a href='http://www.wildcast.net/2006/08/' title='August 2006'>August 2006</a></li>
+	<li><a href='http://www.wildcast.net/2006/07/' title='July 2006'>July 2006</a></li>
+		</ul>
+</div>	<div id="pages" class="widget widget_pages">		<h4>Pages</h4>		<ul>
+			<li class="page_item page-item-2"><a href="http://www.wildcast.net/about/" title="About">About</a>
+<ul>
+	<li class="page_item page-item-202"><a href="http://www.wildcast.net/about/press/" title="Press">Press</a></li>
+	<li class="page_item page-item-926"><a href="http://www.wildcast.net/about/showcase/" title="Showcase">Showcase</a></li>
+	<li class="page_item page-item-26"><a href="http://www.wildcast.net/about/the-filmmaker/" title="The Filmmaker">The Filmmaker</a></li>
+	<li class="page_item page-item-16"><a href="http://www.wildcast.net/about/where-we-are/" title="Where we are">Where we are</a></li>
+</ul>
+</li>
+<li class="page_item page-item-186"><a href="http://www.wildcast.net/contact/" title="Contact Us">Contact Us</a>
+<ul>
+	<li class="page_item page-item-199"><a href="http://www.wildcast.net/contact/chat/" title="Chat">Chat</a></li>
+</ul>
+</li>
+<li class="page_item page-item-685"><a href="http://www.wildcast.net/mobile/" title="Mobile">Mobile</a></li>
+<li class="page_item page-item-187"><a href="http://www.wildcast.net/photos/" title="Photos">Photos</a></li>
+		</ul>
+	</div><div id="flickr-sidebar" class="widget TanTanFlickrWidget_display"><div class="flickr-photos">
+<h4>Wildcast on Flickr</h4><a href="http://www.flickr.com/photos/wildcast/229327976/"><img src="http://farm1.static.flickr.com/58/229327976_7af0cfd3f1_s.jpg" width="75" height="75" alt="Copy of 119-1941_IMG" /></a>
+<a href="http://www.flickr.com/photos/wildcast/230901797/"><img src="http://farm1.static.flickr.com/76/230901797_a8d89f93c8_s.jpg" width="75" height="75" alt="118-1873_IMG Tjololo lazes around" /></a>
+<a href="http://www.flickr.com/photos/wildcast/509796366/"><img src="http://farm1.static.flickr.com/215/509796366_fa74aeea8d_s.jpg" width="75" height="75" alt="Club going down" /></a>
+<a href="http://www.flickr.com/photos/wildcast/2023275001/"><img src="http://farm3.static.flickr.com/2124/2023275001_1c798d6e09_s.jpg" width="75" height="75" alt="Sunset giraffe" /></a>
+<a href="http://www.flickr.com/photos/wildcast/563775312/"><img src="http://farm2.static.flickr.com/1199/563775312_60502940c2_s.jpg" width="75" height="75" alt="&#039;Battle front&#039;" /></a>
+<a href="http://www.flickr.com/photos/wildcast/229771550/"><img src="http://farm1.static.flickr.com/92/229771550_632a9c94f8_s.jpg" width="75" height="75" alt="129-2926_IMG" /></a>
+<a href="http://www.flickr.com/photos/wildcast/2811844932/"><img src="http://farm4.static.flickr.com/3077/2811844932_85492aff4b_s.jpg" width="75" height="75" alt="Buffalo dust" /></a>
+<a href="http://www.flickr.com/photos/wildcast/231014058/"><img src="http://farm1.static.flickr.com/97/231014058_de67372b13_s.jpg" width="75" height="75" alt="121-2166_IMG" /></a>
+<a href="http://www.flickr.com/photos/wildcast/2118082681/"><img src="http://farm3.static.flickr.com/2271/2118082681_499577ca70_s.jpg" width="75" height="75" alt="Nyala bull" /></a>
+<a href="http://www.flickr.com/photos/wildcast/457437769/"><img src="http://farm1.static.flickr.com/177/457437769_5941584319_s.jpg" width="75" height="75" alt="Chidumu A No 8c" /></a>
+
+</div>
+</div></div> <!-- #sidebar-1 -->
+
+<hr />
+<div id="sidebar-2" class="secondary">
+</div> <!-- #sidebar-2 -->
+
+<div class="clear"></div>
+
+</div> <!-- .content -->
+
+	
+	<div class="clear"></div>
+</div> <!-- Close Page -->
+
+<hr />
+
+
+<div id="footer">
+	
+	<p class="footerpoweredby">
+		Powered by <a href="http://wordpress.org/">WordPress<span class="wp-version">2.7</span></a> and <a href="http://getk2.com/" title="Loves you like a kitten.">K2<span class="k2-version">1.0-RC7.1</span></a>	</p>
+
+	<p class="footerfeedlinks">
+		<a href="http://www.wildcast.net/feed/">Entries Feed</a> and <a href="http://www.wildcast.net/comments/feed/">Comments Feed</a>	</p>
+
+	<p class="footerstats">
+		35 queries. 0.9450 seconds.	</p>
+</div>
+
+
+</body>
+</html> 
+
+<!-- jegelskerRikke -->

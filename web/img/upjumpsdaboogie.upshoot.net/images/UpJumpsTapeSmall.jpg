@@ -1,0 +1,381 @@
+4879
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+       More info: h5bp.com/b/378 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="description" content="UpJumpsDaBoogie.com is the home of dj d-smooth, his team, and podcast. Enjoy the free mixes and follow @djdsmooth on twitter">
+	<meta name="author" content="www.upshoot.net">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- base -->
+	<base href="http://upjumpsdaboogie.upshoot.net/" />
+	<meta name="robots" content="index, follow" />
+	<link rel="canonical" href="http://upjumpsdaboogie.upshoot.net/" />
+	<meta http-equiv="content-language" content="en" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="pragma" content="cache" />
+	<meta http-equiv="cache-control" content="cache" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<!-- meta -->
+	<meta name="keywords" content="dj,podcast,toronto,d-smooth,dsmooth,dj d-smooth,upjumpsdaboogie,canada,dj'ing,urban music,hip hop,rnb,electro,hipster,scratching,scratch,mix,mixes,ol skool,reggae,dancehall,radio,club" />
+	<meta name="abstract" content="DaBoogie Blog" />
+	<meta http-equiv="last-modified" content="Tue, 06 Mar 2012 11:45:05 -0600" />
+	<meta name="author" content="UpJumpsDaBoogie.com | Home of DJ D-SMOOTH" />
+	<meta name="copyright" content="Copyright (c) 2012 by UpJumpsDaBoogie.com | Home of DJ D-SMOOTH" />
+	<meta http-equiv="imagetoolbar" content="no" />
+<!-- Dublin Core -->
+	<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+	<meta name="DC.contributor" content="UpJumpsDaBoogie.com | Home of DJ D-SMOOTH" />
+	<meta name="DC.creator" content="UpJumpsDaBoogie.com | Home of DJ D-SMOOTH" />
+	<meta name="DC.date" content="2012-03-06" />
+	<meta name="DC.format" content="text/html" />
+	<meta name="DC.identifier" content="DaBoogie Blog - 1" />
+	<meta name="DC.language" content="en" />
+	<meta name="DC.publisher" content="UpJumpsDaBoogie.com | Home of DJ D-SMOOTH" />
+	<meta name="DC.rights" content="Copyright (c) 2012 by UpJumpsDaBoogie.com | Home of DJ D-SMOOTH" />
+	<meta name="DC.subject" content="dj,podcast,toronto,d-smooth,dsmooth,dj d-smooth,upjumpsdaboogie,canada,dj'ing,urban music,hip hop,rnb,electro,hipster,scratching,scratch,mix,mixes,ol skool,reggae,dancehall,radio,club" />
+	<meta name="DC.title" content="DaBoogie Blog" />
+<!-- icons/rss/css -->
+<!-- end MetaX output -->
+<title>UpJumpsDaBoogie.com | Home of DJ D-SMOOTH - DaBoogie Blog</title>
+<base href="http://upjumpsdaboogie.upshoot.net/" />
+
+
+  <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!-- CSS: implied media=all -->
+  <!-- CSS concatenated and minified via ant build script-->
+ <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'> 
+  <link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" href="/core/components/wayfinder/examples/cssplay/ultimate_drop_v2.css">
+<!-- end CSS-->
+
+  <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
+
+
+<script src="/assets/js/libs/modernizr-2.0.6.min.js"></script>
+<script type="text/javascript" src="/media_player/ufo.js"></script>	
+
+
+
+</head>
+
+<body>
+<div id="main_back">
+  
+</div>
+<div class="wrapper">
+	<nav class="menu">
+  <ul><li class="first active"><a href="http://upjumpsdaboogie.upshoot.net/" title="DaBoogie Blog" >DaBoogie Blog</a></li>
+<li><a href="http://upjumpsdaboogie.upshoot.net/podcast/rssfeed/daboogie.xml?utm_source=rssfeed&utm_medium=mp3&utm_campaign=podcast%2Brssfeed" title="The Podcast (RSS Feed)" target="_blank">The Podcast (RSS Feed)</a></li>
+<li><a href="http://itunes.apple.com/ca/podcast/upjumpsdaboogie.com-podcast/id482066300?utm_source=itunes&utm_medium=mp3&utm_campaign=itunes%2Bpodcast" title="The Podcast (iTunes Link)" target="_blank">The Podcast (iTunes Link)</a></li>
+<li class="last"><a href="contact/" title="Contact" >Contact Us</a></li>
+</ul>
+</nav>
+	<div class="cf" style="margin-top:5px;">    
+      	  <div class="content">
+	      				<div class="post">
+
+						<div class="post_title"><h2 style="display:inline"><a href="blog/inside-the-mix-ep3/">Inside the Mix EP3</a></h2></div>
+						<div class="post_date">Posted on Monday, May 21, 2012 by <a href="#">d-smooth</a> | Tags: podcast,2020radio.com,Inside the Mix</div>
+						
+						<div class="post_body">
+
+						  A busy weekend ahead of me, but I had to lay down a podcast mix. This mix is great for all y'all long weekend BBQ's going on. Listen / download my latest mix, EP3 for 2020radio.com<br />	<br />					  
+<img src="/assets/images/blog_images/inside_mix_ep3.jpg" style="width:500px;" />
+
+<br /><br />
+  
+                            <h3>Listen</h3>
+                            <object type="application/x-shockwave-flash" data="/assets/components/dewplayer/swf/dewplayer.swf" width="200" height="20" id="dewplayer1231327249" name="dewplayer1231327249" ><param name="wmode" value="transparent" /><param name="movie" value="/assets/components/dewplayer/swf/dewplayer.swf" /><param name="flashvars" value="mp3=http://upjumpsdaboogie.upshoot.net/podcast/mp3s/inside-the-mix/INSIDE-THE-MIX-EP3_dj-dsmooth.mp3&amp;autostart=&amp;autoreplay=&amp;showtime=&amp;randomplay=&amp;nopointer=&amp;volume=100&amp;fading=0" /></object><br /><br />
+<h3><a href="http://upjumpsdaboogie.upshoot.net/download.php?f=podcast/mp3s/inside-the-mix/INSIDE-THE-MIX-EP3_dj-dsmooth.mp3">DOWNLOAD MIX</a></h3> (CLICK to DOWNLOAD)<br /><br />
+
+                            <br /><br />
+                            <a href="blog/inside-the-mix-ep3/">READ MORE</a> <br  />
+                            
+
+                    	</div>
+					</div>
+<hr class="separator" /><br />
+				<div class="post">
+
+						<div class="post_title"><h2 style="display:inline"><a href="blog/playmode-mix/">Playmode Mix May 2012 Edition</a></h2></div>
+						<div class="post_date">Posted on Monday, May 14, 2012 by <a href="#">d-smooth</a> | Tags: podcast,playmode,jay dunaway</div>
+						
+						<div class="post_body">
+
+						  My boy Jay Dunaway, part of the OG DaBoogie DJ team back in 2004 wanted to jump back on UpJumps.  There's always room for fam - here's his first installment, PLAYMODE MIX, the May2k12 edition.<br />	<br />					  
+<img src="/assets/images/blog_images/playmode_web.jpg" style="width:500px;" />
+
+<br /><br />
+  
+                            <h3>Listen</h3>
+                            <object type="application/x-shockwave-flash" data="/assets/components/dewplayer/swf/dewplayer.swf" width="200" height="20" id="dewplayer1228180188" name="dewplayer1228180188" ><param name="wmode" value="transparent" /><param name="movie" value="/assets/components/dewplayer/swf/dewplayer.swf" /><param name="flashvars" value="mp3=http://upjumpsdaboogie.upshoot.net/podcast/mp3s/playmode/PLAYMODE_2012_MAY.mp3&amp;autostart=&amp;autoreplay=&amp;showtime=&amp;randomplay=&amp;nopointer=&amp;volume=100&amp;fading=0" /></object><br /><br />
+<h3><a href="http://upjumpsdaboogie.upshoot.net/download.php?f=podcast/mp3s/playmode/PLAYMODE_2012_MAY.mp3">DOWNLOAD MIX</a></h3> (CLICK to DOWNLOAD)<br /><br />
+
+                            <br /><br />
+                            <a href="blog/playmode-mix/">READ MORE</a> <br  />
+                            
+
+                    	</div>
+					</div>
+<hr class="separator" /><br />
+				<div class="post">
+
+						<div class="post_title"><h2 style="display:inline"><a href="blog/inside-the-mix-ep2/">Inside the Mix EP2</a></h2></div>
+						<div class="post_date">Posted on Tuesday, April 24, 2012 by <a href="#">d-smooth</a> | Tags: podcast,2020radio.com,Inside the Mix</div>
+						
+						<div class="post_body">
+
+						  Had the day off, so I decided to record my second installment of my new mix series "Inside the Mix" for 2020radio.com.  <br />	<br />					  
+<img src="/assets/images/blog_images/inside_mix2.jpg" style="width:500px;" />
+
+<br /><br />
+  
+                            <h3>Listen</h3>
+                            <object type="application/x-shockwave-flash" data="/assets/components/dewplayer/swf/dewplayer.swf" width="200" height="20" id="dewplayer722395604" name="dewplayer722395604" ><param name="wmode" value="transparent" /><param name="movie" value="/assets/components/dewplayer/swf/dewplayer.swf" /><param name="flashvars" value="mp3=http://upjumpsdaboogie.upshoot.net/podcast/mp3s/inside-the-mix/INSIDE-THE-MIX-EP2_dj-dsmooth.mp3&amp;autostart=&amp;autoreplay=&amp;showtime=&amp;randomplay=&amp;nopointer=&amp;volume=100&amp;fading=0" /></object><br /><br />
+<h3><a href="http://upjumpsdaboogie.upshoot.net/download.php?f=podcast/mp3s/inside-the-mix/INSIDE-THE-MIX-EP2_dj-dsmooth.mp3">DOWNLOAD MIX</a></h3> (CLICK to DOWNLOAD)<br /><br />
+
+                            <br /><br />
+                            <a href="blog/inside-the-mix-ep2/">READ MORE</a> <br  />
+                            
+
+                    	</div>
+					</div>
+<hr class="separator" /><br />
+				<div class="post">
+
+						<div class="post_title"><h2 style="display:inline"><a href="blog/inside-the-mix-ep1/">Inside the Mix EP1</a></h2></div>
+						<div class="post_date">Posted on Monday, April  2, 2012 by <a href="#">d-smooth</a> | Tags: podcast,2020radio.com,Inside the Mix</div>
+						
+						<div class="post_body">
+
+						  So recently I was asked by DJ Jon Zamora to join the 2020radio.com team.  Here's my first installment to their collective - a new mix series I call "Inside the Mix".<br />	<br />					  
+<img src="/assets/images/blog_images/inside_mix.jpg" style="width:500px;" />
+
+<br /><br />
+  
+                            <h3>Listen</h3>
+                            <object type="application/x-shockwave-flash" data="/assets/components/dewplayer/swf/dewplayer.swf" width="200" height="20" id="dewplayer1788265189" name="dewplayer1788265189" ><param name="wmode" value="transparent" /><param name="movie" value="/assets/components/dewplayer/swf/dewplayer.swf" /><param name="flashvars" value="mp3=http://upjumpsdaboogie.upshoot.net/podcast/mp3s/inside-the-mix/INSIDE-THE-MIX-EP1_dj-dsmooth.mp3&amp;autostart=&amp;autoreplay=&amp;showtime=&amp;randomplay=&amp;nopointer=&amp;volume=100&amp;fading=0" /></object><br /><br />
+<h3><a href="http://upjumpsdaboogie.upshoot.net/download.php?f=podcast/mp3s/inside-the-mix/INSIDE-THE-MIX-EP1_dj-dsmooth.mp3">DOWNLOAD MIX</a></h3> (CLICK to DOWNLOAD)<br /><br />
+
+                            <br /><br />
+                            <a href="blog/inside-the-mix-ep1/">READ MORE</a> <br  />
+                            
+
+                    	</div>
+					</div>
+<hr class="separator" /><br />
+<br/ >
+<div class="pageNav" style="font-size:12px;text-transform:uppercase">
+  <span class="pages">Page 1 of 4</span> | 
+  <span class="current">1</span>
+<a href="/?page=2" class="page" title="2">2</a>
+<a href="/?page=3" class="page" title="3">3</a>
+<a href="/?page=4" class="page" title="4">4</a><a href="/?page=2">&gt;&gt;</a> 
+</div>
+
+<div class="cf"></div>
+
+       	 </div>
+      
+     	 <div class="rightside">
+		<h3>Search</h3>
+<form class="sisea-search-form" action="search-results/" method="get">
+  <fieldset>
+    <!--<label for="search">Search</label>-->
+
+    <input type="text" name="search" id="search" value="Search" class="search_box" />
+    <input type="hidden" name="id" value="18" /> 
+
+    <input type="submit" id="search_button" value="Search" />
+  </fieldset>
+</form>
+
+<br />
+<h3>Media Player</h3>
+          <div id="player2" style="width:350px; text-align:right border:3px solid thin #000000;">
+                                <script type="text/javascript">
+                                   var FU = { 	movie:"http://upjumpsdaboogie.upshoot.net/media_player/mediaplayer.swf",width:"298",height:"300",majorversion:"7",build:"0",bgcolor:"#FFFFFF",
+                                                flashvars:"file=http://upjumpsdaboogie.upshoot.net/media_player/playlist.xml&repeat=true&lightcolor=0xCC9900&backcolor=0x000000&frontcolor=0xCCCCCC&overstretch=fit&displayheight=0&autoscroll=false&autostart=false&shuffle=false" };
+                                    UFO.create(	FU, "player2");
+                                </script>
+          </div><br /><br />	
+          <h3>Featured Mixes</h3>
+<div>
+  <a href="blog/playmode-mix/" alt="Playmode May Mix"><img src="/assets/images/blog_images/playmode_web.jpg" width="300" alt="playmode"></a><br /><br />   
+  <a href="blog/classic-feb2012/" alt="classic mixtape"><img src="/assets/images/blog_images/classic_front_cover.jpg" width="300" alt="classic mixtape"></a>
+</div><br /><br />
+<h3>Recent Tweets</h3>
+<div id="tweet2">
+<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 3,
+  interval: 30000,
+  width: 300,
+  height: 300,
+  theme: {
+    shell: {
+      background: '#8d9398',
+      color: '#bbc6ce'
+    },
+    tweets: {
+      background: '#8d9398',
+      color: '#bbc6ce',
+      links: '#fff'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('djdsmooth').start();
+</script>
+
+</div><br />
+<h3>New Remixes</h3>
+<object height="81" width="100%"> <param name="movie" value="https://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F33529057&amp;show_comments=true&amp;auto_play=false&amp;color=ff7700"></param> <param name="allowscriptaccess" value="always"></param> <embed allowscriptaccess="always" height="81" src="https://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F33529057&amp;show_comments=true&amp;auto_play=false&amp;color=ff7700" type="application/x-shockwave-flash" width="100%"></embed> </object>   <span><a href="http://soundcloud.com/djdsmooth/beyonce-party-d-smooth-rmx">Beyonce-party (d-smooth rmx)</a> by <a href="http://soundcloud.com/djdsmooth">djdsmooth</a></span>
+	 </div>
+	</div>
+		<div id="dashboard" class="cf">
+
+			<div class="col3 left">
+				<div class="col3_content">
+
+					<div class="col_title">Latest Episodes</div>
+					
+<ul>
+<li><a href="blog/inside-the-mix-ep3/">Inside the Mix EP3</a></li>
+<li><a href="blog/playmode-mix/">Playmode Mix May 2012 Edition</a></li>
+<li><a href="blog/inside-the-mix-ep2/">Inside the Mix EP2</a></li>
+<li><a href="blog/inside-the-mix-ep1/">Inside the Mix EP1</a></li>
+<li><a href="blog/randoms-and-biggie/">Some randoms, some Biggie</a></li>
+</ul>
+					
+
+				</div>
+			</div>
+
+			<div class="col3mid left">
+				<div class="col3_content">
+
+					<div class="col_title">Reach Us</div>
+					<ul>
+						<li><a href="http://upjumpsdaboogie.upshoot.net/podcast/rssfeed/daboogie.xml" target="_blank">The PODCAST</a></li>
+						<li>Podcast <a href="itpc://upjumpsdaboogie.upshoot.net/podcast/rssfeed/daboogie.xml" class="link" target="_blank">(iTunes link)</a></li>
+                        
+                        <li><a href="contact/" title="contact us">Contact Us</a></li>
+                        <li> &nbsp;&nbsp;<a href="http://twitter.com/djdsmooth" target="_blank"><img src="/assets/images/twitter.png" /></a>
+                        &nbsp;&nbsp;<a href="http://del.icio.us/post?url=www.upjumpsdaboogie.com&title=UpJumpsDaBoogie.com"><img src="/assets/images/delicious.png" /></a></li>
+                       
+					</ul>
+
+				</div>
+			</div>
+
+			<div class="col3 right">
+				<div class="col3_content">
+
+					<div class="col_title">Links</div>
+					<ul>
+						<li><a href="sitemap/" title="Sitemap">Sitemap</a></li>
+					        <li><a href="[[~11''" title="google sitemap">Google Sitemap</a></li>
+						<li><a href="http://www.upshoot.net" target="_blank">UpShoot Media Inc.</a></li>
+                        <li><a href="http://www.djmensa.com" target="_blank">DJ Mensa</a></li>
+						<li><a href="http://www.mojorecordings.com" target="_blank">Mojo Recordings</a></li>
+                        <li><a href="http://www.jayurb.com" target="_blank">JayUrb.com</a></li>
+						
+					</ul>
+
+				</div>
+			</div>
+
+		</div>
+
+		<div id="footer" class="cf">
+
+		<div class="left">
+			&copy; 2012 UPJumpsDaBoogie.com - Making your BOOGIE jump UP!
+		</div>
+		  <div class="right"><a href="http://www.upshoot.net" title="UpShoot Media Inc">UpShoot Media Inc.</a></div><br />
+        
+
+	</div>        
+  <div style="height:5px"></div>
+</div>
+
+
+<!-- JavaScript at the bottom for fast page loading -->
+<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+
+
+  <script>
+$(function() {
+
+    $('#tweet2').height(300);  
+    //$(".three_col_contain").equalHeights();
+    var highestCol = Math.max($('.content').height(),$('.rightside').height());
+    if(highestCol<1600){
+	    $('.content').height(highestCol+300);    
+	    $('.rightside').height(highestCol+300);       
+    }else{
+        $('.content').height(highestCol);    
+        $('.rightside').height(highestCol);       
+   	 
+    }
+});
+    
+$.fn.inputreplace = function() {
+	return this.focus(function() {
+		if( this.value == this.defaultValue ) {
+			this.value = "";
+		}
+	}).blur(function() {
+		if( !this.value.length ) {
+			this.value = this.defaultValue;
+		}
+	});
+};
+$(".search_box").inputreplace();    
+
+</script> 
+<script src="/assets/js/gatag.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-11648418-4']);
+  _gaq.push(['_setDomainName', 'upshoot.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+   
+</body>
+</html>
+
+0
+

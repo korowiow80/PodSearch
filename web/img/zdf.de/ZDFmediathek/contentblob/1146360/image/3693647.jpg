@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- 
+	Seite: 			Textseite - Fehlermeldung
+	
+	Bemerkungen: 		keine
+						
+-->
+
+
+<!-- ########## Seite Textseite - Fehlermeldung : START ########## -->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Seite nicht gefunden</title>
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="expires" content="0" />
+<meta http-equiv="cache-control" content="no-cache,no-store,max-age=0" />
+<meta http-equiv="edge-control" content="no-store" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- START: JavaScripts einbinden -->
+<!-- Bei Bedarf werden hier JavaScripts hinzukommen oder wegfallen-->
+<!-- MTIFA-295 abweichend von den Templates zdf.js nach vorne gezogen. -->
+<script type="text/javascript" src="/ZDFmediathek/js/swfobject.js"></script>
+<script type="text/javascript" src="/ZDFmediathek/js/swfaddress.js"></script>
+<script type="text/javascript" src="/ZDFmediathek/js/zdf.js"></script>
+<script type="text/javascript" src="/ZDFmediathek/js/jquery.min.js"></script>
+<script type="text/javascript" src="/ZDFmediathek/js/jquery.includeMany-1.2.0.min.js"></script>
+<script type="text/javascript" src="/ZDFmediathek/js/swffit.js"></script>
+<!-- ENDE: JavaScripts einbinden -->
+<!-- START: Stylesheets einbinden -->
+<link rel="stylesheet" type="text/css" href="/ZDFmediathek/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="/ZDFmediathek/css/styles.css" />
+<!-- ENDE: Stylesheets einbinden -->
+
+<script type="text/javascript">
+var _zdfmediathekDeeplink = "/hauptnavigation/startseite/dialog/geloescht/";
+
+//Enable Disable FlashDetection HERE
+swffit.showScrollV();
+$( document ).ready( function(){ updateFlashContent(); } );
+</script>
+</head>
+<body id="fehlerseite">
+	<div id="nonfooterContainer">	
+		<div id="content">
+				<!-- StartBreadcrumbNavigation -->
+				<div id="breadcrumbContainer">
+					<a href="/ZDFmediathek/hauptnavigation/startseite">Startseite</a>
+  		  		</div>
+				<!-- EndeBreadcrumbNavigation -->	
+						
+				<!-- StartHeadlineDesBeitrags -->
+
+				<h1 class="beitragHeadline">Es ist ein Fehler aufgetreten</h1>
+				<!-- EndeHeadlineDesBeitrags -->
+				<div class="beitrag podcastInfo">
+					<!-- StartTextinhalte -->
+					<p>
+					  Die von Ihnen gewünschten Inhalte sind unter der aufgerufenen Adresse nicht oder nicht mehr vorhanden. <br><br>
+
+					  <a href="http://www.zdf.de" target="_blank">Zur zdf.de-Website</a><br>
+					  <a href="http://www.heute.de" target="_blank">Zur heute.de-Website</a><br>
+					  <a href="http://www.zdf.de/ZDFmediathek/" target="_blank">Zur ZDFmediathek-Startseite</a>
+					</p>					
+					<!-- EndeTextinhalte -->
+		  		</div>
+				<div class="beitragFooter"><a href="#" class="nachOben">nach oben</a></div>
+
+		</div>		
+		<div id="spacer"></div>
+	</div>
+
+	<!-- StartHeader -->
+	<div id="headerContainer">
+		<a href="/ZDFmediathek/hauptnavigation/startseite"><img src="/ZDFmediathek/img/logo_mediathek.gif" alt="ZDF Mediathek" width="133" height="40" border="0" /></a>
+	</div>
+	<!-- EndeHeader -->
+
+	<div id="footer">
+		<!-- StartFooter -->
+		<div class="pl20">	
+		</div>
+		<!-- EndeFooter -->
+	</div>
+	
+	<!-- START: FLASH -->
+	<div id="flashContent">&nbsp;</div>
+	<!-- ENDE: FLASH -->
+	
+	<!-- START: Tracking -->
+	<div id="jsTrackingpixel"></div>
+	<div class="ivw">
+		<script type="text/javascript" language="javascript1.2">			
+			$(document).ready(function()
+			{
+				if(!useFlash) // Wird nur genutzt wenn Flash-Version nicht angezeigt wird
+				{
+					// IVW-Parameter serverseitig zu pflegen
+					var ivw='http://zdfsup.ivwbox.de/cgi-bin/ivw/CP/ZDMediathek/0;/0/Error/';
+					var ivwFamily='http://2df.ivwbox.de/configuration.urls.ivw.family.error=/cgi-bin/ivw/CP;/ZDFde/0/0/Error/Error/HERROR';
+					
+					var trhtml = '<img src="'+ivw+'?r='+escape(document.referrer)+'" width="1" height="1" id="ivwImg" alt="" />';
+					trhtml += '<img src="'+ivwFamily+'?r='+escape(document.referrer)+'" width="1" height="1" id="ivwNewImg" alt="" />';
+					$('#jsTrackingpixel').html(trhtml);
+				}
+			});			
+		</script>
+		<noscript>
+			<!-- IVW-Parameter serverseitig zu pflegen -->
+			<img src="http://zdfsup.ivwbox.de/cgi-bin/ivw/CP/ZDMediathek/0;/0/Error/" width="1" height="1" id="ivwImg" alt="" />
+			<img src="http://2df.ivwbox.de/configuration.urls.ivw.family.error=/cgi-bin/ivw/CP;/ZDFde/0/0/Error/Error/HERROR" width="1" height="1" id="ivwNewImg" alt="" />
+		</noscript>
+		  <!-- /IVW -->
+	</div>
+	<!-- ENDE: Tracking -->
+</body>
+</html>
+<!-- ########## Seite Textseite - Fehlermeldung : ENDE ########## -->
