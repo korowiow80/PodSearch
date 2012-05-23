@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+	<title>
+	MediaTracks | 	</title>
+	<meta name="keywords" content=" , MediaTracks , " />
+	<meta name="description" content=" | " />
+	<meta charset="UTF-8" />
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="index" title="MediaTracks" href="http://www.mediatracks.com/" />
+	<link rel="icon" href="http://www.mediatracks.com/wp-content/themes/theme1286/favicon.ico" type="image/x-icon" />
+	<link rel="icon" href="" type="image/x-icon" />
+	<link rel="pingback" href="http://www.mediatracks.com/xmlrpc.php" />
+	<link rel="alternate" type="application/rss+xml" title="MediaTracks" href="http://www.mediatracks.com/feed/" />
+	<link rel="alternate" type="application/atom+xml" title="MediaTracks" href="http://www.mediatracks.com/feed/atom/" />
+	<!-- The HTML5 Shim is required for older browsers, mainly older versions IE -->
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+  <!--[if lt IE 7]>
+    <div style=' clear: both; text-align:center; position: relative;'>
+    	<a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/images/upgrade.jpg" border="0" &nbsp;alt="" /></a>
+    </div>
+  <![endif]-->
+	<link rel="stylesheet" type="text/css" media="all" href="http://www.mediatracks.com/wp-content/themes/theme1286/style.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="http://www.mediatracks.com/wp-content/themes/theme1286/css/prettyPhoto.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="http://www.mediatracks.com/wp-content/themes/theme1286/css/grid.css" />
+ 
+       <link rel="alternate" type="application/rss+xml" title="MediaTracks &raquo; Feed" href="http://www.mediatracks.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="MediaTracks &raquo; Comments Feed" href="http://www.mediatracks.com/comments/feed/" />
+<link rel='stylesheet' id='NextGEN-css'  href='http://www.mediatracks.com/wp-content/plugins/nextgen-gallery/css/nggallery.css?ver=1.0.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='shutter-css'  href='http://www.mediatracks.com/wp-content/plugins/nextgen-gallery/shutter/shutter-reloaded.css?ver=1.3.2' type='text/css' media='screen' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://www.mediatracks.com/wp-content/plugins/contact-form-7/styles.css?ver=2.4.6' type='text/css' media='all' />
+<link rel='stylesheet' id='wp_dlmp_styles-css'  href='http://www.mediatracks.com/wp-content/plugins/download-monitor/page-addon/styles.css?ver=3.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-pagenavi-css'  href='http://www.mediatracks.com/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.mediatracks.com/wp-includes/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='http://www.mediatracks.com/wp-content/themes/theme1286/js/jquery-1.6.min.js?ver=1.6'></script>
+<script type='text/javascript' src='http://www.mediatracks.com/wp-content/plugins/flexo-archives-widget/flexo-anim.js?ver=2.0'></script>
+<script type='text/javascript' src='http://www.mediatracks.com/wp-content/plugins/si-contact-form/captcha-secureimage/ctf_captcha.js?ver=3.2.1'></script>
+<script type='text/javascript' src='http://www.mediatracks.com/wp-content/themes/theme1286/js/superfish.js?ver=1.4.8'></script>
+<script type='text/javascript' src='http://www.mediatracks.com/wp-content/themes/theme1286/js/supersubs.js?ver=0.2b'></script>
+<script type='text/javascript' src='http://www.mediatracks.com/wp-content/themes/theme1286/js/jquery.nivo.slider.pack.js?ver=2.4'></script>
+<script type='text/javascript' src='http://www.mediatracks.com/wp-content/themes/theme1286/js/jquery.loader.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.mediatracks.com/wp-content/themes/theme1286/js/jquery.faded.js?ver=0.3.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var shutterSettings = {
+	msgLoading: "L O A D I N G",
+	msgClose: "Click to Close",
+	imageCount: "1"
+};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.mediatracks.com/wp-content/plugins/nextgen-gallery/shutter/shutter-reloaded.js?ver=1.3.2'></script>
+<script type='text/javascript' src='http://www.mediatracks.com/wp-content/plugins/nextgen-gallery/js/jquery.cycle.all.min.js?ver=2.88'></script>
+<script type='text/javascript' src='http://www.mediatracks.com/wp-content/plugins/nextgen-gallery/js/ngg.slideshow.min.js?ver=1.05'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.mediatracks.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.mediatracks.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='MediaTracks' href='http://www.mediatracks.com/' />
+<meta name="generator" content="WordPress 3.2.1" />
+<script type="text/javascript" src="http://www.mediatracks.com/wp-content/plugins/audio-player/assets/audio-player.js?ver=2.0.4.1"></script>
+<script type="text/javascript">AudioPlayer.setup("http://www.mediatracks.com/wp-content/plugins/audio-player/assets/player.swf?ver=2.0.4.1", {width:"290",animation:"yes",encode:"yes",initialvolume:"60",remaining:"no",noinfo:"no",buffer:"5",checkpolicy:"no",rtl:"no",bg:"E5E5E5",text:"333333",leftbg:"CCCCCC",lefticon:"333333",volslider:"666666",voltrack:"FFFFFF",rightbg:"B4B4B4",rightbghover:"999999",righticon:"333333",righticonhover:"FFFFFF",track:"FFFFFF",loader:"009900",border:"CCCCCC",tracker:"DDDDDD",skip:"666666",pagebg:"FFFFFF",transparentpagebg:"yes"});</script>
+<!-- begin nextgen-smooth scripts -->
+          <script type="text/javascript"  src="http://www.mediatracks.com/wp-content/plugins/nextgen-smooth-gallery/SmoothGallery/scripts/mootools.v1.11.js"></script>
+          <script type="text/javascript"  src="http://www.mediatracks.com/wp-content/plugins/nextgen-smooth-gallery/SmoothGallery/scripts/jd.gallery.js"></script>
+          <script type="text/javascript"  src="http://www.mediatracks.com/wp-content/plugins/nextgen-smooth-gallery/SmoothGallery/scripts/jd.gallery.transitions.js"></script>          
+          <link   type="text/css"        href="http://www.mediatracks.com/wp-content/plugins/nextgen-smooth-gallery/SmoothGallery/css/jd.gallery.css" rel="stylesheet" media="screen" />
+        <!-- end nextgen-smooth scripts -->
+       <link rel="stylesheet" type="text/css" href="http://www.mediatracks.com/wp-content/plugins/social-media-widget/social_widget.css" />
+
+<meta name='NextGEN' content='1.8.1' />
+
+  
+  <script type="text/javascript">
+  	// initialise plugins
+		jQuery(function(){
+			// main navigation init
+			/*jQuery("ul.sf-menu").supersubs({ 
+				minWidth:    12,   // minimum width of sub-menus in em units 
+				maxWidth:    27,   // maximum width of sub-menus in em units 
+				extraWidth:  1     // extra width can ensure lines don't sometimes turn over 
+                               // due to slight rounding differences and font-family 
+	          }).superfish();*/
+			jQuery('ul.sf-menu').superfish({
+				delay:       1000, 		// one second delay on mouseout 
+				animation:   {opacity:'show',height:'show'}, // fade-in and slide-down animation 
+				speed:       'normal',  // faster animation speed 
+				autoArrows:  ,        // generation of arrow mark-up (for submenu) 
+				dropShadows:     // drop shadows (for submenu)
+			});
+			
+			jQuery("ul.sf-menu li li:last-child").css("paddingBottom","23px");
+			jQuery("ul.sf-menu li li:last-child a").addClass("last");
+			
+			jQuery(".team_cycle li a, a.featured-thumbnail").hover(function(){
+				jQuery(this).find(".img-border").fadeIn("fast");
+			},function(){
+				jQuery(this).find(".img-border").fadeOut("fast");
+			});
+			
+			jQuery(".banners li a").hover(function(){
+				jQuery(this).find("span.hover").fadeIn("medium");
+			},function(){
+				jQuery(this).find("span.hover").fadeOut("medium");
+			});
+			
+			jQuery("#faded").faded({
+				speed: 500,
+				crossfade: false,
+				autoplay: 8000,
+				autopagination:true,
+				loading:true,
+				autoheight: 343
+			});
+			
+			jQuery(".clients li:nth-child(4n)").addClass("nomargin");
+			jQuery(".clients li img").hover(function(){
+				jQuery(this).stop().animate({opacity:".6"}, "fast");
+			},function(){
+				jQuery(this).stop().animate({opacity:"1"}, "fast");
+			});
+			
+		});
+  </script>
+  
+  <script type="text/javascript">
+		jQuery(window).load(function() {
+			// nivoslider init
+			jQuery('#slider').nivoSlider({
+				effect: 'boxRandom',
+				animSpeed:500,
+				pauseTime:5000,
+				startSlide:1,
+				slices:15,
+				directionNav:false,
+				directionNavHide:true,
+				controlNav:true,
+				controlNavThumbs:,
+				keyboardNav:true,
+				pauseOnHover:true,
+				captionOpacity:			});
+		});
+	</script>
+  
+  <!-- Custom CSS -->
+  	</head>
+
+<body class="home blog cat-7-id cat-5-id">
+
+<div id="main"><!-- this encompasses the entire Web site -->
+	<header id="header">
+		<div class="container_12">
+			<div class="grid_12">
+      	<div class="logo">
+					                      <a href="http://www.mediatracks.com/"><img src="http://www.mediatracks.com/wp-content/themes/theme1286/images/logo.jpg" alt="MediaTracks" title=""></a>
+                    <p class="description"></p>
+        </div>
+         
+         <nav class="uber">
+          <ul id="topnav" class="sf-menu"><li id="menu-item-1876" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-1876"><a href="http://www.mediatracks.com/">Home</a></li>
+<li id="menu-item-1888" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1888"><a href="http://www.mediatracks.com/contacts/">Contact Us</a></li>
+<li id="menu-item-1923" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1923"><a href="http://www.mediatracks.com/affiliates-2/">Affiliates</a>
+<ul class="sub-menu">
+	<li id="menu-item-1927" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1927"><a href="http://www.mediatracks.com/affiliates-2/become-an-affiliate/">Become an Affiliate</a></li>
+	<li id="menu-item-2034" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2034"><a href="http://www.mediatracks.com/affiliates-2/affiliate-downloads/">Affiliate Downloads</a></li>
+	<li id="menu-item-1925" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1925"><a href="http://www.mediatracks.com/affiliates-2/affidavits/">Affidavits</a></li>
+	<li id="menu-item-2035" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2035"><a href="http://www.mediatracks.com/affiliates-2/topiclibrary/">Topic Library/Log Archives</a></li>
+</ul>
+</li>
+</ul>          </nav><!-- .uber -->
+
+        <nav class="primary">
+          <ul id="topnav" class="sf-menu"><li id="menu-item-1977" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1977"><a href="http://www.mediatracks.com/about/">About</a>
+<ul class="sub-menu">
+	<li id="menu-item-1979" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1979"><a href="http://www.mediatracks.com/about/our-team/">Our Team</a></li>
+	<li id="menu-item-1978" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1978"><a href="http://www.mediatracks.com/about/our-clients/">Our Clients</a></li>
+</ul>
+</li>
+<li id="menu-item-1919" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1919"><a href="http://www.mediatracks.com/syndicated-radio-programming-2/">Syndicated Radio Programming</a></li>
+<li id="menu-item-1975" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1975"><a href="http://www.mediatracks.com/broadcast-web-services-2/">Broadcast &#038; Web Services</a></li>
+<li id="menu-item-1917" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1917"><a href="http://www.mediatracks.com/production-services/">Production Services</a></li>
+<li id="menu-item-1941" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1941"><a href="http://www.mediatracks.com/news/">News</a></li>
+</ul>        </nav><!--.primary-->
+      </div>
+		</div><!--.container-->
+	</header>
+    <section id="slider-wrapper">
+    <div class="container_12">
+      <div class="grid_12">
+
+<script type="text/javascript">
+            function startGallery_1() { 
+              var myGallery = new gallery($("myGallery_1"), {                  timed: true,         showCarousel: false,         showInfopane: true,           showArrows: false,           embedLinks: false, slideInfoZoneOpacity: 0.80, delay: 7000, defaultTransition: "fade"   });
+              
+              document.getElementById("myGallery_1").style.display = "block";
+           }
+            window.addEvent("domready", startGallery_1);
+          </script>
+         <div style="width: 940px; height: 395px; border:0px solid; margin:0px auto; clear:both;"><div id="myGallery_1" class="myGallery" style="display:none; width: 940px !important; height: 395px !important;"><div class="imageElement">  <h3> </h3>  <p style="color: #FFF000;"> <br/>86 million Americans listened to radio on the web or a mobile device last month. 
+<br/><br/>Did they hear your story?</p>  <a target="_blank" href="http://www.mediatracks.com/wp-content/blogs.dir/1/files/front-sliders/01_broadcast_a.jpg" title="open image" class="open"></a>  <img src="http://www.mediatracks.com/wp-content/blogs.dir/1/files/front-sliders/01_broadcast_a.jpg" class="full" />  <img src="http://www.mediatracks.com/wp-content/blogs.dir/1/files/front-sliders/thumbs/thumbs_01_broadcast_a.jpg" class="thumbnail" /></div><div class="imageElement">  <h3> </h3>  <p style="color: #FFF000;"> <br/>Conveniently located near O’Hare airport in Chicago, MediaTracks offers state of the art audio recording & production facilities specializing in: Commercial Voiceovers, Podcast Series, Audio Books, Educational & Industrial Narration and more. Parking is free and there’s even a lakefront walking path to unwind between takes.</p>  <a target="_blank" href="http://www.mediatracks.com/wp-content/blogs.dir/1/files/front-sliders/02_production_a.jpg" title="open image" class="open"></a>  <img src="http://www.mediatracks.com/wp-content/blogs.dir/1/files/front-sliders/02_production_a.jpg" class="full" />  <img src="http://www.mediatracks.com/wp-content/blogs.dir/1/files/front-sliders/thumbs/thumbs_02_production_a.jpg" class="thumbnail" /></div><div class="imageElement">  <h3> </h3>  <p style="color: #FFF000;"> <br/>How we communicate has changed a lot in the past 90 years. Radio now reaches over 240 million 
+listeners every week. 93% of all consumers 12 & up listen to 
+standard am/fm radio.
+<br/><br/>Tesla would be proud.</p>  <a target="_blank" href="http://www.mediatracks.com/wp-content/blogs.dir/1/files/front-sliders/03_fathers_radio_a.jpg" title="open image" class="open"></a>  <img src="http://www.mediatracks.com/wp-content/blogs.dir/1/files/front-sliders/03_fathers_radio_a.jpg" class="full" />  <img src="http://www.mediatracks.com/wp-content/blogs.dir/1/files/front-sliders/thumbs/thumbs_03_fathers_radio_a.jpg" class="thumbnail" /></div><div class="imageElement">  <h3> </h3>  <p style="color: #FFF000;"> The Media Tracks advantage: English and Spanish ANRs, RMTs, Custom Feeds, and PSAs with guaranteed placement on syndicated programs airing on over 400 stations and digital audio providers. Mass coverage over 86% of the country in 23 of the top 25 markets. Professional scripting, pitching, followup calling and quantifiable reporting. </p>  <a target="_blank" href="http://www.mediatracks.com/wp-content/blogs.dir/1/files/front-sliders/04_track_a.jpg" title="open image" class="open"></a>  <img src="http://www.mediatracks.com/wp-content/blogs.dir/1/files/front-sliders/04_track_a.jpg" class="full" />  <img src="http://www.mediatracks.com/wp-content/blogs.dir/1/files/front-sliders/thumbs/thumbs_04_track_a.jpg" class="thumbnail" /></div> </div></div>
+      </div>
+    </div>
+  </section><!--#slider-->
+    <div class="primary_content_wrap wrapper">
+	<div class="container_12 clearfix"><div id="contentTop" class="wrapper">
+				  <!--Widgetized 'Content' for the home page-->
+		</div>
+
+
+<div class="wrapper">
+	<div id="content" class="grid_8">
+		<ul class="widget-list">
+			<li id="widget_text" class="widget-area"><h3>Our Shows</h3>			<div class="textwidget"><ul class="banners">
+<li><a href="http://www.mediatracks.com/syndicated-radio-programming-2/"><img src="wp-content/themes/theme1286/images/banners/vp_button.jpg" /><span class="hover"><img src="wp-content/themes/theme1286/images/banners/vp_button_39.jpg" /></span></a></li>
+<li style="margin: 0 0 0 10px;"><a href="http://www.mediatracks.com/syndicated-radio-programming-2/"><img src="wp-content/themes/theme1286/images/banners/rhj_button.jpg" /><span class="hover"><img src="wp-content/themes/theme1286/images/banners/rhj_button_39.jpg" /></span></a></li>
+
+</ul>
+
+
+<p class="p1">Radio Health Journal and Viewpoints are award-winning, syndicated public affairs audio programs produced by MediaTracks. Distributed to over 800 stations across the country, and available to over 200 million online listeners, it’s compliancy-based radio that’s interesting, informative, and engaging.</p>
+
+<a href="http://www.mediatracks.com/syndicated-radio-programming-2/" class="button">read more</a></div>
+		</li>              <li id="widget_my_cyclewidget" class="widget-area">                  <h3>Latest News</h3>						
+												
+							<ul class="post_cycle">
+								
+																																	
+								<li class="cycle_item">
+									                  <a href="http://www.mediatracks.com/blog/2011/10/27/a-major-award/"><figure class="featured-thumbnail small"><img width="93" height="69" src="http://www.mediatracks.com/wp-content/uploads/2011/10/weintraubmediaaward-93x69.jpg" class="attachment-small-post-thumbnail wp-post-image" alt="weintraubmediaaward" title="weintraubmediaaward" /></figure></a>
+                  <h4><a href="http://www.mediatracks.com/blog/2011/10/27/a-major-award/">A Major Award!</a></h4>
+									<p>Congratulations to our intern Tori Bokios, whose story &#8220;Laughing Gas in the Labor Room&#8220; was recognized with the Phillip Weintraub Media Award by the American Society of Anesthesiologists. This is the latest in a long list of honors earned by the Radio Health Journal team, including: 2011 Philip S. Weintraub Media Award, American Society of&nbsp;<a href="http://www.mediatracks.com/blog/2011/10/27/a-major-award/" class="read-more">Continue Reading</a></p>
+																	</li>
+									
+								<li class="cycle_item">
+									                  <a href="http://www.mediatracks.com/blog/2011/10/21/bar-hunger/"><figure class="featured-thumbnail small"><img width="93" height="28" src="http://www.mediatracks.com/wp-content/uploads/2011/10/bar_hunger1-93x28.jpg" class="attachment-small-post-thumbnail wp-post-image" alt="bar_hunger" title="bar_hunger" /></figure></a>
+                  <h4><a href="http://www.mediatracks.com/blog/2011/10/21/bar-hunger/">Bar Hunger</a></h4>
+									<p>Did you ever think that buying a candy bar for yourself could help feed someone else?   In these difficult times, more people than ever are in need of food assistance.  A study done by Feeding America revealed that for many working class families, receiving emergency food from pantries is becoming the norm rather than a&nbsp;<a href="http://www.mediatracks.com/blog/2011/10/21/bar-hunger/" class="read-more">Continue Reading</a></p>
+																	</li>
+									
+								<li class="cycle_item">
+									                  <a href="http://www.mediatracks.com/blog/2011/10/21/tis-the-season-to-get-your-flu-shot/"><figure class="featured-thumbnail small"><img width="93" height="33" src="http://www.mediatracks.com/wp-content/uploads/2011/10/Walgreens_logo4-93x33.jpg" class="attachment-small-post-thumbnail wp-post-image" alt="Walgreens_logo4" title="Walgreens_logo4" /></figure></a>
+                  <h4><a href="http://www.mediatracks.com/blog/2011/10/21/tis-the-season-to-get-your-flu-shot/">&#8216;Tis the Season to Get Your Flu Shot</a></h4>
+									<p>Are you still counting on that daily dose of vitamin C to ward off the flu?  The holidays are coming, and a Walgreens&#8217; survey suggests more than 3 million of us will have our vacations spoiled by a flu-related illness this year alone.  Vacations aren’t the only thing spoiled though&#8211; kids missed 32 million days&nbsp;<a href="http://www.mediatracks.com/blog/2011/10/21/tis-the-season-to-get-your-flu-shot/" class="read-more">Continue Reading</a></p>
+																	</li>
+								                							</ul>
+							<!-- end of post_cycle -->
+							              </li>        		</ul>
+	</div><!--#content-->
+	<aside id="sidebar" class="grid_4">
+	<ul>
+		<li id="php_widget-3" class="widget"><h3>Services</h3><ul style="margin-bottom: 15px;">
+<li><a href="http://www.mediatracks.com/serv/guaranteed-audio-news-releases/">Audio News Releases</a></li>
+<li><a href="http://www.mediatracks.com/serv/radio-media-tours/">Radio Media Tours</a></li>
+<li><a href="http://www.mediatracks.com/serv/la-red-connectado/">La Red Connectado</a></li>
+<li><a href="http://www.mediatracks.com/serv/custom-feeds">Custom Feeds</a></li>
+<li><a href="http://www.mediatracks.com/serv/podcast">Podcasts</a></li>
+<li><a href="http://www.mediatracks.com/serv/public-service-announcements">Public Service Announcements</a></li>
+<li><a href="http://www.mediatracks.com/serv/studio-rental-recording-services">Studio Rental</a></li>
+
+</ul>
+<a href="http://www.mediatracks.com/broadcast-web-services/" class="button">read more</a>
+</li><li id="text-5" class="widget"><h3>Hear Our Shows</h3>			<div class="textwidget"><p style="margin: 0 0 4px 0;">Radio Health Journal</p>
+<object type="application/x-shockwave-flash" data="http://www.mediatracks.com/dewplayer/dewplayer.swf" width="300" height="20" id="dewplayerclassic" name="dewplayerclassic"> 
+<param name="movie" value="http://www.mediatracks.com/dewplayer/dewplayer.swf?mp3=http://www.mediatracks.com/shows/RHJ_12-12.mp3" /> 
+<param name="flashvars" value="mp3=http://www.mediatracks.com/shows/RHJ_12-12.mp3" /> 
+</object> 
+
+<p style="margin: 15px 0 4px 0;">Viewpoints</p>
+<object type="application/x-shockwave-flash" data="http://www.mediatracks.com/dewplayer/dewplayer.swf" width="300" height="20" id="dewplayerclassic" name="dewplayerclassic"> 
+<param name="movie" value="http://www.mediatracks.com/dewplayer/dewplayer.swf?mp3=http://www.mediatracks.com/shows/VIEWPOINTS_12-11.mp3" /> 
+<param name="flashvars" value="mp3=http://www.mediatracks.com/shows/VIEWPOINTS_12-11.mp3" /> 
+</object> </div>
+		</li><li id="widget_sp_image-3" class="widget"><a class="widget_sp_image-image-link" href="http://www.mediatracks.com/affiliates/become-an-affiliate/" target="_self"><img src="http://www.mediatracks.com/wp-content/uploads/2011/08/airourshows021.jpg" style="max-width: 239px;max-height: 98px;" alt="airourshows02" /></a></li><li id="widget_sp_image-4" class="widget"><a class="widget_sp_image-image-link" href="http://www.mediatracks.com/serv/la-red-connectado/" target="_self"><img src="http://www.mediatracks.com/wp-content/uploads/2011/08/la-red-connectado31.jpg" style="max-width: 239px;max-height: 98px;" alt="la-red-connectado3" /></a></li><li id="php_widget-4" class="widget"><h3>Our Team</h3><div id="our_team">
+<a href="http://www.mediatracks.com/about/our-team/shel-lustig" target="_top"><img src="http://www.mediatracks.com/wp-content/themes/theme1286/images/team/01_Shel.jpg" alt="Shel Lustig, President" title="Shel Lustig, President" /></a>
+
+<a href="http://www.mediatracks.com/about/our-team/reed-pence" target="_top"><img src="http://www.mediatracks.com/wp-content/themes/theme1286/images/team/09_Reed.jpg" alt="Reed Pence, Vice President" title="Reed Pence, Vice President" /></a>
+
+<a href="http://www.mediatracks.com/about/our-team/pat-reuter" target="_top"><img src="http://www.mediatracks.com/wp-content/themes/theme1286/images/team/04_Pat.jpg"  alt="Pat Reuter, Executive Producer" title="Pat Reuter, Executive Producer" /></a>
+
+<a href="http://www.mediatracks.com/about/our-team/sean-waldron" target="_top"><img src="http://www.mediatracks.com/wp-content/themes/theme1286/images/team/05_Sean.jpg" alt="Sean Waldron, Production Director" title="Sean Waldron, Production Director" /></a>
+
+<a href="http://www.mediatracks.com/about/our-team/polly-hansen" target="_top"><img src="http://www.mediatracks.com/wp-content/themes/theme1286/images/team/03_Polly.jpg" alt="Polly Hansen, Producer" title="Polly Hansen, Producer" /></a>
+
+<a href="http://www.mediatracks.com/about/our-team/erin-fleming" target="_top"><img src="http://www.mediatracks.com/wp-content/themes/theme1286/images/team/02_Erin.jpg" alt="Erin Fleming, Director of Operations" title="Erin Fleming, Director of Operations" /></a>
+
+<a href="http://www.mediatracks.com/about/our-team/kim-sawyer" target="_top"><img src="http://www.mediatracks.com/wp-content/themes/theme1286/images/team/08_Kim.jpg" alt="Kim Sawyer, Account Manager" title="Kim Sawyer, Account Manager" /></a>
+
+<a href="http://www.mediatracks.com/about/our-team/nancy-benson" target="_top"><img src="http://www.mediatracks.com/wp-content/themes/theme1286/images/team/10_Nancy.jpg"  alt="Nancy Benson, Radio Health Journal Host" title="Nancy Benson, Radio Health Journal Host" /></a>
+
+<a href="http://www.mediatracks.com/about/our-team/megan-mccarthy" target="_top"><img src="http://www.mediatracks.com/wp-content/themes/theme1286/images/team/06_Megan.jpg" alt="Megan McCarthy, Operations Coordinator" title="Megan McCarthy, Operations Coordinator" /></a>
+
+</div>
+</li>	</ul>
+</aside><!--sidebar--></div>
+     	</div><!--.container-->
+	</div>		
+</div><!--#main-->
+<footer id="footer">
+
+        <div class="container_12 clearfix">
+
+
+				<div id="first" class="footer-widget-area">
+					<ul>
+						<li id="nav_menu-3" class="footer-widget-container"><h3>Quick Links</h3><div class="menu-quick-links-container"><ul id="menu-quick-links" class="menu"><li id="menu-item-1945" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1945"><a href="http://radiohealthjournal.net">Radio Health Journal</a></li>
+<li id="menu-item-1890" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1890"><a href="http://www.mediatracks.com/viewpoints/">Viewpoints</a></li>
+<li id="menu-item-1928" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1928"><a href="http://www.mediatracks.com/affiliates-2/become-an-affiliate/">Become an Affiliate</a></li>
+<li id="menu-item-1929" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1929"><a href="http://www.mediatracks.com/affiliates-2/affiliate-log-in/">Affiliate Log-In</a></li>
+<li id="menu-item-1930" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1930"><a href="http://www.mediatracks.com/affiliates-2/affidavits/">Affidavits</a></li>
+</ul></div></li>					</ul>
+				</div><!-- #first .footer-widget-area -->
+
+				<div id="second" class="footer-widget-area">
+					<ul>
+						<li id="nav_menu-4" class="footer-widget-container"><h3>Services</h3><div class="menu-services-container"><ul id="menu-services" class="menu"><li id="menu-item-1932" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1932"><a href="http://www.mediatracks.com/production-services/">Production Services</a></li>
+<li id="menu-item-1933" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1933"><a href="http://www.mediatracks.com/broadcast-web-services-2/">Broadcast &#038; Web Services</a></li>
+<li id="menu-item-1934" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1934"><a href="http://www.mediatracks.com/syndicated-radio-programming-2/">Syndicated Radio Programming</a></li>
+<li id="menu-item-1935" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1935"><a href="http://www.mediatracks.com/affiliates-2/">Affiliates</a></li>
+</ul></div></li>					</ul>
+				</div><!-- #second .footer-widget-area -->
+
+				<div id="third" class="footer-widget-area">
+					<ul>
+						<li id="nav_menu-5" class="footer-widget-container"><h3>Information</h3><div class="menu-information-menu-container"><ul id="menu-information-menu" class="menu"><li id="menu-item-1993" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1993"><a href="http://www.mediatracks.com/syndicated-radio-programming-2/">Syndicated Radio Programming</a></li>
+<li id="menu-item-1937" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1937"><a href="http://www.mediatracks.com/affiliates-2/become-an-affiliate/">Become an Affiliate</a></li>
+<li id="menu-item-1938" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1938"><a href="http://www.mediatracks.com/about/">About</a></li>
+<li id="menu-item-1996" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1996"><a href="http://www.mediatracks.com/about/our-team/">Our Team</a></li>
+<li id="menu-item-1940" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1940"><a href="http://www.mediatracks.com/about/our-clients/">Our Clients</a></li>
+</ul></div></li>					</ul>
+				</div><!-- #third .footer-widget-area -->
+
+				<div id="fourth" class="footer-widget-area">
+					<ul>
+						<li id="social-widget-3" class="footer-widget-container"><h3>Stay Connected</h3><div class="socialmedia-buttons smw_left"><a href="http://www.facebook.com/mediatrackscomm" rel="nofollow" target="_blank"><img src="http://www.mediatracks.com/wp-content/plugins/social-media-widget/images/default/32/facebook.png" alt="MediaTracks Facebook" title="MediaTracks Facebook"  style="opacity: 0.8; -moz-opacity: 0.8;" class="fade" /></a><a href="http://twitter.com/#!/MediaTracksComm" rel="nofollow" target="_blank"><img src="http://www.mediatracks.com/wp-content/plugins/social-media-widget/images/default/32/twitter.png" alt="MediaTracks Twitter" title="MediaTracks Twitter"  style="opacity: 0.8; -moz-opacity: 0.8;" class="fade" /></a><a href="mailto:efleming@mediatracks.com" rel="nofollow" target="_blank"><img  src="http://www.mediatracks.com/wp-content/plugins/social-media-widget/images/default/32/email.png" alt="MediaTracks E-mail" title="MediaTracks E-mail"  style="opacity: 0.8; -moz-opacity: 0.8;" class="fade" /></a></div></li>					</ul>
+				</div><!-- #fourth .footer-widget-area -->
+
+
+        </div><!-- .container12 -->
+
+		<div class="container_12 clearfix">
+			<div class="grid_12">
+      	          <!--Widgetized Footer-->
+                        
+
+<a target="blank" href="http://www.boomsuper.com/"><img style="float:right;" src="http://www.boomsuper.com/images/public/boom_trans.png" alt="BOOM Supercreative" "/></a>
+          
+                      <p>Copyright © 2011 MediaTracks Communications<br/> 
+2250 E. Devon Avenue, Suite 150 | Des Plaines, IL 60018 | Tel: 847-299-9500 | Fax: 847-299-9501</p>
+                  
+      </div>
+		</div><!--.container-->
+	</footer>
+<script type='text/javascript' src='http://www.mediatracks.com/wp-content/plugins/contact-form-7/jquery.form.js?ver=2.52'></script>
+<script type='text/javascript' src='http://www.mediatracks.com/wp-content/plugins/contact-form-7/scripts.js?ver=2.4.6'></script>
+ <!-- this is used by many Wordpress features and for plugins to work proporly -->
+
+<!-- Show Google Analytics -->
+</body>
+
+</html>

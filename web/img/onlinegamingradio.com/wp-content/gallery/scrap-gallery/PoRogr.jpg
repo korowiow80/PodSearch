@@ -1,0 +1,375 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta property="fb:admins" content="100002078743203,1032381202"/>
+<meta property="fb:app_id" content="123701497709822">
+<meta property="og:type" content="blog"/>
+<meta property="og:url" content=""/>
+<meta property="og:image" content="http://onlinegamingradio.com/images/logo.png"/>
+<meta property="og:site_name" content="Online Gaming Radio"/>
+<meta property="og:title" content=""/>
+<link rel="shortcut icon" type="image/x-icon" href="http://onlinegamingradio.com/favicon.ico">
+<link rel="stylesheet" href="http://www.onlinegamingradio.com/wp2/wp-content/themes/kithicor/style.css" type="text/css" media="screen,print" />
+<link rel="stylesheet" type="text/css" media="print" href="http://www.onlinegamingradio.com/wp2/wp-content/themes/kithicor/print.css" />
+<link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+<title>Online Gaming Radio</title>
+<link rel="pingback" href="http://www.onlinegamingradio.com/wp2/xmlrpc.php" />
+
+<script type="text/javascript" src="http://www.onlinegamingradio.com/wp2/wp-content/themes/kithicor/includes/hoverIntent.js"></script> 
+<script type="text/javascript" src="http://www.onlinegamingradio.com/wp2/wp-content/themes/kithicor/includes/superfish.js"></script>
+<script type="text/javascript"> 
+// initialise Superfish 
+$(document).ready(function(){ 
+  $("ul.sf-menu").superfish({ 
+animation: {opacity:'show',height:'show'}, // fade-in and slide-down animation
+delay: 500, // 0.5 second delay on mouseout 
+speed: 'normal'
+  }); 
+}); 
+</script>
+
+<link href='http://fonts.googleapis.com/css?family=IM+Fell+English' rel='stylesheet' type='text/css'>
+
+<link rel='stylesheet' id='bbpress-style-css'  href='http://www.onlinegamingradio.com/wp2/wp-content/plugins/bbpress/bbp-themes/bbp-twentyten/css/bbpress.css?ver=20110912' type='text/css' media='screen' />
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js?ver=3.3.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.onlinegamingradio.com/wp2/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.onlinegamingradio.com/wp2/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.3.2" />
+<style type="text/css">
+    .calnk a:hover {
+         background-position:0 0;
+         text-decoration:none;  
+         color:#000000;
+         border-bottom:1px dotted #000000;
+         }
+    .calnk a:visited {
+         text-decoration:none;
+         color:#000000;
+         border-bottom:1px dotted #000000;
+        }
+    .calnk a {
+        text-decoration:none; 
+        color:#000000; 
+        border-bottom:1px dotted #000000;
+        }
+    .calnk a span { 
+        display:none; 
+        }
+    .calnk a:hover span {
+        color:#333333; 
+        background:#F6F79B; 
+        display:block;
+        position:absolute; 
+        margin-top:1px; 
+        padding:5px; 
+        width:150px; 
+        z-index:100;
+        line-height:1.2em;
+        }
+     .calendar-table {
+        border:none;
+        width:100%;
+     }
+     .calendar-heading {
+        height:25px;
+        text-align:center;
+        border:1px solid #D6DED5;
+        background-color:#E4EBE3;
+     }
+     .calendar-next {
+        width:25%;
+        text-align:center;
+     }
+     .calendar-prev {
+        width:25%;
+        text-align:center;
+     }
+     .calendar-month {
+        width:50%;
+        text-align:center;
+        font-weight:bold;
+     }
+     .normal-day-heading {
+        text-align:center;
+        width:25px;
+        height:25px;
+        font-size:0.8em;
+        border:1px solid #DFE6DE;
+        background-color:#EBF2EA;
+     }
+     .weekend-heading {
+        text-align:center;
+        width:25px;
+        height:25px;
+        font-size:0.8em;
+        border:1px solid #DFE6DE;
+        background-color:#EBF2EA;
+        color:#FF0000;
+     }
+     .day-with-date {
+        vertical-align:text-top;
+        text-align:left;
+        width:60px;
+        height:60px;
+        border:1px solid #DFE6DE;
+     }
+     .no-events {
+
+     }
+     .day-without-date {
+        width:60px;
+        height:60px;
+        border:1px solid #E9F0E8;
+     }
+     span.weekend {
+        color:#FF0000;
+     }
+     .current-day {
+        vertical-align:text-top;
+        text-align:left;
+        width:60px;
+        height:60px;
+        border:1px solid #BFBFBF;
+        background-color:#E4EBE3;
+     }
+     span.event {
+        font-size:0.75em;
+     }
+     .kjo-link {
+        font-size:0.75em;
+        text-align:center;
+     }
+     .calendar-date-switcher {
+        height:25px;
+        text-align:center;
+        border:1px solid #D6DED5;
+        background-color:#E4EBE3;
+     }
+     .calendar-date-switcher form {
+        margin:0;
+        padding:0;
+     }
+     .calendar-date-switcher input {
+        border:1px #D6DED5 solid;
+     }
+     .calendar-date-switcher select {
+        border:1px #D6DED5 solid;
+     }
+     .cat-key {
+        width:100%;
+        margin-top:10px;
+        padding:5px;
+        border:1px solid #D6DED5;
+     }
+     .calnk a:hover span span.event-title {
+        padding:0;
+        text-align:center;
+        font-weight:bold;
+        font-size:1.2em;
+        }
+     .calnk a:hover span span.event-title-break {
+        width:96%;
+        text-align:center;
+        height:1px;
+        margin-top:5px;
+        margin-right:2%;
+        padding:0;
+        background-color:#000000;
+     }
+     .calnk a:hover span span.event-content-break {
+        width:96%;
+        text-align:center;
+        height:1px;
+        margin-top:5px;
+        margin-right:2%;
+        padding:0;
+        background-color:#000000;
+     }
+     .page-upcoming-events {
+        font-size:80%;
+     }
+     .page-todays-events {
+        font-size:80%;
+     }
+</style>
+<!-- call Shout Stream Javascript in HEAD -->
+<script type='text/javascript' src='http://www.onlinegamingradio.com/wp2/wp-includes/js/swfobject.js?ver=2.2-20120417'></script>
+<script type='text/javascript' src='http://www.onlinegamingradio.com/wp2/wp-content/plugins/shout-stream/ss_popup.js?ver=1.0'></script>
+<!-- done Shout Stream Javascript in HEAD -->
+			<style type="text/css">
+				.error_message{margin-bottom:4px; padding:3px; border:1px solid #B36462; color:#B36462; background-color:#EEDBDB;}				
+				.sb_input{width:100%; margin:2px 0;}
+				#sb_smiles{margin-top:4px; display:none;}
+				#sb_messages{padding:2px; overflow:auto; height:250px;text-align:left;}
+				#sb_showsmiles{cursor:pointer;}
+				#input_area{display:none;text-align:left;}
+			</style>
+<link rel="stylesheet" type="text/css" href="http://www.onlinegamingradio.com/wp2/wp-content/plugins/social-media-widget/social_widget.css" />
+
+<!--Plugin WP Missed Schedule 2011.0920.2011 Active-->
+</head>
+<body class="error404">
+
+<!-- this markup will go just before the </body> tag on every page -->
+
+
+<div id="page">
+
+
+	<div id="header" role="banner">
+	<div class="topwidget"><li id="twitter-1" class="widget widget_twitter"><h2 class="widgettitle"><a href="http://twitter.com/OnlineGmingRdio" class="twitter_title_link"></a></h2>
+<ul class="twitter" style="list-style: none;"><li class="twitter-item"> Double XP Weekend : <a href="http://t.co/istwKdpo" class="twitter-link">http://t.co/istwKdpo</a> <a href="http://t.co/zk4NUdHG" class="twitter-link">http://t.co/zk4NUdHG</a> </li></ul></li>
+	<div align="center" style="width: 105px; position: absolute; top: 20px; right: 65px;"><a href="http://live.onlinegamingradio.com/ogr.m3u" target="_blank"><img src="http://onlinegamingradio.com/images/playbtn.png" alt="" /><br>Tune In</a></div>
+	<div align="center" style="width: 105px; position: absolute; top: 20px; right: 0px;"><a href="http://wbe02.mibbit.com/?settings=33c1ef7c6840cffca5a00f97a87dadce&server=irc.onlinegamingradio.com&channel=%23OGR" target="_blank"><img src="http://onlinegamingradio.com/images/chatbtn.png" alt="" /><br>Chat Live</a></div>
+	<div align="center" style="width: 57px; height: 20px; position: absolute; top: 60px; right: 155px;"><a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=267761652"><img src="http://onlinegamingradio.com/images/itunesbtn.png" alt="" /></a></div>
+	<div align="center" style="width: 57px; height: 20px; position: absolute; top: 60px; right: 90px;"><a href="http://social.zune.net/podcast/Online-Gaming-Radio/4154d92e-bfe4-4141-8260-118e10df02a4"><img src="http://onlinegamingradio.com/images/zunebtn.png" alt="" /></a></div>
+	<div align="center" style="width: 57px; overflow: hidden; max-height: 20px; position: absolute; top: 60px; right: 25px;"><a href="http://fusion.google.com/add?feedurl=http://podcast.onlinegamingradio.com/rss.xml"><img src="http://onlinegamingradio.com/images/googlebtn.png" alt="" /></a></div>
+
+<div align="center" style="width: 66px; overflow: hidden; max-height: 23px; position: absolute; top: 60.5px; left: 8px;"><script src="http://widgets.getglue.com/checkin.js" type="text/javascript"></script><a href="http://getglue.com" class="glue-checkin-widget" data-objectId="tv_shows/online_gaming_radio" data-type="horizontal">Check-in on GetGlue</a></div>
+	</div>
+		<div id="headerimg">
+		<a href="http://www.onlinegamingradio.com"><img src="http://www.onlinegamingradio.com/wp2/wp-content/themes/kithicor/images/headers/ogr_logo.png" alt="" /></a>
+		</div>
+	</div>
+	<div class="kith-menu">
+	<nav class="header-nav"><ul id="menu-menu" class="sf-menu"><li id="menu-item-5628" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5628"><a href="#">OGR</a>
+<ul class="sub-menu">
+	<li id="menu-item-5629" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5629"><a href="http://www.onlinegamingradio.com/contact/">Contact Us</a></li>
+	<li id="menu-item-5631" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5631"><a href="http://www.onlinegamingradio.com/your-podcast/">Your Podcast</a></li>
+</ul>
+</li>
+<li id="menu-item-5613" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5613"><a href="#">Our DJ&#8217;s</a>
+<ul class="sub-menu">
+	<li id="menu-item-6873" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6873"><a href="http://www.onlinegamingradio.com/author/amaury">Amaury</a></li>
+	<li id="menu-item-6958" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6958"><a href="http://www.onlinegamingradio.com/author/brenlo">Brenlo</a></li>
+	<li id="menu-item-5623" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5623"><a href="http://www.onlinegamingradio.com/author/jethal/">Jethal &#038; Elquinjena</a></li>
+	<li id="menu-item-5624" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5624"><a href="http://www.onlinegamingradio.com/author/leonai">Leonai</a></li>
+	<li id="menu-item-5626" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5626"><a href="http://www.onlinegamingradio.com/author/orlock">Orlock &#038; Svoald</a></li>
+	<li id="menu-item-6810" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6810"><a href="http://www.onlinegamingradio.com/author/torryn/">Torryn</a></li>
+	<li id="menu-item-5625" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5625"><a href="http://www.onlinegamingradio.com/author/zanadi">Zanadi &#038; Trueflight</a></li>
+</ul>
+</li>
+<li id="menu-item-5614" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5614"><a href="#">Featured Shows &#038; Podcasts</a>
+<ul class="sub-menu">
+	<li id="menu-item-5615" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5615"><a href="http://www.onlinegamingradio.com/category/age-of-conun/">Age of Conun</a></li>
+	<li id="menu-item-5616" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5616"><a href="http://www.onlinegamingradio.com/category/designconquer/">Design &#038; Conquer</a></li>
+	<li id="menu-item-6814" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6814"><a href="http://www.onlinegamingradio.com/category/downrange/">Downrange</a></li>
+	<li id="menu-item-5617" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5617"><a href="http://www.onlinegamingradio.com/category/eq2sday/">EQ2&#8242;s-day</a></li>
+	<li id="menu-item-6959" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6959"><a href="http://www.onlinegamingradio.com/category/halflingstew/">Halfling Stew</a></li>
+	<li id="menu-item-5618" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5618"><a href="http://www.onlinegamingradio.com/category/rnr/">Rock n Roleplay</a></li>
+	<li id="menu-item-6872" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6872"><a href="http://www.onlinegamingradio.com/category/sos/">Sands of Sound</a></li>
+	<li id="menu-item-6680" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6680"><a href="http://www.onlinegamingradio.com/category/tcbs/">TCBS</a></li>
+	<li id="menu-item-5619" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5619"><a href="http://www.onlinegamingradio.com/category/jethal/">Jethal Show</a></li>
+	<li id="menu-item-5620" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5620"><a href="http://www.onlinegamingradio.com/category/moghouse/">The Mog House</a></li>
+	<li id="menu-item-5621" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5621"><a href="http://www.onlinegamingradio.com/category/reckoning/">The Podcast of Reckoning</a></li>
+	<li id="menu-item-5622" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5622"><a href="http://www.onlinegamingradio.com/category/ravecast/">The Ravecast</a></li>
+</ul>
+</li>
+<li id="menu-item-6878" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6878"><a href="http://www.onlinegamingradio.com/schedule/">Our Play Schedule</a></li>
+</ul></nav><!--.header-nav-->
+	</div>
+	
+<div id="page2">
+<title>OOPS!! @ KITHICOR.ORG&copy;</title>
+	<div id="content" class="narrowcolumn">
+
+		<h2 class="center">Error 404 - Not Found</h2>
+
+	</div>
+
+ 
+	<div class="sidebars" id="sidebar" role="complementary">
+		<ul>
+			<li id="shout-stream" class="widget widget_shout_stream"><h2 class="widgettitle">On The Air</h2>
+<div style="text-align: center;"><object id="fmp256" type="application/x-shockwave-flash" data="http://www.onlinegamingradio.com/wp2/wp-content/plugins/shout-stream/minicaster.swf" width="180" height="70" flashVars="config=http%3A//www.onlinegamingradio.com/wp2/wp-content/plugins/shout-stream/minicaster.php%3Fminicasterurl%3Dlive.onlinegamingradio.com@80@OGR@ogr@0" /><param name="movie" value="http://www.onlinegamingradio.com/wp2/wp-content/plugins/shout-stream/minicaster.swf" /><param name="wmode" value="transparent" /><param name="allowScriptAccess" value="sameDomain" /><param name="flashVars" value="config=http%3A//www.onlinegamingradio.com/wp2/wp-content/plugins/shout-stream/minicaster.php%3Fminicasterurl%3Dlive.onlinegamingradio.com@80@OGR@ogr@0" /></object></div><ul style="padding-top:5px;"><span id="mplayerpopup"><!-- live.onlinegamingradio.com 80 0 2 http://www.onlinegamingradio.com/wp2/wp-content http%3A//www.onlinegamingradio.com/wp2/wp-content/plugins/shout-stream/ live.onlinegamingradio.com@80@OGR@ogr@0 1 ogr OGR 0 --></span><li><a title="[popup]" href="javascript:ss_popup('mplayerpopup','popup','width=320,height=160',document.getElementById('mplayerpopup').innerHTML)"><strong>OGR</strong></a><p style="padding-top: 5px; padding-bottom: 0px; padding-left: 5px; padding-right: 5px; margin: 0;"><a title="Flash Player PopUp" href="javascript:ss_popup('mplayerpopup','popup','width=320,height=160',document.getElementById('mplayerpopup').innerHTML)"><img src="http://www.onlinegamingradio.com/wp2/wp-content/plugins/shout-stream/pop-flash.png" alt="Flash Player PopUp" title="Flash Player PopUp"></a>&nbsp;<span id="mediaplayerpopup"><!-- live.onlinegamingradio.com 80 1 1 http://www.onlinegamingradio.com/wp2/wp-content http%3A//www.onlinegamingradio.com/wp2/wp-content/plugins/shout-stream/ live.onlinegamingradio.com@80@OGR@ogr@0 1 ogr OGR 0 --></span><a title="Media Player PopUp" href="javascript:ss_popup('mediaplayerpopup','popup','width=320,height=160',document.getElementById('mediaplayerpopup').innerHTML)"><img src="http://www.onlinegamingradio.com/wp2/wp-content/plugins/shout-stream/pop-mediap.png" alt="Media Player PopUp" title="Media Player PopUp"></a> <a href="http://live.onlinegamingradio.com:80/ogr.m3u"><img src="http://www.onlinegamingradio.com/wp2/wp-content/plugins/shout-stream/pop-winamp.png" alt="Winamp" title="Winamp"></a>&nbsp;<a href="http://live.onlinegamingradio.com:80/ogr.m3u"><img src="http://www.onlinegamingradio.com/wp2/wp-content/plugins/shout-stream/pop-itunes.png" alt="iTunes" title="iTunes"></a>&nbsp;</p></li></ul><p style="padding: 0;">Click an icon, above, for our PopUp player for your listening pleasure</p></li>
+<li id="text-9" class="widget widget_text">			<div class="textwidget"><center>
+<a href="http://getglue.com" 
+class="glue-checkin-widget" 
+data-type="sticker"
+data-prompt="Listening to Online Gaming Radio? Earn Real Stickers!"
+data-sticker="must_list_level_1" 
+data-bodyBgColor="white"
+data-objectId="tv_shows/online_gaming_radio">Check-in on GetGlue</a>
+<hr>
+YES, you can earn stickers by checking in.. Real Life Stickers! Earn 20 or more stickers by checking in to events and activities using Get Glue and they'll send Real Stickers to your home for Free!
+</center></div>
+		</li>
+<li id="social-widget-3" class="widget Social_Widget"><h2 class="widgettitle">Follow Us!</h2>
+<div class="socialmedia-buttons smw_center"><a href="http://www.facebook.com/OnlineGamingRadio" rel="nofollow" target="_blank"><img src="http://www.onlinegamingradio.com/wp2/wp-content/plugins/social-media-widget/images/default/32/facebook.png" alt="Follow Us on Facebook" title="Follow Us on Facebook" class="scale" /></a><a href="http://twitter.com/OnlineGmingRdio" rel="nofollow" target="_blank"><img src="http://www.onlinegamingradio.com/wp2/wp-content/plugins/social-media-widget/images/default/32/twitter.png" alt="Follow Us on Twitter" title="Follow Us on Twitter" class="scale" /></a><a href="http://getglue.com/tv_shows/online_gaming_radio" rel="nofollow" target="_blank"><img src="http://www.onlinegamingradio.com/wp2/wp-content/uploads/2011/06/getglue.png" alt="Follow Us on Get Glue" title="Follow Us on Get Glue" class="scale" width="32" height="32" /></a><a href="http://onlinegamingradio.com/feed/" rel="nofollow" target="_blank"><img  src="http://www.onlinegamingradio.com/wp2/wp-content/plugins/social-media-widget/images/default/32/rss.png" alt="Follow Us on RSS" title="Follow Us on RSS" class="scale" /></a><a href="mailto:onair@onlinegamingradio.com" rel="nofollow" target="_blank"><img  src="http://www.onlinegamingradio.com/wp2/wp-content/plugins/social-media-widget/images/default/32/email.png" alt="Follow Us on E-mail" title="Follow Us on E-mail" class="scale" /></a></div></li>
+<li id="text-7" class="widget widget_text"><h2 class="widgettitle">Visitor Map</h2>
+			<div class="textwidget"><center><script type="text/javascript" src="http://jf.revolvermaps.com/r.js"></script><script type="text/javascript">rm_f1st('1','220','true','false','000000','5rzs6nizoh8','true','baff00');</script><noscript><applet codebase="http://rf.revolvermaps.com/j" code="core.RE" width="220" height="220" archive="g.jar"><param name="cabbase" value="g.cab" /><param name="r" value="true" /><param name="n" value="false" /><param name="i" value="5rzs6nizoh8" /><param name="m" value="1" /><param name="s" value="220" /><param name="c" value="baff00" /><param name="v" value="true" /><param name="b" value="000000" /><param name="rfc" value="true" /></applet></noscript></center></div>
+		</li>
+<li id="text-5" class="widget widget_text"><h2 class="widgettitle">For Your Smart Phone</h2>
+			<div class="textwidget"><div align="center"><img src="http://www.onlinegamingradio.com/wp2/wp-content/uploads/2010/10/ogr_barcode.png" alt="" border="0"><br>Point your iPhone or Android Here<br>(Requires Bar Code Scanner App)</div></div>
+		</li>
+<li id="text-6" class="widget widget_text"><h2 class="widgettitle">Live Show Schedule</h2>
+			<div class="textwidget"><iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=375&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=6lcsg9mu7ehefbq8hdff3i3738%40group.calendar.google.com&amp;color=%23060D5E&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="274" height="375" frameborder="0" scrolling="no"></iframe></div>
+		</li>
+<li id="meta-3" class="widget widget_meta"><h2 class="widgettitle">Meta</h2>
+			<ul>
+						<li><a href="http://www.onlinegamingradio.com/wp2/wp-login.php">Log in</a></li>
+			<li><a href="http://www.onlinegamingradio.com/feed/" title="Syndicate this site using RSS 2.0">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://onlinegamingradio.disqus.com/latest.rss" title="The latest comments to all posts in RSS">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>
+						</ul>
+</li>
+		</ul>
+	</div>
+
+
+
+
+<div class="footer" id="footer" role="contentinfo">
+<div class="kithlinks">
+		<table  width="100%" cellspacing="5" cellpadding="5" align="center">
+<tr>
+			<td width="25%" valign="top">	</td>
+			<td width="25%" valign="top">	</td>
+			<td width="25%" valign="top">	</td>
+			<td width="25%" valign="top">	</td>
+			</tr>
+			</table>
+		</div>
+			
+<!-- If you'd like to support WordPress, having the "powered by" link somewhere on your blog is the best way; it's our only promotion or advertising. -->
+	<p>
+		Online Gaming Radio 2010&copy; - Theme by <a href="http://kithicor.org">Jethal Silverwing</a>
+		<br /><a href="http://www.onlinegamingradio.com/feed/">Entries (RSS)</a>
+		and <a href="http://onlinegamingradio.disqus.com/latest.rss">Comments (RSS)</a>.
+		<!-- 33 queries. 0.955 seconds. -->
+		<br><br><br><br><br>
+	</p>
+</div>
+</div>
+
+
+
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-23104976-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+})();
+</script>
+
+<!-- tracker added by Ultimate Google Analytics plugin v1.6.0: http://www.oratransplant.nl/uga -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-23104976-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+
+<!--Plugin WP Missed Schedule 2011.0920.2011 Active-->
+<script type="text/javascript" src="http://common.allakhazam.com/shared/zampower.js"></script>
+<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+</body>
+</html>
