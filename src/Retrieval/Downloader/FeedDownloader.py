@@ -39,8 +39,11 @@ class FeedDownloader:
     
     def downloadFeeds(self, feedUrls):
         for feedUrl in feedUrls:
-            dt = DownloadTool()
-            dt.download('feed', feedUrl)
+            self.downloadFeed(feedUrl)
+    
+    def downloadFeed(self, feedUrl):
+        dt = DownloadTool()
+        dt.download('feed', feedUrl)
             
 if __name__ == '__main__':
     FeedDownloader().run()
