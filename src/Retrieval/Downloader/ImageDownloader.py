@@ -9,6 +9,9 @@ from DownloadTool import DownloadTool
 class ImageDownloader:
     projectRoot = '../../../'
 
+    def __init__ (self):
+        self.dt = DownloadTool()
+
     def run(self):
         relativeFeedFilePaths = self.getAllFeedFilePaths()
         for relativeFeedFilePath in relativeFeedFilePaths:
@@ -52,9 +55,7 @@ class ImageDownloader:
         return podcast
 
     def downloadImage (self, imgUrl):
-        # downloads image to analogous location
-        dt = DownloadTool()
-        dt.download("image", imgUrl)
+        self.dt.download("image", imgUrl)
 
 if __name__ == '__main__':
     ImageDownloader().run()
