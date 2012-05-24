@@ -13,7 +13,7 @@ Downloader_all: FeedDownloader ImageDownloader
 FeedDownloader:
 	export PYTHONPATH=$$PYTHONPATH:`pwd`/src/Retrieval/Crawler && cd src/Retrieval/Downloader && python FeedDownloader.py
 ImageDownloader:
-	export PYTHONPATH=$$PYTHONPATH:`pwd`/src/Retrieval/Crawler && cd src/Retrieval/Downloader && python FeedDownloader.py
+	export PYTHONPATH=$$PYTHONPATH:`pwd`/src/Retrieval/Crawler && cd src/Retrieval/Downloader && python ImageDownloader.py
 
 
 Search_all: Search_Indexer
