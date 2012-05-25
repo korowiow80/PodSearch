@@ -48,7 +48,7 @@ class ImageDownloader:
     def parsePodcast(self, podcast):
         try:
             podcast = feedparser.parse(podcast)
-        except UnicodeDecodeError:
+        except (UnicodeDecodeError, IndexError):
             print "ImageDownloader.parseDownload: WARN: Podcast '%s' contains undecodable characters." % podcast
             return
 
