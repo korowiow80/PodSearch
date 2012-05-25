@@ -12,7 +12,7 @@
 
 
     
-    <link href="http://oystatic.ignimgs.com/cache/css/1b/3c/1b3c3079d0d8782a210ae53fe0330bfa.css" media="screen" rel="stylesheet" type="text/css" />    <link href="http://oystatic.ignimgs.com/src/ignmedia/css/default/print.css" media="print" rel="stylesheet" type="text/css" />
+    <link href="http://oystatic.ignimgs.com/cache/css/94/3e/943e283830f2acefe4e1641bb2118392.css" media="screen" rel="stylesheet" type="text/css" />    <link href="http://oystatic.ignimgs.com/src/ignmedia/css/default/print.css" media="print" rel="stylesheet" type="text/css" />
 
 
     <!--[if lt IE 9]>
@@ -37,11 +37,11 @@ document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
     var IGN = IGN || {};
     IGN.pagetype = "sorry";
     </script>
-    <script type="text/javascript" src="http://oystatic.ignimgs.com/cache/js/e9/7b/e97bdb4568dc5aa60197e8bdea9313d4.js"></script><script type="text/javascript">$j=jQuery;</script><script>
+    <script type="text/javascript" src="http://oystatic.ignimgs.com/cache/js/af/81/af81e04c251b84eecaf386343ce89593.js"></script><script type="text/javascript">$j=jQuery;</script><script>
 var igndrones = igndrones || {};
 igndrones.async = igndrones.async || [];
 igndrones.async.push(function() {
-    igndrones.init({"chartbeat":{"uid":"21105","domain":"ign.com","sections":"Desktop Web,media"},"comscore":{"c2":"3000068"},"ga":{"account_number":"UA-23541058-1","_setDomainName":".ign.com","custom_vars":[[1,"pagetype","sorry",3],[15,"action","error",3],[16,"controller","error",3],[17,"module","default",3],[18,"resource","media",3],[20,"is-community","no",3],[21,"signed-in","no",2],[22,"subscriber","no",1]]}});
+    igndrones.init({"audience":{"csid":"C07583","property":"ign","pagetype":"sorry"},"chartbeat":{"uid":"21105","domain":"ign.com","sections":"Desktop Web,media"},"comscore":{"c2":"3000068"},"ga":{"account_number":"UA-23541058-1","_setDomainName":".ign.com","custom_vars":[[1,"pagetype","sorry",3],[15,"action","error",3],[16,"controller","error",3],[17,"module","default",3],[18,"resource","media",3],[20,"is-community","no",3],[21,"signed-in","no",2],[22,"subscriber","no",1]]}});
     igndrones.fireTop();
 });
 </script></head>
@@ -113,8 +113,8 @@ igndrones.async.push(function() {
                             <li id="navItem-ps3" class="ignHeader-navItem">
                     <a class="ps3" href="http://www.ign.com/ps3">PS3</a>
                                     </li>
-                            <li id="navItem-wii" class="ignHeader-navItem">
-                    <a class="wii" href="http://www.ign.com/wii-u">Wii</a>
+                            <li id="navItem-wii-u" class="ignHeader-navItem">
+                    <a class="wii-u" href="http://www.ign.com/wii-u">Wii U</a>
                                     </li>
                             <li id="navItem-pc" class="ignHeader-navItem">
                     <a class="pc" href="http://www.ign.com/pc">PC</a>
@@ -313,13 +313,9 @@ igndrones.async.push(function() {
   </footer>
 </div>
 
-        <div>
-            <script type="text/javascript">document.write('<'+'script type="text/javascript" src="http://wrapper.ign.com/a?size=text&amp;adsDisabled=&amp;resource=media&amp;pagetype=sorry&amp;url=http%3A%2F%2Fwww.ign.com%2Fmedia%2Fpodcasts%2Fwhattheyplay%2FWTPpodcast2.jpg&amp;module=default&amp;controller=error&amp;action=error&amp;r=http%3A%2F%2Fwww.ign.com%2Fmedia%2Fpodcasts%2Fwhattheyplay%2FWTPpodcast2.jpg&amp;subdomain=www.ign.com"><'+'/script>');</script>
-        </div>
-    
 
 <script>igndrones.async.push(function() {igndrones.fireBottom();});</script>
 </body>
 </html>
 
-<!-- View Generation: 154ms - 16.75MB - 129 -->
+<!-- View Generation: 173ms - 17.25MB - media-oyster-prd-app-17 -->

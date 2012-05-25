@@ -1,0 +1,483 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:addthis="http://www.addthis.com/help/api-spec" >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!--  -->  
+<title>
+404 Not Found / This Is Hell!</title>
+
+	<!-- METAS -->
+	<meta name="keywords" content=" &raquo; Page not found  This Is Hell! , This Is Hell!" />
+	<meta name="description" content=" &raquo; Page not found  Brave enough to be live, dumb enough to be goofy, stupid enough to think that we can be a regular part of your Saturday morning hangover. This is Hell! airs a live four hour broadcast beginning at 9 AM (US central) on WNUR 89.3 FM Chicago, streaming live from WNUR and podcasted shortly after." />
+    <meta name="author" content="This Is Hell!" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" media="all" href="http://thisishell.net/wp-content/themes/TIHv2/css/main.css" />
+    <style type="text/css">
+/* -------------------------------------------------------------------------------------- THEME COLORS */
+#top_bar #top_menu li a:hover{ color:#D32027;}
+#top_bar{ border-top:1px solid #D32027;}
+#top_bar strong{ color:#D32027;}
+#main-menu ul li a:hover{color:#999 !important;}
+#main-menu ul li a:hover .subline{color:#D32027 !important;}
+#main-menu ul li .hover .subline{color:#D32027 !important;}
+#main-menu ul li li .active{color:#D32027 !important;}
+#main a{color:#181818;}
+#main a:hover{color:#D32027 !important;}
+#main-menu ul ul li a:hover{color:#D32027 !important;}
+a.button_link{ background:#000; color:#FFF !important; border-right:4px solid #D32027;}
+a.button_link:hover{color:#D32027 !important;}
+.blog_post_style_date_block{background:#D32027 url(http://thisishell.net/wp-content/themes/TIHv2/images/date_post_highlight.png) no-repeat left top;}
+.post_infos a{border-bottom:1px dotted #D32027;padding:0 0 1px 0;}
+.post_infos a:hover{border-bottom:1px dotted #999;}
+#sidebar h4 span{border-left:4px solid #D32027;}
+#footer .bottom_menu li a{ color:#f2f2f2;}
+#footer .bottom_menu li a:hover{color:#D32027 !important;}
+.nivo-caption p {background:#D32027 url(http://thisishell.net/wp-content/themes/TIHv2/images/sidebar_h4_highlight.png) no-repeat right top; }
+#main-menu ul ul ul{border-top:2px solid #D32027;}
+.album_style_1 .picture_counter{background:#D32027;}
+.continue_button{ border-bottom:1px dotted #D32027; }
+.rub h2 span{background:#D32027 url(http://thisishell.net/wp-content/themes/TIHv2/images/sidebar_h4_highlight.png) no-repeat right top !important;}
+.underlined{ padding-bottom:4px; margin-bottom:10px; border-bottom:1px solid #D32027;}
+.blog_post_style3_date{ border-bottom: 1px dotted #D32027;}
+.filter_list li:hover{ color:#FFF !important; }
+.filter_list li a:hover{ color:#D32027 !important; }
+/* FONT */
+.blog_post_style_date_block,
+.post_infos,
+.button_link,
+.excerpt_text_single,
+.nivo-caption p,
+.subline,
+#main-menu ul ul li,
+ul#testimonials li,
+.infos_album,
+.category_folio,
+.logo_infos{ font-family:Georgia, \"Times New Roman\", Times, serif;}
+</style>	<link rel="stylesheet" type="text/css" media="screen" href="http://thisishell.net/wp-content/themes/TIHv2/css/prettyPhoto.css" />
+    <!--[if IE 7]>
+    <link rel="stylesheet" type="text/css" media="all" href="http://thisishell.net/wp-content/themes/TIHv2/css/ie7.css" />
+    <![endif]-->
+    
+    <!--[if IE 8]>
+    <link rel="stylesheet" type="text/css" media="all" href="http://thisishell.net/wp-content/themes/TIHv2/css/ie8.css" />
+    <![endif]-->
+    
+    <link rel="alternate" type="application/rss+xml" title="This Is Hell! &raquo; Feed" href="http://thisishell.net/feed/" />
+<link rel="alternate" type="application/rss+xml" title="This Is Hell! &raquo; Comments Feed" href="http://thisishell.net/comments/feed/" />
+<link rel='stylesheet' id='mediaelementjs-styles-css'  href='http://thisishell.net/wp-content/plugins/media-element-html5-video-and-audio-player/mediaelement/mediaelementplayer.css?ver=3.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='podpress_frontend_styles-css'  href='http://thisishell.net/wp-content/plugins/podpress/podpress.css?ver=3.3.2' type='text/css' media='all' />
+<script type="text/javascript">
+//<![CDATA[
+var podpressL10 = {
+	openblogagain : 'back to:',
+	theblog : 'the blog',
+	close : 'close',
+	playbutton : 'Play &gt;'
+}
+//]]>
+</script>
+<script type="text/javascript" src="http://thisishell.net/wp-content/plugins/podpress/players/1pixelout/1pixelout_audio-player.js"></script>
+<script type="text/javascript">//<![CDATA[
+	var podPressPlayerFile = "1pixelout_player.swf";
+	var podPressPopupPlayerOpt = new Object();
+	podPressPopupPlayerOpt["lefticon"] = "333333";
+	podPressPopupPlayerOpt["leftbg"] = "D32027";
+	podPressPopupPlayerOpt["volslider"] = "5D2B2D";
+	podPressPopupPlayerOpt["voltrack"] = "FFFFFF";
+	podPressPopupPlayerOpt["text"] = "2F1416";
+	podPressPopupPlayerOpt["tracker"] = "DDDDDD";
+	podPressPopupPlayerOpt["slider"] = "5D2B2D";
+	podPressPopupPlayerOpt["loader"] = "D32027";
+	podPressPopupPlayerOpt["track"] = "FFFFFF";
+	podPressPopupPlayerOpt["border"] = "D32027";
+	podPressPopupPlayerOpt["bg"] = "E5E5E5";
+	podPressPopupPlayerOpt["skip"] = "5D2B2D";
+	podPressPopupPlayerOpt["righticon"] = "2F1416";
+	podPressPopupPlayerOpt["righticonhover"] = "FFFFFF";
+	podPressPopupPlayerOpt["rightbg"] = "B4B4B4";
+	podPressPopupPlayerOpt["rightbghover"] = "999999";
+	podPressPopupPlayerOpt["initialvolume"] = "70";
+	podPressPopupPlayerOpt["buffer"] = "5";
+	podPressPopupPlayerOpt["checkpolicy"] = "no";
+	podpressAudioPlayer.setup("http://thisishell.net/wp-content/plugins/podpress/players/1pixelout/" + podPressPlayerFile, {lefticon:"333333", leftbg:"D32027", volslider:"5D2B2D", voltrack:"FFFFFF", text:"2F1416", tracker:"DDDDDD", slider:"5D2B2D", loader:"D32027", track:"FFFFFF", border:"D32027", bg:"E5E5E5", skip:"5D2B2D", righticon:"2F1416", righticonhover:"FFFFFF", rightbg:"B4B4B4", rightbghover:"999999", initialvolume:"70", buffer:"5", checkpolicy:"no",  pagebg:"FFFFFF", transparentpagebg:"yes", encode: "no"} );
+//]]></script>
+<script type="text/javascript">//<![CDATA[
+var podPressBlogURL = "http://thisishell.net/";
+var podPressBackendURL = "http://thisishell.net/wp-content/plugins/podpress/";
+var podPressDefaultPreviewImage = "http://thisishell.net/wp-content/plugins/podpress/images/vpreview_center.png";
+var podPressMP3PlayerWrapper = true;
+var podPress_cortado_signed = false;
+var podPressOverwriteTitleandArtist = false;
+var podPressHTML5 = false;
+var podPressHTML5_showplayersdirectly = false;
+var podPressText_PlayNow = "Play Now";
+var podPressText_HidePlayer = "Hide Player";
+//]]></script>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://thisishell.net/wp-content/plugins/media-element-html5-video-and-audio-player/mediaelement/mediaelement-and-player.min.js?ver=2.7.0'></script>
+<script type='text/javascript' src='http://thisishell.net/wp-content/plugins/podpress/js/podpress.js?ver=3.3.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://thisishell.net/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://thisishell.net/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.3.2" />
+<meta name="framework" content="Alkivia Framework 0.8" />
+<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+
+<style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style>	<!-- JS -->
+    <!-- script type="text/javascript" src="http://thisishell.net/wp-content/themes/TIHv2/js/jquery.easing.1.3.js"></script-->
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+    <script type="text/javascript" src="http://thisishell.net/wp-content/themes/TIHv2/js/jquery.prettyPhoto.js"></script>
+	<script type="text/javascript" src="http://thisishell.net/wp-content/themes/TIHv2/js/jquery.innerfade.js"></script>
+    <script type="text/javascript" src="http://thisishell.net/wp-content/themes/TIHv2/js/custom.js"></script>
+    <script type="text/javascript" src="http://thisishell.net/wp-content/themes/TIHv2/js/jquery.fullscreenr.js"></script>
+    <script type="text/javascript" src="http://thisishell.net/wp-content/themes/TIHv2/js/jquery.floating_popup.1.4.min.js"></script>
+<script type="text/javascript">  
+	var FullscreenrOptions = {  width: 1920, height: 1080, bgID: '#bgimg' };
+	jQuery.fn.fullscreenr(FullscreenrOptions);
+</script>
+    
+    
+	<!-- Cufon -->
+	<script src="http://thisishell.net/wp-content/themes/TIHv2/js/cufon-yui.js" type="text/javascript"></script>
+    <script src="http://thisishell.net/wp-content/themes/TIHv2/js/serifa.font.js" type="text/javascript"></script>
+    <script src="http://thisishell.net/wp-content/themes/TIHv2/js/museo.font.js" type="text/javascript"></script>
+    <script type="text/javascript">
+		//Cufon replace
+		Cufon.replace('h1, h2, h3, h4, h5, h6, .cufon',{ hover: true, fontFamily: 'serifa' });
+		Cufon.replace('#sidebar h4, .button_link',{ hover: true, fontFamily: 'museo' });
+	</script>
+	<!-- /Cufon -->
+<style type="text/css">
+/* CSS FIXES */
+body {
+	padding:0;margin:0;
+	height:100%;width:100%;
+    background-color: #2F1416 !important;
+	/*background:#2F1416 url("") fixed no-repeat 50% top !important;*/
+}
+.source-image {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: auto;
+	z-index:-1;
+	display:block;
+	overflow:hidden;
+}
+#main a{color:#2F1416 !important;}
+</style>
+</head>
+
+<body class="custom serifa shadow_type1 georgia class="error404"">
+<img class="source-image" id="bgimg" src="http://thisishell.net/wp-content/themes/TIHv2/images/background/bg05.jpg" alt="">
+<div class="wrap">
+<div class="headerwrap"><!-- HEADER -->
+<div id="header">
+    <!-- Content of HEADER -->
+    <div class="content">
+        <!-- TOP BAR -->
+        <div id="top_bar">
+                <!-- Slogan top -->
+                                <!-- /Slogan top -->
+        
+                <!-- top menu -->
+                <div class="right"><div class="menu-top-menu-container"><ul id="top_menu" class=""><li id="menu-item-4512" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-4512"><a href="http://thisishell.net/">Home</a></li>
+<li id="menu-item-5151" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5151"><a href="http://thisishell.net/chat">Chat</a></li>
+<li id="menu-item-4513" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4513"><a href="http://thisishell.net/contact/">Contact</a></li>
+<li id="menu-item-4525" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4525"><a href="http://thisishell.net/about/">About</a></li>
+<li id="menu-item-4524" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4524"><a href="http://thisishell.net/donations/">HELP TIH!</a></li>
+<li id="menu-item-4511" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-4511"><a href="http://thisishell.net">||| SITE MAP</a>
+<ul class="sub-menu">
+	<li id="menu-item-4495" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4495"><a href="http://thisishell.net/category/announcements/">Announcements</a></li>
+	<li id="menu-item-4497" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4497"><a href="http://thisishell.net/category/correspondents/cordially-in-your-face/">Cordially In Your Face</a></li>
+	<li id="menu-item-4496" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4496"><a href="http://thisishell.net/category/correspondents/">Correspondents</a></li>
+	<li id="menu-item-4523" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4523"><a href="http://thisishell.net/events/">Events</a></li>
+	<li id="menu-item-4498" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4498"><a href="http://thisishell.net/category/correspondents/automan/">Dan &#8216;The Auto Man&#8217;</a></li>
+	<li id="menu-item-4790" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4790"><a href="http://thisishell.net/category/correspondents/fool-britannia/">Fool Britannia</a></li>
+	<li id="menu-item-4499" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4499"><a href="http://thisishell.net/category/correspondents/konspiracy-korner/">Konspiracy Korner</a></li>
+	<li id="menu-item-4500" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4500"><a href="http://thisishell.net/category/correspondents/open-my-eyes/">Open My Eyes</a></li>
+	<li id="menu-item-4501" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4501"><a href="http://thisishell.net/category/correspondents/our-man-in-san-juan-correspondents/">Our Man in San Juan</a></li>
+	<li id="menu-item-4504" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4504"><a href="http://thisishell.net/category/correspondents/the-moment-of-truth/">The Moment of Truth</a></li>
+	<li id="menu-item-4505" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4505"><a href="http://thisishell.net/category/correspondents/the-radical-pessimist-correspondents/">The Radical Pessimist</a></li>
+	<li id="menu-item-4506" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4506"><a href="http://thisishell.net/category/nine-circles-of-hell/">Nine Circles of Hell!</a></li>
+	<li id="menu-item-4507" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4507"><a href="http://thisishell.net/category/questions-from-hell/">Questions From Hell!</a></li>
+	<li id="menu-item-4508" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4508"><a href="http://thisishell.net/category/shows/">Shows</a></li>
+	<li id="menu-item-4502" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4502"><a href="http://thisishell.net/category/correspondents/sports-report/">Sports Report</a></li>
+	<li id="menu-item-4503" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4503"><a href="http://thisishell.net/category/correspondents/sustainable-energy/">Sustainable Energy</a></li>
+	<li id="menu-item-4571" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4571"><a href="http://thisishell.net/category/correspondents/thanks-you-science/">Thank You Science</a></li>
+	<li id="menu-item-4510" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4510"><a href="http://thisishell.net/category/website-of-the-week/">Website of the Week</a></li>
+	<li id="menu-item-4806" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4806"><a href="http://thisishell.net/2001-podcast-archive/">2001 Podcast Archive</a></li>
+	<li id="menu-item-4813" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4813"><a href="http://thisishell.net/2002-podcast-archive/">2002 Podcast Archive</a></li>
+	<li id="menu-item-4821" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4821"><a href="http://thisishell.net/2003-podcast-archive/">2003 Podcast Archive</a></li>
+	<li id="menu-item-4830" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4830"><a href="http://thisishell.net/2004-podcast-archive/">2004 Podcast Archive</a></li>
+	<li id="menu-item-4835" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4835"><a href="http://thisishell.net/classic-podcasts/">Classic Podcasts</a></li>
+	<li id="menu-item-4632" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4632"><a href="http://thisishell.net/oldsite/">Archived Old Site</a></li>
+</ul>
+</li>
+</ul></div></div>
+                <!-- /top menu -->
+                <br class="clear" />
+        </div>
+        <!-- /TOP BAR -->
+    
+        <!-- Top Logo -->
+        <div class="rssicon"><a href="http://thisishell.net/wp-content/themes/bueno/images/TIH_icon_144px.pngfeed/" target="_blank"><img src="/wp-content/themes/TIHv2/images/icon-rss-44x16.png.jpg" border="0" alt="Any Feed Reader"></a></div>
+        <div id="top_logo">
+        	<h1><a href="/" title="This Is Hell! | http://thisishell.net"><img src="http://thisishell.net/wp-content/themes/TIHv2/images/thisishell_logo.png" alt="" /><span class="inv">http://thisishell.net</span></a></h1>
+        </div>
+        <!-- /Top Logo -->
+        <!-- Main Menu -->
+        <br class="clear" />
+		<div id="main-menu">
+                <div class="menu-main-menu-container"><ul id="menu-main-menu" class="menu"><li><a href="http://thisishell.net/category/shows/"><span class="cufon">Shows</span></a></li>
+<li><a href="http://thisishell.net/category/nine-circles-of-hell/"><span class="cufon">Nine Circles of Hell!</span></a></li>
+<li><a href="http://thisishell.net/category/correspondents/"><span class="cufon">Correspondents</span></a></li>
+<li><a href="http://thisishell.net/classic-podcasts/"><span class="cufon">Classic Podcasts</span></a></li>
+<li><a href="http://thisishell.net/category/website-of-the-week/"><span class="cufon">Website of the Week</span></a></li>
+<li><a href="/donate"><span class="cufon">DONATE!</span></a></li>
+<li><a href="http://www.cafepress.com/thisishellstore/"><span class="cufon">Buy Crap!</span></a></li>
+</ul></div> 
+            </div>
+        <!-- /Main Menu -->
+		</div>
+		<div class="sub-menu-background"></div>
+    <!-- /Content of HEADER -->
+</div>
+<!-- /HEADER --></div>
+<!-- MAIN -->
+<div id="main">
+    <!-- Content of MAIN -->
+  <div class="content">
+<!-- DONATE FLOATING AD -- >
+<script type='text/javascript'>//<![CDATA[ 
+$(window).load(function(){
+$(function() {
+    $('#popup_content').popup({
+        starttime: 0,
+        multipages_timer: true,
+        selfclose: 128,
+        popup_div: 'popup',
+        close_id: 'baner_close',
+        overlay: false,
+        centered: true,
+        top: 0,
+        left: 0,
+        floating: true,
+        floating_reaction: 512,
+        floating_speed: 16,
+        fly_in: true,
+        fly_from: 'left',
+        fly_out: true,
+        fly_to: 'right',
+        popup_appear: 'show',
+        popup_appear_time: 0,
+        popup_disappear: 'hide',
+        popup_disappear_time: 0,
+
+    });
+});
+});//]]>  
+</script>
+<style type='text/css'>
+#overlay {
+    width:100%;
+    height:100%;
+    position:fixed;
+    _position:absolute;
+    top:0;
+    left:0;
+    z-index:10000;
+    background-color:#FFF;
+    overflow: hidden;
+}
+#popup {
+    display:none;
+    position:absolute;
+    z-index:10001;
+}
+.popup {
+    -moz-box-shadow: 0 0 20px #888;
+    -webkit-box-shadow: 0 0 20px #888;
+    box-shadow: 0 0 20px #888;
+}
+#baner_close {
+    position:absolute;
+    float:right;
+    top:0;
+    right:0;
+    cursor:pointer;
+    z-index:10002;
+    background-color:#6C6F74;
+    padding: 2px 8px;
+}
+#baner_close a {
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:14px;
+    font-weight:bold;
+    color:#ECEDEE;
+    text-shadow:0 -1px 0 #333;
+    white-space:nowrap;
+    vertical-align:top;
+    text-decoration:none;
+}
+#baner_close:hover {
+    background-color: #333;
+}
+#baner_close a:hover {
+    color:#ECEDEE;
+    text-shadow:0 -1px 0 #333;
+}
+</style>
+<div id="popup_content" style="display:none;"><div class="popup">
+    <a class="wepay-widget" href="https://www.wepay.com/donations/55401?widget_type=donations&widget_donation_id=55401&widget_auth_token=d5bf75537e05dc708c260e4b7a2a5b7052b6886c&widget_show_description=1&widget_show_thermometer=1&widget_show_donations=0">Donate for studio equipment for Chuck!<script id="wepay-widget_script" type="text/javascript" src="https://www.wepay.com/min/js/widget.wepay.js"></script></a>
+	<div id="baner_close"><a href="#">CLOSE</a></div>
+</div></div>
+<!-- /DONATE FLOATING AD -->
+  
+
+<!-- FULLWIDTH CONTENT -->
+<div class="fullwidth_content">
+
+        <div class="center"><img src="http://thisishell.net/wp-content/uploads/2011/08/404-obombs.png" alt="OOPS! NOT THAT<br/>F*CK!NG 404 AGAIN?" class="center" /></div>
+	    <div class="one_one">
+        <h2 class="center">OOPS! NOT THAT<br/>F*CK!NG 404 AGAIN?</h2>
+    </div>
+    
+    
+    <div style="margin:35px">
+<h3>THE HELL WERE YOU HOPING TO ACCOMPLISH HERE? YOU CANT CHANGE THE WORLD.</h3>
+    <p>The <strong>404</strong> or <strong>Not Found</strong> <a href="http://en.wikipedia.org/wiki/Error_message" title="Error message">error message</a> is a <a href="http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol" title="Hypertext Transfer Protocol">HTTP</a> <a href="http://en.wikipedia.org/wiki/List_of_HTTP_status_codes" title="List of HTTP status codes">standard response code</a> indicating that the <a href="http://en.wikipedia.org/wiki/Web_Browser" title="Web Browser" class="mw-redirect">client</a>
+ was able to communicate with the server, but the server could not find 
+what was requested. A 404 error should not be confused with &quot;<a href="http://en.wikipedia.org/wiki/Web_server" title="Web server">server</a>
+ not found&quot; or similar errors, in which a connection to the destination 
+server could not be made at all. A 404 error indicates that the 
+requested resource may be available again in the future. <br /></p>
+    <p>When communicating via HTTP, a server is required to respond to a request, such as a <a href="http://en.wikipedia.org/wiki/Web_browser" title="Web browser">web browser</a>'s request for a <a href="http://en.wikipedia.org/wiki/Web_page" title="Web page">web page</a>,
+ with a numeric response code and an optional, mandatory, or disallowed 
+(based upon the status code) message. In the code 404, the first digit 
+indicates a client error, such as a mistyped <a href="http://en.wikipedia.org/wiki/Uniform_Resource_Locator" title="Uniform Resource Locator">Uniform Resource Locator</a>
+ (URL). The following two digits indicate the specific error 
+encountered. HTTP's use of three-digit codes is similar to the use of 
+such codes in earlier protocols such as <a href="http://en.wikipedia.org/wiki/File_Transfer_Protocol" title="File Transfer Protocol">FTP</a> and <a href="http://en.wikipedia.org/wiki/Network_News_Transfer_Protocol" title="Network News Transfer Protocol">NNTP</a>.</p> 
+    <p>At the HTTP level, a 404 response code is followed by a 
+human-readable &quot;reason phrase&quot;. The HTTP specification suggests the 
+phrase &quot;Not Found&quot;<sup id="cite_ref-0" class="reference"><a href="http://en.wikipedia.org/wiki/HTTP_404#cite_note-0"><span>[</span>1<span>]</span></a></sup> and many web servers by default issue an HTML page that includes both the 404 code and the &quot;Not Found&quot; phrase.</p> 
+    <p>A 404 error is often returned when pages have been moved or deleted. 
+In the first case, a better response is to return a 301 Moved 
+Permanently response, which can be configured in most server 
+configuration files, or through <a href="http://en.wikipedia.org/wiki/Rewrite_engine" title="Rewrite engine">URL rewriting</a>;
+ in the second case, a 410 Gone should be returned. Because these two 
+options require special server configuration, most websites do not make 
+use of them.</p> 
+    <p>404 errors should not be confused with <a href="http://en.wikipedia.org/wiki/Domain_Name_System" title="Domain Name System">DNS</a>
+ errors, which appear when the given URL refers to a server name that 
+does not exist. A 404 error indicates that the server itself was found, 
+but that the server was not able to retrieve the requested page.</p>
+</div>
+<br class="clear" />
+</div>
+<!-- /FULLWIDTH CONTENT -->
+
+
+    <br class="clear" />
+
+    
+</div>
+    <!-- /Content of MAIN -->
+</div>
+<!-- /MAIN -->
+
+
+
+<!-- FOOTER -->
+<div id="footer">
+
+    <!-- Content of FOOTER -->
+    <div class="content">
+
+		<div class="spikes"></div>
+        
+        <!-- Logo + Infos Bottom -->
+        <div class="logo_infos">
+        	<p><a href="http://thisishell.net" title="This Is Hell! | http://thisishell.net"><img src="http://thisishell.net/wp-content/themes/TIHv2/images/TIH_icon.png" class="floatLeft" height="48" alt="" /></a>  <br />
+            </p>
+      </div>
+        <!-- /Logo + Infos Bottom -->
+        
+        <!-- BOTTOM MENU -->
+        <div class="bottom_menu">
+        
+        <div class="menu-footer-menu-container"><ul id="ft_menu" class=""><li id="menu-item-6160" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6160"><a href="http://thisishell.net/sound-board/">Sound Board</a></li>
+<li id="menu-item-4516" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4516"><a href="http://thisishell.net/wp-login.php">LOGIN</a></li>
+</ul></div>      
+        </div>
+        <!-- /BOTTOM MENU -->
+
+
+
+
+
+
+    <br class="clear" />
+	</div>
+    <!-- /Content of FOOTER -->
+</div>
+<!-- /FOOTER -->
+
+    <!-- GO TOP -->
+    <div id="go_top">
+        <a href="#top_bar"><span class="inv">Go to the top of the page</span></a>
+    </div>
+    <!-- /GO TOP -->
+    
+</div><!-- /WRAP -->
+
+<!-- AddThis Button Begin -->
+<script type="text/javascript">var addthis_product = 'wpp-264';
+var addthis_config = {"data_track_clickback":true,"data_track_addressbar":true,"ui_508_compliant":true};if (typeof(addthis_share) == "undefined"){ addthis_share = {"url_transforms":{"shorten":{"twitter":"bitly"}},"shorteners":{"bitly":{"login":"thisishellradio","apiKey":"R_c32a0cb97a7ce6aba8c0b50ac8ebbf4e"}}};}</script><script type="text/javascript" src="//s7.addthis.com/js/250/addthis_widget.js#pubid=thisishellradio"></script>    <script type="text/javascript">
+    // <![CDATA[
+        var disqus_shortname = 'thisishell';
+        (function () {
+            var nodes = document.getElementsByTagName('span');
+            for (var i = 0, url; i < nodes.length; i++) {
+                if (nodes[i].className.indexOf('dsq-postid') != -1) {
+                    nodes[i].parentNode.setAttribute('data-disqus-identifier', nodes[i].getAttribute('rel'));
+                    url = nodes[i].parentNode.href.split('#', 1);
+                    if (url.length == 1) url = url[0];
+                    else url = url[1]
+                    nodes[i].parentNode.href = url + '#disqus_thread';
+                }
+            }
+            var s = document.createElement('script'); s.async = true;
+            s.type = 'text/javascript';
+            s.src = 'http://disqus.com/forums/' + disqus_shortname + '/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    //]]>
+    </script>
+<script type="text/javascript">
+// PrettyPhoto Setting light_rounded / dark_rounded / light_square / dark_square / facebook
+$j(function() {	
+	$j("a[rel^='prettyPhoto']").prettyPhoto({animationSpeed:'200',theme:'light_rounded'}); 
+});
+</script>
+<script type="text/javascript">Cufon.now();</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-7083131-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

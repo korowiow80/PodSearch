@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<base href="http://www.drum-bass.net/" />
+<meta charset="utf-8">
+
+<title>Erreur 404 - Drum-bass, le magazine qui groove dans ta cuisine !</title>
+<meta name="robots" content="none" />
+
+<!--Head-->
+<meta name="author" content="danYdan - Drum-bass">
+<meta name="generator" content="SPIP 2.1.2 [16017]" />
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+
+<link rel="shortcut icon" href="squelettes/favicon.ico" />
+<link rel="apple-touch-icon" href="squelettes/apple-touch-icon.png" />
+<link rel="alternate" type="application/rss+xml" title="Syndiquer tout le site" href="http://feeds2.feedburner.com/drum-bass" />
+
+<link rel="stylesheet" href="squelettes/css/main.css" />
+<link rel="stylesheet" href="squelettes/css/handheld.css" media="handheld" />
+<link rel="stylesheet" href="squelettes/css/print.css" media="print" />
+<link rel="stylesheet" href="squelettes/css/superfish.css" media="screen" />
+
+<!--[if IE]><script type="text/javascript" src="squelettes/js/html5.js"></script><![endif]-->
+
+<link rel='stylesheet' type='text/css' media='all' href='extensions/porte_plume/css/barre_outils.css' />
+<link rel='stylesheet' type='text/css' media='all' href='http://www.drum-bass.net/spip.php?page=barre_outils_icones.css' />
+
+<link rel="stylesheet" href="plugins/nuage/nuage.css" type="text/css" media="all" />
+
+<script src="prive/javascript/jquery.js" type="text/javascript"></script>
+
+<script src="prive/javascript/jquery.form.js" type="text/javascript"></script>
+
+<script src="prive/javascript/ajaxCallback.js" type="text/javascript"></script>
+
+<script src="plugins/videos/lib/html5media-1.1.4/api/html5media.min.js" type="text/javascript"></script>
+<!-- insert_head --><!--[if lt IE 7]>
+	<script src='extensions/msie_compat/javascript/jquery.ifixpng.js'></script>
+	<script type='text/javascript'>//<![CDATA[
+		jQuery.ifixpng('rien.gif');		
+		function fixie() {
+			jQuery('img').ifixpng();
+		}
+		$(document).ready(function() { fixie(); });
+		onAjaxLoad(fixie);	
+	//]]></script>
+<![endif]-->
+<script type='text/javascript' src='extensions/porte_plume/javascript/xregexp-min.js'></script>
+<script type='text/javascript' src='extensions/porte_plume/javascript/jquery.markitup_pour_spip.js'></script>
+<script type='text/javascript' src='extensions/porte_plume/javascript/jquery.previsu_spip.js'></script>
+<script type='text/javascript' src='http://www.drum-bass.net/spip.php?page=porte_plume_start.js&amp;lang=fr'></script>
+<link rel='stylesheet' href='http://www.drum-bass.net/spip.php?page=forms_styles.css' type='text/css' media='all' />
+
+<!-- Debut header du Couteau Suisse -->
+<script src="plugins/couteau_suisse/outils/jquery.scrollto.js" type="text/javascript"></script>
+<script src="plugins/couteau_suisse/outils/jquery.localscroll.js" type="text/javascript"></script>
+<script type="text/javascript"><!--
+var cs_prive=window.location.pathname.match(/\/ecrire\/$/)!=null;
+jQuery.fn.cs_todo=function(){return this.not('.cs_done').addClass('cs_done');};
+var cs_verif_email = 0;
+var cs_verif_nom = 0;
+var cs_verif_deux = 1;
+function soft_scroller_init() { if(typeof jQuery.localScroll=="function") jQuery.localScroll({hash: true}); }
+// compatibilite Ajax : ajouter "this" a "jQuery" pour mieux localiser les actions 
+// et tagger avec cs_done pour eviter de binder plrs fois le meme bloc
+function cs_auteur_forum() {
+	// selecteur du bloc de previsualisation
+	var sel = jQuery('fieldset.previsu', this);
+	if(!sel.length) return;
+//	alert('previsu OK');
+	var form = sel.parents('form').eq(0);
+	if(!form.length) return;
+	// SPIP 2.0 remplace 'auteur' par 'session_nom'
+	var auteur = jQuery('#session_nom', this);
+	if(!auteur.length) auteur = jQuery('#auteur', this);
+	// SPIP 2.0 remplace 'email_auteur' par 'session_email'
+	var email = jQuery('#session_email', this);
+	if(!email.length) email = jQuery('#email_auteur', this);
+	if(auteur.length || email.length)
+	// eviter les forums anonymes
+	form.cs_todo().bind('submit', function(event){
+		var alert_nom = auteur.length && !auteur.val().length;
+		var alert_email = email.length && !email.val().length;
+		var alert_deux = cs_verif_deux && alert_nom && alert_email;
+		if(!cs_verif_deux) {
+			alert_nom = alert_nom && cs_verif_nom;
+			alert_email = alert_email && cs_verif_email;
+		} else if(!alert_deux)
+			alert_nom = alert_email = false;
+		auteur.css('background-color','').css('border','');
+		email.css('background-color','').css('border','');
+		if(alert_email) {
+			email.focus();
+			email.css('background-color','#FCC').css('border','solid #C30');
+		}
+		if(alert_nom) {
+			auteur.focus();
+			auteur.css('background-color','#FCC').css('border','solid #C30');
+		}
+		if(alert_deux) {
+			alert("Merci de sp\u00e9cifier votre nom ou votre email !");
+			return false;
+		}
+		if(alert_nom) {
+			alert("Merci de sp\u00e9cifier votre nom !");
+			return false;
+		}
+		if(alert_email) {
+			alert("Merci de sp\u00e9cifier votre email !");
+			return false;
+		}
+		return true;
+	});
+}
+
+var cs_init = function() {
+	cs_auteur_forum.apply(this);
+	soft_scroller_init.apply(this);
+	if(window.location.search.match(/page=forum/)!=null) jQuery("legend:contains('modération à priori')", this).next().html('Ce forum est mod&eacute;r&eacute; &agrave; priori&nbsp;: votre contribution n\'appara&icirc;tra qu\'apr&egrave;s avoir &eacute;t&eacute; valid&eacute;e par un administrateur du site, sauf si vous &ecirc;tes identifi&eacute; et autoris&eacute; &agrave; poster directement.');
+}
+if(typeof onAjaxLoad=='function') onAjaxLoad(cs_init);
+if(window.jQuery) {
+var cs_sel_jQuery=typeof jQuery(document).selector=='undefined'?'@':'';
+var cs_CookiePlugin="http://www.drum-bass.net/prive/javascript/jquery.cookie.js";
+jQuery(document).ready(function(){
+	cs_init.apply(document);
+});
+}
+// --></script>
+
+<style type="text/css">
+table.cs_smileys td {text-align:center; font-size:90%; font-weight:bold;}
+</style><!-- Fin header du Couteau Suisse -->
+
+
+<!-- Variables de configuration pour le plugin Vidéo(s) -->
+<script type='text/javascript' src='http://www.drum-bass.net/spip.php?page=videos_variables.js'></script>
+<link rel="stylesheet" href="plugins/videos/theme/css/videos.css" type="text/css" media="all" /><!-- // Vidéo(s) -->
+</head>
+<body>
+    
+	<div id="global">
+	
+	<!-- #header -->
+	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/fr_FR/all.js#xfbml=1&page_id=203008219742171";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<header role="banner">
+	<a id="hautdepage"></a>
+	<section id="bloc_haut">
+	
+		<ul class="boutons_haut fl">
+			<li><a href="http://twitter.com/danydan" title="Suivez Drum-bass via twitter"><img src="squelettes/images/btn_twitter.png" alt="Suivez Drum-bass via twitter" /></a></li>
+			<li><a href="http://www.facebook.com/drumbass.magazine" title="Rejoignez le groupe Facebook de Drum-bass"><img src="squelettes/images/btn_facebook.png" alt="Rejoignez le groupe Facebook de Drum-bass" /></a></li>
+			<li><a href="http://feeds2.feedburner.com/drum-bass" title="Recevoir les mises a jour de Drum-Bass par flux RSS"><img src="squelettes/images/btn_rss.png" alt="Recevoir les mises a jour de Drum-Bass par flux RSS" /></a></li>
+			<li><a href="http://www.drum-bass.net/spip.php?page=contacts#ajout_agenda" title="Ajouter une soir&eacute;e dans l'agenda de Drum-bass" class="btn_ajoutagenda fr">ajouter une soir&eacute;e dans l'agenda de Drum-bass</a></li>
+		</ul>
+		
+		<ul class="tags_haut fr">
+			<li><a href="http://www.drum-bass.net/+-broken-beat-+">broken beat</a></li>
+			<li><a href="http://www.drum-bass.net/+-future-jazz-+">future jazz</a></li>
+			<li><a href="http://www.drum-bass.net/+-drum-and-bass-+">drum &amp; bass</a></li>
+			<li><a href="http://www.drum-bass.net/+-funk-jazz-+">blues, funk et jazz</a></li>
+			<li><a href="http://www.drum-bass.net/+-hip-hop-+">hip hop</a></li>
+		</ul>
+		
+	</section>
+	
+	<div id="slider" class="fr">
+		<div class="jcarousel-skin-name">
+			<div class="jcarousel-container">
+				<div class="jcarousel-clip">
+					<ul class="jcarousel-list">
+						
+							
+							<li class="jcarousel-item-1448"><a href="../../WorldWide-festival-2010-a-Sete" title="lire l'article sur WorldWide festival 2010 &#224; S&#232;te"><img class='spip_logos' alt='WorldWide festival 2010 &#224; S&#232;te' src="local/cache-gd2/4eb2d8dfc15cb02165627f5938958064.png" width='120' height='95' style='height:95px;width:120px;' /></a></li>
+							
+							<li class="jcarousel-item-974"><a href="../../The-Last-Poets-Jazzdor-Hip-Hop-video" title="lire l'article sur The Last Poets &#224; Jazzdor + vid&#233;o"><img class='spip_logos' alt='The Last Poets &#224; Jazzdor + vid&#233;o' src="local/cache-gd2/a75a38bdf0622d34c90e84a3e4b0bd07.png" width='120' height='95' style='height:95px;width:120px;' /></a></li>
+							
+							<li class="jcarousel-item-1239"><a href="../../Dj-Food-nouvel-album-One-Mans-Weird-Is-Another-Mans-World" title="lire l'article sur Dj Food : One Man&#39;s Weird Is Another Man&#39;s World"><img class='spip_logos' alt='Dj Food : One Man&#39;s Weird Is Another Man&#39;s World' src="local/cache-gd2/d2cb3c7e02cd5859edc1744210b8b8b6.png" width='120' height='95' style='height:95px;width:120px;' /></a></li>
+							
+							<li class="jcarousel-item-773"><a href="../../Timeless-Inspiration-podcast-121" title="lire l'article sur Timeless Inspiration : podcast 121"><img class='spip_logos' alt='Timeless Inspiration : podcast 121' src="local/cache-gd2/d30f8299b47fcc4ea52484b4ee532cbb.png" width='120' height='95' style='height:95px;width:120px;' /></a></li>
+							
+							<li class="jcarousel-item-1412"><a href="../../Nouvel-album-de-Karimouche-Emballage-D-Origine-video" title="lire l'article sur A d&#233;couvrir, l&#39;album de Karimouche &quot;Emballage D&#39;origine&quot;"><img class='spip_logos' alt='A d&#233;couvrir, l&#39;album de Karimouche &quot;Emballage D&#39;origine&quot;' src="local/cache-gd2/9e2203ff4f4a47547907f3885f9b187d.png" width='120' height='95' style='height:95px;width:120px;' /></a></li>
+							
+							<li class="jcarousel-item-1409"><a href="../../Nouveau-Moonstarr-Tony-Ezzy-Farfisa-45-video" title="lire l'article sur Moonstarr is back en feat. Tony Ezzy avec &quot;Farfisa 45&quot;"><img class='spip_logos' alt='Moonstarr is back en feat. Tony Ezzy avec &quot;Farfisa 45&quot;' src="local/cache-gd2/fd94e9f7e6eb82ab39a9a5a7e40f9221.png" width='120' height='95' style='height:95px;width:120px;' /></a></li>
+							
+						
+					</ul>
+				</div>
+				<div disabled="disabled" class="jcarousel-prev jcarousel-prev-disabled">
+				</div>
+				<div class="jcarousel-next">
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<span id="titre_site"><a href="http://www.drum-bass.net/" title="Drum-bass est un magazine qui propose une information pointue sur la musique jazz et &eacute;lectronique"><img src="squelettes/images/logo.png" alt="Drum-bass. Entr&eacute;e, Plat, Dessert pour les oreilles, Th&eacute; offert !" width="420" height="90" /></a></span>
+	
+	<section id="bloc_menu">
+	
+		<div id="partenaires" class="fl">
+			<p><a href="http://www.drum-bass.net/Annoncer-sur-drum-bass-promotion-partenariat-pub" title="Plus d'infos sur les partenariats / annonces / promotion sur Drum-bass">Devenez <strong>partenaires</strong> de Drum-bass</a></p>
+			<script src="http://www.drum-bass.net/adserver/adx.js"></script>
+			<script>
+			<!--
+			   if (!document.phpAds_used) document.phpAds_used = ',';
+			   phpAds_random = new String (Math.random()); phpAds_random = phpAds_random.substring(2,11);
+			   document.write ("<" + "script type='text/javascript' src='");
+			   document.write ("http://www.drum-bass.net/adserver/adjs.php?n=" + phpAds_random);
+			   document.write ("&amp;what=zone:2");
+			   document.write ("&amp;exclude=" + document.phpAds_used);
+			   if (document.referrer)
+			      document.write ("&amp;referer=" + escape(document.referrer));
+			   document.write ("'><" + "/script>");
+			//-->
+			</script><noscript><br /><a href="http://www.drum-bass.net/adserver/adclick.php?n=a3fcaa42" target="_blank"><img src="http://www.drum-bass.net/adserver/adview.php?what=zone:2&amp;n=a3fcaa42" alt="" /></a></noscript>
+		</div>
+		
+		<div id="recherche" class="fr">
+			<form method="get" id="searchform" action="http://www.drum-bass.net/spip.php?page=recherche">
+				
+				<input type="hidden" name="lang" value="fr" />
+				<fieldset>
+					<legend></legend>
+					<label>rechercher sur <span class="vert">Drum-bass</span></label>
+					<input name='page' value='recherche' type='hidden' />
+					<input type="text" name="recherche" accesskey="4" onfocus="this.value='';"  />
+					<button type="submit"></button>
+				</fieldset>
+			</form>
+		</div>
+		
+		<div class="clear"></div>
+		
+		<nav id="menu" role="navigation">
+			<ul class="sf-menu">
+				<li><a href="http://www.drum-bass.net/"> Accueil</a></li>
+				
+				<li><a href="../../-Articles-Chroniques-de-disques-Interviews-Tribune-Libre-"> Lire des Articles</a>
+					
+					
+					<ul class='children'>
+						
+						<li><a href="../../-Broken-Beat-Breaks-"> broken beat - drum and bass - breaks </a></li>
+						
+						<li><a href="../../-electronica-experimental-beat-fusion-"> electronica - experimental beat - fusion </a></li>
+						
+						<li><a href="../../-Funk-Jazz-Blues-et-Death-Jazz-"> Funk, Jazz, Blues et Death Jazz </a></li>
+						
+						<li><a href="../../-future-jazz-electro-groove-"> Future Jazz - Electro Groove </a></li>
+						
+						<li><a href="../../-Hip-Hop,41-"> Hip Hop </a></li>
+						
+						<li><a href="../../-Tribune-libre,40-"> Tribune libre </a></li>
+							
+					</ul>	
+						
+								
+				</li>
+				
+				<li><a href="../../-Agenda-des-Soirees-en-France-"> Où Danser ce soir&nbsp;?</a>
+					
+					
+					<ul class='children'>
+						
+						<li><a href="../../-Nord-"> Sur la région Nord </a></li>
+							
+					</ul>	
+						
+								
+				</li>
+				
+				<li><a href="../../-Regarder-une-video-Electro-Jazz-Break-Groove-Hip-Hop-"> Regarder une Vidéo</a>
+								
+				</li>
+				
+				<li><a href="../../-Informations-et-Jeu-Concours-sur-la-Musique-"> l&#8217;Info en plus</a>
+					
+					
+					<ul class='children'>
+						
+						<li><a href="../../-Partenariat-promotion-publicite-"> Espace Presse et Partenariats </a></li>
+							
+					</ul>	
+						
+								
+				</li>
+				
+				<li><a href="http://www.drum-bass.net/spip.php?page=contacts"> Contacts</a></li>
+				<li><a href="http://www.drum-bass.net/spip.php?page=archives"> Archives</a></li>
+			</ul>
+		</nav>
+		
+	</section>
+	
+	
+	<section class="liste_agenda">
+		<ul>
+		    
+			<li>
+			
+			
+			<img src='local/cache-gd2/25a6377347b0de1c34b5b29e6f2ad346.png' width='180' height='70' style='height:70px;width:180px;' />
+			
+			
+			<a href="../../Electro-Libre">J'aime Electro Libre, c&#8217;est chaque 1er mercredi du mois</a></li>
+			
+		</ul>
+	</section>
+	
+
+</header>		
+		<div id="main">
+			
+			<h1 class="titre_categories">Drum-bass, le magazine qui groove dans ta cuisine</h1>
+		
+			<section id="contenu_gauche" class="fl">
+			            
+				<!-- Chemin du site --> 
+				<nav class="chemin">
+					<ul>
+				        <li class="home"><a href="http://www.drum-bass.net/">Accueil du site</a></li>
+				        <li>&gt; Erreur 404</li>
+				    </ul>
+				</nav>
+			
+				<article class="bloc_article page_article">
+				
+					<h2>Erreur 404</h2>
+					
+			        <p>D&eacute;sol&eacute;, la page que vous avez demand&eacute; n'est pas disponible. Il est possible que le ou les articles associ&eacute;s &agrave; l'adresse de cette page aient &eacute;t&eacute; d&eacute;plac&eacute;s ou supprim&eacute;s.</p>
+			        
+			        <h3>Peut-&ecirc;tre &eacute;tiez-vous venu chercher un de ces articles ?</h3>
+			        
+			        <ul class="spip">
+			            
+			            <li><a href="../../Au-revoir-Domu-Umod-Sonar-Circle-Bakura-Yotoko-Rima-video" title="Domu quitte le monde de la musique">Domu quitte le monde de la musique</a></li>
+			            
+			            <li><a href="../../Exclu-Interview-Matt-Black-20-ans-Ninja-Tune" title="L&#39;interview des fondateurs de Ninja Tune">L&#8217;interview des fondateurs de Ninja Tune</a></li>
+			            
+			            <li><a href="../../Jazzamar-Voice-4hero-Contre-Temps-Broken-Beat" title="Jazzamar, Voice et Marc Mac &#224; Colodor">Jazzamar, Voice et Marc Mac à Colodor</a></li>
+			            
+			            <li><a href="../../Decouverte-de-Doz1jeE-M7rrors" title="Le roadtrip de Doz1jeE">Le roadtrip de Doz1jeE</a></li>
+			            
+			            <li><a href="../../Nathan-Haines-The-Chillifunk-Years" title="Nathan Haines - The Chillifunk Years">Nathan Haines - The Chillifunk Years</a></li>
+			            
+			            <li><a href="../../V-A-Black-Gold-12" title="V./A. : Black Gold 12&#8221;">V./A.&nbsp;: Black Gold 12&#8221;</a></li>
+			            
+			            <li><a href="../../Reflexions-sur-les-musiques" title="R&#233;flexions sur les musiques &#233;lectroniques">Réflexions sur les musiques électroniques</a></li>
+			            
+			            <li><a href="../../KRS-One-and-Marley-Marl-Hip-Hop" title="KRS One and Marley Marl : Hip Hop Lives + vid&#233;o">KRS One and Marley Marl&nbsp;: Hip Hop Lives + vidéo</a></li>
+			            
+			            <li><a href="../../Remixes-de-Femi-Kuti-Day-by-Day-videos" title="Premi&#232;re s&#233;rie des remixes de l&#39;album &quot;Day by Day&quot; de Femi Kuti">Première série des remixes de l&#8217;album "Day by Day" de Femi Kuti</a></li>
+			            
+			            <li><a href="../../Concours-La-Phaze-10-EPs-Exclusifs-a-gagner" title="Concours La Phaze : 10 EPs Exclusifs &#224; gagner !">Concours La Phaze&nbsp;: 10 EPs Exclusifs à gagner&nbsp;!</a></li>
+			            
+			        </ul>
+			        
+			        
+			        <h3>Utiliser le formulaire pour nous contacter :</h3>
+			        
+			        <div class="formulaire_spip formulaire_ecrire_auteur ajax spip_forms" id="formulaire_ecrire_auteur_1">
+<br class='bugajaxie' />
+
+
+ 
+<form method='post' action='/spip/images/Timelessinspiration.jpg#formulaire_ecrire_auteur_1' enctype='multipart/form-data'>
+	
+	<div><input name='formulaire_action' type='hidden'
+		value='ecrire_auteur' /><input name='formulaire_action_args' type='hidden'
+		value='vvJoFaM9mTGfnqGykkkEjjC53SW5DHlYYg7XiBdH76INicSPnA/DuAs0IJ+AC297GQ5uGO5sjo42JGgI9aWOwN+T0qhf9NEr1fpMafbYYk5gQ4+SXDyCySuz2O5Xgg1Xhqo4Bwq3K0cD/0Zq' /></div>
+	
+	
+	<fieldset>
+		<legend>Envoyer un message</legend>
+		<ul>
+			<li class='saisie_email_message_auteur obligatoire spip_form_champ'>
+				<label for="email_message_auteur_1" class="spip_form_label">Votre adresse email</label>
+				
+				<input type="text" class="text ligne formo" name="email_message_auteur" id="email_message_auteur_1" value="" size="30" />
+			</li>
+			<li class='saisie_sujet_message_auteur obligatoire spip_form_champ'>
+				<label for="sujet_message_auteur_1" class="spip_form_label">Sujet</label>
+				
+				<input type="text" class="text ligne formo" name="sujet_message_auteur" id="sujet_message_auteur_1" value="" size="30" />
+			</li>
+			<li class='saisie_texte_message_auteur obligatoire spip_form_champ'>
+				<label for="texte_message_auteur_1" class="spip_form_label">Texte de votre message :</label>
+				
+				<textarea name="texte_message_auteur" id="texte_message_auteur_1" rows="8" cols="60" class="formo"></textarea>
+			</li>
+		</ul>
+	</fieldset>
+	
+	<p style="display: none;">
+		<label for="nobot">Veuillez laisser ce champ vide&nbsp;:</label>
+		<input type="text" class="text" name="nobot" id="nobot" value="" size="10" />
+	</p>
+	<div class="boutons spip_bouton" style="text-align: right;">
+		<input type="submit" class="submit spip_bouton_grand" name="valide" value="Envoyer un message" />
+	</div>
+</form>
+
+</div>
+			        
+				        
+					
+				</article>
+				
+				<div class="fr">
+					<p><a href="/spip/images/Timelessinspiration.jpg#hautdepage">haut de page</a></p>
+				</div>
+				
+				<div class="clear"></div>
+				
+			</section>
+			
+			<!-- #contenu_droite -->
+			<section id="contenu_droite" class="fr">
+
+	
+	<div class="bloc_pasjeux"></div>
+	
+	
+	<div class="bloc_droite" id="bloc_fanpage">
+		<h4>Fanpage facebook</h4>
+		<div class="fb-like-box" data-href="http://www.facebook.com/drumbass.magazine" data-width="180" data-show-faces="true" data-stream="false" data-header="false"></div>
+	</div>
+	
+	<div class="bloc_droite">
+		<h4>A propos du site</h4>
+	    <p>Amateurs, connaisseurs, artistes, dj's ou internautes curieux de musiques nouvelles se croisent sur le magazine cr&eacute;&eacute; en 2000 par <a href="http://www.drum-bass.net/_danYdan_" title="danYdan r&eacute;dacteur en chef de Drum-bass"><strong>danYdan</strong></a>.<br /><b>Drum-bass</b> est un magazine collaboratif qui propose une information pointue et exhaustive sur la musique &eacute;lectronique et plus particuli&egrave;rement sur les musiques <a href="http://www.drum-bass.net/+-broken-beat-+">broken beat</a> et <a href="http://www.drum-bass.net/+-future-jazz-+">future jazz</a>. Le magazine vit au rythme des concerts, des sorties de nouveaux albums et des rencontres avec les artistes.</p>
+		<p><a href="http://www.drum-bass.net/spip.php?page=apropos" title="La r&eacute;daction de Drum-bass">Plus d'infos sur les r&eacute;dacteurs du site.</a></p>
+	</div>
+	
+	<div class="bloc_droite" id="bloc_contact">
+		<h4>Contactez nous</h4>
+		<ul>
+			<li><a href="http://www.drum-bass.net/spip.php?page=contacts" title="Entrer en contact avec le r&eacute;dacteur en chef"><strong>Envoyer un mail</strong></a></li>
+			<li><a href="http://www.drum-bass.net/spip.php?page=contacts#ajout_agenda" title="Ajouter une date &agrave; l'Agenda de Drum-bass">Ajouter <strong>une date &agrave; l'agenda</strong></a></li>
+			<li><a href="http://www.drum-bass.net/spip.php?page=contacts" title="Proposer un partenariat">Proposer un <strong>partenariat</strong></a></li>
+			<li><a href="http://www.drum-bass.net/spip.php?page=contacts" title="Obtenir plus d'informations sur Drum-bass">Obtenir plus d'<strong>infos</strong></a></li>
+			<li><a href="squelettes/images/presse/drum-bass_presse_bd.pdf" title="T&eacute;l&eacute;chargez le Dossier de Presse de Drum-bass">Notre <strong>Dossier de Presse</strong></a></li>
+		</ul>
+	</div>
+	
+		
+	<div class="bloc_droite" id="bloc_partenaires">
+		<script src="http://www.drum-bass.net/adserver/adx.js"></script>
+		<script>
+		<!--
+		   if (!document.phpAds_used) document.phpAds_used = ',';
+		   phpAds_random = new String (Math.random()); phpAds_random = phpAds_random.substring(2,11);
+		   
+		   document.write ("<" + "script type='text/javascript' src='");
+		   document.write ("http://www.drum-bass.net/adserver/adjs.php?n=" + phpAds_random);
+		   document.write ("&amp;what=zone:5");
+		   document.write ("&amp;exclude=" + document.phpAds_used);
+		   if (document.referrer)
+		      document.write ("&amp;referer=" + escape(document.referrer));
+		   document.write ("'><" + "/script>");
+		//-->
+		</script><noscript><a href="http://www.drum-bass.net/adserver/adclick.php?n=a37567d1" target="_blank"><img src="http://www.drum-bass.net/adserver/adview.php?what=zone:5&amp;n=a37567d1" alt=""></a></noscript>
+		
+		<div class="fr">
+			<script src="http://www.drum-bass.net/adserver/adx.js"></script>
+			<script type="text/javascript">
+			<!--
+			   if (!document.phpAds_used) document.phpAds_used = ',';
+			   phpAds_random = new String (Math.random()); phpAds_random = phpAds_random.substring(2,11);
+			   
+			   document.write ("<" + "script type='text/javascript' src='");
+			   document.write ("http://www.drum-bass.net/adserver/adjs.php?n=" + phpAds_random);
+			   document.write ("&amp;what=zone:6");
+			   document.write ("&amp;exclude=" + document.phpAds_used);
+			   if (document.referrer)
+			      document.write ("&amp;referer=" + escape(document.referrer));
+			   document.write ("'><" + "/script>");
+			//-->
+			</script><noscript><a href="http://www.drum-bass.net/adserver/adclick.php?n=ac694a74" target="_blank"><img src="http://www.drum-bass.net/adserver/adview.php?what=zone:6&amp;n=ac694a74" border="0" alt=""></a></noscript>
+		</div>
+		
+	</div>
+	
+	<div id="bloc_amis" class="bloc_droite">
+		<h4>Sites partenaires et amis</h4>
+		<p class="lientexte">
+		
+		<a class="spip_out external" href="http://www.bab-musique.com/" target="_blank">Bab Musique</a>
+		| 
+		<a class="spip_out external" href="http://www.manyvibes.com/" target="_blank">ManyVibes Music</a>
+		| 
+		<a class="spip_out external" href="http://www.electronicmusicaddict.com/" target="_blank">Electronic Music Addict</a>
+		| 
+		<a class="spip_out external" href="http://www.rhymesayers.com/" target="_blank">Rhymesayers music</a>
+		| 
+		<a class="spip_out external" href="http://www.tradvibe.fr/" target="_blank">Trad Vibe Records</a>
+		| 
+		<a class="spip_out external" href="http://www.laurentdewilde.com/blog" target="_blank">le blog de Laurent de Wilde</a>
+		| 
+		<a class="spip_out external" href="http://preprod.dailymotion.com/breakemotion" target="_blank">breakemotion on Dailymotion</a>
+		| 
+		<a class="spip_out external" href="http://www.youtube.com/profile?user=breakemotion" target="_blank">YouTube - breakemotion</a>
+		| 
+		<a class="spip_out external" href="http://www.diasporarecords.com/" target="_blank">Diaspora Records</a>
+		| 
+		<a class="spip_out external" href="http://www.lechoix.fr/" target="_blank">Le Choix de Mlle Eddie</a>
+		| 
+		<a class="spip_out external" href="http://www.eriktruffaz.com/" target="_blank">Erik Truffaz</a>
+		| 
+		<a class="spip_out external" href="http://dieterdhoker.free.fr/php/drumnbass/" target="_blank">drumNbass WorldWide</a>
+		| 
+		<a class="spip_out external" href="http://www.trip-hop.net/" target="_blank">Trip-Hop.net</a>
+		| 
+		<a class="spip_out external" href="http://www.01drumnbass.com/Webzines/6-Drum-Bass-net-FR.htm" target="_blank">01 drum and bass</a>
+		| 
+		<a class="spip_out external" href="http://dly.free.fr/site/spip.php?article108" target="_blank">Dly</a>
+		| 
+		<a class="spip_out external" href="http://www.ramdam.com/gen/drumnbass.htm" target="_blank">Ramdam</a>
+		| 
+		<a class="spip_out external" href="http://nutriot.com/" target="_blank">Nutriot.com </a>
+		| 
+		<a class="spip_out external" href="http://strastv.com/" target="_blank">StrasTV.com</a>
+		| 
+		<a class="spip_out external" href="http://soulbrothamusic.blogspot.com/" target="_blank">Soul Brotha Music</a>
+		| 
+		<a class="spip_out external" href="http://www.youppala.com/" target="_blank">Youppala radio</a>
+		| 
+		<a class="spip_out external" href="http://www.10ker.fr/" target="_blank">10KER</a>
+		| 
+		<a class="spip_out external" href="http://www.myspace.com/jazzminrecords" target="_blank">Jazzmin records</a>
+		| 
+		<a class="spip_out external" href="http://thedynamics.free.fr/" target="_blank">The Dynamics</a>
+		| 
+		<a class="spip_out external" href="http://www.myspace.com/santacrew" target="_blank">Santacrew</a>
+		| 
+		<a class="spip_out external" href="http://www.myspace.com/jazzlib" target="_blank">Jazz Liberatorz</a>
+		| 
+		<a class="spip_out external" href="http://www.myspace.com/steppahhuntah" target="_blank">myspace.com/steppahhuntah</a>
+		| 
+		<a class="spip_out external" href="http://www.myspace.com/mattnuforms" target="_blank">myspace.com/mattnuforms</a>
+		| 
+		<a class="spip_out external" href="http://www.myspace.com/illfitness" target="_blank">Moonstarr</a>
+		| 
+		<a class="spip_out external" href="http://www.myspace.com/voicey" target="_blank">myspace.com/voicey</a>
+		| 
+		<a class="spip_out external" href="http://www.basic-soul.co.uk/" target="_blank">Basic soul radio</a>
+		| 
+		<a class="spip_out external" href="http://www.timelessinspiration.com/" target="_blank">Timeless Inspiration broken beat podcast</a>
+		| 
+		<a class="spip_out external" href="http://www.couchsurfer.de" target="_blank">Couchsurfer</a>
+		| 
+		<a class="spip_out external" href="http://www.myspace.com/groovehunter" target="_blank">Groovehunter</a>
+		| 
+		<a class="spip_out external" href="http://www.myspace.com/thebakerbrothers" target="_blank">The Baker Brothers </a>
+		| 
+		<a class="spip_out external" href="http://www.myspace.com/pumpupthejazz" target="_blank">Pump Up The Jazz</a>
+		| 
+		<a class="spip_out external" href="http://www.glazart.com" target="_blank">Glazart</a>
+		| 
+		<a class="spip_out external" href="http://www.absurde.com/" target="_blank">Absurde</a>
+		| 
+		<a class="spip_out external" href="http://www.defmaster.com" target="_blank">Production musicale</a>
+		| 
+		<a class="spip_out external" href="http://www.drum-n-bass.fr/" target="_blank">Drum'n'Bass fr</a>
+		
+		| <a class="spip_out external" href="http://www.webrankinfo.com/annuaire/site-23739.htm" target="_blank">Drum-bass</a> est listé dans la catégorie <a class="spip_out external" href="http://www.webrankinfo.com/annuaire/cat-697-genres-musicaux.htm" target="_blank">Genres musicaux</a> : <a class="spip_out external" href="http://www.webrankinfo.com/annuaire/cat-1686-musique-electronique.htm" target="_blank">Musique électronique</a> de l'annuaire <a class="spip_out external" href="http://www.webrankinfo.com/" target="_blank"><img width="80" height="15" alt="WebRankInfo" title="WebRankInfo" src="http://www.webrankinfo.com/images/wri/webrankinfo-80-15.png"></a>
+		</p>
+		
+		<a class="btn_partenaires" title="Devenez un partenaire de Drum-bass" href="http://www.drum-bass.net/Annoncer-sur-drum-bass-promotion-partenariat-pub">Devenez partenaire</a>
+	</div>
+	
+	<div class="bloc_droite">
+		<h4>Articles Populaires</h4>
+		<ul>
+			
+			<li><a href="D-Fault-Records-Nouvelle-compile">D-Fault Records&nbsp;: Nouvelle compile</a></li>
+			
+			<li><a href="V-A-Kings-Of-Reggae">V/A&nbsp;: Kings Of Reggae</a></li>
+			
+			<li><a href="Amy-Winehouse-You-Know-I-m-Good">Amy Winehouse&nbsp;: You Know I&#8217;m Good</a></li>
+			
+			<li><a href="Moodymann-Det-Riot-67-deep-House-from-Detroit-video">Moodymann&nbsp;: Det.Riot &#8217;67 + vidéo</a></li>
+			
+			<li><a href="Various-Artists-Chrome-Children-II">Various Artists&nbsp;: Chrome Children II</a></li>
+			
+			<li><a href="4hero-Play-With-The-Changes-fr">4hero&nbsp;: Play With The Changes (fr) + vidéo</a></li>
+			
+			<li><a href="Nouvel-album-Allen-Hoist-Soul-Renaissance-video">"Soul" mais pas très "Renaissance" pour Allen Hoist</a></li>
+			
+			<li><a href="2009-la-renaissance-de-Q-Tip-legende-du-Hip-Hop">2009, l&#8217;année de la renaissance de Q-Tip</a></li>
+			
+			<li><a href="Robert-Owens-Night-Time-Stories">Robert Owens&nbsp;: Night Time Stories</a></li>
+			
+			<li><a href="Ben-Westbeech-and-Dj-Die-Get">Ben Westbeech and Dj Die&nbsp;: Get Closer</a></li>
+			
+		</ul>
+	</div>
+	
+</section>			
+			<div class="clear"></div>
+		
+		</div>
+		
+		<!-- #footer -->
+		<footer>
+
+	<h2><a href="http://www.timelessinspiration.com/" title="Ecouter le podcast musique de danYdan" class="btn_timeless">Ecouter le podcast de Drum-bass "Timeless Inspiration"</a></h2>
+	<ul class="credit">
+		<li><a href="javascript:void(setBookmark());" title="Ajouter aux favoris">Ajouter aux favoris</a> |</li>
+		<li><a href="http://www.drum-bass.net/spip.php?page=plan" title="Plan du site">Plan du site</a> |</li>
+		<li><a href="http://www.drum-bass.net/-Partenariat-promotion-publicite-" title="Espace Presse Drum-Bass - Dossier de Presse - Partenariats - Promotions">Espace Partenaires</a> |</li>
+		<li><a href="http://www.drum-bass.net/_danYdan_" title="Contactez danYdan r&eacute;dacteur / webmaster">danYdan (r&eacute;dacteur en chef)</a></li>
+	</ul>
+	<ul class="mentions">
+		<li><a href="http://www.drum-bass.net/" title="Drum-bass a 10 ans">* Depuis 2001 &copy; Drum-Bass</a> |</li>
+		<li><a href="http://www.ineolab.fr/" title="Cr&eacute;ation de sites internet html5">* Conception avec Spip 2, html5 et CSS 3 par In&eacute;olab</a> |</li>
+		<li><a href="http://www.aoc-crea.com/" title="aoc-crea est Guillaume Ammou, concepteur graphique">* Conception graphique par aoc-crea</a> |</li>
+		<li><a href="ecrire/" title="Espace priv&eacute;">* Espace priv&eacute;</a></li>
+	</ul>
+	<ul class="ie6">
+		<li><span id="ftf_link"></span></li>
+	</ul>
+	
+</footer>		
+		<div class="clear"></div>
+	
+	</div>
+	
+	<!-- bas de page -->
+	<script src="squelettes/js/jquery.jcarousel.js"></script>
+<script>
+function mycarousel_initCallback(carousel) {
+    $('.jcarousel-control a').bind('click', function() {
+        carousel.scroll(jQuery.jcarousel.intval(jQuery(this).text()));
+        return false;
+    });
+
+    $('#mycarousel-next').bind('click', function() {
+        carousel.next();
+        return false;
+    });
+
+    $('#mycarousel-prev').bind('click', function() {
+        carousel.prev();
+        return false;
+    });
+};
+$(document).ready(function() {
+    $('#slider').jcarousel({
+        scroll: 1,
+        initCallback: mycarousel_initCallback,
+        // This tells jCarousel NOT to autobuild prev/next buttons
+        buttonNextHTML: null,
+        buttonPrevHTML: null
+    });
+});
+</script>
+
+
+<script src="squelettes/js/superfish.js"></script>
+<script src="squelettes/js/supersubs.js"></script>
+<script src="squelettes/js/hoverIntent.js"></script>
+<script src="squelettes/js/fonctions.js"></script>
+
+<!-- #anti IE 6 -->
+<script src="squelettes/js/freethefoxes.js" type="text/javascript" charset="ISO-8859-1"></script>
+<script type="text/javascript" charset="ISO-8859-1"> 
+var ftf = new ftf();
+ftf.instance_name 	= "ftf";
+ftf.icon_size 	 	= "large";
+ftf.output_to 	 	= "ftf_link"; 
+ftf.lang_external	 	 = "squelettes/js/freethefoxes-fr.json";
+ftf.onload 		= true;
+ftf.css_external 	= "squelettes/css/freethefoxes.v3.css";
+ftf.rate = {
+"firefox" : 1,
+"chrome" : 1,
+"opera" : 2,
+"safari" : 1,
+"ie6" : 3,		
+"ie7" : 2,		
+"ie8" : 2	
+};
+ftf.icons = {
+"firefox" : "squelettes/images/icons/firefox.gif",
+"chrome" : 	"squelettes/images/icons/chrome.gif",
+"opera" : 	"squelettes/images/icons/opera.gif",
+"safari" : 	"squelettes/images/icons/safari.gif",
+"ie6" : 	"squelettes/images/icons/ie6.gif",		
+"ie7" : 	"squelettes/images/icons/ie7.gif",		
+"ie8" : 	"squelettes/images/icons/ie8.gif"	
+};		
+// Execute
+ftf.init(
+);
+
+</script>
+
+<!--[if IE 6]>
+<script src="squelettes/js/DD_belatedPNG.js"></script>
+<script>
+DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+
+<!--Google Analytics-->
+<script>
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-765376-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+  })();
+
+</script>	
+</body>
+</html>

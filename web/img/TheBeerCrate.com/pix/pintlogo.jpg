@@ -1,0 +1,212 @@
+<html><head><title>The Beer Crate - The podcast about beer, ale and ciders</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<meta NAME="description" CONTENT="Steven Goodwins beer ale and cider podcast">
+<meta NAME="KEYWORDS" CONTENT="beer, ale, cider, podcast, radio, steven goodwin">
+
+</head><body>
+
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- 
+
+loadimg0 = new Image();		loadimg0.src = "pix/tbc0b.gif";
+staticimg0 = new Image(); staticimg0.src = "pix/tbc0a.gif";
+
+loadimg1 = new Image();		loadimg1.src = "pix/tbc1b.gif";
+staticimg1 = new Image(); staticimg1.src = "pix/tbc1a.gif";
+
+loadimg2 = new Image();		loadimg2.src = "pix/tbc2b.gif";
+staticimg2 = new Image(); staticimg2.src = "pix/tbc2a.gif";
+
+loadimg3 = new Image();		loadimg3.src = "pix/tbc3b.gif";
+staticimg3 = new Image(); staticimg3.src = "pix/tbc3a.gif";
+
+loadimg4 = new Image();		loadimg4.src = "pix/tbc4b.gif";
+staticimg4 = new Image(); staticimg4.src = "pix/tbc4a.gif";
+
+loadimg5 = new Image();		loadimg5.src = "pix/tbc5b.gif";
+staticimg5 = new Image(); staticimg5.src = "pix/tbc5a.gif";
+
+loadimg6 = new Image();		loadimg6.src = "pix/tbc6b.gif";
+staticimg6 = new Image(); staticimg6.src = "pix/tbc6a.gif";
+
+function mt_pre() {
+document.write("<a href=mailto:");
+document.write("TheBeerCrate");
+blob();
+document.write("gma");
+blobby();
+document.write("m>");
+}
+
+function mt_post() {
+document.write("</a");
+}
+
+function blob() {
+document.write("@");
+}
+
+function blobby() {
+document.write("il.co");
+}
+
+//-->
+</script>
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" >
+
+<tbody><tr>
+
+	<td width="128">
+
+        <table background="pix/topleft.gif" border="0" cellpadding="0" cellspacing="0" width="128">
+
+        <tbody><tr><td><img src="pix/null.gif" alt="" height="40" width="128"></td></tr>
+
+        </tbody></table>
+
+	</td>
+
+	<td>
+
+		<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+
+		<tbody><tr>
+
+			<td bgcolor="black" width="100%">
+
+				<table background="pix/horiz.gif" border="0" cellpadding="0" cellspacing="0" width="100%">
+
+				<tbody><tr><td><img src="pix/null.gif" alt="" height="40" width="1"></td></tr>
+
+				</tbody></table>
+
+			</td>
+
+			<td align="right" width="192">
+
+				<table background="pix/logo.gif" border="0" cellpadding="0" cellspacing="0" width="192">
+
+				<tbody><tr><td><img src="pix/null.gif" alt="" height="40" width="192"></td></tr>
+
+				</tbody></table>
+
+			</td>
+
+		</tr>
+
+		</tbody></table>
+
+	</td>
+
+</tr>
+
+
+
+
+
+
+
+<tr><td valign="top">
+
+
+
+<table background="pix/vert.gif" border="0" cellpadding="0" cellspacing="0" height="600" width="100">
+
+<tbody><tr><td valign="top">
+
+<br>
+
+<a href="index.htm" onmouseover="img0.src=loadimg0.src;" onmouseout="img0.src=staticimg0.src;"><img name="img0" src="pix/tbc0a.gif" border=0></a>
+<a href="episodes.htm" onmouseover="img1.src=loadimg1.src;" onmouseout="img1.src=staticimg1.src;"><img name="img1" src="pix/tbc1a.gif" border=0></a>
+<a href="cellar.htm" onmouseover="img2.src=loadimg2.src;" onmouseout="img2.src=staticimg2.src;"><img name="img2" src="pix/tbc2a.gif" border=0></a>
+<a href="faq.htm" onmouseover="img4.src=loadimg4.src;" onmouseout="img4.src=staticimg4.src;"><img name="img4" src="pix/tbc4a.gif" border=0></a>
+<a href="about.htm" onmouseover="img5.src=loadimg5.src;" onmouseout="img5.src=staticimg5.src;"><img name="img5" src="pix/tbc5a.gif" border=0></a>
+<a href="contact.htm" onmouseover="img6.src=loadimg6.src;" onmouseout="img6.src=staticimg6.src;"><img name="img6" src="pix/tbc6a.gif" border=0></a>
+
+</td></tr></tbody></table>
+</td>
+<td valign="top" width="100%">
+<table align="center" border="0" cellpadding="10" cellspacing="0" width="95%">
+<tbody><tr><td colspan="2" valign="top">
+
+<table bgcolor="#f5efcb" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody><tr>
+  <td width="6"><img src="pix/null.gif" height="6" width="6"></td>
+  <td><img src="pix/null.gif" height="6" width="6"></td>
+  <td bgcolor="white"><img src="pix/null.gif" height="6" width="6"></td>
+</tr>
+<tr>
+  <td bgcolor="#f5efcb">&nbsp;</td>
+  <td>
+<h1>404 - The Beer Crate Says 'No'</h1>
+<p>
+This page doesn't exist, despite Steev saying he tested it. Ho hum! Maybe
+you'd like to try one of these other pages...
+<p>
+
+<a href="index.htm">Home Page</a>&nbsp;
+<a href="episodes.htm">Episode Guide</a>&nbsp;
+<a href="cellar.htm">Beer Cellar</a>&nbsp;
+<a href="faq.htm">F.A.Q.</a>&nbsp;
+<a href="about.htm">About Us</a>&nbsp;
+<a href="contact.htm">Contact</a>&nbsp;
+<br/>
+</td>
+  <td bgcolor="black" width="6">&nbsp;</td>
+</tr>
+<tr>
+  <td bgcolor="white"><img src="pix/null.gif" height="6" width="6"></td>
+  <td colspan="2" bgcolor="black"><img src="pix/null.gif" height="6" width="6"></td>
+</tr></tbody></table>
+<br>
+
+
+</td>
+
+<td rowspan="2" valign="top" width="30%">
+<div align="right">
+<img src="pix/sg.jpg"><br/>
+Steven Goodwin<br/><i>web muppet</i>
+</div>
+
+
+<br>
+</td></tr>
+
+
+<tr><td colspan="3">
+
+
+
+
+
+</td></tr>
+
+
+<tr><td colspan="3">
+
+	<table border="0" cellpadding="2" cellspacing="0" width="100%"><tbody><tr><td bgcolor="black">
+		<table bgcolor="#d6d3d7" border="0" cellpadding="2" cellspacing="0" width="100%"><tbody><tr><td align="center">
+
+<font size="-2"><font color="blue"><a href="http://www.thebeercrate.com"><i>The Beer Crate</i></a></font> web site is Copyright 2007 by Steven Goodwin. All Rights Reserved. <br>
+<a href="http://www.thebeercrate.com/episodes.html"><i>The Beer Crate</i></a> podcasts are Copyright 2007 by Steven Goodwin, and released under the <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/">by-nc-nd</a> license.
+</font>
+
+		</td></tr></tbody></table>
+	</td></tr></tbody></table>
+
+</td></tr>
+</tbody></table>
+
+
+
+
+</td></tr></tbody></table>
+
+
+</body></html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>404 Page Not Found</title>
+    <meta name="keywords" content="gareth senior">
+    <meta name="description" content="Sadly, this page could not be found.">
+<meta name="google-site-verification" content="xwOHMOvSGKvevjEkr3el2UVvAbxPVnTasWy79o5yd4M">
+<link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
+
+<link rel="alternate" type="application/rss+xml" title="gareth53.co.uk - Latest Blog Posts" href="/blog/rss/posts.xml">
+<link rel="alternate" type="application/rss+xml" title="The Nick and Gareth Podcast - Latest Episodes" href="/podcast/podcast-feed.xml">
+
+
+
+<link media="screen" type="text/css" rel="stylesheet" href="/assets/css/core.css">
+
+
+
+<link media="screen" type="text/css" rel="stylesheet" href="/assets/css/master.css">
+<link media="print" type="text/css" rel="stylesheet" href="/assets/css/print.css">
+
+
+
+<!--[if IE]>
+<link media="screen" type="text/css" rel="stylesheet" href="/assets/css/ie.css">
+<![endif]-->
+
+
+
+
+</head>
+<body class="col2" id="">
+<script type="text/javascript">
+document.body.className = ((document.body.className) ? document.body.className + ' js' : 'js');
+</script>
+
+
+
+<p class="skip_container">
+
+<a href="#content">Skip to Content</a>
+
+</p>
+
+<div id="page">
+	
+		<!-- site title should be an h1 on the homepage, and a paragrpah on subsequent pages -->
+		<p id="sitetitle">Gareth<span id="titleNo">53</span><span>.co.uk</span><span> - the online home of Gareth Senior</span></p>
+	
+
+	
+
+	<ul id="nav-main">
+	
+		<li class=" first-child"><a href="/">Home</a></li>
+	
+		<li class=""><a href="/podcast/">Podcast</a></li>
+	
+		<li class=""><a href="/blog/">Blog</a></li>
+	
+		<li class=""><a href="/about-me.html">About Me</a></li>
+	
+		<li class=" last-child"><a href="/work.html">Work</a></li>
+	
+</ul>	
+	
+	
+
+	<div id="content">
+	
+<div id="col1" class="col">
+<h1>404 - Page Not Found</h1>
+
+<p>
+	Uh-oh. Something went wrong. This URL just doesn't exist
+</p>
+<p>
+	 /podcast/covers/nick-and-gareth-podcast.jpg
+</p>
+<p>
+	Bummer eh? If you're deadly certain that this URL worked before, the drop me a mail and harangue me. Email <a href="mailto:gareth53@gmail.com">gareth53@gmail.com</a>.
+</p>
+<p>
+	Apologies for the inconvenience...
+</p>
+
+</div>
+
+<div id="col2" class="col">
+<h2>Say what techie-dude?</h2>
+	<p>Here's how a 404 response code is officially described:</p>
+	<p>"The requested resource could not be found but may be available again in the future. Subsequent requests by the client are permissible."</p>
+	
+</div>
+
+
+	</div>
+
+	
+	
+		<ul id="nav-footer">
+	
+		<li class=" first-child"><a href="/blog/rss/posts.xml">Blog feed</a></li>
+	
+		<li class=""><a href="/">Home</a></li>
+	
+		<li class=""><a href="/about-this-site.html">About This Site</a></li>
+	
+		<li class=""><a href="/contact-me.html">Contact Me</a></li>
+	
+		<li class=""><a href="/rss-feeds.html">More RSS Feeds</a></li>
+	
+		<li class=" last-child"><a href="/work.html">Work</a></li>
+	
+</ul>	
+		
+	
+</div>
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-527902-3");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+
+
+
+
+<script src="/assets/js/jquery-1.2.1.min.js" type="text/javascript"></script>
+<script src="/assets/js/gareth53.js" type="text/javascript"></script>
+
+
+</body>
+</html>
