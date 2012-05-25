@@ -69,15 +69,15 @@ var ads='';
 var popularCategories='';
 var relatedSearches='';
 var kotValue='';
-var loc1=handler2+'?0362aa9bfcf976db34f4e97c48f48817=325467165&6fa970d50480e816942b6fab7c4e7a23=506683626&5f17a83ba43604eb3d1c06f73d82e119=634733404989705966';
-var loc2=handler2+'?0f41fdd8c9af62a4027fda82d597062a=1623525913&0362aa9bfcf976db34f4e97c48f48817=2344573&f67ff3454420ebb255fe4f673cf8cf0b=AwZ0AmZmAQN0BGt5AmN1BGHm-1';
+var loc1=handler2+'?0362aa9bfcf976db34f4e97c48f48817=325467165&6fa970d50480e816942b6fab7c4e7a23=506683626&5f17a83ba43604eb3d1c06f73d82e119=634735188504480356';
+var loc2=handler2+'?0f41fdd8c9af62a4027fda82d597062a=1623525913&0362aa9bfcf976db34f4e97c48f48817=2344573&f67ff3454420ebb255fe4f673cf8cf0b=AwZ0AmZ1ZGt4AGN0AQtjZmDm-1';
 function google_afd_ad_request_done(google_afd_response){
 var google_ads=google_afd_response.ads;
 if(google_afd_response.faillisted){window.location.href=loc1;return;}
 if(google_afd_response.needsreview){window.location.href=loc2;return;}
 
 var onclickScript = '';
-onclickScript = 'onclick="processClick(\'' + 'Wzp9ZGNkWzD9WzZ9ZPMcCFMyCFMhCFMwqaR9ZmHmAwN4AGN0ZQD4AmtlZGRjAPMyMm0lZQRlZQHlZmNmZwtkBPMwrG0kWat9WaEaCGVzMzqjCGNzoab9ZPMzpQ0mAwHznT5aCGRzpUN9HIVzqTL9AvMjpm0mAGZ2ZQt1ZQDjAQt3BQVkZGN0-1\');"';
+onclickScript = 'onclick="processClick(\'' + 'Wzp9ZGNkWzD9WzZ9ZPMcCFMyCFMhCFMwqaR9ZwxjAmN3AmRkBQxlAGVkBGxmAvMyMm0lZQRlZQHlAGN1ZQN1ZPMwrG0kWat9WaEaCGVzMzqjCGNzoab9ZPMzpQ0mAwHznT5aCGRzpUN9HIVzqTL9AvMjpm0lBGN3ZQp3ZGR4BGV1ZwR5BGZ2-1\');"';
 
 if(google_ads.length>0){
 	ads+='<div style="width:446px;"><div style="font-size:14px;font-weight:bold;color:#000;padding-left:10px;padding-top:5px;padding-bottom:2px;">';
@@ -280,6 +280,13 @@ $.ajax({ url: "/c"  + "a" + "f" + ".aspx" + "?" + "e=" + location, cache: false 
 }
                    </script>
 					<script type="text/javascript">document.write(ads);</script>
+				
+					<div style="margin:5px;">
+						<img src="http://ak.imgaft.com/images/ZL1.jpg" style="border-color:#ffffff;" usemap="#ngMap"/>
+						<map id="ngMap"name="ngMap"><area shape="rect" coords="0,0,434,54" alt="Get the Gift of Speed" href="#" onclick="javascript:processChevyClick();"/></map>
+						<script type="text/javascript" language="javascript">function processChevyClick() { window.open(" http://chevrolet.promo.eprize.com/camarozl1/?affiliate_id=godaddybanner2 "); }</script>
+					</div>
+                
 					<div>
 				
 					
@@ -630,13 +637,13 @@ $.ajax({ url: "/c"  + "a" + "f" + ".aspx" + "?" + "e=" + location, cache: false 
     <img id="impspacer" alt="" height="1" width="1" />
     <script type="text/javascript" language="javascript">
         var impspacer = document.getElementById('impspacer');
-        if(impspacer) {impspacer.src = '/images/spacer.gif?q=L3MkWGAkZmHmAwN4AGN0ZQD4AmtlZGRjAPHlAzpyZ3RkZQRyZwMyWGAkWGV2ovHmpGNyZwMwWGAkZPHlAzIzWGAkZPHlAzLyZ3RyZwMyMlHmpGVjZGVjAGVmZQZlBQR4WGV2L3xyZ3RkWGV2qTpyZ3RlWGV2rPHmpFHlAzMapPHmpGNyZwMhrvHmpGNyZwMzpPHmpGZ2AFHlAzuhMlHmpGRyZwM0MvHmpGLyZwMjpPHmpISFWGV2L2tyZ3R2-1';}
+        if(impspacer) {impspacer.src = '/images/spacer.gif?q=L3MkWGAkZwxjAmN3AmRkBQxlAGVkBGxmAvHlAzpyZ3RkZQRyZwMyWGAkWGV2ovHmpGNyZwMwWGAkZPHlAzIzWGAkZPHlAzLyZ3RyZwMyMlHmpGVjZGVjAGV1ZQHjZQHjWGV2L3xyZ3RkWGV2qTpyZ3RlWGV2rPHmpFHlAzMapPHmpGNyZwMhrvHmpGNyZwMzpPHmpGZ2AFHlAzuhMlHmpGRyZwM0MvHmpGLyZwMjpPHmpISFWGV2L2tyZ3R2-1';}
     </script>
     
     <script type="text/javascript" language="javascript">
         $(document).ready(function () {
             $.ajax({
-                url: "/e086ec.aspx?q=L3MkWGAkZmHmAwN4AGN0ZQD4AmtlZGRjAPHlAzpyZ3RkZQRyZwMyWGAkWGV2ovHmpGNyZwMwWGAkZPHlAzIzWGAkZPHlAzLyZ3RyZwMyMlHmpGVjZGVjAGVmZQZlBQR4WGV2L3xyZ3RkWGV2qTpyZ3RlWGV2rPHmpFHlAzMapPHmpGNyZwMhrvHmpGNyZwMzpPHmpGZ2AFHlAzuhMlHmpGRyZwM0MvHmpGLyZwMjpPHmpISFWGV2L2tyZ3R2-1",
+                url: "/e086ec.aspx?q=L3MkWGAkZwxjAmN3AmRkBQxlAGVkBGxmAvHlAzpyZ3RkZQRyZwMyWGAkWGV2ovHmpGNyZwMwWGAkZPHlAzIzWGAkZPHlAzLyZ3RyZwMyMlHmpGVjZGVjAGV1ZQHjZQHjWGV2L3xyZ3RkWGV2qTpyZ3RlWGV2rPHmpFHlAzMapPHmpGNyZwMhrvHmpGNyZwMzpPHmpGZ2AFHlAzuhMlHmpGRyZwM0MvHmpGLyZwMjpPHmpISFWGV2L2tyZ3R2-1",
                 cache: false
             });
         });
@@ -647,7 +654,7 @@ $.ajax({ url: "/c"  + "a" + "f" + ".aspx" + "?" + "e=" + location, cache: false 
 
 
 <!-- pageok -->
-<!-- 09 -->
+<!-- 28 -->
 <!-- 101 -->
 <!-- 7.12-->
 <!-- Copyright -->
