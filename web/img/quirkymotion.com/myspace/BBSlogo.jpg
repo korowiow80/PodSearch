@@ -192,13 +192,6 @@ if(window.opera) {document.write('<link rel="stylesheet" type="text/css" href="h
 			<li>
 				<ul>
 				<li><h3>Flickr</h3><div class="flickrpress-container"><div class="flickrpress-items">        <div class="flickr_item flickr_item_view_squares">
-                            <a href="http://farm7.static.flickr.com/6156/6150191790_5691fb7858.jpg" class="thickbox" rel="lightbox[flickr]" 
-                    title="Derelict 24th Singapore Film Festival 2011 | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/6150191790&quot;&gt;View at Flickr&lt;/a&gt;">
-                        <span></span>
-            <img src="http://farm7.static.flickr.com/6156/6150191790_5691fb7858_s.jpg" title="Derelict 24th Singapore Film Festival 2011" alt="Derelict 24th Singapore Film Festival 2011" />
-            </a>
-        </div>
-                <div class="flickr_item flickr_item_view_squares">
                             <a href="http://farm7.static.flickr.com/6186/6049678796_9f11e0cdd7.jpg" class="thickbox" rel="lightbox[flickr]" 
                     title="New Cassettes BBC Electric Proms 2 | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/6049678796&quot;&gt;View at Flickr&lt;/a&gt;">
                         <span></span>
@@ -213,24 +206,31 @@ if(window.opera) {document.write('<link rel="stylesheet" type="text/css" href="h
             </a>
         </div>
                 <div class="flickr_item flickr_item_view_squares">
-                            <a href="http://farm6.static.flickr.com/5155/5816445826_b4c632e66c.jpg" class="thickbox" rel="lightbox[flickr]" 
-                    title="Derelict Writers Hollywood 3 | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/5816445826&quot;&gt;View at Flickr&lt;/a&gt;">
+                            <a href="http://farm7.static.flickr.com/6206/6049471978_6e05aa45c8.jpg" class="thickbox" rel="lightbox[flickr]" 
+                    title="There is a Day War Zone 4 | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/6049471978&quot;&gt;View at Flickr&lt;/a&gt;">
                         <span></span>
-            <img src="http://farm6.static.flickr.com/5155/5816445826_b4c632e66c_s.jpg" title="Derelict Writers Hollywood 3" alt="Derelict Writers Hollywood 3" />
+            <img src="http://farm7.static.flickr.com/6206/6049471978_6e05aa45c8_s.jpg" title="There is a Day War Zone 4" alt="There is a Day War Zone 4" />
             </a>
         </div>
                 <div class="flickr_item flickr_item_view_squares">
-                            <a href="http://farm4.static.flickr.com/3466/5815863309_b57dc23c76.jpg" class="thickbox" rel="lightbox[flickr]" 
-                    title="Simeon Lumgair Hollywood Press 2 | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/5815863309&quot;&gt;View at Flickr&lt;/a&gt;">
+                            <a href="http://farm7.static.flickr.com/6126/5968723182_6622b0fb71.jpg" class="thickbox" rel="lightbox[flickr]" 
+                    title="Simeon Lumgair Director Derelict3 | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/5968723182&quot;&gt;View at Flickr&lt;/a&gt;">
                         <span></span>
-            <img src="http://farm4.static.flickr.com/3466/5815863309_b57dc23c76_s.jpg" title="Simeon Lumgair Hollywood Press 2" alt="Simeon Lumgair Hollywood Press 2" />
+            <img src="http://farm7.static.flickr.com/6126/5968723182_6622b0fb71_s.jpg" title="Simeon Lumgair Director Derelict3" alt="Simeon Lumgair Director Derelict3" />
             </a>
         </div>
                 <div class="flickr_item flickr_item_view_squares">
-                            <a href="http://farm6.static.flickr.com/5130/5205005777_086328d796.jpg" class="thickbox" rel="lightbox[flickr]" 
-                    title="Derelict: Soldiers | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/5205005777&quot;&gt;View at Flickr&lt;/a&gt;">
+                            <a href="http://farm6.static.flickr.com/5045/5205006969_c3fe3608e6.jpg" class="thickbox" rel="lightbox[flickr]" 
+                    title="Derelict: Crew at work | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/5205006969&quot;&gt;View at Flickr&lt;/a&gt;">
                         <span></span>
-            <img src="http://farm6.static.flickr.com/5130/5205005777_086328d796_s.jpg" title="Derelict: Soldiers" alt="Derelict: Soldiers" />
+            <img src="http://farm6.static.flickr.com/5045/5205006969_c3fe3608e6_s.jpg" title="Derelict: Crew at work" alt="Derelict: Crew at work" />
+            </a>
+        </div>
+                <div class="flickr_item flickr_item_view_squares">
+                            <a href="http://farm5.static.flickr.com/4147/5204990871_4a61c7eb66.jpg" class="thickbox" rel="lightbox[flickr]" 
+                    title="Derelict: Onesimus Jump | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/5204990871&quot;&gt;View at Flickr&lt;/a&gt;">
+                        <span></span>
+            <img src="http://farm5.static.flickr.com/4147/5204990871_4a61c7eb66_s.jpg" title="Derelict: Onesimus Jump" alt="Derelict: Onesimus Jump" />
             </a>
         </div>
         </div></div></li>				</ul>
