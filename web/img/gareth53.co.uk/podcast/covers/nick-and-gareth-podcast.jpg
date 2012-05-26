@@ -56,9 +56,9 @@ document.body.className = ((document.body.className) ? document.body.className +
 	
 		<li class=" first-child"><a href="/">Home</a></li>
 	
-		<li class=""><a href="/podcast/">Podcast</a></li>
-	
 		<li class=""><a href="/blog/">Blog</a></li>
+	
+		<li class=""><a href="/podcast/">Podcast</a></li>
 	
 		<li class=""><a href="/about-me.html">About Me</a></li>
 	
