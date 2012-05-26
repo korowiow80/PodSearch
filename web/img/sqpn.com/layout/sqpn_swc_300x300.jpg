@@ -1,0 +1,444 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Page not found &laquo;  SQPN</title>
+<link rel="pingback" href="http://sqpn.com/xmlrpc.php" />
+<link rel="stylesheet" href="http://sqpn.com/wp-content/themes/p2/style.css" type="text/css" media="screen" />
+		<script type="text/javascript">
+			// <![CDATA[
+
+			// P2 Configuration
+			var ajaxUrl                 = "http://sqpn.com/wp-admin/admin-ajax.php?p2ajax=true";
+			var updateRate              = "30000"; // 30 seconds
+			var nonce                   = "c013693900";
+			var login_url               = "http://sqpn.com/wp-login.php?redirect_to=http%3A%2F%2Fsqpn.com%2Flayout%2Fsqpn_swc_300x300.jpg";
+			var templateDir             = "http://sqpn.com/wp-content/themes/p2";
+			var isFirstFrontPage        = 0;
+			var isFrontPage             = 0;
+			var isSingle                = 0;
+			var isPage                  = 0;
+			var isUserLoggedIn          = 0;
+			var prologueTagsuggest      = 1;
+			var prologuePostsUpdates    = 1;
+			var prologueCommentsUpdates = 1;
+			var getPostsUpdate          = 0;
+			var getCommentsUpdate       = 0;
+			var inlineEditPosts         = 1;
+			var inlineEditComments      = 1;
+			var wpUrl                   = "http://sqpn.com";
+			var rssUrl                  = "";
+			var pageLoadTime            = "2012-05-26 20:57:21";
+			var original_title          = document.title;
+			var commentsOnPost          = new Array;
+			var postsOnPage             = new Array;
+			var postsOnPageQS           = '';
+			var currPost                = -1;
+			var currComment             = -1;
+			var commentLoop             = false;
+			var lcwidget                = false;
+			var hidecomments            = false;
+			var commentsLists           = '';
+			var newUnseenUpdates        = 0;
+			var mentionData             = null;
+			// ]]>
+		</script>
+<link rel="alternate" type="application/rss+xml" title="SQPN &raquo; Feed" href="http://sqpn.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="SQPN &raquo; Comments Feed" href="http://sqpn.com/comments/feed/" />
+		<script type="text/javascript">
+		//<![CDATA[
+		var wpLocale = {"month":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthabbrev":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"weekday":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"weekdayabbrev":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]};
+		//]]>
+		</script>
+		<link rel='stylesheet' id='frm-forms0-css'  href='http://sqpn.com/wp-content/uploads/formidable/css/formidablepro.css?ver=1.06.03' type='text/css' media='all' />
+<link rel='stylesheet' id='tfg_style-css'  href='http://sqpn.com/wp-content/plugins/twitter-facebook-google-plusone-share/tfg_style.css?ver=3.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wpmega-basic-css'  href='http://sqpn.com/wp-content/plugins/wp-uber-menu/styles/basic.css?ver=1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wpmega-grey-white-css'  href='http://sqpn.com/wp-content/plugins/wp-uber-menu/styles/skins/greywhite.css?ver=1.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://sqpn.com/wp-includes/js/jquery/jquery.js?ver=1.7.1'></script>
+<script type='text/javascript' src='http://sqpn.com/wp-content/plugins/wp-cart-for-digital-products/lib/jquery.external.lib.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://sqpn.com/wp-content/plugins/wp-cart-for-digital-products/lib/jquery.lightbox-0.5.pack.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://sqpn.com/wp-admin/js/utils.js?ver=20101110'></script>
+<script type='text/javascript' src='http://sqpn.com/wp-includes/js/jquery/jquery.color.js?ver=2.0-4561m'></script>
+<script type='text/javascript' src='http://sqpn.com/wp-includes/js/comment-reply.js?ver=20090102'></script>
+<script type='text/javascript' src='http://sqpn.com/wp-content/themes/p2/js/jquery.scrollTo-min.js?ver=1.4'></script>
+<script type='text/javascript' src='http://sqpn.com/wp-content/themes/p2/js/wp-locale.js?ver=20110415'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var p2txt = {"tags":"<br \/>Tags:","tagit":"Tag it","citation":"Citation","title":"Post Title","goto_homepage":"Go to homepage","n_new_updates":"%d new update(s)","n_new_comments":"%d new comment(s)","jump_to_top":"Jump to top","not_posted_error":"An error has occurred, your post was not posted","update_posted":"Your update has been posted","loading":"Loading...","cancel":"Cancel","save":"Save","hide_threads":"Hide threads","show_threads":"Show threads","unsaved_changes":"Your comments or posts will be lost if you continue.","date_time_format":"%1$s <em>on<\/em> %2$s","date_format":"F j, Y","time_format":"g:i a","autocomplete_prompt":"After typing @, type a name or username to find a member of this site","no_matches":"No matches.","comment_cancel_ays":"Are you sure you would like to clear this comment? Its contents will be deleted.","oops_not_logged_in":"Oops! Looks like you are not logged in.","please_log_in":"Please log in again","whoops_maybe_offline":"Whoops! Looks like you are not connected to the server. P2 could not connect with WordPress."};
+try{convertEntities(p2txt);}catch(e){};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://sqpn.com/wp-content/themes/p2/js/p2.js?ver=20110818'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://sqpn.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://sqpn.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='stylesheet' type='text/css' href='http://sqpn.com/wp-content/plugins/easy-mashable-social-bar/styles.css' />
+<script type="text/javascript" src="http://sqpn.com/wp-content/plugins/powerpress/player.js"></script>
+<script type="text/javascript"><!--
+function powerpress_pinw(pinw){window.open('http://sqpn.com/?powerpress_pinw='+pinw, 'PowerPressPlayer','toolbar=0,status=0,resizable=1,width=460,height=320');	return false;}
+powerpress_url = 'http://sqpn.com/wp-content/plugins/powerpress/';
+//-->
+</script>
+<link rel="alternate" type="application/rss+xml" title="Default Podcast Feed" href="http://sqpn.com/feed/podcast/" />
+
+<!-- Subscribe Sidebar widget -->
+<link rel="stylesheet" href="http://sqpn.com/wp-content/plugins/subscribe-sidebar/subscribe_sidebar.css" type="text/css" media="screen" />
+				<script type="text/javascript">
+				var _gaq = _gaq || [];
+								_gaq.push(['_setAccount', 'UA-21470213-1']);
+										_gaq.push(['_setDomainName', '.sqpn.com']);
+										_gaq.push(['_trackPageview']);
+					
+									(function() {
+					var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				  })();
+				</script>			
+				<link type="text/css" rel="stylesheet" href="http://sqpn.com/wp-content/plugins/wp-cart-for-digital-products/wp_eStore_style.css" />
+<link type="text/css" rel="stylesheet" href="http://sqpn.com/wp-content/plugins/wp-cart-for-digital-products/wp_eStore_custom_style.css" />
+<script type="text/javascript">
+	JS_WP_ESTORE_CURRENCY_SYMBOL = "$";
+	JS_WP_ESTORE_VARIATION_ADD_STRING = "+";
+	JS_WP_ESTORE_VARIATION_THOUSAND_SEPERATOR = ",";
+	</script><script type="text/javascript" src="http://sqpn.com/wp-content/plugins/wp-cart-for-digital-products/lib/eStore_read_form.js"></script>	<!--[if lt IE 8]>
+	<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
+	<![endif]-->
+		<style type="text/css">
+				#header {
+			background: url(http://sqpn.com/wp-content/uploads/2012/04/banner_sqpnmain.png) repeat;
+			height: 120px;
+		}
+		#header a.secondary {
+			height: 120px;
+			width:980px;
+			display: block;
+			position: absolute;
+			top: 0;
+		}
+		#header a.secondary:hover {
+			border: 0;
+		}
+		#header .sleeve {
+			position: relative;
+			margin-top: 0;
+			margin-right: 0;
+			background-color: transparent;
+			box-shadow: none !important;
+			-webkit-box-shadow: none !important;
+			-moz-box-shadow: none !important;
+			height: 120px;
+		}
+		#header {
+			/*box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2) !important;
+			-webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2) !important;
+			-moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2) !important;*/
+		}
+						#header h1, #header small {
+			padding: 0;
+			text-indent: -1000em;
+		}
+			</style>
+<style type="text/css">
+body.custom-background { background-color: #1c3d87; background-image: url('http://sqpn.com/wp-content/uploads/2011/11/sqpn-background.jpg'); background-repeat: repeat; background-position: top left; background-attachment: fixed; }
+</style>
+	<style type="text/css">
+		#megaMenu{
+			width: 980px;		
+		}		
+	</style>		
+	<script type="text/javascript">
+		var wpmegasettings = {};
+		wpmegasettings.hoverinterval = 1;
+		wpmegasettings.noconflict = false;		
+	</script>
+	
+</head>
+<body class="error404 custom-background">
+
+<div id="header">
+
+	<div class="sleeve">
+		<h1><a href="http://sqpn.com/">SQPN</a></h1>
+					<small>Leading the Way</small>
+				<a class="secondary" href="http://sqpn.com/"></a>
+	</div>
+
+</div>
+
+<div id="megaMenu" class="megaMenuContainer megaMenu-nojs wpmega-preset-grey-white megaMenuHorizontal megaMenuFade megaMenuOnHover wpmega-autoAlign wpmega-withjs wpmega-noconflict"><ul id="menu-main" class="megaMenu"><li id="menu-item-5249" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home ss-nav-menu-item-0 ss-nav-menu-item-depth-0 ss-nav-menu-reg"><a href="http://sqpn.com"><span class="wpmega-link-title">Home</span></a></li>
+<li id="menu-item-5271" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-1 ss-nav-menu-item-depth-0 ss-nav-menu-mega"><a href="#"><span class="wpmega-link-title">Our Shows</span></a>
+<ul class="sub-menu sub-menu-1">
+	<li id="menu-item-5549" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-1"><a href="#"><span class="wpmega-link-title">News &#038; Culture</span></a>
+	<ul class="sub-menu sub-menu-2">
+		<li id="menu-item-5259" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-2"><a href="http://thebreak.sqpn.com"><span class="wpmega-link-title">The Break</span></a></li>
+		<li id="menu-item-5558" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-2"><a href="http://catholicinsider.sqpn.com"><span class="wpmega-link-title">Catholic Insider</span></a></li>
+		<li id="menu-item-5260" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-2"><a href="http://catholicweekend.sqpn.com"><span class="wpmega-link-title">Catholic Weekend</span></a></li>
+		<li id="menu-item-5550" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-2 ss-nav-menu-header"><a href="#"><span class="wpmega-link-title">Affiliate Shows</span></a></li>
+		<li id="menu-item-5551" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-2 ss-nav-menu-highlight"><a href="http://station15.co.nz/"><span class="wpmega-link-title">The 15th Station [new!]</span></a></li>
+	</ul>
+</li>
+	<li id="menu-item-5266" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-1"><a href="#"><span class="wpmega-link-title">Community &#038; Family</span></a>
+	<ul class="sub-menu sub-menu-2">
+		<li id="menu-item-5279" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-2 ss-nav-menu-header"><a href="#"><span class="wpmega-link-title">Affiliate Shows</span></a></li>
+		<li id="menu-item-5309" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-2 ss-nav-menu-highlight"><a href="http://www.justacatholicdad.com/blog/"><span class="wpmega-link-title">Just a Catholic Dad [new!]</span></a></li>
+		<li id="menu-item-5287" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-2"><a href="http://web.me.com/pat.gohn/patgohn/Among_Women_Podcast/Among_Women_Podcast.html"><span class="wpmega-link-title">Among Women</span></a></li>
+		<li id="menu-item-5286" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-2"><a href="http://catholicfamilypodcast.com/category/episodes/front-catalog/"><span class="wpmega-link-title">Catholic Family</span></a></li>
+		<li id="menu-item-5285" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-2"><a href="http://catholicfoodie.com/"><span class="wpmega-link-title">Catholic Foodie</span></a></li>
+		<li id="menu-item-5284" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-2"><a href="http://catholicinasmalltown.libsyn.com/"><span class="wpmega-link-title">Catholic in a Small Town</span></a></li>
+		<li id="menu-item-5283" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-2"><a href="http://catholicmom.com/catholic-moments-podcast/"><span class="wpmega-link-title">Catholic Moments</span></a></li>
+		<li id="menu-item-5278" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-2"><a href="http://catholicpilot.com/"><span class="wpmega-link-title">Catholic Pilot</span></a></li>
+		<li id="menu-item-5282" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-2"><a href="http://www.linorulli.com/"><span class="wpmega-link-title">Lino At Large</span></a></li>
+	</ul>
+</li>
+	<li id="menu-item-5265" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-1"><a href="#"><span class="wpmega-link-title">Entertainment &#038; Culture</span></a>
+	<ul class="sub-menu sub-menu-2">
+		<li id="menu-item-5836" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-2"><a href="http://angelsanddemons.sqpn.com"><span class="wpmega-link-title">Secrets of Angels &#038; Demons</span></a></li>
+		<li id="menu-item-5257" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-2"><a href="http://babylon5.sqpn.com"><span class="wpmega-link-title">Secrets of Babylon 5</span></a></li>
+		<li id="menu-item-5837" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-2"><a href="http://battlestargalactica.sqpn.com"><span class="wpmega-link-title">Secrets of Battlestar Galactica</span></a></li>
+		<li id="menu-item-5256" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-2"><a href="http://disney.sqpn.com"><span class="wpmega-link-title">Secrets of Disney</span></a></li>
+		<li id="menu-item-5254" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-2"><a href="http://harrypotter.sqpn.com"><span class="wpmega-link-title">Secrets of Harry Potter</span></a></li>
+		<li id="menu-item-5250" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-2"><a href="http://thehobbit.sqpn.com"><span class="wpmega-link-title">Secrets of The Hobbit</span></a></li>
+		<li id="menu-item-5253" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-2"><a href="http://middleearth.sqpn.com"><span class="wpmega-link-title">Secrets of Middle-earth</span></a></li>
+		<li id="menu-item-5255" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-2"><a href="http://onceuponatime.sqpn.com"><span class="wpmega-link-title">Secrets of Once Upon A Time</span></a></li>
+		<li id="menu-item-5251" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-2"><a href="http://panam.sqpn.com"><span class="wpmega-link-title">Secrets of Pan Am</span></a></li>
+		<li id="menu-item-5258" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-2"><a href="http://pirates.sqpn.com"><span class="wpmega-link-title">Secrets of the Pirates</span></a></li>
+		<li id="menu-item-5252" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-2"><a href="http://tintin.sqpn.com"><span class="wpmega-link-title">Secrets of Tintin</span></a></li>
+	</ul>
+</li>
+	<li id="menu-item-5264" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-1"><a href="#"><span class="wpmega-link-title">Faith &#038; Spirituality</span></a>
+	<ul class="sub-menu sub-menu-2">
+		<li id="menu-item-5270" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-2"><a href="http://health.sqpn.com"><span class="wpmega-link-title">Health &#038; Holiness</span></a></li>
+		<li id="menu-item-5262" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-2"><a href="http://psp.libsyn.com"><span class="wpmega-link-title">Praystation Portable</span></a></li>
+		<li id="menu-item-5261" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-2"><a href="http://verbum.libsyn.com"><span class="wpmega-link-title">Verbum Domini</span></a></li>
+		<li id="menu-item-5275" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-2 ss-nav-menu-header"><a href="#"><span class="wpmega-link-title">Affiliate Shows</span></a></li>
+		<li id="menu-item-5420" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-2 ss-nav-menu-highlight"><a href="http://jimmyakinpodcast.com"><span class="wpmega-link-title">The Jimmy Akin Podcast  [new!]</span></a></li>
+		<li id="menu-item-5307" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-2 ss-nav-menu-highlight"><a href="http://catholiclab.net/"><span class="wpmega-link-title">Catholic Laboratory [new!]</span></a></li>
+		<li id="menu-item-5308" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-2 ss-nav-menu-highlight"><a href="http://ipilgrimpodcast.com/"><span class="wpmega-link-title">iPilgrim Podcast [new!]</span></a></li>
+		<li id="menu-item-5310" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-2 ss-nav-menu-highlight"><a href="http://catholicvitamins.com/"><span class="wpmega-link-title">Catholic Vitamins [new!]</span></a></li>
+		<li id="menu-item-5277" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-2"><a href="http://catholicunderthehood.com/"><span class="wpmega-link-title">Catholic Under the Hood</span></a></li>
+		<li id="menu-item-5280" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-2"><a href="http://www.inbetweensundays.com/"><span class="wpmega-link-title">In Between Sundays</span></a></li>
+		<li id="menu-item-5281" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-2"><a href="http://ipadre.net/"><span class="wpmega-link-title">iPadre</span></a></li>
+		<li id="menu-item-5276" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-2"><a href="http://saintcast.org"><span class="wpmega-link-title">The SaintCast</span></a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-5272" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-2 ss-nav-menu-item-depth-0 ss-nav-menu-mega"><a href="#"><span class="wpmega-link-title">Live Video &#038; Chat</span></a>
+<ul class="sub-menu sub-menu-1">
+	<li id="menu-item-5288" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-1"><a href="#"><span class="wpmega-link-title">Watch Live</span></a>
+	<ul class="sub-menu sub-menu-2">
+		<li id="menu-item-4944" class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-2"><a href="http://sqpn.com/sqpn-live/"><span class="wpmega-link-title">Live Stream Channel 1</span></a></li>
+		<li id="menu-item-4943" class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-2"><a href="http://sqpn.com/sqpn-live-2/"><span class="wpmega-link-title">Live Stream Channel 2</span></a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-5273" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-3 ss-nav-menu-item-depth-0 ss-nav-menu-mega"><a href="#"><span class="wpmega-link-title">Donate or Sponsor</span></a>
+<ul class="sub-menu sub-menu-1">
+	<li id="menu-item-5289" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-1"><a href="#"><span class="wpmega-link-title">Support SQPN</span></a>
+	<ul class="sub-menu sub-menu-2">
+		<li id="menu-item-1110" class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-2"><a href="http://sqpn.com/donate/"><span class="wpmega-link-title">Donate</span></a></li>
+		<li id="menu-item-2443" class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-2"><a href="http://sqpn.com/sponsor-a-show/"><span class="wpmega-link-title">Sponsor a Show</span></a></li>
+		<li id="menu-item-4749" class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-2"><a href="http://sqpn.com/advertise/"><span class="wpmega-link-title">Advertise on the Website</span></a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-5274" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-4 ss-nav-menu-item-depth-0 ss-nav-menu-mega"><a href="#"><span class="wpmega-link-title">About Us</span></a>
+<ul class="sub-menu sub-menu-1">
+	<li id="menu-item-5293" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-1"><a href="#"><span class="wpmega-link-title">Information</span></a>
+	<ul class="sub-menu sub-menu-2">
+		<li id="menu-item-1121" class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-2"><a href="http://sqpn.com/about/"><span class="wpmega-link-title">About SQPN</span></a></li>
+		<li id="menu-item-4997" class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-2"><a href="http://sqpn.com/about/faq/"><span class="wpmega-link-title">F.A.Q.</span></a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-1114" class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-5 ss-nav-menu-item-depth-0 ss-nav-menu-mega"><a href="http://sqpn.com/newsletter/"><span class="wpmega-link-title">Newsletter</span></a></li>
+<li id="menu-item-5291" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-6 ss-nav-menu-item-depth-0 ss-nav-menu-mega"><a href="#"><span class="wpmega-link-title">Store</span></a>
+<ul class="sub-menu sub-menu-1">
+	<li id="menu-item-5292" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-1"><a href="#"><span class="wpmega-link-title">Our Stores</span></a>
+	<ul class="sub-menu sub-menu-2">
+		<li id="menu-item-4984" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-2"><a href="http://sqpngear.com"><span class="wpmega-link-title">Merchandise</span></a></li>
+		<li id="menu-item-5290" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-2"><a href="http://astore.amazon.com/wwwsqpncom-20"><span class="wpmega-link-title">SQPN Amazon Store</span></a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-5341" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-7 ss-nav-menu-item-depth-0 ss-nav-menu-mega"><a href="#"><span class="wpmega-link-title">Media Partners</span></a>
+<ul class="sub-menu sub-menu-1">
+	<li id="menu-item-5344" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-1"><a href="#"><span class="wpmega-link-title">Media Partners</span></a>
+	<ul class="sub-menu sub-menu-2">
+		<li id="menu-item-5342" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-2"><a href="http://gspn.tv"><span class="wpmega-link-title">GSPN.tv</span></a></li>
+		<li id="menu-item-5552" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-2"><a href="http://www.iconmedia.co.nz/"><span class="wpmega-link-title">Icon Media</span></a></li>
+		<li id="menu-item-5343" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-2"><a href="http://radio.mymiddle-earth.net/"><span class="wpmega-link-title">Middle-earth Network Radio</span></a></li>
+	</ul>
+</li>
+</ul>
+</li>
+</ul></div>
+<div id="wrapper">
+		<div id="sidebar">
+
+		<ul>
+			<li id="text-25" class="widget widget_text">			<div class="textwidget"><a href='http://www.catholicnewmediaconference.com/registration'><img src='http://sqpn.com/wp-content/uploads/2012/04/cnmc12_verticalbanner.png'></a></div>
+		</li>
+<li id="text-30" class="widget widget_text"><h2 class="widgettitle">270 Friends of SQPN!</h2>
+			<div class="textwidget"><img src='http://sqpn.com/wp-content/uploads/2012/03/friendsofsqpn.jpg'><br>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="VG45Z9YM42AVG">
+<table>
+<tr><td><br>Support our work by becoming a friend of SQPN! <input type="hidden" name="on0" value="Choose your monthly donation and click the 'donate' button:">Choose your monthly donation and click the 'donate' button:<br><br></td></tr><tr><td><select name="os0">
+	<option value="Friend">Friend: $10 USD - monthly</option>
+	<option value="Supporter">Supporter: $15 USD - monthly</option>
+	<option value="Patron">Patron: $25 USD - monthly</option>
+	<option value="Benefactor">Benefactor: $50 USD - monthly</option>
+	<option value="Investor">Investor: $100 USD - monthly</option>
+	<option value="Saint">Saint: $500 USD - monthly</option>
+	<option value="Angel">Angel: $1,000 USD - monthly</option>
+</select> </td></tr>
+</table>
+<input type="hidden" name="currency_code" value="USD">
+<input type="image" src="http://sqpn.com/wp-content/uploads/2011/12/donation_button_01.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+</div>
+		</li>
+<li id="text-27" class="widget widget_text"><h2 class="widgettitle">SQPN recommends:</h2>
+			<div class="textwidget"><a href='http://www.bluehost.com/track/sqpn'><img src='http://sqpn.com/wp-content/uploads/2011/10/bh_180x150_05.gif'></a></div>
+		</li>
+<li id="text-26" class="widget widget_text">			<div class="textwidget"><p><a href="http://www.amazon.com/?&tag=wwwsqpncom-20"><img src="http://sqpn.com/wp-content/uploads/2011/11/amazonbutton.png"></a></p>
+<p>Or click on one of the local stores below:<br />
+• <a href="http://www.amazon.ca/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.ca%2F&tag=wwwsqpncom04-20&linkCode=ur2&camp=15121&creative=330641">Amazon Canada</a><img src="http://www.assoc-amazon.ca/e/ir?t=wwwsqpncom04-20&l=ur2&o=15" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /><br />
+• <a href="http://www.amazon.co.uk/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.co.uk%2F&tag=wwwsqpncom-21&linkCode=ur2&camp=1634&creative=6738">Amazon UK</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=wwwsqpncom-21&l=ur2&o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /><br />
+• <a href="http://www.amazon.de/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.de%2F&site-redirect=de&tag=wwwsqpncom01-21&linkCode=ur2&camp=1638&creative=6742">Amazon Germany</a><img src="http://www.assoc-amazon.de/e/ir?t=wwwsqpncom01-21&l=ur2&o=3" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /><br />
+• <a href="http://www.amazon.fr/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.fr%2F&tag=wwwsqpncom0e-21&linkCode=ur2&camp=1642&creative=6746">Amazon France</a><img src="http://www.assoc-amazon.fr/e/ir?t=wwwsqpncom0e-21&l=ur2&o=8" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+</div>
+		</li>
+<li id="text-32" class="widget widget_text"><h2 class="widgettitle">Visit our sponsor</h2>
+			<div class="textwidget"><p>Thanks to <a href='http://inquedesign.com/'>INQUE Design</a> for sponsoring the SQPN Studio!<br><br><a href='http://inquedesign.com/'><img src='http://sqpn.com/wp-content/uploads/2012/04/inq.jpg'></a></p>
+</div>
+		</li>
+<li id="rss-4" class="widget widget_rss"><h2 class="widgettitle"><a class='rsswidget' href='http://feeds.feedburner.com/sqpnaffiliates' title='Syndicate this content'><img style='border:0' width='14' height='14' src='http://sqpn.com/wp-includes/images/rss.png' alt='RSS' /></a> <a class='rsswidget' href='http://pipes.yahoo.com/pipes/pipe.info?_id=mnTeD_5q3hGVND7IPm7D0g' title='Pipes Output'>SQPN Affiliates</a></h2>
+<ul><li><a class='rsswidget' href='http://feedproxy.google.com/~r/sqpnaffiliates/~3/v03FOD0qYG8/' title='Today is the ninth day of the Novena to the Holy Spirit in preparation for the Feast of Pentecost. - cast (at) iPadre (dot) net - Feedback line: (267) 31-Padre (267) 317-2373 iPadre App | Android App Subscribe to Feed … Continue reading → [&hellip;]'>iPadre #266 – Novena to the Holy Spirit – Day Nine</a> <span class="rss-date">May 26, 2012</span><div class='rssSummary'>Today is the ninth day of the Novena to the Holy Spirit in preparation for the Feast of Pentecost. - cast (at) iPadre (dot) net - Feedback line: (267) 31-Padre (267) 317-2373 iPadre App | Android App Subscribe to Feed … Continue reading → [&hellip;]</div></li><li><a class='rsswidget' href='http://feedproxy.google.com/~r/sqpnaffiliates/~3/amMj_TNoyxk/' title='OLT Express A320 near Sofia on May 17th 2012, loss of cabin pressure, fire in cabin; VFR pilot gets himself in BIG trouble- Jacksonville Approach controllers to the rescue; listener feedback, and more! [&hellip;]'>APG 030 – Salmon-Thirty-Salmon?</a> <span class="rss-date">May 25, 2012</span><div class='rssSummary'>OLT Express A320 near Sofia on May 17th 2012, loss of cabin pressure, fire in cabin; VFR pilot gets himself in BIG trouble- Jacksonville Approach controllers to the rescue; listener feedback, and more! [&hellip;]</div></li><li><a class='rsswidget' href='http://feedproxy.google.com/~r/sqpnaffiliates/~3/trY3iTQZpfM/' title='What a blessing to have as our guest, Gretchen Harris, UCMVA’s “Female Vocalist of the Year.” Gretchen is proudly Catholic, a wonderful singer/songwriter, and through her music, she expresses her love for God and Church. In spite of six … [&hellip;]'>Catholic Vitamin T Talent</a> <span class="rss-date">May 22, 2012</span><div class='rssSummary'>What a blessing to have as our guest, Gretchen Harris, UCMVA’s “Female Vocalist of the Year.” Gretchen is proudly Catholic, a wonderful singer/songwriter, and through her music, she expresses her love for God and Church. In spite of six … [&hellip;]</div></li><li><a class='rsswidget' href='http://feedproxy.google.com/~r/sqpnaffiliates/~3/peIT4ZfiDEI/21_Cathlab98_-_Egyptology_Part_2.html' title='We continue our examination of the Catholic contribution to Egyptology by taking a look at some of the names who helped decipher the ancient Egyptian hieroglyphs, including Cristoforo Buandelmonti, Piero Valeriano Bolzani, Athanasius Kircher, and Abbé Jean-Jacques Barthélemy. The Lab Report features stories on Engineering Love, DIY Scientists, and the Transi [&hellip;]'>Cathlab98 - Egyptology Part 2</a> <span class="rss-date">May 21, 2012</span><div class='rssSummary'>We continue our examination of the Catholic contribution to Egyptology by taking a look at some of the names who helped decipher the ancient Egyptian hieroglyphs, including Cristoforo Buandelmonti, Piero Valeriano Bolzani, Athanasius Kircher, and Abbé Jean-Jacques Barthélemy. The Lab Report features stories on Engineering Love, DIY Scientists, and the Transi [&hellip;]</div></li><li><a class='rsswidget' href='http://feedproxy.google.com/~r/sqpnaffiliates/~3/diBN7N6bjgw/' title='What is the New Zealand Government thinking in offering free long-term contraception to women on welfare? What is President Obama thinking in announcing he supports gay marriage in the middle of an election campaign? When will the euthanasia lobby stop ... [&hellip;]'>Station XV: Episode 56 — Contraception, contradiction, conjugal relations and confusion</a> <span class="rss-date">May 18, 2012</span><div class='rssSummary'>What is the New Zealand Government thinking in offering free long-term contraception to women on welfare? What is President Obama thinking in announcing he supports gay marriage in the middle of an election campaign? When will the euthanasia lobby stop ... [&hellip;]</div></li><li><a class='rsswidget' href='http://feedproxy.google.com/~r/sqpnaffiliates/~3/9vvb-HYjPIw/JACD_075_-_Peppa_And_The_Wookie.mp3' title='The Queen visits Salisbury, we visit Peppa Pig World, and we talk more about Caitie, the Rosary and prayer in general.  Also, does Jesus want you for a sunbeam? This week’s 60 Second Saint is St Joseph of Cupertino. Links: http://www.peppapigworld.co.uk/ http://catholiclane.com/did-jesus-really-sin/   The Rosary: http://jimmyakin.com/2012/04/video-is-the-ros [&hellip;]'>Just A Catholic Dad 75 - Peppa And The Wookie</a> <span class="rss-date">May 15, 2012</span><div class='rssSummary'>The Queen visits Salisbury, we visit Peppa Pig World, and we talk more about Caitie, the Rosary and prayer in general.  Also, does Jesus want you for a sunbeam? This week’s 60 Second Saint is St Joseph of Cupertino. Links: http://www.peppapigworld.co.uk/ http://catholiclane.com/did-jesus-really-sin/   The Rosary: http://jimmyakin.com/2012/04/video-is-the-ros [&hellip;]</div></li><li><a class='rsswidget' href='http://feedproxy.google.com/~r/sqpnaffiliates/~3/pGcOqtfkBHs/video-was-same-sex-marriage-a-christian-rite' title='Recently an article on the Internet that claims same-sex &quot;marriage&quot; used to be a Christian rite has been trending. It&#039;s been cited repeatedly, in many different places, and Jimmy has gotten multiple queries about how to respond to it. According to the article: Contrary to myth, Christianity&#039;s concept of marriage has not been set in stone  [&hellip;]'>VIDEO: Was Same-Sex &quot;Marriage&quot; a Christian Rite?</a> <span class="rss-date">May 13, 2012</span><div class='rssSummary'>Recently an article on the Internet that claims same-sex &quot;marriage&quot; used to be a Christian rite has been trending. It&#039;s been cited repeatedly, in many different places, and Jimmy has gotten multiple queries about how to respond to it. According to the article: Contrary to myth, Christianity&#039;s concept of marriage has not been set in stone  [&hellip;]</div></li></ul></li>
+<li id="p2_recent_comments-3" class="widget widget_p2_recent_comments"><h2 class="widgettitle">Recent comments</h2>
+		<table class="p2-recent-comments" cellspacing="0" cellpadding="0" border="0">
+		<tr><td title='on the eve of Cathol&hellip;' class='avatar' style='height: 32px; width: 32px'><a href='http://begojohnson.com/2012/05/22/on-the-eve-of-catholic-media-promotion-day-2012/' rel='nofollow'></a></td><td class="text"><a href='http://begojohnson.com/2012/05/22/on-the-eve-of-catholic-media-promotion-day-2012/' rel='nofollow'>on the eve of Cathol&hellip;</a> on <a href='http://sqpn.com/2012/05/22/shut-up-and-listen-and-promote-catholicism-next/#comment-8878' class='tooltip' title='[...] A big part of me is my faith. I try to live &hellip;'>Shut up and listen! (And promo&hellip;</a></td></tr><tr><td title='jimmyakin' class='avatar' style='height: 32px; width: 32px'><a href='http://www.jimmyakinpodcast.com' rel='nofollow'><img alt='' src='http://1.gravatar.com/avatar/3dae1b12b84174349729a08b35b924de?s=32&amp;d=retro&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /></a></td><td class="text"><a href='http://www.jimmyakinpodcast.com' rel='nofollow'>jimmyakin</a> on <a href='http://sqpn.com/2012/05/19/who-is-the-beast-of-revelation/#comment-8852' class='tooltip' title='Howdy, Scott! I added you manually using the email&hellip;'>Who Is the Beast of Revelation&hellip;</a></td></tr><tr><td title='Scott Larson' class='avatar' style='height: 32px; width: 32px'><img alt='' src='http://1.gravatar.com/avatar/195d1f0e6b8b2c3e252cd0fa1aa6ec1f?s=32&amp;d=retro&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /></td><td class="text">Scott Larson on <a href='http://sqpn.com/2012/05/19/who-is-the-beast-of-revelation/#comment-8851' class='tooltip' title='Jimmy, I tried to sign up for the secret info club&hellip;'>Who Is the Beast of Revelation&hellip;</a></td></tr><tr><td title='Marina' class='avatar' style='height: 32px; width: 32px'><img alt='' src='http://0.gravatar.com/avatar/8093cb5ddcf2c7615da790cdbbc1759a?s=32&amp;d=retro&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /></td><td class="text">Marina on <a href='http://sqpn.com/2012/05/15/real-or-photoshopped/#comment-8819' class='tooltip' title='Totally photoshopped! The cat is the only thing th&hellip;'>Real or Photoshopped?</a></td></tr><tr><td title='Christian Lopez' class='avatar' style='height: 32px; width: 32px'><a href='http://twitter.com/djcatolico' rel='nofollow'><img alt='' src='http://1.gravatar.com/avatar/7273058907a73b7c6474d9fa50100c3a?s=32&amp;d=retro&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' /></a></td><td class="text"><a href='http://twitter.com/djcatolico' rel='nofollow'>Christian Lopez</a> on <a href='http://sqpn.com/2012/05/15/real-or-photoshopped/#comment-8792' class='tooltip' title='I saw the original pic at least in two different n&hellip;'>Real or Photoshopped?</a></td></tr>	</table></li>
+<li id="search-4" class="widget widget_search"><form role="search" method="get" id="searchform" action="http://sqpn.com/" >
+	<div><label class="screen-reader-text" for="s">Search for:</label>
+	<input type="text" value="" name="s" id="s" />
+	<input type="submit" id="searchsubmit" value="Search" />
+	</div>
+	</form></li>
+<li id="text-28" class="widget widget_text">			<div class="textwidget"><a href='http://itunes.apple.com/artist/sqpn/id354061769'>
+<img src='http://sqpn.com/wp-content/uploads/2011/10/subscribe_itunes.png'></a></div>
+		</li>
+<li id="text-29" class="widget widget_text">			<div class="textwidget"><iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FSQPN%2F26120051568&amp;width=200&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=false&amp;header=true&amp;appId=186233561414408" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:290px;" allowTransparency="true"></iframe></div>
+		</li>
+<li id="text-31" class="widget widget_text">			<div class="textwidget"><!-- Begin SpeakPipe code -->
+<script type="text/javascript">
+(function(d){
+var app = d.createElement('script'); app.type = 'text/javascript'; app.async = true;
+var pt = ('https:' == document.location.protocol ? 'https://' : 'http://');
+app.src = pt + 'www.speakpipe.com/loader/zhy4mmshd0yh2ho5sm98z1i31t0g64o1.js'; 
+var s = d.getElementsByTagName('script')[0]; s.parentNode.insertBefore(app, s);
+})(document);
+</script>
+<!-- End SpeakPipe code --></div>
+		</li>
+		</ul>
+
+		<div class="clear"></div>
+
+	</div> <!-- // sidebar -->
+
+<div class="sleeve_main">
+
+	<div id="main">
+
+		<h2>Not Found</h2>
+		<p>Apologies, but the page you requested could not be found. Perhaps searching will help.</p>
+		<form role="search" method="get" id="searchform" action="http://sqpn.com/" >
+	<div><label class="screen-reader-text" for="s">Search for:</label>
+	<input type="text" value="" name="s" id="s" />
+	<input type="submit" id="searchsubmit" value="Search" />
+	</div>
+	</form>
+	</div> <!-- main -->
+
+</div> <!-- sleeve -->
+
+	<div class="clear"></div>
+
+</div> <!-- // wrapper -->
+
+<div id="footer">
+	<p>
+		<a href="http://wordpress.org/" rel="generator">Proudly powered by WordPress.</a>	    Theme: P2 by <a href="http://automattic.com/" rel="designer">Automattic</a>.	</p>
+</div>
+
+<div id="notify"></div>
+
+<div id="help">
+	<dl class="directions">
+		<dt>c</dt><dd>compose new post</dd>
+		<dt>j</dt><dd>next post/next comment</dd>
+		<dt>k</dt> <dd>previous post/previous comment</dd>
+		<dt>r</dt> <dd>reply</dd>
+		<dt>e</dt> <dd>edit</dd>
+		<dt>o</dt> <dd>show/hide comments</dd>
+		<dt>t</dt> <dd>go to top</dd>
+		<dt>l</dt> <dd>go to login</dd>
+		<dt>h</dt> <dd>show/hide help</dd>
+		<dt>shift + esc</dt> <dd>cancel</dd>
+	</dl>
+</div>
+
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+    $(function() {
+    	$('[class*=eStore]').find('a[rel*=lightbox]').lightBox({
+    	imageLoading: 'http://sqpn.com/wp-content/plugins/wp-cart-for-digital-products/images/lightbox/lightbox-ico-loading.gif',
+    	imageBtnClose: 'http://sqpn.com/wp-content/plugins/wp-cart-for-digital-products/images/lightbox/lightbox-btn-close.gif',
+    	imageBtnPrev: 'http://sqpn.com/wp-content/plugins/wp-cart-for-digital-products/images/lightbox/lightbox-btn-prev.gif',
+    	imageBtnNext: 'http://sqpn.com/wp-content/plugins/wp-cart-for-digital-products/images/lightbox/lightbox-btn-next.gif',
+    	imageBlank: 'http://sqpn.com/wp-content/plugins/wp-cart-for-digital-products/images/lightbox/lightbox-blank.gif',
+    	txtImage: 'Image',
+    	txtOf: 'of'
+        });
+    });    
+});
+</script>
+
+	<script type="text/javascript">
+	/* <![CDATA[ */
+		jQuery(document).ready( function() {
+			function hideComments() {
+				jQuery('.commentlist').hide();
+				jQuery('.discussion').show();
+			}
+			function showComments() {
+				jQuery('.commentlist').show();
+				jQuery('.discussion').hide();
+			}
+			
+			jQuery("#togglecomments").click( function(){
+				if (jQuery('.commentlist').css('display') == 'none') {
+					showComments();
+				} else {
+					hideComments();
+				}
+				return false;
+			});
+		});
+	/* ]]> */
+	</script><script type='text/javascript' src='http://platform.twitter.com/widgets.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://apis.google.com/js/plusone.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://assets.pinterest.com/js/pinit.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://sqpn.com/wp-content/plugins/wp-uber-menu/js/wpmegamenu.min.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://sqpn.com/wp-content/plugins/wp-uber-menu/js/hoverIntent.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://sqpn.com/wp-includes/js/jquery/ui/jquery.ui.core.min.js?ver=1.8.16'></script>
+
+</body>
+</html>
