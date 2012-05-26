@@ -192,24 +192,17 @@ if(window.opera) {document.write('<link rel="stylesheet" type="text/css" href="h
 			<li>
 				<ul>
 				<li><h3>Flickr</h3><div class="flickrpress-container"><div class="flickrpress-items">        <div class="flickr_item flickr_item_view_squares">
-                            <a href="http://farm8.static.flickr.com/7058/7023615915_b907e841a9.jpg" class="thickbox" rel="lightbox[flickr]" 
-                    title="Derelict poster &quot;Sniper&quot; - Irene Ng (Cantonese) | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/7023615915&quot;&gt;View at Flickr&lt;/a&gt;">
+                            <a href="http://farm7.static.flickr.com/6195/6049125051_7e5df75355.jpg" class="thickbox" rel="lightbox[flickr]" 
+                    title="New Cassettes BBC Electric Proms | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/6049125051&quot;&gt;View at Flickr&lt;/a&gt;">
                         <span></span>
-            <img src="http://farm8.static.flickr.com/7058/7023615915_b907e841a9_s.jpg" title="Derelict poster "Sniper" - Irene Ng (Cantonese)" alt="Derelict poster "Sniper" - Irene Ng (Cantonese)" />
+            <img src="http://farm7.static.flickr.com/6195/6049125051_7e5df75355_s.jpg" title="New Cassettes BBC Electric Proms" alt="New Cassettes BBC Electric Proms" />
             </a>
         </div>
                 <div class="flickr_item flickr_item_view_squares">
-                            <a href="http://farm8.static.flickr.com/7194/7023616547_b9c80550c5.jpg" class="thickbox" rel="lightbox[flickr]" 
-                    title="Derelict poster வீடற்றவர்கள் (Tamil) | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/7023616547&quot;&gt;View at Flickr&lt;/a&gt;">
+                            <a href="http://farm7.static.flickr.com/6190/6048933395_414ea507f8.jpg" class="thickbox" rel="lightbox[flickr]" 
+                    title="There is a Day SteadyCam 2 | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/6048933395&quot;&gt;View at Flickr&lt;/a&gt;">
                         <span></span>
-            <img src="http://farm8.static.flickr.com/7194/7023616547_b9c80550c5_s.jpg" title="Derelict poster வீடற்றவர்கள் (Tamil)" alt="Derelict poster வீடற்றவர்கள் (Tamil)" />
-            </a>
-        </div>
-                <div class="flickr_item flickr_item_view_squares">
-                            <a href="http://farm7.static.flickr.com/6073/6048931741_d5e518d25c.jpg" class="thickbox" rel="lightbox[flickr]" 
-                    title="There is a Day SteadyCam 3 | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/6048931741&quot;&gt;View at Flickr&lt;/a&gt;">
-                        <span></span>
-            <img src="http://farm7.static.flickr.com/6073/6048931741_d5e518d25c_s.jpg" title="There is a Day SteadyCam 3" alt="There is a Day SteadyCam 3" />
+            <img src="http://farm7.static.flickr.com/6190/6048933395_414ea507f8_s.jpg" title="There is a Day SteadyCam 2" alt="There is a Day SteadyCam 2" />
             </a>
         </div>
                 <div class="flickr_item flickr_item_view_squares">
@@ -220,17 +213,24 @@ if(window.opera) {document.write('<link rel="stylesheet" type="text/css" href="h
             </a>
         </div>
                 <div class="flickr_item flickr_item_view_squares">
-                            <a href="http://farm3.static.flickr.com/2449/5815886519_3177549184.jpg" class="thickbox" rel="lightbox[flickr]" 
-                    title="Derelict Pie festival | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/5815886519&quot;&gt;View at Flickr&lt;/a&gt;">
+                            <a href="http://farm4.static.flickr.com/3109/5816428022_97f90ba109.jpg" class="thickbox" rel="lightbox[flickr]" 
+                    title="Simeon Lumgair Hollywood Red Carpet | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/5816428022&quot;&gt;View at Flickr&lt;/a&gt;">
                         <span></span>
-            <img src="http://farm3.static.flickr.com/2449/5815886519_3177549184_s.jpg" title="Derelict Pie festival" alt="Derelict Pie festival" />
+            <img src="http://farm4.static.flickr.com/3109/5816428022_97f90ba109_s.jpg" title="Simeon Lumgair Hollywood Red Carpet" alt="Simeon Lumgair Hollywood Red Carpet" />
             </a>
         </div>
                 <div class="flickr_item flickr_item_view_squares">
-                            <a href="http://farm4.static.flickr.com/3535/5816433918_ae0269ca4e.jpg" class="thickbox" rel="lightbox[flickr]" 
-                    title="Simeon Lumgair Hollywood Press | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/5816433918&quot;&gt;View at Flickr&lt;/a&gt;">
+                            <a href="http://farm6.static.flickr.com/5166/5205608612_62b4cba775.jpg" class="thickbox" rel="lightbox[flickr]" 
+                    title="Derelict: Director At Screen | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/5205608612&quot;&gt;View at Flickr&lt;/a&gt;">
                         <span></span>
-            <img src="http://farm4.static.flickr.com/3535/5816433918_ae0269ca4e_s.jpg" title="Simeon Lumgair Hollywood Press" alt="Simeon Lumgair Hollywood Press" />
+            <img src="http://farm6.static.flickr.com/5166/5205608612_62b4cba775_s.jpg" title="Derelict: Director At Screen" alt="Derelict: Director At Screen" />
+            </a>
+        </div>
+                <div class="flickr_item flickr_item_view_squares">
+                            <a href="http://farm6.static.flickr.com/5130/5205005777_086328d796.jpg" class="thickbox" rel="lightbox[flickr]" 
+                    title="Derelict: Soldiers | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/5205005777&quot;&gt;View at Flickr&lt;/a&gt;">
+                        <span></span>
+            <img src="http://farm6.static.flickr.com/5130/5205005777_086328d796_s.jpg" title="Derelict: Soldiers" alt="Derelict: Soldiers" />
             </a>
         </div>
         </div></div></li>				</ul>
