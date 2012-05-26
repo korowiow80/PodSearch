@@ -9,9 +9,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <meta name="robots" content="nofollow"/>
 <script type="text/javascript" language="JavaScript">
-if(top.location!=location)top.location.href=document.location.href;var phrase_related="Related Searches";var phrase_listings="Ads";var domain="mortarinteractive.com";var clientIDs="ca-dp-teaminternet01";var adtest="off";var x2c=false;var clientIDd="ca-dp-teaminternet01";var clientIDr="ca-dp-teaminternet-rs";var scriptPath="";var numRadLinks=10;var xlang="de";var clientChannel="000000";var bucket="";var themedata="fENsZWFuQmxhY2t8fGY3YjAyfHx8fHx8fDRmYzEzYTQ2ZDE5Nzh8fHwxMzM4MDYzNDMwLjk0MDF8MzcxZWEzNWEwNzE3MGQ1MjM4Nzc0MmVhNjUzYjRlZWI3YzA2ODYzZXx8fA==";var isAdult=false;var keyword="";var relSplits = Array(); relSplits[0] = 10;var uniqueTrackingID="MTMzODA2MzQzMC45Mzk5OjBjNmYyOWRmYWUxNmE5MmVhOTI0MjJlMDhiYjczZDVhNzMxMGZkNzA=";var is_UserSearch=false;var afs_q="";var num_ads=10;var rxid="0";var xsearch='';var xkw='';var xpcat='';var country="de";var asset_path="http://i.cdnpark.com";var script_path="";var ownterms=false;var xwr=false;</script>
+if(top.location!=location)top.location.href=document.location.href;var phrase_related="Related Searches";var phrase_listings="Ads";var domain="mortarinteractive.com";var clientIDs="ca-dp-teaminternet01";var adtest="off";var x2c=false;var clientIDd="ca-dp-teaminternet01";var clientIDr="ca-dp-teaminternet-rs";var scriptPath="";var numRadLinks=10;var xlang="de";var clientChannel="000000";var bucket="";var themedata="fENsZWFuQmxhY2t8fGY3YjAyfHx8fHx8fDRmYzEzY2FiMzE0ZmF8fHwxMzM4MDY0MDQzLjI2Mzd8ZDRjY2ExYWVlYjhhNjQwNTY5NTI4NDFhOTgzNzFiZTZhNDg3NDc3N3x8fDE=";var isAdult=false;var keyword="";var relSplits = Array(); relSplits[0] = 10;var uniqueTrackingID="MTMzODA2NDA0My4yNjM2OmFmNjY5NzI4ZGY5ZTg3OGYxYjg4NWMzOTEzMmM0NDI4OGU3N2NjMGI=";var is_UserSearch=false;var afs_q="";var num_ads=10;var rxid="0";var xsearch='';var xkw='';var xpcat='';var country="de";var asset_path="http://i.cdnpark.com";var script_path="";var ownterms=false;var xwr=false;</script>
 <script type="text/javascript" language="JavaScript" src="http://i.cdnpark.com/scripts/js3.js"></script>
-<script type="text/javascript" language="JavaScript" src="/scripts/yahoo.php?q=&kw=&ads=10&rel=10&qsx=&domain=mortarinteractive.com&subds=mortarinteractive.com&hl=de&adult=0&terms="></script><script type="text/javascript" language="JavaScript" id="yahooFeed" onload="prnt('ads');"></script>
+<script type="text/javascript" language="JavaScript" src="/scripts/feedme.php?q=&max=10&hl=de&d=mortarinteractive.com"></script>
 <script type="text/javascript" language="JavaScript"> fixRelated(); fixThemedata()</script>
 <style type="text/css">
 #linktitle a {
@@ -31,7 +31,7 @@ text-decoration: underline;
 <form method="get" name="searchfrm" accept-charset="UTF-8">
 <input name="search" type="text" maxlength="50" id="q" value=""/></td>
 <td><input type="submit" name="submit" value="Suchen" id="button"/>
-<input type="hidden" name="ts" value="fENsZWFuQmxhY2t8fGY3YjAyfHx8fHx8fDRmYzEzYTQ2ZDE5Nzh8fHwxMzM4MDYzNDMwLjk1MDR8MjkxYWI2YjM0ZjQ4NGJiOTNjMjIwMGU2Y2E4NDJhZjA2MWQ4NGNhOXx8fA==" />     
+<input type="hidden" name="ts" value="fENsZWFuQmxhY2t8fGY3YjAyfHx8fHx8fDRmYzEzY2FiMzE0ZmF8fHwxMzM4MDY0MDQzLjI2NXw0YmI0OWRhMGVmYzY0ZWE4OTcxYjM4ZGE5ZjkyYjJjYTUxZjIwZDdifHx8MQ==" />     
 <input type="hidden" name="jsv" value="2" />
 <input type="hidden" name="token" value="" id="searchToken" />
 <script type="text/javascript" language="JavaScript">document.getElementById('searchToken').value = search_token;</script>
