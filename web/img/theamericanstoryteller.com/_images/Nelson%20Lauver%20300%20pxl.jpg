@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
+<head>
+<title>The American Storyteller-Nelson Lauver</title>
+<base href="http://www.theamericanstoryteller.com/"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="keywords" content="Nelson Lauver, speaker, keynote speaker,motivational speaker,  speaker on dyslexia, speaker on learning disabilities, speaker for teachers, speaker for educators, keynote speaker, humorist, corporate speaker, team building speaker, author, Most Unlikely to Succeed, broadcaster, syndicated broadcaster, radio broadcaster, online stories, story downloads, book about success, book about learning disabilities, memoir, overcoming obstacles, finding your voice, New York, Pennsylvania, New Jersey, McAlisterville, narrator, award-winning narrator, corporal punishment" />
+<meta name="description" content="" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta name="ddm-page" content="404" />
+<meta name="ddm-lang" content="english" />
+<link href="content/vendors/jquery/ui/themes/base/ui.all.css" rel="stylesheet" type="text/css" />
+<link href="content/vendors/jquery/ui/themes/smoothness/smoothness.css" rel="stylesheet" type="text/css" />
+<link href="content/vendors/jquery/smartsuggest/css/jquery.smartsuggest.css" rel="stylesheet" type="text/css" />
+<link href="content/vendors/jquery/treeview/jquery.treeview.css" rel="stylesheet" type="text/css" />
+<link href="content/cache/skins/AST/styles/all.css" rel="stylesheet" type="text/css" id="css-all" />
+<link href="content/cache/skins/AST/styles/SpryValidationSelect.css" rel="stylesheet" type="text/css" id="spry1" />
+<link href="content/cache/skins/AST/styles/SpryValidationTextarea.css" rel="stylesheet" type="text/css" id="spry2" />
+<link href="content/cache/skins/AST/styles/SpryValidationTextField.css" rel="stylesheet" type="text/css" id="spry3" />
+<script type="text/javascript" language="javascript">
+var site_http_url = "http://www.theamericanstoryteller.com";
+var site_https_url = "https://www.theamericanstoryteller.com";
+var site_dinamic_url = "http://www.theamericanstoryteller.com/index.php?";
+var site_admin_url = "http://www.theamericanstoryteller.com";
+var site_ajax_url = "http://www.theamericanstoryteller.com/index.php?pcsid=e9e976166343ed2ad11550121a2599bb&";
+var site_ajax_url_admin = "http://www.theamericanstoryteller.com";
+var skin_images = "content/cache/skins/AST/images/";
+var skin_themes = "content/cache/skins/AST/styles/";
+var skin_name = "AST";
+var CartDeleteItemUrl = 'http://www.theamericanstoryteller.com/index.php?oa=RemoveItem';
+var CartEmptyUrl = 'http://www.theamericanstoryteller.com/index.php?oa=ClearItems';
+var orderItemsCount = 0;
+var urlLogout = "http://www.theamericanstoryteller.com/index.php?ua=user_logout";
+var USER_DELETE_ADDRESS = "DeleteShippingAddress";
+var product_may_be_added = true;
+</script>
+<script type="text/javascript" src="content/cache/skins/AST/javascript/SpryValidationSelect.js"></script>
+<script type="text/javascript" src="content/cache/skins/AST/javascript/SpryValidationTextarea.js"></script>
+<script type="text/javascript" src="content/cache/skins/AST/javascript/SpryValidationTextField.js"></script>
+<script type="text/javascript" src="includes/pickle.js"></script><script type="text/javascript" src="content/vendors/jquery/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="content/vendors/jquery/ui/jquery-ui-1.7.2.custom.min.js"></script>
+<script type="text/javascript" src="content/vendors/jquery/treeview/jquery.treeview.min.js"></script>
+<script type="text/javascript" src="content/vendors/jquery/smartsuggest/jquery.smartsuggest-min.js"></script>
+<script type="text/javascript" src="content/vendors/jquery/corner/jquery.corner-min.js"></script>
+<script type="text/javascript" src="content/vendors/md5/md5-min.js"></script>
+<script type="text/javascript" src="content/vendors/json/json2-min.js"></script>
+<script type="text/javascript" src="content/cache/skins/AST/javascript/global.js"></script>
+<script type="text/javascript" src="content/cache/skins/AST/javascript/common.js"></script>
+<script type="text/javascript" src="content/cache/skins/AST/javascript/validators.js"></script>
+<script type="text/javascript" src="content/cache/skins/AST/javascript/base.js"></script>
+<script type="text/javascript" src="content/cache/skins/AST/javascript/skin.js"></script>
+<script type="text/javascript" src="content/cache/skins/AST/javascript/wimpy_button.js"></script>
+<script type="text/javascript" src="content/cache/skins/AST/javascript/misc.js"></script>
+<script type="text/javascript" src="content/cache/languages/english.js?ecfcd47b0b75c615ea063d59d30c539e"></script>
+<script type="text/javascript">
+var xajaxRequestUri="index.php?process_ajax_request=true";
+var xajaxDebug=false;
+var xajaxStatusMessages=false;
+var xajaxWaitCursor=true;
+var xajaxDefinedGet=0;
+var xajaxDefinedPost=1;
+var xajaxLoaded=false;
+function xajax_processAjaxAction(){return xajax.call("processAjaxAction", arguments, 1);}
+</script>
+<script type="text/javascript" src="content/vendors/ajax/xajax_js/xajax.js"></script>
+<script type="text/javascript">
+window.setTimeout(function () { if (!xajaxLoaded) { alert('Error: the xajax Javascript file could not be included. Perhaps the URL is incorrect?\nURL: content/vendors/ajax/xajax_js/xajax.js'); } }, 6000);
+</script>
+<!--[if gte IE 7]>
+<link type="text/css" rel="stylesheet" href="content/cache/skins/AST/styles/ie7plus.css" />
+<script type="text/javascript" src="content/cache/skins/AST/javascript/ie7plus.js"></script>
+<![endif]-->
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" href="content/cache/skins/AST/styles/ie7base.css" />
+<link rel="stylesheet" type="text/css" href="content/cache/skins/AST/styles/ie7.css" />
+<script type="text/javascript" src="content/cache/skins/AST/javascript/ie7.js"></script>
+<![endif]-->
+<!--[if lte IE 6]>
+<script type="text/javascript" src="content/vendors/jquery/pngFix/jquery.pngFix.pack.js"></script>
+<link type="text/css" rel="stylesheet" href="content/cache/skins/AST/styles/ie6base.css" />
+<script type="text/javascript" src="content/cache/skins/AST/javascript/ie6base.js"></script>
+<link type="text/css" rel="stylesheet" href="content/cache/skins/AST/styles/ie6.css" />
+<script type="text/javascript" src="content/cache/skins/AST/javascript/ie6.js"></script>
+<![endif]-->
+<link type="text/css" rel="stylesheet" href="includes/skins/blue_button/_stylesheet.css" /></head>
+<body id="page-404" class="page page-404">
+<div id="site-container">
+<div class="container-header container clearfix doc1024x768C">
+<div id="header" class="layout-zone-header layout-zone ">
+<div id="top_nav">
+<ul class="menu">
+<li><a href="http://www.theamericanstoryteller.com/index.php?p=login">Login</a> / <a href="http://www.theamericanstoryteller.com/index.php?p=signup">Register</a></li>
+<li>
+<a href="http://www.theamericanstoryteller.com/index.php?p=cart"><img class="image-cart " src="content/cache/skins/AST/images/image-cart.png" alt="Cart"/></a>
+<a href="http://www.theamericanstoryteller.com/index.php?p=cart">My Cart</a> 
+<span class="cart-empty">(Your Shopping Cart is Empty)</span>
+</li>
+</ul>
+        </div>
+<p class="logo"><a href="http://www.theamericanstoryteller.com">The American Storyteller Radio Journal - Real People &#8226; Real Stories &#8226; Hosted by Nelson Lauver</a></p>
+        <ul class="followus">
+        <li>Follow Nelson on:</li>
+            <li><a href="http://www.facebook.com/profile.php?id=1162587195" target="_blank"><img src="content/cache/skins/AST/images/facebook.jpg" align="absmiddle" /></a></li>
+          <li><a href="http://www.twitter.com/NelsonLauver" target="_blank"><img src="content/cache/skins/AST/images/twitter.jpg" align="absmiddle" /></a></li>
+  </ul>
+</div></div>
+<div class="container-navigation container clearfix doc1024x768C"><!--<div id="navigation" class="layout-zone-navigation layout-zone col-wrap clearfix ">
+<div class="col-left">
+<ul class="menu">
+<li><a href="index.php?p=home">Home</a></li>
+<li><a href="http://www.theamericanstoryteller.com/stories/">Listen To and Download Stories</a></li>
+<li><a href="http://www.theamericanstoryteller.com/about-nelson">About Nelson</a></li>
+<li><a href="http://www.theamericanstoryteller.com/memoirs">Nelson's Memoir</a></li>
+<li><a href="http://www.theamericanstoryteller.com/programs">Speaking Programs</a></li>
+<li><a href="http://www.theamericanstoryteller.com/testimonials">Customers &amp; Testimonials</a></li>
+<li><a href="http://www.theamericanstoryteller.com/affiliate">Become a Radio Affiliate</a></li>
+<li><a href="http://www.theamericanstoryteller.com/sotw-story">Story of the Week</a></li>
+<li><a href="http://www.theamericanstoryteller.com/esl">For English Learners</a></li>
+<li><a href="http://www.theamericanstoryteller.com/cds/">CDs &amp; Merchandise</a></li>
+<li><a href="http://www.theamericanstoryteller.com/contact_us">Contact</a></li>
+</ul>
+</div>
+<div class="col-right">
+<ul class="menu">
+<li><a href="http://www.theamericanstoryteller.com/index.php?p=login">Login</a> / <a href="http://www.theamericanstoryteller.com/index.php?p=signup">Register</a></li>
+<li>
+<a href="http://www.theamericanstoryteller.com/index.php?p=cart"><img class="image-cart " src="content/cache/skins/AST/images/image-cart.png" alt="Cart"/></a>
+<a href="http://www.theamericanstoryteller.com/index.php?p=cart">My Cart</a> 
+<span class="cart-empty">(Your Shopping Cart is Empty)</span>
+</li>
+</ul>
+</div>
+</div>--></div>
+<div class="container-main container clearfix doc1024x768C">
+<div id="main">
+<div id="left" class="layout-zone-left layout-zone ">
+<div id="left_nav">
+<div id="navigation" class="layout-zone-navigation layout-zone col-wrap clearfix ">
+<ul class="menu">
+<li><a href="index.php?p=home">Home</a></li>
+<li><a href="http://www.theamericanstoryteller.com/stories/">Listen To and Download Stories</a></li>
+<li><a href="http://www.theamericanstoryteller.com/about-nelson">About Nelson</a></li>
+<li><a href="http://www.theamericanstoryteller.com/memoirs">Nelson's Memoir</a></li>
+<li><a href="http://www.theamericanstoryteller.com/programs">Speaking Programs</a></li>
+<li><a href="http://www.theamericanstoryteller.com/testimonials">Customers &amp; Testimonials</a></li>
+<li><a href="http://www.theamericanstoryteller.com/affiliate">Become a Radio Affiliate</a></li>
+<li><a href="http://www.theamericanstoryteller.com/sotw-story">Story of the Week</a></li>
+<li><a href="http://www.theamericanstoryteller.com/esl">For English Learners</a></li>
+<li><a href="http://www.theamericanstoryteller.com/cds/">CDs &amp; Merchandise</a></li>
+<li><a href="http://www.theamericanstoryteller.com/contact_us">Contact</a></li>
+            <li class="storyoftheweek"><a href="http://www.theamericanstoryteller.com/sotw-signup">Story Of The Week</a></li>
+</ul>
+</div>
+</div>
+<!--<div class="nav_mdl">
+        <div class="nav_top">
+            <div class="nav_btm">
+                    <ul id="nav">
+                        <li class="home"><a href="http://www.theamericanstoryteller.com/">American Storyteller Home Page</a></li>
+                        <li class="listen"><a href="http://www.theamericanstoryteller.com/stories/">Listen to and Download Stories</a></li>
+                      <li class="about"><a href="http://www.theamericanstoryteller.com/about-nelson">About Nelson</a></li>
+                      <li class="memoir"><a href="http://www.theamericanstoryteller.com/memoirs">Nelson's Memoir</a></li>
+                        <li class="speaking"><a href="#">Speaking</a>
+                        <ul>
+                            <li><a href="http://www.theamericanstoryteller.com/programs">Programs &amp; Video</a></li>
+                                <li><a href="http://www.theamericanstoryteller.com/testimonials">Customers &amp; Testimonials</a></li>
+                          </ul>
+                        </li>
+                        <li class="affiliate"><a href="http://www.theamericanstoryteller.com/affiliate">Become a Radio Affiliate</a></li>
+                        <li class="story"><a href="http://www.theamericanstoryteller.com/story-of-the-week">Story of the Week</a></li>
+                        <li class="esl"><a href="http://www.theamericanstoryteller.com/esl">For English Learners</a></li>
+                        <li class="cds"><a href="http://www.theamericanstoryteller.com/cds/">CDs &amp; Merchandise</a></li>
+                        <li class="contact"><a href="http://www.theamericanstoryteller.com/contact_us">Contact</a></li>
+                        <li class="storyoftheweek"><a href="http://www.theamericanstoryteller.com/sotw-signup">Story Of The Week</a></li>
+                    </ul>
+              </div>
+             </div>
+         </div>
+                 <br class="clearfloat" />        
+         </div>-->
+<div class="panel-catalog-categories panel clearfix ">
+<h4 class="">Categories</h4>
+<div class="content ">
+<ul>
+<li>
+<a href="http://www.theamericanstoryteller.com/cds/" class=""><span>CDs</span></a>
+</li>
+<li>
+<a href="http://www.theamericanstoryteller.com/books/" class=""><span>Books</span></a>
+</li>
+<li>
+<a href="http://www.theamericanstoryteller.com/stories/" class="parent"><span>Stories</span></a>
+<ul>
+<li>
+<a href="http://www.theamericanstoryteller.com/american-history/" class=""><span>American History</span></a>
+</li>
+<li>
+<a href="http://www.theamericanstoryteller.com/american-icons/" class=""><span>American Icons</span></a>
+</li>
+<li>
+<a href="http://www.theamericanstoryteller.com/american-presidents/" class=""><span>American Presidents</span></a>
+</li>
+<li>
+<a href="http://www.theamericanstoryteller.com/animal-related/" class=""><span>Animal Related</span></a>
+</li>
+<li>
+<a href="http://www.theamericanstoryteller.com/black-history/" class=""><span>Black History</span></a>
+</li>
+<li>
+<a href="http://www.theamericanstoryteller.com/disability-related/" class=""><span>Disability Related</span></a>
+</li>
+<li>
+<a href="http://www.theamericanstoryteller.com/heartwarming/" class=""><span>Heartwarming</span></a>
+</li>
+<li>
+<a href="http://www.theamericanstoryteller.com/holiday/" class=""><span>Holiday</span></a>
+</li>
+<li>
+<a href="http://www.theamericanstoryteller.com/human-interest/" class=""><span>Human Interest</span></a>
+</li>
+<li>
+<a href="http://www.theamericanstoryteller.com/humor/" class=""><span>Humor</span></a>
+</li>
+<li>
+<a href="http://www.theamericanstoryteller.com/military/" class=""><span>Military</span></a>
+</li>
+<li>
+<a href="http://www.theamericanstoryteller.com/motivational/" class=""><span>Motivational</span></a>
+</li>
+<li>
+<a href="http://www.theamericanstoryteller.com/overcoming-adversity/" class=""><span>Overcoming Adversity</span></a>
+</li>
+<li>
+<a href="http://www.theamericanstoryteller.com/real-people-profiles/" class=""><span>Real People Profiles</span></a>
+</li>
+<li>
+<a href="http://www.theamericanstoryteller.com/small-town-america/" class=""><span>Small Town America</span></a>
+</li>
+<li>
+<a href="http://www.theamericanstoryteller.com/trivia/" class=""><span>Trivia</span></a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div><!--<div class="panel-catalog-manufacturers panel clearfix ">
+<h4 class="">Manufacturers</h4>
+<div class="content ">
+<select name="search_in" onchange="document.location='http://www.theamericanstoryteller.com/index.php?p=catalog&amp;mode=manufacturer&amp;mid=' + this.value">
+<option value="0">Please select</option>
+<option value=""></option>
+</select>
+</div>
+</div>--><!--<div class="panel-newsletters-subscribe panel clearfix ">
+<h4 class="">Newsletter</h4>
+<div class="content ">
+<form action="http://www.theamericanstoryteller.com/index.php?p=subscribe" method="post" onsubmit="return CheckNewsletters(this)">
+<label for="subscribe_email">Email Address:</label>
+<input maxlength="64" type="text" id="subscribe_email" name="email" value=""/>
+<div class="gap-top text-center">
+<input type="submit" class="button-subscribe submit " value="Subscribe" />
+</div>
+<div class="unsubscribe"><a href="http://www.theamericanstoryteller.com/index.php?p=unsubscribe">Click here to unsubscribe</a></div>
+</form>
+</div>
+</div>--><!--<div class="panel-account-profile panel clearfix ">
+<h4 class="">My Profile</h4>
+<div class="content ">
+<ul>
+<li><a href="http://www.theamericanstoryteller.com/index.php?p=login">Login</a></li>
+<li><a href="http://www.theamericanstoryteller.com/index.php?p=signup">Register</a></li>
+</ul>
+</div>
+</div>-->   <!-- <div style="width=100px;">
+<h4 class="">Search</h4>
+<div class="content ">
+<form action="http://www.theamericanstoryteller.com/index.php?" method="get">
+<input type="hidden" name="p" value="catalog"/>
+<input type="hidden" name="mode" value="search"/>
+<input type="hidden" name="search_in" value="all"/>
+<input maxlength="256" type="text" name="search_str" value="" />
+<div class="gap-top text-center">
+<input type="submit" class="button-start-search submit " value="Go!" />
+</div>
+<a href="http://www.theamericanstoryteller.com/index.php?p=catalog&amp;mode=search">Advanced search</a>
+</form>
+</div>-->
+</div><div id="right" class="layout-zone-right layout-zone ">
+<!--<div class="panel-checkout-cart panel clearfix ">
+<h4 class="">My Cart</h4>
+<div class="content ">
+<span class="msg-cart-empty">Your Shopping Cart is Empty</span>
+</div>
+</div>--><!--<div class="panel-catalog-search panel clearfix ">
+<h4 class="">Search</h4>
+<div class="content ">
+<form action="http://www.theamericanstoryteller.com/index.php?" method="get">
+<input type="hidden" name="p" value="catalog"/>
+<input type="hidden" name="mode" value="search"/>
+<input type="hidden" name="search_in" value="all"/>
+<input maxlength="256" type="text" name="search_str" value="" />
+<div class="gap-top text-center">
+<input type="submit" class="button-start-search submit " value="Go!" />
+</div>
+<a href="http://www.theamericanstoryteller.com/index.php?p=catalog&amp;mode=search">Advanced search</a>
+</form>
+</div>
+</div>--></div>
+<div class="right_content">
+<!--<div id="content" class="layout-zone-content layout-zone clearfix ">-->
+<div class="page-404 wrap ">
+<h1>The Page Cannot Be Found</h1>
+<div class="spacer">
+<div class="msg-error">
+<p>The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.</p>
+</div>
+<ul class="list">
+<li>
+<a href="http://www.theamericanstoryteller.com/cds/"><span>CDs</span></a>
+</li>
+<li>
+<a href="http://www.theamericanstoryteller.com/books/"><span>Books</span></a>
+</li>
+<li>
+<a href="http://www.theamericanstoryteller.com/stories/" class="parent"><span>Stories</span></a>
+<ul>
+<li>
+<a href="http://www.theamericanstoryteller.com/american-history/"><span>American History</span></a>
+</li>
+<li>
+<a href="http://www.theamericanstoryteller.com/american-icons/"><span>American Icons</span></a>
+</li>
+<li>
+<a href="http://www.theamericanstoryteller.com/american-presidents/"><span>American Presidents</span></a>
+</li>
+<li>
+<a href="http://www.theamericanstoryteller.com/animal-related/"><span>Animal Related</span></a>
+</li>
+<li>
+<a href="http://www.theamericanstoryteller.com/black-history/"><span>Black History</span></a>
+</li>
+<li>
+<a href="http://www.theamericanstoryteller.com/disability-related/"><span>Disability Related</span></a>
+</li>
+<li>
+<a href="http://www.theamericanstoryteller.com/heartwarming/"><span>Heartwarming</span></a>
+</li>
+<li>
+<a href="http://www.theamericanstoryteller.com/holiday/"><span>Holiday</span></a>
+</li>
+<li>
+<a href="http://www.theamericanstoryteller.com/human-interest/"><span>Human Interest</span></a>
+</li>
+<li>
+<a href="http://www.theamericanstoryteller.com/humor/"><span>Humor</span></a>
+</li>
+<li>
+<a href="http://www.theamericanstoryteller.com/military/"><span>Military</span></a>
+</li>
+<li>
+<a href="http://www.theamericanstoryteller.com/motivational/"><span>Motivational</span></a>
+</li>
+<li>
+<a href="http://www.theamericanstoryteller.com/overcoming-adversity/"><span>Overcoming Adversity</span></a>
+</li>
+<li>
+<a href="http://www.theamericanstoryteller.com/real-people-profiles/"><span>Real People Profiles</span></a>
+</li>
+<li>
+<a href="http://www.theamericanstoryteller.com/small-town-america/"><span>Small Town America</span></a>
+</li>
+<li>
+<a href="http://www.theamericanstoryteller.com/trivia/"><span>Trivia</span></a>
+</li>
+</ul>
+</li>
+</ul>
+<ul class="list">
+<li><a href="index.php?p=home">Home</a></li>
+<li><a href="http://www.theamericanstoryteller.com/stories/">Listen To and Download Stories</a></li><li><a href="http://www.theamericanstoryteller.com/about-nelson">About Nelson</a></li><li><a href="http://www.theamericanstoryteller.com/memoirs">Nelson's Memoir</a></li><li><a href="http://www.theamericanstoryteller.com/programs">Speaking Programs</a></li><li><a href="http://www.theamericanstoryteller.com/testimonials">Customers &amp; Testimonials</a></li><li><a href="http://www.theamericanstoryteller.com/affiliate">Become a Radio Affiliate</a></li><li><a href="http://www.theamericanstoryteller.com/sotw-story">Story of the Week</a></li><li><a href="http://www.theamericanstoryteller.com/sotw-signup">Story Of The Week Sign Up</a></li><li><a href="http://www.theamericanstoryteller.com/esl">For English Learners</a></li><li><a href="http://www.theamericanstoryteller.com/terms-and-conditions">Terms and Conditions</a></li><li><a href="http://www.theamericanstoryteller.com/cds/">CDs &amp; Merchandise</a></li><li><a href="http://www.theamericanstoryteller.com/contact_us">Contact</a></li><li><a href="http://www.theamericanstoryteller.com/index.php?p=login">Login</a></li>
+<li><a href="http://www.theamericanstoryteller.com/index.php?p=signup">Register</a></li>
+<li><a href="http://www.theamericanstoryteller.com/index.php?p=cart">My Cart</a></li>
+</ul>
+</div>
+</div></div><div class="clearfix"></div>
+</div>
+</div>
+</div>
+<div class="container-footer container clearfix doc1024x768C"><div id="footer" class="layout-zone-footer layout-zone ">
+<ul>
+<li><a href="index.php?p=home">Home</a></li>
+<li><a href="http://www.theamericanstoryteller.com/site-map.html">Site Map</a></li>
+<li><a href="http://www.theamericanstoryteller.com/about-nelson">About Nelson</a></li>
+<li><a href="http://www.theamericanstoryteller.com/memoirs">Nelson's Memoir</a></li>
+<li><a href="http://www.theamericanstoryteller.com/programs">Speaking Programs</a></li>
+<li><a href="http://www.theamericanstoryteller.com/testimonials">Customers &amp; Testimonials</a></li>
+<li><a href="http://www.theamericanstoryteller.com/affiliate">Become a Radio Affiliate</a></li>
+<li><a href="http://www.theamericanstoryteller.com/esl">For English Learners</a></li>
+<li><a href="http://www.theamericanstoryteller.com/terms-and-conditions">Terms and Conditions</a></li>
+</ul>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-335120-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script><div class="subfooter">
+      <a href="http://www.graphxevolution.com" target="_blank">Ecommerce Development by graphXevolution.    </a> </div>
+</div></div>
+</body>
+</html>
