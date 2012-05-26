@@ -24,7 +24,7 @@ var site_http_url = "http://www.theamericanstoryteller.com";
 var site_https_url = "https://www.theamericanstoryteller.com";
 var site_dinamic_url = "http://www.theamericanstoryteller.com/index.php?";
 var site_admin_url = "http://www.theamericanstoryteller.com";
-var site_ajax_url = "http://www.theamericanstoryteller.com/index.php?pcsid=23781d909f4e6f8984cae5421ba34dcf&";
+var site_ajax_url = "http://www.theamericanstoryteller.com/index.php?pcsid=aff35d0ee7790b0e58eb01aa08bb68c4&";
 var site_ajax_url_admin = "http://www.theamericanstoryteller.com";
 var skin_images = "content/cache/skins/AST/images/";
 var skin_themes = "content/cache/skins/AST/styles/";

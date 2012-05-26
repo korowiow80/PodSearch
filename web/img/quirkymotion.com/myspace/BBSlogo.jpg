@@ -192,31 +192,17 @@ if(window.opera) {document.write('<link rel="stylesheet" type="text/css" href="h
 			<li>
 				<ul>
 				<li><h3>Flickr</h3><div class="flickrpress-container"><div class="flickrpress-items">        <div class="flickr_item flickr_item_view_squares">
-                            <a href="http://farm7.static.flickr.com/6195/6150193336_a7614a0612.jpg" class="thickbox" rel="lightbox[flickr]" 
-                    title="Derelict 14th Shanghai Film Festival 2011 | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/6150193336&quot;&gt;View at Flickr&lt;/a&gt;">
+                            <a href="http://farm8.static.flickr.com/7184/7023622457_b69a8811ff.jpg" class="thickbox" rel="lightbox[flickr]" 
+                    title="Derelict poster 見捨てられた人 (Japanese) | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/7023622457&quot;&gt;View at Flickr&lt;/a&gt;">
                         <span></span>
-            <img src="http://farm7.static.flickr.com/6195/6150193336_a7614a0612_s.jpg" title="Derelict 14th Shanghai Film Festival 2011" alt="Derelict 14th Shanghai Film Festival 2011" />
+            <img src="http://farm8.static.flickr.com/7184/7023622457_b69a8811ff_s.jpg" title="Derelict poster 見捨てられた人 (Japanese)" alt="Derelict poster 見捨てられた人 (Japanese)" />
             </a>
         </div>
                 <div class="flickr_item flickr_item_view_squares">
-                            <a href="http://farm7.static.flickr.com/6201/6076847120_48de0eff1e.jpg" class="thickbox" rel="lightbox[flickr]" 
-                    title="Flaming Monkeys: We're on Fire 2 | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/6076847120&quot;&gt;View at Flickr&lt;/a&gt;">
+                            <a href="http://farm7.static.flickr.com/6187/6048944669_49249b8436.jpg" class="thickbox" rel="lightbox[flickr]" 
+                    title="There is a Day SteadyCam | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/6048944669&quot;&gt;View at Flickr&lt;/a&gt;">
                         <span></span>
-            <img src="http://farm7.static.flickr.com/6201/6076847120_48de0eff1e_s.jpg" title="Flaming Monkeys: We're on Fire 2" alt="Flaming Monkeys: We're on Fire 2" />
-            </a>
-        </div>
-                <div class="flickr_item flickr_item_view_squares">
-                            <a href="http://farm7.static.flickr.com/6066/6048921017_76753ab625.jpg" class="thickbox" rel="lightbox[flickr]" 
-                    title="There is a Day War Zone 3 | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/6048921017&quot;&gt;View at Flickr&lt;/a&gt;">
-                        <span></span>
-            <img src="http://farm7.static.flickr.com/6066/6048921017_76753ab625_s.jpg" title="There is a Day War Zone 3" alt="There is a Day War Zone 3" />
-            </a>
-        </div>
-                <div class="flickr_item flickr_item_view_squares">
-                            <a href="http://farm7.static.flickr.com/6081/6049493798_241d587ba2.jpg" class="thickbox" rel="lightbox[flickr]" 
-                    title="There is a Day Bass 2 | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/6049493798&quot;&gt;View at Flickr&lt;/a&gt;">
-                        <span></span>
-            <img src="http://farm7.static.flickr.com/6081/6049493798_241d587ba2_s.jpg" title="There is a Day Bass 2" alt="There is a Day Bass 2" />
+            <img src="http://farm7.static.flickr.com/6187/6048944669_49249b8436_s.jpg" title="There is a Day SteadyCam" alt="There is a Day SteadyCam" />
             </a>
         </div>
                 <div class="flickr_item flickr_item_view_squares">
@@ -227,10 +213,24 @@ if(window.opera) {document.write('<link rel="stylesheet" type="text/css" href="h
             </a>
         </div>
                 <div class="flickr_item flickr_item_view_squares">
-                            <a href="http://farm6.static.flickr.com/5155/5816445826_b4c632e66c.jpg" class="thickbox" rel="lightbox[flickr]" 
-                    title="Derelict Writers Hollywood 3 | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/5816445826&quot;&gt;View at Flickr&lt;/a&gt;">
+                            <a href="http://farm4.static.flickr.com/3535/5816433918_ae0269ca4e.jpg" class="thickbox" rel="lightbox[flickr]" 
+                    title="Simeon Lumgair Hollywood Press | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/5816433918&quot;&gt;View at Flickr&lt;/a&gt;">
                         <span></span>
-            <img src="http://farm6.static.flickr.com/5155/5816445826_b4c632e66c_s.jpg" title="Derelict Writers Hollywood 3" alt="Derelict Writers Hollywood 3" />
+            <img src="http://farm4.static.flickr.com/3535/5816433918_ae0269ca4e_s.jpg" title="Simeon Lumgair Hollywood Press" alt="Simeon Lumgair Hollywood Press" />
+            </a>
+        </div>
+                <div class="flickr_item flickr_item_view_squares">
+                            <a href="http://farm5.static.flickr.com/4085/5204990885_df36133564.jpg" class="thickbox" rel="lightbox[flickr]" 
+                    title="Derelict: Keycast | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/5204990885&quot;&gt;View at Flickr&lt;/a&gt;">
+                        <span></span>
+            <img src="http://farm5.static.flickr.com/4085/5204990885_df36133564_s.jpg" title="Derelict: Keycast" alt="Derelict: Keycast" />
+            </a>
+        </div>
+                <div class="flickr_item flickr_item_view_squares">
+                            <a href="http://farm7.static.flickr.com/6067/6076841730_6f01807dc5.jpg" class="thickbox" rel="lightbox[flickr]" 
+                    title="Flaming Monkeys: We're on Fire 5 | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/6076841730&quot;&gt;View at Flickr&lt;/a&gt;">
+                        <span></span>
+            <img src="http://farm7.static.flickr.com/6067/6076841730_6f01807dc5_s.jpg" title="Flaming Monkeys: We're on Fire 5" alt="Flaming Monkeys: We're on Fire 5" />
             </a>
         </div>
         </div></div></li>				</ul>
