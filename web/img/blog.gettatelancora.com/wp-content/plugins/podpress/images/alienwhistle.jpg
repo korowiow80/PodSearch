@@ -202,7 +202,7 @@ var podPressText_HidePlayer = "Hide Player";
 		</li><li id="subscribe-me" class="widget subscribe_me_display_widget">
 <div class="tile sem_subscribe_me">
 <div class="tile_body">
-<div class="subscribe_services" id="subscribe_me_cbd064bf875e88f69cd7621fdff76759"><div class="subscribe_service"><a href="http://blog.gettatelancora.com/feed/" style="background: url(http://blog.gettatelancora.com/wp-content/plugins/sem-subscribe-me/img/rss.png) center left no-repeat; padding-left: 18px;">RSS Feed</a></div>
+<div class="subscribe_services" id="subscribe_me_f4d75e4d855b20cd1d71abdf288af4f5"><div class="subscribe_service"><a href="http://blog.gettatelancora.com/feed/" style="background: url(http://blog.gettatelancora.com/wp-content/plugins/sem-subscribe-me/img/rss.png) center left no-repeat; padding-left: 18px;">RSS Feed</a></div>
 </div>
 </div>
 </div>

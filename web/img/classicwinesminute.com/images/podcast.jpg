@@ -1,0 +1,440 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    
+        <meta http-equiv="Cache-Control" content ="no-cache">
+    <meta http-equiv="Pragma" content="no-cache">
+	<meta name="alexaVerifyID" content="EOmWa61TEvf6ygnXuJEvKVFuX3E" /> <!--Alexa-->
+    <meta name="verify-v1" content="LccZ2Wgef/MKqf7f2SaB+AOA44ePKOjbFoj8GYMrbHY=" /> <!-- Google -->
+    <meta name="msvalidate.01" content="FFAC3324A2EA35EC864D8EE826995C00" /> <!-- Bing -->
+    
+		
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="/css/frontend.css" />    <script type="text/javascript" src="/js/cw.js"></script>    <link href="/css/jquery.rating.css" type="text/css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      var jsIsUserLogged = false;
+      var encryptedURI = '-searchoptions-advancedwines-images';
+    </script>
+        <script type="text/javascript" src="/js/jquery/jquery-1.2.6.js"></script>    <script type="text/javascript" src="/js/layout/layout.js"></script>    <script type="text/javascript" src="/js/jquery/jquery.MetaData.js"></script>    <script type="text/javascript" src="/js/jquery/jquery.rating.js"></script>    <script type="text/javascript" src="/js/jquery/jquery-ui.js"></script>    <script type="text/javascript" src="/js/jquery/ui.js"></script>        <link href="/css/jquery.rating.css" type="text/css" rel="stylesheet"/>
+    <script type="text/javascript" src="/js/jquery/jcarousellite.js"></script>
+    <script type="text/javascript">
+      $j(document).ready(function(){
+        $j("#relatedVideosBox").jCarouselLite({
+          btnNext: ".nextButton",
+          btnPrev: ".prevButton",
+          visible: 1
+        });
+      });
+    </script>
+    <script src="/js/jquery/thickbox.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="/js/jquery/thickbox.css" type="text/css" media="screen">
+    <!--[if IE 7]>
+      <link href="/css/ie7.css" type="text/css" rel="stylesheet" media="screen"/>
+    <![endif]-->
+    <!--[if IE 6]>
+      <link href="/css/ie6.css" type="text/css" rel="stylesheet" media="screen"/>
+    <![endif]-->
+  </head>
+<body id="home">
+<div id="header">
+	<h1><a href="/" title="Classic Wines"><span>Classic Wines</span></a></h1>
+	<ul id="menu" class="navigation">
+		<li id="menuLearn" >
+							<a href="/users/loginoverlay/?KeepThis=true&TB_iframe=true&height=400&width=780" title="Home..." class="thickbox">
+			
+				<span>My Home</span>Login, Community, Cellar</a></li>
+		<li id="menuMingle"  class="active">
+			<a href="/shop" title="Shop..."><span>Shop</span>Browse, Compare, Buy</a>
+		</li>
+		<li id="menuBuy" >
+			<a href="/explore" title="Explore..."><span>Explore</span>Read, Watch, Learn</a>
+		</li>
+	</ul>
+	<ul id="submenuLearn" class="subMenu navigation" style="display:none;">
+		<li id="menuSubmenuOption1"><a href="#" title="">&nbsp;</a></li>
+	</ul>
+	<ul id="submenuMingle" class="subMenu navigation currentSub"  >
+		<li id="menuSubmenuOption1" ><a href="/producers" title="Producers"><span>Producers</span></a></li>
+		<li id="menuSubmenuOption2" ><a href="/merchants" title="Merchants"><span>Merchants</span></a></li>
+		<li id="menuSubmenuOption3" ><a href="/accessories" title="Accessories"><span>Accessories</span></a></li>
+		<li id="menuSubmenuOption3"  class="active"><a href="/searchoptions/advancedsearch/ " title="Search Wine"><span>Search Wines</span></a></li>
+                
+
+	</ul>
+	<ul id="submenuBuy" class="subMenu navigation" style="display:none;">
+		<li id="menuSubmenuOption1" ><a href="/videos/cwtv" title="CW Tv"><span>CW Tv</span></a></li>
+		<li id="menuSubmenuOption2" ><a href="/editorial" title="Editorial"><span>Editorial</span></a></li>
+		<li id="menuSubmenuOption3" ><a href="/articles/wine101" title="Wine 101"><span>Wine 101</span></a></li>
+		<li id="menuSubmenuOption4" ><a href="/foodandwines/home" title="Food &amp; Wine"><span>Food &amp; Wine</span></a></li>
+		<li id="menuSubmenuOption4" ><a href="/articles/wine_club" title="Wine Clubs"><span>Wine Clubs</span></a></li>
+	</ul>
+	<!-- User menu -->
+	<ul id="upperMenu" class="navigation">
+			<li id="menuMyLogin"><a href="/users/loginoverlay/-searchoptions-advancedwines-images?KeepThis=true&TB_iframe=true&height=510&width=800" class="thickbox" title="Login"><span>Login</span></a></li>
+		<li id="menuMyRegister"><a href="/register?KeepThis=true&TB_iframe=true&height=500&width=400" class="thickbox"><span>Register 
+now!</span></a></li>
+	</ul>
+	<!-- End User Menu -->
+            
+	<div id="searchBar">
+		<form action="/searchoptions/initsearch" method="post">
+			<div id="typeSelected"><a href="#" rel="Wines" title="Select type">Wines</a></div>
+			<ul id="typeDropDown" style="display: none;">
+				<li><a href="#" onclick="$j('#searchOption').val('Wines')" title="Wines">Wines</a></li>
+				<li><a href="#" onclick="$j('#searchOption').val('Videos')" title="Videos">Videos</a></li>
+				<li><a href="#" onclick="$j('#searchOption').val('Articles')" title="Articles">Articles</a></li>
+				<li><a href="#" onclick="$j('#searchOption').val('Buddies')" title="Members">Members</a></li>
+				<li><a href="#" onclick="$j('#searchOption').val('Producers')" title="Producers">Producers</a></li>
+				<li><a href="#" onclick="$j('#searchOption').val('Merchants')" title="Merchants">Merchants</a></li>
+			</ul>
+			<div class="inputBackground"><input id="search_type" name="searchOptionKeyword" type="text" class="text" value="images"/></div>
+			<input id="submit" name="submit" type="submit" class="button" value="Go"/>
+			<input type="hidden" id="searchOption" name="searchOption" value="Wines" />
+		</form>
+		<div class="end"></div>
+	</div>
+	<div id="advancedSearchTab"><a href="/searchoptions/advancedsearch">Advanced Search</a></div>
+<div id="banner"><script type="text/javascript"><!--
+google_ad_client = "pub-6998881642216782";
+/* 468x60, Images */
+google_ad_slot = "0666688409";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script><div id='beacon_d9bec98c6c' style='position: absolute; left: 0px; top: 0px; visibility: hidden;'><img src='http://openx.classicwines.com/www/delivery/lg.php?bannerid=22&amp;campaignid=24&amp;zoneid=12&amp;channel_ids=,&amp;cb=d9bec98c6c' width='0' height='0' alt='' style='width: 0px; height: 0px;' /></div></div>
+</div>
+</div>
+    <script type="text/javascript" src="/js/lib/prototype.js"></script>	<script type="text/javascript" src="/js/src/scriptaculous.js"></script>
+	<style type="text/css" media="screen">
+		@import "/css/cw-clientside1.css";
+	</style>
+	<div id="wrapper">
+		<div id="firstShadow">
+			<div id="secondShadow">
+				<div class="narrowedLeft">
+										
+<h3>Food &amp; Wine Pairings</h3>
+
+
+<div class="introThumbAndText">
+    <a href="/foodandwines/category/steak" class="title">
+        <img src="/images/food-items/0cbc22129e1c7c455af9fe6a63483522.jpg" height="52" width="52" />
+        </a>
+    <p class="topSpacing">
+        <a href="/foodandwines/category/steak" class="title"><b>Steak</b></a><br/>
+        <a href="/foodandwines/view/beef" title="Beef" class="parentCategory"><b>Beef</b></a>
+    </p>
+    <div class="clear"></div>
+</div>
+
+<div class="introThumbAndText">
+    <a href="/foodandwines/category/hollandaise-sauce" class="title">
+        <img src="/images/products/default_merchant_producer_thumb.jpg" />
+        </a>
+    <p class="topSpacing">
+        <a href="/foodandwines/category/hollandaise-sauce" class="title"><b>Hollandaise Sauce</b></a><br/>
+        <a href="/foodandwines/view/sauces-salsas-chutney" title="Sauces, Salsas, Chutney" class="parentCategory"><b>Sauces, Salsas, Chutney</b></a>
+    </p>
+    <div class="clear"></div>
+</div>
+
+<div class="introThumbAndText">
+    <a href="/foodandwines/category/minestrone" class="title">
+        <img src="/images/products/default_merchant_producer_thumb.jpg" />
+        </a>
+    <p class="topSpacing">
+        <a href="/foodandwines/category/minestrone" class="title"><b>Minestrone</b></a><br/>
+        <a href="/foodandwines/view/soups" title="Soups" class="parentCategory"><b>Soups</b></a>
+    </p>
+    <div class="clear"></div>
+</div>
+
+<h3>Wine Accessories</h3>
+    <div class="introThumbAndText">
+		<a href="/accessories/view/186">
+	        				<img border="0"  width="51" height="51" src="http://cms.betaportal.net/images/wine_accessories/58b4f9c1177c8f2b7603028616f8223e.jpg" />
+                
+		</a>
+        <p style="margin-top: 0;"><b><a href="/accessories/view/186">
+			Philadelphia Phillies 2 Piece Wine Glass Set</a></b><br/>
+			$0 <!-- - <a href="" target="_blank" title="Buy Now!" class="normalWeight">Buy Now!</a>-->
+		</p> 
+        <div class="clear"></div>
+    </div>
+    <div class="introThumbAndText">
+		<a href="/accessories/view/182">
+	                        <img src="/images/products/default_merchant_producer_thumb.jpg" />
+                
+		</a>
+        <p style="margin-top: 0;"><b><a href="/accessories/view/182">
+			Wine Trivia and Tasting Game</a></b><br/>
+			$0 <!-- - <a href="" target="_blank" title="Buy Now!" class="normalWeight">Buy Now!</a>-->
+		</p> 
+        <div class="clear"></div>
+    </div>
+    <div class="introThumbAndText">
+		<a href="/accessories/view/185">
+	        				<img border="0"  width="51" height="51" src="http://cms.betaportal.net/images/wine_accessories/6a189acd8b1b84fe424b02ed6dac30be.jpg" />
+                
+		</a>
+        <p style="margin-top: 0;"><b><a href="/accessories/view/185">
+			Wine Appreciation Guild</a></b><br/>
+			$0 <!-- - <a href="http://content.yudu.com/A1noaa/WAG2010/resources/index.htm?referrerUrl=" target="_blank" title="Buy Now!" class="normalWeight">Buy Now!</a>-->
+		</p> 
+        <div class="clear"></div>
+    </div>
+          
+<h3>Popular Articles</h3>
+<div class="introThumbAndText">
+                         <a href="/articles/view/white-wines-prices-types-and-reviews" class="cropimg size51" style="padding-left: 0;"><img src="/images/products/default_merchant_producer_thumb.jpg" style="margin-left: 0;"/></a>
+                             
+     <p class="pop-articles"><b><a href="/articles/view/white-wines-prices-types-and-reviews">
+		White Wines Prices Types And Reviews	   </a>
+	</b>
+     </p>
+     <div class="clear"></div>
+</div>	
+<div class="introThumbAndText">
+                         <a href="/articles/view/premium-vs-bulk-wine-production" class="cropimg size51" style="padding-left: 0;">
+
+                                                         <img src="/temp_images/th_prem-v-bulk.jpg" style="margin-left: 0;" />
+                                       </a>
+                             
+     <p class="pop-articles"><b><a href="/articles/view/premium-vs-bulk-wine-production">
+		Premium Vs Bulk Wine Production	   </a>
+	</b>
+     </p>
+     <div class="clear"></div>
+</div>	
+<div class="clear"></div>
+<div class="introThumbAndText">
+                         <a href="/articles/view/north-american-wines-prices-types-and-reviews" class="cropimg size51" style="padding-left: 0;">
+
+                                                         <img src="/temp_images/th_012c50af2d6f186c552fb71f0717a975.jpg" style="margin-left: 0;" />
+                                       </a>
+                             
+     <p class="pop-articles"><b><a href="/articles/view/north-american-wines-prices-types-and-reviews">
+		North American Wines Prices Types And Reviews	   </a>
+	</b>
+     </p>
+     <div class="clear"></div>
+</div>	
+
+				</div>
+
+				<div id="main"><!-- main content -->
+					
+
+
+<div id="searchResults">
+
+
+<br/>
+<span style="color:#AA0000;margin-left:40px;margin-top:20px;font-weight:bold">Partner Merchants</span>
+<div id="featured_merchant" style="width:387px;margin-left:40px;margin-top:10px;margin-bottom:10px"   >
+    <!--<div style="float:left;margin-left:8px;width:auto">-->
+   <a href="/merchants/details/185">
+    <img style="border:2px solid #000000;float:left;margin-left:8px;"  width="115" height="115"
+         src="/images/merchant_featured_images/b3f865efe0124b612a91f2fc977b83db.jpg" />
+   </a>
+        <!--</div>-->
+
+    <!--<div style="float:left;margin-left:8px;width:auto">-->
+   <a href="/merchants/details/4">
+    <img style="border:2px solid #000000;float:left;margin-left:8px;"  width="115" height="115"
+         src="/images/merchant_featured_images/d2ad07ef6b512524703f53b0295faa74.jpg" />
+   </a>
+        <!--</div>-->
+
+
+    <a href="/landings/partneradpage">
+              <img style="border:2px solid #000000;float:left;margin-left:8px;" src="/images/CW-partner-ad.jpg" width="115" height="115" />
+          </a>
+   
+</div>
+<br/><br/>
+
+
+
+        <div class="nowines">
+Sorry! This search could find any wine to match your criteria. Please try our <a href="/searchoptions/advancedsearch"> Advanced Search </a><br /></div></div>				</div><!-- end main section -->
+				<div class="narrowedRight">
+				
+
+                <script type="text/javascript"><!--
+google_ad_client = "pub-6998881642216782";
+/* 300x250, created 12/8/08 */
+google_ad_slot = "6085717869";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script><div id='beacon_d43c8b036c' style='position: absolute; left: 0px; top: 0px; visibility: hidden;'><img src='http://openx.classicwines.com/www/delivery/lg.php?bannerid=4&amp;campaignid=7&amp;zoneid=3&amp;channel_ids=,&amp;cb=d43c8b036c' width='0' height='0' alt='' style='width: 0px; height: 0px;' /></div><h3>Top Wines</h3>
+<ol class="listBottle">
+
+    <li style="background: transparent url(/images/wines/white.png) no-repeat 21px 10px;">
+        <a href="/wines/details/13846" title="Bartenura  Moscato">
+            <span class="title">Bartenura  Moscato</span>
+                        <span class="rating">4.8</span>/ 5       </a>
+    </li>
+
+    <li style="background: transparent url(/images/wines/red.png) no-repeat 21px 10px;">
+        <a href="/wines/details/206219" title="Riunite  Lambrusco">
+            <span class="title">Riunite  Lambrusco</span>
+                        <span class="rating">5</span>/ 5       </a>
+    </li>
+
+    <li style="background: transparent url(/images/wines/red.png) no-repeat 21px 10px;">
+        <a href="/wines/details/178334" title="Andretti 2005 Merlot">
+            <span class="title">Andretti 2005 Merlot</span>
+                        <span class="rating">5</span>/ 5       </a>
+    </li>
+</ol>
+<h3>Recent Columns</h3>
+						
+<div class="introThumbAndText">
+    <a href="/articles/view/recipes-wanted">
+                            <img src="/temp_images/f8eb8d113d8eead7ac9501f9483b98a2.jpg" width="56" height="56" />
+    
+    
+           
+        	
+    </a>
+    <p><b><a href="/articles/view/recipes-wanted">Recipes Wanted</a></b></p>
+    <div class="clear"></div>
+</div>
+						
+<div class="introThumbAndText">
+    <a href="/articles/view/writers-wanted">
+            <a href="/articles/view/writers-wanted">
+            <img src="/images/products/default_merchant_producer_thumb.jpg" />
+            </a>
+        	
+    </a>
+    <p><b><a href="/articles/view/writers-wanted">Writers wanted</a></b></p>
+    <div class="clear"></div>
+</div>
+						
+<div class="introThumbAndText">
+    <a href="/articles/view/wine-quiz-october-5th">
+            <a href="/articles/view/wine-quiz-october-5th">
+            <img src="/images/products/default_merchant_producer_thumb.jpg" />
+            </a>
+        	
+    </a>
+    <p><b><a href="/articles/view/wine-quiz-october-5th">Wine Quiz October 5th</a></b></p>
+    <div class="clear"></div>
+</div>
+		    
+				</div>
+				<div id="wrapperFooter" class="clear"></div>
+			</div>
+		</div>
+	</div>
+<script type="text/javascript" src="/js/footer.js"></script><div id="wrapperDivision">
+	<div id="relatedContent">
+		<div class="left">
+					<h3 class="popular">Popular</h3>
+
+					<ul class="relatedItems menufooter">
+						<li rel="menuwines"><a href="/wines/winetop" title="Wines...">Wines</a></li>
+						<li class="selected" rel="menutypes"><a href="#" title="Types...">Types</a></li>
+						<li rel="menuvarietails"><a href="#" title="Varietals...">Varietals</a></li>
+						<li rel="menuregions"><a href="#" title="Regions...">Regions</a></li>
+						<li rel="menumerchants"><a href="/merchants/merchanttop" title="Merchants...">Merchants</a></li>
+						<li rel="menuproducers"><a href="/producers/producertop" title="Producers...">Producers</a></li>
+					</ul>
+
+					<ul class="relatedSubItems submenu menutypes " >
+						<li><a href="/wines/options/classID/1" >Red</a></li>
+						<li><a href="/wines/options/classID/2" >White</a></li>
+						<li><a href="/wines/options/classID/3" >Sparkling</a></li>
+						<li><a href="/wines/options/classID/4" >Dessert</a></li>
+						<li><a href="/wines/options/classID/5" >Rose</a></li>
+						<li><a href="/wines/options/classID/6" >Fortified / Fruit</a></li>
+					</ul>
+					<ul class="relatedSubItems submenu menuvarietails " style="display:none">
+						<li><a href="/wines/options/varietalID/109/1" >Cabernet Sauvignon</a></li>
+						<li><a href="/wines/options/varietalID/528/1" >Pinot Noir</a></li>
+						<li><a href="/wines/options/varietalID/395/1" >Merlot</a></li>
+						<li><a href="/wines/options/varietalID/1828" >Syrah / Shiraz</a></li>
+						<li><a href="/wines/options/varietalID/152/2" >Chardonnay</a></li>
+						<li><a href="/wines/options/varietalID/522/2" >Pinot Grigio</a></li>
+						<li><a href="/wines/options/varietalID/1679" >Zinfandel</a></li>
+						<li><a href="/wines/options/varietalID/608/2" >Sauvignon Blanc</a></li>
+					</ul>
+					<ul class="relatedSubItems submenu menuregions " style="display:none">
+						<li><a href="/wines/options/regionID/100" >California</a></li>
+						<li><a href="/wines/options/regionID/361" >Napa</a></li>
+						<li><a href="/wines/options/regionID/205" >France</a></li>
+						<li><a href="/wines/options/regionID/72" >Bordeaux</a></li>
+						<li><a href="/wines/options/regionID/132" >Champagne</a></li>
+						<li><a href="/wines/options/regionID/134" >Chianti</a></li>
+						<li><a href="/wines/options/regionID/248" >Italy</a></li>
+						<li><a href="/wines/options/regionID/34" >Australia</a></li>
+						<li><a href="/wines/options/regionID/520" >Spain</a></li>
+						<li><a href="/wines/options/regionID/87" >Burgundy</a></li>
+						<li><a href="/wines/options/regionID/503" >Sonoma</a></li>
+						<li><a href="/wines/options/regionID/219" >Germany</a></li>
+						<li><a href="/wines/options/regionID/30" >Argentina</a></li>
+						<li><a href="/wines/options/regionID/138" >Chile</a></li>
+						<li><a href="/wines/options/regionID/400" >Oregon</a></li>
+					</ul>
+				</div>
+				<div class="right">
+					<!--<h3 class="advancedWineSearch"><a href="/searchoptions/advancedwines" >Advanced Wine Search</a></h3>-->
+					<ul class="relatedItems">
+						<li><a href="/searchoptions/advancedsearch" title="Search...">Search Wines</a></li>
+						<li><a href="/foodandwines/view" title="Food and Wine...">Food and Wine</a></li>
+						<li><a href="/editorial" title="Editorial...">Editorial</a></li>
+						<li><a href="/producers/" title="Winery Catalog...">Winery Catalog</a></li>
+						<li><a href="/videos" title="CW TV...">CW TV</a></li>
+						<li><a href="/merchants/" title="Merchant Listing...">Merchant Listing</a></li>
+						<li><a href="/articles/wine_club" title="Wine Clubs...">Wine Clubs</a></li>
+			<li><a href="/users/loginoverlay/-searchoptions-advancedwines-images?KeepThis=true&TB_iframe=true&height=510&width=800" class="thickbox" title="Login">Login</a></li>
+						<li><a href="/articles/wine101" title="Wine 101...">Wine 101</a></li>
+						<li><a href="/accessories/landing" title="Wine Accessories...">Wine Accessories</a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+
+			<div id="footer">
+        <p>
+          <a href="/resources" title="Premier Resources...">Premier Resources</a>
+          <a href="/about" title="About Us...">About Us</a>
+          <a href="/advertising" title="Advertising...">Advertising</a>
+          <a href="/sitemap" title="Sitemap...">Sitemap</a>
+          <a href="/media" title="Press &amp; Media...">Press &amp; Media</a>
+
+          <a href="/linktous" title="Link to us...">Link to us</a>
+          <a href="/terms" title="Privacy Policy...">Privacy Policy</a>
+          <a href="/contact" title="Contact...">Contact</a>
+				</p>
+			</div>
+		</div>
+		<!-- sliders stuff -->
+
+		<span id="slider1-label-1"></span>
+		<span id="slider1-label-2"></span>
+		<!-- /sliders stuff -->
+	</div>
+</div>
+<script type="text/javascript">
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+  try {
+    var pageTracker = _gat._getTracker("UA-404778-1");
+    pageTracker._trackPageview();
+  } catch(err) {}
+</script>
+</body>
+</html>
