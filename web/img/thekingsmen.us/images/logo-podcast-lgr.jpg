@@ -1,0 +1,336 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Page not found | The King's Men</title>
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="/themes/theme458/build/yahoo-dom-event/yahoo-dom-event.js"></script>
+<script type="text/javascript" src="/themes/theme458/build/animation/animation-min.js"></script>
+<script type="text/javascript" src="/themes/theme458/build/container/container_core-min.js"></script>
+<script type="text/javascript" src="/themes/theme458/build/menu/menu-min.js"></script>
+<script type="text/javascript">
+            //<![CDATA[
+            // Initialize and render the menu bar when it is available in the DOM
+            YAHOO.util.Event.onContentReady("productsandservices", function () {
+            var oMenuBar = new YAHOO.widget.MenuBar("productsandservices", { 
+                                                            autosubmenudisplay: true, 
+                                                            hidedelay: 750, 
+                                                            lazyload: true });
+          var oSubmenuData = [
+          
+{
+id: "Home",
+itemdata: [
+]},
+{
+id: "Events",
+itemdata: [
+{ text: "Online Calendar", url: "/OnlineCalendar" },
+{ text: "Group Meetings", url: "/GroupMeetings2" },
+{ text: "Into the Wild Weekend", url: "/IntoTheWildWeekend" },
+{ text: "No More Porn Tour", url: "/NoMorePornTour" },
+{ text: "Speaking Information", url: "/SpeakingInformation" },
+{ text: "Special Events", url: "/SpecialEvents" },
+{ text: "Archive of Events", url: "/ArchiveOfEvents" },
+{ text: "Workshop", url: "/workshop" }
+]},
+{
+id: "Resources",
+itemdata: [
+{ text: "Masculine Spirituality", url: "/MasculineSpirituality" },
+{ text: "TKM Men's Handbook", url: "/Handbook" },
+{ text: "Start a TKM Men's Group", url: "/StartingGroup" },
+{ text: "Fighting Pornography",url: "/FightingPornography", submenu: { id: "/Fighting%20Pornography", itemdata: [
+{ text: "How to Fight Porn", url: "/HowToFightPorn" }
+]}},{ text: "Dangers of Pornography", url: "/DangersOfPorn" },
+{ text: "Freedom from Pornography", url: "/FreedomFromPorn" }
+]},
+{
+id: "Blog",
+itemdata: [
+]},
+{
+id: "Media",
+itemdata: [
+{ text: "Photo Albums", url: "http://www.thekingsmen.org/photos/album" },
+{ text: "Audio", url: "/Audio" },
+{ text: "Video", url: "/video" },
+{ text: "TKM in the News", url: "/TKMInTheNews" },
+]},
+{
+id: "Podcast",
+itemdata: [
+]},
+{
+id: "About Us",
+itemdata: [
+{ text: "TKM Profile", url: "/TKMProfile" },
+{ text: "Monthly Updates", url: "/MonthlyUpdates" },
+{ text: "History", url: "/History" },
+{ text: "St. Augustine Award", url: "/Awards" },
+{ text: "Endorsements", url: "/Endorsements" },
+{ text: "Friends", url: "/Friends" },
+{ text: "Email Sign-up", url: "/EmailSignup" },
+{ text: "Contact", url: "/Contact" }
+]},
+          ];var ua = YAHOO.env.ua,
+                    oAnim;  // Animation instance
+                function onSubmenuBeforeShow(p_sType, p_sArgs) {
+                    var oBody,
+                        oElement,
+                        oShadow,
+                        oUL;
+                    if (this.parent) {
+                        oElement = this.element;
+                        oShadow = oElement.lastChild;
+                        oShadow.style.height = "0px";
+                        if (oAnim && oAnim.isAnimated()) {
+                            oAnim.stop();
+                            oAnim = null;
+                        }
+                        oBody = this.body;
+                        //  Check if the menu is a submenu of a submenu.
+                        if (this.parent && 
+                            !(this.parent instanceof YAHOO.widget.MenuBarItem)) {
+                            if (ua.gecko) {
+                                oBody.style.width = oBody.clientWidth + "px";
+                            }
+                            if (ua.ie == 7) {
+                                oElement.style.width = oElement.clientWidth + "px";
+                            }
+                        }
+                        oBody.style.overflow = "hidden";
+                        oUL = oBody.getElementsByTagName("ul")[0];
+                        oUL.style.marginTop = ("-" + oUL.offsetHeight + "px");
+                    }
+                }
+
+               function onTween(p_sType, p_aArgs, p_oShadow) {
+                    if (this.cfg.getProperty("iframe")) {
+                        this.syncIframe();
+                    }
+                    if (p_oShadow) {
+                        p_oShadow.style.height = this.element.offsetHeight + "px";
+                    }
+                }
+                function onAnimationComplete(p_sType, p_aArgs, p_oShadow) {
+                    var oBody = this.body,
+                        oUL = oBody.getElementsByTagName("ul")[0];
+                    if (p_oShadow) {
+                        p_oShadow.style.height = this.element.offsetHeight + "px";
+                    }
+                    oUL.style.marginTop = "";
+                    oBody.style.overflow = "";
+                    //  Check if the menu is a submenu of a submenu.
+                    if (this.parent && 
+                        !(this.parent instanceof YAHOO.widget.MenuBarItem)) {
+                        // Clear widths set by the "beforeshow" event handler
+                        if (ua.gecko) {
+                            oBody.style.width = "";
+                        }
+                        if (ua.ie == 7) {
+                            this.element.style.width = "";
+                        }
+                    }
+                }
+                function onSubmenuShow(p_sType, p_sArgs) {
+                    var oElement,
+                        oShadow,
+                        oUL;
+                    if (this.parent) {
+                        oElement = this.element;
+                        oShadow = oElement.lastChild;
+                        oUL = this.body.getElementsByTagName("ul")[0];
+                        oAnim = new YAHOO.util.Anim(oUL, 
+                            { marginTop: { to: 0 } },
+                            .5, YAHOO.util.Easing.easeOut);
+                        oAnim.onStart.subscribe(function () {
+                            oShadow.style.height = "100%";
+                        });
+                        oAnim.animate();
+                        if (YAHOO.env.ua.ie) {
+                            oShadow.style.height = oElement.offsetHeight + "px";
+                            oAnim.onTween.subscribe(onTween, oShadow, this);
+                        }
+                        oAnim.onComplete.subscribe(onAnimationComplete, oShadow, this);
+                    }
+                }oMenuBar.subscribe("beforeRender", function () {
+                    if (this.getRoot() == this) {this.getItem(1).cfg.setProperty("submenu", oSubmenuData[1]);
+this.getItem(2).cfg.setProperty("submenu", oSubmenuData[2]);
+this.getItem(4).cfg.setProperty("submenu", oSubmenuData[4]);
+this.getItem(6).cfg.setProperty("submenu", oSubmenuData[6]);
+}}); oMenuBar.subscribe("beforeShow", onSubmenuBeforeShow);
+                oMenuBar.subscribe("show", onSubmenuShow);
+oMenuBar.render();            
+            });
+            //]]>
+            </script>
+<link rel="shortcut icon" href="/sites/default/files/favicon.ico" type="image/x-icon" />
+  <link type="text/css" rel="stylesheet" media="all" href="/sites/default/files/css/css_1670965c85235dbdd234830641e8e864.css" />
+  <script type="text/javascript" src="/sites/default/files/js/js_ff606822e7a43e7761854521a56ddd8e.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "thickbox": { "close": "Close", "next": "Next \x3e", "prev": "\x3c Prev", "esc_key": "or Esc Key", "next_close": "Next / Close on last", "image_count": "Image !current of !total" } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (Drupal.jsEnabled) { $(document).ready(function() { $('body').addClass('yui-skin-sam'); } ); };
+//--><!]]>
+</script>
+  
+  	<script src="/misc/jquery.js" type="text/javascript"></script>
+    
+    
+<script type="text/javascript" src="/themes/theme458/js/imagepreloader.js"></script>
+	<script type="text/javascript">
+        preloadImages([
+            '/themes/theme458/images/slider_wrapper2.gif', 
+            '/themes/theme458/images/slider_wrapper2_hov.gif',
+			'/themes/theme458/images/slider_wrapper1.gif',
+			'/themes/theme458/images/slider_wrapper1_hov.gif',
+			'/themes/theme458/images/bg-li-active.gif'
+			]);
+    </script>
+    
+	<link href="/themes/theme458/menu.css" media="all" rel="stylesheet" type="text/css">
+    
+</head>
+  
+<body id="body">
+	<div class="right-bgd"></div>
+	<div class="min-width">
+        <div id="main">
+          <div id="header">
+                <div class="head-row1">
+                	<div class="col1">
+                    	                            <a href="/" title="Home"><img src="/themes/theme458/logo.png" alt="Home" class="logo" /></a>
+                                                                                                                    </div>
+                    <div class="col2">
+
+							<div class="search">
+								<div class="indent">
+									<table width="100%">
+										<tr valign="middle">
+											<td>
+												<a href="https://www.facebook.com/groups/TKMGroup/" target="_blank"><img src="/themes/theme458/images/facebook-icon.png"></a>
+												<a href="http://twitter.com/thekingsmen" target="_blank"><img src="/themes/theme458/images/twitter-icon.png"></a>
+												<a href="http://www.thekingsmen.org/podcast" ><img src="/themes/theme458/images/rss-icon.png"></a>
+											</td>
+											<td align="right">
+												<form action="/images/logo-podcast-lgr.jpg"  accept-charset="UTF-8" method="post" id="search-theme-form">
+<div><input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" title="Enter the terms you wish to search for." class="form-text" /><input type="hidden" name="form_build_id" id="form-583b3e393684c90b164425bee1504dc7" value="form-583b3e393684c90b164425bee1504dc7"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+<input type="submit" name="op" class="form-submit" value="Search" />
+</div></form>
+											
+											</td>
+										</tr>
+									</table>								
+								</div>
+							</div>
+
+                       <a href="/Store">store</a> | <a href="/Donate">donate</a> | <!--<a href="/user">login</a> |--> <a href="/Contact">contact</a>                                 
+                    </div>
+                </div>
+            <div class="head-row2">
+											
+            <!-- YUI Menu div-->
+            <div id="productsandservices" class="yuimenubar yuimenubarnav">
+              <div class="bd">
+                <ul  style="text-decoration:none" class="first-of-type"><li  class="yuimenubaritem"><a href="/" class="yuimenubaritemlabel">Home</a></li><li  class="yuimenubaritem"><a href="/Events" class="yuimenubaritemlabel">Events</a></li><li  class="yuimenubaritem"><a href="/Resources" class="yuimenubaritemlabel">Resources</a></li><li  class="yuimenubaritem"><a href="/blog" class="yuimenubaritemlabel">Blog</a></li><li  class="yuimenubaritem"><a href="/Media" class="yuimenubaritemlabel">Media</a></li><li  class="yuimenubaritem"><a href="http://thekingsmen.org/podcast" class="yuimenubaritemlabel">Podcast</a></li><li  class="yuimenubaritem"><a href="/AboutUs" class="yuimenubaritemlabel">About Us</a></li></ul>
+          </div>
+       </div>                                    </div>
+                
+                <div class="head-row3">
+					<div class="flash-left">
+                    	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+                            codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,24"
+                            width="563" height="281">
+                            <param name="movie" value="/themes/theme458/flash/header_v8.swf" />
+                            <param name="quality" value="high" />
+                            <param name="menu" value="false" />
+                            <param name="wmode" value="transparent">
+                            <!--[if !IE]> <-->
+<object data="/themes/theme458/flash/header_v8.swf"
+                                width="563" height="281" type="application/x-shockwave-flash">
+                                <param name="quality" value="high" />
+                                <param name="menu" value="false" />
+                                <param name="pluginurl" value="http://www.macromedia.com/go/getflashplayer" />
+              <param name="wmode" value="transparent">
+                                FAIL (the browser should render some flash content, not this).
+                          </object>
+                            <!--> <![endif]-->
+                        </object>
+                    </div>
+                    <div class="flash-right">
+                    	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+                            codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,24"
+                            width="310" height="282">
+                            <param name="movie" value="/themes/theme458/flash/header2_v8_new.swf" />
+                            <param name="quality" value="high" />
+                            <param name="menu" value="false" />
+                            <param name="wmode" value="transparent">
+                            <!--[if !IE]> <-->
+<object data="/themes/theme458/flash/header2_v8_new.swf"
+                                width="310" height="282" type="application/x-shockwave-flash">
+                                <param name="quality" value="high" />
+                                <param name="menu" value="false" />
+                                <param name="pluginurl" value="http://www.macromedia.com/go/getflashplayer" />
+                                <param name="wmode" value="transparent">
+                                FAIL (the browser should render some flash content, not this).
+                          </object>
+                            <!--> <![endif]-->
+                      </object>
+                  </div>
+</div>
+                            </div>
+            
+            <div id="cont">
+<div class="cont-inner">
+                	<div >
+               		  <div >
+                        	
+						                              
+                                                    
+                            <div id="cont-col">
+                                <div class="ind">
+        
+                                    
+					<h2>Page not found</h2>
+
+<!--
+                                    
+                                        <h2>Page not found</h2>
+                                    -->
+<!--
+					-->
+                                                                                                                             
+                                                                    
+                                                                    
+                                      <!-- start main content -->
+                                    The requested page could not be found.        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                            
+              </div>
+            </div>
+            
+  		</div>
+        <div id="footer">
+        	<div class="foot">
+            	                    <div class="pr-menu">
+                                            </div>
+                				                    <span>&copy; The King&#39;s Men Inc. PO Box 713, <span class="scayt-misspell" word="Quakertown" data-scaytid="1">Quakertown</span>, PA 18951 &nbsp;&nbsp;|&nbsp;&nbsp;<a href="/themes/theme458/../../?q=user">Admin Login</a><br><br>Website created by <a href="http://www.eglantz.com" target="_blank">e-Glantz, LLC</a>.<br><br>
+
+</span>
+                            </div>
+      </div>
+
+    </div>
+ 
+</body>
+</html>
