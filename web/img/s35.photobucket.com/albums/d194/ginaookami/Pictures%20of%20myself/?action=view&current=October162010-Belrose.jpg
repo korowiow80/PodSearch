@@ -60,17 +60,6 @@ if (scookieexists && !pbjsexists) {
     })();
 </script>
 
-<script type="text/javascript">
-    var gomez = {"acctId":"CAEA4E","pgId":"pb fullview","grpId":"s35"};
-    gomez['gs'] = new Date().getTime();
-</script>
-<script src="http://static.pbsrc.com/include/js/gomez/gomez_v28.8.10.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-    gomez.nameEvent('fullview_view');
-  </script>
-
-
 
     <script type="text/javascript">
     var _gaq = _gaq || [];
@@ -256,12 +245,12 @@ _comscore.push({ c1: "2", c2: "6034695", c4: truncatedURL[0]});
                     <div id="bannerAd">
                    
                 <!-- AI Match -->
-<iframe id="ad622974"
+<iframe id="ad358370"
         width="728"
         height="90"
         marginwidth="0" marginheight="0"
         frameborder="0" scrolling="no"
-                data-src="http://photobucket.adnxs.com/pt?member=86&inv_code=guest_albums_media&size=728x90&redir=http%3A%2F%2Fb.photobucket.com%2Fpbkt%2Fhserver%2Fviewid%3D2349175944%2Fsize%3DBANNER%2Freg_zip%3Dempty%2Fuser_kw%3Dempty%2Fsp%3Dt%2Fbf%3Dempty%2Fptype%3Dfv_image%2Fspon%3Dempty%2Ftrack%3Dnav%2Fref_domain%3Dempty%2Frandom%3D838785%2Farea%3Dguest_albums_media%2Flogin%3DN%2Fsite%3Dpb%2Fanprice%3D%7BPRICEBUCKET%7D%2Fgeneric%3D%7BBIDURLENC%7D"
+                data-src="http://photobucket.adnxs.com/pt?member=86&inv_code=guest_albums_media&size=728x90&redir=http%3A%2F%2Fb.photobucket.com%2Fpbkt%2Fhserver%2Fviewid%3D3144579156%2Fsize%3DBANNER%2Freg_zip%3Dempty%2Fuser_kw%3Dempty%2Fsp%3Dt%2Fbf%3Dempty%2Fptype%3Dfv_image%2Fspon%3Dempty%2Ftrack%3Dnav%2Fref_domain%3Dempty%2Frandom%3D316326%2Farea%3Dguest_albums_media%2Flogin%3DN%2Fsite%3Dpb%2Fanprice%3D%7BPRICEBUCKET%7D%2Fgeneric%3D%7BBIDURLENC%7D"
         allowtransparency="true"
         class="pbad">
 
@@ -276,7 +265,7 @@ oz_ad_slot_size = "728x90";
 </script>
 <script type="text/javascript" src="http://tap-cdn.rubiconproject.com/partner/scripts/rubicon/dorothy.js?pc=4141/4603"></script>
 <script type="text/javascript">
-    var unit = jq("#ad622974"),
+    var unit = jq("#ad358370"),
         src = unit.data("src"),
         rp_valuation = rp_valuation || {}, // global from rubicon dorothy script
         tier;
@@ -781,7 +770,7 @@ jq(document).ready(function() {
 
     <form action="http://s35.photobucket.com/albums/d194/ginaookami/Pictures%20of%20myself/?action=view&current=October162010-Belrose.jpg" name="formFullView" id="formFullView" method="post">
         
-    <input type="hidden" name="ts" value="1338056226"/><input type="hidden" name="sig" value="dd6bff6b4d2799a8994d6f779899359e"/>
+    <input type="hidden" name="ts" value="1338056808"/><input type="hidden" name="sig" value="108058aa7a7acf48aec35b4eac96c21a"/>
     <input type="hidden" name="action" id="action" value="">
     <input type="hidden" name="degrees" id="degrees" value="">
     <input type="hidden" name="size" id="size" value="">
@@ -902,12 +891,12 @@ Event.observe(document, PB.EVENT.PAGE_LOADED, function(){
         <ul id="rightModules" class="moduleList">
                     <li>    <div id="containerSqAd">
             <!-- AI Match -->
-<iframe id="ad307136"
+<iframe id="ad908340"
         width="300"
         height="250"
         marginwidth="0" marginheight="0"
         frameborder="0" scrolling="no"
-                data-src="http://photobucket.adnxs.com/pt?member=86&inv_code=guest_albums_media&size=300x250&redir=http%3A%2F%2Fb.photobucket.com%2Fpbkt%2Fhserver%2Fviewid%3D2349175944%2Fsize%3DRECTANGLE%2Freg_zip%3Dempty%2Fuser_kw%3Dempty%2Fsp%3Dt%2Fbf%3Dempty%2Fptype%3Dfv_image%2Fspon%3Dempty%2Ftrack%3Dempty%2Fref_domain%3Dempty%2Frandom%3D447089%2Farea%3Dguest_albums_media%2Flogin%3DN%2Fsite%3Dpb%2Fanprice%3D%7BPRICEBUCKET%7D%2Fgeneric%3D%7BBIDURLENC%7D"
+                data-src="http://photobucket.adnxs.com/pt?member=86&inv_code=guest_albums_media&size=300x250&redir=http%3A%2F%2Fb.photobucket.com%2Fpbkt%2Fhserver%2Fviewid%3D3144579156%2Fsize%3DRECTANGLE%2Freg_zip%3Dempty%2Fuser_kw%3Dempty%2Fsp%3Dt%2Fbf%3Dempty%2Fptype%3Dfv_image%2Fspon%3Dempty%2Ftrack%3Dempty%2Fref_domain%3Dempty%2Frandom%3D897320%2Farea%3Dguest_albums_media%2Flogin%3DN%2Fsite%3Dpb%2Fanprice%3D%7BPRICEBUCKET%7D%2Fgeneric%3D%7BBIDURLENC%7D"
         allowtransparency="true"
         class="pbad">
 
@@ -922,7 +911,7 @@ oz_ad_slot_size = "300x250";
 </script>
 <script type="text/javascript" src="http://tap-cdn.rubiconproject.com/partner/scripts/rubicon/dorothy.js?pc=4141/4603"></script>
 <script type="text/javascript">
-    var unit = jq("#ad307136"),
+    var unit = jq("#ad908340"),
         src = unit.data("src"),
         rp_valuation = rp_valuation || {}, // global from rubicon dorothy script
         tier;
@@ -1403,6 +1392,6 @@ jq(window).load(function(){
     });
 </script><!-- beacons end -->
 <!-- dfdfc4836b63dd84312279af52791431 -->
-<!-- release  running on den2ws148 -->
+<!-- release  running on den2ws237 -->
     </body>
 </html>
