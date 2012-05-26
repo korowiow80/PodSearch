@@ -105,7 +105,7 @@ google_ad_height = 60;
 </script>
 <script type="text/javascript"
 src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script><div id='beacon_91dfad6ad9' style='position: absolute; left: 0px; top: 0px; visibility: hidden;'><img src='http://openx.classicwines.com/www/delivery/lg.php?bannerid=3&amp;campaignid=8&amp;zoneid=12&amp;channel_ids=,&amp;cb=91dfad6ad9' width='0' height='0' alt='' style='width: 0px; height: 0px;' /></div></div>
+</script><div id='beacon_9241c05ad3' style='position: absolute; left: 0px; top: 0px; visibility: hidden;'><img src='http://openx.classicwines.com/www/delivery/lg.php?bannerid=3&amp;campaignid=8&amp;zoneid=12&amp;channel_ids=,&amp;cb=9241c05ad3' width='0' height='0' alt='' style='width: 0px; height: 0px;' /></div></div>
 </div>
 </div>
     <script type="text/javascript" src="/js/lib/prototype.js"></script>	<script type="text/javascript" src="/js/src/scriptaculous.js"></script>
@@ -121,46 +121,46 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 
 
 <div class="introThumbAndText">
-    <a href="/foodandwines/category/vinaigrette" class="title">
+    <a href="/foodandwines/category/german" class="title">
         <img src="/images/products/default_merchant_producer_thumb.jpg" />
         </a>
     <p class="topSpacing">
-        <a href="/foodandwines/category/vinaigrette" class="title"><b>Vinaigrette</b></a><br/>
+        <a href="/foodandwines/category/german" class="title"><b>German</b></a><br/>
+        <a href="/foodandwines/view/ethnic-cuisines" title="Ethnic Cuisines" class="parentCategory"><b>Ethnic Cuisines</b></a>
+    </p>
+    <div class="clear"></div>
+</div>
+
+<div class="introThumbAndText">
+    <a href="/foodandwines/category/waldorf-salad" class="title">
+        <img src="/images/products/default_merchant_producer_thumb.jpg" />
+        </a>
+    <p class="topSpacing">
+        <a href="/foodandwines/category/waldorf-salad" class="title"><b>Waldorf Salad</b></a><br/>
         <a href="/foodandwines/view/salads-and-dressings" title="Salads & Dressings" class="parentCategory"><b>Salads & Dressings</b></a>
     </p>
     <div class="clear"></div>
 </div>
 
 <div class="introThumbAndText">
-    <a href="/foodandwines/category/scallops" class="title">
+    <a href="/foodandwines/category/cobb-salad" class="title">
         <img src="/images/products/default_merchant_producer_thumb.jpg" />
         </a>
     <p class="topSpacing">
-        <a href="/foodandwines/category/scallops" class="title"><b>Scallops</b></a><br/>
-        <a href="/foodandwines/view/seafood" title="Seafood" class="parentCategory"><b>Seafood</b></a>
-    </p>
-    <div class="clear"></div>
-</div>
-
-<div class="introThumbAndText">
-    <a href="/foodandwines/category/hamburger" class="title">
-        <img src="/images/food-items/fd1cdde56e6ee3077ee09d7db0871473.jpg" height="52" width="52" />
-        </a>
-    <p class="topSpacing">
-        <a href="/foodandwines/category/hamburger" class="title"><b>Hamburger</b></a><br/>
-        <a href="/foodandwines/view/beef" title="Beef" class="parentCategory"><b>Beef</b></a>
+        <a href="/foodandwines/category/cobb-salad" class="title"><b>Cobb Salad</b></a><br/>
+        <a href="/foodandwines/view/salads-and-dressings" title="Salads & Dressings" class="parentCategory"><b>Salads & Dressings</b></a>
     </p>
     <div class="clear"></div>
 </div>
 
 <h3>Wine Accessories</h3>
     <div class="introThumbAndText">
-		<a href="/accessories/view/182">
-	                        <img src="/images/products/default_merchant_producer_thumb.jpg" />
+		<a href="/accessories/view/186">
+	        				<img border="0"  width="51" height="51" src="http://cms.betaportal.net/images/wine_accessories/58b4f9c1177c8f2b7603028616f8223e.jpg" />
                 
 		</a>
-        <p style="margin-top: 0;"><b><a href="/accessories/view/182">
-			Wine Trivia and Tasting Game</a></b><br/>
+        <p style="margin-top: 0;"><b><a href="/accessories/view/186">
+			Philadelphia Phillies 2 Piece Wine Glass Set</a></b><br/>
 			$0 <!-- - <a href="" target="_blank" title="Buy Now!" class="normalWeight">Buy Now!</a>-->
 		</p> 
         <div class="clear"></div>
@@ -177,12 +177,12 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
         <div class="clear"></div>
     </div>
     <div class="introThumbAndText">
-		<a href="/accessories/view/186">
-	        				<img border="0"  width="51" height="51" src="http://cms.betaportal.net/images/wine_accessories/58b4f9c1177c8f2b7603028616f8223e.jpg" />
+		<a href="/accessories/view/182">
+	                        <img src="/images/products/default_merchant_producer_thumb.jpg" />
                 
 		</a>
-        <p style="margin-top: 0;"><b><a href="/accessories/view/186">
-			Philadelphia Phillies 2 Piece Wine Glass Set</a></b><br/>
+        <p style="margin-top: 0;"><b><a href="/accessories/view/182">
+			Wine Trivia and Tasting Game</a></b><br/>
 			$0 <!-- - <a href="" target="_blank" title="Buy Now!" class="normalWeight">Buy Now!</a>-->
 		</p> 
         <div class="clear"></div>
@@ -265,14 +265,8 @@ Sorry! This search could find any wine to match your criteria. Please try our <a
 				<div class="narrowedRight">
 				
 
-                <a href="http://openx.classicwines.com/www/delivery/ck.php?oaparams=2__bannerid=36__zoneid=3__cb=4270738ea0__oadest=http://click.linksynergy.com/fs-bin/click?id=lL*fg6qqU1I&offerid=102640.10000549&subid=0&type=4"  target="_blank"><IMG border="0"   alt="My Wines Direct Gifting Generic Banner - 300x250" src="http://ad.linksynergy.com/fs-bin/show?id=lL*fg6qqU1I&bids=102640.10000549&subid=0&type=4&gridnum=13"></a><div id='beacon_4270738ea0' style='position: absolute; left: 0px; top: 0px; visibility: hidden;'><img src='http://openx.classicwines.com/www/delivery/lg.php?bannerid=36&amp;campaignid=35&amp;zoneid=3&amp;channel_ids=,&amp;cb=4270738ea0' width='0' height='0' alt='' style='width: 0px; height: 0px;' /></div><h3>Top Wines</h3>
+                <a href="http://openx.classicwines.com/www/delivery/ck.php?oaparams=2__bannerid=50__zoneid=3__cb=5011acdbaa__oadest=http://click.linksynergy.com/fs-bin/click?id=lL*fg6qqU1I&offerid=209195.10000893&type=4&subid=0"  target="_blank"><IMG alt="wine.com" border="0" src="http://www.wine.com/images/affiliates/linkshare/300x250_dealofday.jpg"></a><IMG border="0" width="1" height="1" src="http://ad.linksynergy.com/fs-bin/show?id=lL*fg6qqU1I&bids=209195.10000893&type=4&subid=0"><div id='beacon_5011acdbaa' style='position: absolute; left: 0px; top: 0px; visibility: hidden;'><img src='http://openx.classicwines.com/www/delivery/lg.php?bannerid=50&amp;campaignid=42&amp;zoneid=3&amp;channel_ids=,&amp;cb=5011acdbaa' width='0' height='0' alt='' style='width: 0px; height: 0px;' /></div><h3>Top Wines</h3>
 <ol class="listBottle">
-
-    <li style="background: transparent url(/images/wines/white.png) no-repeat 21px 10px;">
-        <a href="/wines/details/13846" title="Bartenura  Moscato">
-            <span class="title">Bartenura  Moscato</span>
-                        <span class="rating">4.8</span>/ 5       </a>
-    </li>
 
     <li style="background: transparent url(/images/wines/red.png) no-repeat 21px 10px;">
         <a href="/wines/details/206219" title="Riunite  Lambrusco">
@@ -280,9 +274,15 @@ Sorry! This search could find any wine to match your criteria. Please try our <a
                         <span class="rating">5</span>/ 5       </a>
     </li>
 
+    <li style="background: transparent url(/images/wines/silver.png) no-repeat 21px 10px;">
+        <a href="/wines/details/962" title="Tomasello Winery  Cranberry">
+            <span class="title">Tomasello Winery  Cranberry</span>
+                        <span class="rating">5</span>/ 5       </a>
+    </li>
+
     <li style="background: transparent url(/images/wines/red.png) no-repeat 21px 10px;">
-        <a href="/wines/details/91787" title="Andretti 2006 Merlot">
-            <span class="title">Andretti 2006 Merlot</span>
+        <a href="/wines/details/178334" title="Andretti 2005 Merlot">
+            <span class="title">Andretti 2005 Merlot</span>
                         <span class="rating">5</span>/ 5       </a>
     </li>
 </ol>
