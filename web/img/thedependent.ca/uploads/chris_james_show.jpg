@@ -1,0 +1,386 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Page not found - The Dependent Magazine | Vancouver</title>
+	<link rel="stylesheet" href="http://thedependent.ca/wp-content/themes/BigFeature/style.css" type="text/css" media="screen" />
+    <link rel="stylesheet"  href="http://thedependent.ca/wp-content/themes/BigFeature/library/css/print.css" type="text/css" media="print" />    
+	<link rel="alternate" type="application/rss+xml" title="The Dependent Magazine | Vancouver RSS Feed" href="http://thedependent.ca/feed/" />
+	<link rel="pingback" href="http://thedependent.ca/xmlrpc.php" />
+	
+<style type="text/css">
+#container { width:984px; }
+
+#feature { width:984px; margin: 0 0 30px; }
+#sidebar_container { width:246px;background-color: #EEEEEE;border: 1px solid #cccccc; float: left; margin-right: 25px; }
+#sidebar { width: 100%; padding: 15px; }
+.inside { width:1084px; }
+#custom-header-bg { width:984px; }
+
+//#content { width:688px; }
+#content { width:492px; }
+.post .wp-caption img { max-width:676px; }
+.post .wp-caption { max-width:686px; }
+.post .caption img { max-width:672px; }
+//.post.normal .postimage { width:688px; }
+.post.normal .postimage { width:528px; }
+.post.single.normal .postimage { width:688px; }
+.post.thumb .postimage { height: 100px; } 
+
+.post.thumb { width:216px; }
+.post.thumb .postimage { width:216px; }
+
+body { font-family: Optima,Segoe,"Segoe UI",Candara,Calibri,Arial,sans-serif; font-size:13px; background-color:#ffffff; }
+
+//body { font-family: Arial, Arial, Helvetica, sans-serif; font-size:13px; background-color:#ffffff; }
+.post { font-size:13px; }
+h1,h2,h3,h4,.post .post-title a { font-family: Vollkorn,Baskerville,Georgia,serif; }
+//h1,h2,h3,h4,.post .post-title a { font-family: Georgia, Georgia, 'Times New Roman', Times, serif; }
+#header h1.blog-title a { font-size:44px; color:#333333; }
+.post h1 { font-size:44px; color:#cc6600; }
+.post .post-title a { font-size:44px; color:#cc6600; }
+h2 { color:#333333; }
+a { color:#ad3e0a; }
+ul#navigation li a { color:#454545; }
+ul#navigation li.current_page_item a, ul#navigation li.current-cat a { color:#660000; }
+ul#navigation li.current_page_item li a { color:#454545; }
+#footer-widgets li.widget { width: 216px;  }
+
+
+
+.post h1, .post .post-title a { line-height: 0.9em; letter-spacing:-2px; }
+.post .post-title a:hover { text-decoration:none; }
+.post .post-title .comment a { font-size:22px; }
+.post h2 { font-weight:bold; margin-bottom: 2px; }
+.post h2 a:hover { text-decoration:none; }
+</style>
+		
+<!-- This site is optimized with the Yoast WordPress SEO plugin v1.0.3 - http://yoast.com/wordpress/seo/ -->
+<!-- / Yoast WordPress SEO plugin. -->
+
+<link rel='stylesheet' id='nrelate-style-common-0-03-0-css'  href='http://static.nrelate.com/common_wp/0.03.0/nrelate-panels-common.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='NextGEN-css'  href='http://thedependent.ca/wp-content/plugins/nextgen-gallery/css/nggallery.css?ver=1.0.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='shutter-css'  href='http://thedependent.ca/wp-content/plugins/nextgen-gallery/shutter/shutter-reloaded.css?ver=1.3.3' type='text/css' media='screen' />
+<link rel='stylesheet' id='podpress_frontend_styles-css'  href='http://thedependent.ca/wp-content/plugins/podpress/podpress.css?ver=3.2.1' type='text/css' media='all' />
+<script type="text/javascript">
+//<![CDATA[
+var podpressL10 = {
+	openblogagain : 'back to:',
+	theblog : 'the blog',
+	close : 'close',
+	playbutton : 'Play &gt;'
+}
+//]]>
+</script>
+<script type="text/javascript" src="http://thedependent.ca/wp-content/plugins/podpress/players/1pixelout/1pixelout_audio-player.js"></script>
+<script type="text/javascript">//<![CDATA[
+	var podPressPlayerFile = "1pixelout_player.swf";
+	var podPressPopupPlayerOpt = new Object();
+	podPressPopupPlayerOpt["lefticon"] = "333333";
+	podPressPopupPlayerOpt["leftbg"] = "CCCCCC";
+	podPressPopupPlayerOpt["volslider"] = "666666";
+	podPressPopupPlayerOpt["voltrack"] = "FFFFFF";
+	podPressPopupPlayerOpt["text"] = "333333";
+	podPressPopupPlayerOpt["tracker"] = "DDDDDD";
+	podPressPopupPlayerOpt["slider"] = "666666";
+	podPressPopupPlayerOpt["loader"] = "ff9900";
+	podPressPopupPlayerOpt["track"] = "FFFFFF";
+	podPressPopupPlayerOpt["border"] = "CCCCCC";
+	podPressPopupPlayerOpt["bg"] = "E5E5E5";
+	podPressPopupPlayerOpt["skip"] = "666666";
+	podPressPopupPlayerOpt["righticon"] = "333333";
+	podPressPopupPlayerOpt["righticonhover"] = "FFFFFF";
+	podPressPopupPlayerOpt["rightbg"] = "ff9900";
+	podPressPopupPlayerOpt["rightbghover"] = "999999";
+	podPressPopupPlayerOpt["initialvolume"] = "80";
+	podPressPopupPlayerOpt["buffer"] = "5";
+	podPressPopupPlayerOpt["checkpolicy"] = "no";
+	podpressAudioPlayer.setup("http://thedependent.ca/wp-content/plugins/podpress/players/1pixelout/" + podPressPlayerFile, {lefticon:"333333", leftbg:"CCCCCC", volslider:"666666", voltrack:"FFFFFF", text:"333333", tracker:"DDDDDD", slider:"666666", loader:"ff9900", track:"FFFFFF", border:"CCCCCC", bg:"E5E5E5", skip:"666666", righticon:"333333", righticonhover:"FFFFFF", rightbg:"ff9900", rightbghover:"999999", initialvolume:"80", buffer:"5", checkpolicy:"no",  pagebg:"FFFFFF", transparentpagebg:"yes", encode: "no"} );
+//]]></script>
+<script type="text/javascript">//<![CDATA[
+var podPressBlogURL = "http://thedependent.ca/";
+var podPressBackendURL = "http://thedependent.ca/wp-content/plugins/podpress/";
+var podPressDefaultPreviewImage = "http://thedependent.ca/wp-content/plugins/podpress/images/vpreview_center.png";
+var podPressMP3PlayerWrapper = false;
+var podPress_cortado_signed = false;
+var podPressOverwriteTitleandArtist = false;
+var podPressHTML5 = true;
+var podPressHTML5sec = "1dc01d530c";
+var podPressHTML5_showplayersdirectly = false;
+var podPressText_PlayNow = "Play Now";
+var podPressText_HidePlayer = "Hide Player";
+//]]></script>
+<script type='text/javascript' src='http://thedependent.ca/wp-includes/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='http://thedependent.ca/wp-includes/js/jquery/jquery.js?ver=1.6.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var shutterSettings = {
+	msgLoading: "L O A D I N G",
+	msgClose: "Click to Close",
+	imageCount: "1"
+};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://thedependent.ca/wp-content/plugins/nextgen-gallery/shutter/shutter-reloaded.js?ver=1.3.3'></script>
+<script type='text/javascript' src='http://thedependent.ca/wp-includes/js/swfobject.js?ver=2.2'></script>
+<script type='text/javascript' src='http://thedependent.ca/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.2'></script>
+<script type='text/javascript' src='http://thedependent.ca/wp-content/plugins/podpress/js/podpress.js?ver=3.2.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://thedependent.ca/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://thedependent.ca/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.2.1" />
+<script type="text/javascript" src="http://thedependent.ca/wp-content/plugins/audio-player-oogiechetos/assets/audio-player.js?ver=2.0.4.1"></script>
+<script type="text/javascript">AudioPlayer.setup("http://thedependent.ca/wp-content/plugins/audio-player-oogiechetos/assets/player.swf?ver=2.0.4.1", {width:"290",animation:"yes",encode:"yes",initialvolume:"60",remaining:"no",noinfo:"no",buffer:"5",checkpolicy:"no",rtl:"no",bg:"E5E5E5",text:"333333",leftbg:"CCCCCC",lefticon:"333333",volslider:"666666",voltrack:"FFFFFF",rightbg:"B4B4B4",rightbghover:"999999",righticon:"333333",righticonhover:"FFFFFF",track:"FFFFFF",loader:"009900",border:"CCCCCC",tracker:"DDDDDD",skip:"666666",pagebg:"FFFFFF",transparentpagebg:"yes"});</script>
+<meta property="og:site_name" content="The Dependent Magazine | Vancouver" />
+<meta property="og:type" content="activity" />
+<meta property="og:title" content="The Dependent Magazine | Vancouver" /><meta property="og:url" content="http://thedependent.ca" /><meta property="og:description" content="Vancouver" /><!-- <meta name="NextGEN" version="1.9.0" /> -->
+<script charset="utf-8" type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script><script type="text/javascript">stLight.options({publisher:'64d54326-d170-47f7-88eb-ee4114c0f96e'});var st_type='wordpress3.0.4';</script>
+ 		<!-- by Twitter Follow Me Box v1.1 -->
+ 		<script type="text/javascript">
+ 			//<![CDATA[
+  			jQuery(document).ready(function(){
+    			jQuery("body").append("<div id=\"tfmBox\"></div>");
+    			jQuery("#tfmBox").css({'position' : 'fixed', 'top' : '130px', 'width' : '30px', 'height' : '119px', 'z-index' : '1000', 'cursor' : 'pointer', 'background' : '#000000 url(http://thedependent.ca/wp-content/plugins/twitter-follow-me-box/follow-me.png) no-repeat scroll left top', 'right' : '0'});
+    			jQuery("#tfmBox").click(function () { 
+			      window.open('http://twitter.com/thedependentmag/');
+    			});
+    		});
+    		//]]>
+  		</script>
+		<!-- /by Twitter Follow Me Box -->
+ 	<script type='text/javascript'>/* <![CDATA[ */ var _wpaudio = {url: 'http://thedependent.ca/wp-content/plugins/wpaudio-mp3-player', enc: {}, convert_mp3_links: true, style: {text_font:'Arial, Sans-serif',text_size:'18px',text_weight:'bold',text_letter_spacing:'-1px',text_color:'inherit',link_color:'#24f',link_hover_color:'#02f',bar_base_bg:'#eee',bar_load_bg:'#ccc',bar_position_bg:'#46f',sub_color:'#aaa'}}; /* ]]> */</script>
+ 	<script src="http://thedependent.ca/wp-content/themes/BigFeature/library/js/cufon/cufon-yui.js" type="text/javascript"></script>  
+     <script src="http://thedependent.ca/wp-content/uploads/2011/09/league-gothic_400.font_.js" type="text/javascript"></script>        
+    <script type="text/javascript"> 
+			   Cufon.replace('.post .post-title a', { fontFamily: 'league-gothic' });
+           Cufon.replace('.post h1', { fontFamily: 'league-gothic' });
+	           //Cufon.replace('.post h2', { fontFamily: 'league-gothic' });
+       	Cufon.replace('h2', { fontFamily: 'league-gothic' });
+	    </script>
+
+
+<!-- Google Analytics Tracking by Google Analyticator 6.2: http://ronaldheft.com/code/analyticator/ -->
+<script type="text/javascript">
+	var analyticsFileTypes = ['mp3'];
+	var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-10833898-1']);
+	_gaq.push(['_trackPageview']);
+	_gaq.push(['_trackPageLoadTime']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+
+<!-- BEGIN jSquares -->
+<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+<script type="text/javascript">google.load("jquery","1.6.1");</script>
+	
+	<!-- styles -->
+	<link rel="stylesheet" href="http://thedependent.ca/wp-content/themes/BigFeature/library/css/jsquares.css" type="text/css" media="all" />
+
+	
+	<!-- js -->
+	<script src="http://thedependent.ca/wp-content/themes/BigFeature/library/js/jquery.jsquares.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+
+			$('#js-container').jsquares();
+			
+		});
+	</script>
+<!-- END jSquares -->
+
+</head>
+<body>
+
+
+<!-- begin #container -->
+<div id="container" class="clearfix">
+
+	<!-- begin #header -->
+	<div id="header" class="clearfix">    
+			<div id="logo"><a href="http://thedependent.ca"><img src="http://thedependent.ca/wp-content/uploads/2010/12/theDependent_banner-trans.png" alt="logo" /></a></div>
+	<script type="text/javascript"> Cufon.now(); </script>
+    </div>
+    <!-- end #header --><div class="clear nofeature"></div>
+<!-- begin #content -->							
+<div id="content">
+<h1>Not Found, Error 404</h1>
+<p>The page you are looking for no longer exists.</p>
+<p>Perhaps you can find what you are looking for by searching the site archives!</p>
+<b>Search by Month:</b>
+<ul>
+	<li><a href='http://thedependent.ca/2012/05/' title='May 2012'>May 2012</a></li>
+	<li><a href='http://thedependent.ca/2012/04/' title='April 2012'>April 2012</a></li>
+	<li><a href='http://thedependent.ca/2012/03/' title='March 2012'>March 2012</a></li>
+	<li><a href='http://thedependent.ca/2012/02/' title='February 2012'>February 2012</a></li>
+	<li><a href='http://thedependent.ca/2012/01/' title='January 2012'>January 2012</a></li>
+	<li><a href='http://thedependent.ca/2011/12/' title='December 2011'>December 2011</a></li>
+	<li><a href='http://thedependent.ca/2011/11/' title='November 2011'>November 2011</a></li>
+	<li><a href='http://thedependent.ca/2011/10/' title='October 2011'>October 2011</a></li>
+	<li><a href='http://thedependent.ca/2011/09/' title='September 2011'>September 2011</a></li>
+	<li><a href='http://thedependent.ca/2011/08/' title='August 2011'>August 2011</a></li>
+	<li><a href='http://thedependent.ca/2011/07/' title='July 2011'>July 2011</a></li>
+	<li><a href='http://thedependent.ca/2011/06/' title='June 2011'>June 2011</a></li>
+	<li><a href='http://thedependent.ca/2011/05/' title='May 2011'>May 2011</a></li>
+	<li><a href='http://thedependent.ca/2011/04/' title='April 2011'>April 2011</a></li>
+	<li><a href='http://thedependent.ca/2011/03/' title='March 2011'>March 2011</a></li>
+	<li><a href='http://thedependent.ca/2011/02/' title='February 2011'>February 2011</a></li>
+	<li><a href='http://thedependent.ca/2011/01/' title='January 2011'>January 2011</a></li>
+	<li><a href='http://thedependent.ca/2010/12/' title='December 2010'>December 2010</a></li>
+	<li><a href='http://thedependent.ca/2010/11/' title='November 2010'>November 2010</a></li>
+	<li><a href='http://thedependent.ca/2010/10/' title='October 2010'>October 2010</a></li>
+	<li><a href='http://thedependent.ca/2010/09/' title='September 2010'>September 2010</a></li>
+	<li><a href='http://thedependent.ca/2010/08/' title='August 2010'>August 2010</a></li>
+	<li><a href='http://thedependent.ca/2010/07/' title='July 2010'>July 2010</a></li>
+	<li><a href='http://thedependent.ca/2010/06/' title='June 2010'>June 2010</a></li>
+	<li><a href='http://thedependent.ca/2010/05/' title='May 2010'>May 2010</a></li>
+	<li><a href='http://thedependent.ca/2010/04/' title='April 2010'>April 2010</a></li>
+	<li><a href='http://thedependent.ca/2010/03/' title='March 2010'>March 2010</a></li>
+	<li><a href='http://thedependent.ca/2010/02/' title='February 2010'>February 2010</a></li>
+	<li><a href='http://thedependent.ca/2010/01/' title='January 2010'>January 2010</a></li>
+</ul>
+<b>Search by Category:</b>
+<ul>
+	<li class="cat-item cat-item-494"><a href="http://thedependent.ca/category/numbers/" title="View all posts filed under By the Numbers">By the Numbers</a>
+</li>
+	<li class="cat-item cat-item-116"><a href="http://thedependent.ca/category/entertainment/" title="View all posts filed under Entertainment">Entertainment</a>
+<ul class='children'>
+	<li class="cat-item cat-item-178"><a href="http://thedependent.ca/category/entertainment/cartoons/" title="View all posts filed under Cartoons">Cartoons</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="http://thedependent.ca/category/entertainment/confessions/" title="View all posts filed under Confessions of a Lonely, Single Guy">Confessions of a Lonely, Single Guy</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="http://thedependent.ca/category/entertainment/drunk-in-vancouver/" title="View all posts filed under Drunk in Vancouver">Drunk in Vancouver</a>
+</li>
+	<li class="cat-item cat-item-497"><a href="http://thedependent.ca/category/entertainment/sexandseawall/" title="View all posts filed under Sex and the Seawall">Sex and the Seawall</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="http://thedependent.ca/category/entertainment/the-chris-james-show/" title="View all posts filed under The Chris James Show">The Chris James Show</a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://thedependent.ca/category/featured/" title="View all posts filed under Features">Features</a>
+</li>
+	<li class="cat-item cat-item-118"><a href="http://thedependent.ca/category/life-and-culture/" title="View all posts filed under Lifestyle and Culture">Lifestyle and Culture</a>
+<ul class='children'>
+	<li class="cat-item cat-item-263"><a href="http://thedependent.ca/category/life-and-culture/art/" title="View all posts filed under Art">Art</a>
+</li>
+	<li class="cat-item cat-item-266"><a href="http://thedependent.ca/category/life-and-culture/events/" title="View all posts filed under Events">Events</a>
+</li>
+	<li class="cat-item cat-item-264"><a href="http://thedependent.ca/category/life-and-culture/food-and-drink/" title="View all posts filed under Food and Drink">Food and Drink</a>
+</li>
+	<li class="cat-item cat-item-496"><a href="http://thedependent.ca/category/life-and-culture/liams-list/" title="View all posts filed under Liam&#039;s List">Liam&#039;s List</a>
+</li>
+	<li class="cat-item cat-item-265"><a href="http://thedependent.ca/category/life-and-culture/music/" title="View all posts filed under Music">Music</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://thedependent.ca/category/life-and-culture/people/" title="View all posts filed under People You Should Know">People You Should Know</a>
+</li>
+	<li class="cat-item cat-item-495"><a href="http://thedependent.ca/category/life-and-culture/photojournals/" title="View all posts filed under Photo Journals">Photo Journals</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://thedependent.ca/category/life-and-culture/blahg/" title="View all posts filed under The BLAHG">The BLAHG</a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-117"><a href="http://thedependent.ca/category/news-and-opinion/" title="View all posts filed under News and Opinion">News and Opinion</a>
+<ul class='children'>
+	<li class="cat-item cat-item-124"><a href="http://thedependent.ca/category/news-and-opinion/opinion/" title="View all posts filed under Opinion">Opinion</a>
+</li>
+	<li class="cat-item cat-item-269"><a href="http://thedependent.ca/category/news-and-opinion/this-day-in-vancouver/" title="View all posts filed under This Day In Vancouver">This Day In Vancouver</a>
+</li>
+	<li class="cat-item cat-item-268"><a href="http://thedependent.ca/category/news-and-opinion/vancouver-headlines/" title="View all posts filed under Vancouver Headlines">Vancouver Headlines</a>
+</li>
+</ul>
+</li>
+</ul>
+
+<div class="clear"></div>
+</div><!-- end #content -->
+
+<!-- begin #sidebar -->
+<div id="sidebar"   >
+ <ul>
+  <!-- Widgetized sidebar -->
+  <li id="bf-featured-posts-3" class="widget widget_bf_featured_posts"><div class="widgetheading"><h2>Lifestyle & Culture</h2></div><div class="widget widget_featured_posts">		
+							<div class="post thumb last-thumb">
+				<div class="postimage"><a href="http://thedependent.ca/life-and-culture/liams-list/liams-list-week-eight/">
+					<img width="216" height="98" src="http://thedependent.ca/wp-content/themes/BigFeature/library/timthumb/timthumb.php?src=/wp-content/uploads/2012/05/banner3.jpg&w=216&zc=1&a=c" alt="default image for post" />				</a></div>
+				<h4><a href="http://thedependent.ca/life-and-culture/liams-list/liams-list-week-eight/" rel="bookmark" title="Permanent Link to Liam&#8217;s List &#8211; Week Eight">Liam&#8217;s List &#8211; Week Eight</a></h4>
+			             
+				 <p>This week&#8217;s best from Vancouver&#8217;s sidewalk catwalk</p>
+    		<a class="more-link" href="http://thedependent.ca/life-and-culture/liams-list/liams-list-week-eight/">Read More</a> 	
+			</div>
+			
+			
+							<div class="post thumb last-thumb">
+				<div class="postimage"><a href="http://thedependent.ca/life-and-culture/art/jonathan-dy/">
+					<img width="216" height="98" src="http://thedependent.ca/wp-content/themes/BigFeature/library/timthumb/timthumb.php?src=/wp-content/uploads/2012/04/1.jpg&w=216&zc=1&a=c" alt="default image for post" />				</a></div>
+				<h4><a href="http://thedependent.ca/life-and-culture/art/jonathan-dy/" rel="bookmark" title="Permanent Link to Jonathan Dy">Jonathan Dy</a></h4>
+			             
+				 The Dependent proudly presents the work of Windsor-born, Vancouver-based painter and photographer Jonathan Dy. We love him as much for...    		<a class="more-link" href="http://thedependent.ca/life-and-culture/art/jonathan-dy/">Read More</a> 	
+			</div>
+			
+			
+							<div class="post thumb last-thumb">
+				<div class="postimage"><a href="http://thedependent.ca/life-and-culture/music/morlove-skeleton-live-habitat/">
+					<img width="216" height="98" src="http://thedependent.ca/wp-content/themes/BigFeature/library/timthumb/timthumb.php?src=/wp-content/uploads/2012/04/morlove.jpg&w=216&zc=1&a=c" alt="default image for post" />				</a></div>
+				<h4><a href="http://thedependent.ca/life-and-culture/music/morlove-skeleton-live-habitat/" rel="bookmark" title="Permanent Link to Morlove &#8211; Skeleton, Live @ The Habitat">Morlove &#8211; Skeleton, Live @ The Habitat</a></h4>
+			             
+				 <p>Vancouver&#8217;s own Morlove recorded in stunning video and crystalline audio at The Habitat Recording Studio.</p>
+    		<a class="more-link" href="http://thedependent.ca/life-and-culture/music/morlove-skeleton-live-habitat/">Read More</a> 	
+			</div>
+			
+			
+							<div class="post thumb last-thumb">
+				<div class="postimage"><a href="http://thedependent.ca/life-and-culture/analyzing-transmission-virulence/">
+					<img width="216" height="100" src="http://thedependent.ca/wp-content/themes/BigFeature/library/timthumb/timthumb.php?src=/wp-content/uploads/2012/04/DSC_0130.jpg&w=216&h=100&zc=1&a=c" alt="default image for post" />				</a></div>
+				<h4><a href="http://thedependent.ca/life-and-culture/analyzing-transmission-virulence/" rel="bookmark" title="Permanent Link to Analyzing Transmission and Virulence of &#8220;Stanley Cup Fever&#8221; Epidemic And Effect on &#8220;Vancouver Canucks&#8221; Population">Analyzing Transmission and Virulence of &#8220;Stanley Cup Fever&#8221; Epidemic And Effect on &#8220;Vancouver Canucks&#8221; Population</a></h4>
+			             
+				 <p>Research to survive the coming pandemic.</p>
+    		<a class="more-link" href="http://thedependent.ca/life-and-culture/analyzing-transmission-virulence/">Read More</a> 	
+			</div>
+			
+			
+							<div class="post thumb last-thumb">
+				<div class="postimage"><a href="http://thedependent.ca/life-and-culture/events/cultural-inflammation-march-16th/">
+					<img width="216" height="98" src="http://thedependent.ca/wp-content/themes/BigFeature/library/timthumb/timthumb.php?src=/wp-content/uploads/2012/03/socialitis-mar-16.jpg&w=216&zc=1&a=c" alt="default image for post" />				</a></div>
+				<h4><a href="http://thedependent.ca/life-and-culture/events/cultural-inflammation-march-16th/" rel="bookmark" title="Permanent Link to Cultural Inflammation for March 16th">Cultural Inflammation for March 16th</a></h4>
+			             
+				 <p>Do these things and be happy this weekend.</p>
+    		<a class="more-link" href="http://thedependent.ca/life-and-culture/events/cultural-inflammation-march-16th/">Read More</a> 	
+			</div>
+			
+	 
+		<div class="clear"></div>
+		<a href="category/life-and-culture/"><span id="category_more"><h2>More Lifestyle & Culture</h2></span></a>
+		</div><div class="clear"></div></li> </ul>
+</div>
+<!-- end #sidebar -->
+<div class="clear"></div>
+</div><!-- end #container -->
+
+<div class="clear bottom-nav">
+<li class="pagenav"><h2>META</h2><ul><li class="page_item page-item-2"><a href="http://thedependent.ca/about/" title="About">About</a></li>
+<li class="page_item page-item-60"><a href="http://thedependent.ca/contact/" title="Contact">Contact</a></li>
+<li class="page_item page-item-787"><a href="http://thedependent.ca/friends-and-respected-enemies/" title="Friends and Enemies">Friends and Enemies</a></li>
+</ul></li></div>
+
+<div class="clear">
+
+Copyright &copy; 2012 &middot; <a href="http://thedependent.ca">The Dependent Magazine | Vancouver</a> | Powered by  <a href = "http://wordpress.org">WordPress</a></div>
+
+</div>
+<!-- end #container -->
+
+<!-- begin #footer -->
+<div id="footer">
+<script type='text/javascript' src='http://thedependent.ca/wp-content/plugins/wpaudio-mp3-player/wpaudio.min.js?ver=3.1'></script>
+<script src="http://thedependent.ca/wp-content/plugins/tweetmeme/button.js" type="text/javascript"></script><div class="inside"> 
+	</div><script type="text/javascript"> Cufon.refresh(); </script> 
+</div>
+<!-- end #footer -->
+
+</body></html>
