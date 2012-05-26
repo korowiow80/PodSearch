@@ -112,7 +112,7 @@ jQuery.extend(Drupal.settings, { "basePath": "/", "googleanalytics": { "trackOut
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="image" name="op" value="Search" id="edit-submit"  onclick="main_form_validate(this);" class="form-submit" src="/images/search_button.png" />
-<input type="hidden" name="form_build_id" id="form-881d2358a8668c12a1454b352ac2e2c2" value="form-881d2358a8668c12a1454b352ac2e2c2"  />
+<input type="hidden" name="form_build_id" id="form-b4e0439adc25f7d7ed514d5253b9d6db" value="form-b4e0439adc25f7d7ed514d5253b9d6db"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 <div class="search-block-radio" ><input name="content_type" type="radio" value="full_site" checked onclick="clearFormTimeout()" /> Full Site <input name="content_type" type="radio" value="articles_only" onclick="clearFormTimeout()" /> Articles Only</div></div>
 
