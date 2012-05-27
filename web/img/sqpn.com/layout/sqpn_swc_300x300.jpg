@@ -28,7 +28,7 @@
 			var inlineEditComments      = 1;
 			var wpUrl                   = "http://sqpn.com";
 			var rssUrl                  = "";
-			var pageLoadTime            = "2012-05-27 06:46:55";
+			var pageLoadTime            = "2012-05-27 06:58:11";
 			var original_title          = document.title;
 			var commentsOnPost          = new Array;
 			var postsOnPage             = new Array;
