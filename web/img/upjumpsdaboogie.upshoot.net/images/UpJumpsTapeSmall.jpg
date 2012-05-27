@@ -1,4 +1,3 @@
-4879
 <!doctype html>
 <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
@@ -99,8 +98,8 @@
 <br /><br />
   
                             <h3>Listen</h3>
-                            <object type="application/x-shockwave-flash" data="/assets/components/dewplayer/swf/dewplayer.swf" width="200" height="20" id="dewplayer1231327249" name="dewplayer1231327249" ><param name="wmode" value="transparent" /><param name="movie" value="/assets/components/dewplayer/swf/dewplayer.swf" /><param name="flashvars" value="mp3=http://upjumpsdaboogie.upshoot.net/podcast/mp3s/inside-the-mix/INSIDE-THE-MIX-EP3_dj-dsmooth.mp3&amp;autostart=&amp;autoreplay=&amp;showtime=&amp;randomplay=&amp;nopointer=&amp;volume=100&amp;fading=0" /></object><br /><br />
-<h3><a href="http://upjumpsdaboogie.upshoot.net/download.php?f=podcast/mp3s/inside-the-mix/INSIDE-THE-MIX-EP3_dj-dsmooth.mp3">DOWNLOAD MIX</a></h3> (CLICK to DOWNLOAD)<br /><br />
+                            <object type="application/x-shockwave-flash" data="/assets/components/dewplayer/swf/dewplayer.swf" width="200" height="20" id="dewplayer1818632342" name="dewplayer1818632342" ><param name="wmode" value="transparent" /><param name="movie" value="/assets/components/dewplayer/swf/dewplayer.swf" /><param name="flashvars" value="mp3=http://upjumpsdaboogie.upshoot.net/podcast/mp3s/inside-the-mix/INSIDE-THE-MIX-EP3_dj-dsmooth.mp3&amp;autostart=&amp;autoreplay=&amp;showtime=&amp;randomplay=&amp;nopointer=&amp;volume=100&amp;fading=0" /></object><br /><br />
+<h3><a href="http://upjumpsdaboogie.upshoot.net/download.php?f=podcast/mp3s/inside-the-mix/INSIDE-THE-MIX-EP3_dj-dsmooth.mp3" onClick="javascript: pageTracker._trackPageview('/podcast/mp3s/inside-the-mix/INSIDE-THE-MIX-EP3_dj-dsmooth.mp3'); ">DOWNLOAD MIX</a></h3> (CLICK to DOWNLOAD)<br /><br />
 
                             <br /><br />
                             <a href="blog/inside-the-mix-ep3/">READ MORE</a> <br  />
@@ -122,8 +121,8 @@
 <br /><br />
   
                             <h3>Listen</h3>
-                            <object type="application/x-shockwave-flash" data="/assets/components/dewplayer/swf/dewplayer.swf" width="200" height="20" id="dewplayer1228180188" name="dewplayer1228180188" ><param name="wmode" value="transparent" /><param name="movie" value="/assets/components/dewplayer/swf/dewplayer.swf" /><param name="flashvars" value="mp3=http://upjumpsdaboogie.upshoot.net/podcast/mp3s/playmode/PLAYMODE_2012_MAY.mp3&amp;autostart=&amp;autoreplay=&amp;showtime=&amp;randomplay=&amp;nopointer=&amp;volume=100&amp;fading=0" /></object><br /><br />
-<h3><a href="http://upjumpsdaboogie.upshoot.net/download.php?f=podcast/mp3s/playmode/PLAYMODE_2012_MAY.mp3">DOWNLOAD MIX</a></h3> (CLICK to DOWNLOAD)<br /><br />
+                            <object type="application/x-shockwave-flash" data="/assets/components/dewplayer/swf/dewplayer.swf" width="200" height="20" id="dewplayer534607924" name="dewplayer534607924" ><param name="wmode" value="transparent" /><param name="movie" value="/assets/components/dewplayer/swf/dewplayer.swf" /><param name="flashvars" value="mp3=http://upjumpsdaboogie.upshoot.net/podcast/mp3s/playmode/PLAYMODE_2012_MAY.mp3&amp;autostart=&amp;autoreplay=&amp;showtime=&amp;randomplay=&amp;nopointer=&amp;volume=100&amp;fading=0" /></object><br /><br />
+<h3><a href="http://upjumpsdaboogie.upshoot.net/download.php?f=podcast/mp3s/playmode/PLAYMODE_2012_MAY.mp3" onClick="javascript: pageTracker._trackPageview('/podcast/mp3s/playmode/PLAYMODE_2012_MAY.mp3'); ">DOWNLOAD MIX</a></h3> (CLICK to DOWNLOAD)<br /><br />
 
                             <br /><br />
                             <a href="blog/playmode-mix/">READ MORE</a> <br  />
@@ -145,8 +144,8 @@
 <br /><br />
   
                             <h3>Listen</h3>
-                            <object type="application/x-shockwave-flash" data="/assets/components/dewplayer/swf/dewplayer.swf" width="200" height="20" id="dewplayer722395604" name="dewplayer722395604" ><param name="wmode" value="transparent" /><param name="movie" value="/assets/components/dewplayer/swf/dewplayer.swf" /><param name="flashvars" value="mp3=http://upjumpsdaboogie.upshoot.net/podcast/mp3s/inside-the-mix/INSIDE-THE-MIX-EP2_dj-dsmooth.mp3&amp;autostart=&amp;autoreplay=&amp;showtime=&amp;randomplay=&amp;nopointer=&amp;volume=100&amp;fading=0" /></object><br /><br />
-<h3><a href="http://upjumpsdaboogie.upshoot.net/download.php?f=podcast/mp3s/inside-the-mix/INSIDE-THE-MIX-EP2_dj-dsmooth.mp3">DOWNLOAD MIX</a></h3> (CLICK to DOWNLOAD)<br /><br />
+                            <object type="application/x-shockwave-flash" data="/assets/components/dewplayer/swf/dewplayer.swf" width="200" height="20" id="dewplayer859447189" name="dewplayer859447189" ><param name="wmode" value="transparent" /><param name="movie" value="/assets/components/dewplayer/swf/dewplayer.swf" /><param name="flashvars" value="mp3=http://upjumpsdaboogie.upshoot.net/podcast/mp3s/inside-the-mix/INSIDE-THE-MIX-EP2_dj-dsmooth.mp3&amp;autostart=&amp;autoreplay=&amp;showtime=&amp;randomplay=&amp;nopointer=&amp;volume=100&amp;fading=0" /></object><br /><br />
+<h3><a href="http://upjumpsdaboogie.upshoot.net/download.php?f=podcast/mp3s/inside-the-mix/INSIDE-THE-MIX-EP2_dj-dsmooth.mp3" onClick="javascript: pageTracker._trackPageview('/podcast/mp3s/inside-the-mix/INSIDE-THE-MIX-EP2_dj-dsmooth.mp3'); ">DOWNLOAD MIX</a></h3> (CLICK to DOWNLOAD)<br /><br />
 
                             <br /><br />
                             <a href="blog/inside-the-mix-ep2/">READ MORE</a> <br  />
@@ -168,8 +167,8 @@
 <br /><br />
   
                             <h3>Listen</h3>
-                            <object type="application/x-shockwave-flash" data="/assets/components/dewplayer/swf/dewplayer.swf" width="200" height="20" id="dewplayer1788265189" name="dewplayer1788265189" ><param name="wmode" value="transparent" /><param name="movie" value="/assets/components/dewplayer/swf/dewplayer.swf" /><param name="flashvars" value="mp3=http://upjumpsdaboogie.upshoot.net/podcast/mp3s/inside-the-mix/INSIDE-THE-MIX-EP1_dj-dsmooth.mp3&amp;autostart=&amp;autoreplay=&amp;showtime=&amp;randomplay=&amp;nopointer=&amp;volume=100&amp;fading=0" /></object><br /><br />
-<h3><a href="http://upjumpsdaboogie.upshoot.net/download.php?f=podcast/mp3s/inside-the-mix/INSIDE-THE-MIX-EP1_dj-dsmooth.mp3">DOWNLOAD MIX</a></h3> (CLICK to DOWNLOAD)<br /><br />
+                            <object type="application/x-shockwave-flash" data="/assets/components/dewplayer/swf/dewplayer.swf" width="200" height="20" id="dewplayer282472931" name="dewplayer282472931" ><param name="wmode" value="transparent" /><param name="movie" value="/assets/components/dewplayer/swf/dewplayer.swf" /><param name="flashvars" value="mp3=http://upjumpsdaboogie.upshoot.net/podcast/mp3s/inside-the-mix/INSIDE-THE-MIX-EP1_dj-dsmooth.mp3&amp;autostart=&amp;autoreplay=&amp;showtime=&amp;randomplay=&amp;nopointer=&amp;volume=100&amp;fading=0" /></object><br /><br />
+<h3><a href="http://upjumpsdaboogie.upshoot.net/download.php?f=podcast/mp3s/inside-the-mix/INSIDE-THE-MIX-EP1_dj-dsmooth.mp3" onClick="javascript: pageTracker._trackPageview('/podcast/mp3s/inside-the-mix/INSIDE-THE-MIX-EP1_dj-dsmooth.mp3'); ">DOWNLOAD MIX</a></h3> (CLICK to DOWNLOAD)<br /><br />
 
                             <br /><br />
                             <a href="blog/inside-the-mix-ep1/">READ MORE</a> <br  />
@@ -376,6 +375,3 @@ $(".search_box").inputreplace();
    
 </body>
 </html>
-
-0
-
