@@ -1,3 +1,7 @@
+
+
+
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -6,12 +10,9 @@
 <META name="verify-v1" content="c4/pDaOOoKLnTbQICD5KP1Hnsp4Bey33zHuFjZ5bxLM=" />
 <LINK REL="SHORTCUT ICON" href="/favicon.ico" type="image/x-icon" />
 
-<title>Page Not Found</title>
+<title>Error 403 Forbidden</title>
 <link href="/home/css/style.css" rel="stylesheet" type="text/css" media="screen" />
 <link href="/home/css/style_x.css" rel="stylesheet" type="text/css" media="screen" />
-<link href="/home/stylesheet/style.css" rel="stylesheet" type="text/css" media="screen">
-<link href="/home/stylesheet/style_x.css" rel="stylesheet" type="text/css" media="screen">
-<link href="/home/new/newpage.css" rel="stylesheet" type="text/css" media="screen">
 
 <script type="text/JavaScript" src="/home/menu.js">
 </script>
@@ -25,10 +26,10 @@
     function onLoad() { }
 </script>
 
-<script language="javascript" type="text/javascript">function isLogin() {return false;}</script>
+<script language="javascript" type="text/javascript">function isLogin() {return true;}</script>
 </head>
-<body class="grey" onload="onLoad();  ">
-<!-- s17 -->
+<body class="grey" onload="onLoad();   ">
+<!-- staging -->
 <div id="all">
 <div id="bg">
 	<div id="header">
@@ -45,14 +46,17 @@
 		</td>
 		<td width="330px" align="right">
 		<div id="login">
+   <td width="330px" align="right">
+		<div id="login">
     <span style="font-size:12px;padding-left:3px;"><a class="defaultunderline" href="http://www.podbean.com/podcast_hosting_audio_video_blog_hosting"><strong>Sign Up</strong></a></span> 
 	 <span style="font-size:12px;padding-left:3px;">|</span>
 	 <span style="font-size:12px;padding-left:3px;"><a class="defaultunderline" href="http://www.podbean.com/podbean-help"><strong>Help</strong></a></span> 
 	  <span style="font-size:12px;padding-left:3px;">|</span>
-	 <span style="font-size:12px;padding-left:3px;"><a class="defaultunderline" href="https://www.podbean.com/login?redirect_to=http%3A%2F%2Fwww.podbean.com%2Fwp-content%2Fblogs%2F908%2Fuploads%2Fprofile_orig.jpg" ><strong>Log In</strong></a></span> 
+	 <span style="font-size:12px;padding-left:3px;"><a class="defaultunderline" href="https://www.podbean.com/login?redirect_to=http%3A%2F%2Fwww.podbean.com%2F" ><strong>Log In</strong></a></span> 
  <div id="login1">
+
  	<form name="searchForm" id="searchForm" method="get" action="/search">
- 		<input type="hidden" name="k" value="4aa4929a1670206c9b1b7e68d5927ac3">
+ 		<input type="hidden" name="k" value="all">
 		<input type="text" name="v" maxlength="50" class="searchField" value="">
 		&nbsp;
 		<input type="submit" name="search" value="Search">
@@ -60,6 +64,7 @@
  </div>
  </div>
  </td>
+
  </tr>
 </table>	
       
@@ -68,10 +73,10 @@
 	<!-- tabs -->
 		<div class="rb_tabs">
 		<div class="rb_tab_l off_l"></div><div class="rb_tab_r off_r"><a href="/">Home</a></div>
-		<div class="rb_tab_l off_l"></div><div class="rb_tab_r off_r"><a href="http://www.podbean.com/podcasts">Podcasts</a></div>
-		<div class="rb_tab_l off_l"></div><div class="rb_tab_r off_r"><a href="http://www.podbean.com/podcast-directory-tag">Tags</a></div>
-		<div class="rb_tab_l off_l"></div><div class="rb_tab_r off_r"><a href="http://www.podbean.com/podcast-directory-add-feed">Add a Podcast</a></div>
-		<div class="rb_tab_l off_l"></div><div class="rb_tab_r off_r"><a href="https://www.podbean.com/pb-signup-publisher.php">Publish a podcast</a></div>
+		<div class="rb_tab_l off_l"></div><div class="rb_tab_r off_r"><a href="http://www.podbeans.com/podcasts">Podcasts</a></div>
+		<div class="rb_tab_l off_l"></div><div class="rb_tab_r off_r"><a href="http://www.podbeans.com/podcast-directory-tag">Tags</a></div>
+		<div class="rb_tab_l off_l"></div><div class="rb_tab_r off_r"><a href="http://www.podbeans.com/podcast-directory-add-feed">Add a Podcast</a></div>
+		<div class="rb_tab_l off_l_b"></div><div class="rb_tab_r off_r_b"><a href="http://davidtest.podbeans.com/admin/">Publish a podcast</a></div>
 		</div>
 		<!-- /tabs -->
 		
@@ -80,9 +85,7 @@
 			<div class="rb_body"><!-- margins for shadow -->
 				<div class="rb_content"><!-- white background -->
 					<div class="rb_subnav">
-					<!-- 
-										 -->
-                    </div>
+					                    </div>
 
 
 				</div><!-- /rb_content -->
@@ -102,7 +105,7 @@ No script, object, iframe ... special html tags are allowed in Posts or Comments
 </div>
 	<div id="footer">
 		<div id="copyright">
-			<p class="small" style="color:#666">Copyright&copy;2006-2012		&nbsp;
+			<p class="small" style="color:#666">Copyright&copy;2006-2009		&nbsp;
 		<b>Podbean.com</b></p>
 		<ul class="site">
 			<li class="site"><a href="/podbean-privacy" title="Privacy Policy">Privacy Policy</a></li>
@@ -116,38 +119,16 @@ No script, object, iframe ... special html tags are allowed in Posts or Comments
 			<li class="site"><h2><a href="http://news.podbean.com" title="news">News</a></h2></li>
 			<li class="site"><h2><a href="/podcast_hosting_audio_video_blog_hosting_features_main" title="features">Features</a></h2></li>
 			<li class="site"><h2><a href="/podcast_hosting_audio_video_blog_hosting_features" title="pricing">Pricing</a></h2></li>
-			<li class="site"><h2><a href="http://www.podbean.com/business-podcast-solution" title="business solution">Business Solutions</a></h2></li>
-			<li class="site"><h2><a href="http://m.podbean.com" title="mobile">Mobile</a></h2></li>
+			<li class="site"><h2><a href="http://www.podbeans.com/business-podcast-solution" title="business solution">Business Solutions</a></h2></li>
+			<li class="site"><h2><a href="http://m.podbeans.com" title="mobile">Mobile</a></h2></li>
 			<li class="site"><h2><a href="/contact" title="contact us">Contact us</a></h2></li>
 			<li class="site"><h2><a href="/podcast-blog-embeddable-mp3-flash-player" title="Free Podbean Player">Embeddable Player</a></h2></li>
 			<li class="site"><h2><a href="/podbean-banners" title="Podbean Banners">Link to us</a></h2></li>
 			<li class="site"><h2><a href="http://faq.podbean.com/podcast-faq-index/" title="faq">FAQ</a></h2></li>
-			<li class="site"><h2><a href="/podbean-user-guide/" title="User Guide">User Guide</a></h2></li>
 			<li class="site"><h2><a href="/podcast_resources" title="Podcast resources">Resources</a></h2></li>
-			
-		</ul>
+					</ul>
 		</div>
 	</div>
-			<!-- Start Quantcast tag -->
-<script type="text/javascript">
-_qoptions={
-qacct:"p-91lXzPDEtkPDc"
-};
-</script>
-<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
-<noscript>
-<a href="http://www.quantcast.com/p-91lXzPDEtkPDc" target="_blank"><img src="http://pixel.quantserve.com/pixel/p-91lXzPDEtkPDc.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/></a>
-</noscript>
-<!-- End Quantcast tag -->
-		
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-5072465-2");
-pageTracker._trackPageview();
-} catch(err) {}</script>	
+	
 </body>
 </html>
