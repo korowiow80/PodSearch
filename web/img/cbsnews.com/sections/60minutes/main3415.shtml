@@ -26,7 +26,7 @@
             editionId: '3',
             brandId: '55',
             breadcrumb: '18560',
-            userIP: '66.249.71.51, 208.44.23.126, 66.249.71.51, 64.30.227.218, 63.80.138.15, 10.22.162.4, 66.249.71.51',
+            userIP: '66.249.71.135, 208.44.23.69, 66.249.71.135, 64.30.227.218, 63.80.242.30, 10.239.182.198, 66.249.71.135',
             sectionId: '18560',
 	    guid: window.cbsiGUID
         });
@@ -430,7 +430,7 @@ Copyright 1996-2010 Adobe, Inc. All Rights Reserved
 More info available at http://www.omniture.com --> <script type="text/javascript">
 
 	
-	var date = new Date("27 May 2012 00:34:38 +0000");
+	var date = new Date("27 May 2012 00:45:29 +0000");
 	var days = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
      
             s.pageName="/Section - 60 Minutes - Interviews, Profiles & Reports - ";
@@ -639,4 +639,4 @@ height="1" width="1" border="0" alt="" /></a></noscript><!--/DO NOT REMOVE/-->
     
     ClickTaleTag('Door');
 </script>
-<!-- /ClickTale bottom --> <!-- NR footer --> <script type="text/javascript">if (!NREUMQ.f) { NREUMQ.f=function() {NREUMQ.push(["load",new Date().getTime()]);var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="https://d1ros97qkrwjf5.cloudfront.net/34/eum/rum.js";document.body.appendChild(e);if(NREUMQ.a)NREUMQ.a();};NREUMQ.a=window.onload;window.onload=NREUMQ.f;};NREUMQ.push(["nrf2","beacon-1.newrelic.com","c7e812077e",310501,"blBQYxRWV0dYUUZeC1cacUIVQ1ZZFgACB1U=",0,1961,new Date().getTime()])</script> </div></body> </html>
+<!-- /ClickTale bottom --> <!-- NR footer --> <script type="text/javascript">if (!NREUMQ.f) { NREUMQ.f=function() {NREUMQ.push(["load",new Date().getTime()]);var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="https://d1ros97qkrwjf5.cloudfront.net/34/eum/rum.js";document.body.appendChild(e);if(NREUMQ.a)NREUMQ.a();};NREUMQ.a=window.onload;window.onload=NREUMQ.f;};NREUMQ.push(["nrf2","beacon-1.newrelic.com","c7e812077e",310501,"blBQYxRWV0dYUUZeC1cacUIVQ1ZZFgACB1U=",0,3404,new Date().getTime()])</script> </div></body> </html>
