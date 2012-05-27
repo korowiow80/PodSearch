@@ -6,16 +6,17 @@ import UrlTool
 
 class PathTool:
     
-    _projectRoot = "../../../"
+    def __init__(self):
+        projectRoot = "../../../"
+        
+        self._directoriesPath = projectRoot + "static/0-Directories/"
+        self._feedListsPath = projectRoot + "static/1-Feedlists/"
+        self._feedsPath = projectRoot + 'static/2-Feeds'
+        self._imagesPath = projectRoot + "web/img/"
     
-    _directoriesPath = _projectRoot + "static/0-Directories/"
-    _feedListsPath = _projectRoot + "static/1-Feedlists/"
-    _feedsPath = _projectRoot + 'static/2-Feeds'
-    _imagesPath = _projectRoot + "web/img/"
+        self._ut = UrlTool.UrlTool()
 
-    _ut = UrlTool()
-
-    def makeSurePathExists(self, path):
+    def ensurePathExists(self, path):
         """Makes sure a given path exists.
         Tries to create the given path, handles eventual failure.
         See: http://stackoverflow.com/questions/600268/mkdir-p-functionality-in-python"""
@@ -45,9 +46,11 @@ class PathTool:
     def getFeedListsPath(self):
         return self._feedListsPath
 
-    def getFeedListPath(self, domain):
+    def getFeedListPath(self, url):
         """Derives the path of a feedlist from a given domain."""
-        feedListPath = self.getFeedListsPath() + domain + ".json"
+        domain = self._ut.getDomain(url)
+        feedListsPath = self.getFeedListsPath()
+        feedListPath = feedListsPath + domain + ".json"
         return feedListPath
 
     def getFeedPath(self, feedUrl):

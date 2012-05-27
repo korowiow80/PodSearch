@@ -6,13 +6,21 @@ from scrapy.http import Request
 from scrapy.selector import HtmlXPathSelector
 
 from Scrapy.items import PodcastFeedItem
-from Scrapy.spiders import SpiderTool
+
+from PathTool import PathTool
+from UrlTool import UrlTool
+
 
 class Podcast_com(BaseSpider):
+    
     start_urls = ["http://www.podcast.com/sitemap.xml"]
 
-    st = SpiderTool.SpiderTool()
-    baseUrl, feedListFile, name, prefix = SpiderTool.SpiderTool().derive(start_urls[0])
+    _ut = UrlTool()
+    _pt = PathTool()
+
+    _baseUrl = _ut.getBaseUrl(start_urls[0])
+    name = _ut.getSpiderName(start_urls[0]) # needs to be public for scrapy
+    feedListPath = _pt.getFeedListPath(start_urls[0])
 
     def parse(self, response):        
         text = body_or_str(response)
@@ -24,10 +32,7 @@ class Podcast_com(BaseSpider):
             yield Request(url, callback=self.parse_sitemapPage)
             break
 
-    def parse_sitemapPage(self, response):
-        filename = self.prefix + response.url.split("/")[-1:][0]
-        open(filename, 'wb').write(response.body)
-        
+    def parse_sitemapPage(self, response):       
         text = body_or_str(response)
 
         nodename = 'loc'
@@ -38,9 +43,6 @@ class Podcast_com(BaseSpider):
             break
 
     def parse_podcastPage(self, response):
-        filename = self.prefix + response.url.split("/")[-1:][0]
-        open(filename, 'wb').write(response.body)
-        
         hxs = HtmlXPathSelector(response)
 
         item = PodcastFeedItem()
