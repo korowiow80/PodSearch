@@ -199,7 +199,7 @@
 	<p class="foot1">
 
 		<a href="feed:http://www.barnumproductions.com/feed/">Entries (RSS)</a>
-		<!-- 25 queries. 2.660 seconds. -->
+		<!-- 25 queries. 0.360 seconds. -->
 	</p>
 <br><br>
 
@@ -219,4 +219,4 @@
 Minified using disk: basic
 Page Caching using disk: enhanced
 
-Served from: www.barnumproductions.com @ 2012-05-26 13:51:23 -->
+Served from: www.barnumproductions.com @ 2012-05-26 13:59:54 -->
