@@ -18,7 +18,7 @@ webspace.gadgets = {"isGadgetDirectoryEnabled":true,"baseUri":"/site/wthpodcast/
 
 webspace.user = {"uid":"","renderMobile":false,"primaryEmail":"guest","sessionIndex":"","namespaceUser":false,"displayNameOrEmail":"guest","namespace":"","hasAdminAccess":false,"guest_":true,"keyboardShortcuts":true,"domain":"","hasWriteAccess":false,"dasherUser":false,"userName":"guest"};
 
-webspace.page = {"canDeleteWebspace":null,"locale":"en","state":"","wuid":"wuid:gx:6874cc3ddb726664","pageInheritsPermissions":null,"timeZone":"America/Los_Angeles","properties":{},"type":"text","canChangePath":true,"parentWuid":"wuid:gx:1acf2ebb77765adc","revision":0,"title":"Adult Content Warning","isRtlLocale":false,"bidiEnabled":false,"siteLocale":"en","name":"matureConfirm","path":"/system/pages/matureConfirm","isSiteRtlLocale":false,"parentPath":"/system/pages"};
+webspace.page = {"canDeleteWebspace":null,"locale":"en","state":"","wuid":"wuid:gx:37370f53fd9863a2","pageInheritsPermissions":null,"timeZone":"America/Los_Angeles","properties":{},"type":"text","canChangePath":true,"parentWuid":"wuid:gx:4427a7573d315493","revision":0,"title":"Adult Content Warning","isRtlLocale":false,"bidiEnabled":false,"siteLocale":"en","name":"matureConfirm","path":"/system/pages/matureConfirm","isSiteRtlLocale":false,"parentPath":"/system/pages"};
 webspace.page.breadcrumbs = [{"title":"[Untitled]","dir":"ltr","path":"/site/wthpodcast/system","deleted":false},{"title":"[Untitled]","dir":"ltr","path":"/site/wthpodcast/system/pages","deleted":false},{"title":"Mature_Adult_Content_Warning","dir":"ltr","path":"/site/wthpodcast/system/pages/matureConfirm","deleted":false}];
 
 
