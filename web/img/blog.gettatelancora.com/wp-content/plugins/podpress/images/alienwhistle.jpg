@@ -202,7 +202,7 @@ var podPressText_HidePlayer = "Hide Player";
 		</li><li id="subscribe-me" class="widget subscribe_me_display_widget">
 <div class="tile sem_subscribe_me">
 <div class="tile_body">
-<div class="subscribe_services" id="subscribe_me_448a40bc1ef1e023f9b9cc91ec2b4b81"><div class="subscribe_service"><a href="http://blog.gettatelancora.com/feed/" style="background: url(http://blog.gettatelancora.com/wp-content/plugins/sem-subscribe-me/img/rss.png) center left no-repeat; padding-left: 18px;">RSS Feed</a></div>
+<div class="subscribe_services" id="subscribe_me_d7590dc4b1be24adf118b8bcecdbb0e7"><div class="subscribe_service"><a href="http://blog.gettatelancora.com/feed/" style="background: url(http://blog.gettatelancora.com/wp-content/plugins/sem-subscribe-me/img/rss.png) center left no-repeat; padding-left: 18px;">RSS Feed</a></div>
 </div>
 </div>
 </div>
@@ -278,7 +278,7 @@ alt=' play "Mankind, the Earth and the Universe"' border='0' /></a><br />
 </div>
 <!-- end sidebar -->
 
-<p class="credit"><!--23 queries. 0.168 seconds. --> <cite>Powered by <a href='http://wordpress.org/' title='Powered by WordPress, state-of-the-art semantic personal publishing platform.'><strong>WordPress</strong></a></cite></p>
+<p class="credit"><!--23 queries. 0.166 seconds. --> <cite>Powered by <a href='http://wordpress.org/' title='Powered by WordPress, state-of-the-art semantic personal publishing platform.'><strong>WordPress</strong></a></cite></p>
 
 </div>
 

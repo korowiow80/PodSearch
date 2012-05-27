@@ -291,7 +291,7 @@ var pageTracker = _gat._getTracker("UA-XXXXXX-X");
 pageTracker._initData();
 pageTracker._trackPageview();
 </script>
-<!-- AdSense Manager v4.0.3 (0.778 seconds.) -->
+<!-- AdSense Manager v4.0.3 (0.998 seconds.) -->
 <div id="footer" class="clearfix">
 <p class="alignright">
   <a href="#home" class="top-link">Back to Top</a>
