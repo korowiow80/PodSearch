@@ -208,6 +208,17 @@ speed: 'normal'
 			</style>
 <link rel="stylesheet" type="text/css" href="http://www.onlinegamingradio.com/wp2/wp-content/plugins/social-media-widget/social_widget.css" />
 
+<!-- tracker added by Ultimate Google Analytics plugin v1.6.0: http://www.oratransplant.nl/uga -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-23104976-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+
 <!--Plugin WP Missed Schedule 2011.0920.2011 Active-->
 </head>
 <body class="error404">
@@ -338,7 +349,7 @@ YES, you can earn stickers by checking in.. Real Life Stickers! Earn 20 or more 
 		Online Gaming Radio 2010&copy; - Theme by <a href="http://kithicor.org">Jethal Silverwing</a>
 		<br /><a href="http://www.onlinegamingradio.com/feed/">Entries (RSS)</a>
 		and <a href="http://onlinegamingradio.disqus.com/latest.rss">Comments (RSS)</a>.
-		<!-- 33 queries. 0.862 seconds. -->
+		<!-- 33 queries. 0.965 seconds. -->
 		<br><br><br><br><br>
 	</p>
 </div>
@@ -355,17 +366,6 @@ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async
 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
 })();
-</script>
-
-<!-- tracker added by Ultimate Google Analytics plugin v1.6.0: http://www.oratransplant.nl/uga -->
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-var pageTracker = _gat._getTracker("UA-23104976-1");
-pageTracker._initData();
-pageTracker._trackPageview();
 </script>
 
 <!--Plugin WP Missed Schedule 2011.0920.2011 Active-->
