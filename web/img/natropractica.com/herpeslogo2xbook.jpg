@@ -23,7 +23,7 @@ webspace.gadgets = {"isGadgetDirectoryEnabled":true,"baseUri":"/system/app/pages
 
 webspace.user = {"uid":"","renderMobile":false,"primaryEmail":"guest","sessionIndex":"","namespaceUser":false,"displayNameOrEmail":"guest","namespace":"","hasAdminAccess":false,"guest_":true,"keyboardShortcuts":true,"domain":"","hasWriteAccess":false,"dasherUser":false,"userName":"guest"};
 
-webspace.page = {"canDeleteWebspace":null,"locale":"en","state":"","wuid":"wuid:gx:70babc6717a33017","pageInheritsPermissions":null,"timeZone":"America/Los_Angeles","properties":{},"type":"text","canChangePath":true,"parentWuid":"wuid:gx:4ee87f575193884f","revision":0,"title":"Page not found","isRtlLocale":false,"bidiEnabled":false,"siteLocale":"en","name":"NoNodesFound","path":"/system/errors/NoNodesFound","isSiteRtlLocale":false,"parentPath":"/system/errors"};
+webspace.page = {"canDeleteWebspace":null,"locale":"en","state":"","wuid":"wuid:gx:3ec3d65aac6ce2d9","pageInheritsPermissions":null,"timeZone":"America/Los_Angeles","properties":{},"type":"text","canChangePath":true,"parentWuid":"wuid:gx:f26b8077e0dba9d","revision":0,"title":"Page not found","isRtlLocale":false,"bidiEnabled":false,"siteLocale":"en","name":"NoNodesFound","path":"/system/errors/NoNodesFound","isSiteRtlLocale":false,"parentPath":"/system/errors"};
 webspace.page.breadcrumbs = [{"title":"[Untitled]","dir":"ltr","path":"/system","deleted":false},{"title":"[Untitled]","dir":"ltr","path":"/system/errors","deleted":false},{"title":"System_Error_Page_Not_Found","dir":"ltr","path":"/system/errors/NoNodesFound","deleted":false}];
 
 
