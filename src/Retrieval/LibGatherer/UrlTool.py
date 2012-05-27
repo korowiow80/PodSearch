@@ -1,8 +1,8 @@
 import urlparse
 import tldextract
 
-
 class UrlTool:
+    
     def getAbsoluteUrl(self, relativeUrl, baseUrl):
         """Returns the absolute URL for an relative URL and a baseurl."""  
         if relativeUrl.startswith('http'): return relativeUrl
@@ -10,7 +10,7 @@ class UrlTool:
     
     def getBaseUrl(self, url):
         """Derives the baseUrl from a given url."""
-        o = urlparse(url)
+        o = urlparse.urlparse(url)
         baseUrl = o.scheme + '://' + o.netloc
         return baseUrl
 
@@ -30,9 +30,10 @@ class UrlTool:
             domain = ".".join(extract[1:])
         return domain
     
-    def getSpiderNameFromDomain(self, domain):
+    def getSpiderName(self, url):
         """Derives the spider name from the given domain and fullDomain.
         By general convention the first letter of a class gets capitalized."""
+        domain = self.getDomain(url)
         try:
             spiderName = domain[0].upper() + domain.replace('.', '_')[1:]
         finally:

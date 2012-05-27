@@ -3,13 +3,21 @@ from scrapy.http import Request
 from scrapy.selector import HtmlXPathSelector
 
 from Scrapy.items import PodcastFeedItem
-from Scrapy.spiders import SpiderTool
+
+from PathTool import PathTool
+from UrlTool import UrlTool
+
 
 class Podfeed_net(BaseSpider):
+    
     start_urls = ["http://www.podfeed.net/site_map.asp"]
 
-    st = SpiderTool.SpiderTool()
-    baseUrl, feedListFile, name, prefix = st.derive(start_urls[0])
+    _ut = UrlTool()
+    _pt = PathTool()
+
+    _baseUrl = _ut.getBaseUrl(start_urls[0])
+    name = _ut.getSpiderName(start_urls[0]) # needs to be public for scrapy
+    feedListPath = _pt.getFeedListPath(start_urls[0])
 
     items = []
 

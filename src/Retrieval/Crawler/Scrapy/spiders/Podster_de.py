@@ -1,18 +1,23 @@
-import re
-
 from scrapy.spider import BaseSpider
-from scrapy.utils.response import body_or_str
 from scrapy.http import Request
 from scrapy.selector import HtmlXPathSelector
 
 from Scrapy.items import PodcastFeedItem
-from Scrapy.spiders import SpiderTool
+
+from PathTool import PathTool
+from UrlTool import UrlTool
+
 
 class Podster_de(BaseSpider):
+
     start_urls = ["http://podster.de/tag/system:all"]
     
-    st = SpiderTool.SpiderTool()
-    baseUrl, feedListFile, name, prefix = st.derive(start_urls[0])
+    _ut = UrlTool()
+    _pt = PathTool()
+
+    _baseUrl = _ut.getBaseUrl(start_urls[0])
+    name = _ut.getSpiderName(start_urls[0]) # needs to be public for scrapy
+    feedListPath = _pt.getFeedListPath(start_urls[0])
 
     def parse(self, response):
         yield Request(response.url, callback=self.parse_sitemapPage)
@@ -35,11 +40,13 @@ class Podster_de(BaseSpider):
         hxs = HtmlXPathSelector(response)
         podcastTitleXpath = "//div[@id='caption-header']"
         podcastUrlXpath = "/html/body/div[@id='god_container']/div[@id='main_container']/div[@id='content']/div[@class='sidecol left large']/div[@class='box']/div[@class='boxcontent']/a[2]"
-                
-        item = PodcastFeedItem()
-        item['title'] = hxs.select(podcastTitleXpath).extract()[0]
-        item['link'] = hxs.select(podcastUrlXpath).extract()[0]
         
-        print item['title'], item['link']
-        
+        try:
+            item = PodcastFeedItem()
+            item['title'] = hxs.select(podcastTitleXpath).extract()[0]
+            item['link'] = hxs.select(podcastUrlXpath).extract()[0]
+            print item['title'], item['link']
+        except IndexError:
+            return
+
         yield item

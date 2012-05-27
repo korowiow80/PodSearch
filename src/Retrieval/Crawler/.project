@@ -3,6 +3,8 @@
 	<name>PodSearch Crawler</name>
 	<comment></comment>
 	<projects>
+		<project>Gatherer</project>
+		<project>PodSearch Downloader</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

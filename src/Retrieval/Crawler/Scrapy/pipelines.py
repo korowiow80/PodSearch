@@ -9,15 +9,13 @@ from scrapy.contrib.exporter import JsonItemExporter # TODO use JsonLinesItemExp
 
 class FeedListPipeline(object):
 
-    feedListDir = "../../../static/1-Feedlists/"
-
     def __init__ (self):
         dispatcher.connect(self.spider_opened, signals.spider_opened)
         dispatcher.connect(self.spider_closed, signals.spider_closed)
         self.files = {}
 
     def spider_opened(self, spider):
-        f = open(spider.feedListFile, 'w+b')
+        f = open(spider.feedListPath, 'w+b')
         self.files[spider] = f
         self.exporter = JsonItemExporter(f)
         self.exporter.start_exporting()
