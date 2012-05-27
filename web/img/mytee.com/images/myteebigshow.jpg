@@ -1,0 +1,76 @@
+<p align="justify"></p>
+<html>
+  <head>
+    <link rel="stylesheet" href="/styles.css">
+    <title>Mytee Products, Inc.</title>
+    
+  </head>
+  <body >
+<div id="wrapper">
+  <table width="1000" cellpadding="0" cellspacing="0" border="0" align="center">
+    <tr><td valign="top" width="100">
+  <div style="position:relative; left:0px; top:330px; line-height: 100%" width="200" class="menu_dk">
+  
+      
+    </div>
+  </td>
+    <td>
+     <table width="800" cellpadding="0" cellspacing="0" border="0" align="center">
+      <tr>
+  <td valign="top" align="center">
+    <table border="0" width="100%">
+      <tr><td width="200">
+        </td><td align="center"><a href="/"><img src="/images/logo_sm.gif" border="0" /></a></td><td width="200" align="right"><form action="/search.php">
+               <span style="padding-right: 80px;">Product Search</span><br>
+               <form action="/search.php" method="POST">
+               <input type="text" name="search" size="20"> <input type="submit" value="Go" name="doSubmit">
+             </form>
+          </td></tr>
+           </table>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" align="center" class="p">
+        <table width="100%"><tr><td align="center" class="menult_lg"><a href="/products/index.php?cat=carpet">CARPET CLEANING</a></td><td align="center" style="font: 15pt Arial;">|</td><td align="center" class="menudk_lg"><a href="/products/index.php?cat=janitorial">JANITORIAL</a></td><td align="center" style="font: 15pt Arial;">|</td><td align="center" class="menult_lg"><a href="/products/index.php?cat=water_damage">FLOOD RESTORATION</a></td><td align="center" style="font: 15pt Arial;">|</td><td align="center" class="menudk_lg"><a href="/products/index.php?cat=auto">AUTOMOTIVE</a></td></tr></table>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" align="center">
+
+            
+    <div style="height: 135px; margin-bottom: 0px; width: 800px; background-image:url(/images/header_2.jpg)"></div>
+    <div style="position:relative; left:0px; top:-28px; height:8px; width:100%;">
+    <table border="0"><tr><td style="text-align:center; position:absolute; left:0px; top:0px;" class="bg b w" width="315px"></td></tr></table>
+    </div>
+       
+    <div style="width: 800px; border-width: 1px; padding: 0px; border-style: dotted; border-color: gray;">
+    
+
+       
+<!-- <div style="width: 800px; border-width: 2px; padding: 0px; border-style: dotted; border-color: gray;">
+<p style="margin-left: 50px; padding-top: 10px; margin-right:50px; text-align:justify;" class="sp">
+-->
+<p class="bml bmr lft">	
+	<br><br><Br><Br>
+<span class="b">Sorry, this page is not currently available.  Please check back soon.</span>
+<br><br><Br><Br><br><Br>
+</p>
+
+</div>
+     </td>
+      </tr>
+      <td align="center" style="padding-top:15px;">
+        <table>
+          <tr><td class="menu_dk s"><a href="/about.php">ABOUT MYTEE</a></td><td> | </td><td class="menu_lt s"><a href="/media.php">MEDIA</a></td><td> | </td><td class="menu_dk s"><a href="/help/request.php">HELP</a></td><td> | </td><td class="menu_lt s"><a href="/legal.php">LEGAL</a></td><td> | </td><td class="menu_dk s"><a href="/contact.php">CONTACT US</a></td><td> | </td><td class="menu_lt s"><a href="/employment.php">EMPLOYMENT</a></td><td> | </td><td class="menu_dk s"><a href="/distributors/index.php">LOGIN</a></td><td> | </td><td class="menu_lt s"><a href="/products/which_machine.php">WHICH MACHINE IS RIGHT FOR ME?</a></td><td> | </td><td class="menu_dk s"><a href="/distributors.php">FIND A DISTRIBUTOR</a></td><td> | </td><td class="menu_lt s"><a href="/products/index.php?cat=parts">PARTS</a></td></tr>
+        </table>
+      </td>
+      </tr>
+	    <tr><td  class="lg" align="center" style="padding-top:10px;">&copy; 2012 Mytee Products, Inc. - All Rights Reserved</span></td>
+      </tr>
+    </table>   
+   </td><td width="100">&nbsp;&nbsp;</td>
+   </tr>
+   </table> 
+  </div>
+  </body>
+</html>
