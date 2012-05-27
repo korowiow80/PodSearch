@@ -33,7 +33,7 @@ jQuery.extend(Drupal.settings, { "basePath": "/", "fivestar": { "titleUser": "Yo
  <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-58f6c2a8f93aef1e2a0e3760c50ce752" value="form-58f6c2a8f93aef1e2a0e3760c50ce752"  />
+<input type="hidden" name="form_build_id" id="form-6453721d9489970e9c0589c075e79576" value="form-6453721d9489970e9c0589c075e79576"  />
 <input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
 </div>
 
@@ -63,7 +63,7 @@ jQuery.extend(Drupal.settings, { "basePath": "/", "fivestar": { "titleUser": "Yo
 <input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
 </div>
 </div>
-<input type="hidden" name="form_build_id" id="form-a3561eb4976d2033cad356473536be89" value="form-a3561eb4976d2033cad356473536be89"  />
+<input type="hidden" name="form_build_id" id="form-d4cf32d1f1f9a10667c114546e5639cb" value="form-d4cf32d1f1f9a10667c114546e5639cb"  />
 <input type="hidden" name="form_id" id="edit-search-form" value="search_form"  />
 
 </div></form>
