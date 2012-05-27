@@ -3,14 +3,14 @@
 import os
 import feedparser
 
-from DownloadTool import DownloadTool
+from DownloaderTool import DownloaderTool
 
 
 class ImageDownloader:
     projectRoot = '../../../'
 
     def __init__ (self):
-        self.dt = DownloadTool()
+        self.dt = DownloaderTool()
 
     def run(self):
         relativeFeedFilePaths = self.getAllFeedFilePaths()
@@ -48,11 +48,9 @@ class ImageDownloader:
     def parsePodcast(self, podcast):
         try:
             podcast = feedparser.parse(podcast)
+            return podcast
         except (UnicodeDecodeError, IndexError):
             print "ImageDownloader.parseDownload: WARN: Podcast '%s' contains undecodable characters." % podcast
-            return
-
-        return podcast
 
     def downloadImage (self, imgUrl):
         self.dt.download("image", imgUrl)
