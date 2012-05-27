@@ -83,9 +83,7 @@ class DownloadTool:
         relativePath = url[len(baseUrl):]
         return relativePath
 
-def _download (ressourceType, ressourceUrl, ressourceTarget):
-    # TODO multiprocess the actual downloading
-    
+def _download (ressourceType, ressourceUrl, ressourceTarget): 
     hl2 = httplib2.Http(cache = ".cache", timeout = 5)
     
     try:
@@ -100,7 +98,6 @@ def _download (ressourceType, ressourceUrl, ressourceTarget):
         pass
 
 class Threader:
-    
     # utility - spawn a thread to execute target for each args
     def run_parallel_in_threads(self, target, args_list):
         result = Queue.Queue()
