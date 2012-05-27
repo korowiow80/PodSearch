@@ -64,7 +64,7 @@ var podPressMP3PlayerWrapper = false;
 var podPress_cortado_signed = false;
 var podPressOverwriteTitleandArtist = false;
 var podPressHTML5 = true;
-var podPressHTML5sec = "e0d109a231";
+var podPressHTML5sec = "659bd6fc39";
 var podPressPT = true;
 var podPressHTML5_showplayersdirectly = false;
 var podPressText_PlayNow = "Play Now";
@@ -291,7 +291,7 @@ var pageTracker = _gat._getTracker("UA-XXXXXX-X");
 pageTracker._initData();
 pageTracker._trackPageview();
 </script>
-<!-- AdSense Manager v4.0.3 (0.998 seconds.) -->
+<!-- AdSense Manager v4.0.3 (1.448 seconds.) -->
 <div id="footer" class="clearfix">
 <p class="alignright">
   <a href="#home" class="top-link">Back to Top</a>
