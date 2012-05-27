@@ -155,7 +155,7 @@ var podPressText_HidePlayer = "Hide Player";
 		</div><div id="nav_menu-3" class="moduletable"><div class="menu-top-menu-container"><ul id="menu-top-menu" class="menu"></ul></div></div>						</div>
 					
 											<div id="s5_search">
-							<div id="search-3" class="moduletable"><form method="get" id="searchform" action="http://yourabundantlife.org/" ><input type="hidden" name="PHPSESSID" value="06e5c2001029b022faeebd204130de30" />
+							<div id="search-3" class="moduletable"><form method="get" id="searchform" action="http://yourabundantlife.org/" ><input type="hidden" name="PHPSESSID" value="c8e5cfb8575bcbf4274e6f1402a7013a" />
 	<div><label class="screen-reader-text" for="s">Search for:</label>
 	<input type="text" value="" name="s" id="s" />
 	<input type="submit" id="searchsubmit" value="Search" />
@@ -190,7 +190,7 @@ var podPressText_HidePlayer = "Hide Player";
 <!-- Form -->
 
 <div style="width:80%;">
-<form name="form1" action=""><input type="hidden" name="PHPSESSID" value="06e5c2001029b022faeebd204130de30" />
+<form name="form1" action=""><input type="hidden" name="PHPSESSID" value="c8e5cfb8575bcbf4274e6f1402a7013a" />
 
 <div>Address:
 <input style="width:100%" class="inputbox" name="saddr" type="text" /></div>
@@ -308,7 +308,7 @@ var podPressText_HidePlayer = "Hide Player";
 
 	<div id="post-0" class="post error404 not-found">
 		<div class="s5_b_modwrap"><table class="contentpaneopen"><tbody><tr><td class="contentheading" width="100%">			Not Found		</td></tr></tbody></table><div class="contentpaneopen"><!--%date_block%--><div style="text-transform:none;"><!--%thumb_block%-->				<p>Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post.</p>
-			<form method="get" id="searchform" action="http://yourabundantlife.org/" ><input type="hidden" name="PHPSESSID" value="06e5c2001029b022faeebd204130de30" />
+			<form method="get" id="searchform" action="http://yourabundantlife.org/" ><input type="hidden" name="PHPSESSID" value="c8e5cfb8575bcbf4274e6f1402a7013a" />
 	<div><label class="screen-reader-text" for="s">Search for:</label>
 	<input type="text" value="" name="s" id="s" />
 	<input type="submit" id="searchsubmit" value="Search" />
