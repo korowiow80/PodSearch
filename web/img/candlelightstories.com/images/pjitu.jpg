@@ -1,0 +1,681 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+
+<head profile="http://gmpg.org/xfn/11">
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="meta" href="http://www.candlelightstories.com/labels.rdf" type="application/rdf+xml" title="ICRA labels" />
+<meta http-equiv="pics-Label" content='(pics-1.1 "http://www.icra.org/pics/vocabularyv03/" l gen true for "http://candlelightstories.com" r (n 0 s 0 v 1 l 0 oa 0 ob 0 oc 0 od 1 oe 0 of 0 og 1 oh 0 c 1) gen true for "http://www.candlelightstories.com" r (n 0 s 0 v 1 l 0 oa 0 ob 0 oc 0 od 1 oe 0 of 0 og 1 oh 0 c 1))' />
+
+<title>Not Found - Candlelight Stories</title>
+<meta name="robots" content="NOODP">
+<meta name="description" content="Stories, movies, games, books, audio, news and opinion. We try to mix great things past with the best of the new.">
+<meta name="keywords" content="stories, fiction, children's stories, children's story, children's books, film, games, movies, audio, audiobooks, storybooks, story book, free stories, short stories, books, children, kids, family, story time, stories for children, illustrated stories, story, audio, audio stories, fairy tales, games, pirate games, quest games, online adventure games, online books, writers, authors, publishing, online publishing, book publishing, publishers, kids audiobooks, kids audio, kids tapes, tapes, animation, movies, educational, learning, literature, opinion, arts, reviews, podcast">
+<link REL="SHORTCUT ICON" HREF="http://candlelightstories.com/favicon.ico">
+<meta name="verify-v1" content="4HP1TBqu31wKBkL148SZIzx0bpcF2Zx9yHGnmEBKLsI=" />
+<link rel="stylesheet" href="http://www.candlelightstories.com/Blog/wp-content/themes/zindi/style.css" type="text/css" media="screen" />
+
+<link rel="alternate" type="application/rss+xml" title="Candlelight Stories RSS Feed" href="http://www.candlelightstories.com/feed/" />
+<link rel="pingback" href="http://www.candlelightstories.com/Blog/xmlrpc.php" />
+
+<base href="http://www.candlelightstories.com" />
+
+<style type="text/css">
+#info {background:#f8f8f8; border:0;}
+
+.menu {background:#1d5b8d; height:27px; margin:0px 0px 0px 0px; width:920px; padding:0px 0px 0px 0px; }
+/* IE5.5 fix */
+* html .menu {width:921px; w\idth:920px;}
+.menu ul {padding:0;margin:0;list-style-type:none;}
+.menu ul ul {width:220px;}
+/* position drop-down menu */
+.menu li {float:left;position:relative;}
+
+
+/* top level */
+
+.menu a, .menu a:visited {display:block;font-size:11px;text-decoration:none; color:#fff; height:25px; border:1px solid #000; border-width:1px 1px 1px 0px; background:#1d5b8d; padding-left:10px; padding-right:10px; line-height:25px; font-weight:bold;}
+
+.current_page_item a, .current_page_item a:visited {display:block;font-size:11px;text-decoration:none; color:#fff; height:25px; border:1px solid #000; border-width:1px 1px 1px 0px; background:#b7d186; padding-left:10px; padding-right:10px; line-height:25px; font-weight:bold;}
+
+/* IE5 fix */
+* html .menu a, * html .menu a:visited {width:50px; w\idth:48px;}
+
+
+/* second level background */
+.menu ul ul a.drop, .menu ul ul a.drop:visited {background:#d4d8bd;}
+/* style the second level hover */
+.menu ul ul a.drop:hover{background:#c9ba65;}
+.menu ul ul :hover > a.drop {background:#c9ba65;}
+/* style the third level background */
+.menu ul ul ul a, .menu ul ul ul a:visited {background:#e2dfa8;}
+/* style the third level hover */
+.menu ul ul ul a:hover {background:#b2ab9b;}
+
+
+/* hide the sub levels */
+.menu ul ul {visibility:hidden;position:absolute;height:0;top:26px;left:-1px; width:220px;border-top:1px solid #000;}
+/* another hack for IE5.5 */
+* html .menu ul ul {top:25px;t\op:26px;}
+
+/* position third level menu */
+.menu ul ul ul{left:80px; top:-1px; width:80px;}
+
+/* position the third level flyout menu for left flyout */
+.menu ul ul ul.left {left:-80px;}
+
+/* style table and fix for IE */
+.menu table {position:absolute; top:0; left:0; border-collapse:collapse;;}
+
+/* second level links */
+.menu ul ul a, .menu ul ul a:visited {background:#d4d8bd; color:#000; height:auto; line-height:1em; padding:5px 10px; width:220px;border-width:0 1px 1px 1px;}
+/* Hack for IE5.5 */
+* html .menu ul ul a, * html .menu ul ul a:visited {width:220px;w\idth:198px;}
+
+/* style top level hovering */
+.menu a:hover, .menu ul ul a:hover{color:#000; background:#b7d186;}
+.menu :hover > a, .menu ul ul :hover > a {color:#000; background:#b7d186;}
+
+/* make second level visible on hover over first level list/link */
+.menu ul li:hover ul,
+.menu ul a:hover ul{visibility:visible; }
+/* keep third level hidden when you hover over first level list */
+.menu ul :hover ul ul{visibility:hidden;}
+/* make third level visible when you hover over second level list */
+.menu ul :hover ul :hover ul{ visibility:visible;}
+
+
+</style>
+
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.candlelightstories.com/Blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.candlelightstories.com/Blog/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.3.2" />
+<meta name="pinterest" content="nopin" /></head>
+<body><script type="text/javascript">
+//<![CDATA[
+try{(function(a){var b="http://",c="www.candlelightstories.com",d="/cdn-cgi/cl/",e="8686d01a7a58f73084e41e2db1a6ba96404a2107.gif",f=new a;f.src=[b,c,d,e].join("")})(Image)}catch(e){}
+//]]>
+</script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=141087052616011";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div id="backwhite">
+<div id="backblack">
+
+<div id="header" onclick="location.href='http://www.candlelightstories.com';" style="cursor: pointer;">
+  
+    <div class="logo">
+    <span></span></div>
+</div>
+<div class="clear"></div>
+
+
+
+<div class="menu">
+<ul>
+
+<li ><a href="http://www.candlelightstories.com">Home</a></li>
+
+<li ><a href="http://www.candlelightstories.com/games/">Games<!--[if IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+	<ul>
+	  <li><a href="http://www.candlelightstories.com/games/astro-blaster/">Astro-Blaster</a></li>
+	  <li><a href="http://www.candlelightstories.com/games/beanstalk-climb/">Beanstalk Climb</a></li>
+          <li><a href="http://www.candlelightstories.com/games/build-pinocchio/">Build Pinocchio</a></li>
+          <li><a href="http://www.candlelightstories.com/games/diamond-mine-arcade/">Diamond Mine Arcade</a></li>
+          <li><a href="http://www.candlelightstories.com/games/frankenstein-the-creature-must-die/">Frankenstein - The Creature Must Die!</a></li>
+          <li><a href="http://www.candlelightstories.com/games/magic-quest/">Magic Quest RPG</a></li>
+          <li><a href="http://www.candlelightstories.com/games/magic-quest-scores/">Magic Quest Top Scores</a></li>
+          <li><a href="http://www.candlelightstories.com/games/robot-lab/">Robot Lab</a></li>
+          <li><a href="http://www.candlelightstories.com/games/sea-pirates/">Sea Pirates</a></li>
+          <li><a href="http://www.candlelightstories.com/games/stellar-speller/">Stellar Speller</a></li>
+          <li><a href="http://www.candlelightstories.com/games/tomb-of-the-mummy/">Tomb of the Mummy</a></li>
+          <li><a href="http://www.candlelightstories.com/games/tomb-of-the-mummy-ii/">Tomb of the Mummy II</a></li>
+          <li><a href="http://www.candlelightstories.com/games/undersea-abc/">Undersea ABC</a></li>
+          <li><a href="http://www.candlelightstories.com/games/vampire-hunter/">Vampire Hunter</a></li>
+          <li><a href="http://www.candlelightstories.com/games/zobar-the-ancient-mind-reader/">Zobar the Mind Reader</a></li>
+          <li><a href="http://www.candlelightstories.com/games/zombie-swarm/">Zombie Swarm</a></li>
+	</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+<li ><a href="http://www.candlelightstories.com/movies/">Movies<!--[if IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+	<ul>
+	  <li><a href="http://www.candlelightstories.com/movies/amazing-alien-as/">Amazing Alien A's</a></li>
+	  <li><a href="http://www.candlelightstories.com/movies/do-not-find-me/">Do Not Try to Find Me</a></li>
+	  <li><a href="http://www.candlelightstories.com/movies/draculas-guest-part-1-of-the-vampire-films/">Dracula's Guest</a></li>
+	  <li><a href="http://www.candlelightstories.com/movies/draculas-message-part-2-of-the-vampire-films/">Dracula's Message</a></li>
+	  <li><a href="http://www.candlelightstories.com/movies/draculas-prisoner-part-2-of-the-vampire-films/">Dracula's Prisoner</a></li>
+	  <li><a href="http://www.candlelightstories.com/movies/larry-lobster-abc/">Larry Lobster's ABC</a></li>
+	  <li><a href="http://www.candlelightstories.com/movies/stone-age-robot-episode-1/">Stoneage Robot 1</a></li>
+	  <li><a href="http://www.candlelightstories.com/movies/stone-age-robot-episode-2/">Stoneage Robot 2</a></li>
+	  <li><a href="http://www.candlelightstories.com/movies/the-giant-and-the-tailor/">The Giant and the Tailor</a></li>
+	  <li><a href="http://www.candlelightstories.com/movies/the-re-gen-project/">The Re-Gen Project</a></li>
+	  <li><a href="http://www.candlelightstories.com/movies/velocity/">Velocity</a></li>
+	  <li><a href="http://www.candlelightstories.com/movies/wise-man-of-forest/">Wise Man of the Forest</a></li>
+	</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+<li ><a href="http://www.candlelightstories.com/audio/">Audio<!--[if IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+	<ul>
+          <li><a href="http://www.candlelightstories.com/audio/childrens-audio-stories/">Children's Audio Stories</a></li>
+          <li><a href="http://www.candlelightstories.com/pinocchio-audio-novel/">Pinocchio</a></li>
+          <li><a href="http://www.candlelightstories.com/audio/pirate-jack/">Pirate Jack</a></li>
+	  <li><a href="http://www.candlelightstories.com/audio/princess-of-mars/">A Princess of Mars</a></li>
+	  <li><a href="http://www.candlelightstories.com/robinson-crusoe-audio-novel/">Robinson Crusoe</a></li>
+          <li><a href="http://www.candlelightstories.com/stuttering-stan-takes-a-stand/">Stuttering Stan Takes a Stand</a></li>
+	</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+<li ><a href="http://www.candlelightstories.com/storybooks/">Storybooks<!--[if IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+	<ul>
+	  <li><a href="http://www.candlelightstories.com/storybooks/all-about-pirates/">All About Pirates</a></li>
+	  <li><a href="http://www.candlelightstories.com/storybooks/the-artie-knapp-library/">The Artie Knapp Library</a></li>
+          <li><a href="http://www.candlelightstories.com/storybooks/childrens-story-collection/">Children's Story Collection</a></li>
+	  <li><a href="http://www.candlelightstories.com/storybooks/grimms-fairy-tales/">Grimms' Fairy Tales</a></li>
+	  <li><a href="http://www.candlelightstories.com/storybooks/hans-christian-andersen-stories/">Hans Christian Andersen Stories</a></li>
+	  <li><a href="http://www.candlelightstories.com/storybooks/kids-mystery-contest/">Kids' Mystery Contest</a></li>
+	  <li><a href="http://www.candlelightstories.com/storybooks/legends-of-king-arthur/">Legends of King Arthur</a></li>
+	  <li><a href="http://www.candlelightstories.com/storybooks/storybook-sally-saves-christmas/">Sally Saves Christmas</a></li>
+	  <li><a href="http://www.candlelightstories.com/storybooks/the-arabian-nights/">The Arabian Nights</a></li>
+	</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+<li ><a href="http://www.candlelightstories.com/fiction/">Fiction<!--[if IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+	<ul>
+	  <li><a href="http://www.candlelightstories.com/crime-stories/">Crime Stories</a></li>
+          <li><a href="http://www.candlelightstories.com/short-stories/">Short Fiction</a></li>
+	  <li><a href="http://www.candlelightstories.com/weird-tales/">Weird Tales</a></li>
+	</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+<li ><a href="http://www.candlelightstories.com/poetry/">Poetry</a></li>
+
+</li>
+<li ><a href="http://www.candlelightstories.com/store/">Store</a></li>
+
+</li>
+<li ><a href="http://www.candlelightstories.com/about/">About<!--[if IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+        <ul>
+	  <li><a href="http://www.candlelightstories.com/about/about-our-content/">About Our Content</a></li>
+	</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+<li ><a href="http://www.candlelightstories.com/contact/">Contact</a></li>
+
+</li>
+<li ><a href="http://www.candlelightstories.com/submissions/">Submissions</a></li>
+
+
+
+</ul>
+
+</div>
+
+
+
+
+
+<div class="clear"></div>
+<div id="wrapper">
+<div id="side-left">
+	<div id="content">
+				<div class="kutu">
+	<div class="ust"><span></span></div>
+	<div class="spacer">
+		<h2 class="center">Error 404 - Not Found</h2>
+
+			</div>
+	<div class="alt"><span></span></div></div>
+</div>
+<div id="side-right" class="clearfloat">
+	<div id="sidebar">
+
+
+				<div class="kutu">
+	<div class="ust"><span></span></div><div class="spacer">
+
+<h2>Welcome</h2>
+<center><form action="http://www.google.com/cse" id="cse-search-box">
+  <div>
+    <input type="hidden" name="cx" value="partner-pub-9175689882884419:bznn7n-arfh" />
+    <input type="hidden" name="ie" value="ISO-8859-1" />
+    <input type="text" name="q" size="20" />
+    <input type="submit" name="sa" value="Search" />
+  </div>
+</form></center>
+<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=en"></script>
+
+<p>Candlelight Stories is an independent web site aimed at adults. Subjects include literature, film, games, art, poetry, children's stories, free expression, politics, and audio. It can get hugely opinionated but it sure has fun doing it.  Use your judgment and enjoy.
+<center><img src="http://www.candlelightstories.com/Blog/wp-content/themes/zindi/images/BookAndCandleSidebar.jpg" /></center>
+
+<p><a href="http://feeds2.feedburner.com/CandlelightStories"><img src="http://www.candlelightstories.com/images/rss.jpg" align="absmiddle" /> Subscribe to regular posts</a>
+
+<p><a href="http://feeds.feedburner.com/CandlelightStoriesAudio"><img src="http://www.candlelightstories.com/images/rss.jpg" align="absmiddle" /> Subscribe to audio podcast</a>
+
+<p><a href="itpc://feeds.feedburner.com/CandlelightStoriesAudio"><img src="http://www.candlelightstories.com/images/rss.jpg" align="absmiddle" /> Subscribe to audio with iTunes</a>
+
+<p><a href="https://twitter.com/CandlelightNews"><img src="http://www.candlelightstories.com/images/twitter.jpg" /></a>
+
+<p><a href="http://www.vimeo.com/groups/candlelightstories">Visit the Vimeo Short Film Group</a>
+
+			</div>	<div class="alt"><span></span></div></div>
+			
+<div class="kutu">
+	<div class="ust"><span></span></div><div class="spacer">
+	
+<h2>Some Things To Do</h2>
+				<center><!-- Insert your code right under here -->
+<p align="left"><a href="http://www.candlelightstories.com/games/frankenstein-the-creature-must-die/">Game: Frankenstein - The Creature Must Die!</a></p>
+<p align="center"><a href="http://www.candlelightstories.com/games/frankenstein-the-creature-must-die/"><img src="http://www.candlelightstories.com/images/FrankensteinAdSm.jpg" alt="CandlelightFrankensteinGameLogo" border="0" /></a></p>
+<p align="left"><a href="http://www.candlelightstories.com/games/tomb-of-the-mummy-ii/">Game: Tomb of the Mummy II</a></p>
+<p align="center"><a href="http://www.candlelightstories.com/games/tomb-of-the-mummy-ii/"><img src="http://www.candlelightstories.com/images/TombOfTheMummyIIAd.jpg" alt="CandlelightTombOfMummyII" border="0" /></a></p>
+
+
+</center>
+
+</div><div class="alt"><span></span></div></div>	
+
+<div class="kutu">
+	<div class="ust"><span></span></div><div class="spacer">
+	
+<ul><center><!-- Insert your adsense code for a 160x600 banner right under here -->
+<script type="text/javascript"><!--
+google_ad_client = "pub-9175689882884419";
+/* 160x600, created 3/28/09 */
+google_ad_slot = "3855485340";
+google_ad_width = 160;
+google_ad_height = 600;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></center></ul>
+
+</div><div class="alt"><span></span></div></div>
+	
+<div class="kutu">
+	<div class="ust"><span></span></div><div class="spacer">
+	
+<h2>Languages</h2>
+				<center><!-- Insert your code right under here -->
+<p align="center"><form action="http://www.google.com/translate" >
+        <div align="left"> <font face="Verdana, Arial, Helvetica, sans-serif">
+          <script language="JavaScript" type="text/javascript">
+<!--
+document.write ("<input name=u value="+location.href+" type=hidden>")
+// -->
+              </script>
+          <input name="hl" value="en" type="hidden" />
+          <input type="hidden" name="ie" value="iso-8859-1" />
+          <input type="hidden" name="oe" value="iso-8859-1" />
+          <input name="langpair" value="" type="hidden" />
+          <input name="langpair" value="en|fr" alt="Francais" title="Francais" src="http://photos1.blogger.com/img/43/1633/320/13539949_e76af75976.jpg" onclick="this.form.langpair.value=this.value" height="20" type="image" width="30" />
+          <input name="langpair" value="en|de" alt="Deutsch" title="Deutsch" src="http://photos1.blogger.com/img/43/1633/320/13539933_041ca1eda2.jpg" onclick="this.form.langpair.value=this.value" height="20" type="image" width="30" />
+          <input name="langpair" value="en|it" alt="Italiano" title="Italiano" src="http://photos1.blogger.com/img/43/1633/320/13539953_0384ccecf9.jpg" onclick="this.form.langpair.value=this.value" height="20" type="image" width="30" />
+          <input name="langpair" value="en|pt" alt="Portugues" title="Portugues" src="http://photos1.blogger.com/img/43/1633/320/13539966_0d09b410b5.jpg" onclick="this.form.langpair.value=this.value" height="20" type="image" width="30" />
+          <input name="langpair" value="en|es" alt="Espanol" title="Espanol" src="http://photos1.blogger.com/img/43/1633/320/13539946_2fabed0dbf.jpg" onclick="this.form.langpair.value=this.value" height="20" type="image" width="30" />
+          <input name="langpair" value="en|ja" alt="Japanese" title="Japanese" src="http://photos1.blogger.com/img/43/1633/320/13539955_925e6683c8.jpg" onclick="this.form.langpair.value=this.value" height="20" type="image" width="30" />
+          <input name="langpair" value="en|ko" alt="Korean" title="Korean" src="http://photos1.blogger.com/img/43/1633/320/13539958_3c3b482c95.jpg" onclick="this.form.langpair.value=this.value" height="20" type="image" width="30" />
+          <input name="langpair" value="en|zh-CN" alt="Chinese" title="Chinese Simplified" src="http://photos1.blogger.com/img/43/1633/320/14324441_5ca5ce3423.jpg" onclick="this.form.langpair.value=this.value" height="20" type="image" width="30"/>
+        </font></div>
+      </form></p></center>
+
+</div><div class="alt"><span></span></div></div>
+
+<div class="kutu">
+	<div class="ust"><span></span></div><div class="spacer">
+
+<h2>Topics</h2>
+				<ul>	<li class="cat-item cat-item-1476"><a href="http://www.candlelightstories.com/category/1920s/" title="View all posts filed under 1920s">1920s</a> (4)
+</li>
+	<li class="cat-item cat-item-1971"><a href="http://www.candlelightstories.com/category/1930s/" title="View all posts filed under 1930s">1930s</a> (6)
+</li>
+	<li class="cat-item cat-item-1483"><a href="http://www.candlelightstories.com/category/1940s/" title="View all posts filed under 1940s">1940s</a> (7)
+</li>
+	<li class="cat-item cat-item-301"><a href="http://www.candlelightstories.com/category/1950s/" title="View all posts filed under 1950s">1950s</a> (23)
+</li>
+	<li class="cat-item cat-item-1158"><a href="http://www.candlelightstories.com/category/1960s/" title="View all posts filed under 1960s">1960s</a> (22)
+</li>
+	<li class="cat-item cat-item-1236"><a href="http://www.candlelightstories.com/category/1970s/" title="View all posts filed under 1970s">1970s</a> (15)
+</li>
+	<li class="cat-item cat-item-1980"><a href="http://www.candlelightstories.com/category/advertising-2/" title="View all posts filed under Advertising">Advertising</a> (6)
+</li>
+	<li class="cat-item cat-item-138"><a href="http://www.candlelightstories.com/category/amazing-things/" title="View all posts filed under Amazing Things">Amazing Things</a> (21)
+</li>
+	<li class="cat-item cat-item-164"><a href="http://www.candlelightstories.com/category/animated-observations/" title="View all posts filed under Animated Observations">Animated Observations</a> (1)
+</li>
+	<li class="cat-item cat-item-9"><a href="http://www.candlelightstories.com/category/animation/" title="View all posts filed under Animation">Animation</a> (205)
+</li>
+	<li class="cat-item cat-item-2318"><a href="http://www.candlelightstories.com/category/apps/" title="View all posts filed under Apps">Apps</a> (1)
+</li>
+	<li class="cat-item cat-item-89"><a href="http://www.candlelightstories.com/category/arabian-nights/" title="View all posts filed under Arabian Nights">Arabian Nights</a> (52)
+</li>
+	<li class="cat-item cat-item-287"><a href="http://www.candlelightstories.com/category/art/" title="View all posts filed under Art">Art</a> (122)
+</li>
+	<li class="cat-item cat-item-1452"><a href="http://www.candlelightstories.com/category/artist-2/" title="View all posts filed under Artist">Artist</a> (36)
+</li>
+	<li class="cat-item cat-item-17"><a href="http://www.candlelightstories.com/category/audio-stories/" title="View all posts filed under Audio Stories">Audio Stories</a> (104)
+</li>
+	<li class="cat-item cat-item-143"><a href="http://www.candlelightstories.com/category/audio-stories-on-the-web/" title="View all posts filed under Audio Stories on the Web">Audio Stories on the Web</a> (6)
+</li>
+	<li class="cat-item cat-item-806"><a href="http://www.candlelightstories.com/category/author-bill-ectric/" title="View all posts filed under Author Bill Ectric">Author Bill Ectric</a> (3)
+</li>
+	<li class="cat-item cat-item-1081"><a href="http://www.candlelightstories.com/category/avant-garde-film/" title="View all posts filed under Avant-Garde Film">Avant-Garde Film</a> (69)
+</li>
+	<li class="cat-item cat-item-1223"><a href="http://www.candlelightstories.com/category/bicycling/" title="View all posts filed under Bicycling">Bicycling</a> (3)
+</li>
+	<li class="cat-item cat-item-195"><a href="http://www.candlelightstories.com/category/blogs/" title="View all posts filed under Blogs">Blogs</a> (2)
+</li>
+	<li class="cat-item cat-item-70"><a href="http://www.candlelightstories.com/category/book-publishing/" title="View all posts filed under Book Publishing">Book Publishing</a> (27)
+</li>
+	<li class="cat-item cat-item-137"><a href="http://www.candlelightstories.com/category/books/" title="View all posts filed under Books">Books</a> (54)
+</li>
+	<li class="cat-item cat-item-975"><a href="http://www.candlelightstories.com/category/childrens-audio-stories/" title="View all posts filed under Children&#039;s Audio Stories">Children&#039;s Audio Stories</a> (25)
+</li>
+	<li class="cat-item cat-item-236"><a href="http://www.candlelightstories.com/category/childrens-books/" title="View all posts filed under Children&#039;s Books">Children&#039;s Books</a> (12)
+</li>
+	<li class="cat-item cat-item-77"><a href="http://www.candlelightstories.com/category/childrens-stories/" title="View all posts filed under Children&#039;s Stories">Children&#039;s Stories</a> (127)
+</li>
+	<li class="cat-item cat-item-619"><a href="http://www.candlelightstories.com/category/childrens-story-collection/" title="View all posts filed under Children&#039;s Story Collection">Children&#039;s Story Collection</a> (13)
+</li>
+	<li class="cat-item cat-item-1077"><a href="http://www.candlelightstories.com/category/childrens-animation/" title="View all posts filed under Childrens Animation">Childrens Animation</a> (10)
+</li>
+	<li class="cat-item cat-item-118"><a href="http://www.candlelightstories.com/category/china/" title="View all posts filed under China">China</a> (2)
+</li>
+	<li class="cat-item cat-item-1492"><a href="http://www.candlelightstories.com/category/christmas-2/" title="View all posts filed under Christmas">Christmas</a> (19)
+</li>
+	<li class="cat-item cat-item-2034"><a href="http://www.candlelightstories.com/category/civil-rights-2/" title="View all posts filed under Civil Rights">Civil Rights</a> (18)
+</li>
+	<li class="cat-item cat-item-133"><a href="http://www.candlelightstories.com/category/comics/" title="View all posts filed under Comics">Comics</a> (24)
+</li>
+	<li class="cat-item cat-item-177"><a href="http://www.candlelightstories.com/category/creativity/" title="View all posts filed under Creativity">Creativity</a> (8)
+</li>
+	<li class="cat-item cat-item-1375"><a href="http://www.candlelightstories.com/category/crime-stories/" title="View all posts filed under Crime Stories">Crime Stories</a> (1)
+</li>
+	<li class="cat-item cat-item-1266"><a href="http://www.candlelightstories.com/category/current-events/" title="View all posts filed under Current Events">Current Events</a> (19)
+</li>
+	<li class="cat-item cat-item-304"><a href="http://www.candlelightstories.com/category/disney/" title="View all posts filed under Disney">Disney</a> (3)
+</li>
+	<li class="cat-item cat-item-1314"><a href="http://www.candlelightstories.com/category/documentary-film/" title="View all posts filed under Documentary Film">Documentary Film</a> (113)
+</li>
+	<li class="cat-item cat-item-1585"><a href="http://www.candlelightstories.com/category/dslr-filmmaking/" title="View all posts filed under DSLR Filmmaking">DSLR Filmmaking</a> (4)
+</li>
+	<li class="cat-item cat-item-1042"><a href="http://www.candlelightstories.com/category/e-books/" title="View all posts filed under E-Books">E-Books</a> (4)
+</li>
+	<li class="cat-item cat-item-63"><a href="http://www.candlelightstories.com/category/education/" title="View all posts filed under Education">Education</a> (16)
+</li>
+	<li class="cat-item cat-item-259"><a href="http://www.candlelightstories.com/category/environment/" title="View all posts filed under Environment">Environment</a> (3)
+</li>
+	<li class="cat-item cat-item-1893"><a href="http://www.candlelightstories.com/category/essay-2/" title="View all posts filed under Essay">Essay</a> (1)
+</li>
+	<li class="cat-item cat-item-2281"><a href="http://www.candlelightstories.com/category/experimental-film-2/" title="View all posts filed under Experimental Film">Experimental Film</a> (6)
+</li>
+	<li class="cat-item cat-item-2282"><a href="http://www.candlelightstories.com/category/experimental-video/" title="View all posts filed under Experimental Video">Experimental Video</a> (1)
+</li>
+	<li class="cat-item cat-item-44"><a href="http://www.candlelightstories.com/category/fairy-tales/" title="View all posts filed under Fairy Tales">Fairy Tales</a> (13)
+</li>
+	<li class="cat-item cat-item-1901"><a href="http://www.candlelightstories.com/category/fan-films-2/" title="View all posts filed under Fan Films">Fan Films</a> (2)
+</li>
+	<li class="cat-item cat-item-129"><a href="http://www.candlelightstories.com/category/fantasy/" title="View all posts filed under Fantasy">Fantasy</a> (26)
+</li>
+	<li class="cat-item cat-item-80"><a href="http://www.candlelightstories.com/category/fiction/" title="View all posts filed under Fiction">Fiction</a> (10)
+</li>
+	<li class="cat-item cat-item-114"><a href="http://www.candlelightstories.com/category/film/" title="View all posts filed under Film">Film</a> (136)
+</li>
+	<li class="cat-item cat-item-116"><a href="http://www.candlelightstories.com/category/film-comment/" title="View all posts filed under Film Comment">Film Comment</a> (40)
+</li>
+	<li class="cat-item cat-item-779"><a href="http://www.candlelightstories.com/category/filmmaking/" title="View all posts filed under Filmmaking">Filmmaking</a> (20)
+</li>
+	<li class="cat-item cat-item-1092"><a href="http://www.candlelightstories.com/category/films-by-children/" title="View all posts filed under Films by Children">Films by Children</a> (3)
+</li>
+	<li class="cat-item cat-item-93"><a href="http://www.candlelightstories.com/category/folktales/" title="View all posts filed under Folktales">Folktales</a> (6)
+</li>
+	<li class="cat-item cat-item-995"><a href="http://www.candlelightstories.com/category/freedom-of-exptression/" title="View all posts filed under Freedom of Expression">Freedom of Expression</a> (24)
+</li>
+	<li class="cat-item cat-item-1497"><a href="http://www.candlelightstories.com/category/funny-2/" title="View all posts filed under Funny">Funny</a> (12)
+</li>
+	<li class="cat-item cat-item-3"><a href="http://www.candlelightstories.com/category/games/" title="Great games and gaming news from around the Web">Games</a> (23)
+</li>
+	<li class="cat-item cat-item-7"><a href="http://www.candlelightstories.com/category/games-by-us/" title="Games produced exclusively by Candlelight Stories">Games By Us</a> (17)
+</li>
+	<li class="cat-item cat-item-1445"><a href="http://www.candlelightstories.com/category/government/" title="View all posts filed under government">government</a> (1)
+</li>
+	<li class="cat-item cat-item-281"><a href="http://www.candlelightstories.com/category/graphic-novels/" title="View all posts filed under Graphic Novels">Graphic Novels</a> (1)
+</li>
+	<li class="cat-item cat-item-85"><a href="http://www.candlelightstories.com/category/grimms-fairy-tales/" title="View all posts filed under Grimms Fairy Tales">Grimms Fairy Tales</a> (25)
+</li>
+	<li class="cat-item cat-item-659"><a href="http://www.candlelightstories.com/category/halloween/" title="View all posts filed under Halloween">Halloween</a> (38)
+</li>
+	<li class="cat-item cat-item-11"><a href="http://www.candlelightstories.com/category/horror/" title="View all posts filed under Horror">Horror</a> (45)
+</li>
+	<li class="cat-item cat-item-290"><a href="http://www.candlelightstories.com/category/how-to/" title="View all posts filed under How-To">How-To</a> (8)
+</li>
+	<li class="cat-item cat-item-109"><a href="http://www.candlelightstories.com/category/illustration/" title="View all posts filed under Illustration">Illustration</a> (25)
+</li>
+	<li class="cat-item cat-item-1349"><a href="http://www.candlelightstories.com/category/independent-film/" title="View all posts filed under Independent Film">Independent Film</a> (48)
+</li>
+	<li class="cat-item cat-item-91"><a href="http://www.candlelightstories.com/category/india/" title="View all posts filed under India">India</a> (1)
+</li>
+	<li class="cat-item cat-item-1919"><a href="http://www.candlelightstories.com/category/italian-film/" title="View all posts filed under Italian Film">Italian Film</a> (2)
+</li>
+	<li class="cat-item cat-item-1829"><a href="http://www.candlelightstories.com/category/journalism-2/" title="View all posts filed under Journalism">Journalism</a> (17)
+</li>
+	<li class="cat-item cat-item-82"><a href="http://www.candlelightstories.com/category/legends-of-king-arthur/" title="View all posts filed under Legends of King Arthur">Legends of King Arthur</a> (31)
+</li>
+	<li class="cat-item cat-item-78"><a href="http://www.candlelightstories.com/category/literature/" title="View all posts filed under Literature">Literature</a> (36)
+</li>
+	<li class="cat-item cat-item-1080"><a href="http://www.candlelightstories.com/category/live-video/" title="View all posts filed under Live Video">Live Video</a> (1)
+</li>
+	<li class="cat-item cat-item-353"><a href="http://www.candlelightstories.com/category/los-angeles/" title="View all posts filed under Los Angeles">Los Angeles</a> (17)
+</li>
+	<li class="cat-item cat-item-1256"><a href="http://www.candlelightstories.com/category/modern-art/" title="View all posts filed under Modern Art">Modern Art</a> (1)
+</li>
+	<li class="cat-item cat-item-1704"><a href="http://www.candlelightstories.com/category/movie-trailers/" title="View all posts filed under Movie Trailers">Movie Trailers</a> (1)
+</li>
+	<li class="cat-item cat-item-4"><a href="http://www.candlelightstories.com/category/movies/" title="All our films and animations!">Movies</a> (127)
+</li>
+	<li class="cat-item cat-item-8"><a href="http://www.candlelightstories.com/category/movies-by-us/" title="Movies produced by Candlelight Stories">Movies By Us</a> (24)
+</li>
+	<li class="cat-item cat-item-122"><a href="http://www.candlelightstories.com/category/music/" title="View all posts filed under Music">Music</a> (34)
+</li>
+	<li class="cat-item cat-item-66"><a href="http://www.candlelightstories.com/category/mystery-contest/" title="View all posts filed under Mystery Contest">Mystery Contest</a> (5)
+</li>
+	<li class="cat-item cat-item-297"><a href="http://www.candlelightstories.com/category/new-york/" title="View all posts filed under New York">New York</a> (2)
+</li>
+	<li class="cat-item cat-item-298"><a href="http://www.candlelightstories.com/category/news/" title="View all posts filed under News">News</a> (70)
+</li>
+	<li class="cat-item cat-item-111"><a href="http://www.candlelightstories.com/category/novels/" title="View all posts filed under Novels">Novels</a> (1)
+</li>
+	<li class="cat-item cat-item-2078"><a href="http://www.candlelightstories.com/category/occupy-wall-street/" title="View all posts filed under Occupy Wall Street">Occupy Wall Street</a> (13)
+</li>
+	<li class="cat-item cat-item-117"><a href="http://www.candlelightstories.com/category/online-literature/" title="View all posts filed under Online Literature">Online Literature</a> (5)
+</li>
+	<li class="cat-item cat-item-163"><a href="http://www.candlelightstories.com/category/opinion/" title="View all posts filed under Opinion">Opinion</a> (117)
+</li>
+	<li class="cat-item cat-item-2058"><a href="http://www.candlelightstories.com/category/pacific-standard-time/" title="View all posts filed under Pacific Standard Time">Pacific Standard Time</a> (3)
+</li>
+	<li class="cat-item cat-item-573"><a href="http://www.candlelightstories.com/category/painting/" title="View all posts filed under Painting">Painting</a> (28)
+</li>
+	<li class="cat-item cat-item-235"><a href="http://www.candlelightstories.com/category/photography/" title="View all posts filed under Photography">Photography</a> (41)
+</li>
+	<li class="cat-item cat-item-102"><a href="http://www.candlelightstories.com/category/pinocchio/" title="View all posts filed under Pinocchio">Pinocchio</a> (17)
+</li>
+	<li class="cat-item cat-item-397"><a href="http://www.candlelightstories.com/category/pirate-jack/" title="View all posts filed under Pirate Jack">Pirate Jack</a> (20)
+</li>
+	<li class="cat-item cat-item-88"><a href="http://www.candlelightstories.com/category/podcasts/" title="View all posts filed under Podcasts">Podcasts</a> (82)
+</li>
+	<li class="cat-item cat-item-148"><a href="http://www.candlelightstories.com/category/poetry/" title="View all posts filed under Poetry">Poetry</a> (43)
+</li>
+	<li class="cat-item cat-item-160"><a href="http://www.candlelightstories.com/category/politics/" title="View all posts filed under Politics">Politics</a> (43)
+</li>
+	<li class="cat-item cat-item-221"><a href="http://www.candlelightstories.com/category/princess-of-mars/" title="View all posts filed under Princess of Mars">Princess of Mars</a> (28)
+</li>
+	<li class="cat-item cat-item-2098"><a href="http://www.candlelightstories.com/category/protest-2/" title="View all posts filed under Protest">Protest</a> (8)
+</li>
+	<li class="cat-item cat-item-2240"><a href="http://www.candlelightstories.com/category/psychology-2/" title="View all posts filed under Psychology">Psychology</a> (2)
+</li>
+	<li class="cat-item cat-item-71"><a href="http://www.candlelightstories.com/category/public-service/" title="View all posts filed under Public Service">Public Service</a> (28)
+</li>
+	<li class="cat-item cat-item-2319"><a href="http://www.candlelightstories.com/category/reading-2/" title="View all posts filed under Reading">Reading</a> (1)
+</li>
+	<li class="cat-item cat-item-976"><a href="http://www.candlelightstories.com/category/robinson-crusoe/" title="View all posts filed under Robinson Crusoe">Robinson Crusoe</a> (17)
+</li>
+	<li class="cat-item cat-item-1067"><a href="http://www.candlelightstories.com/category/russian-animation/" title="View all posts filed under Russian Animation">Russian Animation</a> (13)
+</li>
+	<li class="cat-item cat-item-81"><a href="http://www.candlelightstories.com/category/science-fiction/" title="View all posts filed under Science Fiction">Science Fiction</a> (121)
+</li>
+	<li class="cat-item cat-item-1652"><a href="http://www.candlelightstories.com/category/secret-identity/" title="View all posts filed under Secret Identity">Secret Identity</a> (2)
+</li>
+	<li class="cat-item cat-item-1071"><a href="http://www.candlelightstories.com/category/shakespeare/" title="View all posts filed under Shakespeare">Shakespeare</a> (4)
+</li>
+	<li class="cat-item cat-item-1458"><a href="http://www.candlelightstories.com/category/short-films/" title="View all posts filed under Short Films">Short Films</a> (115)
+</li>
+	<li class="cat-item cat-item-639"><a href="http://www.candlelightstories.com/category/short-stories/" title="View all posts filed under Short Stories">Short Stories</a> (2)
+</li>
+	<li class="cat-item cat-item-1639"><a href="http://www.candlelightstories.com/category/silent-film-2/" title="View all posts filed under Silent Film">Silent Film</a> (12)
+</li>
+	<li class="cat-item cat-item-227"><a href="http://www.candlelightstories.com/category/site-updates/" title="View all posts filed under Site Updates">Site Updates</a> (1)
+</li>
+	<li class="cat-item cat-item-1705"><a href="http://www.candlelightstories.com/category/space-travel/" title="View all posts filed under Space Travel">Space Travel</a> (7)
+</li>
+	<li class="cat-item cat-item-1333"><a href="http://www.candlelightstories.com/category/spiritual-pursuits/" title="View all posts filed under Spiritual Pursuits">Spiritual Pursuits</a> (2)
+</li>
+	<li class="cat-item cat-item-16"><a href="http://www.candlelightstories.com/category/stories/" title="View all posts filed under Stories">Stories</a> (47)
+</li>
+	<li class="cat-item cat-item-1877"><a href="http://www.candlelightstories.com/category/street-art-2/" title="View all posts filed under Street Art">Street Art</a> (12)
+</li>
+	<li class="cat-item cat-item-1918"><a href="http://www.candlelightstories.com/category/super-8-films/" title="View all posts filed under Super 8 Films">Super 8 Films</a> (6)
+</li>
+	<li class="cat-item cat-item-319"><a href="http://www.candlelightstories.com/category/technology/" title="View all posts filed under Technology">Technology</a> (46)
+</li>
+	<li class="cat-item cat-item-79"><a href="http://www.candlelightstories.com/category/teen-stories/" title="View all posts filed under Teen Stories">Teen Stories</a> (1)
+</li>
+	<li class="cat-item cat-item-185"><a href="http://www.candlelightstories.com/category/toys/" title="View all posts filed under Toys">Toys</a> (3)
+</li>
+	<li class="cat-item cat-item-367"><a href="http://www.candlelightstories.com/category/tv-shows/" title="View all posts filed under TV Shows">TV Shows</a> (10)
+</li>
+	<li class="cat-item cat-item-1"><a href="http://www.candlelightstories.com/category/uncategorized/" title="View all posts filed under Uncategorized">Uncategorized</a> (1)
+</li>
+	<li class="cat-item cat-item-1562"><a href="http://www.candlelightstories.com/category/underground-film-2/" title="View all posts filed under Underground Film">Underground Film</a> (31)
+</li>
+	<li class="cat-item cat-item-1576"><a href="http://www.candlelightstories.com/category/vintage-television/" title="View all posts filed under Vintage Television">Vintage Television</a> (2)
+</li>
+	<li class="cat-item cat-item-2315"><a href="http://www.candlelightstories.com/category/war-2/" title="View all posts filed under War">War</a> (1)
+</li>
+	<li class="cat-item cat-item-2099"><a href="http://www.candlelightstories.com/category/we-are-the-99-percent-2/" title="View all posts filed under We Are the 99 Percent">We Are the 99 Percent</a> (10)
+</li>
+	<li class="cat-item cat-item-209"><a href="http://www.candlelightstories.com/category/web/" title="View all posts filed under Web">Web</a> (49)
+</li>
+	<li class="cat-item cat-item-471"><a href="http://www.candlelightstories.com/category/weird-tales/" title="View all posts filed under Weird Tales">Weird Tales</a> (6)
+</li>
+	<li class="cat-item cat-item-119"><a href="http://www.candlelightstories.com/category/writing/" title="View all posts filed under Writing">Writing</a> (21)
+</li>
+</ul>
+
+</div><div class="alt"><span></span></div></div>
+
+<div class="kutu">
+	<div class="ust"><span></span></div><div class="spacer">
+	
+	<h2>Archives</h2>
+				<ul>	<li><a href='http://www.candlelightstories.com/2012/05/' title='May 2012'>May 2012</a></li>
+	<li><a href='http://www.candlelightstories.com/2012/04/' title='April 2012'>April 2012</a></li>
+	<li><a href='http://www.candlelightstories.com/2012/03/' title='March 2012'>March 2012</a></li>
+	<li><a href='http://www.candlelightstories.com/2012/02/' title='February 2012'>February 2012</a></li>
+	<li><a href='http://www.candlelightstories.com/2012/01/' title='January 2012'>January 2012</a></li>
+	<li><a href='http://www.candlelightstories.com/2011/12/' title='December 2011'>December 2011</a></li>
+	<li><a href='http://www.candlelightstories.com/2011/11/' title='November 2011'>November 2011</a></li>
+	<li><a href='http://www.candlelightstories.com/2011/10/' title='October 2011'>October 2011</a></li>
+	<li><a href='http://www.candlelightstories.com/2011/09/' title='September 2011'>September 2011</a></li>
+	<li><a href='http://www.candlelightstories.com/2011/08/' title='August 2011'>August 2011</a></li>
+	<li><a href='http://www.candlelightstories.com/2011/07/' title='July 2011'>July 2011</a></li>
+	<li><a href='http://www.candlelightstories.com/2011/06/' title='June 2011'>June 2011</a></li>
+	<li><a href='http://www.candlelightstories.com/2011/05/' title='May 2011'>May 2011</a></li>
+	<li><a href='http://www.candlelightstories.com/2011/04/' title='April 2011'>April 2011</a></li>
+	<li><a href='http://www.candlelightstories.com/2011/03/' title='March 2011'>March 2011</a></li>
+	<li><a href='http://www.candlelightstories.com/2011/02/' title='February 2011'>February 2011</a></li>
+	<li><a href='http://www.candlelightstories.com/2011/01/' title='January 2011'>January 2011</a></li>
+	<li><a href='http://www.candlelightstories.com/2010/12/' title='December 2010'>December 2010</a></li>
+	<li><a href='http://www.candlelightstories.com/2010/11/' title='November 2010'>November 2010</a></li>
+	<li><a href='http://www.candlelightstories.com/2010/10/' title='October 2010'>October 2010</a></li>
+	<li><a href='http://www.candlelightstories.com/2010/09/' title='September 2010'>September 2010</a></li>
+	<li><a href='http://www.candlelightstories.com/2010/08/' title='August 2010'>August 2010</a></li>
+	<li><a href='http://www.candlelightstories.com/2010/07/' title='July 2010'>July 2010</a></li>
+	<li><a href='http://www.candlelightstories.com/2010/06/' title='June 2010'>June 2010</a></li>
+	<li><a href='http://www.candlelightstories.com/2010/05/' title='May 2010'>May 2010</a></li>
+	<li><a href='http://www.candlelightstories.com/2010/04/' title='April 2010'>April 2010</a></li>
+	<li><a href='http://www.candlelightstories.com/2010/03/' title='March 2010'>March 2010</a></li>
+	<li><a href='http://www.candlelightstories.com/2010/02/' title='February 2010'>February 2010</a></li>
+	<li><a href='http://www.candlelightstories.com/2010/01/' title='January 2010'>January 2010</a></li>
+	<li><a href='http://www.candlelightstories.com/2009/12/' title='December 2009'>December 2009</a></li>
+	<li><a href='http://www.candlelightstories.com/2009/11/' title='November 2009'>November 2009</a></li>
+	<li><a href='http://www.candlelightstories.com/2009/10/' title='October 2009'>October 2009</a></li>
+	<li><a href='http://www.candlelightstories.com/2009/09/' title='September 2009'>September 2009</a></li>
+	<li><a href='http://www.candlelightstories.com/2009/08/' title='August 2009'>August 2009</a></li>
+	<li><a href='http://www.candlelightstories.com/2009/07/' title='July 2009'>July 2009</a></li>
+	<li><a href='http://www.candlelightstories.com/2009/06/' title='June 2009'>June 2009</a></li>
+	<li><a href='http://www.candlelightstories.com/2009/05/' title='May 2009'>May 2009</a></li>
+	<li><a href='http://www.candlelightstories.com/2009/04/' title='April 2009'>April 2009</a></li>
+	<li><a href='http://www.candlelightstories.com/2009/03/' title='March 2009'>March 2009</a></li>
+</ul>
+				
+</div><div class="alt"><span></span></div></div>
+
+<div class="kutu">
+	<div class="ust"><span></span></div><div class="spacer">
+	
+<ul><center><!-- Insert your adsense code for a 160x600 banner right under here -->
+<script type="text/javascript"><!--
+google_ad_client = "pub-9175689882884419";
+/* 160x600, created 3/28/09 */
+google_ad_slot = "3855485340";
+google_ad_width = 160;
+google_ad_height = 600;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></center></ul>
+
+</div><div class="alt"><span></span></div></div>
+					
+
+	</div>
+	
+</div>
+
+<div style="clear:both;"></div>
+</div>
+<div id="footer">
+	<div class="footer-left">
+<span style="font-weight:bold; font-size:10px;color:#aaa;">&#169; 2012 Candlelight Stories</span><br />
+<span style="font-size:9px;color:#aaa;">3 queries. 0.343 seconds.
+</div>
+</div>
+		<script type='text/javascript' src='http://static.ak.fbcdn.net/connect.php/js/FB.Loader?ver=322597'></script>
+<script type='text/javascript' src='http://static.ak.fbcdn.net/connect.php/js/FB.Share?ver=322597'></script>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-1556936-1";
+urchinTracker();
+</script>
+</body>
+</html>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+Object Caching 623/623 objects using disk: basic
+
+Served from: www.candlelightstories.com @ 2012-05-27 09:59:39 -->

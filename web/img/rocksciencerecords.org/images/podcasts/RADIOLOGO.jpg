@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="index, nofollow" />
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" href="http://wearerockscience.com/wp-content/themes/canvas-4.1.1/style.css" media="all" />
+<link rel="pingback" href="http://wearerockscience.com/xmlrpc.php" />
+<link rel="alternate" type="application/rss+xml" title="Rock Science  &raquo; Feed" href="http://www.feeds.feedburner.com/rockscienceradio" />
+<link rel="alternate" type="application/rss+xml" title="Rock Science  &raquo; Comments Feed" href="http://wearerockscience.com/comments/feed/" />
+<link rel='stylesheet' id='flickr-gallery-css'  href='http://wearerockscience.com/wp-content/plugins/flickr-gallery/flickr-gallery.css?ver=1.5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='fg-jquery-ui-css'  href='http://wearerockscience.com/wp-content/plugins/flickr-gallery/tab-theme/jquery-ui-1.7.3.css?ver=1.7.3' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-flightbox-css'  href='http://wearerockscience.com/wp-content/plugins/flickr-gallery/flightbox/jquery.flightbox.css?ver=1.5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='A2A_SHARE_SAVE-css'  href='http://wearerockscience.com/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='podpress_frontend_styles-css'  href='http://wearerockscience.com/wp-content/plugins/podpress/podpress.css?ver=3.3.1' type='text/css' media='all' />
+<script type="text/javascript">
+//<![CDATA[
+var podpressL10 = {
+	openblogagain : 'back to:',
+	theblog : 'the blog',
+	close : 'close',
+	playbutton : 'Play &gt;'
+}
+//]]>
+</script>
+<script type="text/javascript" src="http://wearerockscience.com/wp-content/plugins/podpress/players/1pixelout/1pixelout_audio-player.js"></script>
+<script type="text/javascript">//<![CDATA[
+	var podPressPlayerFile = "1pixelout_player.swf";
+	var podPressPopupPlayerOpt = new Object();
+	podPressPopupPlayerOpt["lefticon"] = "333333";
+	podPressPopupPlayerOpt["leftbg"] = "CCCCCC";
+	podPressPopupPlayerOpt["volslider"] = "666666";
+	podPressPopupPlayerOpt["voltrack"] = "FFFFFF";
+	podPressPopupPlayerOpt["text"] = "333333";
+	podPressPopupPlayerOpt["tracker"] = "DDDDDD";
+	podPressPopupPlayerOpt["slider"] = "666666";
+	podPressPopupPlayerOpt["loader"] = "009900";
+	podPressPopupPlayerOpt["track"] = "FFFFFF";
+	podPressPopupPlayerOpt["border"] = "CCCCCC";
+	podPressPopupPlayerOpt["bg"] = "E5E5E5";
+	podPressPopupPlayerOpt["skip"] = "666666";
+	podPressPopupPlayerOpt["righticon"] = "333333";
+	podPressPopupPlayerOpt["righticonhover"] = "FFFFFF";
+	podPressPopupPlayerOpt["rightbg"] = "B4B4B4";
+	podPressPopupPlayerOpt["rightbghover"] = "999999";
+	podPressPopupPlayerOpt["initialvolume"] = "70";
+	podPressPopupPlayerOpt["buffer"] = "5";
+	podPressPopupPlayerOpt["checkpolicy"] = "no";
+	podpressAudioPlayer.setup("http://wearerockscience.com/wp-content/plugins/podpress/players/1pixelout/" + podPressPlayerFile, {lefticon:"333333", leftbg:"CCCCCC", volslider:"666666", voltrack:"FFFFFF", text:"333333", tracker:"DDDDDD", slider:"666666", loader:"009900", track:"FFFFFF", border:"CCCCCC", bg:"E5E5E5", skip:"666666", righticon:"333333", righticonhover:"FFFFFF", rightbg:"B4B4B4", rightbghover:"999999", initialvolume:"70", buffer:"5", checkpolicy:"no",  pagebg:"FFFFFF", transparentpagebg:"yes", encode: "no"} );
+//]]></script>
+<script type="text/javascript">//<![CDATA[
+var podPressBlogURL = "http://wearerockscience.com/";
+var podPressBackendURL = "http://wearerockscience.com/wp-content/plugins/podpress/";
+var podPressDefaultPreviewImage = "http://walktorunrecords.com/rsrwp/wp-content/plugins/podpress/images/vpreview_center.png";
+var podPressMP3PlayerWrapper = false;
+var podPress_cortado_signed = false;
+var podPressOverwriteTitleandArtist = false;
+var podPressHTML5 = true;
+var podPressHTML5sec = "6880725860";
+var podPressHTML5_showplayersdirectly = false;
+var podPressText_PlayNow = "Play Now";
+var podPressText_HidePlayer = "Hide Player";
+//]]></script>
+<script type='text/javascript' src='http://wearerockscience.com/wp-includes/js/jquery/jquery.js?ver=1.7.1'></script>
+<script type='text/javascript' src='http://wearerockscience.com/wp-includes/js/jquery/ui/jquery.ui.core.min.js?ver=1.8.16'></script>
+<script type='text/javascript' src='http://wearerockscience.com/wp-includes/js/jquery/ui/jquery.ui.widget.min.js?ver=1.8.16'></script>
+<script type='text/javascript' src='http://wearerockscience.com/wp-includes/js/jquery/ui/jquery.ui.tabs.min.js?ver=1.8.16'></script>
+<script type='text/javascript' src='http://wearerockscience.com/wp-content/plugins/flickr-gallery/flightbox/jquery.flightbox.js?ver=1.5.2'></script>
+<script type='text/javascript' src='http://wearerockscience.com/wp-content/themes/canvas-4.1.1/functions/js/shortcodes.js?ver=1'></script>
+<script type='text/javascript' src='http://wearerockscience.com/wp-content/themes/canvas-4.1.1/includes/js/general.js?ver=3.3.1'></script>
+<script type='text/javascript' src='http://wearerockscience.com/wp-content/themes/canvas-4.1.1/includes/js/slides.min.jquery.js?ver=3.3.1'></script>
+<script type='text/javascript' src='http://wearerockscience.com/wp-content/plugins/podpress/js/podpress.js?ver=3.3.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://wearerockscience.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://wearerockscience.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.3.1" />
+
+<script type="text/javascript"><!--
+var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:false,script_load:function(){var a=document.createElement('script'),s=document.getElementsByTagName('script')[0];a.type='text/javascript';a.async=true;a.src='http://wearerockscience.com/ftp://walktoru@ftp.walktorunrecords.com/public_html/rsrwp/images/2010/addtoany/page.js';s.parentNode.insertBefore(a,s);wpa2a.script_load=function(){};},script_onready:function(){if(a2a.type=='page'){wpa2a.script_ready=true;if(wpa2a.html_done)wpa2a.init();}},init:function(){for(var i=0,el,target,targets=wpa2a.targets,length=targets.length;i<length;i++){el=document.getElementById('wpa2a_'+(i+1));target=targets[i];a2a_config.linkname=target.title;a2a_config.linkurl=target.url;if(el)a2a.init('page',{target:el});wpa2a.done=true;}}};a2a_config.tracking_callback=['ready',wpa2a.script_onready];
+a2a_config.static_server="http://wearerockscience.com/ftp://walktoru@ftp.walktorunrecords.com/public_html/rsrwp/images/2010/addtoany";
+a2a_config.show_title=1;
+//--></script>
+<!-- The js code for google + 1  WordPress http://blog.dengruo.com/201107/1171 -->
+<script type="text/javascript" src="http://apis.google.com/js/plusone.js"></script>
+<!-- Theme version -->
+<meta name="generator" content="Canvas 4.1.1" />
+<meta name="generator" content="WooFramework 4.1.0" />
+
+<!-- Woo Custom Styling -->
+<style type="text/css">
+body {background-color:#384aa1;background-image:url(http://wearerockscience.com/ftp://walktoru@ftp.walktorunrecords.com/public_html/rsrwp/images/2010/2010/10/383785E7A628_116.png);background-repeat:repeat;background-position:top center;border-top:4px solid #000000;}
+hr, .entry img, img.thumbnail, .entry .wp-caption, #footer-widgets, #comments, #comments .comment.thread-even, #comments ul.children li, .entry h1{border-color:fcfbff}
+a:link, a:visited {color:#e7a628}
+#header {background-color:fcfbff;background-repeat:no-repeat;background-position:top center;margin-top:5px;margin-bottom:0px;padding-top:5px;padding-bottom:10px;border:0px solid #cdc8c5;}
+#logo {padding-left:100px;}#logo .site-title a {font:normal 40px/1em Georgia, serif;color:#222222;}
+#logo .site-description {font:italic 14px/1em Georgia, serif;color:#999999;}
+#wrapper {padding-left:20px; padding-right:20px;background-color:#fcfbff;margin-top:15px;margin-bottom:px;border-top:3px solid #ece24f;border-bottom:3px solid #ece24f;border-left:2px solid #ece24f;border-right:2px solid #ece24f;border-radius:12px;-moz-border-radius:12px;-webkit-border-radius:12px;box-shadow: 0px 1px 5px rgba(0,0,0,.3);-moz-box-shadow: 0px 1px 5px rgba(0,0,0,.3);-webkit-box-shadow: 0px 1px 5px rgba(0,0,0,.3);}
+body, p { font:normal 12px/1.5em Arial, sans-serif;color:#555555; }
+h1 { font:bold 24px/1.5em Arial, sans-serif;color:#222222; }h2 { font:bold 20px/1.5em Arial, sans-serif;color:#222222; }h3 { font:bold 18px/1.5em Arial, sans-serif;color:#222222; }h4 { font:bold 16px/1.5em Arial, sans-serif;color:#222222; }h5 { font:bold 14px/1.5em Arial, sans-serif;color:#222222; }h6 { font:bold 12px/1.5em Arial, sans-serif;color:#222222; }
+.post .title, .page .title, .post .title a:link, .post .title a:visited, .page .title a:link, .page .title a:visited {font:bold 20px/1.2em Arial, sans-serif;color:#132045;}
+.post-meta { font:normal 11px/1.5em "Trebuchet MS", Tahoma, sans-serif;color:#bfbfbf; }
+.entry, .entry p{ font:normal 14px/1.5em Arial, sans-serif;color:##bfbfbf; }
+.post-more {font:normal 12px/1.5em Arial, sans-serif;color:#bfbfbf;border-top:0px solid #e6e6e6;border-bottom:0px solid #e6e6e6;}
+#comments .comment.thread-even {background-color:#cfcfcf;}
+#post-author, #connect {border-top:1px solid #e6e6e6;border-bottom:4px solid #e6e6e6;background-color:#fafafa}
+#comments .comment.thread-even {background-color:#cfcfcf;}
+.nav-entries, .wp-pagenavi, .woo-pagination {background-color:cdc8c5;border-top:1px solid #e6e6e6;border-bottom:4px solid #e6e6e6; padding: 12px 0px; }
+.nav-entries a, .wp-pagenavi a:link, .wp-pagenavi a:visited, .wp-pagenavi .current, .wp-pagenavi .on, .wp-pagenavi a:hover, .wp-pagenavi span.extend, .wp-pagenavi span.pages, .woo-pagination { font:italic 12px/1em Georgia, serif;color:#777777; }
+.wp-pagenavi a:link, .wp-pagenavi a:visited, .woo-pagination a, .woo-pagination a:hover, .wp-pagenavi span.extend, .wp-pagenavi span.pages, .wp-pagenavi span.current {color:#777777!important}
+.widget h3 {font:bold 14px/1.5em Arial, sans-serif;color:#555555;border-bottom:1px solid #e7aa2d;}
+.widget_recent_comments li, #twitter li { border-color: #e7aa2d;}
+.widget p, .widget .textwidget { font:normal 12px/1.5em Arial, sans-serif;color:#555555; }
+.widget {font:normal 12px/1.5em Arial, sans-serif;color:#555555;padding:10px 10px;background-color:#ffffff;border:2px dashed #a3a3c7;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;}
+#tabs {border:2px dashed #a3a3c7;}
+#tabs .inside li a { font:bold 12px/1.5em Georgia, serif;color:#555555; }
+#tabs .inside li span.meta, #tabs ul.wooTabs li a { font:normal 11px/1.5em "Trebuchet MS", Tahoma, sans-serif;color:#777777; }
+.nav a, #navigation ul.rss a { font:bold 16px/1em Arial, sans-serif;color:#555555; }
+.nav li a:hover, .nav li.sfHover a.sf-with-ul {background-color:#d4d4d4}
+.nav li.current_page_item a, .nav li.current-menu-ancestor a, .nav li.selected, .nav li.current-menu-item a, .nav li.current_page_parent a { background-color:#d4d4d4; }
+#navigation {background-color:#eeeeee;border-top:1px solid #dbdbdb;border-bottom:2px solid #dbdbdb;border-left:1px solid #dbdbdb;border-right:1px solid #dbdbdb;border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;}
+#top .nav a { font:normal 14px/1em Arial, sans-serif;color:#ddd; }
+#footer, #footer p { font:italic 14px/1em Georgia, serif;color:#777777; }
+#footer {border-top:2px solid #dbdbdb;border-bottom:0px solid ;border-left:0px solid ;border-right:0px solid ;border-radius:0px; -moz-border-radius:0px; -webkit-border-radius:0px;}
+.magazine #loopedSlider .content h2.title a { font:bold 24px/1em Arial, sans-serif;color:#ffffff; }
+.magazine #loopedSlider .content .excerpt p { font:normal 12px/1.5em Arial, sans-serif;color:#cccccc; }
+.business #loopedSlider .content h2.title a { font:bold 24px/1em Arial, sans-serif;color:#ffffff; }
+.business #loopedSlider .content p { font:normal 12px/1.5em Arial, sans-serif;color:#cccccc; }
+.archive_header { font:normal 18px/1em Arial, sans-serif;color:#555555;border-bottom:5px solid #e6e6e6;}
+</style>
+<!-- /Woo Custom Styling -->
+
+			<script type="text/javascript">
+				var get_sizes = null;
+									(function($){
+						get_sizes = function(id){
+							var sizes;
+							$.ajax({
+								async: false,
+								data: {
+									action: "flickr-gallery-sizes",
+									id: id
+								},
+								dataType: "json",
+								type: "POST",
+								url: "http://wearerockscience.com/",
+								success: function(rsp) {
+									sizes = rsp;
+								}
+							});
+							return sizes;
+						};
+					})(jQuery);
+							</script>
+		
+<!--[if IE]>
+<style type="text/css">
+.addtoany_list a img{filter:alpha(opacity=70)}
+.addtoany_list a:hover img,.addtoany_list a.addtoany_share_save img{filter:alpha(opacity=100)}
+</style>
+<![endif]-->
+<!-- Custom Favicon -->
+<link rel="shortcut icon" href="http://wearerockscience.com/ftp://walktoru@ftp.walktorunrecords.com/public_html/rsrwp/images/2010/2011/01/favicon.png"/>
+
+<!-- Woo Shortcodes CSS -->
+<link href="http://wearerockscience.com/wp-content/themes/canvas-4.1.1/functions/css/shortcodes.css" rel="stylesheet" type="text/css" />
+
+<!-- Custom Stylesheet -->
+<link href="http://wearerockscience.com/wp-content/themes/canvas-4.1.1/custom.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="error404 unknown two-col-left width-940 two-col-left-940">
+<div id="wrapper">        
+	    
+	<div id="header" class="col-full">
+ 		
+		       
+		<div id="logo">
+		<a href="http://wearerockscience.com/" title="Booking/Promotions/Sounds"><img src="http://wearerockscience.com/ftp://walktoru@ftp.walktorunrecords.com/public_html/rsrwp/images/2010/2011/01/RSRBanner1.jpg" alt="Rock Science " /></a>
+<span class="site-description">Booking/Promotions/Sounds</span>
+		</div><!-- /#logo -->
+	       
+		       
+	</div><!-- /#header -->
+		
+		
+	<div id="navigation" class="col-full">
+		
+				<ul id="main-nav" class="nav fl"><li id="menu-item-1448" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1448"><a href="http://wearerockscience.com/artists/">Artists</a></li>
+<li id="menu-item-1446" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1446"><a href="http://wearerockscience.com/shows/">Shows</a></li>
+<li id="menu-item-1447" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1447"><a href="http://wearerockscience.com/rock-science-radio/">Radio</a></li>
+<li id="menu-item-1445" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1445"><a href="http://wearerockscience.com/store/">Media</a></li>
+<li id="menu-item-1444" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1444"><a href="http://wearerockscience.com/contact-2/">Meet/Contact</a></li>
+</ul>				<ul class="rss fr">
+						<li class="sub-rss"><a href="http://www.feeds.feedburner.com/rockscienceradio">Subscribe to RSS</a></li>
+		</ul>
+				
+	</div><!-- /#navigation -->
+	
+		
+	
+    <!-- #content Starts -->
+	    <div id="content" class="col-full">
+		
+    	<div id="main-sidebar-container">
+
+            <!-- #main Starts -->
+                        <div id="main" class="col-left">
+<div class="">
+<h1 class="title">Error 404 - Page not found!</h1>	<div class="entry">
+	    The page you are trying to reach does not exist, or has been moved. Please use the menus or the search box to find what you are looking for.	</div><!-- /.entry -->
+</div><!-- /.post -->
+            </div><!-- /#main -->
+                
+            <div id="sidebar">
+	<div id="text-2" class="widget widget_text"><h3>www.indiegogo.com/Full-length-debut-LP-by-New-Terminus</h3>			<div class="textwidget"><object width="275" height="215"><param name="movie" value="http://www.youtube.com/v/PE053fwopDA&hl=en_US&feature=player_embedded&version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowScriptAccess" value="always"></param><embed src="http://www.youtube.com/v/PE053fwopDA&hl=en_US&feature=player_embedded&version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="275" height="215"></embed></object></div>
+		</div><div id="woo_search-3" class="widget widget_woo_search"><h3>Search</h3><div class="search_main">
+    <form method="get" class="searchform" action="http://wearerockscience.com/" >
+        <input type="text" class="field s" name="s" value="Search..." onfocus="if (this.value == 'Search...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search...';}" />
+        <input type="image" src="http://wearerockscience.com/wp-content/themes/canvas-4.1.1/images/ico-search.png" alt="" class="submit" name="submit" />
+    </form>    
+    <div class="fix"></div>
+</div>
+</div><div id="text-5" class="widget widget_text"><h3>Rock Science Radio</h3>			<div class="textwidget"><object type="application/x-shockwave-flash" width="275" height="90" data="http://bigcontact.com/feed-player/rockscienceradio/r:0;t:1001">	<param name="quality" value="best" /> <param name="wmode" value="window" /><param name="allowScriptAccess" value="always" /> <param name="allowFullScreen" value="true" /><param name="movie" value="http://bigcontact.com/feed-player/rockscienceradio/r:0;t:1001" /></object></div>
+		</div><div id="social-homes" class="widget widget_socialhomes"><h3>Socialize</h3><div class="socialhomes" style="margin-top:5px;text-align:left;"><a title="Facebook" href="http://www.facebook.com/rocksciencerecords" rel="external" target="_blank"><img width="16" height="16" src="http://static.ak.fbcdn.net/rsrc.php/z1TWN/hash/2oah9nro.ico" alt="Facebook" /></a>&nbsp;&nbsp;<a title="Twitter" href="http://www.twitter.com/rockscienceatl" rel="external" target="_blank"><img width="16" height="16" src="http://www.twitter.com/favicon.ico" alt="Twitter" /></a>&nbsp;&nbsp;<a title="YouTube" href="http://www.youtube.com/rocksciencerecords" rel="external" target="_blank"><img width="16" height="16" src="http://s.ytimg.com/yt/favicon-vflZlzSbU.ico" alt="YouTube" /></a>&nbsp;&nbsp;<a title="Flickr" href="http://www.flickr.com/photos/rocksciencerecords" rel="external" target="_blank"><img width="16" height="16" src="http://l.yimg.com/g/favicon.ico" alt="Flickr" /></a>&nbsp;&nbsp;<a title="Last.fm" href="http://www.last.fm/label/Rock+Science+Records" rel="external" target="_blank"><img width="16" height="16" src="http://cdn.last.fm/flatness/favicon.2.ico" alt="Last.fm" /></a>&nbsp;&nbsp;<a title="Vimeo" href="http://vimeo.com/rockscience" rel="external" target="_blank"><img width="16" height="16" src="http://vimeo.com/favicon.ico" alt="Vimeo" /></a>&nbsp;&nbsp;</div></div><iframe scrolling="no" frameborder="0" width="300" height="300" src="http://www.facebook.com/connect/connect.php?id=176152492422394&amp;connections=10&amp;stream=false&amp;header=true&amp;locale="></iframe><div id="woo_twitter-2" class="widget widget_woo_twitter"><h3>Rock Science on Twitter</h3><div class="back">
+<ul id="twitter_update_list_woo_twitter-2">
+<li></li>
+</ul>
+<p>Follow <a href="http://twitter.com/rockscienceatl"><strong>@rockscienceatl</strong></a> on Twitter</p>
+</div>
+<div class="clear"></div>
+	<script type="text/javascript">
+	<!--//--><![CDATA[//><!--
+	
+	    function twitterCallback2(twitters) {
+	    
+	      var statusHTML = [];
+	      for (var i=0; i<twitters.length; i++){
+	        var username = twitters[i].user.screen_name;
+	        var status = twitters[i].text.replace(/((https?|s?ftp|ssh)\:\/\/[^"\s\<\>]*[^.,;'">\:\s\<\>\)\]\!])/g, function(url) {
+	          return '<a href="'+url+'">'+url+'</a>';
+	        }).replace(/\B@([_a-z0-9]+)/ig, function(reply) {
+	          return  reply.charAt(0)+'<a href="http://twitter.com/'+reply.substring(1)+'">'+reply.substring(1)+'</a>';
+	        });
+	        statusHTML.push( '<li><span class="content">'+status+'</span> <a style="font-size:85%" class="time" href="http://twitter.com/'+username+'/statuses/'+twitters[i].id_str+'">'+relative_time(twitters[i].created_at)+'</a></li>' );
+	      }
+	      document.getElementById( 'twitter_update_list_woo_twitter-2').innerHTML = statusHTML.join( '' );
+	    }
+	    
+	    function relative_time(time_value) {
+	      var values = time_value.split( " " );
+	      time_value = values[1] + " " + values[2] + ", " + values[5] + " " + values[3];
+	      var parsed_date = Date.parse(time_value);
+	      var relative_to = (arguments.length > 1) ? arguments[1] : new Date();
+	      var delta = parseInt((relative_to.getTime() - parsed_date) / 1000);
+	      delta = delta + (relative_to.getTimezoneOffset() * 60);
+	    
+	      if (delta < 60) {
+	        return 'less than a minute ago';
+	      } else if(delta < 120) {
+	        return 'about a minute ago';
+	      } else if(delta < (60*60)) {
+	        return (parseInt(delta / 60)).toString() + ' minutes ago';
+	      } else if(delta < (120*60)) {
+	        return 'about an hour ago';
+	      } else if(delta < (24*60*60)) {
+	        return 'about ' + (parseInt(delta / 3600)).toString() + ' hours ago';
+	      } else if(delta < (48*60*60)) {
+	        return '1 day ago';
+	      } else {
+	        return (parseInt(delta / 86400)).toString() + ' days ago';
+	      }
+	    }
+	//-->!]]>
+	</script>
+	<script type="text/javascript" src="http://api.twitter.com/1/statuses/user_timeline/rockscienceatl.json?callback=twitterCallback2&amp;count=3&amp;include_rts=t"></script>
+	</div><div id="tag_cloud-4" class="widget widget_tag_cloud"><h3>Tags</h3><div class="tagcloud"><a href='http://wearerockscience.com/tag/529/' class='tag-link-267' title='4 topics' style='font-size: 9.15702479339pt;'>529</a>
+<a href='http://wearerockscience.com/tag/a-the-color/' class='tag-link-104' title='4 topics' style='font-size: 9.15702479339pt;'>a: the color</a>
+<a href='http://wearerockscience.com/tag/authors-apology/' class='tag-link-181' title='4 topics' style='font-size: 9.15702479339pt;'>authors apology</a>
+<a href='http://wearerockscience.com/tag/beautiful-little-fools/' class='tag-link-75' title='3 topics' style='font-size: 8pt;'>beautiful little fools</a>
+<a href='http://wearerockscience.com/tag/book-club/' class='tag-link-66' title='3 topics' style='font-size: 8pt;'>Book Club</a>
+<a href='http://wearerockscience.com/tag/carroll-st-cafe/' class='tag-link-50' title='13 topics' style='font-size: 14.3636363636pt;'>Carroll St. Cafe</a>
+<a href='http://wearerockscience.com/tag/cassavetes/' class='tag-link-55' title='3 topics' style='font-size: 8pt;'>Cassavetes</a>
+<a href='http://wearerockscience.com/tag/clermont/' class='tag-link-38' title='3 topics' style='font-size: 8pt;'>clermont</a>
+<a href='http://wearerockscience.com/tag/eastside-lounge/' class='tag-link-144' title='4 topics' style='font-size: 9.15702479339pt;'>eastside lounge</a>
+<a href='http://wearerockscience.com/tag/envie/' class='tag-link-58' title='3 topics' style='font-size: 8pt;'>envie</a>
+<a href='http://wearerockscience.com/tag/featured-2/' class='tag-link-45' title='3 topics' style='font-size: 8pt;'>featured</a>
+<a href='http://wearerockscience.com/tag/gun-party/' class='tag-link-233' title='4 topics' style='font-size: 9.15702479339pt;'>gun party</a>
+<a href='http://wearerockscience.com/tag/hail-the-titans/' class='tag-link-252' title='5 topics' style='font-size: 10.0826446281pt;'>hail the titans</a>
+<a href='http://wearerockscience.com/tag/imagination-head/' class='tag-link-76' title='4 topics' style='font-size: 9.15702479339pt;'>imagination head</a>
+<a href='http://wearerockscience.com/tag/lille/' class='tag-link-79' title='3 topics' style='font-size: 8pt;'>Lille</a>
+<a href='http://wearerockscience.com/tag/little-horn/' class='tag-link-65' title='8 topics' style='font-size: 12.0495867769pt;'>little horn</a>
+<a href='http://wearerockscience.com/tag/mice-in-cars/' class='tag-link-26' title='7 topics' style='font-size: 11.4710743802pt;'>mice in cars</a>
+<a href='http://wearerockscience.com/tag/mint/' class='tag-link-31' title='7 topics' style='font-size: 11.4710743802pt;'>MINT</a>
+<a href='http://wearerockscience.com/tag/misfortune500/' class='tag-link-155' title='5 topics' style='font-size: 10.0826446281pt;'>misfortune500</a>
+<a href='http://wearerockscience.com/tag/nerdkween/' class='tag-link-52' title='6 topics' style='font-size: 10.8925619835pt;'>NerdKween</a>
+<a href='http://wearerockscience.com/tag/nerd-parade/' class='tag-link-29' title='8 topics' style='font-size: 12.0495867769pt;'>nerd parade</a>
+<a href='http://wearerockscience.com/tag/new-terminus/' class='tag-link-21' title='24 topics' style='font-size: 17.2561983471pt;'>new terminus</a>
+<a href='http://wearerockscience.com/tag/picaflor-studio/' class='tag-link-80' title='11 topics' style='font-size: 13.5537190083pt;'>Picaflor Studio</a>
+<a href='http://wearerockscience.com/tag/pink-pompeii/' class='tag-link-98' title='4 topics' style='font-size: 9.15702479339pt;'>pink pompeii</a>
+<a href='http://wearerockscience.com/tag/pocket-the-moon/' class='tag-link-174' title='5 topics' style='font-size: 10.0826446281pt;'>pocket the moon</a>
+<a href='http://wearerockscience.com/tag/randy-garcia/' class='tag-link-25' title='3 topics' style='font-size: 8pt;'>randy garcia</a>
+<a href='http://wearerockscience.com/tag/reklein/' class='tag-link-84' title='3 topics' style='font-size: 8pt;'>Reklein</a>
+<a href='http://wearerockscience.com/tag/rock-science-radio/' class='tag-link-68' title='8 topics' style='font-size: 12.0495867769pt;'>Rock Science Radio</a>
+<a href='http://wearerockscience.com/tag/rock-science-revival/' class='tag-link-35' title='19 topics' style='font-size: 16.0991735537pt;'>Rock Science Revival</a>
+<a href='http://wearerockscience.com/tag/romeo-spike/' class='tag-link-42' title='3 topics' style='font-size: 8pt;'>romeo spike</a>
+<a href='http://wearerockscience.com/tag/slider/' class='tag-link-19' title='63 topics' style='font-size: 22pt;'>slider</a>
+<a href='http://wearerockscience.com/tag/soft-powers/' class='tag-link-113' title='3 topics' style='font-size: 8pt;'>soft powers</a>
+<a href='http://wearerockscience.com/tag/summer-dare/' class='tag-link-28' title='4 topics' style='font-size: 9.15702479339pt;'>summer dare</a>
+<a href='http://wearerockscience.com/tag/supervisor-of-the-loveless-average/' class='tag-link-182' title='4 topics' style='font-size: 9.15702479339pt;'>supervisor of the loveless average</a>
+<a href='http://wearerockscience.com/tag/swank-sinatra/' class='tag-link-214' title='6 topics' style='font-size: 10.8925619835pt;'>swank sinatra</a>
+<a href='http://wearerockscience.com/tag/the-drunken-unicorn/' class='tag-link-149' title='9 topics' style='font-size: 12.6280991736pt;'>the drunken unicorn</a>
+<a href='http://wearerockscience.com/tag/the-heavy-florist/' class='tag-link-183' title='7 topics' style='font-size: 11.4710743802pt;'>the heavy florist</a>
+<a href='http://wearerockscience.com/tag/the-killer-and-the-martyr/' class='tag-link-34' title='3 topics' style='font-size: 8pt;'>The Killer and The Martyr</a>
+<a href='http://wearerockscience.com/tag/the-low-days/' class='tag-link-74' title='3 topics' style='font-size: 8pt;'>the low days</a>
+<a href='http://wearerockscience.com/tag/the-music-room/' class='tag-link-188' title='4 topics' style='font-size: 9.15702479339pt;'>the music room</a>
+<a href='http://wearerockscience.com/tag/tracey/' class='tag-link-12' title='15 topics' style='font-size: 14.9421487603pt;'>tracey</a>
+<a href='http://wearerockscience.com/tag/travis/' class='tag-link-27' title='8 topics' style='font-size: 12.0495867769pt;'>travis</a>
+<a href='http://wearerockscience.com/tag/vegan-coke/' class='tag-link-131' title='3 topics' style='font-size: 8pt;'>vegan coke</a>
+<a href='http://wearerockscience.com/tag/waking-the-bates/' class='tag-link-143' title='3 topics' style='font-size: 8pt;'>Waking the Bates</a>
+<a href='http://wearerockscience.com/tag/wes-swing/' class='tag-link-64' title='3 topics' style='font-size: 8pt;'>wes swing</a></div>
+</div></div><!-- /#sidebar -->
+
+		</div><!-- /#main-sidebar-container -->         
+
+		        
+    </div><!-- /#content -->
+			
+	<div id="footer-widgets" class="col-full col-4">
+	
+					
+					<div class="block footer-widget-1">
+	    	<div id="linkcat-2" class="widget widget_links"><h3>Links</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="http://atlalist.com/" title="Atlanta Music and Literature Blog" target="_blank">Atlanta&#039;s A-List</a></li>
+<li><a href="http://www.bangarts.com">Bang! Arts Management &amp; Promotions</a></li>
+<li><a href="http://mintatl.org/" title="Non-profit Artist Gallery" target="_blank">Mint Gallery</a></li>
+<li><a href="http://www.nophi.net/" rel="friend" title="Handmade Music Co." target="_blank">Nophi Records</a></li>
+<li><a href="http://www.picaflorstudio.com">Picaflor Studio</a></li>
+<li><a href="http://www.relapsecomedy.com/" title="Fuck&#8217;d Up Shit" target="_blank">Relapse Comedy</a></li>
+<li><a href="http://www.themoonandpluto.com/">The Moon and Pluto</a></li>
+
+	</ul>
+</div>
+    
+		</div>	        
+	        					
+					<div class="block footer-widget-2">
+	    	<div id="archives-3" class="widget widget_archive"><h3>Archives</h3>		<ul>
+			<li><a href='http://wearerockscience.com/2012/05/' title='May 2012'>May 2012</a></li>
+	<li><a href='http://wearerockscience.com/2012/04/' title='April 2012'>April 2012</a></li>
+	<li><a href='http://wearerockscience.com/2012/02/' title='February 2012'>February 2012</a></li>
+	<li><a href='http://wearerockscience.com/2012/01/' title='January 2012'>January 2012</a></li>
+	<li><a href='http://wearerockscience.com/2011/12/' title='December 2011'>December 2011</a></li>
+	<li><a href='http://wearerockscience.com/2011/11/' title='November 2011'>November 2011</a></li>
+	<li><a href='http://wearerockscience.com/2011/09/' title='September 2011'>September 2011</a></li>
+	<li><a href='http://wearerockscience.com/2011/08/' title='August 2011'>August 2011</a></li>
+	<li><a href='http://wearerockscience.com/2011/07/' title='July 2011'>July 2011</a></li>
+	<li><a href='http://wearerockscience.com/2011/06/' title='June 2011'>June 2011</a></li>
+	<li><a href='http://wearerockscience.com/2011/05/' title='May 2011'>May 2011</a></li>
+	<li><a href='http://wearerockscience.com/2011/04/' title='April 2011'>April 2011</a></li>
+	<li><a href='http://wearerockscience.com/2011/03/' title='March 2011'>March 2011</a></li>
+	<li><a href='http://wearerockscience.com/2011/02/' title='February 2011'>February 2011</a></li>
+	<li><a href='http://wearerockscience.com/2011/01/' title='January 2011'>January 2011</a></li>
+	<li><a href='http://wearerockscience.com/2010/12/' title='December 2010'>December 2010</a></li>
+	<li><a href='http://wearerockscience.com/2010/11/' title='November 2010'>November 2010</a></li>
+	<li><a href='http://wearerockscience.com/2010/10/' title='October 2010'>October 2010</a></li>
+	<li><a href='http://wearerockscience.com/2010/09/' title='September 2010'>September 2010</a></li>
+	<li><a href='http://wearerockscience.com/2010/08/' title='August 2010'>August 2010</a></li>
+		</ul>
+</div>    
+		</div>	        
+	        					
+								
+						    		        
+		<div class="fix"></div>
+	
+	</div><!--/#footer-widgets-->
+	<div id="footer" class="col-full">
+	
+		    
+	    
+		<div id="copyright" class="col-left">
+			<p>&copy; 2012 Rock Science . All Rights Reserved. </p>		</div>
+		
+		<div id="credit" class="col-right">
+			<p>Powered by <a href="http://wordpress.org/" title="WordPress">WordPress</a>. Designed by <a href="http://www.woothemes.com/" title="WooThemes"><img src="http://wearerockscience.com/wp-content/themes/canvas-4.1.1/images/woothemes.png" width="74" height="19" alt="Woo Themes" /></a></p>		</div>
+		
+	</div><!-- /#footer  -->
+	
+	    
+	
+	</div><!-- /#wrapper -->
+	
+<script type="text/javascript"><!--
+wpa2a.targets=[];
+wpa2a.html_done=true;if(wpa2a.script_ready&&!wpa2a.done)wpa2a.init();wpa2a.script_load();
+//--></script>
+			<script type="text/javascript">
+				(function($){
+					$(function(){
+						$("img.flickr.square,img.flickr.thumbnail,img.flickr.small").flightbox({size_callback: get_sizes});
+					});
+				})(jQuery);
+			</script>
+				</body>
+</html>

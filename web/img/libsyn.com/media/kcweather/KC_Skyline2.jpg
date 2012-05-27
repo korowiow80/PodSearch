@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>404 Not Found</title>
+<style type="text/css">
+.simple_box {
+	border:1px solid #ccc;
+	margin:0;
+	padding:10px;
+}
+
+#error_box {
+	width:500px;
+	margin:auto;
+	padding:20px;
+	margin-top:200px;
+	text-align:left;
+	color:#333333;
+}
+
+body {
+	text-align:center;
+	color:#FFFFFF;
+	font-family:Geneva, Arial, Helvetica, san-serif;
+}
+
+.small_text {
+	font-size:10px;
+}
+
+.tiny_text {
+	font-size:9px;
+}
+
+.huge_text {
+	font-size:20px;
+}
+
+.medium_text {
+ 	font-size:12px;
+} 
+</style>
+</head>
+<body>
+<div id="error_main">
+	<div id="error_box" class="simple_box">
+		<div class="huge_text">Error: 404 Not Found</div> 
+		<div style="height:10px;"></div>
+		<div class="small_text">
+			There was a problem processing your request!
+					</div>
+		<div style="height:10px;"></div>
+		<div class="tiny_text">Details:</div>
+		<div id="error_message" class="medium_text">
+			<br />
+					</div>
+		<div style="height:10px;"></div>
+
+					<div class="tiny_text">Attempting to load:</div>
+			<div class="medium_text">http://traffic.libsyn.com/kcweather/KC_Skyline2.jpg</div>
+				
+		<div style="height:10px;"></div>
+
+					<div class="tiny_text">No Previous URL</div>
+				<div class="medium_text"></div>
+			</div>
+</div>
+
+</body>
+</html>

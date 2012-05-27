@@ -1,0 +1,384 @@
+ 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Podiobooks.com - Serialized audio books in podcast form</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<META name="verify-v1" content="U2Z5/YC8CYaxhU+C/MTx/RGC04A6r3Bv7jwnSdjEeIY=" />
+<meta name="Keywords" content="audio books, audiobooks, books, novels, podcast, podcasting, 
+podiobooks" />
+<meta name="Description" content="Free audio books delivered as podcasts. Subscribe for free 
+to any book and start from chapter one. Podiobooks.com" />
+<meta name="verify-v1" content="/YL52oR4cBkAnqoOq0SpNsrjKGNCK2UW56HtcvVz4ds=" />
+<meta name="verify-v1" content="nwBcdZq7uAdRc0XawLPKWd1xLhZAdUZiZwuY8+Dt+J4=" />
+<meta name="google-site-verification" content="ueok5L22Jfc2ccWgFEzxk7Jz7qIksV9uVTC1sCs26UM" />
+
+<meta name="google-site-verification" content="AXuN-5u7HxtqaSog-IMogu4z8z9l18mAgqpUAJzh-ac" />
+<link href="https://plus.google.com/117798157258572080176" rel="publisher" />
+<link rel="alternate" type="application/rss+xml" title="Podiobooker Blog (RSS 2.0)" href="http://www.podiobooks.com/index.xml" />
+
+
+<link rel="stylesheet" type="text/css" href="/podiobooks_main.css" />
+<div id="overDiv" style="position:absolute; visibility:hidden; z-index:1000;"></div>
+<script type="text/javascript" language="JavaScript" src="/javascripts/overlib.js"></script>
+
+<script type="text/javascript" src="/javascripts/rounded.js"></script>
+
+<script type="text/javascript">
+
+	window.onload=function(){
+		if(!NiftyCheck())
+		return;
+		Rounded("div#site","all","#FFFFFF","#A0A0A0","smooth");
+		Rounded("div#books li","all","#EBEBEB","#C2C2C2","smooth");
+	}
+	
+	function listensample(id) {
+		
+		listenwindow= window.open("http://www.podiobooks.com/player.php?ID=" + id, "tinyWindow", 'toolbar=no,width=550,height=400')
+		
+		if (!listenwindow){
+			alert("It looks like you have a pop-up blocker active. Since the new player is in a pop-up window, you need to set your blocker to allow popups from www.podiobooks.com.  Thanks!");
+			
+		} else {
+			listenwindow.focus();
+		}
+	}
+	
+	function doClick(theform, e)
+	    {
+	//the purpose of this function is to allow the enter key to 
+	//point to the correct button to click.
+	        var key;
+		
+	         if(window.event)
+	              key = window.event.keyCode;     //IE
+	         else
+	              key = e.which;     //firefox
+
+	        if (key == 13)
+	        {
+	            //Get the button the user wants to have clicked
+	            theform.submit();
+	        }
+	   }
+	
+	function doClickSubmit(theform)
+	    {
+			theform.submit();
+	   }
+
+
+</script>
+</head>
+
+<body id="home">
+
+
+	<!-- Main Site Container -->
+	<!-- Ad Space -->
+	.
+	<div id="site">
+		
+		<!-- Header - Logo and Navigation Bar -->
+		<div id="header">
+			<div id="logo">
+			<a href="http://www.podiobooks.com/">
+			<img src="/images/logo.jpg" width="127" height="93" /></a></div>
+			
+			<div id="headerbox">
+			
+				<div id="title"><a href="/index.php"><img src="/images/title.jpg"  height="70" /></a></div>
+				<div id="quicksearch"><form method="get" id="qsearch" name=id="qsearch" action="/podiobooks/search.php">
+				<table border=0 width="660"><tr><td align="left" valign="bottom" style="padding-bottom: 4px"><span class="smalltext" style="color:white;">Free serialized audio books, delivered on your schedule.</span>
+				</td>
+				<td align="right">
+
+			
+						Search Podiobooks.com:<input type="text" name="keyword" class="formtextbox" size="20" onKeyPress="doClick(document.forms[0],event)" />&nbsp;<input class="formbutton" id="searchSubmit" name="searchSubmit" type="button" value="Go" onClick="doClickSubmit(document.forms[0])" />							</form>
+							</td></tr></table>
+							</div>
+							
+				<div id="usercontrols">
+				<form action="">
+																	</form></div>
+				<div id="horznavbox">
+					<ul>
+					<li><a href="/index.php">Home</a></li>						<li><a href="/login.php">Log In/Register</a></li>						
+						<li><a href="/blog">Blog</a></li>
+						<li><a href="/donate.php">Why Donate?</a></li>
+						<li><a href="/podiobooks/search.php?showall=true">Search</a></li>
+						<li><a href="/about.php">FAQ</a></li>
+						<li><a href="/staff.php">Staff</a></li>
+						<li><a href="/authors.php">Authors</a></li>
+						
+						<li><a href="/authors/pbpro.php">PBPro</a></li>
+						<li><a href="/legal.php">Privacy and Legal</a></li>
+						<li><a href="http://community.podiobooks.com">Community</a></li>
+						
+				
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- End Header - Logo and Navigation Bar -->
+
+		<div id="content">
+			
+				<!--
+				<iframe width="728" height="90" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" scrolling="no" allowtransparency="true" style="overflow: hidden; margin: 0; padding: 0;"
+				src="http://www.pheedo.com/ad.php?i=1&zone=1a29c7f1b79348f298e1584241c0f589&BorderColor=%23006699&BorderWidth=1&BgColor=%23ffffff&TextColor=%23000000&TextFace=Arial%2C%20Verdana%2C%20sans-serif&TextSize=11&LinkColor=%23006699&UrlColor=%23999999">
+				</iframe>
+				</div--><!-- Fading effect for book covers -->
+
+
+
+<!-- Recent Updates List -->
+
+
+
+
+
+
+
+			<div id="recentupdates">
+			<div class="heading">
+					<p>Browse Our Titles</p>
+					<img src="images/headingbookend.jpg" width="32" height="35" />				</div>
+					<div id="categories"  align="center">
+				
+				<form name="main" method="get" action="/podiobooks/search.php">
+
+					<select name="category">
+<option label="Alternative History" value="12">Alternative History</option>
+<option label="Audiodrama" value="20">Audiodrama</option>
+<option label="Business" value="3">Business</option>
+<option label="Chick Lit" value="28">Chick Lit</option>
+<option label="Children" value="9">Children</option>
+<option label="Erotica" value="26">Erotica</option>
+<option label="Essays" value="8">Essays</option>
+<option label="Fabulist Satire" value="34">Fabulist Satire</option>
+<option label="Fantasy" value="2">Fantasy</option>
+<option label="Fiction" value="7">Fiction</option>
+<option label="Historical Fantasy" value="32">Historical Fantasy</option>
+<option label="Historical Fiction" value="21">Historical Fiction</option>
+<option label="History" value="19">History</option>
+<option label="Horror/Dark Fantasy" value="11">Horror/Dark Fantasy</option>
+<option label="Humor" value="6">Humor</option>
+<option label="Inspirational Fiction" value="30">Inspirational Fiction</option>
+<option label="Literature" value="29">Literature</option>
+<option label="Magical Realism" value="13">Magical Realism</option>
+<option label="Mystery" value="5">Mystery</option>
+<option label="Non-Fiction" value="18">Non-Fiction</option>
+<option label="Poetry" value="25">Poetry</option>
+<option label="Public Domain" value="17">Public Domain</option>
+<option label="Romance" value="31">Romance</option>
+<option label="Science Fiction" value="1">Science Fiction</option>
+<option label="Self-Help" value="33">Self-Help</option>
+<option label="Spirituality" value="22">Spirituality</option>
+<option label="Steampunk" value="35">Steampunk</option>
+<option label="Thriller" value="27">Thriller</option>
+<option label="Travelogue" value="24">Travelogue</option>
+<option label="Young Adult" value="10">Young Adult</option>
+</select>
+
+					 <input type="submit" value="Go!" class="formbutton"/>
+				</form>
+				<br />
+			</div>
+				<div class="heading">
+					<p>Recent Updates</p>
+					<img src="images/headingbookend.jpg" width="32" height="35" />				</div>
+				<ul class="list">
+										<li> <span class="smalltext">05/24/12</span>: Added  1&nbsp;episode&nbsp;to <i><a href="/title/underwood-and-flinch/">Underwood and Flinch</a></i> </li>
+										<li> <span class="smalltext">05/23/12</span>: Added  15&nbsp;episodes&nbsp;to <i><a href="/title/the-beauty-of-our-weapons/">The Beauty of Our Weapons</a></i> </li>
+										<li> <span class="smalltext">05/21/12</span>: Added  2&nbsp;episodes&nbsp;to <i><a href="/title/the-all-pro/">The All Pro</a></i> </li>
+										<li> <span class="smalltext">05/21/12</span>: Added  1&nbsp;episode&nbsp;to <i><a href="/title/the-last-sorcerer/">The Last Sorcerer</a></i> </li>
+										<li> <span class="smalltext">05/21/12</span>: Added  6&nbsp;episodes&nbsp;to <i><a href="/title/underwood-and-flinch/">Underwood and Flinch</a></i> </li>
+										<li><a href="http://www.google.com/calendar/embed?src=gf747dq15ae53jcqvsbndp1eig%40group.calendar.google.com&ctz=America/New_York" target="_blank">View our Upcoming Release Schedule</a></li>		
+				</ul>
+				
+				<center><br/>
+				<!--a href="http://www.libsyn.com" target="_blank">
+				<img src="/images/libsynsmall.jpg" style="border: 1px solid black; margin-top: 8px" width="250" height="55" alt="libsynsmall (7K)" />
+				</a-->
+				<script type="text/javascript"><!--
+				google_ad_client = "ca-pub-1276519440300441";
+				/* Home - Half */
+				google_ad_slot = "0237068736";
+				google_ad_width = 234;
+				google_ad_height = 60;
+				//-->
+				</script>
+				<script type="text/javascript" src="">
+				</script>
+				</center>
+			</div>
+			<!-- End Recent Updates List -->
+	
+			<!-- Latest News From Blog List -->
+			<div id="latestnews">
+				<div class="heading">
+					<p>Latest News from the <a href="/blog">Blog</a></p>
+					<img src="images/headingbookend.jpg" width="32" height="35"  />				</div>
+					<div align="right">
+					<a href="http://podiobooks.com/index.xml" style="text-decoration:none">
+					<img src="../images/feed-icon.png" width="28" height="28" border="0" alt="rss-text (1K)" align="right" hspace="5" vspace="5" />
+					</a>
+					</div>
+				
+					
+									<div id="rssfeed" name="rssfeed" style="height: 100px"><ul><li><a href=http://www.podiobooks.com/blog/2012/05/23/just-released-the-beauty-of-our-weapons-by-m-darusha-wehm/>Just released! The Beauty of Our Weapons by M. Darusha Wehm</a></li><li><a href=http://www.podiobooks.com/blog/2012/04/25/new-release-awaken-your-english-corso-dinglese-per-italiani-by-antonio-libertino/>New release! Awaken Your English ? Corso d?inglese per italiani by Antonio Libertino</a></li><li><a href=http://www.podiobooks.com/blog/2012/04/19/armand-ptolemy-and-the-golden-aleph-by-mark-jeffrey-is-complete/>Armand Ptolemy and the Golden Aleph by Mark Jeffrey is COMPLETE!</a></li><li><a href=http://www.podiobooks.com/blog/2012/04/18/new-release-mighty-roman-shorts-by-jon-sindell/>New release! Mighty Roman Shorts by Jon Sindell</a></li><li><a href=http://www.podiobooks.com/blog/2012/04/11/new-release-matcher-rules-by-mary-holland/>New release! Matcher Rules by Mary Holland</a></li><li><a href=http://www.podiobooks.com/blog/2012/04/07/compensating-controls-by-james-keeling-is-complete/>Compensating Controls by James Keeling is COMPLETE!</a></li></ul></div>
+									<br/></br>
+					<div class="heading">
+					<p>Stats, Widgets and Promos</p>
+					<img src="images/headingbookend.jpg" width="32" height="35"  />				</div>
+					<ul class="list">
+						<li>11169 episodes available for download in 591 titles</li>
+							
+					<li>Transmitting books to 89,164 members</li>
+					
+					<!--li>Over  episodes downloaded since 10/1/2005</li-->
+					<li>What books are hot? <a href="charts.php"><b>Check out the charts!</b></a></li>
+					<li><a href="http://www.frappr.com/podiobookscommembers" target="_blank">Find Podiobooks.com fans near you</a>!</li>
+					<li><b><a href="/spreadtheword.php">Promos and Banners</a></b> to help spread the word.</li>
+					</ul>
+			</div>
+			<!-- End Latest News From Blog List -->
+	
+			
+
+			<br clear=all>
+			<!--div class="heading">
+				<p>Have you seen...? </span> 
+					</p>
+
+				<img src="images/headingbookend.jpg" width="32" height="35" />			</div>
+			
+								
+	-->
+			<!-- Featured Books List -->
+			<br/><br/>
+			<div align="center">
+				<script type="text/javascript"><!--
+google_ad_client = "pub-1276519440300441";
+google_ad_width = 728;
+google_ad_height = 15;
+google_ad_format = "728x15_0ads_al_s";
+//2006-11-02: Home page
+google_ad_channel = "0239979916";
+google_color_border = "FFFFFF";
+google_color_bg = "E6E6E6";
+google_color_link = "0000FF";
+google_color_text = "000000";
+google_color_url = "E1771E";
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script><br/><br/>
+				</div>
+			<div class="heading">
+				<p>Selections from the Staff &nbsp;&nbsp;<span class="smalltext">(<a style="text-decoration:none" href="/podiobooks/search.php?showall=true">Show all books</a>)</span> 
+					</p>
+
+				<img src="images/headingbookend.jpg" width="32" height="35" />			</div>
+			<div id="books">
+				<ul>
+					
+
+<li><table><tr><td align="center"><a href="/title/ravenwood"><img src="/images/covers/Ravenwood.jpg" />									</a><!--div align="center"><A HREF="javascript:void(0)" onclick="window.open('http://www.pupuplayer.com/free/pupuplayer.php?podcast=http://www.podiobooks.com/bookfeed/sampler/468/book.xml','linkname','height=235, width=450,scrollbars=no')"><img src="/images/sample2.gif" alt="Listen to a sample from this book" border=0 /></a></div--></td><td><a href="/title/ravenwood"><span class="booktitle">Ravenwood  &nbsp;&nbsp;<span style="color: red"></span></span></a><span class="subtitle">by Nathan Lowell <br/><i>Fantasy</i></span><br/><p><strong>A <a href="http://www.podiobooks.com/podiobooks/search.php?keyword=Tanyth+Fairport+Adventure">Tanyth Fairport Adventure</a>: Book 1</strong><br />
+<br />
+After twenty winters on the road, Tanyth makes one last pilgrimage in her quest to learn all she can about the herbs and medicinal plants of Korlay before settling down to write her magnum opus. Her journey is interrupted when she stops to help a small village and learns that much of what she knows of the world may not be quite as it seems. <br />
+<br />
+In this work, Nathan Lowell blends wiccan tradition and shamanistic lore into a fantasy quest and creates a world for a new - if unlikely - heroine to explore. She learns that the familiar sometimes hides the fantastical and that, even when you think you’ve made your decisions, life doesn’t always agree.</p><p></p></td></tr></table></li>
+<li><table><tr><td align="center"><a href="/title/trapping-a-duchess"><img src="/images/covers/TrappingADuchess.jpg" />									</a><!--div align="center"><A HREF="javascript:void(0)" onclick="window.open('http://www.pupuplayer.com/free/pupuplayer.php?podcast=http://www.podiobooks.com/bookfeed/sampler/475/book.xml','linkname','height=235, width=450,scrollbars=no')"><img src="/images/sample2.gif" alt="Listen to a sample from this book" border=0 /></a></div--></td><td><a href="/title/trapping-a-duchess"><span class="booktitle">Trapping A Duchess  &nbsp;&nbsp;<span style="color: red"></span></span></a><span class="subtitle">by Michele Bekemeyer <br/><i>Romance</i></span><br/><p>Set in the early 19th Century England, Trapping A Duchess tells the story of formerly affianced couple, whose marriage-to-be ended when Sophie left Andrew humiliated at the altar. The two would be more than pleased to never have to see one another again until they come face to face while rivaling for the affections of two members of the same family.<br />
+<br />
+Tempers - and desires - flare as the pair does their best to outwit one another.  But fate has other plans, including a seduction that changes everything.</p><p></p></td></tr></table></li>
+<li><table><tr><td align="center"><a href="/title/infected"><img src="/images/covers/Infected.jpg" />									</a><!--div align="center"><A HREF="javascript:void(0)" onclick="window.open('http://www.pupuplayer.com/free/pupuplayer.php?podcast=http://www.podiobooks.com/bookfeed/sampler/255/book.xml','linkname','height=235, width=450,scrollbars=no')"><img src="/images/sample2.gif" alt="Listen to a sample from this book" border=0 /></a></div--></td><td><a href="/title/infected"><span class="booktitle">Infected  &nbsp;&nbsp;<span style="color: red"></span></span></a><span class="subtitle">by Scott Sigler <br/><i>Horror/Dark Fantasy</i></span><br/><p><strong>Book 1 in the <a href="http://www.podiobooks.com/podiobooks/search.php?keyword=infected+trilogy"><em>Infected Trilogy</a></strong><br />
+<br />
+<a href="http://www.podiobooks.com/blog/2008/12/30/2008-founders-choice-awards/"><img src="http://farm5.static.flickr.com/4030/4285895645_98147f8aee_o.gif" align="right" hspace="10" vspace="10" /></a><a href="http://www.parsecawards.com/past-awards/2010-parsec-awards-winners-finalists/"><img src="http://www.podiobooks.com/blog/wp-content/uploads/2010parsecfinalist.trans.gif" align="right" hspace="10" vspace="10"/></a>Across America a mysterious disease is turning ordinary people into raving, paranoid murderers who inflict brutal horrors on strangers, themselves, and even their own families.<br />
+<br />
+Working under the government's shroud of secrecy, CIA operative Dew Phillips crisscrosses the country trying in vain to capture a live victim. With only...<a href="/podiobooks/book.php?ID=255&link=featured_more">[more]</a></p><p></p></td></tr></table></li>
+<li><table><tr><td align="center"><a href="/title/resurrecting-randi"><img src="/images/covers/RR_Final_Cover.jpg" />									</a><!--div align="center"><A HREF="javascript:void(0)" onclick="window.open('http://www.pupuplayer.com/free/pupuplayer.php?podcast=http://www.podiobooks.com/bookfeed/sampler/149/book.xml','linkname','height=235, width=450,scrollbars=no')"><img src="/images/sample2.gif" alt="Listen to a sample from this book" border=0 /></a></div--></td><td><a href="/title/resurrecting-randi"><span class="booktitle">Resurrecting Randi  &nbsp;&nbsp;<span style="color: red"></span></span></a><span class="subtitle">by David Shepherd <br/><i>Fiction</i></span><br/><p>When college professor Travis Harrison meets the copper-headed seductress, Layla Sommers, the two are drawn together with a fierce attraction - a desperate need as impossible as it is inevitable. Layla reminds Travis of his deceased daughter, Randi, and after Layla attempts suicide, he brings her into his home. There, despite her wild mood swings and overt seductiveness, there also come moments of remarkable love and compassion which help Travis come to terms with the truth surrounding his daughter's death.<br />
+ <br />
+Ultimately, however, Layla's volatile behavior costs Travis his career and his marriage; she even frames him with a murder.<br />
+ <br />
+The novel opens - and closes - with Travis parked on the side of a cold and desolate highway. He hasn't seen Layla for a year and is waiting for her to emerge from a remote psychiatric center. He holds a gun in his hand...</p><p></p></td></tr></table></li>
+<li><table><tr><td align="center"><a href="/title/hall-of-mirrors-2"><img src="/images/covers/hom2_book_PB.jpg" />									</a><!--div align="center"><A HREF="javascript:void(0)" onclick="window.open('http://www.pupuplayer.com/free/pupuplayer.php?podcast=http://www.podiobooks.com/bookfeed/sampler/339/book.xml','linkname','height=235, width=450,scrollbars=no')"><img src="/images/sample2.gif" alt="Listen to a sample from this book" border=0 /></a></div--></td><td><a href="/title/hall-of-mirrors-2"><span class="booktitle">Hall of Mirrors: Tales of Horror and the Grotesque Volume 2  &nbsp;&nbsp;<span style="color: red"></span></span></a><span class="subtitle">by Mike Bennett <br/><i>Horror/Dark Fantasy</i></span><br/><p>Return to the ruined pier at the farthest, darkest edge of the Internet and accompany Mike Bennett back into the Hall of Mirrors.<br />
+<br />
+This time around we have hell and damnation in 'Salvation'; a petty criminal in a tight spot in 'Give Me a Hundred'; something in the woods in 'The Green Man'; a revolting comedy featuring two men and a dog in 'Dessert'; a cockroach problem in 'The Exterminators; and a ship bound for bloodshed in 'Night Crossing'. <br />
+<br />
+So, dust off your ticket stub and roll up once again for Hall of Mirrors Volume 2 – More Tales of Horror and the Grotesque.<br />
+<br />
+"This is the way horror audio should be done: Mike Bennett's podcast storytelling is an exceptionally generous free treat for the ears and the mind.  Listen to the Hall of Mirrors, and you'll feel his dark and twisted imaginations fingering their way into your ear canals, his remarkable voice prying into your...<a href="/podiobooks/book.php?ID=339&link=featured_more">[more]</a></p><p></p></td></tr></table></li>
+<li><table><tr><td align="center"><a href="/title/captain-blackwells-prize"><img src="/images/covers/Captain-Blackwells-Prize-2.jpg" />									</a><!--div align="center"><A HREF="javascript:void(0)" onclick="window.open('http://www.pupuplayer.com/free/pupuplayer.php?podcast=http://www.podiobooks.com/bookfeed/sampler/656/book.xml','linkname','height=235, width=450,scrollbars=no')"><img src="/images/sample2.gif" alt="Listen to a sample from this book" border=0 /></a></div--></td><td><a href="/title/captain-blackwells-prize"><span class="booktitle">Captain Blackwell's Prize  &nbsp;&nbsp;<span style="color: red"></span></span></a><span class="subtitle">by V.E. Ulett <br/><i>Fiction</i></span><br/><p>A romantic adventure from the days of wooden ships and iron men, CAPTAIN BLACKWELL’S PRIZE is a story of honor, duty, social class and the bond of sexual love.<br />
+<br />
+In 1802 Captain James Blackwell attacks and takes La Trinidad, a Spanish frigate aboard which Blackwell finds 35,000 gold dollars and the American woman Mercedes de Aragon. On putting into Gibraltar with his treasure and his new mistress Blackwell is informed by his irate evangelical admiral of the Treaty of Amiens, denying him prize money earned by the capture and setting Mercedes at liberty. But the self-possessed American has formed a strong attachment to lusty Captain Blackwell. When she journeys with the captain to the North African coast and is taken into the Dey of Oran’s harem, Captain Blackwell must follow his own code of morality and honor to rescue the woman on whom his future happiness depends.<br />
+<br />
+CAPTAIN BLACKWELL’S...<a href="/podiobooks/book.php?ID=656&link=featured_more">[more]</a></p><p></p></td></tr></table></li>
+<li><table><tr><td align="center"><a href="/title/underwood-and-flinch"><img src="/images/covers/Underwood-and-Flinch.jpg" />									</a><!--div align="center"><A HREF="javascript:void(0)" onclick="window.open('http://www.pupuplayer.com/free/pupuplayer.php?podcast=http://www.podiobooks.com/bookfeed/sampler/699/book.xml','linkname','height=235, width=450,scrollbars=no')"><img src="/images/sample2.gif" alt="Listen to a sample from this book" border=0 /></a></div--></td><td><a href="/title/underwood-and-flinch"><span class="booktitle">Underwood and Flinch  &nbsp;&nbsp;<span style="color: red"></span></span></a><span class="subtitle">by Mike Bennett <br/><i>Horror/Dark Fantasy</i></span><br/><p><a href="http://www.parsecawards.com/past-awards/2010-parsec-awards-winners-finalists/"><img src="http://www.podiobooks.com/blog/wp-content/uploads/2010parsecfinalist.trans.gif" align="right" hspace="10" vspace="10"/><a href="http://www.outofthecoffin.com/polidori-awards/"><img src="http://farm7.static.flickr.com/6104/6342621468_274893dd74_o.png" align="right" hspace="10" /></a><br />
+<br />
+</a>All David Flinch ever wanted was a normal life. <br />
+<br />
+But when you're a member of the Flinch family, normal has never been easy.<br />
+<br />
+For hundreds of years, the eldest male Flinch has been servant and guardian to the Lord Underwood. While the Flinches have changed through the generations, Underwood, a vampire, has been eternal. David had hoped to be spared the horror of serving his family's lord and master, but when he is summoned to the Flinch home in Spain by his dying older brother, he knows his luck...<a href="/podiobooks/book.php?ID=699&link=featured_more">[more]</a></p><p></p></td></tr></table></li>
+<li><table><tr><td align="center"><a href="/title/act-of-will"><img src="/images/covers/ActofWill.jpg" />									</a><!--div align="center"><A HREF="javascript:void(0)" onclick="window.open('http://www.pupuplayer.com/free/pupuplayer.php?podcast=http://www.podiobooks.com/bookfeed/sampler/603/book.xml','linkname','height=235, width=450,scrollbars=no')"><img src="/images/sample2.gif" alt="Listen to a sample from this book" border=0 /></a></div--></td><td><a href="/title/act-of-will"><span class="booktitle">Act of Will  &nbsp;&nbsp;<span style="color: red"></span></span></a><span class="subtitle">by M. Darusha Wehm <br/><i>Science Fiction</i></span><br/><p><a href="http://www.parsecawards.com/2011-parsec-awards/2011-parsec-awards-winners-finalists/"><img src="https://lh3.googleusercontent.com/-w_rBRjGEBNM/TjdykI0vPvI/AAAAAAAAAIw/S-0PglxxJms/w342-h305-k/ParsecLogo2011_AFinalist.jpg" align="right" hspace="10"/></a><br />
+<br />
+<strong>The 2nd <a href="http://www.podiobooks.com/podiobooks/search.php?keyword=Andersson+Dexter">Andersson Dexter</a> novel</strong><br />
+<br />
+Andersson Dexter is a new man, still living his old life.<br />
+<br />
+Part vigilante, part private eye, part cop, Dex is muddling his way through his day job as a faceless customer service rep for a giant firm, while solving routine cases in his off hours.  But when a gruesomely mutilated corpse is found, things heat up for Dex and the underground organization he calls the Cubicle Men.<br />
+<br />
+Soon, Dex finds himself racing against the clock to find a killer who seems to be determined to...<a href="/podiobooks/book.php?ID=603&link=featured_more">[more]</a></p><p></p></td></tr></table></li>
+				</ul>
+			</div>
+			<!-- End Featured Books List -->
+
+			
+
+</div>
+
+		<!-- Footer -->
+		<div id="footer">
+			Text and Layout copyright©2005-2009 Podiobooks.com. All rights reserved. See <a href="/legal.php">legal notes</a> for audio file rights.
+			<script language="Javascript" type="text/javascript">
+				
+				<!-- // hide from old browsers
+			  
+				//variables
+				var user = "feedback"; 
+				var domain = "podiobooks.com"; 
+				var subject = "Podiobooks Feedback"; 
+				var bodytext = ""; 
+			  
+				//output
+				document.write('&nbsp;&nbsp;<a href=\"mailto:' + user + '@' + domain + '?subject=' + subject + '&body=' + bodytext + '\">'); 
+				document.write('Send Us Feedback</a>');
+				// -->
+			   
+				
+		 	</script>
+		&nbsp;&nbsp;<a href="http://www.podiobooks.com/blog/problem-tracking/">Report A Problem</a>
+		</div>
+		<!-- End Footer -->
+	</div>
+	<!--End Main Site Container -->
+	
+
+
+	
+	<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+	var pageTracker = _gat._getTracker("UA-5071400-1");
+	pageTracker._trackPageview();
+	</script>
+
+</body>
+
+</html>

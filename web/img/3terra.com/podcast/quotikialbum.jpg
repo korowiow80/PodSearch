@@ -1,0 +1,125 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head id="ctl00_Head1"><title>
+	3terra
+</title>
+   
+   <!-- style -->
+	<link rel="shortcut icon" href="/favicon.ico" /><link href="css/main.css" rel="stylesheet" type="text/css" /><link href="css/home.css" rel="stylesheet" type="text/css" />
+	<!--[if IE]>
+    <link rel="stylesheet" href="css/ie.css" type="text/css" />
+    <![endif]-->
+   
+   <!-- meta info -->
+	<meta name="description" content="3terra designs and builds software that adds value to your organization. We focus on understanding your unique needs so that we may help unlock your full potential." /><meta name="keywords" content="3terra, business intelligence, design, usability, web, web design, application development, application architecture" /><meta name="robots" content="index,follow" />
+   
+   <!-- scripts -->
+	<script language="javascript1.2" src="js/rollover.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+<form name="aspnetForm" method="post" action="default.aspx?404%3bhttp%3a%2f%2fwww.3terra.com%3a80%2fpodcast%2fquotikialbum.jpg" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEwMDUyNjYzMjhkZMcoW6Zg/Gz1g5CgGRzwNNy/Rz/L" />
+
+
+<!-- header -->
+<div id="headerOuter">
+   <div id="headerInner">
+      <h1><a href="/" title="3terra">3terra</a></h1>
+      <div id="headerRight"><!--<a href="/login/">Client Login</a>--></div>  
+   </div>
+</div>
+
+<!-- top nav -->
+<div id="topnavOuter"><div id="topnav"><a 
+		href="../"><img src="images/buttons/btn_home_f2.jpg" width="37" height="20" border="0" alt="Home" /></a><a 
+		href="about/" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('btn_about','','images/buttons/btn_about_f2.jpg',1);"><img name="btn_about" src="images/buttons/btn_about.jpg" width="81" height="20" border="0" id="btn_about" alt="Who We Are" /></a><a 
+		href="services/" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('btn_services','','images/buttons/btn_services_f2.jpg',1);"><img name="btn_services" src="images/buttons/btn_services.jpg" width="80" height="20" border="0" id="btn_services" alt="What We Do" /></a><a 
+		href="clients/" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('btn_clients','','images/buttons/btn_clients_f2.jpg',1);"><img name="btn_clients" src="images/buttons/btn_clients.jpg" width="73" height="20" border="0" id="btn_clients" alt="Our Clients" /></a><a 
+		href="projects/" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('btn_projects','','images/buttons/btn_projects_f2.jpg',1);"><img name="btn_projects" src="images/buttons/btn_projects.jpg" width="83" height="20" border="0" id="btn_projects" alt="Our Projects" /></a><a 
+		href="contact/" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('btn_contact','','images/buttons/btn_contact_f2.jpg',1);"><img name="btn_contact" src="images/buttons/btn_contact.jpg" width="71" height="20" border="0" id="btn_contact" alt="Contact Us" /></a></div></div>
+
+<!-- main -->
+
+
+<div id="homephotoOuter"><div id="homephoto"><img src="images/home_photo.jpg" alt="We design and build software that adds value to your organization. We focus on understanding your unique needs so that we may help unlock your full potential." /></div></div>
+<div id="mainOuter">
+   <div id="mainInnerHome">
+      <div id="column1">
+      
+         <div class="roundcont1">
+            <div class="roundtop1"><img src="images/box/green_title.gif" alt="Who We Are" /></div>
+            <p>
+               We are a team of accomplished consultants who specialize in using technology to solve business problems.<br />
+            </p>
+            <p>
+               We have experience delivering solutions in numerous industries including health care, retail, technology, 
+               consumer packaged goods, logistics, and financial services.
+            </p>
+         </div>
+      </div>
+      <div id="column2">
+         <div class="roundcont2">
+            <div class="roundtop2"><img src="images/box/brown_title.gif" alt="What We Do" /></div>
+            <p>
+               <strong>Application Architecture &amp; Development</strong><br />
+               We create web applications that add value to your business 
+            </p>
+            <p>
+               <strong>Design and Usability</strong><br />
+               We create attractive and functional web experiences
+            </p>
+            <p>
+               <strong>Business Intelligence</strong><br />
+               We help you unlock the power of your data 
+            </p>
+            
+         </div>	
+      </div>
+      <div id="column3">
+      
+         <div class="roundcont3">
+            <div class="roundtop3"><img src="images/box/blue_title.gif" alt="News and Events" /></div>
+            <p>
+               <strong>HNHB LHIN</strong><br />
+               Phase 2 of the Integrated Decision Support (IDS) system has begun and will include clinical data from mental health and chronic care facilities across the LHIN.</p>
+            <p>
+               <strong>Hamilton Health Sciences</strong><br />
+               The Hamilton Health Sciences balanced scorecard system is live and is being adopted by programs throughout the hospitals.
+      </p>
+         </div>	
+      </div>
+   </div>
+   <div style="clear: both;"></div>
+</div> 
+
+
+<!-- footer -->    
+<div id="footerOuter">
+   <div id="footerInner">
+      <a href="/">Home</a> |
+      <a href="/about/">Who We Are</a> |
+      <a href="/services/">What We Do</a> |
+      <a href="/clients/">Our Clients</a> |
+      <a href="/projects/">Our Projects</a> |
+      <a href="/contact/">Contact Us</a>
+      <br />&copy;2012 3terra Inc.
+   </div>
+</div> 
+
+</form>
+
+
+
+</body>
+</html>
+
+
+
+        

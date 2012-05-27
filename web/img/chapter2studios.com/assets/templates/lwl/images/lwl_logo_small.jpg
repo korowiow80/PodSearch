@@ -1,0 +1,186 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta name="keywords" content="video studio, movie production, producer, independent film, digital film studio" />
+	<title>Chapter 2 Studios | Welcome</title>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="google-site-verification" content="wCv5shXEpYABXbpw3qaJg8TDaz_6rj30DzrYq0Qy8fc" />
+        <base href="http://www.chapter2studios.com/" />
+	<link rel="stylesheet" href="assets/templates/c2s_v3/c2s030210.css" type="text/css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine" />
+        <link rel="shortcut icon" type="image/x-icon" href="assets/templates/c2s_v3/images/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="assets/templates/c2s_v3/images/favicon.ico" />
+        <script type="text/javascript" src="assets/flash/player/swfobject.js"></script>
+
+<!--[if lte IE 6]>
+<![endif]-->
+
+			<style type="text/css">
+			#myGallery1, #myGallerySet1
+			{
+			width: 640px;
+			height: 360px;
+			z-index:5;
+			display: none;
+			}
+			</style>
+<link rel="stylesheet" href="/assets/snippets/maxigallery/smoothgallery/css/jd.gallery.css" type="text/css" media="screen" />
+	<script type="text/javascript" src="/assets/snippets/maxigallery/smoothgallery/js/mootools.v1.11.js"></script>
+	<script type="text/javascript" src="/assets/snippets/maxigallery/smoothgallery/js/jd.gallery.js"></script>
+	<script type="text/javascript" src="/assets/snippets/maxigallery/smoothgallery/js/jd.gallery.transitions.js"></script>
+<link rel="stylesheet" href="/assets/templates/c2s_v3/maximanager.css" type="text/css" media="screen" />
+</head>
+<body>
+<script type="text/javascript" charset="utf-8">
+  var is_ssl = ("https:" == document.location.protocol);
+  var asset_host = is_ssl ? "https://s3.amazonaws.com/getsatisfaction.com/" : "http://s3.amazonaws.com/getsatisfaction.com/";
+  document.write(unescape("%3Cscript src='" + asset_host + "javascripts/feedback-v2.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript" charset="utf-8">
+  var feedback_widget_options = {};
+
+  feedback_widget_options.display = "overlay";  
+  feedback_widget_options.company = "chapter_2_studios";
+  feedback_widget_options.placement = "left";
+  feedback_widget_options.color = "#939393";
+  feedback_widget_options.style = "idea";
+  
+  
+  
+  
+  var feedback_widget = new GSFN.feedback_widget(feedback_widget_options);
+</script>
+<div id="wrapper">
+
+<div class="screen" id="top">
+
+ <div id="navlinks">
+ <ul class="outer"><li id="tab1" class="menulevel1 active"><a href="http://www.chapter2studios.com/" title="Welcome" >Home</a></li>
+<li id="tab6" class="menulevel1"><a href="/contact" title="Contact" >Contact</a></li>
+<li id="tab50" class="last menulevel1"><a href="/monthlyfilm" title="Monthly Film" >Watch a Flick</a></li>
+</ul>
+ </div>
+<!-- close #navlinks -->
+
+ <div id="screen">
+ 
+	<div id="myGallery1">
+	<div class="imageElement">
+	<h3>Learning with Lawrence</h3>
+	<p>Lawrence has all the answers. Click to watch now.</p>
+	<a href="learning" title="Watch Now" class="open"></a>
+	<img src="/assets/galleries/1/1lwl_head_logo2.jpg" class="full" />
+	<img src="/assets/galleries/1/tn_1lwl_head_logo2.jpg" class="thumbnail" />
+	</div>
+	<div class="imageElement">
+	<h3>The Visitor</h3>
+	<p>Ned finds himself in unexpected circumstances after accidentally allowing a stranger into his home.</p>
+	<a href="thevisitor" title="Watch Now" class="open"></a>
+	<img src="/assets/galleries/1/visitor2.jpg" class="full" />
+	<img src="/assets/galleries/1/tn_visitor2.jpg" class="thumbnail" />
+	</div>
+	<div class="imageElement">
+	<h3>Textbook</h3>
+	<p>John deals with real life circumstances through the lens of his creative writing.</p>
+	<a href="textbook" title="Watch Now" class="open"></a>
+	<img src="/assets/galleries/1/textbook2.jpg" class="full" />
+	<img src="/assets/galleries/1/tn_textbook2.jpg" class="thumbnail" />
+	</div>
+	</div>
+
+ </div>
+
+</div>
+<!-- close #top-->
+
+<div class="middle1" id="middle1">
+<h1 id="longtitle">Independent Film</h1>
+</div>
+
+ <div class="middle2" id="content">
+ <div id="bigbox"><p>&nbsp;&nbsp;&nbsp; Founded in 2004, Chapter 2 Studios is dedicated to developing and producing high quality independent films and content for screens of all sizes.</p> </div> 
+ <div id="littlebox"><h2 class="sidebox_header">Projects</h2>
+<div id="navigationsidebox" class="sidebox">
+<ul><li class="menulevel1"><a href="/learning-with-lawrence" title="Learning with Lawrence" >Learning with Lawrence</a></li>
+<li class="menulevel1"><a href="/thevisitor" title="The Visitor" >The Visitor</a></li>
+<li class="last menulevel1"><a href="/textbook" title="Textbook" >Textbook</a></li>
+</ul>
+</div></div>
+ </div>
+
+<div class="footer" id="footer">
+<div align="center"><font size="1">&copy; 2009 <a href="http://www.chapter2studios.com">Chapter 2 Studios</a>, built with <a href="http://modxcms.com">Modx</a> | <a href="privacy">Privacy Policy</a></font></div>
+</div>
+
+</div>
+<!-- close #wrapper -->
+
+
+			<script type="text/javascript">
+			function startGallery() {
+			var myGallery = new gallery($('myGallery1'), {
+			showArrows: true, 
+			showCarousel: true,
+			showInfopane: true, 
+			embedLinks: true, 
+			fadeDuration: 500, 
+			timed: true, 
+			delay: 9000, 
+			preloader: true, 
+			preloaderImage: true,
+			preloaderErrorImage: true,
+			populateFrom: false,
+			populateData: true,
+			destroyAfterPopulate: true,
+			elementSelector: 'div.imageElement',
+			titleSelector: 'h3',
+			subtitleSelector: 'p',
+			linkSelector: 'a.open',
+			imageSelector: 'img.full',
+			thumbnailSelector: 'img.thumbnail',
+			defaultTransition: 'fade',
+			slideInfoZoneOpacity: 0.7,
+			slideInfoZoneSlide: true,
+			carouselMinimizedOpacity: 0.4, 
+			carouselMinimizedHeight: 20, 
+			carouselMaximizedOpacity: 0.7, 
+			thumbHeight: 75, 
+			thumbWidth: 100, 
+			thumbSpacing: 10, 
+			thumbIdleOpacity: 0.2,
+			textShowCarousel: 'browse', 
+			showCarouselLabel: true,
+			thumbCloseCarousel: true,
+			useExternalCarousel: false,
+			carouselElement: 'false',
+			carouselHorizontal: true,
+			activateCarouselScroller: true,
+			carouselPreloader: false,
+			textPreloadingCarousel: 'Loading...',
+			baseClass: 'jdGallery',
+			withArrowsClass: 'withArrows',
+			useHistoryManager: false,
+			customHistoryKey: false,
+			galleryTitleSelector: 'h2',
+			textGallerySelector: 'Galleries',
+			textShowGallerySelector: 'Other Galleries',
+			textGalleryInfo: '{0} Pictures',
+			startWithSelector: true
+			});
+			
+			}
+			window.onDomReady(startGallery);
+			</script>
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-1081607-4";
+urchinTracker();
+</script>
+
+</body>
+</html>

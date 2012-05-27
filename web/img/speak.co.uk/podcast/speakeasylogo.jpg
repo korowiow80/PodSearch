@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<title>Page not found | Speakeasy</title>
+<meta name="Description" content="We've been in this business since 1993: creating captivating communications for some of the biggest companies in the world. Over the years people ask us how we do it. What makes us different? Well the honest answer is we're not entirely sure. But what we have come to learn is that the more you listen to your clients the more likely you are to create a story worth listening to. So in short, what makes us different, is the Speakeasy way..." /> 
+<meta name="Keywords" content="speakeasy, perth, video production, event management, speakeasy productions" />
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="http://www.speak.co.uk/wp-content/themes/speakeasy-v1-1/style.css" />
+<link rel="stylesheet" type="text/css" href="http://www.speak.co.uk/wp-content/themes/speakeasy-v1-1/css/base.css" />
+<link rel="stylesheet" type="text/css" href="http://www.speak.co.uk/wp-content/themes/speakeasy-v1-1/css/tango/skin.css" />
+<link rel="stylesheet" type="text/css" href="http://www.speak.co.uk/wp-content/themes/speakeasy-v1-1/css/jquery.jcarousel.css" />
+
+<!--<link rel="stylesheet" type="text/css" href="http://www.speak.co.uk/wp-content/themes/speakeasy-v1-1/css/video-js.css" />-->
+
+<link rel="stylesheet" type="text/css" href="http://www.speak.co.uk/wp-content/themes/speakeasy-v1-1/css/scrollbars.css" />
+<!--[if IE 7]> <link rel="stylesheet" media="screen" href="http://www.speak.co.uk/wp-content/themes/speakeasy-v1-1/css/ie7.css" /><![endif]-->
+
+<link rel="pingback" href="http://www.speak.co.uk/xmlrpc.php" />
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>       
+    <script>!window.jQuery && document.write(unescape('%3Cscript type="text/javascript" src="http://www.speak.co.uk/wp-content/themes/speakeasy/js/jquery.1.6.2.min.js"%3E%3C/script%3E'));</script>
+<script type='text/javascript' src='http://www.speak.co.uk/wp-content/themes/speakeasy-v1-1/js/app.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://www.speak.co.uk/wp-content/themes/speakeasy-v1-1/js/jquery.jcarousel.pack.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://www.speak.co.uk/wp-content/themes/speakeasy-v1-1/js/flowplayer-3.1.4.min.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://www.speak.co.uk/wp-content/themes/speakeasy-v1-1/js/video.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://www.speak.co.uk/wp-content/themes/speakeasy-v1-1/js/scroll.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://www.speak.co.uk/wp-content/themes/speakeasy-v1-1/js/mousewheel.js?ver=3.3.2'></script>
+
+<script type="text/javascript">
+	
+	$(document).ready(function(){
+		
+		windowHeight = $(window).height();
+		documentHeight = $(document).height();
+		
+		windowWidth = $(window).width();
+		contentWidth = '960';
+		
+		var vision	= "http://www.speak.co.uk/vision/";
+		var live	= "http://www.speak.co.uk/live/";
+		var team 	= "";
+		
+		$(".visionSlider a").click(function(e){
+			e.preventDefault();
+			
+			slideWidth = parseInt(windowWidth) + parseInt(contentWidth);
+			$(".content").children().animate({
+				marginLeft: slideWidth + "px"
+			}, 500);
+			$(".vision, .visionShort, .visionCollapsed").animate({
+				width: "95%"
+			}, 500, function(){
+				window.location.href = vision;
+			});
+		});
+		
+		$("#vision_click, #vision_click_home").click(function(e){
+			e.preventDefault();
+			$("body").css("background-color","#efeeee");
+			slideWidth = parseInt(windowWidth) + parseInt(contentWidth);
+			$(".content").children().animate({
+				marginLeft: slideWidth + "px"
+			}, 500);
+			$(".vision, .visionShort, .visionCollapsed").animate({
+				width: "95%"
+			}, 500, function(){
+				window.location.href = vision;
+			});
+		});
+		
+		$(".liveSlider a").click(function(e){
+			e.preventDefault();
+			slideWidth = parseInt(windowWidth) + parseInt(contentWidth);
+			//create logo transparency for slide on Live link (remove image/bottom border)
+			$('#logo_link').addClass('logoClear');
+			$('.header #logoWhite').remove();
+
+			$(".content").children().animate({
+				marginLeft: "-" + slideWidth + "px"
+			}, 500);
+			$(".vision, .visionFull, .visionCollapsed").animate({
+				width: "5%"
+			}, 500, function(){
+				window.location.href = live;
+			});
+		});
+		
+		$("#live_click, #live_click_home").click(function(e){
+			e.preventDefault();
+			//create logo transparency for slide on Live link (remove image/bottom border)
+			$('#logo_link').addClass('logoClear');
+			$('.header #logoWhite').remove();
+			
+			slideWidth = parseInt(windowWidth) + parseInt(contentWidth);
+			$(".content").children().animate({
+				marginLeft: "-" + slideWidth + "px"
+			}, 500);
+			$(".vision, .visionShort, .visionCollapsed").animate({
+				width: "5%"
+			}, 500, function(){
+				window.location.href = live;
+			});
+			
+		});
+
+	
+
+		$("#mycarousel").jcarousel(); //initiate carousel
+		
+	});
+</script>
+
+
+<script type="text/javascript">
+	$(function(){
+		$('.contentTextLeft').jScrollPane({
+			showArrows: true,
+			horizontalGutter: 10
+		});
+		
+		$('.contentTextLeftShort').jScrollPane({
+			showArrows: true,
+			horizontalGutter: 10
+		});
+	});
+</script>
+
+<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+	try {
+		var pageTracker = _gat._getTracker("UA-477108-1");
+		pageTracker._trackPageview();
+	} catch(err) {}
+</script>
+
+</head>
+<body class="error404">
+	<div class="vision">&nbsp;</div><!-- .vision -->
+	<!--<div class="live">&nbsp;</div>--><!-- .live -->
+
+	
+	<div class="container">	
+		
+			<div class="contentWrap">
+              
+				<div class="header">
+					
+					                    <a class="logo" id="logo_link" href="http://www.speak.co.uk"><img id="logoWhite" src="http://www.speak.co.uk/wp-content/themes/speakeasy-v1-1/images/logo.png" width="232" height="45" alt="Speakeasy"></a><!-- .logo -->
+                                        	<!--
+						<div class="nav">
+							<ul><li><a href="#">Vision</a></li><li><a href="#">Live</a></li><li><a href="#">About</a></li><li><a href="#">Clients</a></li><li><a href="#">Team</a></li><li><a href="#" class="on">Awards</a></li><li><a href="#">Contact</a></li><li><a href="#">Speak</a></li></ul></div>
+						-->		
+					
+					<div class="nav"><ul id="menu-main-nav" class="menu"><li id="menu-item-50" class="visionSlider menu-item menu-item-type-post_type menu-item-object-page menu-item-50"><a title="vision" href="http://www.speak.co.uk/vision/">Vision</a></li>
+<li id="menu-item-49" class="liveSlider menu-item menu-item-type-post_type menu-item-object-page menu-item-49"><a title="live" href="http://www.speak.co.uk/live/">Live</a></li>
+<li id="menu-item-41" class="neutralSlider menu-item menu-item-type-post_type menu-item-object-page menu-item-41"><a title="About" href="http://www.speak.co.uk/about/">About</a></li>
+<li id="menu-item-43" class="neutralSlider menu-item menu-item-type-post_type menu-item-object-page menu-item-43"><a title="Clients" href="http://www.speak.co.uk/clients/">Clients</a></li>
+<li id="menu-item-39" class="neutralSlider menu-item menu-item-type-post_type menu-item-object-page menu-item-39"><a title="Team" href="http://www.speak.co.uk/meet-the-team/">Team</a></li>
+<li id="menu-item-40" class="neutralSlider menu-item menu-item-type-post_type menu-item-object-page menu-item-40"><a title="Awards" href="http://www.speak.co.uk/awards/">Awards</a></li>
+<li id="menu-item-42" class="neutralSlider menu-item menu-item-type-post_type menu-item-object-page menu-item-42"><a title="Contact" href="http://www.speak.co.uk/contact/">Contact</a></li>
+<li id="menu-item-55" class="speakSlider menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-55"><a title="Speak" href="http://www.speak.co.uk/speak/">Speak</a></li>
+</ul></div>                    
+				</div><!-- .header -->
+	
+	<div id="container">
+		<div id="content" role="main">
+
+			<div id="post-0" class="post error404 not-found">
+				<h1 class="entry-title">Not Found</h1>
+				<div class="entry-content">
+					<p>Apologies, but the page you requested could not be found. Perhaps searching will help.</p>
+					<form role="search" method="get" id="searchform" action="http://www.speak.co.uk/" >
+	<div><label class="screen-reader-text" for="s">Search for:</label>
+	<input type="text" value="" name="s" id="s" />
+	<input type="submit" id="searchsubmit" value="Search" />
+	</div>
+	</form>				</div><!-- .entry-content -->
+			</div><!-- #post-0 -->
+
+		</div><!-- #content -->
+	</div><!-- #container -->
+	<script type="text/javascript">
+		// focus on search field after it has loaded
+		document.getElementById('s') && document.getElementById('s').focus();
+	</script>
+
+
+			</div><!-- .contentWrap -->
+		
+        <!-- <div class="push"></div> -->
+        
+	</div><!-- .container -->
+
+<div id="footer">
+	<div id="footerInner">
+		<div id="socialLinks"><a href="http://www.linkedin.com/groups?home=&gid=1700997" target="_blank"><img src="http://www.speak.co.uk/wp-content/themes/speakeasy-v1-1/images/in_logo.gif" width="81" height="27" alt="LinkedIn"></a><a href="http://twitter.com/speakeasyuk" target="_blank"><img src="http://www.speak.co.uk/wp-content/themes/speakeasy-v1-1/images/twitter_logo.gif" width="79" height="27" alt="Twitter"></a></div><!-- #socialLinks -->
+			<div id="footerVisionLink">
+
+					<a id="vision_click" href="http://www.speak.co.uk/vision/">Vision</a>
+
+			</div><!-- .footerVisionLink -->
+            
+			<div id="footerLiveLink">
+					<a id="live_click" href="http://www.speak.co.uk/live/">Live</a>
+			</div><!-- .footerLiveLink -->
+            
+			<div id="socialLinksRight"><a href="http://www.facebook.com/pages/Speakeasy/112476235438922?ref=nf" target="_blank"><img src="http://www.speak.co.uk/wp-content/themes/speakeasy-v1-1/images/fb_logo.gif" width="80" height="25" alt="Facebook"></a><a href="http://www.youtube.com/user/speakeasyvideos" target="_blank"><img src="http://www.speak.co.uk/wp-content/themes/speakeasy-v1-1/images/youtube.gif" width="62" height="25" alt="YouTube"></a></div><!-- #socialLinksRight -->
+            
+	</div><!-- #footerInner -->
+</div><!-- #footer -->
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		
+		windowHeight = $(window).height();
+		documentHeight = $(document).height(); //set height of body to document height. forces blue to extend to bottom of document on smaller screens.
+		
+		$(".vision, .live, .visionShort, .liveFull, .visionFull, .liveShort").css("height", documentHeight);
+		
+	});
+</script>
+
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-477108-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-477108-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>

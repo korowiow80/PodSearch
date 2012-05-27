@@ -1,0 +1,212 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head profile="http://gmpg.org/xfn/11">
+
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="index, follow" />
+
+<link rel="stylesheet" type="text/css" href="http://www.providentpartners.net/wp-content/themes/sealight/style.css" media="screen" />
+<link rel="stylesheet" type="text/css" media="all" href="http://www.providentpartners.net/wp-content/themes/sealight/css/effects.css" />
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://www.providentpartners.net/feed/" />
+<link rel="pingback" href="http://www.providentpartners.net/xmlrpc.php" />
+      
+<link rel='stylesheet' id='mr_social_sharing-css'  href='http://www.providentpartners.net/wp-content/plugins/social-sharing-toolkit/style.css?ver=3.3.2' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.providentpartners.net/wp-includes/js/jquery/jquery.js?ver=1.7.1'></script>
+<script type='text/javascript' src='http://www.providentpartners.net/wp-content/plugins/social-sharing-toolkit/script.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://platform.linkedin.com/in.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://www.providentpartners.net/wp-content/plugins/social-sharing-toolkit/googleplus.js.php?lang=en_US&#038;ver=3.3.2'></script>
+<script type='text/javascript' src='http://apis.google.com/js/plusone.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://platform.twitter.com/widgets.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://www.providentpartners.net/wp-content/plugins/social-sharing-toolkit/stumbleupon.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://www.providentpartners.net/wp-content/themes/sealight/includes/js/superfish.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://www.providentpartners.net/wp-content/themes/sealight/includes/js/woo_tabs.js?ver=3.3.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.providentpartners.net/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.providentpartners.net/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.3.2" />
+<script type="text/javascript" src="http://www.providentpartners.net/wp-content/plugins/audio-player/assets/audio-player.js?ver=2.0.4.1"></script>
+<script type="text/javascript">AudioPlayer.setup("http://www.providentpartners.net/wp-content/plugins/audio-player/assets/player.swf?ver=2.0.4.1", {width:"290",animation:"yes",encode:"yes",initialvolume:"60",remaining:"no",noinfo:"no",buffer:"5",checkpolicy:"no",rtl:"no",bg:"E5E5E5",text:"333333",leftbg:"CCCCCC",lefticon:"333333",volslider:"666666",voltrack:"FFFFFF",rightbg:"B4B4B4",rightbghover:"999999",righticon:"333333",righticonhover:"FFFFFF",track:"FFFFFF",loader:"009900",border:"CCCCCC",tracker:"DDDDDD",skip:"666666",pagebg:"FFFFFF",transparentpagebg:"yes"});</script>
+
+<!-- Theme version -->
+<meta name="generator" content="Sealight 1.2.2" />
+<meta name="generator" content="WooFramework 5.3.4" />
+
+<!-- Alt Stylesheet -->
+<link href="http://www.providentpartners.net/wp-content/themes/sealight/styles/default.css" rel="stylesheet" type="text/css" />
+<!-- Options Panel Custom CSS -->
+<style type="text/css">
+#logo img { display:none; } .site-title { display:block!important; }
+.site-description { display:block!important; }
+</style>
+
+
+<!-- Woo Shortcodes CSS -->
+<link href="http://www.providentpartners.net/wp-content/themes/sealight/functions/css/shortcodes.css" rel="stylesheet" type="text/css" />
+
+<!-- Custom Stylesheet -->
+<link href="http://www.providentpartners.net/wp-content/themes/sealight/custom.css" rel="stylesheet" type="text/css" />
+	
+<!--[if IE 6]>
+<script type="text/javascript" src="http://www.providentpartners.net/wp-content/themes/sealight/includes/js/pngfix.js"></script>
+<script type="text/javascript" src="http://www.providentpartners.net/wp-content/themes/sealight/includes/js/menu.js"></script>
+<link rel="stylesheet" type="text/css" media="all" href="http://www.providentpartners.net/wp-content/themes/sealight/css/ie6.css" />
+<![endif]-->	
+
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" media="all" href="http://www.providentpartners.net/wp-content/themes/sealight/css/ie7.css" />
+<![endif]-->
+
+<!--[if IE 8]>
+<link rel="stylesheet" type="text/css" media="all" href="http://www.providentpartners.net/wp-content/themes/sealight/css/ie8.css" />
+<![endif]-->
+	
+	<!-- Woo Custom Styling -->
+<style type="text/css">
+body {background-repeat:no-repeat}
+</style>
+
+</head>
+
+<body class="error404 unknown">
+
+
+<div id="wrapper">
+           
+	<div id="header" class="col-full">
+ 		       
+		<div id="logo">
+	       
+		 
+        
+                    <h1 class="site-title"><a href="http://www.providentpartners.net">Provident Partners</a></h1>
+                    <span class="site-description">Connecting New Media to Business Objectives</span>
+	      	
+		</div><!-- /#logo -->
+	       
+			
+
+		<!-- Twitter Starts -->
+		        <div class="latest_twitter">
+			<ul id="twitter_update_list"><li></li></ul>
+        </div>
+        		<!-- Twitter Ad Ends -->
+       
+	</div><!-- /#header -->
+    
+	<div id="navigation" class="col-full">
+		<ul id="main-nav" class="nav fl"><li id="menu-item-2444" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2444"><a href="http://www.providentpartners.net">Home</a></li>
+<li id="menu-item-2457" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2457"><a href="http://www.providentpartners.net/about/">About</a></li>
+<li id="menu-item-2446" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2446"><a href="http://www.providentpartners.net/industries/">Industries</a></li>
+<li id="menu-item-2501" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2501"><a href="http://www.providentpartners.net/category/blog-post/">Marketing Edge Blog</a></li>
+<li id="menu-item-2448" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2448"><a href="http://www.providentpartners.net/proof/">Proof</a></li>
+<li id="menu-item-2449" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2449"><a href="http://www.providentpartners.net/speaking/">Speaking</a></li>
+<li id="menu-item-2450" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2450"><a href="http://www.providentpartners.net/contact/">Contact</a></li>
+</ul>        
+	</div><!-- /#navigation -->
+              
+    <div id="content" class="col-full">
+
+        <div id="featured" class="col-full">
+                <h1 class="title">Error 404 - Page not found!</h1>
+        </div>
+
+		<div id="main" class="col-left">
+                                                                                
+            <div class="post">
+
+                <p>The page you trying to reach does not exist, or has been moved. Please use the menus or the search box to find what you are looking for.</p>
+
+            </div><!-- /.post -->
+                                                
+        </div><!-- /#main -->
+
+        <div id="sidebar" class="col-right">
+
+    <div class="primary">
+				<div id="woo_search-3" class="widget widget_woo_search">        <h3>Find this please</h3>        <div class="search_main">
+    <form method="get" class="searchform" action="http://www.providentpartners.net" >
+        <input type="text" class="field s" name="s" value="Enter keywords..." onfocus="if (this.value == 'Enter keywords...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Enter keywords...';}" />
+        <input type="submit" class="submit" name="submit" value="Search" />
+    </form>    
+    <div class="fix"></div>
+</div>
+		</div>   
+   		<div id="woo_twitter-3" class="widget widget_woo_twitter">        <h3>Provident Partners</h3>        <ul id="twitter_update_list_woo_twitter-3"><li></li></ul>	
+        	<script type="text/javascript">
+	<!--//--><![CDATA[//><!--
+
+	    function twitterCallback2(twitters) {
+
+	      var statusHTML = [];
+	      for (var i=0; i<twitters.length; i++){
+	        var username = twitters[i].user.screen_name;
+	        var status = twitters[i].text.replace(/((https?|s?ftp|ssh)\:\/\/[^"\s\<\>]*[^.,;'">\:\s\<\>\)\]\!])/g, function(url) {
+	          return '<a href="'+url+'">'+url+'</a>';
+	        }).replace(/\B@([_a-z0-9]+)/ig, function(reply) {
+	          return  reply.charAt(0)+'<a href="http://twitter.com/'+reply.substring(1)+'">'+reply.substring(1)+'</a>';
+	        });
+	        statusHTML.push( '<li><span class="content">'+status+'</span> <a style="font-size:85%" class="time" href="http://twitter.com/'+username+'/statuses/'+twitters[i].id_str+'">'+relative_time(twitters[i].created_at)+'</a></li>' );
+	      }
+	      document.getElementById( 'twitter_update_list_woo_twitter-3').innerHTML = statusHTML.join( '' );
+	    }
+
+	    function relative_time(time_value) {
+	      var values = time_value.split( " " );
+	      time_value = values[1] + " " + values[2] + ", " + values[5] + " " + values[3];
+	      var parsed_date = Date.parse(time_value);
+	      var relative_to = (arguments.length > 1) ? arguments[1] : new Date();
+	      var delta = parseInt((relative_to.getTime() - parsed_date) / 1000);
+	      delta = delta + (relative_to.getTimezoneOffset() * 60);
+
+	      if (delta < 60) {
+	        return 'less than a minute ago';
+	      } else if(delta < 120) {
+	        return 'about a minute ago';
+	      } else if(delta < (60*60)) {
+	        return (parseInt(delta / 60)).toString() + ' minutes ago';
+	      } else if(delta < (120*60)) {
+	        return 'about an hour ago';
+	      } else if(delta < (24*60*60)) {
+	        return 'about ' + (parseInt(delta / 3600)).toString() + ' hours ago';
+	      } else if(delta < (48*60*60)) {
+	        return '1 day ago';
+	      } else {
+	        return (parseInt(delta / 86400)).toString() + ' days ago';
+	      }
+	    }
+	//-->!]]>
+	</script>
+	<script type="text/javascript" src="http://api.twitter.com/1/statuses/user_timeline/provident.json?callback=twitterCallback2&amp;count=5&amp;include_rts=t"></script>
+		 
+        </div>        
+   		
+	<div id="text-2" class="widget widget_text"><h3>Contact Info</h3>			<div class="textwidget">612-293-7640
+albert.maruggi@gmail.com</div>
+		</div>		           
+	</div>            
+	
+</div><!-- /#sidebar -->
+    </div><!-- /#content -->
+		
+	
+	
+	
+	<div id="footer" class="col-full">
+	
+		<div id="copyright" class="col-left">
+					<p>&copy; 2012 Provident Partners. All Rights Reserved.</p>
+				</div>
+		
+		<div id="credit" class="col-right">
+        			<p>Powered by <a href="http://www.wordpress.org">WordPress</a>. Designed by <a href="http://www.woothemes.com"><img src="http://www.providentpartners.net/wp-content/themes/sealight/images/woothemes.png" width="74" height="19" alt="Woo Themes" /></a></p>
+				</div>
+		
+	</div><!-- /#footer  -->
+
+</div><!-- /#wrapper -->
+
+	<script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
+	<script type="text/javascript" src="http://api.twitter.com/1/statuses/user_timeline/provident.json?callback=twitterCallback2&amp;count=1&amp;include_rts=t"></script>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>Soul Food and Comfort Recipes</title>
+<meta name="description" content="About Soul Food and Comfort Recipes">
+<meta name="keywords" content="Soul Food and Comfort Recipes">
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center"><font size="5">
+404 Error - This 
+page is no longer available</font></p>
+<p align="center"><font size="5">Please click here to go 
+to: <a href="http://www.recipeforhappiness.com.au">http://www.recipeforhappiness.com.au</a></font></p>
+</body>
+</html>
+<!--
+- Unfortunately, Microsoft has added a clever new
+- "feature" to Internet Explorer. If the text of
+- an error's message is "too small", specifically
+- less than 512 bytes, Internet Explorer returns
+- its own error message. You can turn that off,
+- but it's pretty tricky to find switch called
+- "smart error messages". That means, of course,
+- that short error messages are censored by default.
+- IIS always returns error messages that are long
+- enough to make Internet Explorer happy. The
+- workaround is pretty simple: pad the error
+- message with a big comment like this to push it
+- over the five hundred and twelve bytes minimum.
+- Of course, that's exactly what you're reading
+- right now.
+-->

@@ -1,0 +1,69 @@
+<html>
+    <head>
+	<title>University of Michigan: File Not Found ( 404 )</title>
+    </head>
+
+    
+        
+        
+    
+
+    <body BGCOLOR="#cccccc" VLINK="#000066" LINK="#000066" TEXT="#000000">
+
+    <table border=0 cellpadding=0 cellspacing=0 height=100% width=100%
+	    valign=center>
+	<tr>
+	    <td align=center>
+		<center>
+
+		<table bgcolor=#FFFFFF border=3 cellpadding=0 cell spacing=0 width=650>
+		    <tr>
+			<td>
+			    <table bgcolor=#FFFFFF border=0 cellpadding=5 cellspacing=0>
+				<tr>
+				    <td colspan=2 bgcolor=#11375E align=left>
+					<font face=helvetica,arial color=#ffffff size="+1">
+					<b>File Not Found</b>
+					</font>
+				    </td>
+				</tr>
+				<tr>
+				    <td valign="top">
+					<img SRC="/images/404.jpg" WIDTH="171" HEIGHT="171" BORDER="0" HSPACE="5" VSPACE="5">
+				    </td>
+
+				    <td valign=top>
+					<font face=helvetica,arial size="+0">
+					The requested address:
+					<blockquote><font color="#ff0000">http://www-personal.umich.edu/~rdivecha/misy/images/smj.jpg</font></blockquote>
+					does not correspond to
+					any file that is currently
+					available on www-personal.umich.edu.  Please double-check the
+					URL or try the search box
+					below.
+
+					<p>&nbsp;<p>
+
+					<blockquote>
+					<form method="GET" action="http://www.umich.edu/search.php">
+					<input TYPE="text" name="q" size="31" value="">
+					<input type="submit" value="Search">
+					</blockquote>
+
+					</form>
+
+					</p>
+				    </td>
+				</tr>
+
+			    </table>
+			</td>
+		    </tr>
+		</table>
+
+		</center>
+	    </td>
+	</tr>
+    </table>
+    </body>
+</html>

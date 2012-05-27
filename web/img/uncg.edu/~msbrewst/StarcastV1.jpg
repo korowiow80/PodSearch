@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>File Not Found: 404 Error, The University of North Carolina at Greensboro</title>
+<link href="/incuncg/css/common.css" rel="stylesheet" type="text/css" />
+<link href="/incuncg/css/secondary.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script type="text/javascript" src="/incuncg/js/common.js"></script>
+<style type="text/css">
+#content { padding:3px 167px 17px; }
+
+h1 { font-family:Arial, Helvetica, sans-serif; }
+</style>
+</head>
+<body>
+<ul id="uncgAccessNav">
+   <li><a href="#startcontent" tabindex="1">Skip to Main Content</a></li>
+</ul>
+<div id="container">
+   <div id="header-wrapper">
+      <div id="header">
+         <!--Secondary Heading Version 1.5.7 -->
+<div id="header-content">
+   <div id="header-top">
+      <h1 id="header-left"><a href="http://www.uncg.edu/" title="The University of North Carolina at Greensboro">The University of North Carolina at Greensboro</a></h1>
+      <div id="header-right">
+         <div id="header-extras">
+               <div id="tools-nav">
+                  <ul id="navlist-tools">
+                     <li><a href="http://ispartan.uncg.edu/" title="iSpartan Email Services"><img src="/incuncg/images/icon-iSpartan.png"
+                      width="19" height="19" alt="iSpartan Email Services" /></a></li>
+                     <li><a href="https://banweb.uncg.edu/" title="UNCGenie System"><img src="/incuncg/images/icon-uncgenie.png"
+                      width="20" height="20" alt="UNCGenie System" /></a></li>
+                     <li><a href="https://blackboard.uncg.edu/" title="Blackboard @ UNCG" class="noBorder"><img src="/incuncg/images/icon-blackboard.png"
+                      width="27" height="21" alt="Blackboard @ UNCG" /></a></li>
+                  </ul>
+            </div>
+            <form id="uncgSearch" action="http://search.uncg.edu/search" method="get">
+            <div>
+               <label class="hidden" for="q">Search UNCG</label>
+               <input id="q" name="q" type="text" value="Search UNCG" alt="Search UNCG's web site with Google" />
+               <input id="searchSub" type="submit" value="Submit" title="Search" />
+               <input name="site" type="hidden" value="default_collection" />
+               <input name="client" value="default_frontend" type="hidden" />
+               <input name="output" value="xml_no_dtd" type="hidden" />
+               <input name="proxystylesheet" value="default_frontend" type="hidden" />
+               </div>
+            </form>
+         </div>
+         <div id="header-audience-nav">
+            <ul id="navlist-audience">
+               <li><a href="http://www.uncg.edu/prospective-students/">Prospective Students</a></li>
+               <li><a href="http://www.uncg.edu/current-students/">Current Students</a></li>
+               <li><a href="http://www.uncg.edu/faculty-staff/">Faculty &amp; Staff</a></li>
+               <li><a href="http://alumni.uncg.edu/">Alumni</a></li>
+               <li class="noBorder"><a href="http://www.uncg.edu/community-friends/">Community &amp; Friends</a></li>
+            </ul>
+         </div>
+      </div>
+   </div>
+</div>
+<div id="header-bottom">
+   <div id="header-yellow-nav">
+      <ul id="navlist-yellow">
+         <li class="yellow-nav-administration"><a href="http://www.uncg.edu/administration/">ADMINISTRATION</a></li>
+         <li class="yellow-nav-academics"><a href="http://www.uncg.edu/academics/">ACADEMICS</a></li>
+         <li class="yellow-nav-research"><a href="http://research.uncg.edu/">RESEARCH</a></li>
+         <li class="yellow-nav-admissions"><a href="http://www.uncg.edu/prospective-students/">ADMISSIONS</a></li>
+         <li class="yellow-nav-arts"><a href="http://www.uncg.edu/arts-entertainment/">ARTS</a></li>
+         <li class="yellow-nav-global"><a href="http://www.uncg.edu/ipg/">GLOBAL</a></li>
+         <li class="yellow-nav-athletics"><a href="http://uncgspartans.com/">ATHLETICS</a></li>
+         <li class="yellow-nav-giving"><a href="http://giving.uncg.edu/">GIVING</a></li>
+         <li id="cl" class="noBorder current"><a id="campusLinks" href="http://www.uncg.edu/campus-links/">CAMPUS LINKS</a>
+            <ul class="subitems">
+               <li><a href="http://www.uncg.edu/inside-uncg/" title="Learn About UNCG">Inside <abbr title="The University of North Carolina at Greensboro">UNCG</abbr></a></li>
+               <li><a href="http://www.uncg.edu/academics/">Academics</a></li>
+               <li><a href="http://www.uncg.edu/administration/">Administration</a></li>
+               <li><a href="http://www.uncg.edu/prospective-students/">Admissions</a></li>
+               <li><a href="http://www.uncg.edu/arts-entertainment/">Arts &amp; Entertainment</a></li>
+               <li><a href="http://www.uncg.edu/community-friends/outreach/">Continuing Education &amp; Outreach</a></li>
+               <li><a href="http://www.uncg.edu/employment/">Employment</a></li>
+               <li><a href="http://oedi.uncg.edu/">Equity, Diversity  &amp; Inclusion</a> </li>
+               <li><a href="http://giving.uncg.edu">Giving to UNCG</a></li>
+               <li><a href="http://www.uncg.edu/ipg/" title="International Programs">International Programs</a></li>
+               <li><a href="http://library.uncg.edu/" title="Jackson Library">Libraries</a></li>
+               <li><a href="http://online.uncg.edu/" title="Online Courses &amp; Degrees">Online Courses &amp; Degrees</a></li>
+               <li><a href="http://research.uncg.edu/">Research</a></li>
+               <li><a href="http://its.uncg.edu/">Technology</a></li>
+               <li><a href="http://news.uncg.edu/">University News</a></li>
+            </ul>
+         </li>
+      </ul>
+   </div>
+</div>      </div>
+   </div>
+   <a id="startcontent"></a>
+   <div id="content-wrapper">
+      <div id="content">
+         <h1>File Not Found: 404 Error</h1>
+         <p>The page you requested <strong>/~msbrewst/starcastv1.jpg</strong> cannot be found at the specified <abbr title="Uniform Resource Locator">URL</abbr>.
+            It has either been moved or it does not exist on this server any longer.</p>
+         <p>For further assistance, please contact the departmental unit that published the web page you are trying to access. 
+            If the page you were trying to access is a part of the main <abbr title="The University of North Carolina at Greensboro">UNCG</abbr> Web site,
+            contact University Relations at <a href="mailto:comments@uncg.edu">comments@uncg.edu</a>. Where possible, please 
+            include the web address used while attempting to access the online content.</p>
+      </div>
+   </div>
+   <div id="footer">
+      <div id="footer-content">
+         <div id="footer-left">
+            <!-- Address Version 1.5.5 -->
+<p>Copyright &copy;  2012. The University of North Carolina at Greensboro. All rights reserved.<br />
+		Greensboro, NC 27412   |   336.334.5000
+</p>
+  
+          </div>
+         <div id="footer-right">
+            <!-- Footer Version 1.5.3 -->
+<div id="footer-nav">
+  <ul id="navlist-footer">
+    <li class="li-box"><a href="http://ioc.uncg.edu/policies/"
+      >Web Standards &amp; Policies</a></li>
+    <li class="li-box noBorder"><a 
+      href="http://spartanalert.uncg.edu/">Emergency Info</a></li>
+    <li class="img-connect"><a href="http://connect.uncg.edu/"
+      class="noBorder" title="UNCG Connect Social Media Hub" ><img 
+      src="/incuncg/images/connect_03.jpg" width="143" height="41" 
+      alt="UNCG Connect Social Media Hub" /></a></li>
+  </ul>
+</div>
+         </div>
+      </div>
+   </div>
+   <div id="shadow-bottom"></div>
+</div>
+</body>
+</html>

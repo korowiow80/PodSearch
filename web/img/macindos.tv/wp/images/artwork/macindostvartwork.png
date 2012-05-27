@@ -1,0 +1,324 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>  Page not found</title>
+<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats -->
+<meta name="description" content="Macindos.TV adalah program WebTV yang dibuat oleh pengguna Mac yang bertujuan untuk menyebarluaskan pengetahuan seputar Mac OS X, Aplikasi Macintosh dan Hardware Apple kepada pengguna Mac lainnya dan setiap orang yang memiliki ketertarikan terhadap Mac (yang berbahasa Indonesia)." />
+<meta name="keywords" lang="en" content="video, podcast, video podcast, mac, macintosh, macindos, macindostv, macindos.tv, apple, video tutorial mac, leopard, tips, Mac OS X, OSX, iPod, iPhone, iPhone 3G, iTunes, screencast, video podcast mac indonesia, menggunakan mac, memakai mac, panduan memakai mac, tutorial mac indonesia, apple, mac, indonesia, indonesian apple mac iphone video podcast">
+<meta name="keywords" lang="id" content="video, panduan, video panduan, podcast, video podcast, mac, macintosh, apple, mac, tutorial, video tutorial, mac tips, leopard, Mac OS X, OSX, iPod, iPhone, menggunakan mac, memakai mac, panduan memakai mac, tutorial mac indonesia, apple, mac, indonesia, indonesian apple mac iphone video podcast">
+<meta name="author" content="BAGindo KPS Productions" />
+<meta name="copyright" content="2008 BAGindo KPS Productions, Macindos.TV" />
+<link rel="icon" type="image/x-icon" href="http://www.macindos.tv/favicon.ico" />
+<link rel="stylesheet" href="http://www.macindos.tv/wp-content/themes/iBlogPro/style.css" type="text/css" media="all" />
+<link rel="stylesheet" href="http://www.macindos.tv/wp-content/themes/iBlogPro/style2.css" type="text/css" media="all" />
+<link rel="stylesheet" href="http://www.macindos.tv/wp-content/themes/iBlogPro/print.css" type="text/css" media="print" />
+<script type="text/javascript" src="http://www.macindos.tv/wp-content/themes/iBlogPro/js/jquery.js"></script>
+<script type="text/javascript" src="http://www.macindos.tv/wp-content/themes/iBlogPro/js/dimensions.js"></script>
+<script type="text/javascript" src="http://www.macindos.tv/wp-content/themes/iBlogPro/js/jquery.accordion.js"></script>
+
+<script type="text/javascript">
+<!--
+$(function () {
+	
+	//Shows the first widget in the accordion by default, remove to change.
+	$(".drawer-handle:first").addClass("selected");
+	
+	//If you would like to show a element in the accordion by default use the following
+	//just uncomment the next line and replace 'widgetID' with the real ID of the widget (for example $("#meta > ...)
+	//$("#widgetID > .drawer-handle").addClass("selected");
+	
+	//core accordion code. Uses jquery javascript library.
+	$('.accordion').accordion({ 
+		header: '.drawer-handle',
+		active: '.selected',
+		autoheight: false 
+	});
+	
+});
+-->
+</script>
+
+<!--[if lt IE 8]>
+<script src="http://ie7-js.googlecode.com/svn/version/2.0(beta3)/IE8.js" type="text/javascript"></script>
+<![endif]-->
+
+<script src="http://blip.tv/scripts/ie9-iphone-embeds.js" type="text/javascript"></script>
+
+<link rel="alternate" type="application/rss+xml" title="Macindos.TV &#8211; WebTV Pengguna Mac Indonesia RSS Feed" href="http://feeds.feedburner.com/macindostv" />
+<link rel="pingback" href="http://www.macindos.tv/xmlrpc.php" />
+				
+	<script type="text/javascript">//<![CDATA[
+	// Google Analytics for WordPress by Yoast v4.2.2 | http://yoast.com/wordpress/google-analytics/
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount','UA-21578738-1']);
+	_gaq.push(['_trackPageview','/404.html?page=' + document.location.pathname + document.location.search + '&from=' + document.referrer],['_trackPageLoadTime']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	//]]></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.macindos.tv/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.macindos.tv/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Macindos.TV &#8211; WebTV Pengguna Mac Indonesia' href='http://www.macindos.tv/' />
+<meta name="generator" content="WordPress 3.0.5" />
+<script charset="utf-8" type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script><script type="text/javascript">stLight.options({publisher:'wp.89c7bf75-048a-458d-90e8-a4af66c44da5'});var st_type='wordpress3.0.5';</script></head>
+<body>
+<div class="preload" style="display:none;">
+	<img src="http://www.macindos.tv/wp-content/themes/iBlogPro/images/nav-hover.png" alt="preload" />
+	<img src="http://www.macindos.tv/wp-content/themes/iBlogPro/images/nav-action.png" alt="preload" />
+	<img src="http://www.macindos.tv/wp-content/themes/iBlogPro/images/graddark.gif" alt="preload" />
+	<img src="http://www.macindos.tv/wp-content/themes/iBlogPro/images/gradlight.gif" alt="preload" />
+</div>
+	
+<div id="page" class="fix">
+  <div id="wrapper" class="fix">
+    <div id="header" class="fix">	
+		<div class="blogtitle">
+			<a href="http://www.macindos.tv"><img src="http://www.macindos.tv/images/banners/banner_480x100_r4.png"></a><a href="itpc://feeds2.feedburner.com/macindostv/"><img src="http://www.macindos.tv/images/banners/berlangganan_480x100_v3.png"></a>
+		</div>
+    </div><!-- /header -->
+<br />
+	<div id="nav" class="fix">
+		<div class="navend-left"></div>
+		<ul class="fix">
+			<li class="page_item "><a class="home" href="http://www.macindos.tv/" title="Home" alt="Macindos.TV - WebTV Pengguna Mac Indonesia"><img src="http://www.macindos.tv/wp-content/themes/iBlogPro/images/home-icon-trans.png" title="Macindos.TV - WebTV Pengguna Mac Indonesia" alt="home icon"/></a></li>
+			<li class="page_item page-item-2316"><a href="http://www.macindos.tv/macdas/" title="MacDas">MacDas</a></li>
+<li class="page_item page-item-2297"><a href="http://www.macindos.tv/kupas-iphone/" title="Kupas iPhone">Kupas iPhone</a></li>
+<li class="page_item page-item-2330"><a href="http://www.macindos.tv/kupas-ipad/" title="Kupas iPad">Kupas iPad</a></li>
+<li class="page_item page-item-2321"><a href="http://www.macindos.tv/beritamac/" title="BeritaMac">BeritaMac</a></li>
+<li class="page_item page-item-2"><a href="http://www.macindos.tv/perihal/" title="Perihal">Perihal</a></li>
+		</ul>
+		<div class="navend-right"></div>
+		<form method="get" id="searchform" action="http://www.macindos.tv/">
+	<span class="left"></span>
+		<input type="text" value="Pencarian" name="s" id="s" onfocus="if (this.value == 'Pencarian') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Pencarian';}" />
+	<span class="right"></span>
+<input type="submit" id="searchsubmit" value="Cari" />
+</form>
+	</div><!-- /nav -->
+<br />
+<!--
+		<div id="header2">
+			<a href="itpc://feeds2.feedburner.com/macindostv/"><img src="http://www.macindos.tv/images/banners/berlangganan_320x66_v3.png"></a><a href="https://twitter.com/MacindosTV/" target="_blank"><img src="http://www.macindos.tv/images/banners/banner_twitter-320x66.png"></a><a href="http://flodistro.com" target="_blank" title="FLO Invaders"><img src="http://www.macindos.tv/images/ads/FLOinv_Metamorf.gif" height="66" width="320" title="FLO Invaders"></a>
+		</div>
+-->
+<div id="container" class="fix">
+    <div id="left-col">  <div id="content">
+      
+    <div class="post">
+        <h2>Error 404 - Not Found</h2>
+		
+		<div class="entry">
+		<p>Sorry, the page that you are looking for does not exist.</p>	
+		</div><!--/entry -->
+	
+	</div><!--/post -->
+</div></div><div id="sidebar" class="">
+	<div><div id="welcome">
+
+
+
+
+
+
+
+</div><!-- Closes welcome --></div>
+	<div class="accordion ">
+    
+	<div id="categories-3" class="widget"><a class="drawer-handle">Kategori</a><div class="drawer-content">		<ul>
+	<li class="cat-item cat-item-341"><a href="http://www.macindos.tv/category/beritamac/" title="View all posts filed under BeritaMac">BeritaMac</a> (21)
+</li>
+	<li class="cat-item cat-item-689"><a href="http://www.macindos.tv/category/kupas-ipad/" title="View all posts filed under Kupas iPad">Kupas iPad</a> (11)
+</li>
+	<li class="cat-item cat-item-342"><a href="http://www.macindos.tv/category/kupas-iphone/" title="View all posts filed under Kupas iPhone">Kupas iPhone</a> (30)
+</li>
+	<li class="cat-item cat-item-343"><a href="http://www.macindos.tv/category/macdas/" title="View all posts filed under MacDas">MacDas</a> (38)
+</li>
+	<li class="cat-item cat-item-344"><a href="http://www.macindos.tv/category/special/" title="View all posts filed under Special">Special</a> (1)
+</li>
+		</ul>
+</div></div><!--accordion box end --><div id="archives-3" class="widget"><a class="drawer-handle">Arsip</a><div class="drawer-content">		<ul>
+			<li><a href='http://www.macindos.tv/2012/02/' title='February 2012'>February 2012</a>&nbsp;(1)</li>
+	<li><a href='http://www.macindos.tv/2011/10/' title='October 2011'>October 2011</a>&nbsp;(1)</li>
+	<li><a href='http://www.macindos.tv/2011/07/' title='July 2011'>July 2011</a>&nbsp;(1)</li>
+	<li><a href='http://www.macindos.tv/2011/06/' title='June 2011'>June 2011</a>&nbsp;(5)</li>
+	<li><a href='http://www.macindos.tv/2011/05/' title='May 2011'>May 2011</a>&nbsp;(10)</li>
+	<li><a href='http://www.macindos.tv/2011/04/' title='April 2011'>April 2011</a>&nbsp;(14)</li>
+	<li><a href='http://www.macindos.tv/2011/03/' title='March 2011'>March 2011</a>&nbsp;(5)</li>
+	<li><a href='http://www.macindos.tv/2011/01/' title='January 2011'>January 2011</a>&nbsp;(2)</li>
+	<li><a href='http://www.macindos.tv/2010/10/' title='October 2010'>October 2010</a>&nbsp;(2)</li>
+	<li><a href='http://www.macindos.tv/2010/09/' title='September 2010'>September 2010</a>&nbsp;(1)</li>
+	<li><a href='http://www.macindos.tv/2010/06/' title='June 2010'>June 2010</a>&nbsp;(2)</li>
+	<li><a href='http://www.macindos.tv/2009/08/' title='August 2009'>August 2009</a>&nbsp;(6)</li>
+	<li><a href='http://www.macindos.tv/2009/07/' title='July 2009'>July 2009</a>&nbsp;(10)</li>
+	<li><a href='http://www.macindos.tv/2009/06/' title='June 2009'>June 2009</a>&nbsp;(9)</li>
+	<li><a href='http://www.macindos.tv/2009/05/' title='May 2009'>May 2009</a>&nbsp;(10)</li>
+	<li><a href='http://www.macindos.tv/2009/04/' title='April 2009'>April 2009</a>&nbsp;(9)</li>
+	<li><a href='http://www.macindos.tv/2009/03/' title='March 2009'>March 2009</a>&nbsp;(4)</li>
+	<li><a href='http://www.macindos.tv/2009/02/' title='February 2009'>February 2009</a>&nbsp;(3)</li>
+	<li><a href='http://www.macindos.tv/2008/12/' title='December 2008'>December 2008</a>&nbsp;(5)</li>
+	<li><a href='http://www.macindos.tv/2008/11/' title='November 2008'>November 2008</a>&nbsp;(1)</li>
+		</ul>
+</div></div><!--accordion box end --><div id="tag_cloud-3" class="widget"><a class="drawer-handle">Tag</a><div class="drawer-content"><div><a href='http://www.macindos.tv/tag/aplikasi/' class='tag-link-365' title='20 topics' style='font-size: 18.181818181818pt;'>Aplikasi</a>
+<a href='http://www.macindos.tv/tag/apple/' class='tag-link-373' title='13 topics' style='font-size: 15.777777777778pt;'>Apple</a>
+<a href='http://www.macindos.tv/tag/app-store/' class='tag-link-371' title='4 topics' style='font-size: 9.4141414141414pt;'>App Store</a>
+<a href='http://www.macindos.tv/tag/desktop/' class='tag-link-687' title='4 topics' style='font-size: 9.4141414141414pt;'>desktop</a>
+<a href='http://www.macindos.tv/tag/dirgayuza-com/' class='tag-link-428' title='3 topics' style='font-size: 8pt;'>dirgayuza.com</a>
+<a href='http://www.macindos.tv/tag/email/' class='tag-link-437' title='6 topics' style='font-size: 11.535353535354pt;'>Email</a>
+<a href='http://www.macindos.tv/tag/event/' class='tag-link-442' title='3 topics' style='font-size: 8pt;'>Event</a>
+<a href='http://www.macindos.tv/tag/finder/' class='tag-link-450' title='6 topics' style='font-size: 11.535353535354pt;'>Finder</a>
+<a href='http://www.macindos.tv/tag/folder/' class='tag-link-456' title='5 topics' style='font-size: 10.545454545455pt;'>folder</a>
+<a href='http://www.macindos.tv/tag/gathering/' class='tag-link-463' title='11 topics' style='font-size: 14.787878787879pt;'>Gathering</a>
+<a href='http://www.macindos.tv/tag/ical/' class='tag-link-470' title='4 topics' style='font-size: 9.4141414141414pt;'>iCal</a>
+<a href='http://www.macindos.tv/tag/id-iphone/' class='tag-link-472' title='5 topics' style='font-size: 10.545454545455pt;'>id-iPhone</a>
+<a href='http://www.macindos.tv/tag/id-mac/' class='tag-link-473' title='5 topics' style='font-size: 10.545454545455pt;'>id-Mac</a>
+<a href='http://www.macindos.tv/tag/indonesia/' class='tag-link-485' title='10 topics' style='font-size: 14.222222222222pt;'>Indonesia</a>
+<a href='http://www.macindos.tv/tag/ios/' class='tag-link-492' title='7 topics' style='font-size: 12.242424242424pt;'>iOS</a>
+<a href='http://www.macindos.tv/tag/ipad/' class='tag-link-493' title='12 topics' style='font-size: 15.212121212121pt;'>iPad</a>
+<a href='http://www.macindos.tv/tag/iphone/' class='tag-link-494' title='18 topics' style='font-size: 17.616161616162pt;'>iPhone</a>
+<a href='http://www.macindos.tv/tag/iphone-3g/' class='tag-link-495' title='19 topics' style='font-size: 17.89898989899pt;'>iPhone 3G</a>
+<a href='http://www.macindos.tv/tag/iphone-4/' class='tag-link-692' title='5 topics' style='font-size: 10.545454545455pt;'>iPhone 4</a>
+<a href='http://www.macindos.tv/tag/iphoto/' class='tag-link-499' title='3 topics' style='font-size: 8pt;'>iPhoto</a>
+<a href='http://www.macindos.tv/tag/ipod/' class='tag-link-500' title='4 topics' style='font-size: 9.4141414141414pt;'>iPod</a>
+<a href='http://www.macindos.tv/tag/itunes/' class='tag-link-507' title='7 topics' style='font-size: 12.242424242424pt;'>iTunes</a>
+<a href='http://www.macindos.tv/tag/itunes-store/' class='tag-link-508' title='3 topics' style='font-size: 8pt;'>iTunes Store</a>
+<a href='http://www.macindos.tv/tag/jaringan/' class='tag-link-515' title='3 topics' style='font-size: 8pt;'>Jaringan</a>
+<a href='http://www.macindos.tv/tag/leopard/' class='tag-link-529' title='19 topics' style='font-size: 17.89898989899pt;'>Leopard</a>
+<a href='http://www.macindos.tv/tag/macdas/' class='tag-link-343' title='5 topics' style='font-size: 10.545454545455pt;'>MacDas</a>
+<a href='http://www.macindos.tv/tag/macindos/' class='tag-link-542' title='6 topics' style='font-size: 11.535353535354pt;'>Macindos</a>
+<a href='http://www.macindos.tv/tag/macindostv/' class='tag-link-544' title='7 topics' style='font-size: 12.242424242424pt;'>MacindosTV</a>
+<a href='http://www.macindos.tv/tag/macintosh/' class='tag-link-545' title='7 topics' style='font-size: 12.242424242424pt;'>Macintosh</a>
+<a href='http://www.macindos.tv/tag/mac-os-x/' class='tag-link-535' title='26 topics' style='font-size: 19.737373737374pt;'>Mac OS X</a>
+<a href='http://www.macindos.tv/tag/notes/' class='tag-link-569' title='3 topics' style='font-size: 8pt;'>Notes</a>
+<a href='http://www.macindos.tv/tag/os-3-0/' class='tag-link-678' title='9 topics' style='font-size: 13.656565656566pt;'>OS 3.0</a>
+<a href='http://www.macindos.tv/tag/permainan/' class='tag-link-581' title='7 topics' style='font-size: 12.242424242424pt;'>Permainan</a>
+<a href='http://www.macindos.tv/tag/podcast/' class='tag-link-588' title='5 topics' style='font-size: 10.545454545455pt;'>Podcast</a>
+<a href='http://www.macindos.tv/tag/safari/' class='tag-link-608' title='5 topics' style='font-size: 10.545454545455pt;'>safari</a>
+<a href='http://www.macindos.tv/tag/shortcut/' class='tag-link-622' title='8 topics' style='font-size: 12.949494949495pt;'>Shortcut</a>
+<a href='http://www.macindos.tv/tag/sinkronisasi/' class='tag-link-625' title='3 topics' style='font-size: 8pt;'>Sinkronisasi</a>
+<a href='http://www.macindos.tv/tag/sms/' class='tag-link-630' title='4 topics' style='font-size: 9.4141414141414pt;'>SMS</a>
+<a href='http://www.macindos.tv/tag/snow-leopard/' class='tag-link-632' title='7 topics' style='font-size: 12.242424242424pt;'>snow leopard</a>
+<a href='http://www.macindos.tv/tag/spotlight/' class='tag-link-636' title='4 topics' style='font-size: 9.4141414141414pt;'>Spotlight</a>
+<a href='http://www.macindos.tv/tag/system-preferences/' class='tag-link-638' title='7 topics' style='font-size: 12.242424242424pt;'>System Preferences</a>
+<a href='http://www.macindos.tv/tag/update/' class='tag-link-664' title='3 topics' style='font-size: 8pt;'>update</a>
+<a href='http://www.macindos.tv/tag/video-podcast/' class='tag-link-668' title='38 topics' style='font-size: 22pt;'>Video Podcast</a>
+<a href='http://www.macindos.tv/tag/video-tutorial/' class='tag-link-669' title='18 topics' style='font-size: 17.616161616162pt;'>Video Tutorial</a>
+<a href='http://www.macindos.tv/tag/webisode/' class='tag-link-672' title='5 topics' style='font-size: 10.545454545455pt;'>Webisode</a></div>
+</div></div><!--accordion box end -->	
+	</div><!-- end accordion-->
+	
+	<div id="sidebar_drawer">
+		<div id="text-5" class="widget"><h2 class="widgettitle">Ads</h2><div class="widgetcontent">			<div class="textwidget"><a href="http://www.dirgayuza.com/" onclick="javascript:_gaq.push(['_trackPageview','/yoast-ga/outbound-widget/http://www.dirgayuza.com']);" target="_blank"><img src="http://macindos.tv/images/ads/Dirgayuzadotcom.gif"></a></br>
+<a href="http://www.mediakita.com/" onclick="javascript:_gaq.push(['_trackPageview','/yoast-ga/outbound-widget/http://www.mediakita.com']);" target="_blank"><img src="http://macindos.tv/images/ads/mediakita_260x50.png"></a><br>
+<a href="http://www.facebook.com/istudio.jakarta" onclick="javascript:_gaq.push(['_trackPageview','/yoast-ga/outbound-widget/http://www.facebook.com']);" target="_blank"><img src="http://macindos.tv/images/ads/iStudio_260x50.gif"></a><br>
+<a href="http://www.wayangforce.com/" onclick="javascript:_gaq.push(['_trackPageview','/yoast-ga/outbound-widget/http://www.wayangforce.com']);" target="_blank"><img src="http://macindos.tv/images/ads/WayangForce_260x50.gif"></a></div>
+		</div></div><div id="text-3" class="widget"><h2 class="widgettitle">Podcast lainnya</h2><div class="widgetcontent">			<div class="textwidget"><a href="http://dailysocial.net/post/category/video/" onclick="javascript:_gaq.push(['_trackPageview','/yoast-ga/outbound-widget/http://dailysocial.net']);" target="_blank"><img src="http://macindos.tv/images/crosspromote/CrossPromote_Buzz5.jpg"></a></br>
+<a href="http://www.temanmacet.com/" onclick="javascript:_gaq.push(['_trackPageview','/yoast-ga/outbound-widget/http://www.temanmacet.com']);" target="_blank"><img src="http://macindos.tv/images/crosspromote/CrossPromote_TemanMacet_r1.jpg"></a></br>
+<a href="http://www.webicara.com/" onclick="javascript:_gaq.push(['_trackPageview','/yoast-ga/outbound-widget/http://www.webicara.com']);" target="_blank"><img src="http://macindos.tv/images/crosspromote/CrossPromote_Webicara.jpg"></a></br></div>
+		</div></div><div id="text-6" class="widget">			<div class="textwidget"><script>
+/** sittizen **/
+var sitti_pub_id = "BC0009294";
+var sitti_ad_width = "250";
+var sitti_ad_height = "250";
+var sitti_ad_type = "10";
+var sitti_ad_number = "3";
+var sitti_ad_name = "sittizen";
+var sitti_dep_id = "15994";
+</script>
+<script src="http://stat.sittiad.com/delivery/sittiad.b1.js"></script></div>
+		</div></div>	</div>
+</div><!--/sidebar --></div> 	<div id="morefoot" class="fix">
+
+		<div class="col1">
+<!--
+			<h3>Looking for something?</h3>
+			<p>Use the form below to search the site:</p>
+			<form method="get" id="searchform" action="http://www.macindos.tv/">
+	<span class="left"></span>
+		<input type="text" value="Pencarian" name="s" id="s" onfocus="if (this.value == 'Pencarian') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Pencarian';}" />
+	<span class="right"></span>
+<input type="submit" id="searchsubmit" value="Cari" />
+</form>
+			<p>Still not finding what you're looking for? Drop a comment on a post or contact us so we can take care of it!</p>
+								</div>
+
+		<div class="col2">
+						//<h3>Visit our friends!</h3><p>A few highly recommended friends...</p><ul><li><a href="http://codex.wordpress.org/" target="" onclick="javascript:_gaq.push(['_trackPageview','/yoast-ga/outbound-blogroll/http://codex.wordpress.org/']);">Documentation</a></li>
+<li><a href="http://wordpress.org/extend/plugins/" target="" onclick="javascript:_gaq.push(['_trackPageview','/yoast-ga/outbound-blogroll/http://wordpress.org/extend/plugins/']);">Plugins</a></li>
+<li><a href="http://wordpress.org/extend/ideas/" target="" onclick="javascript:_gaq.push(['_trackPageview','/yoast-ga/outbound-blogroll/http://wordpress.org/extend/ideas/']);">Suggest Ideas</a></li>
+<li><a href="http://wordpress.org/support/" target="" onclick="javascript:_gaq.push(['_trackPageview','/yoast-ga/outbound-blogroll/http://wordpress.org/support/']);">Support Forum</a></li>
+<li><a href="http://wordpress.org/extend/themes/" target="" onclick="javascript:_gaq.push(['_trackPageview','/yoast-ga/outbound-blogroll/http://wordpress.org/extend/themes/']);">Themes</a></li>
+<li><a href="http://wordpress.org/news/" target="" onclick="javascript:_gaq.push(['_trackPageview','/yoast-ga/outbound-blogroll/http://wordpress.org/news/']);">WordPress Blog</a></li>
+<li><a href="http://planet.wordpress.org/" target="" onclick="javascript:_gaq.push(['_trackPageview','/yoast-ga/outbound-blogroll/http://planet.wordpress.org/']);">WordPress Planet</a></li>
+</ul>
+					</div>
+
+		<div class="col3">
+						//<h3>Archives</h3><p>All entries, chronologically...</p><ul>	<li><a href='http://www.macindos.tv/2012/02/' title='February 2012'>February 2012</a></li>
+	<li><a href='http://www.macindos.tv/2011/10/' title='October 2011'>October 2011</a></li>
+	<li><a href='http://www.macindos.tv/2011/07/' title='July 2011'>July 2011</a></li>
+	<li><a href='http://www.macindos.tv/2011/06/' title='June 2011'>June 2011</a></li>
+	<li><a href='http://www.macindos.tv/2011/05/' title='May 2011'>May 2011</a></li>
+	<li><a href='http://www.macindos.tv/2011/04/' title='April 2011'>April 2011</a></li>
+	<li><a href='http://www.macindos.tv/2011/03/' title='March 2011'>March 2011</a></li>
+	<li><a href='http://www.macindos.tv/2011/01/' title='January 2011'>January 2011</a></li>
+	<li><a href='http://www.macindos.tv/2010/10/' title='October 2010'>October 2010</a></li>
+	<li><a href='http://www.macindos.tv/2010/09/' title='September 2010'>September 2010</a></li>
+	<li><a href='http://www.macindos.tv/2010/06/' title='June 2010'>June 2010</a></li>
+	<li><a href='http://www.macindos.tv/2009/08/' title='August 2009'>August 2009</a></li>
+ </ul>
+					</div>
+-->
+<p>
+<table cellpadding="" cellspacing="0" border="0" height="100%" width="910">
+<tr>
+<td align="left" valign="top" width="33%">
+Apple, Mac, Macintosh are trademarks of <a href="http://www.apple.com/">Apple Inc.</a>
+registered in the U.S. and other countries.
+</td>
+<td align="left" valign="top" width="33%"></td>
+<td align="right" valign="top" width="33%">
+<a href="http://www.bagindo-kps.com">BAGindo <i>KPS</i> Productions.</a><br/>
+2008-2010
+</td>
+</tr>
+</table>
+</p>
+	</div><!-- Closes morefoot -->
+<!--
+	<div id="cred">
+			<a class="pagelines" href="http://www.pagelines.com/themes/" title="Pagelines Premium Themes">
+				Premium wordpress themes
+			</a>
+	</div>
+-->
+
+ 	<hr class="hidden" />
+  </div><!--/wrapper -->
+
+</div><!--/page -->
+
+<!-- Analytics Go Here -->
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-21578738-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<!-- End Analytics -->
+
+<!--stats_footer_test--><script src="http://stats.wordpress.com/e-201221.js" type="text/javascript"></script>
+<script type="text/javascript">
+st_go({blog:'23390407',v:'ext',post:'0'});
+var load_cmc = function(){linktracker_init(23390407,0,2);};
+if ( typeof addLoadEvent != 'undefined' ) addLoadEvent(load_cmc);
+else load_cmc();
+</script>
+</body>
+</html>

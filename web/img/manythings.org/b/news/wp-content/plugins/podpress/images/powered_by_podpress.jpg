@@ -1,0 +1,83 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>NOT FOUND ERROR</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="alternate" type="application/rss+xml" title="www.ManyThings.org RSS Feed" href="http://feeds.feedburner.com/itesls" />
+<meta name="description" content=""><meta name="keywords" content="">
+
+<script type="text/javascript" src="/z/d.js"></script>
+<style>
+ul ul{margin:2px 2px 2px 10px;}
+
+<style>
+
+h1 { 
+text-align:center;
+font-size:1.8em;
+margin: 10px auto;
+}
+h2 { 
+font-size:2em;
+color:#333;
+}
+a {
+color: cyan;
+}
+.content {
+width: 600px;
+background: #eee;
+border-radius: 20px;
+padding: 40px;
+margin: 50px auto;
+box-shadow: 0 0 20px #222;
+}
+
+body { 
+background: #888; 
+}
+
+.main{
+background: #888; 
+color: black;
+font-family: Helvetica, Arial, sans-serif;
+font-size:1.2em;
+}
+
+
+</style>
+
+
+</head>
+<body id="front" class="yui-skin-sam"><script type="text/javascript">menu();</script>
+<div class="main front">
+
+
+
+
+
+
+
+<div class="content">
+<h1>There is no page here.</h1>
+<ul>
+<li>Go to <a href="/">the main page</a> of www.ManyThings.org.
+<li>See <a href="/e/abc.html">a list of the main sections</a> of our website.
+<li><a href="javascript:history.back();">Go back</a> to the page you were just on.
+</ul>
+</div>
+<center>
+<h2>www.ManyThings.org<br />Interesting Things for ESL Students</h2>
+<br /><br /><br /><br />
+<!-- Counter Code START --><a href="http://www.mesolink.org/" target="_blank"><img src="http://www.e-zeeinternet.com/count.php?page=255245&style=times&nbdigits=9&reloads=1" alt="Malignant Mesothelioma" border="0" ></a><br><a href="http://www.mesolink.org/" title="Malignant Mesothelioma" target="_blank" style="font-family: Geneva, Arial, Helvetica, sans-serif; font-size: 10px; color: #000000; text-decoration: none;">Malignant Mesothelioma</a><!-- Counter Code END -->
+<p style="font-family: Geneva, Arial, Helvetica, sans-serif; font-size: 10px; color: #000000; text-decoration: none;">
+This link is advertising in exchange for using this counter.<br />The counter was reset on February 25, 2009 at 5:30 AM (JST)</p>
+</center>
+
+
+</div><div class="foot"><script type="text/javascript">foot();</script>
+<p class="fu">This page is part of <a href="/">Interesting Things for ESL Students</a>.
+<p class="fc">
+<a href="/copyright.html">Copyright</a> &copy; 1997-2012 by <a href="http://aitech.ac.jp/~ckelly/">Charles Kelly</a> and <a href="http://aitech.ac.jp/~lkelly/">Lawrence Kelly</a>, All Rights Reserved</p>
+</div>
+
+</body></html>

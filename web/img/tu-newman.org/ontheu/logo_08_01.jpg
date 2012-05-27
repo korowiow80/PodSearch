@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="description" content="The St. Philip Neri Catholic Newman Center is the Catholic Student Center for the University of Tulsa in Tulsa, Oklahoma, USA." />
+<meta name="keywords" content="St. Philip Neri,Newman Center,Tulsa,Catholic,TU,University of Tulsa" />
+<meta name="author" content="St. Philip Neri Catholic Newman Center" />
+<title>Not Found</title>
+<link rel="icon" href="../favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" media="all" href="../css/reset.css" />
+<link rel="stylesheet" media="all" href="../css/style.css" />
+
+<!--[if lte IE 7]>
+<style type="text/css">
+html #menu{height: 1%;margin-top:-19px;}
+html #header{margin-left: -466px;}
+</style>
+<![endif]-->
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="../js/menu.js"></script>
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+<div id="header">
+<a id="logo" href="../"></a>
+<div id="tagline">&nbsp;</div>
+</div>
+
+<div class="clear"></div>
+
+<div id="menu">
+<ul>
+<li><a href="../about/">About</a>
+	<ul>
+	<li><a href="../about/">Newman 101</a></li>
+	<li><a href="../welcome/">Welcome</a></li>
+	<li><a href="../register/">Register</a></li>
+	<li><a href="../contact/">Contact</a></li>	
+	</ul>
+</li>
+<li><a href="#">Students and Activities</a>
+	<ul>
+	<li><a href="../calendar/">Calendar</a></li>
+	<li><a href="../bulletin/">Bulletin</a></li>
+	<li><a href="../newstudents/">New Students</a></li>
+	<li><a href="../planning/">Planning</a></li>
+	<li><a href="../intramurals/">Intramural Sports</a></li>
+	<li><a href="../groups/">Women's and Men's Faith Groups</a></li>
+	<li><a href="../service/">Community Service</a></li>
+	<li><a href="../fun/">Dances, Parties, and Fun</a></li>
+	<li><a href="../film-festival/">Film Festival</a></li>
+	</ul>
+</li>
+<li><a href="#">Sacraments and Ministries</a>
+	<ul>
+	<li><a href="../mass/">Mass</a></li>
+	<li><a href="../adoration/">Adoration and Reconciliation</a></li>
+	<li><a href="../rosary/">Rosary</a></li>
+	<li><a href="../initiation/">Joining the Church (RCIA) and Confirmation</a></li>
+	<li><a href="../ministry/">Marriage Ministry and Spiritual Direction</a></li>
+	</ul>
+</li>
+<li><a href="../community/">Alumni and Friends</a></li>
+<li><a href="../donate/">Donate</a></li>
+<li><a href="../register/">Register</a></li>
+<li><a href="../contact/">Contact</a></li>
+</ul></div>
+
+<div class="clear"></div>
+
+<div id="content">
+
+<div id="main">
+<h2>Not Found</h2>
+<p>That page could not be found. Go back to the <a href="../index.php">Home</a>.</p>
+</div>
+
+<div class="clear"></div>
+
+</div>
+
+<div id="push"></div>
+
+
+
+</div><!--end wrapper-->
+
+<div id="footerbox">
+<div id="footer">
+<ul class="address">
+	<li class="heading">St. Philip Neri Catholic Newman Center</li>
+	<li>440 S Florence Ave</li>
+	<li>Tulsa, OK 74104-2436</li>
+	<li>918.599.0204</li>
+</ul>
+<ul class="links">
+	<li class="heading">Ministries</li>
+	<li><a href="../mass/">Mass</a></li>
+	<li><a href="../rosary/">Rosary</a></li>
+	<li><a href="../service/">Community Service</a></li>
+</ul>
+<ul class="links">
+	<li class="heading">Students</li>
+	<li><a href="../register/">Register</a></li>
+	<li><a href="../groups/">Faith Groups</a></li>
+	<li><a href="../intramurals/">Intramural Sports</a></li>
+</ul>
+<ul class="links">
+	<li class="heading">About</li>
+	<li><a href="../about/">Newman 101</a></li>
+	<li><a href="../calendar/">Calendar</a></li>
+	<li><a href="../contact/">Contact</a></li>
+</ul>
+</div></div><!--end footerbox-->
+
+</body>
+</html>

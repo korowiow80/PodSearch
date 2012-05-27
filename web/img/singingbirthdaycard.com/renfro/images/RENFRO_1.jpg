@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="free, e-card, ecard, ecards, e-cards, print at home, birthday card, personalized, name in song, happy birthday, birthday songs, birthday song, singing birthday card, singing birthday cards, birthday, singing greeting card, musical birthday card, birthday music, birthday greeting, personalized birthday, birthday gift, birthday cd, birthday friend, cool birthday, unique birthday, unique gift, birthday present, popular rock birthday song, country birthday song, classic rock birthday song, punk rock birthday song, children's birthday song, hip hop birthday song, ska reggae birthday song, blues birthday song, creative birthday, fun birthday, funny birthday">
+<meta name="description" content="Personalized Birthday Songs on CD with a printed card, sent by Priority Mail. Download your personalized mp3, when you send as an e-Card. Print at home birthday cards. Choose from eight different birthday song styles, including: popular rock, country, classic rock, punk rock, children's, hip hop, ska reggae, and blues. Send a birthday gift they'll really sing about!">
+<title>Personalized Birthday Songs &amp; Free E-Cards at Singing Birthday Card .com</title>
+<link rel="stylesheet" type="text/css" href="_style_sheets/common_text.css" />
+<link rel="stylesheet" type="text/css" href="_style_sheets/common_menu.css" />
+<link rel="stylesheet" type="text/css" href="_style_sheets/common_layout.css" />
+<script type="text/javascript" src="_style_sheets/common_iframe.js"></script>
+</head>
+<body onload="MM_preloadImages('images/start_here_button_over.gif','images/send_free_button_over.gif')">
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<a href="index.html"><img src="images/logo.gif" /></a>		</div>
+	  <div id="ready_to_record">
+	    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="150" height="90" title="ready to record">
+          <param name="movie" value="images/recording_today.swf" />
+          <param name="quality" value="high" />
+          <embed src="images/recording_today.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="150" height="90"></embed>
+        </object>
+	  </div>	
+		<div id="header_title"><span class="title">Singing</span><span class="title_blue"> Birthday</span><span class="title"> Card&trade;</span>
+		<br />
+		<span class="sub_title">Send a gift they'll really sing about&trade;</span>	  </div>
+	</div>
+	<div id="menu">
+		<ul id="main_menu">
+			<li class="home"><a href="index.html">Home</a></li>
+			<li class="send"><a href="send.html">Choose a Card</a></li>
+			<li class="about"><a href="faq.html">Questions?</a></li>
+		</ul>
+	</div>
+	<div id="hr_break">
+		<p class="break_headline">Page Not Found. </p>
+  </div>
+	<div id="lower_content">
+		<div id="lower_left_column">
+			<div id="payment_box_container">
+			<div class="payment_box">
+   				<div class="payment_box_top"><div></div></div>
+      				<div class="payment_box_content">
+						<div class="payment_box_text">SingingBirthdayCard.com accepts Google Checkout and Paypal.</div>
+         				<div align="center"> 
+							<link rel="stylesheet" href="https://checkout.google.com/seller/accept/s.css" type="text/css" media="screen" />
+							<script type="text/javascript" src="https://checkout.google.com/seller/accept/j.js"></script>
+							<script type="text/javascript">showMark(1);</script>
+							<noscript><img src="https://checkout.google.com/seller/accept/images/st.gif" width="92" height="88" alt="Google Checkout Acceptance Mark" /></noscript>
+          				</div>
+						<div align="center"> 
+							<a href="#" onClick="javascript:window.open('https://www.paypal.com/us/cgi-bin/webscr?cmd=xpt/popup/OLCWhatIsPayPal-outside','olcwhatispaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=400, height=350');"><img  src="https://www.paypal.com/en_US/i/bnr/vertical_solution_PPeCheck.gif" border="0" alt="Solution Graphics"></a>          				</div>
+      				</div>
+   				<div class="payment_box_bottom"><div></div></div>
+			</div>
+			</div>
+			<div id="song_preview">
+			<object data="http://www.singingbirthdaycard.com/list_player_no_scroll.swf?autostart=false&amp;playlist=http://www.singingbirthdaycard.com/_lofi_audio/playlist.xml" type="application/x-shockwave-flash" width="171" height="210">
+		  	    <param name="movie" value="http://www.singingbirthdaycard.com/list_player_no_scroll.swf?autostart=false&amp;playlist=http://www.singingbirthdaycard.com/_lofi_audio/playlist.xml"/>
+	  	      </object>			</div>
+		</div>
+		<div id="lower_right_column">
+			<div class="testimonial_box">
+   				<div class="testimonial_t"><div></div></div>
+      			<div class="testimonial_content">
+					<div class="testimonial">
+        <p> The page you tried to access does not exist on this server. This
+          page may not exist due to the following reasons:</p>
+        <p> 1. You are the owner of this web site and you have not uploaded (or
+          incorrectly uploaded) your web site. For information on uploading your
+          web site using FTP client software or web design software, click here
+          for FTP Upload Information.</p>
+        <p> 2. The URL that you have entered in your browser is incorrect. Please
+          re-enter the URL and try again.</p>
+        <p> 3. The Link that you clicked on incorrectly points to this page.
+          Please contact the owner of this web site to inform them of this situation. </p>
+      </div>
+      			</div>
+   				<div class="testimonial_b"><div></div></div>
+			</div>
+		</div>
+	</div>
+	<div id="hr_break">
+		<hr />
+	</div>
+	<div id="footer">
+				<p align="center" class="footer_text"><a href="index.html">Home</a> | <a href="send.html">Choose a Card</a> | <a href="faq.html">Questions?</a> | <a href="links.html">Links</a> | <a href="privacy.html">Privacy</a> | <a href="terms.html">Terms</a> | <a href="mailto:service@singingbirthdaycard.com">Contact</a><br />
+&copy;2011 <a href="index.html">SingingBirthdayCard.com</a> | Phone: 206-309-4102</p>
+	</div>
+</div>
+</body>
+</html>

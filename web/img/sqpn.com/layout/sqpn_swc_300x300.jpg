@@ -11,7 +11,7 @@
 			// P2 Configuration
 			var ajaxUrl                 = "http://sqpn.com/wp-admin/admin-ajax.php?p2ajax=true";
 			var updateRate              = "30000"; // 30 seconds
-			var nonce                   = "0139918d5b";
+			var nonce                   = "c5b15481f7";
 			var login_url               = "http://sqpn.com/wp-login.php?redirect_to=http%3A%2F%2Fsqpn.com%2Flayout%2Fsqpn_swc_300x300.jpg";
 			var templateDir             = "http://sqpn.com/wp-content/themes/p2";
 			var isFirstFrontPage        = 0;
@@ -28,7 +28,7 @@
 			var inlineEditComments      = 1;
 			var wpUrl                   = "http://sqpn.com";
 			var rssUrl                  = "";
-			var pageLoadTime            = "2012-05-27 09:47:03";
+			var pageLoadTime            = "2012-05-27 16:49:57";
 			var original_title          = document.title;
 			var commentsOnPost          = new Array;
 			var postsOnPage             = new Array;
