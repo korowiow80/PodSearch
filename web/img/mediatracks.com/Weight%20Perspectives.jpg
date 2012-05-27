@@ -159,25 +159,27 @@ var shutterSettings = {
          <nav class="uber">
           <ul id="topnav" class="sf-menu"><li id="menu-item-1876" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-1876"><a href="http://www.mediatracks.com/">Home</a></li>
 <li id="menu-item-1888" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1888"><a href="http://www.mediatracks.com/contacts/">Contact Us</a></li>
-<li id="menu-item-1923" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1923"><a href="http://www.mediatracks.com/affiliates-2/">Affiliates</a>
+<li id="menu-item-1923" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1923"><a href="http://www.mediatracks.com/affiliates-information/">Affiliates</a>
 <ul class="sub-menu">
-	<li id="menu-item-1927" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1927"><a href="http://www.mediatracks.com/affiliates-2/become-an-affiliate/">Become an Affiliate</a></li>
-	<li id="menu-item-2034" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2034"><a href="http://www.mediatracks.com/affiliates-2/affiliate-downloads/">Affiliate Downloads</a></li>
-	<li id="menu-item-1925" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1925"><a href="http://www.mediatracks.com/affiliates-2/affidavits/">Affidavits</a></li>
-	<li id="menu-item-2035" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2035"><a href="http://www.mediatracks.com/affiliates-2/topiclibrary/">Topic Library/Log Archives</a></li>
+	<li id="menu-item-3062" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3062"><a href="http://www.mediatracks.com/affiliates-information/">Affiliate Information</a></li>
+	<li id="menu-item-1927" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1927"><a href="http://www.mediatracks.com/affiliates-information/become-an-affiliate/">Become an Affiliate</a></li>
+	<li id="menu-item-2034" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2034"><a href="http://www.mediatracks.com/affiliates-information/affiliate-downloads/">Affiliate Downloads</a></li>
+	<li id="menu-item-1925" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1925"><a href="http://www.mediatracks.com/affiliates-information/affidavits/">Affidavits</a></li>
+	<li id="menu-item-2035" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2035"><a href="http://www.mediatracks.com/affiliates-information/topiclibrary/">Topic Library/Log Archives</a></li>
 </ul>
 </li>
 </ul>          </nav><!-- .uber -->
 
         <nav class="primary">
-          <ul id="topnav" class="sf-menu"><li id="menu-item-1977" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1977"><a href="http://www.mediatracks.com/about/">About</a>
+          <ul id="topnav" class="sf-menu"><li id="menu-item-1977" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1977"><a href="http://www.mediatracks.com/our-company-bio/">About</a>
 <ul class="sub-menu">
-	<li id="menu-item-1979" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1979"><a href="http://www.mediatracks.com/about/our-team/">Our Team</a></li>
-	<li id="menu-item-1978" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1978"><a href="http://www.mediatracks.com/about/our-clients/">Our Clients</a></li>
+	<li id="menu-item-3047" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3047"><a href="http://www.mediatracks.com/our-company-bio/">Our Company Bio</a></li>
+	<li id="menu-item-1979" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1979"><a href="http://www.mediatracks.com/our-company-bio/our-team/">Our Team</a></li>
+	<li id="menu-item-1978" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1978"><a href="http://www.mediatracks.com/our-company-bio/our-clients/">Our Clients</a></li>
 </ul>
 </li>
 <li id="menu-item-1919" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1919"><a href="http://www.mediatracks.com/syndicated-radio-programming-2/">Syndicated Radio Programming</a></li>
-<li id="menu-item-1975" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1975"><a href="http://www.mediatracks.com/broadcast-web-services-2/">Broadcast &#038; Web Services</a></li>
+<li id="menu-item-3032" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3032"><a href="http://www.mediatracks.com/broadcast-web-services/">Broadcast &amp; Web Services</a></li>
 <li id="menu-item-1917" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1917"><a href="http://www.mediatracks.com/production-services/">Production Services</a></li>
 <li id="menu-item-1941" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1941"><a href="http://www.mediatracks.com/news/">News</a></li>
 </ul>        </nav><!--.primary-->
@@ -252,13 +254,13 @@ standard am/fm radio.
 	<aside id="sidebar" class="grid_4">
 	<ul>
 		<li id="php_widget-3" class="widget"><h3>Services</h3><ul style="margin-bottom: 15px;">
-<li><a href="http://www.mediatracks.com/serv/guaranteed-audio-news-releases/">Audio News Releases</a></li>
-<li><a href="http://www.mediatracks.com/serv/radio-media-tours/">Radio Media Tours</a></li>
-<li><a href="http://www.mediatracks.com/serv/la-red-connectado/">La Red Connectado</a></li>
-<li><a href="http://www.mediatracks.com/serv/custom-feeds">Custom Feeds</a></li>
-<li><a href="http://www.mediatracks.com/serv/podcast">Podcasts</a></li>
-<li><a href="http://www.mediatracks.com/serv/public-service-announcements">Public Service Announcements</a></li>
-<li><a href="http://www.mediatracks.com/serv/studio-rental-recording-services">Studio Rental</a></li>
+<li><a href="http://www.mediatracks.com/broadcast-web-services/guaranteed-audio-news-releases/">Audio News Releases</a></li>
+<li><a href="http://www.mediatracks.com/broadcast-web-services/radio-media-tours/">Radio Media Tours</a></li>
+<li><a href="http://www.mediatracks.com/broadcast-web-services/la-red-conectado/">La Red Conectado</a></li>
+<li><a href="http://www.mediatracks.com/broadcast-web-services/custom-feeds">Custom Feeds</a></li>
+<li><a href="http://www.mediatracks.com/broadcast-web-services/podcasts">Podcasts</a></li>
+<li><a href="http://www.mediatracks.com/broadcast-web-services/public-service-announcements">Public Service Announcements</a></li>
+<li><a href="http://www.mediatracks.com/broadcast-web-services/studio-rental-recording-services">Studio Rental</a></li>
 
 </ul>
 <a href="http://www.mediatracks.com/broadcast-web-services/" class="button">read more</a>
@@ -307,9 +309,9 @@ standard am/fm radio.
 					<ul>
 						<li id="nav_menu-3" class="footer-widget-container"><h3>Quick Links</h3><div class="menu-quick-links-container"><ul id="menu-quick-links" class="menu"><li id="menu-item-1945" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1945"><a href="http://radiohealthjournal.net">Radio Health Journal</a></li>
 <li id="menu-item-1890" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1890"><a href="http://www.mediatracks.com/viewpoints/">Viewpoints</a></li>
-<li id="menu-item-1928" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1928"><a href="http://www.mediatracks.com/affiliates-2/become-an-affiliate/">Become an Affiliate</a></li>
-<li id="menu-item-1929" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1929"><a href="http://www.mediatracks.com/affiliates-2/affiliate-log-in/">Affiliate Log-In</a></li>
-<li id="menu-item-1930" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1930"><a href="http://www.mediatracks.com/affiliates-2/affidavits/">Affidavits</a></li>
+<li id="menu-item-1928" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1928"><a href="http://www.mediatracks.com/affiliates-information/become-an-affiliate/">Become an Affiliate</a></li>
+<li id="menu-item-1929" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1929"><a href="http://www.mediatracks.com/affiliates-information/affiliate-log-in/">Affiliate Log-In</a></li>
+<li id="menu-item-1930" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1930"><a href="http://www.mediatracks.com/affiliates-information/affidavits/">Affidavits</a></li>
 </ul></div></li>					</ul>
 				</div><!-- #first .footer-widget-area -->
 
@@ -318,17 +320,17 @@ standard am/fm radio.
 						<li id="nav_menu-4" class="footer-widget-container"><h3>Services</h3><div class="menu-services-container"><ul id="menu-services" class="menu"><li id="menu-item-1932" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1932"><a href="http://www.mediatracks.com/production-services/">Production Services</a></li>
 <li id="menu-item-1933" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1933"><a href="http://www.mediatracks.com/broadcast-web-services-2/">Broadcast &#038; Web Services</a></li>
 <li id="menu-item-1934" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1934"><a href="http://www.mediatracks.com/syndicated-radio-programming-2/">Syndicated Radio Programming</a></li>
-<li id="menu-item-1935" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1935"><a href="http://www.mediatracks.com/affiliates-2/">Affiliates</a></li>
+<li id="menu-item-1935" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1935"><a href="http://www.mediatracks.com/affiliates-information/">Affiliate Information</a></li>
 </ul></div></li>					</ul>
 				</div><!-- #second .footer-widget-area -->
 
 				<div id="third" class="footer-widget-area">
 					<ul>
 						<li id="nav_menu-5" class="footer-widget-container"><h3>Information</h3><div class="menu-information-menu-container"><ul id="menu-information-menu" class="menu"><li id="menu-item-1993" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1993"><a href="http://www.mediatracks.com/syndicated-radio-programming-2/">Syndicated Radio Programming</a></li>
-<li id="menu-item-1937" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1937"><a href="http://www.mediatracks.com/affiliates-2/become-an-affiliate/">Become an Affiliate</a></li>
-<li id="menu-item-1938" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1938"><a href="http://www.mediatracks.com/about/">About</a></li>
-<li id="menu-item-1996" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1996"><a href="http://www.mediatracks.com/about/our-team/">Our Team</a></li>
-<li id="menu-item-1940" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1940"><a href="http://www.mediatracks.com/about/our-clients/">Our Clients</a></li>
+<li id="menu-item-1937" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1937"><a href="http://www.mediatracks.com/affiliates-information/become-an-affiliate/">Become an Affiliate</a></li>
+<li id="menu-item-1938" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1938"><a href="http://www.mediatracks.com/our-company-bio/">Our Company Bio</a></li>
+<li id="menu-item-1996" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1996"><a href="http://www.mediatracks.com/our-company-bio/our-team/">Our Team</a></li>
+<li id="menu-item-1940" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1940"><a href="http://www.mediatracks.com/our-company-bio/our-clients/">Our Clients</a></li>
 </ul></div></li>					</ul>
 				</div><!-- #third .footer-widget-area -->
 
