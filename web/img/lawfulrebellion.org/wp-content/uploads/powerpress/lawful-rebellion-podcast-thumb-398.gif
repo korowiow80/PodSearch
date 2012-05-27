@@ -13,7 +13,7 @@
 <link rel="shortcut icon" href="http://www.lawfulrebellion.org/favicon.ico" />
 
 
-<link rel='stylesheet' id='sharedaddy-css'  href='http://www.lawfulrebellion.org/wp-content/plugins/jetpack/modules/sharedaddy/sharing.css?ver=784' type='text/css' media='all' />
+<link rel='stylesheet' id='sharedaddy-css'  href='http://www.lawfulrebellion.org/wp-content/plugins/jetpack/modules/sharedaddy/sharing.css?ver=1957' type='text/css' media='all' />
 <link rel='stylesheet' id='contact-form-7-css'  href='http://www.lawfulrebellion.org/wp-content/plugins/contact-form-7/styles.css?ver=2.4.6' type='text/css' media='all' />
 <link rel='stylesheet' id='wp-pagenavi-css'  href='http://www.lawfulrebellion.org/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
 <script type='text/javascript' src='http://www.lawfulrebellion.org/wp-includes/js/l10n.js?ver=20101110'></script>
@@ -535,7 +535,7 @@ jQuery(document).ready(function($) {
 
 Minified using disk
 Page Caching using disk (enhanced)
-Database Caching 35/38 queries in 0.039 seconds using disk
-Object Caching 1008/1010 objects using disk
+Database Caching 35/37 queries in 0.038 seconds using disk
+Object Caching 997/997 objects using disk
 
-Served from: www.lawfulrebellion.org @ 2012-05-27 01:17:14 -->
+Served from: www.lawfulrebellion.org @ 2012-05-27 01:26:32 -->

@@ -192,27 +192,6 @@ if(window.opera) {document.write('<link rel="stylesheet" type="text/css" href="h
 			<li>
 				<ul>
 				<li><h3>Flickr</h3><div class="flickrpress-container"><div class="flickrpress-items">        <div class="flickr_item flickr_item_view_squares">
-                            <a href="http://farm8.static.flickr.com/7116/6877519610_67a611ece0.jpg" class="thickbox" rel="lightbox[flickr]" 
-                    title="Derelict poster 玩忽职守 (Mangarin) | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/6877519610&quot;&gt;View at Flickr&lt;/a&gt;">
-                        <span></span>
-            <img src="http://farm8.static.flickr.com/7116/6877519610_67a611ece0_s.jpg" title="Derelict poster 玩忽职守 (Mangarin)" alt="Derelict poster 玩忽职守 (Mangarin)" />
-            </a>
-        </div>
-                <div class="flickr_item flickr_item_view_squares">
-                            <a href="http://farm8.static.flickr.com/7050/6800105964_b283d2f55f.jpg" class="thickbox" rel="lightbox[flickr]" 
-                    title="Derelict Official Poster | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/6800105964&quot;&gt;View at Flickr&lt;/a&gt;">
-                        <span></span>
-            <img src="http://farm8.static.flickr.com/7050/6800105964_b283d2f55f_s.jpg" title="Derelict Official Poster" alt="Derelict Official Poster" />
-            </a>
-        </div>
-                <div class="flickr_item flickr_item_view_squares">
-                            <a href="http://farm7.static.flickr.com/6207/6048936823_ae16ec9d79.jpg" class="thickbox" rel="lightbox[flickr]" 
-                    title="There is a Day Band in Woods | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/6048936823&quot;&gt;View at Flickr&lt;/a&gt;">
-                        <span></span>
-            <img src="http://farm7.static.flickr.com/6207/6048936823_ae16ec9d79_s.jpg" title="There is a Day Band in Woods" alt="There is a Day Band in Woods" />
-            </a>
-        </div>
-                <div class="flickr_item flickr_item_view_squares">
                             <a href="http://farm7.static.flickr.com/6187/6048916123_0e375eb6b6.jpg" class="thickbox" rel="lightbox[flickr]" 
                     title="There is a Day War Zone 6 | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/6048916123&quot;&gt;View at Flickr&lt;/a&gt;">
                         <span></span>
@@ -220,17 +199,38 @@ if(window.opera) {document.write('<link rel="stylesheet" type="text/css" href="h
             </a>
         </div>
                 <div class="flickr_item flickr_item_view_squares">
-                            <a href="http://farm8.static.flickr.com/7058/7023615915_b907e841a9.jpg" class="thickbox" rel="lightbox[flickr]" 
-                    title="Derelict poster &quot;Sniper&quot; - Irene Ng (Cantonese) | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/7023615915&quot;&gt;View at Flickr&lt;/a&gt;">
+                            <a href="http://farm6.static.flickr.com/5046/5205602976_fdf0bf2a4f.jpg" class="thickbox" rel="lightbox[flickr]" 
+                    title="Derelict: Soldiers run | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/5205602976&quot;&gt;View at Flickr&lt;/a&gt;">
                         <span></span>
-            <img src="http://farm8.static.flickr.com/7058/7023615915_b907e841a9_s.jpg" title="Derelict poster "Sniper" - Irene Ng (Cantonese)" alt="Derelict poster "Sniper" - Irene Ng (Cantonese)" />
+            <img src="http://farm6.static.flickr.com/5046/5205602976_fdf0bf2a4f_s.jpg" title="Derelict: Soldiers run" alt="Derelict: Soldiers run" />
             </a>
         </div>
                 <div class="flickr_item flickr_item_view_squares">
-                            <a href="http://farm7.static.flickr.com/6013/5968721284_063e1fbdcb.jpg" class="thickbox" rel="lightbox[flickr]" 
-                    title="Derelict Luke Walton The Pitch | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/5968721284&quot;&gt;View at Flickr&lt;/a&gt;">
+                            <a href="http://farm8.static.flickr.com/7194/7023616547_b9c80550c5.jpg" class="thickbox" rel="lightbox[flickr]" 
+                    title="Derelict poster வீடற்றவர்கள் (Tamil) | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/7023616547&quot;&gt;View at Flickr&lt;/a&gt;">
                         <span></span>
-            <img src="http://farm7.static.flickr.com/6013/5968721284_063e1fbdcb_s.jpg" title="Derelict Luke Walton The Pitch" alt="Derelict Luke Walton The Pitch" />
+            <img src="http://farm8.static.flickr.com/7194/7023616547_b9c80550c5_s.jpg" title="Derelict poster வீடற்றவர்கள் (Tamil)" alt="Derelict poster வீடற்றவர்கள் (Tamil)" />
+            </a>
+        </div>
+                <div class="flickr_item flickr_item_view_squares">
+                            <a href="http://farm7.static.flickr.com/6210/6049488580_e03f6b76c6.jpg" class="thickbox" rel="lightbox[flickr]" 
+                    title="There is a Day Set Up | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/6049488580&quot;&gt;View at Flickr&lt;/a&gt;">
+                        <span></span>
+            <img src="http://farm7.static.flickr.com/6210/6049488580_e03f6b76c6_s.jpg" title="There is a Day Set Up" alt="There is a Day Set Up" />
+            </a>
+        </div>
+                <div class="flickr_item flickr_item_view_squares">
+                            <a href="http://farm7.static.flickr.com/6126/5968723182_6622b0fb71.jpg" class="thickbox" rel="lightbox[flickr]" 
+                    title="Simeon Lumgair Director Derelict3 | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/5968723182&quot;&gt;View at Flickr&lt;/a&gt;">
+                        <span></span>
+            <img src="http://farm7.static.flickr.com/6126/5968723182_6622b0fb71_s.jpg" title="Simeon Lumgair Director Derelict3" alt="Simeon Lumgair Director Derelict3" />
+            </a>
+        </div>
+                <div class="flickr_item flickr_item_view_squares">
+                            <a href="http://farm3.static.flickr.com/2096/5816443310_9841a6fc7b.jpg" class="thickbox" rel="lightbox[flickr]" 
+                    title="Derelict Writers Hollywood 4 | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/5816443310&quot;&gt;View at Flickr&lt;/a&gt;">
+                        <span></span>
+            <img src="http://farm3.static.flickr.com/2096/5816443310_9841a6fc7b_s.jpg" title="Derelict Writers Hollywood 4" alt="Derelict Writers Hollywood 4" />
             </a>
         </div>
         </div></div></li>				</ul>
