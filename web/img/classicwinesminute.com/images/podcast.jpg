@@ -105,7 +105,7 @@ google_ad_height = 60;
 </script>
 <script type="text/javascript"
 src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script><div id='beacon_edc2808d1a' style='position: absolute; left: 0px; top: 0px; visibility: hidden;'><img src='http://openx.classicwines.com/www/delivery/lg.php?bannerid=3&amp;campaignid=8&amp;zoneid=12&amp;channel_ids=,&amp;cb=edc2808d1a' width='0' height='0' alt='' style='width: 0px; height: 0px;' /></div></div>
+</script><div id='beacon_aede133012' style='position: absolute; left: 0px; top: 0px; visibility: hidden;'><img src='http://openx.classicwines.com/www/delivery/lg.php?bannerid=3&amp;campaignid=8&amp;zoneid=12&amp;channel_ids=,&amp;cb=aede133012' width='0' height='0' alt='' style='width: 0px; height: 0px;' /></div></div>
 </div>
 </div>
     <script type="text/javascript" src="/js/lib/prototype.js"></script>	<script type="text/javascript" src="/js/src/scriptaculous.js"></script>
@@ -121,50 +121,39 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 
 
 <div class="introThumbAndText">
-    <a href="/foodandwines/category/cheeses" class="title">
-        <img src="/images/food-items/597832418e7425832c23895a61ca97d1.jpg" height="52" width="52" />
+    <a href="/foodandwines/category/potato-chips" class="title">
+        <img src="/images/products/default_merchant_producer_thumb.jpg" />
         </a>
     <p class="topSpacing">
-        <a href="/foodandwines/category/cheeses" class="title"><b>Cheeses</b></a><br/>
-        <a href="/foodandwines/view/dairy-and-cheeses-wine" title="Dairy and Cheeses" class="parentCategory"><b>Dairy and Cheeses</b></a>
+        <a href="/foodandwines/category/potato-chips" class="title"><b>Potato Chips</b></a><br/>
+        <a href="/foodandwines/view/snacks-fruits-and-nuts" title="Snacks, Fruits & Nuts" class="parentCategory"><b>Snacks, Fruits & Nuts</b></a>
     </p>
     <div class="clear"></div>
 </div>
 
 <div class="introThumbAndText">
-    <a href="/foodandwines/category/minestrone" class="title">
+    <a href="/foodandwines/category/Ziti" class="title">
         <img src="/images/products/default_merchant_producer_thumb.jpg" />
         </a>
     <p class="topSpacing">
-        <a href="/foodandwines/category/minestrone" class="title"><b>Minestrone</b></a><br/>
-        <a href="/foodandwines/view/soups" title="Soups" class="parentCategory"><b>Soups</b></a>
+        <a href="/foodandwines/category/Ziti" class="title"><b>Ziti</b></a><br/>
+        <a href="/foodandwines/view/pastas-and-rice" title="Pastas and Rice" class="parentCategory"><b>Pastas and Rice</b></a>
     </p>
     <div class="clear"></div>
 </div>
 
 <div class="introThumbAndText">
-    <a href="/foodandwines/category/house-blends" class="title">
+    <a href="/foodandwines/category/cheese-cake" class="title">
         <img src="/images/products/default_merchant_producer_thumb.jpg" />
         </a>
     <p class="topSpacing">
-        <a href="/foodandwines/category/house-blends" class="title"><b>House Blends</b></a><br/>
-        <a href="/foodandwines/view/coffee" title="Coffee" class="parentCategory"><b>Coffee</b></a>
+        <a href="/foodandwines/category/cheese-cake" class="title"><b>Cheese Cake</b></a><br/>
+        <a href="/foodandwines/view/desserts" title="Desserts" class="parentCategory"><b>Desserts</b></a>
     </p>
     <div class="clear"></div>
 </div>
 
 <h3>Wine Accessories</h3>
-    <div class="introThumbAndText">
-		<a href="/accessories/view/185">
-	        				<img border="0"  width="51" height="51" src="http://cms.betaportal.net/images/wine_accessories/6a189acd8b1b84fe424b02ed6dac30be.jpg" />
-                
-		</a>
-        <p style="margin-top: 0;"><b><a href="/accessories/view/185">
-			Wine Appreciation Guild</a></b><br/>
-			$0 <!-- - <a href="http://content.yudu.com/A1noaa/WAG2010/resources/index.htm?referrerUrl=" target="_blank" title="Buy Now!" class="normalWeight">Buy Now!</a>-->
-		</p> 
-        <div class="clear"></div>
-    </div>
     <div class="introThumbAndText">
 		<a href="/accessories/view/187">
 	                        <img src="/images/products/default_merchant_producer_thumb.jpg" />
@@ -183,6 +172,17 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 		</a>
         <p style="margin-top: 0;"><b><a href="/accessories/view/182">
 			Wine Trivia and Tasting Game</a></b><br/>
+			$0 <!-- - <a href="" target="_blank" title="Buy Now!" class="normalWeight">Buy Now!</a>-->
+		</p> 
+        <div class="clear"></div>
+    </div>
+    <div class="introThumbAndText">
+		<a href="/accessories/view/186">
+	        				<img border="0"  width="51" height="51" src="http://cms.betaportal.net/images/wine_accessories/58b4f9c1177c8f2b7603028616f8223e.jpg" />
+                
+		</a>
+        <p style="margin-top: 0;"><b><a href="/accessories/view/186">
+			Philadelphia Phillies 2 Piece Wine Glass Set</a></b><br/>
 			$0 <!-- - <a href="" target="_blank" title="Buy Now!" class="normalWeight">Buy Now!</a>-->
 		</p> 
         <div class="clear"></div>
@@ -265,13 +265,13 @@ Sorry! This search could find any wine to match your criteria. Please try our <a
 				<div class="narrowedRight">
 				
 
-                <a href="http://openx.classicwines.com/www/delivery/ck.php?oaparams=2__bannerid=36__zoneid=3__cb=b81597d0b0__oadest=http://click.linksynergy.com/fs-bin/click?id=lL*fg6qqU1I&offerid=102640.10000549&subid=0&type=4"  target="_blank"><IMG border="0"   alt="My Wines Direct Gifting Generic Banner - 300x250" src="http://ad.linksynergy.com/fs-bin/show?id=lL*fg6qqU1I&bids=102640.10000549&subid=0&type=4&gridnum=13"></a><div id='beacon_b81597d0b0' style='position: absolute; left: 0px; top: 0px; visibility: hidden;'><img src='http://openx.classicwines.com/www/delivery/lg.php?bannerid=36&amp;campaignid=35&amp;zoneid=3&amp;channel_ids=,&amp;cb=b81597d0b0' width='0' height='0' alt='' style='width: 0px; height: 0px;' /></div><h3>Top Wines</h3>
+                <a href="http://openx.classicwines.com/www/delivery/ck.php?oaparams=2__bannerid=36__zoneid=3__cb=f700a4e928__oadest=http://click.linksynergy.com/fs-bin/click?id=lL*fg6qqU1I&offerid=102640.10000549&subid=0&type=4"  target="_blank"><IMG border="0"   alt="My Wines Direct Gifting Generic Banner - 300x250" src="http://ad.linksynergy.com/fs-bin/show?id=lL*fg6qqU1I&bids=102640.10000549&subid=0&type=4&gridnum=13"></a><div id='beacon_f700a4e928' style='position: absolute; left: 0px; top: 0px; visibility: hidden;'><img src='http://openx.classicwines.com/www/delivery/lg.php?bannerid=36&amp;campaignid=35&amp;zoneid=3&amp;channel_ids=,&amp;cb=f700a4e928' width='0' height='0' alt='' style='width: 0px; height: 0px;' /></div><h3>Top Wines</h3>
 <ol class="listBottle">
 
-    <li style="background: transparent url(/images/wines/silver.png) no-repeat 21px 10px;">
-        <a href="/wines/details/962" title="Tomasello Winery  Cranberry">
-            <span class="title">Tomasello Winery  Cranberry</span>
-                        <span class="rating">5</span>/ 5       </a>
+    <li style="background: transparent url(/images/wines/white.png) no-repeat 21px 10px;">
+        <a href="/wines/details/13846" title="Bartenura  Moscato">
+            <span class="title">Bartenura  Moscato</span>
+                        <span class="rating">4.8</span>/ 5       </a>
     </li>
 
     <li style="background: transparent url(/images/wines/red.png) no-repeat 21px 10px;">
@@ -281,8 +281,8 @@ Sorry! This search could find any wine to match your criteria. Please try our <a
     </li>
 
     <li style="background: transparent url(/images/wines/red.png) no-repeat 21px 10px;">
-        <a href="/wines/details/178334" title="Andretti 2005 Merlot">
-            <span class="title">Andretti 2005 Merlot</span>
+        <a href="/wines/details/206219" title="Riunite  Lambrusco">
+            <span class="title">Riunite  Lambrusco</span>
                         <span class="rating">5</span>/ 5       </a>
     </li>
 </ol>

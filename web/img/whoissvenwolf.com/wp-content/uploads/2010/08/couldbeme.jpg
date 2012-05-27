@@ -163,9 +163,9 @@ var wpcp_isexpired = false;
 </div><div class="art-BlockContent">
     <div class="art-BlockContent-body">
 		<script type="text/javascript">
-		function sbmgValidateFormW1509(name,email) {
-						var name_fld = document.getElementById('sbmgValidateFormW1509' + '_' + name);
-						var email_fld = document.getElementById('sbmgValidateFormW1509' + '_' + email);
+		function sbmgValidateFormW1243(name,email) {
+						var name_fld = document.getElementById('sbmgValidateFormW1243' + '_' + name);
+						var email_fld = document.getElementById('sbmgValidateFormW1243' + '_' + email);
 			var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
 			var msg = '';
 						if ( name_fld.value == '' ) msg = '- Name Required\n';
@@ -174,16 +174,16 @@ var wpcp_isexpired = false;
 			else alert(msg);
 			return false;
 		}</script>
-		<form action="http://www.gogvo.com/subscribe.php" method="post" onsubmit="return sbmgValidateFormW1509('FirstName','Email')"><input type="hidden" name="CampaignCode" value="dcfe2c07344a" /><input type="hidden" name="FormId" value="33324" /><input type="hidden" name="TrackerName" value="subscribers_magnet"><input type="hidden" name="AffiliateName" value="svenwolf" /><div  style="padding:6px;;"><div align="left" style="width:230px; height:auto; border:1px solid #9DEEAA; background-color:#ECEEF5; ;  padding:10px 15px 10px 15px; ">
+		<form action="http://www.gogvo.com/subscribe.php" method="post" onsubmit="return sbmgValidateFormW1243('FirstName','Email')"><input type="hidden" name="CampaignCode" value="dcfe2c07344a" /><input type="hidden" name="FormId" value="33324" /><input type="hidden" name="TrackerName" value="subscribers_magnet"><input type="hidden" name="AffiliateName" value="svenwolf" /><div  style="padding:6px;;"><div align="left" style="width:230px; height:auto; border:1px solid #9DEEAA; background-color:#ECEEF5; ;  padding:10px 15px 10px 15px; ">
 						<div style="padding-bottom:5px;"><p style="text-align: center;"><span style="font-size: medium;"><strong>Kickstart Your Goals <br> for 2012<br /></strong></span></div>
 						<div style="padding-bottom:7px;"><p style="text-align: center;">Learn How You Could Effectively and</p>
 <p style="text-align: center;">Creatively Set and Accomplish</p>
 <p style="text-align: center;">Your Goals in 2012</div><div align="left" style=" padding-bottom:5px; margin:0px 10px 0px 5px; width:45; color:#000000;font-family:;font-weight:bold  "> 
 							<div style="float:left; margin:0px 5px 0px 10px;">Name:&nbsp;</div>	
-								<input type="text" name="FirstName" value="" id="sbmgValidateFormW1509_FirstName" style="width:138px;border:1px solid #BABABA; background-color:#FFFFCC" />
+								<input type="text" name="FirstName" value="" id="sbmgValidateFormW1243_FirstName" style="width:138px;border:1px solid #BABABA; background-color:#FFFFCC" />
 						</div><div align="left" style=" padding-bottom:5px;  margin:0px 10px 0px 5px; width:45; color:#000000;font-family:;font-weight:bold " >
 							<div style="float:left; margin:0px 5px 0px 10px;">Email:&nbsp;</div>
-								<input type="text" name="Email" value="" id="sbmgValidateFormW1509_Email" style="width:138px;border:1px solid #BABABA;  background-color:#FFFFCC" />
+								<input type="text" name="Email" value="" id="sbmgValidateFormW1243_Email" style="width:138px;border:1px solid #BABABA;  background-color:#FFFFCC" />
 						</div>
 						<div align="left" style="padding-bottom:8px; padding-left:60px; margin:0px 10px 0px 5px;">
 							<div style="float:left; margin:0px 5px 0px 10px;">&nbsp;</div>
@@ -428,7 +428,7 @@ var wpcp_isexpired = false;
 <p class="art-page-footer">Powered by <a href="http://wordpress.org/">WordPress</a>. Created by <a href="http://www.whoissvenwolf.com">Sven Wolf</a>.</p>
 </div>
 
-<!-- 62 queries. 0.894 seconds. -->
+<!-- 62 queries. 1.595 seconds. -->
 <div><div id="translate_popup" style="display: none;">
 	<table class="translate_links"><tr><td valign="top">
 		<a class="languagelink" lang="en" xml:lang="en" href="#" title="English"><img class="translate_flag en" src="http://whoissvenwolf.com/wp-content/plugins/google-ajax-translation/transparent.gif" alt="English" width="16" height="11" /> English</a>
