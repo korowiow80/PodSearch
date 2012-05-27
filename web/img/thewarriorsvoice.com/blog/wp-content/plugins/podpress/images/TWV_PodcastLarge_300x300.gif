@@ -78,17 +78,6 @@ var podPressText_HidePlayer = "Hide Player";
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://thewarriorsvoice.com/wp-includes/wlwmanifest.xml" /> 
 <meta name="generator" content="WordPress 3.3.1" />
 <style type="text/css">.addtoany_subscribe img{border:0;}</style>
-
-<!-- tracker added by Ultimate Google Analytics plugin v1.6.0: http://www.oratransplant.nl/uga -->
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-var pageTracker = _gat._getTracker("UA-XXXXXX-X");
-pageTracker._initData();
-pageTracker._trackPageview();
-</script>
 <script type='text/javascript'>var base_url_sociable = 'http://thewarriorsvoice.com/wp-content/plugins/sociable/'</script><script type='text/javascript' src='http://apis.google.com/js/plusone.js'></script>
 </head>
 <body id="home">
@@ -291,7 +280,18 @@ if(typeof(networkedblogs)=="undefined"){networkedblogs = {};networkedblogs.blogI
 
 </div> <!-- #sidebar --></div> <!-- #main -->
 
-<!-- AdSense Manager v4.0.3 (0.735 seconds.) -->
+
+<!-- tracker added by Ultimate Google Analytics plugin v1.6.0: http://www.oratransplant.nl/uga -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-XXXXXX-X");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+<!-- AdSense Manager v4.0.3 (0.722 seconds.) -->
 <div id="footer" class="clearfix">
 <p class="alignright">
   <a href="#home" class="top-link">Back to Top</a>
