@@ -303,7 +303,7 @@ var podPressText_HidePlayer = "Hide Player";
 		<br /><a href="feed:http://globalgeek.thepodcastnetwork.com/feed/">Entries (RSS)</a>
 		and <a href="feed:http://globalgeek.thepodcastnetwork.com/comments/feed/">Comments (RSS)</a>.
 		A production of <b><a href="http://www.thepodcastnetwork.com">The Podcast Network Pty Ltd</a></b>
-				<!-- 11 queries. 0.530 seconds. -->
+				<!-- 11 queries. 0.673 seconds. -->
 	</p>
 </div>
 </div>
