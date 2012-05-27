@@ -113,7 +113,7 @@
 	<link rel='archives' title='July 2006' href='http://www.wildcast.net/2006/07/' />
 </head>
 
-<body class="wordpress k2 y2012 m05 d27 h14 four04 columns-two lang- ">
+<body class="wordpress k2 y2012 m05 d27 h15 four04 columns-two lang- ">
 
 
 <div id="skip">
@@ -352,7 +352,7 @@ by <a href="http://www.feedburner.com/" target="_blank">FeedBurner</a></form><br
 		<a href="http://www.wildcast.net/feed/">Entries Feed</a> and <a href="http://www.wildcast.net/comments/feed/">Comments Feed</a>	</p>
 
 	<p class="footerstats">
-		35 queries. 1.6510 seconds.	</p>
+		35 queries. 0.7840 seconds.	</p>
 </div>
 
 
