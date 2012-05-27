@@ -1,24 +1,22 @@
-#! /bin/python
-
 import os
 import json
 
-from DownloaderTool import DownloaderTool
+from FeedsDownloader import FeedsDownloader
+from PathTool import PathTool
 
-class FeedDownloader:
-    
-    projectRoot = "../../../"
 
-    def __init__ (self):
-        self.dt = DownloaderTool()
+class FeedsDownloaderRunner:
 
-    def run (self):
+    def __init__(self):
+        self.fd = FeedsDownloader()
+
+    def run(self):
         feedUrls = self.getAllFeedUrls()
-        self.downloadFeeds(feedUrls)
-        print 'FeedDownloader: INFO: Done.'
-
+        self.fd.downloadFeeds(feedUrls)
+        print 'FeedsDownloaderRunner: INFO: Done.'
+        
     def getAllFeedUrls (self):
-        feedListDirectory = self.projectRoot + "static/1-Feedlists/"
+        feedListDirectory = PathTool.getFeedListsPath()
         relativeFeedListPaths = os.listdir(feedListDirectory)
         allFeedUrls = []
         for relativeFeedListPath in relativeFeedListPaths:
@@ -31,7 +29,7 @@ class FeedDownloader:
         return allFeedUrls
     
     def getFeedUrlsFromFeedList(self, feedListPath):
-        feedListDirectory = self.projectRoot + "static/1-Feedlists/"
+        feedListDirectory = self._projectRoot + "static/1-Feedlists/"
         absoluteFeedListPath = feedListDirectory + feedListPath
         feedUrls = []
         with open(absoluteFeedListPath, 'r') as f:
@@ -41,14 +39,7 @@ class FeedDownloader:
                 feedUrls.append(feedItem['link'])
                 #TODO get the title, too
         return feedUrls
-    
-    def downloadFeeds(self, feedUrls):
-        for feedUrl in feedUrls:
-            self.downloadFeed(feedUrl)
-    
-    def downloadFeed(self, feedUrl):
-        self.dt.download('feed', feedUrl)
-            
+
 if __name__ == '__main__':
-    fd = FeedDownloader()
-    fd.run()
+    fdr = FeedsDownloaderRunner()
+    fdr.run()
