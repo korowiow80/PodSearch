@@ -208,17 +208,6 @@ speed: 'normal'
 			</style>
 <link rel="stylesheet" type="text/css" href="http://www.onlinegamingradio.com/wp2/wp-content/plugins/social-media-widget/social_widget.css" />
 
-<!-- tracker added by Ultimate Google Analytics plugin v1.6.0: http://www.oratransplant.nl/uga -->
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-var pageTracker = _gat._getTracker("UA-23104976-1");
-pageTracker._initData();
-pageTracker._trackPageview();
-</script>
-
 <!--Plugin WP Missed Schedule 2011.0920.2011 Active-->
 </head>
 <body class="error404">
@@ -231,7 +220,7 @@ pageTracker._trackPageview();
 
 	<div id="header" role="banner">
 	<div class="topwidget"><li id="twitter-1" class="widget widget_twitter"><h2 class="widgettitle"><a href="http://twitter.com/OnlineGmingRdio" class="twitter_title_link"></a></h2>
-<ul class="twitter" style="list-style: none;"><li class="twitter-item"> Is this the world’s most epic marriage proposal? | Technology News Blog - Yahoo! News - Mozilla Firefox <a href="http://t.co/Y6gkSJIg" class="twitter-link">http://t.co/Y6gkSJIg</a> </li></ul></li>
+<ul class="twitter" style="list-style: none;"><li class="twitter-item"> Wow, we're getting a lot of entries for The Devil's Carnival Poster Contest! - Mozilla Firefox <a href="http://t.co/JMOTgTdT" class="twitter-link">http://t.co/JMOTgTdT</a> </li></ul></li>
 	<div align="center" style="width: 105px; position: absolute; top: 20px; right: 65px;"><a href="http://live.onlinegamingradio.com/ogr.m3u" target="_blank"><img src="http://onlinegamingradio.com/images/playbtn.png" alt="" /><br>Tune In</a></div>
 	<div align="center" style="width: 105px; position: absolute; top: 20px; right: 0px;"><a href="http://wbe02.mibbit.com/?settings=33c1ef7c6840cffca5a00f97a87dadce&server=irc.onlinegamingradio.com&channel=%23OGR" target="_blank"><img src="http://onlinegamingradio.com/images/chatbtn.png" alt="" /><br>Chat Live</a></div>
 	<div align="center" style="width: 57px; height: 20px; position: absolute; top: 60px; right: 155px;"><a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=267761652"><img src="http://onlinegamingradio.com/images/itunesbtn.png" alt="" /></a></div>
@@ -349,7 +338,7 @@ YES, you can earn stickers by checking in.. Real Life Stickers! Earn 20 or more 
 		Online Gaming Radio 2010&copy; - Theme by <a href="http://kithicor.org">Jethal Silverwing</a>
 		<br /><a href="http://www.onlinegamingradio.com/feed/">Entries (RSS)</a>
 		and <a href="http://onlinegamingradio.disqus.com/latest.rss">Comments (RSS)</a>.
-		<!-- 33 queries. 0.965 seconds. -->
+		<!-- 34 queries. 0.902 seconds. -->
 		<br><br><br><br><br>
 	</p>
 </div>
@@ -366,6 +355,17 @@ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async
 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
 })();
+</script>
+
+<!-- tracker added by Ultimate Google Analytics plugin v1.6.0: http://www.oratransplant.nl/uga -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-23104976-1");
+pageTracker._initData();
+pageTracker._trackPageview();
 </script>
 
 <!--Plugin WP Missed Schedule 2011.0920.2011 Active-->

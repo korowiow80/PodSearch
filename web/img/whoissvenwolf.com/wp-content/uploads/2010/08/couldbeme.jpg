@@ -428,7 +428,7 @@ var wpcp_isexpired = false;
 <p class="art-page-footer">Powered by <a href="http://wordpress.org/">WordPress</a>. Created by <a href="http://www.whoissvenwolf.com">Sven Wolf</a>.</p>
 </div>
 
-<!-- 62 queries. 0.586 seconds. -->
+<!-- 67 queries. 4.499 seconds. -->
 <div><div id="translate_popup" style="display: none;">
 	<table class="translate_links"><tr><td valign="top">
 		<a class="languagelink" lang="en" xml:lang="en" href="#" title="English"><img class="translate_flag en" src="http://whoissvenwolf.com/wp-content/plugins/google-ajax-translation/transparent.gif" alt="English" width="16" height="11" /> English</a>

@@ -26,7 +26,7 @@
             editionId: '3',
             brandId: '55',
             breadcrumb: '18560',
-            userIP: '66.249.71.200, 208.44.23.84, 66.249.71.200, 64.30.227.218, 63.238.2.245, 66.249.71.200',
+            userIP: '66.249.71.199, 208.44.23.84, 66.249.71.199, 64.30.227.218, 63.238.2.245, 66.249.71.199',
             sectionId: '18560',
 	    guid: window.cbsiGUID
         });
@@ -430,7 +430,7 @@ Copyright 1996-2010 Adobe, Inc. All Rights Reserved
 More info available at http://www.omniture.com --> <script type="text/javascript">
 
 	
-	var date = new Date("27 May 2012 03:44:53 +0000");
+	var date = new Date("27 May 2012 03:54:42 +0000");
 	var days = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
      
             s.pageName="/Section - 60 Minutes - Interviews, Profiles & Reports - ";
