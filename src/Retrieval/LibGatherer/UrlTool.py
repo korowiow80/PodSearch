@@ -13,7 +13,13 @@ class UrlTool:
         o = urlparse(url)
         baseUrl = o.scheme + '://' + o.netloc
         return baseUrl
-    
+
+    def getRelativeUrl(self, url):
+        if not url.startswith('http'): return url
+        baseUrl = self.getBaseUrl(url)
+        relativeUrl = url[len(baseUrl):]
+        return relativeUrl
+
     def getDomain(self, url):
         """Extracts the full and the top-level domain from a given URL.
         By our convention, we skip the sub-domain, if it is 'www'."""
@@ -24,7 +30,7 @@ class UrlTool:
             domain = ".".join(extract[1:])
         return domain
     
-    def getSpiderNameFromUrl(self, domain):
+    def getSpiderNameFromDomain(self, domain):
         """Derives the spider name from the given domain and fullDomain.
         By general convention the first letter of a class gets capitalized."""
         try:

@@ -10,7 +10,7 @@ from Scrapy.spiders.SpiderTool import SpiderTool
 
 class DownloaderTool:
 
-    projectRoot = "../../../"
+    _projectRoot = "../../../"
 
     def __init__ (self):
         self.ressources = []
