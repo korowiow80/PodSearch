@@ -205,7 +205,7 @@ div.scrippet {
 				<br />The Podcast is powered by <a href="http://www.mightyseek.com/podpress">PodPress</a>
 				<br /><a href="feed:http://www.theseanachai.com/feed/">Entries (RSS)</a>
 				and <a href="feed:http://www.theseanachai.com/comments/feed/">Comments (RSS)</a>.
-				<!-- 30 queries. 0.204 seconds. -->
+				<!-- 30 queries. 0.201 seconds. -->
 			</div>
 		</div>
 	</div>

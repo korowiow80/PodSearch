@@ -22,10 +22,10 @@ all of the request details from below.</p>
 
       <h4>Request Details</h4>
 <pre>
-REDIRECT_UNIQUE_ID=T8HZ2sfML8IAAEgIFO8AAAmf
+REDIRECT_UNIQUE_ID=T8HbxcfML8IAAHlccb8AAAKO
 REDIRECT_REQUEST_METHOD=GET
 REDIRECT_STATUS=403
-UNIQUE_ID=T8HZ2sfML8IAAEgIFO8AAAmf
+UNIQUE_ID=T8HbxcfML8IAAHlccb8AAAKO
 HTTP_HOST=shriekfreak.com
 HTTP_ACCEPT_ENCODING=gzip, deflate
 HTTP_USER_AGENT=Python-httplib2/$Rev$
@@ -40,7 +40,7 @@ REMOTE_ADDR=77.10.181.196
 DOCUMENT_ROOT=/home/shriekfr/public_html
 SERVER_ADMIN=webmaster@shriekfreak.com
 SCRIPT_FILENAME=/usr/local/apache/custom_error/403.shtml
-REMOTE_PORT=52267
+REMOTE_PORT=44386
 REDIRECT_URL=/wp-content/uploads/2011/06/PodcastLogo.png
 GATEWAY_INTERFACE=CGI/1.1
 SERVER_PROTOCOL=HTTP/1.1
@@ -48,8 +48,8 @@ REQUEST_METHOD=GET
 QUERY_STRING=
 REQUEST_URI=/wp-content/uploads/2011/06/PodcastLogo.png
 SCRIPT_NAME=/custom_error/403.shtml
-DATE_LOCAL=Sunday, 27-May-2012 03:38:02 EDT
-DATE_GMT=Sunday, 27-May-2012 07:38:02 GMT
+DATE_LOCAL=Sunday, 27-May-2012 03:46:13 EDT
+DATE_GMT=Sunday, 27-May-2012 07:46:13 GMT
 LAST_MODIFIED=Saturday, 11-Feb-2012 16:02:14 EST
 DOCUMENT_URI=/custom_error/403.shtml
 USER_NAME=root
