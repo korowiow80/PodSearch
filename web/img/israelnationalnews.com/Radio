@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<script type="text/javascript">var _gaq = _gaq || [];</script>
-	<title>Radio - Israel National News</title> <meta property="og:site_name" content="Israel National News" /><script src="http://a7.org/Combine.ashx?lang=en&js=jquery.js,Main.js,More.js,Dates.js&amp;h=XjBM8N5FzL"></script><link rel=stylesheet href="http://a7.org/Combine.ashx?css=global.css&h=AcFcQ/eQqC" /><link rel=stylesheet href="http://a7.org/Combine.ashx?lang=en&css=global.css&h=WjbcFUlVN4" /><script>sLang='2'; dDate = nIDate(0,2012,4,27,5772,9,6,6,28,"שבועות,1"); if(document.cookie.indexOf('UserData')>0) ('<sc'+'ript src="/My/Checker.ashx?fill=true&amp;page='+location.pathname+'"></sc'+'ript>').write(); else $(document).ready(function() {PopLeft.FinalCheck();});</script><meta http-equiv="Content-language" content="en" />
+	<title>Radio - Israel National News</title> <meta property="og:site_name" content="Israel National News" /><script src="http://a7.org/Combine.ashx?lang=en&js=jquery.js,Main.js,More.js,Dates.js&amp;h=XjBM8N5FzL"></script><link rel=stylesheet href="http://a7.org/Combine.ashx?css=global.css&h=AcFcQ/eQqC" /><link rel=stylesheet href="http://a7.org/Combine.ashx?lang=en&css=global.css&h=WjbcFUlVN4" /><script>sLang='2'; dDate = nIDate(0,2012,4,27,5772,9,6,6,59,"שבועות,1"); if(document.cookie.indexOf('UserData')>0) ('<sc'+'ript src="/My/Checker.ashx?fill=true&amp;page='+location.pathname+'"></sc'+'ript>').write(); else $(document).ready(function() {PopLeft.FinalCheck();});</script><meta http-equiv="Content-language" content="en" />
 	
     <script src="http://a7.org/Combine.ashx?lang=en&js=Replies.js&amp;h=xEOYtcPmyI"></script>
     
@@ -182,7 +182,7 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 			
 		
 		<footer><div style="width:1000px;clear:both;">
-<div class="divTopInBox"><div id='z205inn' class='znn  '></div><div id='z204inn' class='znn  '></div><div class="clf"></div></div></div>
+<div class="divTopInBox"><div id='z249inn' class='znn  '></div><div id='z204inn' class='znn  '></div><div class="clf"></div></div></div>
 		<div class="divFooter" id="Footer" style="width:1000px;margin:20px 0px;">
 <div  class="d"><div class="Links">
 
@@ -222,7 +222,7 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 		</div>
 		<script type="text/javascript">SetDefaultInput("SearchQuery",LangText.Search);</script>
 		</div>
-<script type="text/javascript">Info.Add(100074,'z208inn',{});Info.Add(100008,'z174inn',{});Info.Add(100150,'z238inn',{});Info.Add(100163,'z205inn',{});Info.Add(100151,'z204inn',{});</script>
+<script type="text/javascript">Info.Add(100074,'z208inn',{});Info.Add(100008,'z174inn',{});Info.Add(100150,'z238inn',{});Info.Add(100153,'z249inn',{});Info.Add(100151,'z204inn',{});</script>
 
     
 
