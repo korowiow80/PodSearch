@@ -79,7 +79,7 @@ var podPressText_HidePlayer = "Hide Player";
 <script type='text/javascript' src='http://rockandrollreport.com/wp-content/plugins/nextgen-gallery/js/ngg.slideshow.min.js'></script>
 <script type='text/javascript' src='http://rockandrollreport.com/wp-content/plugins/podpress/js/podpress.js'></script>
 
-<!-- Bad Behavior 2.2.3 run time: 7.683 ms -->
+<!-- Bad Behavior 2.2.3 run time: 7.713 ms -->
 <script type="text/javascript">
 <!--
 function bb2_addLoadEvent(func) {
@@ -100,7 +100,7 @@ bb2_addLoadEvent(function() {
 			var myElement = document.createElement('input');
 			myElement.setAttribute('type', 'hidden');
 			myElement.name = 'bb2_screener_';
-			myElement.value = '1338100065 77.10.181.196';
+			myElement.value = '1338100667 77.10.181.196';
 			document.forms[i].appendChild(myElement);
 		}
 	}
