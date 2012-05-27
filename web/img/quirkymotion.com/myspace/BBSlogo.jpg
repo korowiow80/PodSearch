@@ -192,31 +192,17 @@ if(window.opera) {document.write('<link rel="stylesheet" type="text/css" href="h
 			<li>
 				<ul>
 				<li><h3>Flickr</h3><div class="flickrpress-container"><div class="flickrpress-items">        <div class="flickr_item flickr_item_view_squares">
-                            <a href="http://farm8.static.flickr.com/7116/6877519610_67a611ece0.jpg" class="thickbox" rel="lightbox[flickr]" 
-                    title="Derelict poster 玩忽职守 (Mangarin) | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/6877519610&quot;&gt;View at Flickr&lt;/a&gt;">
+                            <a href="http://farm7.static.flickr.com/6195/6150193336_a7614a0612.jpg" class="thickbox" rel="lightbox[flickr]" 
+                    title="Derelict 14th Shanghai Film Festival 2011 | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/6150193336&quot;&gt;View at Flickr&lt;/a&gt;">
                         <span></span>
-            <img src="http://farm8.static.flickr.com/7116/6877519610_67a611ece0_s.jpg" title="Derelict poster 玩忽职守 (Mangarin)" alt="Derelict poster 玩忽职守 (Mangarin)" />
+            <img src="http://farm7.static.flickr.com/6195/6150193336_a7614a0612_s.jpg" title="Derelict 14th Shanghai Film Festival 2011" alt="Derelict 14th Shanghai Film Festival 2011" />
             </a>
         </div>
                 <div class="flickr_item flickr_item_view_squares">
-                            <a href="http://farm7.static.flickr.com/6061/6048926499_7eb718017f.jpg" class="thickbox" rel="lightbox[flickr]" 
-                    title="There is a Day Tip | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/6048926499&quot;&gt;View at Flickr&lt;/a&gt;">
+                            <a href="http://farm7.static.flickr.com/6199/6049511582_d742617d59.jpg" class="thickbox" rel="lightbox[flickr]" 
+                    title="There is a Day Mansion band | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/6049511582&quot;&gt;View at Flickr&lt;/a&gt;">
                         <span></span>
-            <img src="http://farm7.static.flickr.com/6061/6048926499_7eb718017f_s.jpg" title="There is a Day Tip" alt="There is a Day Tip" />
-            </a>
-        </div>
-                <div class="flickr_item flickr_item_view_squares">
-                            <a href="http://farm7.static.flickr.com/6199/6049678646_0b207a2df8.jpg" class="thickbox" rel="lightbox[flickr]" 
-                    title="New Cassettes BBC Electric Proms 3 | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/6049678646&quot;&gt;View at Flickr&lt;/a&gt;">
-                        <span></span>
-            <img src="http://farm7.static.flickr.com/6199/6049678646_0b207a2df8_s.jpg" title="New Cassettes BBC Electric Proms 3" alt="New Cassettes BBC Electric Proms 3" />
-            </a>
-        </div>
-                <div class="flickr_item flickr_item_view_squares">
-                            <a href="http://farm7.static.flickr.com/6013/5968721284_063e1fbdcb.jpg" class="thickbox" rel="lightbox[flickr]" 
-                    title="Derelict Luke Walton The Pitch | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/5968721284&quot;&gt;View at Flickr&lt;/a&gt;">
-                        <span></span>
-            <img src="http://farm7.static.flickr.com/6013/5968721284_063e1fbdcb_s.jpg" title="Derelict Luke Walton The Pitch" alt="Derelict Luke Walton The Pitch" />
+            <img src="http://farm7.static.flickr.com/6199/6049511582_d742617d59_s.jpg" title="There is a Day Mansion band" alt="There is a Day Mansion band" />
             </a>
         </div>
                 <div class="flickr_item flickr_item_view_squares">
@@ -227,10 +213,24 @@ if(window.opera) {document.write('<link rel="stylesheet" type="text/css" href="h
             </a>
         </div>
                 <div class="flickr_item flickr_item_view_squares">
-                            <a href="http://farm6.static.flickr.com/5121/5205604552_5d3ae55d93.jpg" class="thickbox" rel="lightbox[flickr]" 
-                    title="Derelict: Crew on set | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/5205604552&quot;&gt;View at Flickr&lt;/a&gt;">
+                            <a href="http://farm7.static.flickr.com/6187/6048944669_49249b8436.jpg" class="thickbox" rel="lightbox[flickr]" 
+                    title="There is a Day SteadyCam | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/6048944669&quot;&gt;View at Flickr&lt;/a&gt;">
                         <span></span>
-            <img src="http://farm6.static.flickr.com/5121/5205604552_5d3ae55d93_s.jpg" title="Derelict: Crew on set" alt="Derelict: Crew on set" />
+            <img src="http://farm7.static.flickr.com/6187/6048944669_49249b8436_s.jpg" title="There is a Day SteadyCam" alt="There is a Day SteadyCam" />
+            </a>
+        </div>
+                <div class="flickr_item flickr_item_view_squares">
+                            <a href="http://farm7.static.flickr.com/6074/6048956169_9bac9845d0.jpg" class="thickbox" rel="lightbox[flickr]" 
+                    title="There is a Day Field | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/6048956169&quot;&gt;View at Flickr&lt;/a&gt;">
+                        <span></span>
+            <img src="http://farm7.static.flickr.com/6074/6048956169_9bac9845d0_s.jpg" title="There is a Day Field" alt="There is a Day Field" />
+            </a>
+        </div>
+                <div class="flickr_item flickr_item_view_squares">
+                            <a href="http://farm5.static.flickr.com/4126/5205012013_a80d4dd858.jpg" class="thickbox" rel="lightbox[flickr]" 
+                    title="Derelict: Film crew | &lt;a href=&quot;http://www.flickr.com/photos/50106945@N04/5205012013&quot;&gt;View at Flickr&lt;/a&gt;">
+                        <span></span>
+            <img src="http://farm5.static.flickr.com/4126/5205012013_a80d4dd858_s.jpg" title="Derelict: Film crew" alt="Derelict: Film crew" />
             </a>
         </div>
         </div></div></li>				</ul>
