@@ -17,15 +17,14 @@ Dependencies
 Installing Dependencies on Fedora Linux
 ---------------------------------------
 
-    yum install python python pip
-    pip-python install tldextract scrapy
+    sudo yum install python python pip
+    sudo pip-python install asyncore feedparser scrapy tldextract
 
 Installing Dependencies on Ubuntu Linux
 ---------------------------------------
 
     sudo apt-get install python-setuptools
-    sudo easy_install tldextract
-    sudo easy_install feedparser
+    sudo easy_install asyncore feedparser scrapy tldextract
 
 Note: Tested with 10.10, so this information might be out of date.
 

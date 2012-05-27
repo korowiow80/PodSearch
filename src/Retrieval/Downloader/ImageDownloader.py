@@ -56,6 +56,3 @@ class ImageDownloader:
 
     def downloadImage (self, imgUrl):
         self.dt.download("image", imgUrl)
-
-if __name__ == '__main__':
-    ImageDownloader().run()
