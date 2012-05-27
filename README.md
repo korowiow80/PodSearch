@@ -11,6 +11,9 @@ Dependencies
 -   [Python](http://www.python.org/) needs to be installed.
 -   [Scrapy](http://scrapy.org/) needs to be installed.
 
+-   The working copy needs to be placed on a filesystem that supports names with newlines.
+    NTFS will work, FAT32 will not work.
+
 Installing Dependencies on Fedora Linux
 ---------------------------------------
 
