@@ -28,7 +28,7 @@
 <script language="javascript" type="text/javascript">function isLogin() {return false;}</script>
 </head>
 <body class="grey" onload="onLoad();  ">
-<!-- s17 -->
+<!-- s28 -->
 <div id="all">
 <div id="bg">
 	<div id="header">
