@@ -2,6 +2,7 @@ import os
 import httplib
 import threading
 import Queue
+import time
 
 import httplib2
 
@@ -15,20 +16,27 @@ class DownloadTool:
     def __init__ (self):
         self.ressources = []
         self.t = Threader()
+        self.st = SpiderTool()
+        self.lastDownloadTimestamp = 0
 
     def download (self, ressourceType, ressourceUrl):
         if not self.sanityCheckUrl(ressourceUrl): return
         if ressourceUrl.endswith('/'): ressourceUrl = ressourceUrl[:-1] 
         ressourceTarget = self.getRessourceTarget(ressourceType, ressourceUrl)
         basePath = self.getBasePath(ressourceTarget)
-        st = SpiderTool()
-        st.makeSurePathExists(basePath)
+
+        self.st.makeSurePathExists(basePath)
         
         self.ressources.append([ressourceType, ressourceUrl, ressourceTarget])
-        if len(self.ressources) <= 300: return
+        timeSinceLastDownload = time.time() - self.lastDownloadTimestamp 
+        # download 300 files in parallel or how many ever we have every minute 
+        if len(self.ressources) <= 300 and timeSinceLastDownload <= 60:
+            return
         
         ressourcesTmp = self.ressources
-        self.ressource = []
+        self.ressources = []
+        
+        self.lastDownloadTimestamp = time.time()
 
         self.t.run_parallel_in_threads(_download, ressourcesTmp)
         
