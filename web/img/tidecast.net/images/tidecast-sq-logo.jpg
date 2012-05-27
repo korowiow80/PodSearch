@@ -2,13 +2,13 @@
 <head>
 <title>tidecast.net: The Leading Tide Cast Site on the Net</title>
 <script type="text/javascript">
-if(self != top) top.location.href = 'http://'+location.hostname+'/?redir=frame&uid=www4fc1b8f0568790.36128752';
+if(self != top) top.location.href = 'http://'+location.hostname+'/?redir=frame&uid=www4fc1bb3c20d023.15929593';
 </script>
 </head>
 <frameset cols="1,*,1" border=0>
-  <frame name="top" src="tg.php?uid=www4fc1b8f0568790.36128752" scrolling=no frameborder=0 noresize framespacing=0 marginwidth=0 marginheight=0>
-  <frame src="search.php?uid=www4fc1b8f0568790.36128752" scrolling="auto" framespacing=0 marginwidth=0 marginheight=0 noresize>
-  <frame src="page.php?www4fc1b8f0568790.36128752"></frame>
+  <frame name="top" src="tg.php?uid=www4fc1bb3c20d023.15929593" scrolling=no frameborder=0 noresize framespacing=0 marginwidth=0 marginheight=0>
+  <frame src="search.php?uid=www4fc1bb3c20d023.15929593" scrolling="auto" framespacing=0 marginwidth=0 marginheight=0 noresize>
+  <frame src="page.php?www4fc1bb3c20d023.15929593"></frame>
 </frameset>
 <noframes>
 tidecast.net has been connecting our visitors with providers of Anemometer, Atomic Clocks, Barometers and many other related services for nearly 10 years. Join thousands of satisfied visitors who found Environment, Environmental, Environmental Management, Heat, and Sun Shades.<br/>Check out the <a href="chatrpad.php">chatrpad</a> for tidecast.net
