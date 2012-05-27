@@ -3,14 +3,14 @@
 import os
 import json
 
-from DownloadTool import DownloadTool
+from DownloaderTool import DownloaderTool
 
 class FeedDownloader:
     
     projectRoot = "../../../"
 
     def __init__ (self):
-        self.dt = DownloadTool()
+        self.dt = DownloaderTool()
 
     def run (self):
         feedUrls = self.getAllFeedUrls()

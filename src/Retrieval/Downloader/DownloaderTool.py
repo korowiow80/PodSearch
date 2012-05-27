@@ -1,4 +1,3 @@
-import os
 import httplib
 import threading
 import Queue
@@ -9,7 +8,7 @@ import httplib2
 from Scrapy.spiders.SpiderTool import SpiderTool
 
 
-class DownloadTool:
+class DownloaderTool:
 
     projectRoot = "../../../"
 
@@ -22,7 +21,7 @@ class DownloadTool:
     def download (self, ressourceType, ressourceUrl):
         if not self.sanityCheckUrl(ressourceUrl): return
         if ressourceUrl.endswith('/'): ressourceUrl = ressourceUrl[:-1] 
-        ressourceTarget = self.getRessourceTarget(ressourceType, ressourceUrl)
+        ressourceTarget = self.getRessourceTargetPath(ressourceType, ressourceUrl)
         basePath = self.getBasePath(ressourceTarget)
 
         self.st.makeSurePathExists(basePath)
@@ -39,49 +38,6 @@ class DownloadTool:
         self.lastDownloadTimestamp = time.time()
 
         self.t.run_parallel_in_threads(_download, ressourcesTmp)
-        
-    def sanityCheckUrl (self, url):
-        if not url: return False
-        if url.endswith('://'): return False
-        # skip dataUrls
-        if url.startswith('data:'): return False
-
-        # TODO do real url validation here ... like Django does
-        return True
-
-    def getRessourceTarget(self, ressourceType, ressourceUrl):
-        if ressourceType == 'feed':
-            ressourceTarget = self.getFeedFilePath(ressourceUrl)
-        if ressourceType == 'image':
-            ressourceTarget = self.getImageFilePath(ressourceUrl)        
-        return ressourceTarget
-
-    def getBasePath(self, ressourceTarget):
-        basePath = os.path.dirname(ressourceTarget)
-        return basePath
-
-    def getImageFilePath(self, imageUrl):
-        imagesPrefix = self.projectRoot + "web/img/"
-        relativeRemoteLocation = self.getRelativePath(imageUrl)
-        st = SpiderTool()
-        domain = st.getDomain(imageUrl)        
-        imageFilePath = imagesPrefix + domain + relativeRemoteLocation
-        return imageFilePath
-
-    def getFeedFilePath(self, feedUrl):
-        feedsPrefix = self.projectRoot + "static/2-Feeds/"
-        relativeRemoteLocation = self.getRelativePath(feedUrl)
-        st = SpiderTool()
-        domain = st.getDomain(feedUrl)
-        feedFilePath = feedsPrefix + domain + relativeRemoteLocation        
-        return feedFilePath
-
-    def getRelativePath(self, url):
-        if not url.startswith('http'): return url
-        st = SpiderTool()
-        baseUrl = st.getBaseUrl(url)
-        relativePath = url[len(baseUrl):]
-        return relativePath
 
 def _download (ressourceType, ressourceUrl, ressourceTarget): 
     hl2 = httplib2.Http(cache = ".cache", timeout = 5)
