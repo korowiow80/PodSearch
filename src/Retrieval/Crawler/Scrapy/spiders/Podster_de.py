@@ -20,33 +20,58 @@ class Podster_de(BaseSpider):
     feedListPath = _pt.getFeedListPath(start_urls[0])
 
     def parse(self, response):
-        yield Request(response.url, callback=self.parse_sitemapPage)
         hxs = HtmlXPathSelector(response)
+        
         nextPageXpath = "//tr/td[3]/a/@href"
         nextPageUrls = hxs.select(nextPageXpath).extract()
         if not nextPageUrls: return 
         nextPageUrl = nextPageUrls[0]
-        if nextPageUrl.endswith("20"): return
         yield Request(nextPageUrl, callback=self.parse)
-
-    def parse_sitemapPage(self, response):
-        hxs = HtmlXPathSelector(response)
+        
         podcastPageXpath = "//table[@class='podcasts']//tr[2]/td[1]/a/@href"
         podcastPageUrls = hxs.select(podcastPageXpath).extract()
-        for podcastPageUrl in podcastPageUrls: 
+        for podcastPageUrl in podcastPageUrls:
             yield Request(podcastPageUrl, callback=self.parse_podcastPage)
 
     def parse_podcastPage(self, response):
-        hxs = HtmlXPathSelector(response)
-        podcastTitleXpath = "//div[@id='caption-header']"
-        podcastUrlXpath = "/html/body/div[@id='god_container']/div[@id='main_container']/div[@id='content']/div[@class='sidecol left large']/div[@class='box']/div[@class='boxcontent']/a[2]"
-        
+        hxs = HtmlXPathSelector(response)      
+        item = PodcastFeedItem()
+
+        podcastTitleXpath = "//div[@id='caption-header']/text()"
+        podcastTitle = hxs.select(podcastTitleXpath).extract()[0]
+        podcastTitle = podcastTitle[len(u'\n                 '):]
+        podcastTitle = podcastTitle[len("Podcast: "):]
+        podcastTitle = podcastTitle.rstrip(' ')
+        item['title'] = podcastTitle
+
         try:
-            item = PodcastFeedItem()
-            item['title'] = hxs.select(podcastTitleXpath).extract()[0]
-            item['link'] = hxs.select(podcastUrlXpath).extract()[0]
-            print item['title'], item['link']
+            podcastUrlXpath = "//div[@id='content']//a[5]/@href"
+            link = hxs.select(podcastUrlXpath).extract()[0]
+            if not link.startswith('/community/map;show=') and \
+               not link.startswith('http://podster.de/view/'):
+                item['link'] = link
         except IndexError:
+            pass
+        try:
+            podcastUrlXpath = "//div[@id='content']//a[4]/@href"
+            link = hxs.select(podcastUrlXpath).extract()[0]
+            if not link.startswith('/community/map;show=') and \
+               not link.startswith('http://podster.de/view/'):
+                item['link'] = link
+        except IndexError:
+            pass
+        try:
+            podcastUrlXpath = "//div[@id='content']//div[@class='boxcontent']/a[2]/@href"
+            link = hxs.select(podcastUrlXpath).extract()[0]            
+            if not link.startswith('/community/map;show=') and \
+               not link.startswith('http://podster.de/view/'):
+                item['link'] = link
+        except IndexError:
+            pass
+        try:
+            link = item['link']
+        except KeyError:
+            print 'Podster_de: WARNING: The page %s did not contain a link to a feed.' % response.url
             return
 
         yield item
