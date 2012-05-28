@@ -26,7 +26,7 @@ class Podfeed_net(BaseSpider):
         sitemapPageXpath = "/html/body/div[@class='container']/div[@id='column']/a/@href"
         sitemapPageUrls = hxs.select(sitemapPageXpath).extract()
         for sitemapPageUrl in sitemapPageUrls:
-            url = self.st.getAbsoluteUrl(sitemapPageUrl, self.baseUrl)
+            url = self._ut.getAbsoluteUrl(sitemapPageUrl, self._baseUrl)
             yield Request(url, callback=self.parse_sitemapPage)           
 
     def parse_sitemapPage(self, response):
