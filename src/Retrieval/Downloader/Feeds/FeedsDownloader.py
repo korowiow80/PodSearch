@@ -1,6 +1,6 @@
 #! /bin/python
 
-from DownloaderTool import DownloaderTool
+from DownloaderTool.DownloaderTool import DownloaderTool
 
 
 class FeedsDownloader:
