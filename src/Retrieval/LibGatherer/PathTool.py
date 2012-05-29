@@ -7,11 +7,11 @@ import UrlTool
 class PathTool:
     
     def __init__(self):
-        projectRoot = "../../../"
+        projectRoot = "../../../../"
         
         self._directoriesPath = projectRoot + "static/0-Directories/"
         self._feedListsPath = projectRoot + "static/1-Feedlists/"
-        self._feedsPath = projectRoot + 'static/2-Feeds'
+        self._feedsPath = projectRoot + 'static/2-Feeds/'
         self._imagesPath = projectRoot + "web/img/"
     
         self._ut = UrlTool.UrlTool()
@@ -56,7 +56,7 @@ class PathTool:
     def getFeedPath(self, feedUrl):
         """Derives the path of a feed from a given domain."""
         feedsPath = self.getFeedsPath()
-        relativeRemoteLocation = self.getRelativePath(feedUrl)
+        relativeRemoteLocation = self._ut.getRelativeUrl(feedUrl)
         domain = self._ut.getDomain(feedUrl)
         feedFilePath = feedsPath + domain + relativeRemoteLocation        
         return feedFilePath

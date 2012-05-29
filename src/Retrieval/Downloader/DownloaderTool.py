@@ -5,26 +5,26 @@ import time
 
 import httplib2
 
-from Scrapy.spiders.SpiderTool import SpiderTool
+from UrlTool import UrlTool
+from PathTool import PathTool
 
 
 class DownloaderTool:
 
-    _projectRoot = "../../../"
-
     def __init__ (self):
         self.ressources = []
         self.t = Threader()
-        self.st = SpiderTool()
+        self._ut = UrlTool()
+        self._pt = PathTool()
         self.lastDownloadTimestamp = 0
 
     def download (self, ressourceType, ressourceUrl):
-        if not self.sanityCheckUrl(ressourceUrl): return
+        if not self._ut.sanityCheckUrl(ressourceUrl): return
         if ressourceUrl.endswith('/'): ressourceUrl = ressourceUrl[:-1] 
-        ressourceTarget = self.getRessourceTargetPath(ressourceType, ressourceUrl)
-        basePath = self.getBasePath(ressourceTarget)
+        ressourceTarget = self._pt.getRessourceTargetPath(ressourceType, ressourceUrl)
+        basePath = self._pt.getBasePath(ressourceTarget)
 
-        self.st.makeSurePathExists(basePath)
+        self._pt.ensurePathExists(basePath)
         
         self.ressources.append([ressourceType, ressourceUrl, ressourceTarget])
         timeSinceLastDownload = time.time() - self.lastDownloadTimestamp 
