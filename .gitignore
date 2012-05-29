@@ -79,3 +79,4 @@ nosetests.xml
 static/3-Index
 *.*~
 src/Retrieval/Downloader/.cache/
+src/Retrieval/Downloader/Feeds/.cache/
