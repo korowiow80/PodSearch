@@ -12,46 +12,47 @@ from PathTool import PathTool
 class DownloaderTool:
 
     def __init__ (self):
-        self.ressources = []
+        self.resources = []
         self.t = Threader()
         self._ut = UrlTool()
         self._pt = PathTool()
         self.lastDownloadTimestamp = 0
 
-    def download (self, ressourceType, ressourceUrl):
-        if not self._ut.sanityCheckUrl(ressourceUrl): return
-        if ressourceUrl.endswith('/'): ressourceUrl = ressourceUrl[:-1] 
-        ressourceTarget = self._pt.getRessourceTargetPath(ressourceType, ressourceUrl)
-        basePath = self._pt.getBasePath(ressourceTarget)
+    def download (self, resourceType, resourceUrl):
+        if not self._ut.sanityCheckUrl(resourceUrl): return
 
+        if resourceUrl.endswith('/'): resourceUrl = resourceUrl[:-1] 
+        resourceTarget = self._pt.getRessourceTargetPath(resourceType, resourceUrl)
+        basePath = self._pt.getBasePath(resourceTarget)
+        print "DEBUG: Will download resource %s with target %s to location %s." % (resourceUrl, resourceTarget, basePath)
+        
         self._pt.ensurePathExists(basePath)
         
-        self.ressources.append([ressourceType, ressourceUrl, ressourceTarget])
+        self.resources.append([resourceType, resourceUrl, resourceTarget])
+        
         timeSinceLastDownload = time.time() - self.lastDownloadTimestamp 
         # download 300 files in parallel or how many ever we have every minute 
-        if len(self.ressources) <= 300 and timeSinceLastDownload <= 60:
+        if len(self.resources) <= 300 and timeSinceLastDownload <= 60:
             return
         
-        ressourcesTmp = self.ressources
-        self.ressources = []
-        
+        resourcesTmp = self.resources
+        self.resources = []
         self.lastDownloadTimestamp = time.time()
+        self.t.run_parallel_in_threads(_download, resourcesTmp)
 
-        self.t.run_parallel_in_threads(_download, ressourcesTmp)
-
-def _download (ressourceType, ressourceUrl, ressourceTarget): 
+def _download (resourceType, resourceUrl, resourceTarget): 
     hl2 = httplib2.Http(cache = ".cache", timeout = 5)
     
     try:
-        resp, content = hl2.request(ressourceUrl)
+        resp, content = hl2.request(resourceUrl)
         if  resp.fromcache:
-            print "Cache contained a current version of %s %s." % (ressourceType, ressourceUrl)
+            print "Cache contained a current version of %s %s." % (resourceType, resourceUrl)
         else:
-            print "Downloaded %s from %s to %s." % (ressourceType, ressourceUrl, ressourceTarget)
-        with open(ressourceTarget, 'w') as f:
+            print "Downloaded %s from %s to %s." % (resourceType, resourceUrl, resourceTarget)
+        with open(resourceTarget, 'w') as f:
             f.write(content)
     except (AttributeError, IOError, TypeError, UnicodeError, ValueError,  \
-            httplib.InvalidURL, httplib.BadStatusLine, \
+            httplib.IncompleteRead, httplib.InvalidURL, httplib.BadStatusLine, \
             httplib2.RelativeURIError, httplib2.RedirectLimit, \
             httplib2.ServerNotFoundError):
         # TODO actually do some error handling here

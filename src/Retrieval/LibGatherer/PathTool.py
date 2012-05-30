@@ -26,19 +26,22 @@ class PathTool:
         try:
             os.makedirs(path)
         except OSError as exc:
-            if exc.errno == errno.EEXIST: pass
-            else: raise
+            if exc.errno == errno.EEXIST: return
+            if exc.errno == errno.ENOTDIR: return
+            raise
         return
 
     def stripWhiteSpace(self, filename):
         # strip all leading newlines and spaces
         while filename.startswith('\n') or \
+              filename.startswith('\r') or \
               filename.startswith('\t') or \
               filename.startswith(' '):
             filename = filename[1:]
 
         # strip all trailing newlines
         while filename.endswith('\n') or \
+              filename.endwith('\r') or \
               filename.endswith('\t') or \
               filename.endswith(' '):
             filename = filename[:-1]
