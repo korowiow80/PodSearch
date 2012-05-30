@@ -10,8 +10,8 @@ Scrapy_Podster_de:
 	cd src/Retrieval/Crawler && scrapy crawl Podster_de
 
 Downloader_all: FeedDownloader ImageDownloader
-FeedDownloader:
-	export PYTHONPATH=$$PYTHONPATH:`pwd`/src/Retrieval/Crawler && cd src/Retrieval/Downloader && python FeedDownloader.py
+FeedsDownloaderRunner:
+	export PYTHONPATH=$$PYTHONPATH:`pwd`/src/Retrieval/Crawler:`pwd`/src/Retrieval/LibGatherer:`pwd`/src/Retrieval/Downloader && cd src/Retrieval/Downloader/Feeds/ && python FeedsDownloaderRunner.py
 ImageDownloader:
 	export PYTHONPATH=$$PYTHONPATH:`pwd`/src/Retrieval/Crawler && cd src/Retrieval/Downloader && python ImageDownloader.py
 
