@@ -7,12 +7,12 @@ import UrlTool
 class PathTool:
     
     def __init__(self):
-        projectRoot = "../../../../"
+        theirProjectRoot = "../../../../"
         
-        self._directoriesPath = projectRoot + "static/0-Directories/"
-        self._feedListsPath = projectRoot + "static/1-Feedlists/"
-        self._feedsPath = projectRoot + 'static/2-Feeds/'
-        self._imagesPath = projectRoot + "web/img/"
+        self._directoriesPath = theirProjectRoot + "static/0-Directories/"
+        self._feedListsPath = theirProjectRoot + "static/1-Feedlists/"
+        self._feedsPath = theirProjectRoot + 'static/2-Feeds/'
+        self._imagesPath = theirProjectRoot + "web/img/"
     
         self._ut = UrlTool.UrlTool()
 
@@ -20,6 +20,9 @@ class PathTool:
         """Makes sure a given path exists.
         Tries to create the given path, handles eventual failure.
         See: http://stackoverflow.com/questions/600268/mkdir-p-functionality-in-python"""
+        
+        print "PathTool: Ensuring path %s exists." % path #TODO
+        
         try:
             os.makedirs(path)
         except OSError as exc:
@@ -27,8 +30,31 @@ class PathTool:
             else: raise
         return
 
+    def stripWhiteSpace(self, filename):
+        # strip all leading newlines and spaces
+        while filename.startswith('\n') or \
+              filename.startswith('\t') or \
+              filename.startswith(' '):
+            filename = filename[1:]
+
+        # strip all trailing newlines
+        while filename.endswith('\n') or \
+              filename.endswith('\t') or \
+              filename.endswith(' '):
+            filename = filename[:-1]
+
+        return filename
+
     def getBasePath(self, ressourceTarget):
         basePath = os.path.dirname(ressourceTarget)
+        
+        # reconstruct path if it does not end with an filename extension
+        basePathEnd = basePath.split('/')[-1]
+        ressourceTargetEnd = ressourceTarget.split('/')[-1]
+        if basePathEnd == ressourceTargetEnd and \
+           basePath[-1] != '/':
+            basePath = os.sep.join(basePath.split('/')[:-1])
+        
         return basePath
 
     def getDirectoriesPath(self):

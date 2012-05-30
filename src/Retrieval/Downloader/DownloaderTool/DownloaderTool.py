@@ -45,13 +45,16 @@ def _download (ressourceType, ressourceUrl, ressourceTarget):
     try:
         resp, content = hl2.request(ressourceUrl)
         if  resp.fromcache:
-            print "Cache contained a current version of %s %s" % (ressourceType, ressourceUrl)
+            print "Cache contained a current version of %s %s." % (ressourceType, ressourceUrl)
         else:
-            print "Downloaded %s from %s to %s" % (ressourceType, ressourceUrl, ressourceTarget)
+            print "Downloaded %s from %s to %s." % (ressourceType, ressourceUrl, ressourceTarget)
         with open(ressourceTarget, 'w') as f:
             f.write(content)
-    except (IOError, UnicodeError, ValueError, httplib.InvalidURL, httplib.BadStatusLine, httplib2.ServerNotFoundError, httplib2.RelativeURIError, AttributeError, TypeError):
-        # TODO RedirectLimit
+    except (AttributeError, IOError, TypeError, UnicodeError, ValueError,  \
+            httplib.InvalidURL, httplib.BadStatusLine, \
+            httplib2.RelativeURIError, httplib2.RedirectLimit, \
+            httplib2.ServerNotFoundError):
+        # TODO actually do some error handling here
         pass
 
 class Threader:

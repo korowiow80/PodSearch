@@ -27,6 +27,7 @@ class FeedsDownloaderRunner:
             print relativeFeedListPath
             someFeedUrls = self.getFeedUrlsFromFeedList(relativeFeedListPath)
             for feedUrl in someFeedUrls:
+                feedUrl = self._pt.stripWhiteSpace(feedUrl)
                 allFeedUrls.append(feedUrl)
         return allFeedUrls
     
