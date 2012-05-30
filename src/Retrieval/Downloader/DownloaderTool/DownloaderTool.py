@@ -50,7 +50,8 @@ def _download (ressourceType, ressourceUrl, ressourceTarget):
             print "Downloaded %s from %s to %s" % (ressourceType, ressourceUrl, ressourceTarget)
         with open(ressourceTarget, 'w') as f:
             f.write(content)
-    except (IOError, httplib.InvalidURL, httplib.BadStatusLine, httplib2.ServerNotFoundError, httplib2.RelativeURIError, AttributeError, TypeError):
+    except (IOError, UnicodeError, ValueError, httplib.InvalidURL, httplib.BadStatusLine, httplib2.ServerNotFoundError, httplib2.RelativeURIError, AttributeError, TypeError):
+        # TODO RedirectLimit
         pass
 
 class Threader:
