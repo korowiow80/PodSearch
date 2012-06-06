@@ -19,8 +19,8 @@ class DownloaderTool:
         self.lastDownloadTimestamp = 0
 
     def download (self, ressourceType, ressourceUrl):
-        if not self._ut.sanityCheckUrl(ressourceUrl): return
-        if ressourceUrl.endswith('/'): ressourceUrl = ressourceUrl[:-1] 
+        if not self._ut.sanityCheckRessource(ressourceType, ressourceUrl): return
+        if ressourceUrl.endswith('/'): ressourceUrl = ressourceUrl[:-1] #TODO seems wrong 
         ressourceTarget = self._pt.getRessourceTargetPath(ressourceType, ressourceUrl)
         basePath = self._pt.getBasePath(ressourceTarget)
 
