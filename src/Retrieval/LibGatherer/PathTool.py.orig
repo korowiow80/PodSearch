@@ -34,14 +34,20 @@ class PathTool:
     def stripWhiteSpace(self, filename):
         # strip all leading newlines and spaces
         while filename.startswith('\n') or \
+<<<<<<< HEAD
               filename.startswith('\r') or \
+=======
+>>>>>>> 27e218d... Hopefully fixed the issue with paths derived from strange filenames, now.
               filename.startswith('\t') or \
               filename.startswith(' '):
             filename = filename[1:]
 
         # strip all trailing newlines
         while filename.endswith('\n') or \
+<<<<<<< HEAD
               filename.endwith('\r') or \
+=======
+>>>>>>> 27e218d... Hopefully fixed the issue with paths derived from strange filenames, now.
               filename.endswith('\t') or \
               filename.endswith(' '):
             filename = filename[:-1]
