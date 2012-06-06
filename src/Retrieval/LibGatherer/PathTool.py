@@ -87,7 +87,8 @@ class PathTool:
         feedsPath = self.getFeedsPath()
         relativeRemoteLocation = self._ut.getRelativeUrl(feedUrl)
         domain = self._ut.getDomain(feedUrl)
-        feedFilePath = feedsPath + domain + relativeRemoteLocation        
+        prefixFolder = domain[:2] + "/"
+        feedFilePath = feedsPath + prefixFolder + domain + relativeRemoteLocation        
         return feedFilePath
 
     def getFeedPaths(self):
