@@ -41,7 +41,7 @@ class PathTool:
 
         # strip all trailing newlines
         while filename.endswith('\n') or \
-              filename.endwith('\r') or \
+              filename.endswith('\r') or \
               filename.endswith('\t') or \
               filename.endswith(' '):
             filename = filename[:-1]
