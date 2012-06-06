@@ -21,7 +21,6 @@ class FeedsDownloaderRunner:
         relativeFeedListPaths = os.listdir(feedListsDirectory)
         allFeedUrls = []
         for relativeFeedListPath in relativeFeedListPaths:
-            if relativeFeedListPath == 'feeds.list': continue
             if relativeFeedListPath == 'podster.list': continue
             if relativeFeedListPath == 'podcast.com.json': continue
             print relativeFeedListPath
