@@ -46,6 +46,7 @@ def _download (resourceType, resourceUrl, resourceTarget):
     try:
         resp, content = hl2.request(resourceUrl)
         if  resp.fromcache:
+<<<<<<< HEAD
             print "Cache contained a current version of %s %s." % (resourceType, resourceUrl)
         else:
             print "Downloaded %s from %s to %s." % (resourceType, resourceUrl, resourceTarget)
@@ -53,6 +54,15 @@ def _download (resourceType, resourceUrl, resourceTarget):
             f.write(content)
     except (AttributeError, IOError, TypeError, UnicodeError, ValueError,  \
             httplib.IncompleteRead, httplib.InvalidURL, httplib.BadStatusLine, \
+=======
+            print "Cache contained a current version of %s %s." % (ressourceType, ressourceUrl)
+        else:
+            print "Downloaded %s from %s to %s." % (ressourceType, ressourceUrl, ressourceTarget)
+        with open(ressourceTarget, 'w') as f:
+            f.write(content)
+    except (AttributeError, IOError, TypeError, UnicodeError, ValueError,  \
+            httplib.InvalidURL, httplib.BadStatusLine, \
+>>>>>>> 27e218d... Hopefully fixed the issue with paths derived from strange filenames, now.
             httplib2.RelativeURIError, httplib2.RedirectLimit, \
             httplib2.ServerNotFoundError):
         # TODO actually do some error handling here

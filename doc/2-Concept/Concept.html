@@ -38,20 +38,78 @@
 
     <span id="presentationType">Konzept</span>
     <h1><img src="../../shared/Logo/black_640x160_compressed.png"></h1>
-    <span id="claim">Eine Suchmaschine für Podcasts</span>
+    <span id="claim">A Search Engine for Podcasts</span>
   </section>
 
-  <section class="slide" id="Lucene">
+    <section class="slide" id="Idea">
+    <h2>Idea</h2>
+    search engine for Podcasts
+    </section>
+
+    <section class="slide" id="Functional_requirements">
+    <h2>Functional Requirements</h2>
+    <ul>
+        <li>crawl directories</li>
+        <li>extract links to feeds</li>
+        <li>download feed</li>
+        <li>analyse feeds</li>
+        <li>index feeds</li>
+        <li>search on index</li>
+        <li>offer webinterface</li>
+    </ul>
+  </section>
+
+  <section class="slide" id="Non-Functional_requirements">
+    <h2>Non-Functional Requirements</h2>
+    <ul>
+        <li>ingest data fast</li>
+        <li>offer fast UI feedback</li>
+        <li>ensure data entegrity</li>
+        <li>scale well for big amounts of data</li>
+        <li>scale well for big amounts of users</li>
+    </ul>
+  </section>
+
+  <section class="slide" id="Data_Flow">
     <h2>Data Flow</h2>
     <img width="100%" src="../../shared/Diagrams/LuceneAndComponents_inv.png" />
   </section>
 
+  <section class="slide" id="Gatherer">
+    <h2>Gatherer</h2>
+    <img width="100%" src="../../shared/Diagrams/Gatherer_inv.png" />
+  </section>
+
+  <section class="slide" id="PageLoad">
+    <h2>Page Load</h2>
+    <img width="90%" src="../../shared/Diagrams/PageLoad_inv.png" />
+  </section>
+
+  <section class="slide" id="now working">
+    <h2>Now working</h2>
+    <ul>
+      <li>Crawler (2 directories, 25.000 podcasts)</li>
+      <li>Downloader (feeds ans images)</li>
+      <li>Indexer (basic)</li>
+      <li>Searcher (basic)</li>
+    </ul>
+  </section>
+
+  <section class="slide" id="Look-out">
+    <h2>Look-Out</h2>
+    <ul>
+      <li>crawl 10 directories</li>
+      <li>download 100.000 Podcasts</li>
+      <li>index and search xml/rss/atom</li>
+    </ul>
+  </section>
+
   <section class="slide" id="Diskussion">
-    <h2>Diskussion</h2>
+    <h2>Discussion</h2>
   </section>
 
   <section class="slide" id="Tools">
-    <h2>Werkzeuge</h2>
+    <h2>Tools</h2>
     <ul>
       <li><a href="http://imakewebthings.github.com/deck.js/">Deck.js</a> als Präsentationsframework</li>
       <li><a href="https://github.com/mikeharris100/deck.js-transition-cube">Deck.js Transition Cube</a> der Transitionsstil</li>
