@@ -54,7 +54,7 @@ def _download (resourceType, resourceUrl, resourceTarget):
     except (AttributeError, IOError, TypeError, UnicodeError, ValueError,  \
             httplib.IncompleteRead, httplib.InvalidURL, httplib.BadStatusLine, \
             httplib2.RelativeURIError, httplib2.RedirectLimit, \
-            httplib2.ServerNotFoundError):
+            httplib2.ServerNotFoundError, httplib2.SSLHandshakeError):
         # TODO actually do some error handling here
         pass
 
