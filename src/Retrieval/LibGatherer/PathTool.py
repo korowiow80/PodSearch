@@ -1,6 +1,6 @@
 import errno
 import os
-
+import re
 import UrlTool
 
 
@@ -32,20 +32,8 @@ class PathTool:
         return
 
     def stripWhiteSpace(self, filename):
-        # strip all leading newlines and spaces
-        while filename.startswith('\n') or \
-              filename.startswith('\r') or \
-              filename.startswith('\t') or \
-              filename.startswith(' '):
-            filename = filename[1:]
-
-        # strip all trailing newlines
-        while filename.endswith('\n') or \
-              filename.endswith('\r') or \
-              filename.endswith('\t') or \
-              filename.endswith(' '):
-            filename = filename[:-1]
-
+        # substitute all space literals (' ', '\n', '\t' etc.) with nothing
+        filename = re.sub(r'\s', '', filename)
         return filename
 
     def getBasePath(self, ressourceTarget):
