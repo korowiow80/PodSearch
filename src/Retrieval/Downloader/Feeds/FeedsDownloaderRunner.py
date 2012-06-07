@@ -6,42 +6,51 @@ from PathTool import PathTool
 
 
 class FeedsDownloaderRunner:
+    """Runs the DownloadTool with all URLs of feed gathered from the feed lists."""
 
     def __init__(self):
-        self.fd = FeedsDownloader()
+        self._fd = FeedsDownloader()
         self._pt = PathTool()
 
     def run(self):
-        feedUrls = self.getAllFeedUrls()
-        self.fd.downloadFeeds(feedUrls)
+        """Run automated through all feeds."""
+        
+        feed_urls = self.get_all_feed_urls()
+        self._fd.downloadFeeds(feed_urls)
         print 'FeedsDownloaderRunner: INFO: Done.'
         
-    def getAllFeedUrls (self):
-        feedListsDirectory = self._pt.getFeedListsPath()
-        relativeFeedListPaths = os.listdir(feedListsDirectory)
-        allFeedUrls = []
-        for relativeFeedListPath in relativeFeedListPaths:
-            if relativeFeedListPath == 'podster.list': continue
-            if relativeFeedListPath == 'podcast.com.json': continue
-            print relativeFeedListPath
-            someFeedUrls = self.getFeedUrlsFromFeedList(relativeFeedListPath)
-            for feedUrl in someFeedUrls:
-                feedUrl = self._pt.stripWhiteSpace(feedUrl)
-                allFeedUrls.append(feedUrl)
-        return allFeedUrls
+    def get_all_feed_urls(self):
+        """Collects all URLs of feeds from the lists of feeds."""
+        
+        feed_lists_directory = self._pt.getFeedListsPath()
+        relative_feed_lists_paths = os.listdir(feed_lists_directory)
+        all_feed_urls = []
+        for relative_feed_list_path in relative_feed_lists_paths:
+            if relative_feed_list_path == 'podster.list':
+                continue
+            if relative_feed_list_path == 'podcast.com.json':
+                continue
+            print relative_feed_list_path
+            some_feed_urls = self.get_feed_urls_from_feed_list(relative_feed_list_path)
+            for feed_url in some_feed_urls:
+                feed_url = self._pt.stripWhiteSpace(feed_url)
+                all_feed_urls.append(feed_url)
+        return all_feed_urls
     
-    def getFeedUrlsFromFeedList(self, feedListPath):
-        feedListsDirectory = self._pt.getFeedListsPath()
-        absoluteFeedListPath = feedListsDirectory + feedListPath
-        feedUrls = []
-        with open(absoluteFeedListPath, 'r') as f:
+    def get_feed_urls_from_feed_list(self, feed_list_path):
+        """Parses all feed urls from a list of feeds by its path."""
+        
+        feed_lists_directory = self._pt.getFeedListsPath()
+        absolute_feed_list_path = feed_lists_directory + feed_list_path
+        feed_urls = []
+        with open(absolute_feed_list_path, 'r') as f:
             contents = f.read()
-            feedItems = json.loads(contents)
-            for feedItem in feedItems:
-                feedUrls.append(feedItem['link'])
+            feed_items = json.loads(contents)
+            for feed_item in feed_items:
+                feed_urls.append(feed_item['link'])
                 #TODO get the title, too
-        return feedUrls
+        return feed_urls
 
 if __name__ == '__main__':
-    fdr = FeedsDownloaderRunner()
-    fdr.run()
+    FDR = FeedsDownloaderRunner()
+    FDR.run()
