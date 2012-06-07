@@ -17,6 +17,10 @@ Dependencies
 Installing Dependencies on Fedora Linux
 ---------------------------------------
 
+These additional requirements for scrapy need to be installed first:
+    
+    sudo yum install python-devel libxml2-devel libxlst-devel
+
     sudo yum install python python pip
     sudo pip-python install asyncore feedparser scrapy tldextract
 
