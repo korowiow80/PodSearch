@@ -9,6 +9,11 @@
 BOT_NAME = 'Scrapy'
 BOT_VERSION = '1.0'
 
+DNSCACHE_ENABLED = True
+
+EXTENSIONS =  {
+      'scrapy.contrib.logstats.LogStats':500,
+}
 ITEM_PIPELINES = [
     'Scrapy.pipelines.FeedListPipeline'
 ]

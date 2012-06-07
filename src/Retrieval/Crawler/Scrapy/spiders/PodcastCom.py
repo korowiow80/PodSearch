@@ -11,7 +11,7 @@ from PathTool import PathTool
 from UrlTool import UrlTool
 
 
-class Podcast_com(BaseSpider):
+class PodcastCom(BaseSpider):
     
     start_urls = ["http://www.podcast.com/sitemap.xml"]
 
@@ -20,7 +20,7 @@ class Podcast_com(BaseSpider):
 
     _baseUrl = _ut.getBaseUrl(start_urls[0])
     name = _ut.getSpiderName(start_urls[0]) # needs to be public for scrapy
-    feedListPath = _pt.getFeedListPath(start_urls[0])
+    feed_list_path = _pt.getFeedListPath(start_urls[0])
 
     def parse(self, response):        
         text = body_or_str(response)
@@ -29,20 +29,20 @@ class Podcast_com(BaseSpider):
         r = re.compile(r"(<%s[\s>])(.*?)(</%s>)" %(nodename, nodename), re.DOTALL)
         for match in r.finditer(text):
             url = match.group(2)
-            yield Request(url, callback=self.parse_sitemapPage)
+            yield Request(url, callback=self.parse_sitemap_page)
             break
 
-    def parse_sitemapPage(self, response):       
+    def parse_sitemap_page(self, response):       
         text = body_or_str(response)
 
         nodename = 'loc'
         r = re.compile(r"(<%s[\s>])(.*?)(</%s>)" %(nodename, nodename), re.DOTALL)
         for match in r.finditer(text):
             url = match.group(2)
-            yield Request(url, callback=self.parse_podcastPage)
+            yield Request(url, callback=self.parse_podcast_page)
             break
 
-    def parse_podcastPage(self, response):
+    def parse_podcast_page(self, response):
         hxs = HtmlXPathSelector(response)
 
         item = PodcastFeedItem()

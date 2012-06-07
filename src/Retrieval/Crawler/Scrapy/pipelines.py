@@ -15,7 +15,7 @@ class FeedListPipeline(object):
         self.files = {}
 
     def spider_opened(self, spider):
-        f = open(spider.feedListPath, 'w+b')
+        f = open(spider.feed_list_path, 'w+b')
         self.files[spider] = f
         self.exporter = JsonItemExporter(f)
         self.exporter.start_exporting()

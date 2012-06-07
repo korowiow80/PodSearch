@@ -67,7 +67,8 @@ class PathTool:
         """Derives the path of a feedlist from a given domain."""
         domain = self._ut.getDomain(url)
         feedListsPath = self.getFeedListsPath()
-        feedListPath = feedListsPath + domain + ".json"
+        feedListsPath = feedListsPath[3:] # somehow we need to go up one level for the crawlers
+        feedListPath =  feedListsPath + domain + ".json"
         return feedListPath
 
     def getFeedPath(self, feedUrl):
