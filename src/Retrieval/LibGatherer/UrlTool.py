@@ -42,7 +42,7 @@ class UrlTool:
         finally:
             return spiderName
 
-    def sanityCheckRessource (self, ressourceType, url):
+    def sanityCheckRessource(self, ressourceType, url):
         """Checks the URL for sanity according to the ressourceType.
         Returns True if the URL is sane for this ressourceType and False,
         otherwise."""
@@ -51,12 +51,12 @@ class UrlTool:
 
         if not self.sanityCheckUrl(url): return False
         
-        if ressourceType == 'feed': sanity = self.sanityCheckFeedUrl (url)
-        if ressourceType == 'image': sanity = self.sanityCheckImageUrl (url)
+        if ressourceType == 'feed': sanity = self.sanityCheckFeedUrl(url)
+        if ressourceType == 'image': sanity = self.sanityCheckImageUrl(url)
 
         return sanity
     
-    def sanityCheckUrl (self, url):
+    def sanityCheckUrl(self, url):
         """Checks an URL for sanity. Returns True if the URL is sane, False,
         otherwise."""
 
@@ -66,7 +66,7 @@ class UrlTool:
         
         return True
         
-    def sanityCheckImageUrl (self, url):
+    def sanityCheckImageUrl(self, url):
         """Checks an image URL for sanity. Returns True if the URL is sane, False,
         otherwise."""
         
@@ -77,7 +77,7 @@ class UrlTool:
 
         return sanity
     
-    def sanityCheckFeedUrl (self, url):
+    def sanityCheckFeedUrl(self, url):
         """Checks an feed URL for sanity. Returns True if the URL is sane, False,
         otherwise."""
                 
