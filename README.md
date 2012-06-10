@@ -37,6 +37,11 @@ Downloading
 
     git clone git@github.com:bigben87/PodSearch.git
 
+Downloading the Content
+----------------------
+
+    git submodule update --init
+
 
 Downloading Dependencies For The Presentations
 ----------------------------------------------
