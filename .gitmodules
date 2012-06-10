@@ -4,3 +4,6 @@
 [submodule "doc/lib/deck.js-transition-cube"]
 	path = doc/lib/deck.js-transition-cube
 	url = https://github.com/mikeharris100/deck.js-transition-cube.git
+[submodule "static"]
+	path = static
+	url = git@github.com:bigben87/PodSearch_Content.git
