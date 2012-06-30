@@ -1,10 +1,17 @@
 import errno
 import os
-import re
 import UrlTool
+import magic
+import mimetypes
 
 
 class PathTool:
+    
+    # really valid is only 'application/rss+xml'.
+    # see http://stackoverflow.com/questions/595616/what-is-the-correct-mime-type-to-use-for-an-rss-feed
+    validFeedMimeTypes = ['application/rss+xml',
+                          'application/xml',
+                          'text/xml']
     
     def __init__(self):
         theirProjectRoot = "../../../../"
@@ -33,7 +40,7 @@ class PathTool:
 
     def stripWhiteSpace(self, filename):
         # substitute all space literals (' ', '\n', '\t' etc.) with nothing
-        filename = re.sub(r'\s', '', filename)
+        filename = ' '.join(filename.spli())
         return filename
 
     def getBasePath(self, ressourceTarget):
@@ -81,14 +88,71 @@ class PathTool:
         return feedFilePath
 
     def getFeedPaths(self):
-        """Gathers alls feed paths"""
+        """Gathers all feed paths"""
         feedsPath = self.getFeedsPath()
         relativeFeedFilePaths = []
         for root, dirs, files in os.walk(feedsPath):
             for filePath in files:
                 relativePath = os.path.join(root, filePath)
-                relativeFeedFilePaths.append(relativePath)
+                if self.checkFeedPath(relativePath):
+                    relativeFeedFilePaths.append(relativePath)
+            
+            if len(root) - len(feedsPath) == 64:
+                break
         return relativeFeedFilePaths
+
+    def checkFeedPath(self, feedPath):
+        """Checks a path of a feed for sanity."""
+        if os.path.isdir(feedPath):
+            return False
+        if self._checkFeedPathForHtml(feedPath):
+            return False
+        if self._checkFeedFilenameMimeType(feedPath):
+            return True
+        if self._checkFeedFileMimetype(feedPath):
+            return True
+        
+        return False
+
+    def _checkFeedFileMimetype(self, feedPath):
+        """Checks the mimetype of a given local file."""
+        mime = magic.open(magic.MAGIC_MIME)
+        mime.load()
+        mimetype = mime.file(feedPath)
+
+        mimetype = mimetype.split('; ')[0]
+        if mimetype in PathTool.validFeedMimeTypes:
+            return True
+        return False
+    
+    def _checkFeedFilenameMimeType(self, filename):
+        """Checks mimetype by filename."""
+        mimetype, encoding = mimetypes.guess_type(filename, strict=False)
+        if mimetype in self.validFeedMimeTypes:
+            return True
+        return False
+    
+    def _checkFeedPathForHtml(self, feedPath):
+        """Checks for a feed given by path to be a html file."""
+        
+        with open(feedPath, 'r') as feed:
+            feed = feed.read()
+            feed = ' '.join(feed.split())
+        if feed.startswith("<html>") or feed.endswith("</html>"):
+            return True
+        return False
+    
+    def getFeedId(self, feedPath):
+        feedId = ''
+
+        while feedPath.startswith('../'):
+            feedPath = feedPath[3:]
+        if feedPath.startswith('static/2-Feeds/'):
+            feedPath = feedPath[len('static/2-Feeds/'):]
+        feedPath = feedPath[3:]
+        
+        feedId = feedPath
+        return feedId
 
     def getImagesPath(self):
         return self._imagesPath
