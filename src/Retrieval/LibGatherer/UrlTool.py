@@ -2,6 +2,7 @@ import urlparse
 import tldextract
 import magic
 import mimetypes
+import posixpath
 import urllib
 
 class UrlTool:
@@ -18,6 +19,7 @@ class UrlTool:
         return baseUrl
 
     def getRelativeUrl(self, url):
+        """Derives the filename from a given url."""
         if not url.startswith('http'): return url
         baseUrl = self.getBaseUrl(url)
         relativeUrl = url[len(baseUrl):]
@@ -33,6 +35,13 @@ class UrlTool:
             domain = ".".join(extract[1:])
         return domain
     
+    def getFilename(self, url):
+        """Derives the filename from a given URL."""
+        urlParts = urlparse.urlsplit(url)
+        remotePath = urlParts.path
+        filename = posixpath.basename(remotePath)
+        return filename
+
     def getSpiderName(self, url):
         """Derives the spider name from the given domain and fullDomain.
         By general convention the first letter of a class gets capitalized."""
@@ -44,8 +53,8 @@ class UrlTool:
 
     def sanityCheckRessource(self, ressourceType, url):
         """Checks the URL for sanity according to the ressourceType.
-        Returns True if the URL is sane for this ressourceType and False,
-        otherwise."""
+        Returns True if the URL is sane for this ressourceType, otherwise
+        False."""
         if not url: return False
         if not ressourceType: return False #TODO we should raise here
 
@@ -57,8 +66,8 @@ class UrlTool:
         return sanity
     
     def sanityCheckUrl(self, url):
-        """Checks an URL for sanity. Returns True if the URL is sane, False,
-        otherwise."""
+        """Checks an URL for sanity. Returns True if the URL is sane, otherwise
+        False."""
 
         if url.endswith('://'): return False
 
@@ -67,55 +76,40 @@ class UrlTool:
         return True
         
     def sanityCheckImageUrl(self, url):
-        """Checks an image URL for sanity. Returns True if the URL is sane, False,
-        otherwise."""
+        """Checks an image URL for sanity. Returns True if the URL is sane,
+        otherwise False."""
         
         # We skip dataUrls
-        if url.startswith('data:'): return False
+        if url.startswith('data:'):
+            return False
         
         sanity = self.checkImageMimeType(url)
 
         return sanity
     
     def sanityCheckFeedUrl(self, url):
-        """Checks an feed URL for sanity. Returns True if the URL is sane, False,
-        otherwise."""
-                
-        sanity = self.checkFeedMimeType(url)
+        """Checks an URL of a feed for sanity. Returns True if the URL is sane,
+        otherwise False."""
 
+        if self.checkFeedUrlFileType(url):
+            return True
+
+        feedFilename = self.getFilename(url)
+        if not self._pt.checkFeedMimeType(feedFilename):
+            return False
+        
+        sanity = self.checkFeedFileType(url)
+        if not sanity:
+            print "UrlTool: WARN: Did not recognize mime media type of feed %s." % (url)
         return sanity
     
-    def checkFeedMimeType(self, url):
-        
+    def checkFeedUrlFileType(self, url):
         # Google's Feedburner always does the right thing.^tm
-        if url.startswith('http://feeds.feedburner.com/'): return True
+        if url.startswith('http://feeds.feedburner.com/'):
+            return True
         
         # If the URL seems sane, we believe that, too.
-        if url.endswith('/rss'): return True
-        
-        # really valid is only 'application/rss+xml'.
-        # see http://stackoverflow.com/questions/595616/what-is-the-correct-mime-type-to-use-for-an-rss-feed
-        validFeedMimeTypes = ['application/rss+xml',
-                              'application/xml',
-                              'text/xml']
-        
-        # Try accepting using included batteries
-        miMimetype, encoding = mimetypes.guess_type(url, strict=False)
-        if miMimetype in validFeedMimeTypes:
+        if url.endswith('/rss'):
             return True
         
-        # Try accepting using magic
-        filename, headers = urllib.urlretrieve(url, 'tmp')
-
-        mime = magic.open(magic.MAGIC_MIME)
-        mime.load()
-        maMimetype = mime.file(filename)
-
-        maMimetype = maMimetype.split('; ')[0]
-        if maMimetype in validFeedMimeTypes:
-            #print "UrlTool: INFO: Recognized mime media type of feed %s as %s." % (url, maMimetype)
-            return True
-
-        print "UrlTool: WARN: Did not recognize mime media type of feed %s, appearing to be %s or %s." % (url, miMimetype, maMimetype)
-            
         return False
