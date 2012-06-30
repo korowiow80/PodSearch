@@ -11,12 +11,10 @@ class FeedDictFactory:
     
     _bs = BeautifulSoup()
 
-    fields = ['author', 'title', 'description',
-              #'image',
-              #'language',
-              #'link',
-              #'summary',
-              'itunes:explicit', 'itunes:subtitle', 'itunes:summary', 'itunes:subtitle']
+    fields = ['author', 'title', 'description']
+
+    dynamicFields = ['image', 'language', 'link', 'summary',
+                     'itunes:explicit', 'itunes:subtitle', 'itunes:summary', 'itunes:subtitle']
     
     def __init__(self):
         pass
@@ -32,22 +30,12 @@ class FeedDictFactory:
                 self.feed = self.feed['feed']
             except (KeyError, TypeError):
                 return False
-                
-            #===================================================================
-            # self.feed = xml.dom.minidom.parse(feedPath)
-            # self.feed = DOM2Dict.xmldom2dict(self.feed)
-            # try:
-            #   self.feed = self.feed['#document']['rss']['channel']
-            # except (KeyError, TypeError):
-            #    self.feed = None
-            #    return False
-            #===================================================================
-            
+
             print "Parsed."
             
             return True
         except xml.sax._exceptions.SAXException:
-            print "Aborted:", feedPath
+            print "Aborted."
             return False
     
     def getFeedDict(self, feedPath):
@@ -56,17 +44,16 @@ class FeedDictFactory:
             return
         
         feedDict = {}
-        for fieldKey in self.fields:
+        for fieldKey in self.fields + self.dynamicFields:
             try:
                 fieldValue = self.feed[fieldKey]
                 try:
                     fieldValue = BeautifulSoup(fieldValue).get_text()
-                    print fieldValue, fieldValue.encode("utf-8")
-                    #fieldKey = fieldKey + '_s'
-                    feedDict[fieldKey] = fieldValue #.encode("utf-8")
+                    if fieldKey in self.dynamicFields:
+                        fieldKey = fieldKey + '_s'
+                    feedDict[fieldKey] = fieldValue
                 except TypeError:
                     fieldValue = ""
             except KeyError:
                 pass
-        print "created feeddict"
         return feedDict
