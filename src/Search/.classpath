@@ -4,9 +4,9 @@
 	<classpathentry excluding="src/" kind="src" path=""/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/Lucene"/>
-	<classpathentry kind="lib" path="/home/bengt/Studium/1212/WDM/Projekte/PodSearch/lib/lucene-3.6.0/lucene-core-3.6.0.jar"/>
-	<classpathentry kind="lib" path="/home/bengt/Studium/1212/WDM/Projekte/PodSearch/lib/lucene-3.6.0/lucene-core-3.6.0-javadoc.jar"/>
-	<classpathentry kind="lib" path="/home/bengt/Studium/1212/WDM/Projekte/PodSearch/lib/lucene-3.6.0/lucene-test-framework-3.6.0.jar"/>
-	<classpathentry kind="lib" path="/home/bengt/Studium/1212/WDM/Projekte/PodSearch/lib/lucene-3.6.0/lucene-test-framework-3.6.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/bengt/Studium/1212/WDM/PodSearch/lib/lucene-3.6.0/lucene-core-3.6.0.jar"/>
+	<classpathentry kind="lib" path="/home/bengt/Studium/1212/WDM/PodSearch/lib/lucene-3.6.0/lucene-core-3.6.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/bengt/Studium/1212/WDM/PodSearch/lib/lucene-3.6.0/lucene-test-framework-3.6.0.jar"/>
+	<classpathentry kind="lib" path="/home/bengt/Studium/1212/WDM/PodSearch/lib/lucene-3.6.0/lucene-test-framework-3.6.0-javadoc.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

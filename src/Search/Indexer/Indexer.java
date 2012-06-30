@@ -15,6 +15,8 @@ import org.apache.lucene.util.Version;
 
 public class Indexer {
 
+	private IndexWriter writer;
+	
 	/**
 	 * @param args
 	 */
@@ -23,14 +25,21 @@ public class Indexer {
 		String dataDir = "../../static/2-Feeds";
 		String indexDir = "../../static/3-Index";
 
-		// make sure the index dir exists
-		new File(dataDir).mkdir();
+		// Logging
+		String indexDirAbsPath = new File(indexDir).getAbsolutePath();
+		System.out.println("IndexDir: " + indexDirAbsPath);
+		String dataDirAbsPath = new File(dataDir).getAbsolutePath();
+		System.out.println("DataDir: " + dataDirAbsPath);
+		
+		// make sure the index directory exists
+		new File(indexDir).mkdir();
 
 		long start = System.currentTimeMillis();
 		Indexer indexer = new Indexer(indexDir);
 		int numIndexed;
 		try {
-			numIndexed = indexer.index(dataDir, new TextFilesFilter());
+			// numIndexed = indexer.index(dataDir, new TextFilesFilter());
+			numIndexed = indexer.index(dataDir, new MediaFilesFilter());
 		} 
 		finally {
 			indexer.close();
@@ -39,8 +48,6 @@ public class Indexer {
 
 		System.out.println("Indexing " + numIndexed + " files took "+ (end - start) + " milliseconds");
 	}
-
-	private IndexWriter writer;
 
 	public Indexer(String indexDir) throws IOException {
 		Directory dir = FSDirectory.open(new File(indexDir));
@@ -55,33 +62,55 @@ public class Indexer {
 		writer.close(); //4
 	}
 
-	public int index(String dataDir, FileFilter filter) 
-	throws Exception {
+	public int index(String dataDir, FileFilter filter) throws Exception {
 
 		File[] files = new File(dataDir).listFiles();
 
 		for (File f: files) {
-			if (!f.isDirectory() &&
-					!f.isHidden() &&
-					f.exists() &&
-					f.canRead() &&
-					(filter == null || filter.accept(f))) {
-				indexFile(f);
+			System.out.println("Path: " + f.getPath());
+			if (f.isDirectory()) {
+				this.index(f.getPath(), filter);
+				continue;
 			}
+			if (f.isHidden()) continue;
+			if (!f.exists()) continue;
+			if (!f.canRead()) continue;
+			if (filter != null && !filter.accept(f)) continue;
+			indexFile(f);
 		}
 		return writer.numDocs(); //5
 	}
 
 	private static class TextFilesFilter implements FileFilter {
 		public boolean accept(File path) {
-			if (path==null) {
-				path = new File("/home/mike/workspace/PodSearch/static/2-Feeds");
+			boolean accepted = false;
+			if (path.getName().toLowerCase().endsWith(".atom")) {
+				accepted = true;
 			}
-			return path.getName().toLowerCase() //6
-			.endsWith(".rss"); 					//6
+			if (path.getName().toLowerCase().endsWith(".rss")) {
+				accepted = true;
+			}
+			if (path.getName().toLowerCase().endsWith(".xml")) {
+				accepted = true;
+			}
+			return accepted;
 		}
 	}
 
+	/* Filters obvious media files by file name extension */
+	private static class MediaFilesFilter implements FileFilter {
+		public boolean accept(File path) {
+			boolean accepted = true;
+			if (path.getName().toLowerCase().endsWith(".mp3")) accepted = false;
+			if (path.getName().toLowerCase().endsWith(".ogg")) accepted = false;
+			if (path.getName().toLowerCase().endsWith(".avi")) accepted = false;
+			if (path.getName().toLowerCase().endsWith(".wma")) accepted = false;
+			if (path.getName().toLowerCase().endsWith(".wmv")) accepted = false;
+			if (path.getName().toLowerCase().endsWith(".mov")) accepted = false;
+			return accepted;
+		}
+	}
+	
 	protected Document getDocument(File f) throws Exception {
 		Document doc = new Document();
 		doc.add(new Field("contents", new FileReader(f))); //7
