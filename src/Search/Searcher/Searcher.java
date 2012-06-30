@@ -1,4 +1,4 @@
-package Search;
+package Searcher;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -27,7 +27,7 @@ public class Searcher {
 			BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 
 			System.out.print("Search: ");
-			q = in.readLine();			
+			q = in.readLine();
 		} 
 		catch (IOException e) {
 		}
