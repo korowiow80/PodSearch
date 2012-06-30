@@ -1,9 +1,6 @@
 import urlparse
 import tldextract
-import magic
-import mimetypes
 import posixpath
-import urllib
 
 class UrlTool:
     
