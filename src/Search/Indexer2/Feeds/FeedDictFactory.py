@@ -21,9 +21,7 @@ class FeedDictFactory:
         
     def _parseFeed(self, feedPath):
         
-        try:
-            print "Parsing:", feedPath
-            
+        try:    
             #self.feed = speedparser.parse(feedPath)['feed']
             self.feed = feedparser.parse(feedPath)
             try:
@@ -31,8 +29,6 @@ class FeedDictFactory:
             except (KeyError, TypeError):
                 return False
 
-            print "Parsed."
-            
             return True
         except xml.sax._exceptions.SAXException:
             print "Aborted."
@@ -40,9 +36,11 @@ class FeedDictFactory:
     
     def getFeedDict(self, feedPath):
         
+        print "Parsing:", feedPath
         if not self._parseFeed(feedPath):
             return
-        
+        print "Parsed."
+                    
         feedDict = {}
         for fieldKey in self.fields + self.dynamicFields:
             try:
