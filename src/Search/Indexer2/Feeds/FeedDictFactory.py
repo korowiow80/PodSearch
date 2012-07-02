@@ -28,17 +28,13 @@ class FeedDictFactory:
     def getFeedDict(self, feedPath):
         
         print "Parsing:", feedPath
-        feedDict = self._parseFeed(feedPath)
-        if not feedDict or str(feedDict) == "'null'":
+        serializedFeed = self._parseFeed(feedPath)
+        if not serializedFeed or str(serializedFeed) == "'null'":
             return
         print "Parsed."
+
+        print "Deserializing:", serializedFeed
+        deserializedFeed = json.loads(serializedFeed)
+        print "Deserialized."
         
-        # deserialize feed
-        print feedDict
-        
-        print "Loading ..."
-        feedDict = json.loads(feedDict)
-        print "beacon"
-        print "Loaded:", feedDict
-        
-        return feedDict
+        return deserializedFeed
