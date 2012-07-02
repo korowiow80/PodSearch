@@ -1,0 +1,129 @@
+/* Add some margin to the page and set a default font and colour */
+
+body {
+  margin:0;
+  padding:0;
+  width:100%;
+  height:100%;
+  font-size:12px;
+  font-family:Verdana, Geneva, sans-serif;
+}
+
+h1 {
+  display:block;
+  width:160px;
+  height:40px;
+  float:left;
+  margin-left:-160px;
+}
+
+h3 {
+  font-size:16px;
+  margin:0;
+}
+
+cite {
+  font-size:.9em;
+  font-style:normal;
+  color:green;
+  margin:0 0 -2px 0;
+}
+
+p {
+  margin:0;
+  font-size:1em;
+  line-height: 1.24;
+}
+
+form {
+  margin:0;
+  line-height:5em;
+}
+
+ul {
+  padding:0;
+  margin:0;
+}
+
+/* Main content area */
+
+#content {
+  -moz-user-select:none;
+  -webkit-user-select:none;
+  user-select:none;
+  width:960px;
+  margin:0 auto;
+}
+
+#searchBar {
+  display:block;
+  float:left;
+}
+
+#searchBar ul,
+#searchBar ul li {
+  display:block;
+  float:left;
+  width:100%;
+  height:100%;
+}
+
+#searchBar {
+  width:640px;
+  text-align:right;
+}
+
+#searchBar {
+  background:#ddf;
+}
+
+#searchBar li:first-child {
+  margin-top:0;
+}
+
+#searchBar li {
+  min-height:10px;
+  border-style:dashed;
+  width:200px;
+  height:40px;
+}
+
+#searchBar li.hovered {
+  background:#afa;
+}
+
+#results {
+  clear:both;
+  width:640px;
+}
+
+#results li {
+  list-style:none;
+  padding:2px 10px;
+  margin-top:2px;
+  border:1px solid #fff;
+  background:#fff;
+  color:#444;
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+  border-radius:10px;
+}
+
+#results li:hover {
+  background:#fff;
+  border:1px solid #aaa;
+}
+
+#results li.ui-draggable-dragging {
+  -moz-box-shadow:0 0 .5em rgba(0, 0, 0, .8);
+  -webkit-box-shadow:0 0 .5em rgba(0, 0, 0, .8);
+  box-shadow:0 0 .5em rgba(0, 0, 0, .8);
+}
+
+#results li:first-child {
+  margin-top:0;
+}
+
+#results li form {
+  display:none;
+}
