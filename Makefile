@@ -1,4 +1,4 @@
-all: Retrieval_all Search_all
+ake all: Retrieval_all Search_all
 
 
 Retrieval_all: Scrapy_all Downloader_all
@@ -16,6 +16,10 @@ ImageDownloader:
 	export PYTHONPATH=$$PYTHONPATH:`pwd`/src/Retrieval/Crawler && cd src/Retrieval/Downloader && python ImageDownloader.py
 
 
-Search_all: Search_Indexer
+Search_all: Search_Solr_Start Search_Indexer
+Search_Solr_Start:
+	cd lib/apache-solr-3.6.0/example && java -jar start.jar
+Search_Solr_Empty:
+	cd lib/apache-solr-3.6.0/example/exampledocs && java -Ddata=args -jar post.jar "<delete><query>*:*</query></delete>"
 Search_Indexer:
-	echo "Implement me!"
+	export PYTHONPATH=$$PYTHONPATH:`pwd`/src/Search/Indexer2 && cd src/Search/Indexer2 && python SolrClient.py
