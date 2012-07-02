@@ -48,6 +48,15 @@ Downloading Dependencies For The Presentations
 
     git submodule update --init --recursive
 
+Installing
+----------
+
+   cd PodSearch/web
+   
+   sudo ln -s `pwd` /var/www/lighttpd/PodSearch
+
+To verify open [/Podsearch](http://localhost/Podsearch) in a browser.
+
 Running The Presentations
 -------------------------
 
@@ -55,6 +64,13 @@ Running The Presentations
     cd doc/2-Concept/ && google-chrome *.html &
     cd doc/3-Prototype/ && google-chrome *.html &
     cd doc/4-Final_Report/ && google-chrome *.html &
+
+Running all other Components
+----------------------------
+
+See
+
+    make `tab``tab`
     
 Conventions
 -----------
