@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>A jQuery Drag-and-Drop Number entrys Game</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.js"></script>
+  <script type="text/javascript">
+
+  $(init);
+
+  function init() {
+    $(initSearch);
+    $(initResults);
+  }
+
+  function initResults() {
+
+    // Reset
+    $('#results').html('');
+
+    $.getJSON('results.json', function(data) {
+      var items = [];
+    
+      var results = data['results'];
+    
+      for (var i=0; i<10; i++) {
+        var entry = results[i]
+        var item = '<li>';
+        item += '<h3 class="title">';
+        item += '  <a href="' + entry['link'] + '">' + entry['title'] + '<\/a>';
+        item += '<\/h3>';
+        item += '<cite>' + entry['link'] + '<\/cite>';
+        item += '<p class="description">' + entry['description'] + '<\/p>';
+        item += '<form><input type="hidden" value="' + entry['name'] + '"/><\/form>';
+        item += '<\/li>';
+    
+      var name = entry['name'];
+        $(item).draggable({
+          containment: 'body',
+          stack: '#results li',
+          cursor: 'move',
+          revert: true
+        }).data('name', name).appendTo('#results');
+      }
+    });
+
+  }
+
+  function initSearch() {
+
+    $('#searchBar').html('');
+
+
+    $('<div>\
+        <input id="searchField" placeholder="type or drop here" type="search" autofocus = "autofocus" type="text" size="68" />\
+        <input type="submit" value="Submit" />\
+      <\/div>').appendTo('#searchBar').droppable({
+      accept: '#results li',
+      hoverClass: 'hovered',
+      drop: handleEntryDrop
+    });
+
+  }
+
+  function handleEntryDrop(event, ui) {
+    var entryNumber = ui.draggable.data('name');
+
+    $('#searchField').val(entryNumber);
+
+    // If the entry was dropped to the correct slot,
+    // change the entry colour, position it directly
+    // on top of the slot, and prevent it being dragged
+    // again
+
+    ui.draggable.addClass('dropped');
+    ui.draggable.draggable('disable');
+    ui.draggable.position({ of: $(this), my: 'left top', at: 'left top' });
+    ui.draggable.draggable('option', 'revert', false);
+
+    $(initResults);
+
+  }
+
+  </script>
+</head>
+<body>
+
+  <div id="content">
+    
+    <h1>Podsimile</h1>
+
+    <form id="searchBar"></form>
+
+    <ul id="results"></ul>
+
+  </div>
+
+</body>
+</html>
