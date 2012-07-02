@@ -1,57 +1,44 @@
-import xml.sax._exceptions
 #import xml.dom.minidom
+import subprocess
+import json
 
 from bs4 import BeautifulSoup
-import feedparser
-#import speedparser
 
-import DOM2Dict
+#import DOM2Dict
 
 class FeedDictFactory:
     
     _bs = BeautifulSoup()
-
-    fields = ['author', 'title', 'description']
-
-    dynamicFields = ['image', 'language', 'link', 'summary',
-                     'itunes:explicit', 'itunes:subtitle', 'itunes:summary', 'itunes:subtitle']
     
     def __init__(self):
         pass
         
     def _parseFeed(self, feedPath):
+        #output = subprocess.check_output(['ls', '-1'])
+        #output = subprocess.check_output(['python', './FeedParserCli.py'])
+        proc = subprocess.Popen(['python', 'FeedParserCli.py'],
+                        stdin=subprocess.PIPE,
+                        stdout=subprocess.PIPE,
+                        )
+        stdout_value = proc.communicate(feedPath)[0]
+        output = stdout_value
         
-        try:    
-            #self.feed = speedparser.parse(feedPath)['feed']
-            self.feed = feedparser.parse(feedPath)
-            try:
-                self.feed = self.feed['feed']
-            except (KeyError, TypeError):
-                return False
-
-            return True
-        except xml.sax._exceptions.SAXException:
-            print "Aborted."
-            return False
+        return output
     
     def getFeedDict(self, feedPath):
         
         print "Parsing:", feedPath
-        if not self._parseFeed(feedPath):
+        feedDict = self._parseFeed(feedPath)
+        if not feedDict or str(feedDict) == "'null'":
             return
         print "Parsed."
-                    
-        feedDict = {}
-        for fieldKey in self.fields + self.dynamicFields:
-            try:
-                fieldValue = self.feed[fieldKey]
-                try:
-                    fieldValue = BeautifulSoup(fieldValue).get_text()
-                    if fieldKey in self.dynamicFields:
-                        fieldKey = fieldKey + '_s'
-                    feedDict[fieldKey] = fieldValue
-                except TypeError:
-                    fieldValue = ""
-            except KeyError:
-                pass
+        
+        # deserialize feed
+        print feedDict
+        
+        print "Loading ..."
+        feedDict = json.loads(feedDict)
+        print "beacon"
+        print "Loaded:", feedDict
+        
         return feedDict

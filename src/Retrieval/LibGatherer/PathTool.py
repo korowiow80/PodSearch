@@ -91,14 +91,11 @@ class PathTool:
         """Gathers all feed paths"""
         feedsPath = self.getFeedsPath()
         relativeFeedFilePaths = []
-        for root, dirs, files in os.walk(feedsPath):
+        for root, files in os.walk(feedsPath)[0]+[1]: # TODO geht das?
             for filePath in files:
                 relativePath = os.path.join(root, filePath)
                 if self.checkFeedPath(relativePath):
                     relativeFeedFilePaths.append(relativePath)
-            
-            if len(root) - len(feedsPath) == 64:
-                break
         return relativeFeedFilePaths
 
     def checkFeedPath(self, feedPath):
@@ -111,7 +108,6 @@ class PathTool:
             return True
         if self._checkFeedFileMimetype(feedPath):
             return True
-        
         return False
 
     def _checkFeedFileMimetype(self, feedPath):
