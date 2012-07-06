@@ -14,18 +14,45 @@
 
   function init() {
     $(initSearch);
-    $(initResults);
+    //$(initResults);
   }
 
-  function initResults() {
+  function initResults(value) {
 
+    if (value == '') {
+      return;
+    }
+    
+    var data = {wt: "json"};
+        
+    data["q"] = "description:" + value;
+    //data["jsonp"] = "callback";
+    //data["jsonpCallback"] = "handleData";
+    //data["json.wrf"] = "handleData";
+    //data["dataType"] = "jsonp";
+    //data["callback"] = "handleData";
+    
     // Reset
     $('#results').html('');
 
-    $.getJSON('results.json', function(data) {
+    $.getJSON('http://localhost:8983/solr/select/', data, handleData(data));
+  }
+    
+  function handleData (data) {
+          alert("beacon" + data.toSource());
+          //alert("Sample of data:", data.slice(0, 1));
+
+          $.each(data.items, function(i,item){
+            alert("item:" + item);
+            //$("<h3/>").html(item.media.m).appendTo("#resutls");
+            //if ( i == 3 ) return false;
+          });
+/*          
+      alert(data);
       var items = [];
     
-      var results = data['results'];
+      var results = data['response']['docs'];
+      alert(results);
     
       for (var i=0; i<10; i++) {
         var entry = results[i]
@@ -38,17 +65,11 @@
         item += '<form><input type="hidden" value="' + entry['name'] + '"/><\/form>';
         item += '<\/li>';
     
-      var name = entry['name'];
-        $(item).draggable({
-          containment: 'body',
-          stack: '#results li',
-          cursor: 'move',
-          revert: true
-        }).data('name', name).appendTo('#results');
+        var name = entry['name'];
+        $(item).appendTo('#results');
       }
-    });
-
-  }
+*/
+    }
 
   function initSearch() {
 
@@ -56,32 +77,9 @@
 
 
     $('<div>\
-        <input id="searchField" placeholder="type or drop here" type="search" autofocus = "autofocus" type="text" size="68" />\
+        <input id="searchField" placeholder="type or drop here" type="search" autofocus = "autofocus" type="text" size="68" onkeyup="initResults(this.value);"/>\
         <input type="submit" value="Submit" />\
-      <\/div>').appendTo('#searchBar').droppable({
-      accept: '#results li',
-      hoverClass: 'hovered',
-      drop: handleEntryDrop
-    });
-
-  }
-
-  function handleEntryDrop(event, ui) {
-    var entryNumber = ui.draggable.data('name');
-
-    $('#searchField').val(entryNumber);
-
-    // If the entry was dropped to the correct slot,
-    // change the entry colour, position it directly
-    // on top of the slot, and prevent it being dragged
-    // again
-
-    ui.draggable.addClass('dropped');
-    ui.draggable.draggable('disable');
-    ui.draggable.position({ of: $(this), my: 'left top', at: 'left top' });
-    ui.draggable.draggable('option', 'revert', false);
-
-    $(initResults);
+      <\/div>').appendTo('#searchBar');
 
   }
 
