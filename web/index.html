@@ -35,7 +35,24 @@
     // Reset
     $('#results').html('');
 
-    $.getJSON('http://localhost:8983/solr/select/', data, handleData(data));
+    var request = {};
+    
+    request['type'] = 'GET';
+    request['url'] = 'http://localhost:8983/solr/select/';
+    request['data'] = data;
+    request['dataType'] = 'text';
+    request['success'] = function (data) {
+          alert("beacon" + data.toSource());
+          //alert("Sample of data:", data.slice(0, 1));
+
+          $.each(data.items, function(i,item){
+            alert("item:" + item);
+            //$("<h3/>").html(item.media.m).appendTo("#resutls");
+            //if ( i == 3 ) return false;
+          });
+    }
+
+    $.ajax(request);
   }
     
   function handleData (data) {
