@@ -41,8 +41,14 @@
     request['url'] = 'http://localhost:8983/solr/select/';
     request['data'] = data;
     request['dataType'] = 'text';
+    request['cache'] = false;
+    request['async'] = true;
+    request['error'] = function (data, status, err) {
+      alert(status.toSource());
+    }
     request['success'] = function (data) {
-          alert("beacon" + data.toSource());
+          alert("beacon");
+          //alert("beacon" + data.toSource());
           //alert("Sample of data:", data.slice(0, 1));
 
           $.each(data.items, function(i,item){
