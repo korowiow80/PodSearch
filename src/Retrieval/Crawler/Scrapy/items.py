@@ -6,5 +6,4 @@
 from scrapy.item import Item, Field
 
 class PodcastFeedItem(Item):
-    title = Field()
     link = Field()

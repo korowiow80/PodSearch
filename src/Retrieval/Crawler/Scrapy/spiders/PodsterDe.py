@@ -37,13 +37,6 @@ class PodsterDe(BaseSpider):
         hxs = HtmlXPathSelector(response)      
         item = PodcastFeedItem()
 
-        podcast_title_xpath = "//div[@id='caption-header']/text()"
-        podcast_title = hxs.select(podcast_title_xpath).extract()[0]
-        podcast_title = podcast_title[len(u'\n                 '):]
-        podcast_title = podcast_title[len("Podcast: "):]
-        podcast_title = podcast_title.rstrip(' ')
-        item['title'] = podcast_title
-
         try:
             podcast_url_xpath = "//div[@id='content']//a[5]/@href"
             link = hxs.select(podcast_url_xpath).extract()[0]
@@ -73,5 +66,4 @@ class PodsterDe(BaseSpider):
         except KeyError:
             print 'PodsterDe: WARNING: The page %s did not contain a link to a feed.' % response.url
             return
-
         yield item

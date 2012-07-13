@@ -39,17 +39,13 @@ class PodfeedNet(BaseSpider):
 
     def parse_podcast_page(self, response):
         hxs = HtmlXPathSelector(response)
-        podcast_title_xpath = "/html/body/div[@class='container']/div[@id='column']/div[@id='podcast']/div[@id='podcast_details']/div[@class='content']/div[@class='konafilter']/h1/text()"
         podcast_url_xpath = "/html/body/div[@class='container']/div[@id='column']/div[@id='podcast']/div[@id='podcast_details']/div[@class='konafilter']/div[@class='pf_box_header right nomobile']/ul[@class='chicklets nomobile']/li[3]/a/@href"
         
-        podcast_title = hxs.select(podcast_title_xpath).extract()
         podcast_link = hxs.select(podcast_url_xpath).extract()
-        if not podcast_title or not podcast_link:
+        if not podcast_link:
             return
         if podcast_link[0] == "#":
             return 
         item = PodcastFeedItem()
-        item['title'] = podcast_title[0]
         item['link'] = podcast_link[0]
-
         yield item

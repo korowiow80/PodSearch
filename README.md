@@ -10,6 +10,7 @@ Dependencies
 -   [Lucene](https://lucene.apache.org/core/) is expected to reside in `lib/lucene-3.6.0/`.
 -   [Python](http://www.python.org/) needs to be installed.
 -   [Scrapy](http://scrapy.org/) needs to be installed.
+-   [PyTZ](http://pypi.python.org/pypi/pytz/) needs to be installed.
 
 -   The working copy needs to be placed on a filesystem that supports names with newlines.
     NTFS will work, FAT32 will not work.
@@ -22,13 +23,13 @@ These additional requirements for scrapy need to be installed first:
     sudo yum install python-devel libxml2-devel libxlst-devel
 
     sudo yum install python python-pip
-    sudo pip-python install feedparser scrapy tldextract
+    sudo pip-python install --upgrade feedparser scrapy tldextract pytz
 
 Installing Dependencies on Ubuntu Linux
 ---------------------------------------
 
     sudo apt-get install python-setuptools
-    sudo easy_install asyncore feedparser scrapy tldextract
+    sudo easy_install --upgrade feedparser scrapy tldextract pytz
 
 Note: Tested with 10.10, so this information might be out of date.
 
