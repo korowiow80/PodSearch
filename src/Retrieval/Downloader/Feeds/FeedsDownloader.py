@@ -10,7 +10,7 @@ class FeedsDownloader:
     
     def downloadFeeds(self, feedUrls):
         for feedUrl in feedUrls:
-            self.downloadFeed(feedUrl)
+            self.handleFeed(feedUrl)
     
-    def downloadFeed(self, feedUrl):
+    def handleFeed(self, feedUrl):
         self.dt.download('feed', feedUrl)

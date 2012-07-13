@@ -6,16 +6,23 @@ from PathTool import PathTool
 
 
 class FeedsDownloaderRunner:
-    """Runs the DownloadTool with all URLs of feed gathered from the feed lists."""
+    """Runs the DownloadTool with URLs of feeds, gathered from the feed lists."""
 
     def __init__(self):
         self._fd = FeedsDownloader()
         self._pt = PathTool()
 
     def run(self):
-        """Run automated through all feeds."""
+        """Runs automated through all feeds."""
         
         feed_urls = self.get_all_feed_urls()
+        self._fd.downloadFeeds(feed_urls)
+        print 'FeedsDownloaderRunner: INFO: Done.'
+    
+    def handle_single_feed_list(self, feed_list_path):
+        """Runs for one feed list."""
+        feed_urls = self.get_feed_urls_from_feed_list(feed_list_path)
+        print 'FeedsDownloaderRunner: INFO: Downloading %s feeds.' % len(feed_urls)
         self._fd.downloadFeeds(feed_urls)
         print 'FeedsDownloaderRunner: INFO: Done.'
         
@@ -48,7 +55,6 @@ class FeedsDownloaderRunner:
             feed_items = json.loads(contents)
             for feed_item in feed_items:
                 feed_urls.append(feed_item['link'])
-                #TODO get the title, too
         return feed_urls
 
 if __name__ == '__main__':

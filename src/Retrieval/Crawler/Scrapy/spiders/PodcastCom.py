@@ -7,26 +7,26 @@ from scrapy.selector import HtmlXPathSelector
 
 from Scrapy.items import PodcastFeedItem
 
-from PathTool import PathTool
-from UrlTool import UrlTool
+from Resource.PathTool import PathTool
+from Resource.Resource import Resource
 
 
 class PodcastCom(BaseSpider):
     
-    start_urls = ["http://www.podcast.com/sitemap.xml"]
+    start_urls = ["http://www.podcast.com/sitemap.xml"]     # public for scrapy
 
-    _ut = UrlTool()
     _pt = PathTool()
 
-    _baseUrl = _ut.getBaseUrl(start_urls[0])
-    name = _ut.getSpiderName(start_urls[0]) # needs to be public for scrapy
-    feed_list_path = _pt.getFeedListPath(start_urls[0])
+    _url = Resource(start_urls[0], "directory")
+    _baseUrl = _url.getBaseUrl()
+    name = _url.getSpiderName()                             # public for scrapy
+    feed_list_path = _url.getPath()                         # public for scrapy
 
     def parse(self, response):        
         text = body_or_str(response)
 
         nodename = 'loc'
-        r = re.compile(r"(<%s[\s>])(.*?)(</%s>)" %(nodename, nodename), re.DOTALL)
+        r = re.compile(r"(<%s[\s>])(.*?)(</%s>)" % (nodename, nodename), re.DOTALL)
         for match in r.finditer(text):
             url = match.group(2)
             yield Request(url, callback=self.parse_sitemap_page)
@@ -36,7 +36,7 @@ class PodcastCom(BaseSpider):
         text = body_or_str(response)
 
         nodename = 'loc'
-        r = re.compile(r"(<%s[\s>])(.*?)(</%s>)" %(nodename, nodename), re.DOTALL)
+        r = re.compile(r"(<%s[\s>])(.*?)(</%s>)" % (nodename, nodename), re.DOTALL)
         for match in r.finditer(text):
             url = match.group(2)
             yield Request(url, callback=self.parse_podcast_page)

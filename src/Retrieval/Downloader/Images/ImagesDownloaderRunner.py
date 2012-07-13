@@ -9,7 +9,7 @@ class FeedsDownloaderRunner:
         self.iDler = ImagesDownloader()
 
     def run(self):
-        feedFilePaths = PathTool.getFeedPaths()
+        feedFilePaths = PathTool.getAllFeedPaths()
         for feedFilePath in feedFilePaths:
             self.handleFeed(feedFilePath)
 

@@ -10,7 +10,7 @@ from PathTool import PathTool
 
 
 class DownloaderTool:
-    """Tool used commonly to download resources of type feed or image."""
+    """Commonly used tool that downloads resources of type feed or image."""
     
     def __init__(self):
         self.resources = []
@@ -20,7 +20,7 @@ class DownloaderTool:
         self.last_download_timestamp = 0
 
     def download(self, resource_type, resource_url):
-        """Download a ressource of type feed or image by its URL."""
+        """Downloads a resource of type feed or image by its URL."""
         
         if not self._ut.sanityCheckUrl(resource_url):
             return
@@ -47,7 +47,7 @@ class DownloaderTool:
 
 def _download(resource_type, resource_url, resource_target):
     """The method doing the actual downloading."""
-    hl2 = httplib2.Http(cache = ".cache", timeout = 5)
+    hl2 = httplib2.Http(cache=".cache", timeout=5)
     
     try:
         resp, content = hl2.request(resource_url)
@@ -57,7 +57,7 @@ def _download(resource_type, resource_url, resource_target):
             print "Downloaded %s from %s to %s." % (resource_type, resource_url, resource_target)
         with open(resource_target, 'w') as f:
             f.write(content)
-    except (AttributeError, IOError, TypeError, UnicodeError, ValueError,  \
+    except (AttributeError, IOError, TypeError, UnicodeError, ValueError, \
             httplib.IncompleteRead, httplib.InvalidURL, httplib.BadStatusLine, \
             httplib2.RelativeURIError, httplib2.RedirectLimit, \
             httplib2.ServerNotFoundError, httplib2.SSLHandshakeError):

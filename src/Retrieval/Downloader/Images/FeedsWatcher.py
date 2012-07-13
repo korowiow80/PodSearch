@@ -5,10 +5,10 @@
 import asyncore
 import pyinotify
 
-from ImageDownloader import ImageDownloader
+from ImagesDownloader import ImagesDownloader
 
 class EventHandler(pyinotify.ProcessEvent):
-    iDler = ImageDownloader()
+    iDler = ImagesDownloader()
     
     def process_IN_CREATE(self, event):
         path = event.pathname

@@ -4,20 +4,20 @@ from scrapy.selector import HtmlXPathSelector
 
 from Scrapy.items import PodcastFeedItem
 
-from PathTool import PathTool
-from UrlTool import UrlTool
+from Resource.Resource import Resource
+from Resource.PathTool import PathTool
 
 
 class PodfeedNet(BaseSpider):
     
-    start_urls = ["http://www.podfeed.net/site_map.asp"]
+    start_urls = ["http://www.podfeed.net/site_map.asp"]    # public for scrapy
 
-    _ut = UrlTool()
     _pt = PathTool()
 
-    _baseUrl = _ut.getBaseUrl(start_urls[0])
-    name = _ut.getSpiderName(start_urls[0]) # needs to be public for scrapy
-    feed_list_path = _pt.getFeedListPath(start_urls[0])
+    _url = Resource(start_urls[0], "directory")
+    _baseUrl = _url.getBaseUrl()
+    name = _url.getSpiderName()                             # public for scrapy
+    feed_list_path = _url.getPath()                         # public for scrapy
 
     items = []
 
@@ -26,7 +26,8 @@ class PodfeedNet(BaseSpider):
         sitemap_page_xpath = "/html/body/div[@class='container']/div[@id='column']/a/@href"
         sitemap_page_urls = hxs.select(sitemap_page_xpath).extract()
         for sitemap_page_url in sitemap_page_urls:
-            url = self._ut.getAbsoluteUrl(sitemap_page_url, self._baseUrl)
+            resource = Resource(self._baseUrl + sitemap_page_url, "directory")
+            url = resource.getAbsoluteUrl()
             yield Request(url, callback=self.parse_sitemap_page)           
 
     def parse_sitemap_page(self, response):

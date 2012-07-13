@@ -12,6 +12,7 @@ class ImagesDownloader:
         self.dt = DownloaderTool()
 
     def handleFeed (self, relativeFeedFilePath):
+        """Downloads a single image gathered from a given feed."""
         imgUrl = self.getImageUrl(relativeFeedFilePath)
         self.downloadImage(imgUrl)
 
