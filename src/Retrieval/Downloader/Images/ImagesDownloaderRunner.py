@@ -1,17 +1,18 @@
 #! /bin/python
 
 from ImagesDownloader import ImagesDownloader
-from PathTool import PathTool
+from Resource.ResourceChecker import ResourceChecker
 
 class FeedsDownloaderRunner:
 
     def __init__(self):
-        self.iDler = ImagesDownloader()
+        self._iDler = ImagesDownloader()
+        self._rc = ResourceChecker()
 
     def run(self):
-        feedFilePaths = PathTool.getAllFeedPaths()
+        feedFilePaths = self._rc.getAllFeedPaths()
         for feedFilePath in feedFilePaths:
-            self.handleFeed(feedFilePath)
+            self._iDler.handleFeed(feedFilePath)
 
         print 'FeedsDownloaderRunner: INFO: Done.'
 

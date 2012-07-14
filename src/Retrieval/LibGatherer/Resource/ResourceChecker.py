@@ -14,10 +14,8 @@ class ResourceChecker:
                           'application/xml',
                           'text/xml']
     
-    _pt = PathTool.PathTool()
-    
     def __init__(self):
-        pass
+        self._pt = PathTool.PathTool()
 
     def checkRemoteResource(self, resourceType, url):
         """Checks the URL for sanity according to the resourceType.
@@ -151,3 +149,14 @@ class ResourceChecker:
         if feed.startswith("<html>") or feed.endswith("</html>"):
             return True
         return False
+    
+    def getAllFeedPaths(self):
+        """Gathers all feed paths"""
+        feedsPath = self._pt.getFeedsPath()
+        relativeFeedFilePaths = []
+        for root, dirs, files in os.walk(feedsPath):
+            for filePath in files:
+                relativePath = os.path.join(root, filePath)
+                if self._checkLocalFeed(relativePath):
+                    relativeFeedFilePaths.append(relativePath)
+        return relativeFeedFilePaths

@@ -2,7 +2,7 @@
 
 import feedparser
 
-from ResourceDownloader import ResourceDownloader
+from Resource.ResourceDownloader import ResourceDownloader
 
 
 class ImagesDownloader:

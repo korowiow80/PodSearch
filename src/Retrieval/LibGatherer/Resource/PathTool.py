@@ -1,4 +1,5 @@
-
+import os
+import ResourceChecker
 
 class PathTool:
     """Represents a path of a file on the local filesystem.
@@ -12,17 +13,6 @@ class PathTool:
         self._feedListsPath = relativeProjectRoot + "static/1-Feedlists/"
         self._feedsPath = relativeProjectRoot + 'static/2-Feeds/'
         self._imagesPath = relativeProjectRoot + "web/img/"
-
-    def getAllFeedPaths(self):
-        """Gathers all feed paths"""
-        feedsPath = self.getFeedsPath()
-        relativeFeedFilePaths = []
-        for root, dirs, files in os.walk(feedsPath):
-            for filePath in files:
-                relativePath = os.path.join(root, filePath)
-                if self._checkLocalFeed(relativePath):
-                    relativeFeedFilePaths.append(relativePath)
-        return relativeFeedFilePaths
 
     def getDirectoriesPath(self):
         return self._directoriesPath

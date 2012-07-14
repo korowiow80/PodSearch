@@ -10,11 +10,10 @@ class Resource:
     """Represents both an URL of a resource on a remote file system and a
     corresponding path to the local representation."""
 
-    _pt = PathTool.PathTool()
-
     def __init__(self, url, resource_type):
         self.setUrl(url)
         self.setType(resource_type)
+        self._pt = PathTool.PathTool()
     
     def setUrl(self, url):
         self._url = url
