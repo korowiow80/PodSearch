@@ -1,5 +1,7 @@
-import urlparse
+import os
+import posixpath
 import tldextract
+import urlparse
 
 import PathTool
 
@@ -10,15 +12,15 @@ class Resource:
 
     _pt = PathTool.PathTool()
 
-    def __init__(self, url, type):
+    def __init__(self, url, resource_type):
         self.setUrl(url)
-        self.setType(type)
+        self.setType(resource_type)
     
     def setUrl(self, url):
         self._url = url
     
-    def setType(self, type):
-        self._type = type
+    def setType(self, resource_type):
+        self._type = resource_type
         self._setPath()
         self._setId()
         self._setId()
@@ -70,7 +72,7 @@ class Resource:
     def _setImagePath(self):
         """Derives the path of an image from a given url."""
         imagesPrefix = self._pt.getImagesPath()
-        relativeRemoteLocation = self.getRelativePath()
+        relativeRemoteLocation = self.getPath()
         domain = self.getDomain()
         imageFilePath = imagesPrefix + domain + relativeRemoteLocation
         self._path = imageFilePath
@@ -104,6 +106,7 @@ class Resource:
         if not self._url.startswith('http'):
             return self._url
         baseUrl = self.getBaseUrl()
+        url = self.getAbsoluteUrl()
         relativeUrl = url[len(baseUrl):]
         return relativeUrl
     
@@ -114,13 +117,13 @@ class Resource:
         filename = posixpath.basename(remotePath)
         return filename
     
-    def getBasePath(self, ressourceTarget):
+    def getBasePath(self):
         """TODO understand and document me!"""
-        basePath = os.path.dirname(ressourceTarget)
+        basePath = os.path.dirname(self.getPath())
         
         # reconstruct path if it does not end with an filename extension
         basePathEnd = basePath.split('/')[-1]
-        ressourceTargetEnd = ressourceTarget.split('/')[-1]
+        ressourceTargetEnd = self.getPath().split('/')[-1]
         if basePathEnd == ressourceTargetEnd and \
            basePath[-1] != '/':
             basePath = os.sep.join(basePath.split('/')[:-1])

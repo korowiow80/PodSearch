@@ -2,14 +2,14 @@
 
 import feedparser
 
-from DownloaderTool import DownloaderTool
+from ResourceDownloader import ResourceDownloader
 
 
 class ImagesDownloader:
     _projectRoot = '../../../'
 
     def __init__ (self):
-        self.dt = DownloaderTool()
+        self.dt = ResourceDownloader()
 
     def handleFeed (self, relativeFeedFilePath):
         """Downloads a single image gathered from a given feed."""

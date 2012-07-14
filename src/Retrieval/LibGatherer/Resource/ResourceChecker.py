@@ -1,11 +1,10 @@
-import errno
 import os
 import mimetypes
-import posixpath
 
 import magic
 
-import Url.UrlTool
+from Resource import Resource
+from Resource import PathTool
 
 class ResourceChecker:
     
@@ -15,24 +14,26 @@ class ResourceChecker:
                           'application/xml',
                           'text/xml']
     
+    _pt = PathTool.PathTool()
+    
     def __init__(self):
         pass
 
-    def checkRemoteResource(self, ressourceType, url):
-        """Checks the URL for sanity according to the ressourceType.
-        Returns True if the URL is sane for this ressourceType, otherwise
+    def checkRemoteResource(self, resourceType, url):
+        """Checks the URL for sanity according to the resourceType.
+        Returns True if the URL is sane for this resourceType, otherwise
         False."""
         if not url:
             return False
-        if not ressourceType:
+        if not resourceType:
             return False #TODO we should raise here
 
         if not self._sanityCheckGeneralUrl(url):
             return False
         
-        if ressourceType == 'feed':
+        if resourceType == 'feed':
             sanity = self._checkFeedUrl(url)
-        if ressourceType == 'image':
+        if resourceType == 'image':
             sanity = self._checkImageUrl(url)
 
         return sanity
@@ -41,7 +42,8 @@ class ResourceChecker:
         """Checks an URL for sanity. Returns True if the URL is sane, otherwise
         False."""
 
-        if url.endswith('://'): return False
+        if url.endswith('://'):
+            return False
 
         # TODO do real url validation here ... like Django does
         
@@ -55,7 +57,7 @@ class ResourceChecker:
         if url.startswith('data:'):
             return False
         
-        sanity = self.checkImageMimeType(url)
+        sanity = self._checkRemoteImageMimeType(url)
 
         return sanity
     
@@ -66,11 +68,13 @@ class ResourceChecker:
         if self._checkFeedUrlFileType(url):
             return True
 
-        feedFilename = self.getFilename(url)
-        if not self._pt.checkFeedMimeType(feedFilename):
+        resource_type = 'feed'
+
+        feedFilename = Resource(url, resource_type).getFilename()
+        if not self._checkRemoteFeedMimeType(feedFilename):
             return False
         
-        sanity = self.checkFeedFileType(url)
+        sanity = self._checkRemoteFeedMimeType(url)
         if not sanity:
             print "UrlTool: WARN: Did not recognize mime media type of feed %s." % (url)
         return sanity
@@ -86,13 +90,14 @@ class ResourceChecker:
         
         return False
     
-    def checkLocalResource(self, path, type):
-        if type == "directory":
+    def checkLocalResource(self, path, resourceType):
+        if resourceType == "directory":
             raise # not yet implemented
-        if type == "feed":
+        if resourceType == "feed":
             return self._checkLocalFeed(path)
-        if type == "image":
-            return self.checkImage(path)
+        if resourceType == "image":
+            raise # not yet implemented 
+            #return self._checkLocalImage(path)
     
     def _checkLocalFeed(self, feedPath):
         """Checks a path of a feed for sanity."""
@@ -113,14 +118,27 @@ class ResourceChecker:
         mimetype = mime.file(feedPath)
 
         mimetype = mimetype.split('; ')[0]
-        if mimetype in PathTool.validFeedMimeTypes:
+        if mimetype in self.validFeedMimeTypes:
             return True
         return False
+    
+    def _checkRemoteFeedMimeType(self, filename):
+        return self._checkLocalFeedMimeType(filename)
     
     def _checkLocalFeedMimeType(self, filename):
         """Checks mimetype by filename."""
         mimetype, encoding = mimetypes.guess_type(filename, strict=False)
         if mimetype in self.validFeedMimeTypes:
+            return True
+        return False
+    
+    def _checkRemoteImageMimeType(self, filename):
+        return self._checkLocalImageMimeType(filename)
+    
+    def _checkLocalImageMimeType(self, filename):
+        """Checks mimetype by filename."""
+        mimetype, encoding = mimetypes.guess_type(filename, strict=False)
+        if "image/" in mimetype:
             return True
         return False
     

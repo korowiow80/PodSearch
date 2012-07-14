@@ -5,33 +5,36 @@ import time
 
 import httplib2
 
-from UrlTool import UrlTool
 from PathTool import PathTool
+from ResourceChecker import ResourceChecker
+from Resource import Resource
+from ResourceHelper import ResourceHelper
 
-
-class DownloaderTool:
-    """Commonly used tool that downloads resources of type feed or image."""
+class ResourceDownloader:
+    """Commonly used tool that downloads resources."""
     
     def __init__(self):
         self.resources = []
         self._tdr = Threader()
-        self._ut = UrlTool()
         self._pt = PathTool()
+        self._rc = ResourceChecker()
+        self._rh = ResourceHelper()
         self.last_download_timestamp = 0
 
     def download(self, resource_type, resource_url):
         """Downloads a resource of type feed or image by its URL."""
         
-        if not self._ut.sanityCheckUrl(resource_url):
+        if not self._rc.checkRemoteResource(resource_type, resource_url):
             return
 
-        if resource_url.endswith('/'):
-            resource_url = resource_url[:-1] 
-        resource_target = self._pt.getRessourceTargetPath(resource_type, resource_url)
-        base_path = self._pt.getBasePath(resource_target)
+        resource = Resource(resource_url, resource_type)
+        if resource.getAbsoluteUrl().endswith('/'):
+            resource.setUrl(resource.getAbsoluteUrl()[:-1])
+        resource_target = resource.getPath()
+        base_path = resource.getBasePath()
         print "DEBUG: Will download resource %s with target %s to location %s." % (resource_url, resource_target, base_path)
         
-        self._pt.ensurePathExists(base_path)
+        self._rh.ensurePathExists(base_path)
         
         self.resources.append([resource_type, resource_url, resource_target])
         

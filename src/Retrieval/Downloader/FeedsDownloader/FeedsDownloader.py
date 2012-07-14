@@ -1,12 +1,12 @@
 #! /bin/python
 
-from DownloaderTool.DownloaderTool import DownloaderTool
+from Resource.ResourceDownloader import ResourceDownloader
 
 
 class FeedsDownloader:
     
     def __init__ (self):
-        self.dt = DownloaderTool()
+        self.dt = ResourceDownloader()
     
     def downloadFeeds(self, feedUrls):
         for feedUrl in feedUrls:

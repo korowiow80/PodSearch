@@ -1,6 +1,11 @@
-
+import errno
+import os
 
 class ResourceHelper:
+    
+    def __init__(self):
+        pass
+    
     def ensurePathExists(self, path):
         """Makes sure a given path exists.
         Tries to create the given path, handles eventual failure.
@@ -16,7 +21,7 @@ class ResourceHelper:
             raise
         return
 
-    def stripWhiteSpace(self, filename):
+    def stripWhitespace(self, filename):
         """Substitutes all space literals (' ', '\n', '\t' etc.) with nothing."""
-        filename = ' '.join(filename.spli())
+        filename = ' '.join(filename.split())
         return filename
