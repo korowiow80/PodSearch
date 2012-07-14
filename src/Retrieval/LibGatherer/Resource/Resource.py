@@ -11,7 +11,11 @@ class Resource:
     corresponding path to the local representation."""
 
     def __init__(self, url, resource_type):
+        self._url = ''
         self.setUrl(url)
+        self._type = ''
+        self._id = ''
+        self._path = ''
         self.setType(resource_type)
         self._pt = PathTool.PathTool()
     
