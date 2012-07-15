@@ -25,6 +25,19 @@ These additional requirements for scrapy need to be installed first:
     sudo yum install python python-pip
     sudo pip-python install --upgrade feedparser scrapy tldextract pytz
 
+Installing Feedparser
+---------------------
+
+To install feedparser python3-setuptools is needed:
+
+    sudo yum install python3-setuptools
+    
+Additionally, sgmllib needs to be in the `PYTHONPATH`
+
+    sudo yum install python2.7
+    sudo cp /usr/lib64/python2.7/sgmllib.py /usr/lib64/python3.2/sgmllib.py
+    sudo 2to3 -w /usr/lib64/python3.2/sgmllib.py
+
 Installing Dependencies on Ubuntu Linux
 ---------------------------------------
 
