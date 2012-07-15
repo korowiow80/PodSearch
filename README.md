@@ -37,6 +37,12 @@ Additionally, sgmllib needs to be in the `PYTHONPATH`
     sudo yum install python2.7
     sudo cp /usr/lib64/python2.7/sgmllib.py /usr/lib64/python3.2/sgmllib.py
     sudo 2to3 -w /usr/lib64/python3.2/sgmllib.py
+    
+To actually install feedparser
+
+    wget http://feedparser.googlecode.com/files/feedparser-5.1.2.tar.bz2
+    tar -xvf feedparser-5.1.2.tar.bz2
+    sudo python3.2 ./setup.py install
 
 Installing Dependencies on Ubuntu Linux
 ---------------------------------------
