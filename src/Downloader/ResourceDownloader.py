@@ -1,0 +1,119 @@
+import http.client
+import threading
+import queue
+import time
+
+import httplib2
+
+from Resource.Resource import Resource
+from Resource.ResourceChecker import ResourceChecker
+from Resource.ResourceHelper import ResourceHelper
+from Util.PathTool import PathTool
+from Util.LoggerFactory.LoggerFactory import LoggerFactory
+from Util.Decoder.Decoder import Decoder
+
+class ResourceDownloader:
+    """Commonly used tool that downloads resources."""
+    
+    _logger = LoggerFactory().getLogger('RessourceDownloader')
+    _resources = []
+    _downloadedResources = []
+    
+    def __init__(self):
+        self._tdr = Threader()
+        self._pt = PathTool.PathTool()
+        self._rc = ResourceChecker()
+        self._rh = ResourceHelper()
+        self.last_download_timestamp = 0
+
+    def download(self, resource_type, resource_url):
+        """Downloads a resource of type feed or image by its URL."""
+        
+        if not self._rc.checkRemoteResource(resource_type, resource_url):
+            return
+
+        resource = Resource(resource_url, resource_type)
+        if resource.getAbsoluteUrl().endswith('/'):
+            resource.setUrl(resource.getAbsoluteUrl()[:-1])
+        resource_target = resource.getPath()
+        base_path = resource.getBasePath()
+        msg = 'DEBUG: Will download resource %s with target %s to location %s.' \
+              % (resource_url, resource_target, base_path)
+        ResourceDownloader._logger.info(msg)
+        
+        self._rh.ensurePathExists(base_path)
+        
+        args = [resource_type, resource_url, resource_target]
+        
+        duplicate_found = False
+        if not duplicate_found:
+            for dedup_args in ResourceDownloader._resources:
+                if dedup_args[2] == args[2]:
+                    duplicate_found = True
+                    break
+        if not duplicate_found:
+            for dedup_args in ResourceDownloader._downloadedResources:
+                if dedup_args[2] == args[2]:
+                    duplicate_found = True
+                    break
+        if not duplicate_found:
+            ResourceDownloader._resources.append(args)
+        
+        time_since_last_download = time.time() - self.last_download_timestamp 
+        # download 300 files in parallel or how many ever we have every minute 
+        if len(ResourceDownloader._resources) <= 300 and time_since_last_download <= 60:
+            return
+        
+        resources_tmp = ResourceDownloader._resources
+        ResourceDownloader._resources = []
+        ResourceDownloader._downloadedResources = ResourceDownloader._downloadedResources + resources_tmp
+        self.last_download_timestamp = time.time()
+        self._tdr.run_parallel_in_threads(_download, resources_tmp)
+
+def _download(resource_type, resource_url, resource_target):
+    """Does the actual downloading."""
+    _hl2 = httplib2.Http(cache=".cache", timeout=5)
+    _logger = LoggerFactory().getLogger('_download')
+    try:
+        resp, content = _hl2.request(resource_url)
+        if  resp.fromcache:
+            msg = "Cache contained a current version of %s %s." % (resource_type, resource_url)
+            _logger.info(msg)
+        else:
+            msg = "Downloaded %s from %s to %s." % (resource_type, resource_url, resource_target)
+            _logger.info(msg)
+            with open(resource_target, 'w') as f:
+                content = Decoder().decode(content)
+                f.write(content)
+    except (AttributeError, IOError, TypeError, UnicodeError, ValueError, \
+            http.client.IncompleteRead, http.client.InvalidURL, http.client.BadStatusLine, \
+            httplib2.RelativeURIError, httplib2.RedirectLimit, \
+            httplib2.ServerNotFoundError) as e:
+        # TODO actually do some error handling here
+        print(e)
+        #pass
+
+
+class Threader:
+    """Spawns a thread to execute target for each args"""
+    def __init__(self):
+        pass
+    
+    def run_parallel_in_threads(self, target, args_list):
+        """Runs a target method in multiple threads in parallel."""
+        
+        # deduplication
+        # http://stackoverflow.com/a/1143432
+        args_list = dict((x[0], x) for x in args_list).values()
+        
+        result = queue.Queue()
+        # wrapper to collect return value in a Queue
+        def task_wrapper(*args):
+            """I do not understand this.""" #TODO
+            result.put(target(*args))
+        threads = [threading.Thread(target=task_wrapper, args=args) for args in args_list]
+        for thread in threads:
+            thread.start()
+        for thread in threads:
+            thread.join()
+        return result
