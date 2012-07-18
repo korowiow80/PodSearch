@@ -1,18 +1,24 @@
 # -*- coding: utf-8 -*-
 
 import time
+import socket
 import xml.parsers.expat
 
 import sunburnt
 
-import PathTool
-import FeedDictFactory
+from Resource.ResourceHelper import ResourceHelper
+from Util.PathTool import PathTool
+from Digester.FeedDictFactory import FeedDictFactory
 
 # create a connection to a solr server
-solr = sunburnt.SolrInterface("http://localhost:8983/solr/")
+try:
+    solr = sunburnt.SolrInterface("http://localhost:8983/solr/")
+except socket.error as e:
+    print(e, "Is Solr started?")
 
 _pt = PathTool.PathTool()
-feeds = _pt.getFeedPaths()
+_rh = ResourceHelper()
+feeds = _rh.getAllFeedPaths()
 for feed in feeds:
     
     if not _pt.checkFeedPath(feed):

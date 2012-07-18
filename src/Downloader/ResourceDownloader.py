@@ -60,8 +60,8 @@ class ResourceDownloader:
             ResourceDownloader._resources.append(args)
         
         time_since_last_download = time.time() - self.last_download_timestamp 
-        # download 300 files in parallel or how many ever we have every minute 
-        if len(ResourceDownloader._resources) <= 300 and time_since_last_download <= 60:
+        # download 300 files in parallel or how many ever we have every minute
+        if len(ResourceDownloader._resources) <= 1000 and time_since_last_download <= 60: # TODO
             return
         
         resources_tmp = ResourceDownloader._resources

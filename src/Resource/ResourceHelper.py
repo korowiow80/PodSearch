@@ -4,11 +4,14 @@ import errno
 import os
 
 from Util.LoggerFactory.LoggerFactory import LoggerFactory
-
+from Util.PathTool import PathTool
+from Resource.ResourceChecker import ResourceChecker
 
 class ResourceHelper:
     
     _logger = LoggerFactory().getLogger('RessourceHelper')
+    _pt = PathTool.PathTool()
+    _rc = ResourceChecker()
     
     def __init__(self):
         pass
@@ -32,4 +35,15 @@ class ResourceHelper:
         """Substitutes all space literals (' ', '\n', '\t' etc.) with nothing."""
         filename = ' '.join(filename.split())
         return filename
+    
+    def getAllFeedPaths(self):
+        """Gathers all feed paths"""
+        feedsPath = self._pt.getFeedsPath()
+        relativeFeedFilePaths = []
+        for root, dirs, files in os.walk(feedsPath):
+            for filePath in files:
+                relativePath = os.path.join(root, filePath)
+                if self._rc.checkLocalResource(relativePath, 'feed'):
+                    relativeFeedFilePaths.append(relativePath)
+        return relativeFeedFilePaths
 

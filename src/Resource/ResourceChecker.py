@@ -9,13 +9,19 @@ from Util.LoggerFactory.LoggerFactory import LoggerFactory
 
 class ResourceChecker:
     
-    _logger = LoggerFactory().getLogger('ResourceChcker')
+    _logger = LoggerFactory().getLogger('ResourceChecker')
     
     # really valid is only 'application/rss+xml'.
     # see http://stackoverflow.com/questions/595616/what-is-the-correct-mime-type-to-use-for-an-rss-feed
+    # not quite right, anything non-toxic
+    acceptedFeedMimeTypes = ['text/html', # test for HTML later
+                            'text/plain',
+                            'text/x-php', # test for php later
+                            'text/x-c++'] # test for c++ later
+    # not quite wrong
     validFeedMimeTypes = ['application/rss+xml',
                           'application/xml',
-                          'text/xml']
+                          'text/xml'] + acceptedFeedMimeTypes
     
     def __init__(self):
         self._pt = PathTool.PathTool()
@@ -103,35 +109,39 @@ class ResourceChecker:
     
     def _checkLocalFeed(self, feedPath):
         """Checks a path of a feed for sanity."""
+        
+        # from cheapest to most expensive
         if os.path.isdir(feedPath):
-            return False
-        if self._checkLocalFeedHtml(feedPath):
             return False
         if self._checkLocalFeedMimeType(feedPath):
             return True
         if self._checkLocalFeedMagic(feedPath):
             return True
-        return False
-
-    def _checkLocalFeedMagic(self, feedPath):
-        """Checks the mimetype of a given local file."""
-        mimetype = magic.from_file(feedPath.encode('utf-8'), mime=True)
-        mimetype = mimetype.decode()
-        print(mimetype)
-        mimetype = str(mimetype).split('; ')
-        mimetype = mimetype[0]
-        if mimetype in self.validFeedMimeTypes:
-            return True
+        if self._checkLocalFeedBadHeadAndTail(feedPath):
+            return False
+        #TODO check for binary
         return False
     
     def _checkRemoteFeedMimeType(self, filename):
         return self._checkLocalFeedMimeType(filename)
     
     def _checkLocalFeedMimeType(self, filename):
-        """Checks mimetype by filename."""
+        """Checks mimetype of a given file by looking at its filename."""
         mimetype, encoding = mimetypes.guess_type(filename, strict=False)
         if mimetype in self.validFeedMimeTypes:
             return True
+        return False
+
+    def _checkLocalFeedMagic(self, feedPath):
+        """Checks the mimetype of a given local file by looking at the file header."""
+        mimetype = magic.from_file(feedPath.encode('utf-8'), mime=True)
+        mimetype = mimetype.decode()
+        mimetype = str(mimetype).split('; ')
+        mimetype = mimetype[0]
+        if mimetype in self.validFeedMimeTypes:
+            return True
+        msg = "Skipping %s %s." % (mimetype, feedPath)
+        ResourceChecker._logger.warn(msg)
         return False
     
     def _checkRemoteImageMimeType(self, filename):
@@ -144,8 +154,11 @@ class ResourceChecker:
             return True
         return False
     
-    def _checkLocalFeedHtml(self, feedPath):
+    def _checkLocalFeedBadHeadAndTail(self, feedPath):
         """Checks for a feed given by path to be a html file."""
+        
+        bad_heads = ['<html>', '<?php', '#include']
+        bad_tails = ['</html>', '?>', '}']
         
         with open(feedPath, 'rb') as feed:
             feed = feed.read()
@@ -157,17 +170,11 @@ class ResourceChecker:
                 except UnicodeDecodeError:
                     raise
             feed = ' '.join(feed.split())
-        if feed.startswith("<html>") or feed.endswith("</html>"):
-            return True
+
+        for head in bad_heads:
+            if feed.startswith(head):
+                return True
+        for tail in bad_tails:
+            if feed.startswith(tail):
+                return True
         return False
-    
-    def getAllFeedPaths(self):
-        """Gathers all feed paths"""
-        feedsPath = self._pt.getFeedsPath()
-        relativeFeedFilePaths = []
-        for root, dirs, files in os.walk(feedsPath):
-            for filePath in files:
-                relativePath = os.path.join(root, filePath)
-                if self._checkLocalFeed(relativePath):
-                    relativeFeedFilePaths.append(relativePath)
-        return relativeFeedFilePaths
