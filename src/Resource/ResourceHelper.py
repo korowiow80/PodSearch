@@ -45,5 +45,7 @@ class ResourceHelper:
                 relativePath = os.path.join(root, filePath)
                 if self._rc.checkLocalResource(relativePath, 'feed'):
                     relativeFeedFilePaths.append(relativePath)
+            if '/me/' in root:
+                break
         return relativeFeedFilePaths
 

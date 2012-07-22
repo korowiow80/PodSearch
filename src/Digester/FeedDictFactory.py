@@ -1,5 +1,6 @@
 #import xml.dom.minidom
 import subprocess
+import sys
 import json
 
 from bs4 import BeautifulSoup
@@ -16,10 +17,10 @@ class FeedDictFactory:
     def _parseFeed(self, feedPath):
         #output = subprocess.check_output(['ls', '-1'])
         #output = subprocess.check_output(['python', './FeedParserCli.py'])
-        proc = subprocess.Popen(['python', 'FeedParserCli.py'],
+        proc = subprocess.Popen([sys.executable, '../Digester/FeedParserCli.py'],
                         stdin=subprocess.PIPE,
-                        stdout=subprocess.PIPE,
-                        )
+                        stdout=subprocess.PIPE)
+        feedPath = feedPath.encode()
         stdout_value = proc.communicate(feedPath)[0]
         output = stdout_value
         
@@ -29,12 +30,15 @@ class FeedDictFactory:
         
         print(("Parsing:", feedPath))
         serializedFeed = self._parseFeed(feedPath)
-        if not serializedFeed or str(serializedFeed) == "'null'":
+        if not serializedFeed or str(serializedFeed) == "'null'" or len(serializedFeed) == 4:
+            print('Parsing failed.')
             return
-        print("Parsed.")
+        print("Parsing succeeded.")
+        
+        serializedFeed = serializedFeed.decode("utf-8")
 
-        print(("Deserializing:", serializedFeed))
+        print(("Deserializing."))
         deserializedFeed = json.loads(serializedFeed)
-        print("Deserialized.")
+        print("Deserializing succeeded for with %s fields." % len(deserializedFeed))
         
         return deserializedFeed

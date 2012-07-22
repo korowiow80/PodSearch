@@ -1,9 +1,12 @@
 import os
 import posixpath
 import tldextract
-import urllib.request, urllib.parse, urllib.error
+import urllib
+import urllib2
+import urlparse
 
-from Util.PathTool import PathTool
+import PathTool
+from os import path
 
 
 class Resource:
@@ -39,14 +42,17 @@ class Resource:
             self._setImagePath()
 
     def _setId(self):
-        """The id of a resource is its path relative to the corresponding
+        """The id of a resource is its id relative to the corresponding
         resource directory."""
-        path = self.getPath()
-        while path.startswith('../'):
-            path = path[3:]
+        id = self.getPath()
+
+        id = id.lstrip('/.')
+        while id.startswith('static/2-Feeds/'):
+            id = id[len('static/2-Feeds/'):]
+            id = id.lstrip('/.')
         
-        if path.startswith('static/2-Feeds/'):
-            path = path[len('static/2-Feeds/'):]
+        id = id.rstrip('./')    # just to be sure
+        
         self._id = id
     
     def _setDirectoryPath(self):
@@ -91,7 +97,7 @@ class Resource:
 
     def getBaseUrl(self):
         """Derives the baseUrl from a given url."""
-        o = urllib.parse.urlparse(self._url)
+        o = urlparse.urlparse(self._url)
         baseUrl = o.scheme + '://' + o.netloc
         return baseUrl
 

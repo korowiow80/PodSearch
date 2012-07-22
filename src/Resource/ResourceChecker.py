@@ -117,8 +117,8 @@ class ResourceChecker:
             return True
         if self._checkLocalFeedMagic(feedPath):
             return True
-        if self._checkLocalFeedBadHeadAndTail(feedPath):
-            return False
+        #if self._checkLocalFeedBadHeadAndTail(feedPath):
+            #return False
         #TODO check for binary
         return False
     

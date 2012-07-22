@@ -5,7 +5,7 @@ from scrapy.selector import HtmlXPathSelector
 from Scrapy.items import PodcastFeedItem
 
 from Resource.Resource import Resource
-from Resource.PathTool import PathTool
+from Util.PathTool.PathTool import PathTool
 
 
 class PodfeedNet(BaseSpider):
