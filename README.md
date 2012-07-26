@@ -25,25 +25,43 @@ These additional requirements for scrapy need to be installed first:
     sudo yum install python python-pip
     sudo pip-python install --upgrade feedparser scrapy tldextract pytz
 
-Installing Feedparser
+Installing dependcies
 ---------------------
 
-To install feedparser python3-setuptools is needed:
-
-    sudo yum install python3-setuptools
+feedparser, chardet, httplib2
     
-Additionally, sgmllib needs to be in the `PYTHONPATH`
+    sudo yum install python3-chardet python3-feedparser python3-httplib2
 
-    sudo yum install python2.7
-    sudo cp /usr/lib64/python2.7/sgmllib.py /usr/lib64/python3.2/sgmllib.py
-    sudo 2to3 -w /usr/lib64/python3.2/sgmllib.py
-    
-To actually install feedparser
+beautifulsoup
 
-    wget http://feedparser.googlecode.com/files/feedparser-5.1.2.tar.bz2
-    tar -xvf feedparser-5.1.2.tar.bz2
-    sudo python3.2 ./setup.py install
+    wget http://www.crummy.com/software/BeautifulSoup/bs4/download/4.1/beautifulsoup4-4.1.1.tar.gz
+    tar -xvf beautifulsoup4-4.1.1.tar.gz 
+    cd beautifulsoup4-4.1.1
+    sudo python3.2 setup.py install
 
+python3-lxml
+
+    sudo yum install python3-lxml
+
+python-magic
+ 
+    wget http://pypi.python.org/packages/source/p/python-magic/python-magic-0.4.2.tar.gz#md5=7266bf9d79ba2dc8ecc85764aeb45afd
+    tar -xvf python-magic-0.4.2.tar.gz
+    cd python-magic-0.4.2
+    sudo python3.2 setup.py install
+
+tldextract
+
+    wget http://pypi.python.org/packages/source/t/tldextract/tldextract-1.1.tar.gz#md5=f317536f8924beb5cb0d0b0fe02e144b
+    tar -xvf tldextract-1.1.tar.gz
+    cd tldextract-1.1
+    2to3 -w .
+    sudo python3.2 setup.py install
+
+scrapy
+
+    wget 
+         
 Installing Dependencies on Ubuntu Linux
 ---------------------------------------
 
