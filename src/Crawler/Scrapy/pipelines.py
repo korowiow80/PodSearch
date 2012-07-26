@@ -3,28 +3,17 @@
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: http://doc.scrapy.org/topics/item-pipeline.html
 
-from scrapy.xlib.pydispatch import dispatcher
-from scrapy import signals
-from scrapy.contrib.exporter import JsonItemExporter # TODO use JsonLinesItemExporter
 
 class FeedListPipeline(object):
 
     def __init__ (self):
-        dispatcher.connect(self.spider_opened, signals.spider_opened)
-        dispatcher.connect(self.spider_closed, signals.spider_closed)
-        self.files = {}
+        pass
 
     def spider_opened(self, spider):
-        f = open(spider.feed_list_path, 'w+b')
-        self.files[spider] = f
-        self.exporter = JsonItemExporter(f)
-        self.exporter.start_exporting()
-        
+        pass
+    
     def process_item(self, item, spider):
-        self.exporter.export_item(item)
-        return item
+        pass
     
     def spider_closed(self, spider):
-        self.exporter.finish_exporting()
-        f = self.files.pop(spider)
-        f.close()
+        pass

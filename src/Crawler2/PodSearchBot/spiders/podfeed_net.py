@@ -1,23 +1,23 @@
-from scrapy.spider import BaseSpider
-from scrapy.http import Request
 from scrapy.selector import HtmlXPathSelector
+from scrapy.contrib.spiders import CrawlSpider
+from scrapy.http import Request
 
-from Scrapy.items import PodSearchBotItem
+from PodSearchBot.items import PodSearchBotItem
 
-from Resource.Resource import Resource
-from Util.PathTool.PathTool import PathTool
+from Resource import Resource
+from PathTool import PathTool
 
 
-class PodfeedNet(BaseSpider):
+class Podfeed_net(CrawlSpider):
+    allowed_domains = ['podfeed.net']                       # public for scrapy
+    start_urls = ['http://www.podfeed.net/site_map.asp']    # public for scrapy
     
-    start_urls = ["http://www.podfeed.net/site_map.asp"]    # public for scrapy
-
-    _pt = PathTool()
+    _pt = PathTool.PathTool()
 
     _url = Resource(start_urls[0], "directory")
     _baseUrl = _url.getBaseUrl()
     name = _url.getSpiderName()                             # public for scrapy
-    feed_list_path = _url.getPath()                         # public for scrapy
+    feed_list_path = _url.getPath()                        # public for scrapy
 
     links = []
 
@@ -28,7 +28,7 @@ class PodfeedNet(BaseSpider):
         for sitemap_page_url in sitemap_page_urls:
             resource = Resource(self._baseUrl + sitemap_page_url, "directory")
             url = resource.getAbsoluteUrl()
-            yield Request(url, callback=self.parse_sitemap_page)           
+            yield Request(url, callback=self.parse_sitemap_page)
 
     def parse_sitemap_page(self, response):
         hxs = HtmlXPathSelector(response)

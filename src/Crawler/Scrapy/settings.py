@@ -6,18 +6,26 @@
 #     http://doc.scrapy.org/topics/settings.html
 #
 
-BOT_NAME = 'Scrapy'
+BOT_NAME = 'PodSearchBot'
 BOT_VERSION = '1.0'
 
+DOWNLOADER_MIDDLEWARES = {
+    ' scrapy.contrib.downloadermiddleware.httpcache.HttpCacheMiddleware':543,
+}
 DNSCACHE_ENABLED = True
 
-EXTENSIONS =  {
+EXTENSIONS = {
       'scrapy.contrib.logstats.LogStats':500,
 }
-ITEM_PIPELINES = [
-    'Scrapy.pipelines.FeedListPipeline'
-]
 
-SPIDER_MODULES = ['Scrapy.spiders']
-NEWSPIDER_MODULE = 'Scrapy.spiders'
+HTTPCACHE_ENABLED = True
+HTTPCACHE_DIR = ".scrapyCache"
+HTTPCACHE_IGNORE_MISSING = True
+
+ITEM_PIPELINES = ['Crawler.Scrapy.pipelines.FeedListPipeline']
+
+NEWSPIDER_MODULE = 'Crawler.Scrapy.spiders'
+
+SPIDER_MODULES = ['Crawler.Scrapy.spiders']
+
 USER_AGENT = '%s/%s' % (BOT_NAME, BOT_VERSION)

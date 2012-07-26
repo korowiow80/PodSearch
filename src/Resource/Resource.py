@@ -5,7 +5,7 @@ import urllib
 import urllib2
 import urlparse
 
-import PathTool
+from PathTool import PathTool
 from os import path
 
 
@@ -66,8 +66,8 @@ class Resource:
         """Derives the path of a feedlist from a given url."""
         domain = self.getDomain()
         feedListsPath = self._pt.getFeedListsPath()
-        feedListsPath = feedListsPath[3:] # somehow we need to go up one level for the crawlers
-        feedListPath = feedListsPath + domain + ".json"
+        #feedListsPath = feedListsPath[3:] # somehow we need to go up one level for the crawlers
+        feedListPath = feedListsPath + domain + ".txt"
         self._path = feedListPath
 
     def _setFeedPath(self):
