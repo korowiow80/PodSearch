@@ -6,7 +6,7 @@ from scrapy.http import Request
 
 from PodSearchBot.items import PodsearchbotItem
 from Resource.Resource import Resource
-from PathTool import PathTool
+from Util.PathTool.PathTool import PathTool
 
 
 class Fluctu8_com(CrawlSpider):
@@ -23,7 +23,7 @@ class Fluctu8_com(CrawlSpider):
                   'http://www.fluctu8.com/sitemap/index-map-8.html',
                   'http://www.fluctu8.com/sitemap/index-map-9.html']
     
-    _pt = PathTool.PathTool()
+    _pt = PathTool()
 
     _url = Resource(start_urls[0], "directory")
     _baseUrl = _url.getBaseUrl()

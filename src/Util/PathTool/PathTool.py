@@ -1,4 +1,4 @@
-from LoggerFactory.LoggerFactory import LoggerFactory
+from Util.LoggerFactory.LoggerFactory import LoggerFactory
 
 
 class PathTool:

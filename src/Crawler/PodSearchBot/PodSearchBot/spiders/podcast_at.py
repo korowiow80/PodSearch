@@ -7,7 +7,7 @@ import httplib2
 
 from PodSearchBot.items import PodsearchbotItem
 
-from PathTool import PathTool
+from Util.PathTool.PathTool import PathTool
 from Resource.Resource import Resource
 
 
@@ -15,7 +15,7 @@ class Podcast_at(CrawlSpider):
 
     start_urls = ["http://www.podcast.at/podcasts.html"]    # public for scrapy
     
-    _pt = PathTool.PathTool()
+    _pt = PathTool()
 
     _url = Resource(start_urls[0], "directory")
     _baseUrl = _url.getBaseUrl()

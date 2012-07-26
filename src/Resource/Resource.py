@@ -2,10 +2,9 @@ import os
 import posixpath
 import tldextract
 import urllib
-import urllib2
 import urlparse
 
-from PathTool import PathTool
+from Util.PathTool.PathTool import PathTool
 from os import path
 
 
@@ -13,7 +12,7 @@ class Resource:
     """Represents both an URL of a resource on a remote file system and a
     corresponding path to the local representation."""
 
-    _pt = PathTool.PathTool()
+    _pt = PathTool()
 
     def __init__(self, url, resource_type):
         self._url = ''
@@ -105,7 +104,8 @@ class Resource:
         """Extracts the full and the top-level domain from a given URL.
         By our convention, we skip the sub-domain, if it is 'www'."""
         extract = tldextract.extract(self._url)
-        if extract.subdomain and extract.subdomain != 'www':
+        if extract.subdomain and extract.subdomain != 'www' and \
+                extract.subdomain != 'api':
             domain = ".".join(extract)
         else:
             domain = ".".join(extract[1:])

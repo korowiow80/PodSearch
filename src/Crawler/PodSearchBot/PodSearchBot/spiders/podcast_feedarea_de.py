@@ -6,7 +6,7 @@ from scrapy.http import Request
 from scrapy.selector import HtmlXPathSelector
 
 from PodSearchBot.items import PodsearchbotItem
-from PathTool import PathTool
+from Util.PathTool.PathTool import PathTool
 from Resource.Resource import Resource
 
 
@@ -14,7 +14,7 @@ class Podcast_feedarea_de(CrawlSpider):
 
     start_urls = ["http://podcast.feedarea.de/latest_podcasts_1.html"]    # public for scrapy
     
-    _pt = PathTool.PathTool()
+    _pt = PathTool()
 
     _url = Resource(start_urls[0], "directory")
     _baseUrl = _url.getBaseUrl()

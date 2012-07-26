@@ -5,14 +5,14 @@ from scrapy.http import Request
 from PodSearchBot.items import PodsearchbotItem
 
 from Resource.Resource import Resource
-from PathTool import PathTool
+from Util.PathTool.PathTool import PathTool
 
 
 class Podfeed_net(CrawlSpider):
     allowed_domains = ['podfeed.net']                       # public for scrapy
     start_urls = ['http://www.podfeed.net/site_map.asp']    # public for scrapy
     
-    _pt = PathTool.PathTool()
+    _pt = PathTool()
 
     _url = Resource(start_urls[0], "directory")
     _baseUrl = _url.getBaseUrl()
