@@ -9,7 +9,7 @@ from Resource.Resource import Resource
 
 class Digitalpodcast_com(CrawlSpider):
 
-    start_urls = ["http://api.digitalpodcast.com/opml/digitalpodcastalpha.opml"]    # public for scrapy
+    start_urls = ["http://www.digitalpodcast.com/opml/digitalpodcast.opml"]    # public for scrapy
     
     _pt = PathTool()
 
@@ -23,7 +23,6 @@ class Digitalpodcast_com(CrawlSpider):
         #podcast_urls_xpath = "/opml/body/outline/outline/@url"
         podcast_urls_xpath = "//outline/@url"
         links = hxs.select(podcast_urls_xpath).extract()
-        print links
         for link in links:
             if link.startswith('/'):
                 link = self._baseUrl + link
