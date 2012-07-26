@@ -5,10 +5,10 @@ from scrapy.http import Request
 from scrapy.selector import HtmlXPathSelector
 import httplib2
 
-from PodSearchBot.items import PodSearchBotItem
+from PodSearchBot.items import PodsearchbotItem
 
-from Resource import PathTool
-from Resource import Resource
+from PathTool import PathTool
+from Resource.Resource import Resource
 
 
 class Podcast_at(CrawlSpider):
@@ -20,7 +20,7 @@ class Podcast_at(CrawlSpider):
     _url = Resource(start_urls[0], "directory")
     _baseUrl = _url.getBaseUrl()
     name = _url.getSpiderName()                             # public for scrapy
-    feed_list_path = _url.getPath()                         # public for scrapy
+    feed_list_path = '../' + _url.getPath()                 # public for scrapy
 
     def parse(self, response):
         hxs = HtmlXPathSelector(response)
@@ -42,7 +42,7 @@ class Podcast_at(CrawlSpider):
 
     def parse_podcast_page(self, response):
         hxs = HtmlXPathSelector(response)      
-        item = PodSearchBotItem()
+        item = PodsearchbotItem()
 
         podcast_url_xpath = "/html/body/div[@class='container_20']/div[@id='teasertitle']/div[@class='teasertitle']/a/@href"
         link = hxs.select(podcast_url_xpath).extract()[0]
@@ -59,7 +59,7 @@ class Podcast_at(CrawlSpider):
 
     def getContentLocation(self, link):
         try:
-            h = httplib2.Http(".cache")
+            h = httplib2.Http(".cache", disable_ssl_certificate_validation=True)
             h.follow_all_redirects = True
             resp = h.request(link, "GET")[0]
             contentLocation = resp['content-location']

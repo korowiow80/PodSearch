@@ -4,8 +4,8 @@ from scrapy.selector import HtmlXPathSelector
 from scrapy.contrib.spiders import CrawlSpider
 from scrapy.http import Request
 
-from PodSearchBot.items import PodSearchBotItem
-from Resource import Resource
+from PodSearchBot.items import PodsearchbotItem
+from Resource.Resource import Resource
 from PathTool import PathTool
 
 
@@ -28,7 +28,7 @@ class Fluctu8_com(CrawlSpider):
     _url = Resource(start_urls[0], "directory")
     _baseUrl = _url.getBaseUrl()
     name = _url.getSpiderName()                             # public for scrapy
-    feed_list_path = _url.getPath()                         # public for scrapy
+    feed_list_path = '../' + _url.getPath()                 # public for scrapy
 
     links = []
 
@@ -55,7 +55,7 @@ class Fluctu8_com(CrawlSpider):
         podcast_url_xpath = "//table[@class='entry']//tr[1]/td/a[1]/@href"
         podcast_link = hxs.select(podcast_url_xpath).extract()
         try:
-            item = PodSearchBotItem()
+            item = PodsearchbotItem()
             item['link'] = podcast_link[1]
         except exceptions.IndexError:
             return

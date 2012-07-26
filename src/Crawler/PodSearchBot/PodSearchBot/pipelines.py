@@ -10,8 +10,7 @@ from scrapy.xlib.pydispatch import dispatcher
 from scrapy import signals
 
 
-class PodSearchBotPipeline(object):
-
+class PodsearchbotPipeline(object):
     def __init__ (self):
         dispatcher.connect(self.spider_opened, signals.spider_opened)
         dispatcher.connect(self.spider_closed, signals.spider_closed)

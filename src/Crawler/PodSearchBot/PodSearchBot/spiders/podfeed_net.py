@@ -2,9 +2,9 @@ from scrapy.selector import HtmlXPathSelector
 from scrapy.contrib.spiders import CrawlSpider
 from scrapy.http import Request
 
-from PodSearchBot.items import PodSearchBotItem
+from PodSearchBot.items import PodsearchbotItem
 
-from Resource import Resource
+from Resource.Resource import Resource
 from PathTool import PathTool
 
 
@@ -17,7 +17,7 @@ class Podfeed_net(CrawlSpider):
     _url = Resource(start_urls[0], "directory")
     _baseUrl = _url.getBaseUrl()
     name = _url.getSpiderName()                             # public for scrapy
-    feed_list_path = _url.getPath()                        # public for scrapy
+    feed_list_path = '../' + _url.getPath()                 # public for scrapy
 
     links = []
 
@@ -46,6 +46,6 @@ class Podfeed_net(CrawlSpider):
             return
         if podcast_link[0] == "#":
             return 
-        item = PodSearchBotItem()
+        item = PodsearchbotItem()
         item['link'] = podcast_link[0]
         yield item

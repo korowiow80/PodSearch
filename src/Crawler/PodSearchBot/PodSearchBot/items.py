@@ -5,5 +5,5 @@
 
 from scrapy.item import Item, Field
 
-class PodSearchBotItem(Item):
+class PodsearchbotItem(Item):
     link = Field()

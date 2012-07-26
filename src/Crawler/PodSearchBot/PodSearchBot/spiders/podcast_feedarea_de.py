@@ -5,9 +5,9 @@ from scrapy.contrib.spiders import CrawlSpider
 from scrapy.http import Request
 from scrapy.selector import HtmlXPathSelector
 
-from PodSearchBot.items import PodSearchBotItem
-from Resource import PathTool
-from Resource import Resource
+from PodSearchBot.items import PodsearchbotItem
+from PathTool import PathTool
+from Resource.Resource import Resource
 
 
 class Podcast_feedarea_de(CrawlSpider):
@@ -19,7 +19,7 @@ class Podcast_feedarea_de(CrawlSpider):
     _url = Resource(start_urls[0], "directory")
     _baseUrl = _url.getBaseUrl()
     name = _url.getSpiderName()                             # public for scrapy
-    feed_list_path = _url.getPath()                         # public for scrapy
+    feed_list_path = '../' + _url.getPath()                 # public for scrapy
 
     def parse(self, response):
         hxs = HtmlXPathSelector(response)
@@ -42,7 +42,7 @@ class Podcast_feedarea_de(CrawlSpider):
 
     def parse_podcast_page(self, response):
         hxs = HtmlXPathSelector(response)      
-        item = PodSearchBotItem()
+        item = PodsearchbotItem()
 
         podcast_url_xpath = "//td[@class='feed_headbox'][1]/h1[@class='feed_head']/a/@href"
         link = hxs.select(podcast_url_xpath).extract()[0]
@@ -61,7 +61,7 @@ class Podcast_feedarea_de(CrawlSpider):
         try:
             cacheDir = ".cache"
             timeoutSecs = 5
-            h = httplib2.Http(cacheDir, timeoutSecs)
+            h = httplib2.Http(cacheDir, timeoutSecs, disable_ssl_certificate_validation=True)
             h.follow_all_redirects = True
             resp = h.request(link, "GET")[0]
             contentLocation = resp['content-location']

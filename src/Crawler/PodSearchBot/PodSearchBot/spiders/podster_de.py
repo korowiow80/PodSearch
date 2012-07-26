@@ -1,23 +1,23 @@
-from scrapy.spider import BaseSpider
+from scrapy.contrib.spiders import CrawlSpider
 from scrapy.http import Request
 from scrapy.selector import HtmlXPathSelector
 
-from Scrapy.items import PodSearchBotItem
+from PodSearchBot.items import PodsearchbotItem
 
-from Resource.PathTool import PathTool
+from PathTool import PathTool
 from Resource.Resource import Resource
 
 
-class PodsterDe(BaseSpider):
+class Podster_de(CrawlSpider):
 
     start_urls = ["http://podster.de/tag/system:all"]       # public for scrapy
     
-    _pt = PathTool()
+    _pt = PathTool.PathTool()
 
     _url = Resource(start_urls[0], "directory")
     _baseUrl = _url.getBaseUrl()
     name = _url.getSpiderName()                             # public for scrapy
-    feed_list_path = _url.getPath()                         # public for scrapy
+    feed_list_path = '../' + _url.getPath()                 # public for scrapy
 
     def parse(self, response):
         hxs = HtmlXPathSelector(response)
@@ -35,7 +35,7 @@ class PodsterDe(BaseSpider):
 
     def parse_podcast_page(self, response):
         hxs = HtmlXPathSelector(response)      
-        item = PodSearchBotItem()
+        item = PodsearchbotItem()
 
         try:
             podcast_url_xpath = "//div[@id='content']//a[5]/@href"
