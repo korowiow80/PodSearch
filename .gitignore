@@ -82,3 +82,4 @@ static/3-Index
 /src/Retrieval/Downloader/Feeds/.cache/
 /static/
 /static/*
+*.pid
