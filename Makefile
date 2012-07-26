@@ -1,25 +1,39 @@
-ake all: Retrieval_all Search_all
+all: Retrieval_all Search_all
 
+retrieve_all: crawl_all download_all
 
-Retrieval_all: Scrapy_all Downloader_all
+start_scrapyd:
+	cd src/Crawler/PodSearchBot && PYTHONPATH=:../../ scrapy server --logfile=scrapyd.log --pidfile=scrapyd.pid &
+stop_scrapyd:
+	kill `cat src/Crawler/PodSearchBot/scrapyd.pid`
 
-Scrapy_all: Scrapy_Podfeed_net Scrapy_Podster_de
-Scrapy_Podfeed_net:
-	cd src/Retrieval/Crawler && scrapy crawl Podfeed_net
-Scrapy_Podster_de:
-	cd src/Retrieval/Crawler && scrapy crawl Podster_de
+crawl_all: Scrapy_Podfeed_net Scrapy_Podster_de
 
-Downloader_all: FeedDownloader ImageDownloader
+crawl_digitalpodcast_com:
+	curl http://localhost:6800/schedule.json -d project=default -d spider=Digitalpodcast_com
+crawl_fluctu8_com:
+	curl http://localhost:6800/schedule.json -d project=default -d spider=Fluctu8_com
+crawl_podcast_at:
+	curl http://localhost:6800/schedule.json -d project=default -d spider=Podcast_at
+crawl_podcast_feedarea_de:
+	curl http://localhost:6800/schedule.json -d project=default -d spider=Podcast_feedarea_de
+crawl_podster_de:
+	curl http://localhost:6800/schedule.json -d project=default -d spider=Podster_de
+crawl_podfeed_net:
+	curl http://localhost:6800/schedule.json -d project=default -d spider=Podfeed_net
+
+download_all: FeedDownloader ImageDownloader
 FeedsDownloaderRunner:
 	export PYTHONPATH=$$PYTHONPATH:`pwd`/src/Retrieval/Crawler:`pwd`/src/Retrieval/LibGatherer:`pwd`/src/Retrieval/Downloader && cd src/Retrieval/Downloader/Feeds/ && python FeedsDownloaderRunner.py
 ImageDownloader:
 	export PYTHONPATH=$$PYTHONPATH:`pwd`/src/Retrieval/Crawler && cd src/Retrieval/Downloader && python ImageDownloader.py
 
+search_all: Search_Solr_Start Search_Indexer
 
-Search_all: Search_Solr_Start Search_Indexer
-Search_Solr_Start:
+start_solr:
 	cd lib/apache-solr-3.6.0/example && java -jar start.jar
-Search_Solr_Empty:
+empty_solr:
 	cd lib/apache-solr-3.6.0/example/exampledocs && java -Ddata=args -jar post.jar "<delete><query>*:*</query></delete>"
-Search_Indexer:
+index_all:
 	export PYTHONPATH=$$PYTHONPATH:`pwd`/src/Search/Indexer2 && cd src/Search/Indexer2 && python SolrClient.py
+
