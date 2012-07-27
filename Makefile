@@ -1,26 +1,41 @@
 all: Retrieval_all Search_all
 
-retrieve_all: crawl_all download_all
+retrieve_all: start_crawl_all download_all
 
 start_scrapyd:
 	cd src/Crawler/PodSearchBot && PYTHONPATH=:../../ scrapy server --logfile=scrapyd.log --pidfile=scrapyd.pid &
 stop_scrapyd:
 	kill `cat src/Crawler/PodSearchBot/scrapyd.pid`
 
-crawl_all: Scrapy_Podfeed_net Scrapy_Podster_de
+start_crawl_all: start_crawl_digitalpodcast_com start_crawl_fluctu8_com start_crawl_podcast_at start_crawl_feedarea_de start_crawl_podster_de start_crawl_podfeed_net
 
-crawl_digitalpodcast_com:
+start_crawl_digitalpodcast_com:
 	curl http://localhost:6800/schedule.json -d project=default -d spider=Digitalpodcast_com
-crawl_fluctu8_com:
+start_crawl_fluctu8_com:
 	curl http://localhost:6800/schedule.json -d project=default -d spider=Fluctu8_com
-crawl_podcast_at:
+start_crawl_podcast_at:
 	curl http://localhost:6800/schedule.json -d project=default -d spider=Podcast_at
-crawl_podcast_feedarea_de:
-	curl http://localhost:6800/schedule.json -d project=default -d spider=Podcast_feedarea_de
-crawl_podster_de:
+start_crawl_feedarea_de:
+	curl http://localhost:6800/schedule.json -d project=default -d spider=Feedarea_de
+start_crawl_podster_de:
 	curl http://localhost:6800/schedule.json -d project=default -d spider=Podster_de
-crawl_podfeed_net:
+start_crawl_podfeed_net:
 	curl http://localhost:6800/schedule.json -d project=default -d spider=Podfeed_net
+
+stop_crawl_all: stop_crawl_digitalpodcast_com stop_crawl_fluctu8_com stop_crawl_podcast_at stop_crawl_feedarea_de stop_crawl_podster_de stop_crawl_podfeed_net
+
+stop_crawl_digitalpodcast_com:
+	curl http://localhost:6800/cancel.json -d project=default -d spider=Digitalpodcast_com
+stop_crawl_fluctu8_com:
+	curl http://localhost:6800/cancel.json -d project=default -d spider=Fluctu8_com
+stop_crawl_podcast_at:
+	curl http://localhost:6800/cancel.json -d project=default -d spider=Podcast_at
+stop_crawl_feedarea_de:
+	curl http://localhost:6800/cancel.json -d project=default -d spider=Feedarea_de
+stop_crawl_podster_de:
+	curl http://localhost:6800/cancel.json -d project=default -d spider=Podster_de
+stop_crawl_podfeed_net:
+	curl http://localhost:6800/cancel.json -d project=default -d spider=Podfeed_net
 
 download_all: FeedDownloader ImageDownloader
 FeedsDownloaderRunner:
