@@ -103,6 +103,11 @@ Running The Presentations
     cd doc/3-Prototype/ && google-chrome *.html &
     cd doc/4-Final_Report/ && google-chrome *.html &
 
+## Running the Crawlers
+
+    make start_scrapyd
+    make start_crawl_all
+
 Running all other Components
 ----------------------------
 
