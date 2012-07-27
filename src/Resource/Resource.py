@@ -105,7 +105,7 @@ class Resource:
         By our convention, we skip the sub-domain, if it is 'www'."""
         extract = tldextract.extract(self._url)
         if extract.subdomain and extract.subdomain != 'www' and \
-                extract.subdomain != 'api':
+                extract.subdomain != 'api' and extract.subdomain != 'podcast':
             domain = ".".join(extract)
         else:
             domain = ".".join(extract[1:])

@@ -46,8 +46,8 @@ class Fluctu8_com(CrawlSpider):
         podcast_page_xpath = "/html/body/a/@href"
         podcast_page_urls = hxs.select(podcast_page_xpath).extract()
         for podcast_page_url in podcast_page_urls:
-            if podcast_page_url == '/sitemap/index.html':
-                continue
+            if podcast_page_url.startswith('/'):
+                podcast_page_url = self._baseUrl + podcast_page_url
             yield Request(podcast_page_url, callback=self.parse_podcast_page)
 
     def parse_podcast_page(self, response):

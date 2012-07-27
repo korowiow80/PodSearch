@@ -1,4 +1,5 @@
 import exceptions
+import httplib
 
 from scrapy.contrib.spiders import CrawlSpider
 from scrapy.http import Request
@@ -9,6 +10,7 @@ from PodSearchBot.items import PodsearchbotItem
 
 from Util.PathTool.PathTool import PathTool
 from Resource.Resource import Resource
+import socket
 
 
 class Podcast_at(CrawlSpider):
@@ -59,11 +61,12 @@ class Podcast_at(CrawlSpider):
 
     def getContentLocation(self, link):
         try:
-            h = httplib2.Http(".cache", disable_ssl_certificate_validation=True)
+            cacheDir = ".cache"
+            timeoutSecs = 5
+            h = httplib2.Http(cacheDir, timeoutSecs, disable_ssl_certificate_validation=True)
             h.follow_all_redirects = True
             resp = h.request(link, "GET")[0]
             contentLocation = resp['content-location']
-        except httplib2.ServerNotFoundError:
-            # httplib2 was unable to find the server
+        except (exceptions.TypeError, socket.error, socket.timeout, httplib.BadStatusLine, httplib2.RelativeURIError, httplib2.ServerNotFoundError):
             return link
         return contentLocation

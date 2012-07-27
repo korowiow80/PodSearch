@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # Define your item pipelines here
 #
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
@@ -15,13 +16,14 @@ class PodsearchbotPipeline(object):
         dispatcher.connect(self.spider_opened, signals.spider_opened)
         dispatcher.connect(self.spider_closed, signals.spider_closed)
         self.links = []
+        self.changeCounter = 0
 
     def spider_opened(self, spider):
         try:
             with open(spider.feed_list_path, 'r') as f:
                 self.links = list(set(f.readlines()))
             # strip newlines, see:  http://stackoverflow.com/a/3849519/906658
-            self.links = map(lambda s: s.strip(), self.links)
+            self.links = map(lambda s: self.removeNonAscii(s.strip()), self.links)
             # empty file
             open(spider.feed_list_path, 'w').close()
         except exceptions.IOError:
@@ -32,19 +34,26 @@ class PodsearchbotPipeline(object):
         link = item['link']
         if link in self.links:
             return link
+        self.changeCounter += 1
         self.links.append(link)
         self.links.sort()
-        self.write(spider.feed_list_path)
+        if self.changeCounter == 100: # or time_since_last_flush >= 30
+            self.flush_pipeline(spider.feed_list_path)
+            self.changeCounter = 0
         return item
     
     def spider_closed(self, spider):
-        self.write(spider.feed_list_path)
+        self.flush_pipeline(spider.feed_list_path)
         #pass
 
-    def write(self, feed_list_path):
+    def flush_pipeline(self, feed_list_path):
         # empty file
         open(feed_list_path, 'w').close()
-        # write feedlist to file 
+        # flush_pipeline feedlist to file 
         with open(feed_list_path, 'w') as f:
             for linkToWrite in self.links:
                 f.write(linkToWrite.encode('utf-8') + os.linesep)
+
+    def removeNonAscii(self, s):
+        return "".join(i for i in s if ord(i) < 128)
+
