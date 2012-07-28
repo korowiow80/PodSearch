@@ -78,8 +78,9 @@ nosetests.xml
 
 static/3-Index
 *.*~
-/src/Retrieval/Downloader/.cache/
-/src/Retrieval/Downloader/Feeds/.cache/
+/cache/
 /static/
 /static/*
 *.pid
+/src/Crawler/PodSearchBot/scrapyd.pid
+src/Crawler/PodSearchBot/scrapyd.pid
