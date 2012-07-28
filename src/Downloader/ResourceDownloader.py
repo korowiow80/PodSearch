@@ -72,7 +72,13 @@ class ResourceDownloader:
 
 def _download(resource_type, resource_url, resource_target):
     """Does the actual downloading."""
-    _hl2 = httplib2.Http(cache=".cache", timeout=5)
+    if resource_type == 'feed':
+        _hl2 = httplib2.Http(cache="../../cache/httplib2/feed", timeout=5)
+    if resource_type == '':
+        _hl2 = httplib2.Http(cache="../../cache/httplib2/image", timeout=5)
+    if not _hl2:
+        print resource_type
+        raise # not yet implemented
     _logger = LoggerFactory().getLogger('_download')
     try:
         resp, content = _hl2.request(resource_url)

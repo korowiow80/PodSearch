@@ -61,7 +61,7 @@ class Podcast_at(CrawlSpider):
 
     def getContentLocation(self, link):
         try:
-            cacheDir = ".cache"
+            cacheDir = "../../../cache/httplib2/crawler"
             timeoutSecs = 5
             h = httplib2.Http(cacheDir, timeoutSecs, disable_ssl_certificate_validation=True)
             h.follow_all_redirects = True

@@ -14,7 +14,7 @@ DOWNLOADER_MIDDLEWARES = {
 }
 
 HTTPCACHE_ENABLED = True
-HTTPCACHE_DIR = ".scrapyCache"
+HTTPCACHE_DIR = "../../../../cache/scrapy"
 HTTPCACHE_IGNORE_MISSING = False
 
 ITEM_PIPELINES = ['PodSearchBot.pipelines.PodsearchbotPipeline']
