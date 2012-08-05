@@ -1,6 +1,6 @@
 git://github.com/john-kurkowski/tldextract.git@master
 git://github.com/scrapy/scrapy.git@master
-pytz=2012d
+pytz
 libxml2
 libxlst
 feedparser
