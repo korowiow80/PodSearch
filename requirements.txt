@@ -1,4 +1,4 @@
-git://github.com/john-kurkowski/tldextract.git@master
+tldextract
 git://github.com/scrapy/scrapy.git@master
 pytz
 libxml2
