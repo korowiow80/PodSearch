@@ -1,5 +1,5 @@
 tldextract
-scrapy.git
+scrapy
 pytz
 libxml2
 libxlst
