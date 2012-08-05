@@ -1,3 +1,5 @@
+"""The resource object is the central data structure."""
+
 import os
 import posixpath
 import tldextract
@@ -5,7 +7,6 @@ import urllib
 import urlparse
 
 from Util.PathTool.PathTool import PathTool
-from os import path
 
 
 class Resource:
