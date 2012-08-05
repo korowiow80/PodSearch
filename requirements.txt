@@ -1,5 +1,10 @@
-tldextract
-scrapy
-pytz
 feedparser
-
+lxml
+pyOpenSSL
+pytz
+scrapy
+tldextract
+Twisted
+w3lib
+zope.interface
+httplib2
