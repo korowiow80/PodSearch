@@ -27,4 +27,3 @@ ROBOTSTXT_OBEY = True
 SPIDER_MODULES = ['PodSearchBot.spiders']
 NEWSPIDER_MODULE = 'PodSearchBot.spiders'
 USER_AGENT = '%s/%s' % (BOT_NAME, BOT_VERSION)
-
