@@ -3,7 +3,7 @@ all: Retrieval_all Search_all
 retrieve_all: start_crawl_all download_all
 
 start_scrapyd:
-	cd src/Crawler/PodSearchBot && PYTHONPATH=:../../ scrapy server --port=$PORT --logfile=scrapyd.log --pidfile=scrapyd.pid &
+	cd src/Crawler/PodSearchBot && PYTHONPATH=:../../ scrapy server --pidfile=scrapyd.pid &
 stop_scrapyd:
 	kill `cat src/Crawler/PodSearchBot/scrapyd.pid`
 
