@@ -8,3 +8,4 @@ Twisted
 w3lib
 zope.interface
 httplib2
+listparser

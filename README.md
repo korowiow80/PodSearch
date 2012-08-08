@@ -3,6 +3,22 @@ PodSearch
 
 PodSearch is a search engine for Podcasts.
 
+Downloading
+-----------
+
+    git clone git@github.com:bigben87/PodSearch.git
+
+Downloading the Content
+-----------------------
+
+    git submodule update --init
+
+
+Downloading Dependencies For The Presentations
+----------------------------------------------
+
+    git submodule update --init --recursive
+
 Dependencies
 ------------
 
@@ -15,18 +31,32 @@ Dependencies
 -   The working copy needs to be placed on a filesystem that supports names with newlines.
     NTFS will work, FAT32 will not work.
 
-Installing Dependencies on Fedora Linux
----------------------------------------
+Installing System Dependencies on Fedora Linux
+----------------------------------------------
 
-These additional requirements for scrapy need to be installed first:
+These system requirements need to be installed first:
     
-    sudo yum install python-devel libxml2-devel libxlst-devel
+    sudo yum install python-devel libxml2-devel libxlst-devel openssl-devel
 
     sudo yum install python python-pip
-    sudo pip-python install --upgrade feedparser scrapy tldextract pytz
 
-Installing dependcies
----------------------
+Installing System Dependencies on Ubuntu Linux
+----------------------------------------------
+
+    sudo apt-get install python-setuptools
+    sudo easy_install --upgrade feedparser scrapy tldextract pytz
+
+Note: Tested with 10.10, so this information might be out of date.
+
+Installing Python Dependencies
+------------------------------
+
+All third-party python libraries can be installed as follows:
+
+    sudo pip-python install --requirement=requirements.txt 
+
+Installing Python 3 Dependencies
+--------------------------------
 
 feedparser, chardet, httplib2
     
@@ -62,30 +92,6 @@ scrapy
 
     wget 
          
-Installing Dependencies on Ubuntu Linux
----------------------------------------
-
-    sudo apt-get install python-setuptools
-    sudo easy_install --upgrade feedparser scrapy tldextract pytz
-
-Note: Tested with 10.10, so this information might be out of date.
-
-Downloading
------------
-
-    git clone git@github.com:bigben87/PodSearch.git
-
-Downloading the Content
-----------------------
-
-    git submodule update --init
-
-
-Downloading Dependencies For The Presentations
-----------------------------------------------
-
-    git submodule update --init --recursive
-
 Installing
 ----------
 
