@@ -14,7 +14,7 @@ class LoggerFactory:
     def __init__(self):
         pass
     
-    def getLogger(self, name):        
+    def getLogger(self, name):
         logger = logging.getLogger(name)
         logger.setLevel(logging.DEBUG)
         ch = logging.StreamHandler()

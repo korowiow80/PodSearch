@@ -1,5 +1,5 @@
-from scrapy.contrib.spiders import CrawlSpider
 import listparser
+from scrapy.contrib.spiders import CrawlSpider
 
 from PodSearchBot.items import PodsearchbotItem
 
@@ -9,14 +9,14 @@ from Resource.Resource import Resource
 
 class Bitlove_org(CrawlSpider):
 
-    start_urls = ["http://bitlove.org/directory.opml"]    # public for scrapy
+    start_urls = ["http://bitlove.org/directory.opml"]      # public for scrapy
     
     _pt = PathTool()
 
     _url = Resource(start_urls[0], "directory")
-    _baseUrl = _url.getBaseUrl()
-    name = _url.getSpiderName()                             # public for scrapy
-    feed_list_path = '../' + _url.getPath()                 # public for scrapy
+    _baseUrl = _url.get_base_url()
+    name = _url.get_spider_name()                           # public for scrapy
+    feed_list_path = '../' + _url.get_path()                # public for scrapy
 
     def parse(self, response):
         d = listparser.parse(response.body)

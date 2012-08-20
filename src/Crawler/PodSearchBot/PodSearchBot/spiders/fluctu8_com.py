@@ -26,9 +26,9 @@ class Fluctu8_com(CrawlSpider):
     _pt = PathTool()
 
     _url = Resource(start_urls[0], "directory")
-    _baseUrl = _url.getBaseUrl()
-    name = _url.getSpiderName()                             # public for scrapy
-    feed_list_path = '../' + _url.getPath()                 # public for scrapy
+    _baseUrl = _url.get_base_url()
+    name = _url.get_spider_name()                             # public for scrapy
+    feed_list_path = '../' + _url.get_path()                 # public for scrapy
 
     links = []
 
@@ -38,7 +38,7 @@ class Fluctu8_com(CrawlSpider):
         sitemap_page_urls = hxs.select(sitemap_page_xpath).extract()
         for sitemap_page_url in sitemap_page_urls:
             resource = Resource(self._baseUrl + sitemap_page_url, "directory")
-            url = resource.getAbsoluteUrl()
+            url = resource.get_absolute_url()
             yield Request(url, callback=self.parse_sitemap_page)
 
     def parse_sitemap_page(self, response):

@@ -29,14 +29,14 @@ class ResourceDownloader:
     def download(self, resource_type, resource_url):
         """Downloads a resource of type feed or image by its URL."""
         
-        if not self._rc.checkRemoteResource(resource_type, resource_url):
+        if not self._rc.check_remote_resource(resource_type, resource_url):
             return
 
         resource = Resource(resource_url, resource_type)
-        if resource.getAbsoluteUrl().endswith('/'):
-            resource.setUrl(resource.getAbsoluteUrl()[:-1])
-        resource_target = resource.getPath()
-        base_path = resource.getBasePath()
+        if resource.get_absolute_url().endswith('/'):
+            resource._set_url(resource.get_absolute_url()[:-1])
+        resource_target = resource.get_path()
+        base_path = resource.get_base_path()
         msg = 'DEBUG: Will download resource %s with target %s to location %s.' \
               % (resource_url, resource_target, base_path)
         ResourceDownloader._logger.info(msg)

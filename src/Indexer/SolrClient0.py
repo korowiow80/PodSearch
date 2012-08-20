@@ -25,7 +25,7 @@ for feed in feeds:
         feedDictFactory = FeedDictFactory()
         feedDict = feedDictFactory.getFeedDict(feed)
         if feedDict != None and feedDict != {}:
-            feedDict['id'] = Resource(feed, 'feed').getId()
+            feedDict['id'] = Resource(feed, 'feed').get_id()
             print(feedDict['id'])
             print("Indexing", feedDict)
             

@@ -1,11 +1,11 @@
-"""TODO"""
+""""""
 
 import errno
 import os
 
 from Util.LoggerFactory.LoggerFactory import LoggerFactory
 from Util.PathTool import PathTool
-from Resource.ResourceChecker import ResourceChecker
+from ResourceChecker import ResourceChecker
 
 class ResourceHelper:
     
@@ -43,7 +43,7 @@ class ResourceHelper:
         for root, dirs, files in os.walk(feedsPath):
             for filePath in files:
                 relativePath = os.path.join(root, filePath)
-                if self._rc.checkLocalResource(relativePath, 'feed'):
+                if self._rc.check_local_resource(relativePath, 'feed'):
                     relativeFeedFilePaths.append(relativePath)
             if '/me/' in root:
                 break

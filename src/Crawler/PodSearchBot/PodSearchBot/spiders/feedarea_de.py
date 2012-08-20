@@ -19,9 +19,9 @@ class Feedarea_de(CrawlSpider):
     _pt = PathTool()
 
     _url = Resource(start_urls[0], "directory")
-    _baseUrl = _url.getBaseUrl()
-    name = _url.getSpiderName()                             # public for scrapy
-    feed_list_path = '../' + _url.getPath()                 # public for scrapy
+    _baseUrl = _url.get_base_url()
+    name = _url.get_spider_name()                             # public for scrapy
+    feed_list_path = '../' + _url.get_path()                 # public for scrapy
 
     def parse(self, response):
         hxs = HtmlXPathSelector(response)
