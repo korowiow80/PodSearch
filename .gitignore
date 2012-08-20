@@ -3,7 +3,7 @@
 ## Eclipse.gitignore ###########################################################
 
 #*.pydevproject
-#.project
+!.project
 #.metadata
 bin/**
 tmp/**
