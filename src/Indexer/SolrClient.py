@@ -5,6 +5,7 @@ import xml.parsers.expat
 import sunburnt
 
 from Resource.ResourceHelper import ResourceHelper
+from Resource.ResourceChecker import ResourceChecker
 from Util.PathTool import PathTool
 from Digester.FeedDictFactory import FeedDictFactory
 
@@ -16,15 +17,18 @@ except socket.error as e:
 
 _pt = PathTool.PathTool()
 _rh = ResourceHelper()
+_rc = ResourceChecker()
 feeds = _rh.getAllFeedPaths()
 for feed in feeds:
+
+    print feed
     
-    if not _rh.checkFeedPath(feed):
-        print(("Skipping:", feed))
+    if not _rc.check_local_resource(feed, 'feed'):
+        print("Skipping:", feed)
         continue
     
     try:
-        feedDictFactory = FeedDictFactory.FeedDictFactory()
+        feedDictFactory = FeedDictFactory()
         feedDict = feedDictFactory.getFeedDict(feed)
         if feedDict != None and feedDict != {}:
             feedDict['id'] = _pt.getFeedId(feed)

@@ -40,9 +40,11 @@ stop_crawl_podfeed_net:
 download_all: FeedDownloader ImageDownloader
 FeedsDownloaderRunner:
 	export PYTHONPATH=$$PYTHONPATH:`pwd`/src/Retrieval/Crawler:`pwd`/src/Retrieval/LibGatherer:`pwd`/src/Retrieval/Downloader && cd src/Retrieval/Downloader/Feeds/ && python FeedsDownloaderRunner.py
-ImageDownloader:
-	export PYTHONPATH=$$PYTHONPATH:`pwd`/src/Retrieval/Crawler && cd src/Retrieval/Downloader && python ImageDownloader.py
-
+ImagesDownloader:
+	# export PYTHONPATH=$$PYTHONPATH:`pwd`/src/:`pwd`/src/ImagesDownloader/:/usr/lib64/python2.7/site-packages/ && cd src/ImagesDownloader/ && pypy ImagesDownloader.py
+	# pypy wont find feedparser, so:
+	export PYTHONPATH=$$PYTHONPATH:`pwd`/src/:`pwd`/src/ImagesDownloader/ && cd src/ImagesDownloader/ && python ImagesDownloader.py
+    	
 search_all: Search_Solr_Start Search_Indexer
 
 start_solr:
@@ -50,5 +52,6 @@ start_solr:
 empty_solr:
 	cd lib/apache-solr-3.6.0/example/exampledocs && java -Ddata=args -jar post.jar "<delete><query>*:*</query></delete>"
 index_all:
-	export PYTHONPATH=$$PYTHONPATH:`pwd`/src/Search/Indexer2 && cd src/Search/Indexer2 && python SolrClient.py
-
+	#export PYTHONPATH=$$PYTHONPATH:`pwd`/src:`pwd`/src/Indexer:/usr/lib64/python2.7/site-packages/ && cd src/Indexer/ && pypy SolrClient.py
+	# pypy wont find sunburnt, so
+	export PYTHONPATH=$$PYTHONPATH:`pwd`/src:`pwd`/src/Indexer && cd src/Indexer/ && python SolrClient.py

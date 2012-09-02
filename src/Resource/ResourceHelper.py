@@ -39,12 +39,14 @@ class ResourceHelper:
     def getAllFeedPaths(self):
         """Gathers all feed paths"""
         feedsPath = self._pt.getFeedsPath()
+        print feedsPath
         relativeFeedFilePaths = []
         for root, dirs, files in os.walk(feedsPath):
             for filePath in files:
                 relativePath = os.path.join(root, filePath)
-                if self._rc.check_local_resource(relativePath, 'feed'):
-                    relativeFeedFilePaths.append(relativePath)
+                if not self._rc.check_local_resource(relativePath, 'feed'):
+                    print "Skipping %s.", relativePath
+                relativeFeedFilePaths.append(relativePath)
             if '/me/' in root:
                 break
         return relativeFeedFilePaths

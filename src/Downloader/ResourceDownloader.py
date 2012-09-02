@@ -1,6 +1,6 @@
-import http.client
+import urllib2
 import threading
-import queue
+from multiprocessing import Queue
 import time
 
 import httplib2
@@ -92,7 +92,7 @@ def _download(resource_type, resource_url, resource_target):
                 content = Decoder().decode(content)
                 f.write(content)
     except (AttributeError, IOError, TypeError, UnicodeError, ValueError, \
-            http.client.IncompleteRead, http.client.InvalidURL, http.client.BadStatusLine, \
+            urllib2.IncompleteRead, urllib2.InvalidURL, urllib2.BadStatusLine, \
             httplib2.RelativeURIError, httplib2.RedirectLimit, \
             httplib2.ServerNotFoundError) as e:
         # TODO actually do some error handling here

@@ -154,7 +154,8 @@ class ResourceChecker:
     def _check_local_feed_magic(self, feed_path):
         """Checks the mimetype of a given local file by looking at the file
         header."""
-        mimetype = magic.from_file(feed_path.encode('UTF-8'), mime=True)
+        mymagic = magic.Magic(mime=True)
+        mimetype = mymagic.from_file(feed_path.encode('UTF-8'))
         mimetype = mimetype.decode()
         mimetype = str(mimetype).split('; ')
         mimetype = mimetype[0]
