@@ -1,26 +1,20 @@
-PodSearch
-=========
+# PodSearch
 
 PodSearch is a search engine for Podcasts.
 
-Downloading
------------
+## Downloading
 
     git clone git@github.com:bigben87/PodSearch.git
 
-Downloading the Content
------------------------
+## Downloading the Content
 
     git submodule update --init
 
-
-Downloading Dependencies For The Presentations
-----------------------------------------------
+## Downloading Dependencies For The Presentations
 
     git submodule update --init --recursive
 
-Dependencies
-------------
+## Dependencies
 
 -   [tldextract](https://github.com/john-kurkowski/tldextract) needs to be installed.
 -   [Lucene](https://lucene.apache.org/core/) is expected to reside in `lib/lucene-3.6.0/`.
@@ -31,8 +25,7 @@ Dependencies
 -   The working copy needs to be placed on a filesystem that supports names with newlines.
     NTFS will work, FAT32 will not work.
 
-Installing System Dependencies on Fedora Linux
-----------------------------------------------
+## Installing System Dependencies on Fedora Linux
 
 These system requirements need to be installed first:
     
@@ -40,23 +33,20 @@ These system requirements need to be installed first:
 
     sudo yum install python python-pip
 
-Installing System Dependencies on Ubuntu Linux
-----------------------------------------------
+## Installing System Dependencies on Ubuntu Linux
 
     sudo apt-get install python-setuptools
     sudo easy_install --upgrade feedparser scrapy tldextract pytz
 
 Note: Tested with 10.10, so this information might be out of date.
 
-Installing Python Dependencies
-------------------------------
+## Installing Python Dependencies
 
 All third-party python libraries can be installed as follows:
 
     sudo pip-python install --requirement=requirements.txt 
 
-Installing Python 3 Dependencies
---------------------------------
+## Installing Python 3 Dependencies
 
 feedparser, chardet, httplib2
     
@@ -90,10 +80,9 @@ tldextract
 
 scrapy
 
-    wget 
-         
-Installing
-----------
+    wget
+
+## Installing
 
    cd PodSearch/web
    
@@ -101,8 +90,7 @@ Installing
 
 To verify open [/Podsearch](http://localhost/Podsearch) in a browser.
 
-Running The Presentations
--------------------------
+## Running The Presentations
 
     cd doc/1-Proposal/ && google-chrome *.html &
     cd doc/2-Concept/ && google-chrome *.html &
@@ -114,15 +102,13 @@ Running The Presentations
     make start_scrapyd
     make start_crawl_all
 
-Running all other Components
-----------------------------
+## Running all other Components
 
 See
 
     make `tab``tab`
     
-Conventions
------------
+## Conventions
 
 -   We list all made conventions here.
 -   We develop in English.
