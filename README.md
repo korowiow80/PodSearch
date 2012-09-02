@@ -84,9 +84,9 @@ scrapy
 
 ## Installing
 
-   cd PodSearch/web
+    cd PodSearch/web
    
-   sudo ln -s `pwd` /var/www/lighttpd/PodSearch
+    sudo ln -s `pwd` /var/www/lighttpd/PodSearch
 
 To verify open [/Podsearch](http://localhost/Podsearch) in a browser.
 
